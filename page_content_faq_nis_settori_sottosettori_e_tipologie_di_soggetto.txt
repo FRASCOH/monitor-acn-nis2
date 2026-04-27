@@ -1,0 +1,1060 @@
+Domande frequenti NIS - Settori, sottosettori e tipologie di soggetto - ACN
+		Skip to Main Content
+Domande frequenti NIS - Settori, sottosettori e tipologie di soggetto
+seguici_su
+Agenzia:
+Linkedin: apre una nuova finestra
+Youtube: apre una nuova finestra
+seguici_su
+CSIRT Italia:
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Lingue disponibili:
+ ITA 
+ITA
+: italiano
+ENG
+: english
+Apri menu principale
+Agenzia per la 
+cybersicurezza nazionale
+Segnala un incidente informatico
+apri_ricerca
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+ Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+ Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
+ Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+ Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+ Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Home
+Domande frequenti
+NIS
+Settori, sottosettori e tipologie di soggetto
+Domande frequenti NIS - Settori, sottosettori e tipologie di soggetto
+Home
+Domande frequenti
+NIS
+Domande frequenti NIS - Settori, sottosettori e tipologie di soggetto
+Menu della sezione 
+ Domande frequenti
+Apri menu della sezione Domande frequenti
+PNRR
+Cloud
+NIS
+Profili generali
+Ambito
+Settori, sottosettori e tipologie di soggetto
+Registrazione
+Misure di sicurezza e notifica di incidenti
+Aggiornamento delle informazioni
+Categorizzazione
+Ruoli e procedure
+PSNC
+Concorsi
+CSIRT Italia
+NCC Italia
+Strategia Nazionale di Cybersicurezza
+ NIS - Settori, sottosettori e tipologie di soggetto
+Puoi utilizzare la ricerca nelle domande frequenti digitando la paroladi interesse così da poter più facilmente identificare quello che staicercando. I risultati saranno filtrati dal terzo carattere digitato.
+ Nessun risultato trovato
+Per chiarimenti sull’ambito di applicazione orizzontale, vai alla sezione 
+Ambito
+.
+Per chiarimenti sulla registrazione, vai alla sezione 
+Registrazione
+.
+ Energia
+A1.1.a.1 Quali organizzazioni che operano nel sottosettore Energia/Energia elettrica rientrano nell’ambito di applicazione della nuova disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore energia elettrica è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 1, lettera a), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare la registrazione entro il 28 febbraio 2025 – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+All’organizzazione si applica la direttiva 2019/944 recante norme comuni per il mercato interno dell'energia elettrica (facente parte del cd. Clean Energy Package), recepita dal decreto legislativo 201/2021; la stessa organizzazione è riconducibile almeno a una delle seguenti tipologie: 
+un’impresa elettrica 
+(“
+ogni persona fisica o giuridica, esclusi tuttavia i clienti finali, che svolge almeno una delle funzioni seguenti: generazione, trasmissione, distribuzione, aggregazione, gestione della domanda, stoccaggio, fornitura o acquisto di energia elettrica, che è responsabile per i compiti commerciali, tecnici e/o di manutenzione legati a queste funzioni
+” ex. articolo 3, punto 57, della direttiva medesima), che esercita attività di fornitura quale definita dall’articolo 2, punto 12) della medesima direttiva (“la vendita, compresa la rivendita, di energia elettrica ai clienti” ex. articolo 3, punto 57, della direttiva medesima);
+un gestore del sistema di distribuzione
+ (“
+qualsiasi persona fisica o giuridica responsabile della gestione, della manutenzione e, se necessario, dello sviluppo del sistema di distribuzione in una data zona e, se del caso, delle relative interconnessioni con altri sistemi, e di assicurare la capacità a lungo termine del sistema di soddisfare richieste ragionevoli di distribuzione di energia elettrica
+” ex articolo 2, punto 29), della direttiva medesima);
+un gestore del sistema di trasmissione
+ (“
+qualsiasi persona fisica o giuridica responsabile della gestione, della manutenzione e, se necessario, dello sviluppo del sistema di trasmissione in una data zona e, se del caso, delle relative interconnessioni con altri sistemi, e di assicurare la capacità a lungo termine del sistema di soddisfare richieste ragionevoli di trasmissione di energia elettrica
+” ex. articolo 2, punto 35), della direttiva medesima);
+un produttore
+ (“l
+a persona fisica o giuridica che produce energia elettrica
+” ex articolo 2, punto 38), della direttiva medesima).
+All’organizzazione si applica il regolamento 2019/943/UE recante norme comuni sul mercato interno dell'energia elettrica (facente parte del cd. Clean Energy Package), attuato dal decreto legislativo 210/2021; la stessa organizzazione è 
+riconducibile almeno a una delle seguenti tipologie
+: 
+un gestore del mercato elettrico designato
+ (“
+soggetto designato dall'autorità competente per svolgere mansioni relative al coupling unico del giorno prima o al coupling unico infragiornaliero
+” ex. articolo 2, punto 8), del medesimo regolamento);
+un partecipante al mercato dell’energia elettrica
+ (“l
+a persona fisica o giuridica che produce, acquista o vende servizi connessi all'elettricità, alla gestione della domanda o allo stoccaggio, compresa la trasmissione di ordini di compravendita, su uno o più mercati dell'energia elettrica, tra cui i mercati dell'energia di bilanciamento
+” ex. articolo 2, punto 25), del regolamento medesimo), che 
+fornisce
+, 
+anche alternativamente
+, 
+servizi di
+: 
+aggregazione
+ (“
+che combina più carichi di clienti o l'energia elettrica generata, per la vendita, l'acquisto o la vendita all'asta in qualsiasi mercato dell'energia elettrica
+” ex. articolo 2, punto 18), della direttiva 2019/944);
+gestione della domanda
+(“l
+a variazione del carico dell'energia elettrica per i clienti finali rispetto ai modelli di consumo normali o attuali in risposta a segnali del mercato, anche in risposta a prezzi dell'energia elettrica variabili nel tempo o incentivi finanziari, oppure in risposta all'accettazione dell'offerta del cliente finale, di vendere la riduzione o l'aumento della domanda a un determinato prezzo sui mercati organizzati
+” ex. articolo 2, punto 20) della direttiva 2019/944);
+stoccaggio di energia
+ (“
+nel sistema elettrico, il differimento dell'utilizzo finale dell'energia elettrica a un momento successivo alla sua generazione, o la conversione di energia elettrica in una forma di energia che può essere stoccata, lo stoccaggio di tale energia e la sua successiva riconversione in energia elettrica o l'uso sotto forma di un altro vettore energetico
+” ex. articolo 2, punto 59) della direttiva 2019/944).
+L’organizzazione è riconducibile a un gestore di un punto di ricarica, responsabile della gestione e del funzionamento di un punto di ricarica che fornisce un servizio di ricarica a utenti finali, anche in nome e per conto di un fornitore di servizi di mobilità. (vedi FAQ A1.1.a.2)
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A1.1.a.2 Le aziende venditrici di energia elettrica a mercato libero a clienti domestici rientrano nell’ambito di applicazione della nuova disciplina NIS quali “Imprese Elettriche” come definite dall’articolo 2 della Direttiva 2019/944?
+Fermo restando quanto indicato alla FAQ A1.1.a.1, al punto 1. a) si evidenzia che, ai sensi dell’articolo 2, punto 12, della Direttiva n. 2019/944 per “fornitura” si intende “
+la vendita, compresa la rivendita, di energia elettrica ai clienti
+”. 
+Conseguentemente, le aziende venditrici di energia elettrica a mercato libero a clienti domestici rientrano nell’ambito di applicazione della nuova disciplina NIS
+A1.1.a.3 I punti vendita che offrono alla loro clientela punti di ricarica elettrica rientrano nell’ambito di applicazione della nuova disciplina NIS?
+I punti vendita che offrono alla loro clientela punti di ricarica elettrica non rientrano nella definizione della tipologia di soggetto di “gestore di un punto di ricarica responsabili della gestione e del funzionamento di un punto di ricarica che fornisce un servizio di ricarica a utenti finali, anche in nome e per conto di un fornitore di servizi di mobilità”.
+Rientrano in tale definizione solo i soggetti di cui all’articolo 5 del dm MASE n. 106 del 16 marzo 2023, ovvero tutti quei soggetti obbligati a registrarsi sulla Piattaforma nazionale unica dei punti di ricarica per i veicoli a energia elettrica – PUN ai sensi della suddetta norma.
+A1.1.a.4 Tutte le medie e grandi imprese che hanno impianti di produzione da fonti rinnovabili (es. fotovoltaico) rientrano nell’ambito di applicazione della nuova disciplina NIS?
+L’allegato I, settore 1) sotto-settore a) Energia elettrica nel definire, tra le altre, la seguente tipologia di soggetto “produttori quali definiti all’articolo 2, punto 38), della direttiva (UE) 2019/944” non richiama anche l’articolo 2, comma 8, che identifica i cc.dd. prosumer, definiti quali “clienti attivi”.
+Pertanto, alle organizzazioni che non svolgono altre attività riconducibili agli allegati I e II e che rispondono ai requisiti della definizione di “clienti attivi” 
+non
+ rientrano nell’ambito di applicazione del decreto NIS.
+A1.1.b.1 Quali organizzazioni che operano nel sottosettore Energia/Teleriscaldamento e teleraffrescamento rientrano nell’ambito di applicazione della nuova disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore teleriscaldamento e teleraffrescamento è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 1, lettera b), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare la registrazione entro il 28 febbraio 2025 – le organizzazioni che superino i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+All’organizzazione si applica la direttiva 2018/2001/UE recante norme comuni per il mercato interno del gas naturale, recepita dal decreto legislativo 2021/199; la stessa organizzazione è riconducibile a un gestore di teleriscaldamento o teleraffrescamento (“
+la distribuzione di energia termica in forma di vapore, acqua calda o liquidi refrigerati, da fonti centrali o decentrate di produzione verso una pluralità di edifici o siti tramite una rete, per il riscaldamento o il raffrescamento di spazi o di processi di lavorazione
+” ex. articolo 2, punto 19), della medesima direttiva).
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A1.1.c.1 Quali organizzazioni che operano nel sottosettore Energia/Petrolio rientrano nell’ambito di applicazione della nuova disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore petrolio è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 1, lettera c), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare la registrazione entro il 28 febbraio 2025 – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+L’organizzazione è riconducibile, anche alternativamente, a: 
+un gestore di oleodotti;
+un gestore di impianti di produzione;
+un gestore di impianti di raffinazione;
+un gestore di impianti di trattamento;
+un gestore di impianti di deposito.
+All’organizzazione si applica la direttiva 2009/119/CE, che stabilisce l'obbligo per gli Stati membri di mantenere un livello minimo di scorte di petrolio greggio e/o di prodotti petroliferi, recepita dal decreto legislativo 2012/249; la stessa organizzazione è riconducibile ad 
+organismi centrali di stoccaggio
+ (“
+i soggetti atti alla gestione delle scorte petrolifere, comprese le scorte di sicurezza e le scorte specifiche
+” ex. articolo 2, lettera f), della direttiva medesima). 
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A1.1.c.2 Nel sotto-settore “petrolio”, di cui al punto 1, lettera c) dell’allegato I al decreto NIS, rientra solo il petrolio greggio o rientrano anche i prodotti raffinati?
+Nel sotto-settore “petrolio”, di cui al punto 1, lettera c) dell’allegato I al decreto NIS, rientra solo il petrolio greggio. Sono fatte salve le eventuali identificazioni governative che l’Autorità ha fatto e intenderà fare.
+A1.1.d.1 Quali organizzazioni che operano nel sottosettore Energia/Gas rientrano nell’ambito di applicazione della nuova disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore gas è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 1, lettera d), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare la registrazione entro il 28 febbraio 2025 – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+All’organizzazione si applica la direttiva 2009/73/CE recante norme comuni per il mercato interno del gas naturale, recepita dal decreto legislativo 2011/93; la stessa organizzazione 
+è riconducibile almeno a una delle seguenti tipologie
+: 
+un’impresa fornitrice
+ (“
+ogni persona fisica o giuridica che svolge funzioni di fornitura
+” ex articolo 2, punto 8), della direttiva medesima);
+un gestore del sistema di distribuzione 
+(“
+qualsiasi persona fisica o giuridica che svolge la funzione di distribuzione ed è responsabile della gestione, della manutenzione e, se necessario, dello sviluppo del sistema di distribuzione in una data zona e eventualmente, delle relative interconnessioni con altri sistemi, e di assicurare la capacità a lungo termine del sistema di soddisfare richieste ragionevoli di distribuzione di gas
+” ex. articolo 2, punto 6), della direttiva medesima);
+un gestore del sistema di trasporto
+ (“
+qualsiasi persona fisica o giuridica che svolge la funzione di trasporto ed è responsabile della gestione, della manutenzione e, se necessario, dello sviluppo del sistema di trasporto in una data zona ed, eventualmente, delle relative interconnessioni con altri sistemi, e di assicurare la capacità a lungo termine del sistema di soddisfare richieste ragionevoli di trasporto di gas
+” ex. articolo 2, punto 4), della direttiva medesima);
+un gestore dell’impianto di stoccaggio
+ (“
+qualsiasi persona fisica o giuridica che svolge la funzione di stoccaggio ed è responsabile della gestione di un impianto di stoccaggio
+” ex. articolo 2, punto 10), della direttiva medesima; laddove per attività di stoccaggio è da intendersi quella riferibile alla attività condotte in giacimenti o unità geologiche profonde, svolta sulla base di concessione rilasciata dal Ministero dell’Ambiente e della Sicurezza Energetica ai richiedenti che abbiano la necessaria capacità tecnica, economica ed organizzativa, conformemente a quanto previsto dall’articolo 11 del D. Lgs. n.164/2000.);
+un gestore del sistema GNL
+ (“
+qualsiasi persona fisica o giuridica responsabile della liquefazione del gas naturale o dell’importazione, o dello scarico, e della rigassificazione di GNL e responsabile della gestione di un impianto GNL
+” ex. articolo 2, punto 12), della direttiva medesima);
+un’impresa di gas naturale
+ (“
+ogni persona fisica o giuridica, ad esclusione dei clienti finali, che svolge almeno una delle funzioni seguenti: produzione, trasporto, distribuzione, fornitura, acquisto o stoccaggio di gas naturale, compreso il GNL, e che è responsabile per i compiti commerciali, tecnici e/o di manutenzione legati a queste funzioni
+” ex. articolo 2, punto 1), della direttiva medesima).
+L’organizzazione è riconducibile a 
+un gestore di raffinazione e trattamento di gas naturale
+.
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A1.1.d.2 Il GNL distribuito liquido tal quale (non rigassificato e non immesso in rete) rientra nel campo di applicazione del decreto NIS?
+Il GNL trasportato/distribuito in forma liquida, non rigassificato e quindi non immesso in rete, 
+non
+ rientra nell’ambito di applicazione del decreto legislativo 4 settembre 2024, n. 138.
+A1.1.d.3 Il biometano e il biogas rientrano nel campo di applicazione del decreto NIS?
+Le imprese operanti nel settore della produzione, fornitura, acquisto o, in qualsiasi forma rientrano nell’ambito di applicazione della nuova disciplina NIS, mentre ne sono escluse le imprese operanti nell’ambito del trasporto e della distribuzione di biometano e biogas in forma liquida e non immesso in rete.
+A1.1.d.4 Il Gas di Petrolio Liquefatto (GPL) rientra nel settore Energia, sotto-settore petrolio di cui all’allegato I. punto 1.lettera c), del decreto NIS?
+No.
+A1.1.d.5 Il Gas di Petrolio Liquefatto (GPL) rientra nel settore di cui all’allegato II, punto 3), del decreto NIS “Fabbricazione, produzione e distribuzione di sostanze chimiche”?
+Si richiama quanto indicato nella FAQ A2.3.2, nella quale, in fase di prima applicazione ed in attesa della costituzione di un consenso a livello unionale, è stato evidenziato che i soggetti operanti nel settore della "Fabbricazione, produzione e distribuzione di sostanze chimiche" ma esentati dagli obblighi di registrazione REACH, sono da ritenersi esclusi dall'applicazione della nuova disciplina NIS. 
+Per quanto concerne, in particolare, il Gas di Petrolio Liquefatto, pertanto, il soggetto economico non rientrerà nell’ambito di applicazione solo se, in quanto fabbricante/distributore, non tratta alcun prodotto soggetto a registrazione ai sensi REACH. 
+A1.1.d.6 I titolari di impianti stradali di distribuzione carburanti - punti vendita GNL e GNC-rientrano nell’ambito di applicazione della nuova disciplina NIS quali imprese fornitrici del metano ai sensi dell’art. 2, punto 8) della direttiva 2009/73/CE?
+I punti di vendita che erogano GNL e GNC per autotrazione non sono considerate imprese fornitrici di gas ai sensi dell’art. 2, punto 8) della direttiva 2009/73/CE e non rientrano quindi nell’ambito di applicazione della nuova disciplina NIS.
+A1.1.e.1 Quali organizzazioni che operano nel sottosettore Energia/Idrogeno rientrano nell’ambito di applicazione della nuova disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore idrogeno è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 1, lettera e), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare la registrazione entro il 28 febbraio 2025 – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+1. L’organizzazione è riconducibile, anche alternativamente, a:
+un gestore di impianti di produzione di idrogeno;
+un gestore di impianti di stoccaggio di idrogeno;
+un gestore di impianti di trasporto di idrogeno.
+A1.2 È necessario considerare il fatturato derivante esclusivamente dalle attività che ricadono nell’ambito di applicazione della nuova disciplina NIS?
+No, salvo il caso in cui il decreto NIS preveda tale possibilità.
+ Trasporti
+A1.2.a.1 Quali organizzazioni che operano nel sottosettore Trasporti/Trasporto aereo rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore trasporto aereo è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 2, lettera a), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+All’organizzazione si applica il regolamento 2008/300/CE recante norme comuni per la sicurezza dell’aviazione civile; la stessa organizzazione è riconducibile a 
+un vettore areo utilizzato a fini commerciali
+ (“
+impresa di trasporto aereo titolare di una licenza di esercizio valida o documento equivalente
+” ex articolo 3, punto 4), del medesimo regolamento).
+All’organizzazione si applica la direttiva 2009/12/CE concernente i diritti aereoportuali recepita dal decreto-legge 2012/1; la stessa organizzazione è riconducibile ad almeno una delle seguenti tipologie: 
+un gestore aeroportuale
+ (“
+il soggetto al quale le disposizioni legislative, regolamentari o contrattuali nazionali affidano, insieme ad altre attività o in via esclusiva, il compito di amministrare e di gestire le infrastrutture aeroportuali o della rete aeroportuale e di coordinare e di controllare le attività dei vari operatori presenti negli aeroporti o nella rete aeroportuale interessati
+” ex articolo 2, punto 2), della medesima direttiva);
+un aeroporto
+ (“
+qualsiasi terreno appositamente predisposto per l’atterraggio, il decollo e le manovre di aeromobili, inclusi gli impianti annessi che esso può comportare per le esigenze del traffico e per il servizio degli aeromobili, nonché gli impianti necessari per fornire assistenza ai servizi aerei commerciali
+” ex articolo 2, punto 1), della medesima direttiva).
+L’organizzazione è 
+un soggetto che gestisce impianti annessi situati in aeroporto
+ (vds. FAQ A1.2.a.2).
+All’organizzazione si applica il regolamento 2004/549/CE che stabilisce i principi generali per l’istituzione del cielo unico europeo, attuato dal decreto-legge 2004/237; la stessa organizzazione è riconducibile ad 
+un operatore attivo nel controllo della gestione del traffico che fornisce un servizio di controllo del traffico areo
+ ("
+un servizio fornito al fine di prevenire collisioni tra aeromobili e nell'area di manovra tra aeromobili e ostacoli ed altresì ad accelerare il flusso di traffico aereo e mantenerlo ordinato
+” ex articolo 2, punto 1), del medesimo regolamento).
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A1.2.a.2 Nel sottosettore Trasporti/Trasporto aereo, cosa si intende per “un soggetto che gestisce impianti annessi situati in aeroporto”? Quali rientrano nell’ambito di applicazione della disciplina NIS?
+Con riferimento al sottosettore Trasporti/Trasporto aereo, fermo restando quanto indicato alla FAQ A1.2.a.1, nell’ambito di applicazione del decreto NIS rientrano – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni riconducibili a soggetti che gestiscono impianti annessi situati in aeroporto.
+ Al fine di agevolare il processo di autovalutazione (vds. FAQ REG.1), le tipologie che rientrano, o meno, nell’ambito di applicazione del decreto NIS[1] in relazione agli aeroporti e ai voli sono elencate nel 
+seguente documento
+.
+A1.2.b.1 Quali organizzazioni che operano nel sottosettore Trasporti/Trasporto ferroviario rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore trasporto ferroviario è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 1, primo allinea, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+All’organizzazione si applica la direttiva 2012/34/UE che istituisce uno spazio ferroviario europeo unico, recepita dal decreto legislativo 2015/112, così come modificata dalla direttiva 2016/2370/UE recepita dal decreto legislativo 2018/139; la stessa organizzazione è riconducibile almeno a una delle seguenti tipologie: 
+gestori dell’infrastruttura
+ (“
+qualsiasi organismo o impresa responsabili dell'esercizio, della manutenzione e del rinnovo dell'infrastruttura ferroviaria di una rete nonché della partecipazione al suo sviluppo come stabilito dallo Stato membro nell'ambito della sua politica generale sullo sviluppo e sul finanziamento dell'infrastruttura
+” ex articolo 3, punto 2), della citata direttiva 2012/34/UE);
+imprese ferroviarie
+ (“
+qualsiasi impresa pubblica o privata titolare di una licenza ai sensi della presente direttiva e la cui attività principale consiste nella prestazione di servizi per il trasporto di merci e/o di persone per ferrovia e che garantisce obbligatoriamente la trazione; sono comprese anche le imprese che forniscono solo la trazione
+” ex all’articolo 3, punto 1), della citata direttiva 2012/34/UE).
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A1.2.d.1 Quali organizzazioni che operano nel sottosettore Trasporti/Trasporto su strada rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore trasporto su strada è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 1, primo allinea, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+All’organizzazione si applica il Regolamento delegato 2015/962/UE della Commissione Europea che integra la direttiva 2010/40/UE relativamente alla predisposizione in tutto il territorio dell'Unione Europea di servizi di informazione sul traffico in tempo reale, recepita dal decreto-legge 2012/179 convertito nella legge 2012/211; la stessa organizzazione è riconducibile a 
+un’autorità stradale
+ (“
+qualsiasi autorità pubblica responsabile della pianificazione, del controllo o della gestione delle strade che rientrano nella sua competenza territoriale
+” ex articolo 2, punto 12), del regolamento medesimo).
+All’organizzazione si applica la direttiva 2010/40/UE relativamente alla predisposizione in tutto il territorio dell'Unione Europea di servizi di informazione sul traffico in tempo reale, recepita dal decreto-legge 2012/179 convertito nella legge 2012/211; la stessa organizzazione è riconducibile a 
+un gestore di sistemi di trasporto intelligenti
+ (“
+in acronimo ITS, sistemi in cui sono applicate tecnologie dell'informazione e della comunicazione, nel settore del trasporto stradale, infrastrutture, veicoli e utenti compresi, e nella gestione del traffico e della mobilità nonché per interfacce con altri modi di trasporto
+” ex articolo, punto 1) della medesima direttiva).
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A1.2.d.2 Nel sottosettore Trasporti/Trasporto su strada, cosa si intende per gestori di sistemi di trasporto intelligenti?
+Il concetto di “gestori di sistemi di trasporto intelligenti” è assimilato a quello di “fornitori di servizi ITS” di cui all’articolo 4, paragrafo 5, della direttiva (UE) 2010/40. Pertanto, si ritiene
+[1]
+ che il decreto NIS non si applica alle medie e grandi imprese del settore trasporti, sottosettore trasporto su strada, per la sola fruizione di servizi ITS forniti da terzi in quanto utenti, anche qualora tali utenti rielaborano a loro volta internamente i dati e i servizi tramite propri sistemi informativi e di rete.
+A1.2.c.1 Quali organizzazioni che operano nel sottosettore Trasporti/Trasporto per vie d’acqua rientrano nell’ambito di applicazione della nuova disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore trasporto per vie d’acqua è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 2, lettera c), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+All’organizzazione si applica il regolamento 725/2004/CE, relativo al miglioramento della sicurezza delle navi e degli impianti portuali attuato dal decreto del Ministero dell’Interno 2009/154; la stessa organizzazione è riconducibile ad almeno una delle seguenti tipologie: 
+una compagnia di navigazione per il trasporto per vie d’acqua interne di passeggeri e merci
+ quale definita all’allegato I del medesimo regolamento, escluse le singole navi gestite da tale compagnia;
+una compagnia di navigazione per il trasporto per vie d’acqua marittimo per il trasporto marittimo di passeggeri e merci
+ quale definita all’allegato I del medesimo regolamento escluse le singole navi gestite da tale compagnia;
+una compagnia di navigazione per il trasporto per vie d’acqua costiero per il trasporto di passeggeri e merci
+ quale definita all’allegato I del medesimo regolamento escluse le singole navi gestite da tale compagnia.
+All’organizzazione si applica la direttiva 2005/65/CE, recepita dal decreto legislativo 2007/203; la stessa organizzazione è riconducibile a 
+un organo di gestione dei porti
+ (“
+porto, una specifica area terrestre e marittima con confini definiti dallo Stato membro in cui il porto è situato, comprendente impianti e attrezzature intesi ad agevolare le operazioni commerciali di trasporto marittimo
+” ex articolo 3, punto 1), della medesima direttiva).
+All’organizzazione si applica il regolamento 2004/725/CE, relativo al miglioramento della sicurezza delle navi e degli impianti portuali, attuato dal decreto del Ministero dell’Interno 2009/154; la stessa organizzazione è riconducibile a 
+un organo di gestione di impianti portuali
+ (
+“un luogo in cui avviene l'interfaccia nave/porto; comprende aree quali le zone di ancoraggio, di ormeggio e di accosto dal mare, secondo i casi
+” ex articolo 2, punto 11) del medesimo regolamento).
+L’organizzazione è riconducibile a un 
+soggetto che gestisce opere e attrezzature all’interno di porti
+.
+A1.2.c.2 Nel sottosettore Trasporti/Trasporto per vie d’acqua, cosa si intende per “un organo di gestione di impianti portuali”? Quali rientrano nell’ambito di applicazione della disciplina NIS?
+Con riferimento al sottosettore Trasporti/ Trasporto per vie d’acqua, fermo restando quanto indicato alla FAQ A1.2.c.1, nell’ambito di applicazione del decreto NIS rientrano – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni riconducibili a organi che gestiscono impianti portuali.
+ Al fine di agevolare il processo di autovalutazione (vds. FAQ REG.1), le tipologie di “organi di gestione dei porti, compresi i relativi impianti portuali” che rientrano, o meno, nell’ambito di applicazione del decreto NIS
+[1]
+ in relazione ai porti, sono da intendersi le “Autorità Portuali” ex art. 2 comma e) del D.Lgs. n. 203/2007 (e successive modificazioni)
+A1.2.c.3 Nel sottosettore Trasporti/Trasporto per vie d’acqua, cosa si intende per “soggetti che gestiscono opere e attrezzature all’interno di porti”? Quali rientrano nell’ambito di applicazione della disciplina NIS?
+Con riferimento al sottosettore Trasporti/ Trasporto per vie d’acqua, fermo restando quanto indicato alla FAQ A1.2.c.1, nell’ambito di applicazione del decreto NIS rientrano – e sono pertanto tenute ad effettuare la registrazione o l'aggiornamento entro il 28 febbraio di ogni anno – le organizzazioni riconducibili a soggetti che gestiscono opere e attrezzature all’interno di porti.
+ Al fine di agevolare il processo di autovalutazione (vds. FAQ REG.1), le tipologie di “soggetti che gestiscono opere e attrezzature all’interno di porti” che rientrano, o meno, nell’ambito di applicazione del decreto NIS
+[1]
+ in relazione agli aeroporti e ai voli sono elencate nel 
+seguente documento
+.
+A1.2.c.4 Nel settore Trasporti/Trasporto per vie d’acqua, cosa si intende per “escluse le singole navi gestite da tale compagnia”?
+Con riferimento al sottosettore Trasporti/Trasporto per vie d’acqua, l'esclusione delle singole navi gestite dalla compagnia si riferisce unicamente all'inapplicabilità dei capi IV e V (ad eccezione dell’articolo 23) del decreto NIS alle navi stesse, ferme restando le prescrizioni tecnologiche e di sicurezza previste dalla normativa di settore vigente.
+Restano fermi per la compagnia tutti gli obblighi del decreto NIS, ivi inclusa la registrazione da effettuarsi o da aggiornare entro il 28 febbraio di ogni anno.
+Inoltre, l’esclusione delle navi dai citati obblighi non ha effetto circa il calcolo del numero di dipendenti al fine di determinare la riconducibilità della compagnia alla categoria delle micro, piccole, medie o grandi imprese, ai sensi della 
+Raccomandazione 2003/361/CE
+.
+ Sanitario
+A1.5.1 Quali organizzazioni che operano nel settore Sanitario rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il settore sanitario è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32003H0361
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 5, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+All’organizzazione si applica la direttiva 2011/24/UE concernente l'applicazione dei diritti dei pazienti relativi all'assistenza sanitaria recepita dal decreto legislativo 2014/2008; la stessa organizzazione è riconducibile a un 
+prestatore di assistenza sanitaria
+ (“
+qualsiasi persona fisica o giuridica o qualsiasi altra entità che fornisce legalmente assistenza sanitaria sul territorio di uno Stato membro
+” ex articolo 3, lettera g), della medesima direttiva).
+L’organizzazione è stata designata quale 
+laboratorio di riferimento dell'UE
+ ai sensi dell’articolo 15 del regolamento 2022/2371/UE relativo alle gravi minacce per la salute a carattere transfrontaliero (“
+la Commissione può, mediante atti di esecuzione, designare laboratori di riferimento dell'UE per fornire supporto ai laboratori di riferimento nazionali al fine di promuovere le buone pratiche e l'allineamento da parte degli Stati membri su base volontaria in materia di diagnosi, metodi di analisi, utilizzo di determinati test per la sorveglianza uniforme, la notifica e la segnalazione delle malattie da parte degli Stati membri
+” ex art 15 del regolamento medesimo).
+All’organizzazione si applica la direttiva 2001/83/CE recante un codice comunitario relativo ai medicinali per uso umano recepita dal decreto legislativo 2006/219; la stessa organizzazione è riconducibile a un 
+soggetto che svolge attività di ricerca e sviluppo relative a medicinali 
+(“
+qualsiasi sostanza o combinazione di sostanze presentata allo scopo di curare o prevenire le malattie negli esseri umani; è considerato medicinale anche qualsiasi sostanza o associazione di sostanze che può essere somministrata all'uomo allo scopo di stabilire una diagnosi medica o di ripristinare, correggere o modificare funzioni fisiologiche dell'uomo
+” ex articolo 1, punto 2), della medesima direttiva).
+L’organizzazione è riconducibile ai 
+soggetti che fabbricano prodotti farmaceutici di base e preparati farmaceutici
+ di cui alla sezione C, divisione 21 della NACE rev.2.
+All’organizzazione si applica il regolamento 2022/123/UE sul rafforzamento del ruolo dell'Agenzia europea per i medicinali nella preparazione e nella gestione delle crisi relative ai medicinali e ai dispositivi medici; la stessa organizzazione è riconducibile ai 
+soggetti che fabbricano dispositivi medici considerati critici durante un’emergenza di sanità pubblica
+ di cui all’ “
+elenco dei dispositivi critici per l'emergenza di sanità pubblica
+" ex articolo 22 del medesimo regolamento.
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A1.5.2 Le RSA rientrano nell’ambito di applicazione della disciplina NIS?
+Con riferimento alle RSA, tali organizzazioni, qualora superino i massimali per le piccole imprese definiti dalla 
+Raccomandazione 2003/361/CE
+, rientrano nell’ambito di applicazione del decreto NIS in quanto, anche in forma residuale, prestano assistenza sanitaria.
+ Acqua Potabile
+A1.6.1 Quali organizzazioni che operano nel settore Acqua potabile rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il settore acqua potabile è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 6, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+All’organizzazione si applica la direttiva 2020/2184 sulla qualità delle acque destinate al consumo umano, recepita dal decreto legislativo 2023/18; la stessa organizzazione è riconducibile ad almeno una delle seguenti tipologie: 
+un fornitore di acque destinate al consumo umano
+ (
+“acque destinate al consumo umano”, tutte le acque, allo stato originale o dopo trattamento, destinate al consumo umano, alla cottura, alla preparazione di alimenti o ad altri usi domestici in locali sia pubblici che privati, indipendentemente dalla loro origine e dal fatto che siano fornite da una rete di distribuzione, fornite da una cisterna o confezionate in bottiglie o contenitori, comprese le acque di sorgente”
+ ex art. 2 punto 1, lettera a);
+un distributore la cui attività essenziale
+ (prevalente) 
+è la distribuzione di acque destinate al consumo umano
+ (“
+acque destinate al consumo umano”, tutte le acque, allo stato originale o dopo trattamento, destinate al consumo umano, alla cottura, alla preparazione di alimenti o ad altri usi domestici in locali sia pubblici che privati, indipendentemente dalla loro origine e dal fatto che siano fornite da una rete di distribuzione, fornite da una cisterna o confezionate in bottiglie o contenitori, comprese le acque di sorgente”
+ ex art. 2 punto 1, lettera a).
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A1.6.2 Le società in-house, società partecipate o società controllate che operano nel settore Acqua potabile rientrano nell’ambito di applicazione della disciplina NIS?
+Nel richiamare le FAQ AMB.PU.2 e REG.1, si evidenzia che la riconducibilità all’ambito di applicazione del decreto NIS, anche con riferimento al settore Acqua potabile, non distingue tra soggetti del settore pubblico o privato.
+Pertanto, la FAQ A1.6.1 è pienamente applicabile anche alle società in-house, alle società partecipate e alle società controllate.
+A1.6.3 I comuni o gli enti locali che operano nel settore Acqua potabile rientrano nell’ambito di applicazione della disciplina NIS?
+A tale riguardo, si evidenzia che il settore Acqua potabile è tra le limitate eccezioni per le quali un criterio di prevalenza è considerato al fine di determinare la riconducibilità di un’organizzazione all’ambito di applicazione del decreto NIS.
+Di fatto, con esclusivo riferimento al settore Acqua potabile, tipologia di soggetto “distributore di acque destinate al consumo umano”, l’organizzazione non rientra nell’ambito di applicazione qualora la distribuzione di acque destinate al consumo umano non sia l’attività essenziale (attività prevalente).
+Pertanto, i comuni o altri enti locali non sono attratti nell’ambito di applicazione per le attività che svolgono nel settore Acqua potabile qualora queste non siano la loro attività prevalente.
+A1.6.4 Con quale criterio si determina che la distribuzione di acque destinate al consumo umano è una parte non essenziale dell’attività generale di distribuzione di altri prodotti e beni?
+Per determinare “l’essenzialità” dell’attività si considera il criterio di “prevalenza” di tale attività sulle altre svolte dalla medesima impresa.
+Di conseguenza, le attività afferenti al settore “Acqua potabile” non costituiscono la principale attività economica della società qualora il fatturato derivante da tali attività non sia superiore a quello derivante dalle altre attività svolte dalla stessa organizzazione.
+A1.6.5 Gli Enti di governo d’ambito rientrano nel settore “Acqua potabile”?
+Gli Enti di Governo d’Ambito non sono riconducibili al Settore “Acqua potabile” di cui all’Allegato I, punto 6, del decreto NIS.
+Essi, tuttavia, collaborano con le Regioni/Province Autonome nel supporto all’Autorità di settore con riferimento ai soggetti essenziali o importanti ricadenti nel territorio di competenza.
+ Acque Reflue
+A1.7.1 Quali organizzazioni che operano nel settore Acque reflue rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il settore acque reflue è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 7, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+All’organizzazione si applica la direttiva 1991/271/CEE concernente il trattamento delle acque reflue urbane, recepita dal decreto legislativo 1999/152; la stessa organizzazione è riconducibile ad almeno una delle seguenti tipologie: 
+un’impresa la cui attività essenziale
+ (prevalente)
+ è la raccolta di acque reflue urbane o domestiche
+ (“
+acque reflue urbane”, le acque reflue domestiche o la miscela di acque reflue domestiche con acque reflue industriali e/o acque piovane di dilavamento; “acque reflue domestiche
+”, 
+le acque reflue provenienti da insediamenti residenziali e servizi che provengono prevalentemente dal metabolismo umano e dalle attività domestiche
+ ex art. 2, punti 1) e2));
+un’impresa la cui attività essenziale
+ (prevalente) 
+è lo smaltimento di acque reflue urbane o domestiche
+ (“
+acque reflue urbane”, le acque reflue domestiche o la miscela di acque reflue domestiche con acque reflue industriali e/o acque piovane di dilavamento; “acque reflue domestiche”, le acque reflue provenienti da insediamenti residenziali e servizi che provengono prevalentemente dal metabolismo umano e dalle attività domestiche
+ ex art. 2, punti 1) e2));
+un’impresa la cui attività essenziale
+ (prevalente) 
+è il trattamento di acque reflue urbane o domestiche
+ (“
+acque reflue urbane”, le acque reflue domestiche o la miscela di acque reflue domestiche con acque reflue industriali e/o acque piovane di dilavamento; “acque reflue domestiche”, le acque reflue provenienti da insediamenti residenziali e servizi che provengono prevalentemente dal metabolismo umano e dalle attività domestiche
+ ex art. 2, punti 1) e2));
+un’impresa la cui attività essenziale
+ (prevalente) 
+è la raccolta di acque reflue industriali
+ (“acque reflue industriali”, qualsiasi acqua reflua scaricata da locali utilizzati per lo svolgimento di qualsiasi attività commerciale o industriale, diversa dalle acque reflue domestiche e dalle acque piovane di dilavamento” ex art. 2, punto 3));
+un’impresa la cui attività essenziale
+ (prevalente) 
+è lo smaltimento di acque reflue industriali
+ (
+“acque reflue industriali”, qualsiasi acqua reflua scaricata da locali utilizzati per lo svolgimento di qualsiasi attività commerciale o industriale, diversa dalle acque reflue domestiche e dalle acque piovane di dilavamento”
+ ex art. 2, punto 3));
+un’impresa la cui attività essenziale
+ (prevalente) 
+è il trattamento di acque reflue industriali
+ (
+“acque reflue industriali”, qualsiasi acqua reflua scaricata da locali utilizzati per lo svolgimento di qualsiasi attività commerciale o industriale, diversa dalle acque reflue domestiche e dalle acque piovane di dilavamento”
+ ex art. 2, punto 3)).
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A1.7.2 Le società in-house, società partecipate o società controllate che operano nel settore Acque reflue rientrano nell’ambito di applicazione della disciplina NIS?
+Nel richiamare le FAQ AMB.PU.2 e REG.1, si evidenzia che la riconducibilità all’ambito di applicazione del decreto NIS, anche con riferimento al settore Acque reflue, non distingue tra soggetti del settore pubblico o privato.
+ Pertanto, la FAQ A1.7.1 è pienamente applicabile anche alle società in-house, alle società partecipate e alle società controllate.
+A1.7.3 I comuni o gli enti locali che operano nel settore Acque reflue rientrano nell’ambito di applicazione della disciplina NIS?
+A tale riguardo, si evidenzia che il settore Acque reflue è tra le limitate eccezioni per le quali un criterio di prevalenza è considerato al fine di determinare la riconducibilità di un’organizzazione all’ambito di applicazione del decreto NIS.
+Di fatto, con esclusivo riferimento al settore Acque reflue, l’organizzazione non rientra nell’ambito di applicazione qualora la raccolta, lo smaltimento, il trattamento di acque reflue o industriali non siano l’attività essenziale (attività prevalente).
+Pertanto, i comuni o altri enti locali non sono attratti nell’ambito di applicazione per le attività che svolgono nel settore Acque reflue qualora queste non siano la loro attività prevalente.
+A1.7.4 Con quale criterio si determina che la raccolta, lo smaltimento o il trattamento delle acque reflue urbane, domestiche o industriali sono una parte non essenziale dell’attività del soggetto?
+Per determinare “l’essenzialità” dell’attività si considera il criterio di “prevalenza” di tale attività sulle altre svolte dalla medesima impresa.
+Di conseguenza, le attività afferenti al Settore “Acque reflue” non costituiscono la principale attività economica della società qualora il fatturato derivante da tali attività non sia superiore a quello derivante dalle altre attività svolte dalla stessa organizzazione.
+A1.7.5 Gli Enti di governo d’ambito rientrano nel settore “Acque reflue”?
+Gli Enti di Governo d’Ambito non sono riconducibili al settore “Acque reflue” di cui all’Allegato I, punto 7, del decreto NIS.
+Essi, tuttavia, collaborano con le Regioni/Province Autonome nel supporto all’Autorità di settore con riferimento ai soggetti essenziali o importanti ricadenti nel territorio di competenza.
+ Infrastrutture Digitali
+A1.8.1 Quali organizzazioni che operano nel settore Infrastrutture digitali rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il settore infrastrutture digitali è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni soggette alla giurisdizione nazionale, che soddisfano i requisiti dell’articolo 3 e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 8, del decreto NIS.
+ L’analisi del settore infrastrutture digitali è articolata in relazione all’applicazione della giurisdizione nazionale e dei diversi parametri dimensionali delle organizzazioni che vi rientrano.
+ Rientrano nell’ambito di applicazione di questo settore – e sono pertanto tenute ad effettuare o aggiornare la registrazione non oltre il 28 febbraio di ogni anno – le organizzazioni per le quali è vera almeno una delle seguenti affermazioni.
+L’organizzazione è stabilita sul territorio nazionale, supera i massimali per le piccole imprese ed è riconducibile a 
+un fornitore di punti di interscambio internet
+ (
+cd. internet exchange point (IXP), una struttura di rete che consente l'interconnessione di più di due reti indipendenti [sistemi autonomi], principalmente allo scopo di facilitare lo scambio di traffico Internet, che fornisce l'interconnessione solo per i sistemi autonomi e che non richiede che il traffico Internet che passa tra una qualsiasi coppia di sistemi autonomi partecipanti passi attraverso un terzo sistema autonomo né altera o interferisce in altro modo con tale traffico” 
+ex articolo 2, comma 1, lettera mm) del decreto NIS). In tal caso, l’organizzazione è considerata soggetto importante, salvo qualora superi i massimali per le medie imprese; in tal caso è considerata soggetto essenziale;
+L’organizzazione, indipendentemente dalla dimensione (quindi anche piccole e microimprese), è stabilita sul territorio nazionale, è soggetta al regolamento n. 2014/910/UE (eIDAS), recentemente sostituito dal regolamento 2024/1183/UE (EIDAS-2), ed è riconducibile ad una delle seguenti tipologie: 
+un fornitore di servizi fiduciari non qualificato
+ (“
+una persona fisica o giuridica che fornisce uno o più servizi fiduciari in qualità di prestatore di servizi fiduciari non qualificato
+” ex. art. 3 punto 19) del regolamento medesimo). L’organizzazione è considerata soggetto importante, salvo qualora superi i massimali per le medie imprese; in tal caso è considerata soggetto essenziale;
+un fornitore di servizi fiduciari qualificato
+ (“
+un prestatore di servizi fiduciari che presta uno o più servizi fiduciari qualificati e cui l’organismo di vigilanza assegna la qualifica di prestatore di servizi fiduciari qualificato
+” ex art.3, punto 20) del regolamento medesimo). In tal caso, l’organizzazione è considerata soggetto essenziale indipendentemente dalla dimensione.
+L’organizzazione, indipendentemente dalla dimensione (quindi anche piccole e microimprese), offre i servizi in parola sul territorio nazionale, è soggetta alla direttiva 2018/1972, recepita dal decreto legislativo 2021/207 ed è riconducibile ad almeno una delle seguenti tipologie: 
+un fornitore di reti pubbliche di comunicazione
+ (“
+rete pubblica di comunicazione elettronica, una rete di comunicazione elettronica, utilizzata interamente o prevalentemente per fornire servizi di comunicazione elettronica accessibili al pubblico, che supporta il trasferimento di informazioni tra i punti terminali di rete
+” ex articolo 2, punto 8) della medesima direttiva);
+un fornitore di servizi di comunicazione elettronica accessibili al pubblico
+ (“
+servizio di comunicazione elettronica, i servizi forniti di norma a pagamento su reti di comunicazioni elettroniche, che comprendono, con l’eccezione dei servizi che forniscono contenuti trasmessi utilizzando reti e servizi di comunicazione elettronica o che esercitano un controllo editoriale su tali contenuti, i tipi di servizi seguenti: a) servizio di accesso a internet» quale definito all’articolo 2, secondo comma, punto 2), del regolamento (UE) 2015/2120 ovvero un servizio di comunicazione elettronica accessibile al pubblico che fornisce accesso a Internet e, di conseguenza, connettività a praticamente tutti i punti finali di Internet, indipendentemente dalla tecnologia di rete e dalle apparecchiature terminali utilizzate; b) servizio di comunicazione interpersonale; c) servizi consistenti esclusivamente o prevalentemente nella trasmissione di segnali come i servizi di trasmissione utilizzati per la fornitura di servizi da macchina a macchina e per la diffusione circolare radiotelevisiva
+” ex articolo 2, punto 3) della medesima direttiva).
+ In entrambi i casi, l’organizzazione è considerata soggetto importante, salvo qualora superi i massimali per le piccole imprese; in tal caso è considerata soggetto essenziale.
+L’organizzazione è soggetta alla giurisdizione nazionale e, indipendentemente dalla dimensione (quindi anche piccole e microimprese), ed è riconducibile ad almeno a una delle seguenti tipologie: 
+un fornitore di servizi di sistema dei nomi di dominio
+ (“
+fornitore di servizi di sistema dei nomi di dominio»: un soggetto che fornisce alternativamente: 1) servizi di risoluzione dei nomi di dominio ricorsivi accessibili al pubblico per gli utenti finali di internet; 2) servizi di risoluzione dei nomi di dominio autoritativi per uso da parte di terzi, fatta eccezione per i server dei nomi radice (cosiddetto root nameserver);“sistema dei nomi di dominio, cosiddetto domain name system (DNS), un sistema di nomi gerarchico e distribuito che consente l'identificazione di servizi e risorse su internet, permettendo ai dispositivi degli utenti finali di utilizzare i servizi di instradamento e connettività di internet al fine di accedere a tali servizi e risorse
+” ex articolo 2, comma 1, lettere nn) e oo), del decreto NIS);
+un gestore di registro dei nomi di dominio di primo livello
+ (“
+cosiddetto registro dei nomi TLD (top level domain) o registry, soggetto cui è stato delegato uno specifico dominio di primo livello e che è responsabile dell'amministrazione di tale dominio di primo livello, compresa la registrazione dei nomi di dominio sotto tale dominio di primo livello, e del funzionamento tecnico di tale dominio di primo livello, compresi il funzionamento dei server dei nomi, la manutenzione delle banche dati e la distribuzione dei file di zona del dominio di primo livello tra i server dei nomi, indipendentemente dal fatto che una qualsiasi di tali operazioni sia effettuata dal soggetto stesso o sia esternalizzata, ma escludendo le situazioni in cui i nomi di dominio di primo livello sono utilizzati da un registro esclusivamente per uso proprio
+” ex articolo 2, comma 1, lettera pp), del decreto NIS).
+ In entrambi i casi, l’organizzazione è considerata soggetto essenziale indipendentemente dalla dimensione.
+ i sensi dell’articolo 5 del decreto NIS, tali organizzazioni sono soggette alla giurisdizione nazionale qualora soddisfino almeno uno dei seguenti criteri: 
+sono stabilite sul territorio nazionale e non hanno stabilimenti in altri Stati membri, anche qualora abbiano stabilimenti al di fuori dell’Unione europea;
+hanno stabilimenti in più Stati membri e sul territorio nazionale è presente lo stabilimento principale, individuato ai sensi dell’articolo 5, comma 2;
+non hanno alcun stabilimento nell’Unione europea, offrono i loro servizi anche sul territorio nazionale e, ai sensi dell’articolo 5, comma 3, hanno designato il rappresentante nell’Unione in Italia.
+L’organizzazione è soggetta alla giurisdizione nazionale, supera i massimali per le piccole imprese ed è riconducibile ad almeno a una delle seguenti tipologie: 
+fornitori di servizi di cloud computing
+ (“
+servizio di cloud computing, un servizio digitale che consente l'amministrazione su richiesta di un pool scalabile ed elastico di risorse di calcolo condivisibili e l'ampio accesso remoto a quest'ultimo, anche ove tali risorse sono distribuite in varie ubicazioni
+” ex articolo 2, comma 1, lettera bbb), del decreto NIS);
+fornitore di servizi di data center
+ (“
+servizio di data center, un servizio che comprende strutture, o gruppi di strutture, dedicate a ospitare in modo centralizzato, interconnettere e far funzionare apparecchiature informatiche e di rete che forniscono servizi di conservazione, elaborazione e trasporto di dati insieme a tutti gli impianti e le infrastrutture per la distribuzione dell'energia e il controllo ambientale
+” ex articolo 2, comma 1, lettera ccc), del decreto NIS);
+fornitore di reti di distribuzione dei contenuti 
+(“
+rete di distribuzione dei contenuti, cosiddetta content delivery network (CDN), una rete di server distribuiti geograficamente allo scopo di garantire l'elevata disponibilità, l'accessibilità o la rapida distribuzione di contenuti e servizi digitali agli utenti di internet per conto di fornitori di contenuti e servizi
+” ex articolo 2, comma 1, lettera ddd), del decreto NIS).
+ Ai sensi dell’articolo 5 del decreto NIS, tali organizzazioni sono soggette alla giurisdizione nazionale qualora soddisfino almeno uno dei seguenti criteri: 
+sono stabilite sul territorio nazionale e non hanno stabilimenti in altri Stati membri, anche qualora abbiano stabilimenti al di fuori dell’Unione europea;
+hanno stabilimenti in più Stati membri e sul territorio nazionale è presente lo stabilimento principale, individuato ai sensi dell’articolo 5, comma 2;
+non hanno alcun stabilimento nell’Unione europea, offrono i loro servizi anche sul territorio nazionale e, ai sensi dell’articolo 5, comma 3, hanno designato il rappresentante nell’Unione in Italia.
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A1.8.2 I fornitori di servizi cloud qualificati ai sensi del Regolamento cloud (Decreto Direttoriale ACN n. 21007/24 adottato ai sensi dell’articolo 33-septies del DL 179/2012) rientrano nell’ambito di applicazione della disciplina NIS?
+I fornitori di servizi cloud qualificati ai sensi del cd. Regolamento cloud che superano i massimali delle piccole imprese di cui alla 
+Raccomandazione 2003/361/CE
+ rientrano nell’ambito di applicazione del decreto NIS quali fornitori di servizi cloud di cui all’allegato I, punto 8, terzo allinea.
+A1.8.3 Gli operatori di infrastrutture digitali soggette all’adeguamento o qualificate ai sensi del Regolamento cloud (Decreto Direttoriale ACN n. 21007/24 adottato ai sensi dell’articolo 33-septies del DL 179/2012) rientrano nell’ambito di applicazione della disciplina NIS?
+Gli operatori di infrastrutture digitali soggette all’adeguamento o qualificate sensi del cd. Regolamento cloud che superano i massimali delle piccole imprese di cui alla 
+Raccomandazione 2003/361/CE
+ rientrano nell’ambito di applicazione del decreto NIS quali fornitori di servizi di data center di cui all’allegato I, punto 8, quarto allinea.
+A1.8.4 La disciplina NIS si applica anche a intermediari e rivenditori (broker, reseller, etc) dei servizi riconducibili alle tipologie di soggetto di cui al settore Infrastrutture digitali?
+Con riferimento alle organizzazioni che svolgono attività di mediazione (ovvero broker, reseller o rivenditori) di servizi riconducibili alle tipologie di soggetto di cui al settore Infrastrutture digitali (e.g., cloud) si evidenzia che queste sono assimilabili ai fornitori qualora l’infrastruttura digitale dell’organizzazione concorra alla fornitura del servizio medesimo, i.e., l’infrastruttura digitale dell’organizzazione può avere impatti in termini di disponibilità, integrità o disponibilità del servizio e offerto dell’organizzazione ai propri clienti.
+Rientrano nell’ambito di applicazione anche quelle organizzazioni che, nel mediare la fornitura di servizi digitali, assolvono alla funzione di help desk o service desk tecnici nel contesto della rivendita in quanto possono impattare sulla continuità dei servizi.
+Al contempo, indipendentemente dall’applicabilità del decreto NIS alle organizzazioni che mediano la fornitura di servizi, i fornitori dei servizi mediati sono soggetti alla Direttiva 2022/2555 e, qualora sia applicabile la giurisdizione nazionale, al decreto NIS.
+Non rientrano nell’ambito di applicazione del decreto NIS, invece, le organizzazioni che svolgono la sola attività di marketing e amministrativa contabile/contrattualistica per la rivendita di servizi digitali.
+A1.8.5 Le società in-house, società partecipate o società controllate che operano nel settore Infrastrutture digitali rientrano nell’ambito di applicazione della disciplina NIS?
+Nel richiamare le FAQ AMB.PU.2 e REG.1, si evidenzia che la riconducibilità all’ambito di applicazione del decreto NIS, anche con riferimento al settore Infrastrutture digitali, non distingue tra soggetti del settore pubblico o privato.
+Pertanto, la FAQ A1.8.1 è pienamente applicabile anche alle società in-house, alle società partecipate e alle società controllate.
+A1.8.6 I servizi infragruppo (tra organizzazioni dello stesso gruppo di imprese, dello stesso consorzio, etc.) riconducibili alle tipologie di soggetto di cui al settore Infrastrutture digitali rientrano nell’ambito di applicazione della disciplina NIS?
+Tenuto conto che la direttiva e il decreto NIS si applicano alle singole persone giuridiche (legal entities) e non a gruppi di imprese o consorzi (o ad altre aggregazioni di persone giuridiche), ai fini delle valutazioni circa l’ambito di applicazione non sono distinte le attività e i servizi svolti a favore di organizzazioni dello stesso gruppo di imprese o dello stesso consorzio rispetto a quelli svolti a favore di soggetti esterni al gruppo di imprese o al consorzio.
+Pertanto, la FAQ A1.8.1 è pienamente applicabile anche alle organizzazioni che offrono servizi esclusivamente ad altre organizzazioni dello stesso gruppo di imprese o dello stesso consorzio.
+ Gestione dei servizi TIC (business-to-business)
+A1.9.1 Quali organizzazioni che operano nel settore Gestione dei servizi TIC (business-to-business), rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il settore Gestione dei servizi TIC (business-to-business) è considerato altamente critico.
+Rientrano nel suo ambito di applicazione tutte le organizzazioni soggette alla giurisdizione nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 9, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Ai sensi dell’articolo 5 del decreto NIS, tali fornitori sono soggetti alla giurisdizione nazionale qualora soddisfino almeno uno dei seguenti criteri:
+sono stabiliti sul territorio nazionale e non hanno stabilimenti in altri Stati membri, anche qualora abbiano stabilimenti al di fuori dell’Unione europea;
+hanno stabilimenti in più Stati membri e sul territorio nazionale è presente lo stabilimento principale, individuato ai sensi dell’articolo 5, comma 2;
+non hanno alcun stabilimento nell’Unione europea, offrono i loro servizi sul territorio nazionale e, ai sensi dell’articolo 5, comma 3, hanno designato il rappresentante nell’Unione in Italia.
+Rientrano nell’ambito di applicazione di questo settore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+L’organizzazione è riconducibile almeno a una delle seguenti tipologie: 
+fornitori di servizi gestiti
+ (“
+un soggetto che fornisce servizi relativi all' installazione, alla gestione, al funzionamento o alla manutenzione di prodotti, reti, infrastrutture, applicazioni TIC o di qualsiasi altro sistema informativo e di rete, tramite assistenza o amministrazione attiva effettuata nei locali dei clienti o a distanza
+);
+fornitori di servizi di sicurezza gestiti
+ (“
+un fornitore di servizi gestiti che svolge o fornisce assistenza per attività relative alla gestione dei rischi di sicurezza informatica
+).
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A1.9.2 Cosa si intende con i termini “assistenza o amministrazione attiva” nel contesto della disciplina NIS?
+Nel contesto del decreto NIS, con i termini di “assistenza o amministrazione attiva” si intendono
+[1]
+ tutte le forme di assistenza di cui all’articolo 2, comma 1, lettera iii) (“
+servizi relativi all’installazione, alla gestione, al funzionamento o alla manutenzione di prodotti, reti, infrastrutture, applicazioni TIC o di qualsiasi altro sistema informativo e di rete
+”) svolte dal fornitore tramite una interconnessione diretta tra la rete del fornitore e quella del cliente.
+Sussiste una interconnessione diretta tra la rete del fornitore e quella del cliente quando, ad esempio (elenco non esaustivo):
+i domini sono federati;
+il fornitore può accedere a reti e sistemi informativi del cliente da remoto tramite dispositivi del fornitore stesso;
+il fornitore collega propri dispositivi attivi (diversi da quelli oggetto dell’attività di assistenza) alla rete del cliente.
+Non
+ rientrano nell’ambito di applicazione del decreto NIS
+[1]
+, invece, i soggetti che svolgono attività di assistenza o amministrazione attiva al cliente operando su dispositivi messi a disposizione dal cliente stesso o fornendo istruzioni al personale del cliente tramite indicazioni verbali (in presenza, al telefono, in teleconferenza, etc.) o scritte (documentazione, posta elettronica, etc.).
+A1.9.3 Cosa si intende per “fornitore di servizi gestiti” nel contesto della disciplina NIS?
+Nel contesto del decreto NIS, rientrano nell’ambito di applicazione quali “fornitori di servizi gestiti” quei soggetti che erogano, a favore dei clienti, tramite una interconnessione diretta tra la rete del fornitore e quella del cliente, servizi di assistenza o amministrazione attiva (vds. FAQ A1.9.2) relativi all’installazione, alla gestione, al funzionamento o alla manutenzione di prodotti, reti, infrastrutture, applicazioni TIC o di qualsiasi altro sistema informativo e di rete.
+Una organizzazione è riconducibile a un “fornitore di servizi gestiti” se fornisce, tramite una interconnessione diretta tra la rete del fornitore e quella del cliente
+[1]
+, servizi di assistenza o amministrazione attiva (vds. FAQ A1.9.2) per prodotti, reti, infrastrutture, applicazioni TIC o di qualsiasi altro sistema informativo e di rete riconducibili come, ad esempio (elenco non esaustivo):
+installazione di prodotti hardware o software;
+l’aggiornamento della configurazione, del software o del firmware, anche di carattere funzionale o di sicurezza;
+la gestione di software o di servizi di piattaforma;
+monitoraggio;
+amministrazione.
+Non
+ rientrano nell’ambito di applicazione del decreto NIS
+[1]
+, invece, i soggetti che svolgono attività relative all’installazione, alla gestione, al funzionamento o alla manutenzione di prodotti, reti, infrastrutture, applicazioni TIC o di qualsiasi altro sistema informativo e di rete, operando su dispositivi messi a disposizione dal cliente stesso o fornendo istruzioni al personale del cliente tramite indicazioni verbali (in presenza, al telefono, in teleconferenza, etc.) o scritte (documentazione, posta elettronica, etc.).
+A1.9.4 Cosa si intende per “fornitore di servizi di sicurezza gestiti” nel contesto della disciplina NIS?
+Nel contesto del decreto NIS, rientrano nell’ambito di applicazione quali “fornitori di servizi di sicurezza gestiti” quei soggetti che erogano, a favore dei clienti assistenza o amministrazione attiva, tramite una interconnessione diretta tra la rete del fornitore e quella del cliente
+[1]
+, per attività relative alla gestione dei rischi di sicurezza informatica.
+Una organizzazione è riconducibile a un “fornitore di servizi di sicurezza gestiti” se fornisce, tramite una interconnessione diretta tra la rete del fornitore e quella del cliente
+[1]
+, ad esempio (elenco non esaustivo), servizi di (o servizi di gestione):
+NOC (Network Operation Centre);
+MDR (Managed Detection and Response);
+IDS (Intrusion detection systems);
+IPS (Intrusion prevention systems);
+IDR (Incident Detection and Response);
+EDR (Endpoint Detection and Response);
+XDR (Extended Detection and Response);
+SIEM (Security information and event management)
+SOC (Security Operation Centre);
+CSOC (Cyber Security Operation Centre);
+CERT (Computer Emergency Response Team);
+VA/PT (Vulnerability Assessment e Penetration Test);
+Red Teaming.
+Non
+ rientrano nell’ambito di applicazione del decreto NIS, invece, i soggetti che svolgono attività in relazione alla gestione dei rischi di sicurezza informatica per il cliente operando su dispositivi messi a disposizione dal cliente stesso o fornendo istruzioni al personale del cliente tramite indicazioni verbali (in presenza, al telefono, in teleconferenza, etc.) o scritte (documentazione, posta elettronica, etc.).
+A1.9.5 La disciplina NIS si applica anche a intermediari e rivenditori (broker, reseller, etc.) di servizi gestiti o di servizi di sicurezza gestiti?
+Con riferimento alle organizzazioni che svolgono attività di mediazione (ovvero broker, reseller o rivenditori) di servizi gestiti o di servizi di sicurezza gestiti si evidenzia che queste sono assimilabili ai fornitori qualora l’infrastruttura digitale dell’organizzazione concorra alla fornitura del servizio medesimo, i.e., l’infrastruttura digitale dell’organizzazione può avere impatti in termini di disponibilità, integrità o disponibilità del servizio offerto dell’organizzazione ai propri clienti.
+Rientrano nell’ambito di applicazione anche quelle organizzazioni che, nel mediare la fornitura di servizi gestiti o di servizi di sicurezza gestiti, assolvono alla funzione di help desk o service desk tecnici nel contesto della rivendita in quanto possono impattare sulla continuità dei servizi.
+Al contempo, indipendentemente dall’applicabilità del decreto NIS alle organizzazioni che mediano la fornitura di servizi gestiti o di servizi di sicurezza gestiti, i fornitori dei servizi mediati sono soggetti alla Direttiva 2022/2555 e, qualora sia applicabile la giurisdizione nazionale, al decreto NIS.
+Non
+ rientrano nell’ambito di applicazione del decreto NIS, invece, le organizzazioni che svolgono la sola attività di marketing e amministrativa contabile/contrattualistica per la rivendita di servizi gestiti o di servizi di sicurezza gestiti.
+A1.9.6 I servizi infragruppo (tra organizzazioni dello stesso gruppo di imprese, dello stesso consorzio, etc.) riconducibili alle tipologie di soggetto di cui al settore Gestione dei servizi TIC rientrano nell’ambito di applicazione della nuova disciplina NIS?
+Tenuto conto che la direttiva e il decreto NIS si applicano alle singole persone giuridiche (legal entities) e non a gruppi di imprese o consorzi (o ad altre aggregazioni di persone giuridiche), ai fini delle valutazioni circa l’ambito di applicazione non sono distinte le attività e i servizi svolti a favore di organizzazioni dello stesso gruppo di imprese o dello stesso consorzio rispetto a quelli svolti a favore di soggetti terzi.
+ Rientrano, pertanto, nel settore “
+Gestione dei servizi TIC
+” anche le organizzazioni che:
+superano i massimali previsti per la piccola impresa dalla Raccomandazione 2003/361/CE;
+offrono servizi gestiti o servizi di sicurezza gestiti (secondo quanto chiarito dalle FAQ precedenti) esclusivamente ad altre organizzazioni dello stesso gruppo di imprese o dello stesso consorzio.
+La prestazione di servizi TIC infragruppo assume rilievo, inoltre, ai sensi dell’articolo 3, comma 10, del decreto NIS qualora:
+il prestatore di servizi TIC e il destinatario dei servizi stessi siano imprese tra loro collegate;
+il destinatario dei servizi sia un soggetto essenziale o importante, ossia rientri nell’ambito di applicazione del decreto NIS.
+Al ricorrere dei presupposti anzidetti, il prestatore di servizi TIC infragruppo rientra nell’ambito di applicazione del decreto NIS indipendentemente dalle sue dimensioni e, quindi, anche ove non superi i massimali previsti per la piccola impresa dalla Raccomandazione 2003/361/CE (si rinvia, sul punto, alla FAQ 2.14).
+ In conclusione, l’Organizzazione che svolga attività infragruppo riconducibili al settore “
+Gestione dei servizi TIC
+” rientra nell’ambito di applicazione del decreto NIS esclusivamente ai sensi dell’art. 3, comma 10, qualora:
+non superi i massimali previsti per la piccola impresa dalla Raccomandazione 2003/361/CE;
+svolga tali attività nei confronti di un’impresa collegata;
+l’impresa collegata costituisca un soggetto essenziale o importante ai sensi degli articoli 3 e 6 del decreto NIS.
+Viceversa, l’Organizzazione che superi i massimali previsti per la piccola impresa dalla Raccomandazione 2003/361/CE e svolga servizi TIC infragruppo rientra nell’ambito di applicazione del decreto NIS sia quale Organizzazione riconducibile al settore “
+Gestione dei servizi TIC
+” sia ai sensi dell’art. 3, comma 10, del decreto NIS.
+A1.9.7 Le attività di assistenza post-vendita su prodotti audio-video possono essere considerate “servizi gestiti”?
+Sì, qualora tali attività comportino interventi su sistemi informativi e di rete, anche in forma di teleassistenza, esse sono riconducibili alla categoria “fornitura di servizi gestiti”, come definita dal decreto NIS.
+A1.9.8 Qual è la differenza tra fornitori di servizi gestiti e fornitori di servizi di sicurezza gestiti?
+I fornitori di servizi gestiti offrono servizi relativi all'installazione, gestione, funzionamento o manutenzione di prodotti e infrastrutture TIC. I fornitori di servizi di sicurezza gestiti si concentrano sulla gestione dei rischi di sicurezza informatica.
+A1.9.9 Quali attività non rientrano nella Gestione dei servizi TIC?
+Non rientrano nella Gestione dei servizi TIC le attività di assistenza svolte esclusivamente su dispositivi forniti dal cliente o le istruzioni fornite al personale del cliente. Anche le attività di rivendita di prodotti TIC senza installazione o manutenzione non sono incluse.
+ Spazio
+A1.10.1 Quali organizzazioni che operano nel settore Spazio rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il settore spazio è considerato altamente critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato I, punto 10, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti, salvo qualora superino i massimali per le medie imprese; in tal caso sono considerati soggetti essenziali.
+Rientrano nell’ambito di applicazione di questo settore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e che risultano riconducibili a 
+un operatore di infrastrutture terrestri possedute, gestite e operate dagli Stati membri o da privati, che sostengono la fornitura di servizi spaziali
+ esclusi i fornitori di reti pubbliche di comunicazione elettronica.
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+ Servizi postali e di corriere
+A2.1.1. Quali organizzazioni che operano nel settore Servizi postali e di corriere rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il settore servizi postali e di corriere è considerato critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato II, punto 1, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti.
+Rientrano nell’ambito di applicazione di questo settore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+All’organizzazione si applica la direttiva 1997/67/CE relativa a regole comuni per lo sviluppo del mercato interno dei servizi postali comunitari e il miglioramento della qualità del servizio, recepita dal decreto legislativo 1999/261; la stessa organizzazione è riconducibile a un 
+fornitore di servizi postali
+ (“
+impresa che fornisce uno o più servizi postali”; “servizi postali, i servizi che includono la raccolta, lo smistamento, il trasporto e la distribuzione di invii postali
+” ex articolo 2, punti 1) e 1 bis), della medesima direttiva).
+L’organizzazione è riconducibile a un 
+fornitore di servizi di corriere
+.
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A2.1.2 Cosa si intende per “fornitore di servizi postali”?
+Al riguardo, è utile ribadire che l’articolo 1, comma 1, del decreto legislativo n. 261/99 definisce “servizi postali” i servizi relativi “alla raccolta, allo smistamento, al trasporto ed alla distribuzione degli invii postali” e che la regolamentazione vigente in materia (Delibera AGCOM), prevede come presupposto oggettivo per definire gli “operatori postali” lo svolgimento di almeno una delle fasi (raccolta, smistamento, trasporto e distribuzione) che formano il servizio postale.
+La normativa sopra richiamata, infine, fa espressamente riferimento al requisito della cd. offerta al pubblico, prevedendo la necessità del possesso dei previsti titoli abilitativi per i soggetti che dispongono di una propria offerta al pubblico, mentre chiarisce che non sono considerati quali operatori postali (e, in quanto tali, aventi diritti ed obblighi inerenti al titolo abilitativo) i soggetti che svolgono soltanto prestazioni interne e strumentali e quelli che svolgono attività di solo trasporto (inteso come lo svolgimento di attività relative alla fase di trasporto che non comprendano lo svolgimento di altre attività inquadrabili nelle fasi della sequenza dei servizi postali, così come sopra descritte).
+Tenuto conto di quanto sopra, i titolari di abilitazioni postali (fra cui rientrano anche le imprese di autotrasporto, di spedizione o di corriere che forniscono servizi di raccolta, smistamento, trasporto e distribuzione dei pacchi e degli invii postali) che superano i massimali per le piccole imprese rientrano senza dubbio nel novero dei “fornitori di un servizio postale”, assoggettati all’applicazione della nuova disciplina NIS.
+ Gestione Rifiuti
+A2.2.1 Quali organizzazioni che operano nel settore Gestione dei rifiuti rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il settore gestione dei rifiuti è considerato critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato II, punto 2, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti.
+Rientrano nell’ambito di applicazione di questo settore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese, alle quali si applica la direttiva 2008/98/CE relativa ai rifiuti, recepita dal decreto legislativo 2010/205 e che sono riconducibili 
+a una impresa che si occupa della gestione dei rifiuti
+ escluse quelle per cui la gestione dei rifiuti non è la principale attività economica (“g
+estione dei rifiuti: la raccolta, il trasporto, il recupero e lo smaltimento dei rifiuti, compresi la supervisione di tali operazioni e gli interventi successivi alla chiusura dei siti di smaltimento nonché le operazioni effettuate in qualità di commercianti o intermediari
+” ex art. 3 punto 9) della medesima direttiva).
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A2.2.2 Le società in-house, società partecipate o società controllate che operano nel settore Gestione dei rifiuti rientrano nell’ambito di applicazione della disciplina NIS?
+Nel richiamare le FAQ AMB.PU.2 e REG.1, si evidenzia che la riconducibilità all’ambito di applicazione del decreto NIS, anche con riferimento al settore Gestione dei rifiuti, non distingue tra soggetti del settore pubblico o privato.
+Pertanto, la FAQ A2.2.1 è pienamente applicabile anche alle società in-house, alle società partecipate e alle società controllate.
+A2.2.3 I comuni o gli enti locali che operano nel settore Gestione dei rifiuti rientrano nell’ambito di applicazione della disciplina NIS?
+A tale riguardo, si evidenzia che il settore Gestione dei rifiuti è tra limitate eccezioni per le quali un criterio di prevalenza è considerato al fine di determinare la riconducibilità di un’organizzazione all’ambito di applicazione del decreto NIS.
+Di fatto, con esclusivo riferimento al settore Gestione dei rifiuti, l’organizzazione non rientra nell’ambito di applicazione qualora la gestione dei rifiuti non sia la principale attività economica (attività prevalente).
+Pertanto, i comuni o altri enti locali non sono attratti nell’ambito di applicazione per le attività che svolgono nel settore Gestione dei rifiuti qualora queste non siano la loro attività prevalente.
+A2.2.4 Con quale criterio si determina che la Gestione dei rifiuti non è la principale attività economica dell’Organizzazione?
+Le attività afferenti al Settore “Gestione dei rifiuti” non costituiscono la principale attività economica della Società qualora il fatturato derivante da tali attività non sia superiore a quello derivante dalle altre attività svolte da stessa Organizzazione.
+ Fabbricazione, produzione e distribuzione di sostanze chimiche
+A2.3.1 Quali organizzazioni che operano nel settore Fabbricazione, Produzione e Distribuzione di sostanze chimiche rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il settore Fabbricazione, Produzione e Distribuzione di sostanze chimiche è considerato critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese definiti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato II, punto 3, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti.
+Rientrano nell’ambito di applicazione di questo settore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e alle quali si applica il regolamento 2006/1907/CE (REACH), concernente la registrazione, la valutazione, l'autorizzazione e la restrizione delle sostanze chimiche (c.d. regolamento REACH), attuato dal decreto-legge 2007/10, convertito in legge 2007/46; la stessa organizzazione 
+è riconducibile almeno a una delle seguenti tipologie
+:
+un fabbricante
+ (“
+ogni persona fisica o giuridica stabilita nella Comunità, che fabbrica una sostanza all'interno della Comunità
+” ex articolo 3, punto 9), del regolamento medesimo) 
+di sostanze
+ (“
+un elemento chimico e i suoi composti, allo stato naturale o ottenuti per mezzo di un procedimento di fabbricazione, compresi gli additivi necessari a mantenerne la stabilità e le impurità derivanti dal procedimento utilizzato, ma esclusi i solventi che possono essere separati senza compromettere la stabilità della sostanza o modificarne la composizione" 
+ex articolo 3, punto 1), del regolamento medesimo);
+un distributore
+ (
+“ogni persona fisica o giuridica stabilita nella Comunità, compreso il rivenditore al dettaglio, che si limita ad immagazzinare e a immettere sul mercato una sostanza, in quanto tale o in quanto componente di una miscela, ai fini della sua vendita a terzi
+” ex articolo 3, punto 14), del regolamento medesimo) 
+di sostanze
+ (“
+un elemento chimico e i suoi composti, allo stato naturale o ottenuti per mezzo di un procedimento di fabbricazione, compresi gli additivi necessari a mantenerne la stabilità e le impurità derivanti dal procedimento utilizzato, ma esclusi i solventi che possono essere separati senza compromettere la stabilità della sostanza o modificarne la composizione
+” ex articolo 3, punto 1), del regolamento medesimo);
+un distributore
+ (“
+ogni persona fisica o giuridica stabilita nella Comunità, compreso il rivenditore al dettaglio, che si limita ad immagazzinare e a immettere sul mercato una sostanza, in quanto tale o in quanto componente di una miscela, ai fini della sua vendita a terzi
+” ex articolo 3, punto 14), del regolamento medesimo) 
+di miscele
+ (“
+una miscela o una soluzione composta di due o più sostanze
+” ex articolo 3, punto 2), del regolamento medesimo);
+un produttore di articoli
+ (“
+un’impresa che si occupa di produrre un oggetto, a cui sono dati durante la produzione una forma, una superficie o un disegno particolari che ne determinano la funzione in misura maggiore della sua composizione chimica da sostanze o miscele
+” ex art. 3, punto 3) del regolamento medesimo).
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A2.3.2 I soggetti esentati dagli obblighi di registrazione di cui al regolamento 2006/1907/CE (REACH) rientrano nell’ambito di applicazione della disciplina NIS?
+I soggetti esentati, ai sensi dell’articolo 2 del regolamento 2006/1907/CE (REACH), dagli obblighi di registrazione di cui al TITOLO II del medesimo regolamento, non rientrano nell’ambito di applicazione del decreto NIS per quanto concerne la fabbricazione, produzione e distribuzione di sostanze chimiche 
+[1]
+.
+ Produzione, trasformazione e distribuzione di alimenti
+A2.4.1 Quali organizzazioni che operano nel settore Produzione, trasformazione e distribuzione di alimenti rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il settore Produzione, trasformazione e distribuzione di alimenti è considerato critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato II, punto 4, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti. Rientrano nell’ambito di applicazione di questo settore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e alle quali si applica il regolamento 2002/178/CE, che stabilisce i principi e i requisiti generali della legislazione alimentare, istituisce l'Autorità europea per la sicurezza alimentare e fissa procedure nel campo della sicurezza alimentare, attuato dal decreto legislativo 2006/190; la stessa organizzazione è 
+riconducibile almeno a una delle seguenti tipologie
+:
+impresa alimentare
+ (“
+impresa, pubblica o privata, con o senza fini di lucro, che svolga una qualsiasi delle attività connesse ad una delle fai di produzione, trasformazione e distribuzione di alimenti
+” ex articolo 3, punto 2), del regolamento medesimo) 
+che si occupano della distribuzione all’ingrosso;
+impresa alimentare
+ (“
+impresa, pubblica o privata, con o senza fini di lucro, che svolga una qualsiasi delle attività connesse ad una delle fai di produzione, trasformazione e distribuzione di alimenti
+” ex articolo 3, punto 2), del regolamento medesimo) 
+che si occupano della produzione industriale;
+impresa alimentare
+ (
+“impresa, pubblica o privata, con o senza fini di lucro, che svolga una qualsiasi delle attività connesse ad una delle fai di produzione, trasformazione e distribuzione di alimenti
+” ex articolo 3, punto 2), del regolamento medesimo) 
+che si occupano della trasformazione industriale
+;
+A2.4.2 Le organizzazioni che svolgono attività di produzione, trasformazione e distribuzione di mangimi rientrano nell'ambito di applicazione del settore Produzione, trasformazione e distribuzione di alimenti, di cui all’allegato II al decreto NIS?
+Le organizzazioni che si occupano esclusivamente della produzione industriale, trasformazione industriale e distribuzione all’ingrosso di mangimi non rientrano nell’ambito di applicazione del settore “Produzione, trasformazione e distribuzione di alimenti” di cui all’allegato II al decreto NIS.
+I mangimi, essendo destinati all’alimentazione animale e non al consumo umano, ai sensi dell’art. 3 punto 4) del Regolamento n. 178/2002, non rientrano nella definizione di “alimento” come da art. 2 del medesimo Regolamento e, pertanto, le organizzazioni attive unicamente nella loro produzione industriale, trasformazione industriale e distribuzione all’ingrosso non sono considerate imprese alimentari ai fini del medesimo regolamento e del Decreto NIS.
+Tali organizzazioni non rientrano dunque nel perimetro del Settore 4 dell’Allegato II del d.lgs. n. 138/2024 “Produzione, trasformazione e distribuzione di alimenti – Imprese alimentari quali definite dall’art. 3, punto 2), del Regolamento (CE) n. 178/2002” e non sono soggette agli obblighi previsti dal decreto NIS per tale settore.
+A2.4.3 Le organizzazioni che svolgono attività di produzione industriale, trasformazione industriale e distribuzione all’ingrosso di sementi rientrano nell'ambito di applicazione del settore Produzione, trasformazione e distribuzione di alimenti, di cui all’allegato II al decreto NIS?
+Le imprese che svolgono esclusivamente attività di produzione industriale, trasformazione industriale e distribuzione all’ingrosso di sementi non possono essere qualificate come imprese alimentari ex art. 3, punto 2) del Regolamento (CE) n. 178/2002 e non ricadono nell’ambito di applicazione del Settore 4 dell’Allegato II del d.lgs. n. 138/2024 “Produzione, trasformazione e distribuzione di alimenti – Imprese alimentari quali definite dall’art. 3, punto 2), del Regolamento (CE) n. 178/2002”. Dunque, 
+non
+ sono soggette agli obblighi previsti dal decreto NIS per tale settore.
+A2.4.4 Le organizzazioni che si occupano di Produzione, trasformazione e distribuzione di integratori alimentari sono da ritenersi incluse nell’ambito di applicazione del Decreto NIS?
+Le organizzazioni che si occupano della Produzione industriale, trasformazione industriale e distribuzione all'ingrosso di integratori alimentari rientrano nell’ambito di applicazione del settore Produzione, trasformazione e distribuzione di alimenti dell’allegato II al decreto NIS.
+Gli integratori alimentari, essendo destinati al consumo umano, rientrano nella definizione di “alimento” ai sensi dell’art. 2 del Regolamento (CE) n. 178/2002, come ribadito anche dall’Autorità Europea per la Sicurezza Alimentare (EFSA), in merito al fatto che 
+“Nell’UE, gli integratori alimentari sono disciplinati come gli alimenti”
+ (
+https://www.efsa.europa.eu/it/topics/topic/food-supplements
+). Pertanto, le organizzazioni che si occupano della loro produzione, trasformazione e distribuzione sono considerate imprese alimentari ai fini del medesimo regolamento e del Decreto NIS.
+ Fabbricazione
+A2.5.a.1 Quali organizzazioni che operano nel settore Fabbricazione/Fabbricazione di dispositivi medici e di dispositivi medico-diagnostici in vitro rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore fabbricazione di dispositivi medici e di dispositivi medico-diagnostici in vitro è considerato critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato II, punto 5, lettera a), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e per le quali è vera almeno una delle seguenti affermazioni.
+All’organizzazione si applica il regolamento 2017/745/UE relativo ai dispositivi medici attuato dal decreto legislativo 2022/137; la stessa organizzazione è riconducibile a un 
+soggetto che fabbrica dispositivi medici
+ (“
+dispositivo medico, qualsiasi strumento, apparecchio, dispositivo, software, impianto, reagente, materiale o altro articolo destinato dal fabbricante a essere utilizzato, da solo o in combinazione, sull'uomo per uno o più dei seguenti scopi medici specifici (che non esercita nel o sul corpo umano l'azione principale cui è destinato mediante mezzi farmacologici, immunologici o metabolici, ma la cui funzione può essere coadiuvata da tali mezzi): diagnosi, prevenzione, monitoraggio, previsione, prognosi, trattamento o alleviamento della malattia; diagnosi, prevenzione, monitoraggio, previsione, prognosi, trattamento o alleviamento della malattia; diagnosi, monitoraggio, trattamento, attenuazione o compensazione di un infortunio o di una disabilità; indagine, sostituzione o modifica dell'anatomia o di un processo o stato fisiologico o patologico; fornire informazioni mediante l'esame in vitro di campioni derivati dal corpo umano, comprese le donazioni di organi, sangue e tessuti donati. Sono considerati dispositivi medici anche i seguenti prodotti: dispositivi per il controllo o il supporto del concepimento; prodotti specificamente destinati alla pulizia, alla disinfezione o alla sterilizzazione dei dispositivi di cui all'articolo 1, paragrafo 4, e di quelli di cui al primo comma del presente punto
+, ex articolo 2, punto 1), del medesimo regolamento).
+All’organizzazione si applica il regolamento 2017/746/UE relativo ai dispositivi relativo ai dispositivi medico-diagnostici in vitro attuato dal decreto legislativo 2022/137; la stessa organizzazione è riconducibile a un 
+soggetto che fabbrica dispositivi medico-diagnostici in vitro
+ (“
+dispositivo medico diagnostico in vitro, qualsiasi dispositivo medico composto da un reagente, un prodotto reattivo, un calibratore, un materiale di controllo, un kit, uno strumento, un apparecchio, una parte di attrezzatura, un software o un sistema, utilizzato da solo o in combinazione, destinato dal fabbricante a essere impiegato in vitro per l'esame di campioni provenienti dal corpo umano, inclusi sangue e tessuti donati, unicamente o principalmente al fine di fornire una o più delle seguenti informazioni: a) su un processo o uno stato fisiologico o patologico; b) su una disabilità fisica o intellettiva congenita; c) sulla predisposizione a una condizione clinica o a una malattia; d) per determinare la sicurezza e la compatibilità con potenziali soggetti riceventi; e) per prevedere la risposta o le reazioni a un trattamento; f) per definire o monitorare le misure terapeutiche. Anche i contenitori dei campioni sono considerati dispositivi medico-diagnostici in vitro
+” ex articolo 2, punto 2), del medesimo regolamento).
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A2.5.b.1 Quali organizzazioni che operano nel sottosettore Fabbricazione/Fabbricazione di computer e prodotti di elettronica e ottica rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore fabbricazione di computer e prodotti di elettronica e ottica è considerato critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alla tipologia di soggetto di cui all’allegato II, punto 5, lettera b), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e la cui attività economica (sostanziale) è riconducibile ad 
+attività di fabbricazione di computer e prodotti di elettronica e ottica
+, ovvero a qualsiasi attività economica (a livello di gruppo, classe, categoria o sottocategoria) elencata nella sezione C (attività manufatturiere), divisione 26 del codice NACE/ATECO.
+A2.5.c.1 Quali organizzazioni che operano nel sottosettore Fabbricazione/Fabbricazione di apparecchiature elettrice rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore fabbricazione di apparecchiature elettriche è considerato critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alla tipologia di soggetto di cui all’allegato II, punto 5, lettera b), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e la cui attività economica (sostanziale) è riconducibile ad attività di
+ fabbricazione di apparecchiature elettriche
+, ovvero a qualsiasi attività economica (a livello di gruppo, classe, categoria o sottocategoria) elencata nella sezione C (attività manufatturiere), divisione 27 del codice NACE/ATECO.
+A2.5.d.1 Quali organizzazioni che operano nel sottosettore Fabbricazione/Fabbricazione di macchinari e apparecchiature n.c.a. rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore fabbricazione di macchinari e apparecchiature n.c.a. (“non classificato altrove”) è considerato critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alla tipologia di soggetto di cui all’allegato II, punto 5, lettera d), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e la cui attività economica (sostanziale) è riconducibile ad 
+attività di fabbricazione di macchinari e apparecchiature n.c.a.
+, ovvero a qualsiasi attività economica (a livello di gruppo, classe, categoria o sottocategoria) elencata nella sezione C (attività manufatturiere), divisione 28 del codice NACE/ATECO.
+A2.5.e.1 Quali organizzazioni che operano nel sottosettore Fabbricazione/Fabbricazione di autoveicoli, rimorchi e semirimorchi rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore fabbricazione di autoveicoli, rimorchi e semirimorchi è considerato critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alla tipologia di soggetto di cui all’allegato II, punto 5, lettera e), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e la cui attività economica (sostanziale) è riconducibile 
+attività di fabbricazione di autoveicoli, rimorchi e semirimorchi
+, ovvero a qualsiasi attività economica (a livello di gruppo, classe, categoria o sottocategoria) elencata nella sezione C (attività manufatturiere), divisione 29 del codice NACE/ATECO.
+A2.5.f.1 Quali organizzazioni che operano nel sottosettore Fabbricazione/Fabbricazione di altri mezzi di trasporto rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il sottosettore fabbricazione di altri mezzi di trasporto è considerato critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alla tipologia di soggetto di cui all’allegato II, punto 5, lettera f), del decreto NIS. Tali organizzazioni sono considerate soggetti importanti.
+Rientrano nell’ambito di applicazione di questo sottosettore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e la cui attività economica (sostanziale) è riconducibile 
+attività di fabbricazione di altri mezzi di trasporto
+, ovvero a qualsiasi attività economica (a livello di gruppo, classe, categoria o sottocategoria) elencata nella sezione C (attività manufatturiere), divisione 30 del codice NACE/ATECO.
+ Fornitori di Servizi Digitali
+A2.6.1. Quali organizzazioni che operano nel settore Fornitori di servizi digitali rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il settore dei fornitori di servizi digitali è considerato critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni soggette alla giurisdizione nazionale, che soddisfano i requisiti dell’articolo 3 e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato II, punto 6, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti. Ai sensi dell’articolo 5 del decreto NIS, tali fornitori sono soggetti alla giurisdizione nazionale qualora soddisfino almeno uno dei seguenti criteri:
+sono stabiliti sul territorio nazionale e non hanno stabilimenti in altri Stati membri, anche qualora abbiano stabilimenti al di fuori dell’Unione europea;
+hanno stabilimenti in più Stati membri e sul territorio nazionale è presente lo stabilimento principale, individuato ai sensi dell’articolo 5, comma 2;
+non hanno alcun stabilimento nell’Unione europea, offrono i loro servizi sul territorio nazionale e, ai sensi dell’articolo 5, comma 3, hanno designato il rappresentante nell’Unione in Italia.
+Rientrano nell’ambito di applicazione di questo settore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni per le quali è vera almeno una delle seguenti affermazioni.
+L’organizzazione 
+supera i massimali per le piccole imprese
+ definiti dalla 
+Raccomandazione 2003/361/CE
+ ed è riconducibile 
+almeno a una delle seguenti tipologie
+: 
+fornitori di mercati online
+ (“
+un servizio che utilizza un software, compresi siti web, parte di siti web o un'applicazione, gestito da o per conto del professionista, che permette ai consumatori di concludere contratti a distanza con altri professionisti o consumatori, quale definito all'articolo 2, lettera n), della direttiva 2005/29/CE del Parlamento europeo e del Consiglio, dell'11 maggio 2005
+”);
+fornitori di motori di ricerca online
+ (“
+un servizio digitale che consente all'utente di formulare domande al fine di effettuare ricerche, in linea di principio, su tutti i siti web, o su tutti i siti web in una lingua particolare, sulla base di un'interrogazione su qualsiasi tema sotto forma di parola chiave, richiesta vocale, frase o di altro input, e che restituisce i risultati in qualsiasi formato in cui possono essere trovate le informazioni relative al contenuto richiesto, quale definito all'articolo 2, punto 5), del regolamento (UE) 2019/1150 del Parlamento europeo e del Consiglio, del 20 giugno 2019
+”);
+fornitori di piattaforme di social network
+ (“
+una piattaforma che consente agli utenti finali di entrare in contatto, condividere, scoprire e comunicare gli uni con gli altri su molteplici dispositivi, in particolare, attraverso chat, post, video e raccomandazioni
+).
+L’organizzazione, indipendentemente dalle sue dimensioni, è riconducibile a un fornitore di servizi di registrazione di nomi di dominio (“un registrar o un agente che agisce per conto di registrar, come un fornitore o un rivenditore di servizi di registrazione per la privacy o di proxy”).
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A2.6.2 La disciplina NIS si applica a qualsiasi forma di mercato online?
+Il decreto NIS si applica ai soggetti che gestiscono mercati online tramite i quali sono venduti prodotti di terzi, ovvero che offrono (e gestiscono) una piattaforma di mercati online che terzi impiegano per vendere prodotti.
+Al contempo, il decreto NIS non si applica ai soggetti che rivendono propri prodotti tramite un mercato online, proprio o di terzi. Pertanto, la sola vendita online di propri prodotti non implica la riconducibilità all’ambito di applicazione del decreto NIS. 
+A2.6.3 La disciplina NIS si applica a tutti i registrar e a tutti i loro agenti? A quali obblighi devono adempiere?
+Il decreto NIS si applica a tutti i soggetti, indipendentemente dalla loro dimensione, che svolgono attività di registrazione di nomi di dominio. In particolare, fermo restando quanto previsto dall’articolo 5 (vds. FAQ A2.6.1), si applica a tutti i registrar soggetti alla giurisdizione nazionale e agli agenti che agiscono per conto di registrar, come un fornitore o un rivenditore di servizi di registrazione per la privacy o di proxy.
+Si evidenzia che, pertanto, sono ricompresi nell’ambito di applicazione anche quegli intermediari tra i clienti e i registrar che non svolgono attività di carattere tecnico ma che raccolgono le informazioni necessarie ad acquistare un nome di dominio.
+Ai sensi dell’articolo 32, a tali soggetti, qualora non svolgano ulteriori attività riconducibili all’ambito di applicazione del decreto NIS, non si applicano alcuni degli obblighi previsti dal decreto medesimo, con particolare riguardo a quelli relativi alle misure di sicurezza (articolo 24) e alle notifiche di incidente (articolo 25).
+Restano fermi, in particolare, gli obblighi relativi alla registrazione (articolo 7), agli organi di amministrazione e direttivi (articolo 23) e alle banche dei dati di registrazione dei nomi di dominio (articolo 29).
+A2.6.4 La disciplina NIS si applica anche a intermediari e rivenditori (broker, reseller, etc.) di servizi digitali?
+Con riferimento alle organizzazioni che svolgono attività di mediazione (ovvero broker, reseller o rivenditori) di servizi digitali si evidenzia che queste sono assimilabili ai fornitori qualora l’infrastruttura digitale dell’organizzazione concorra alla fornitura del servizio medesimo, i.e., l’infrastruttura digitale dell’organizzazione può avere impatti in termini di disponibilità, integrità o disponibilità del servizio e offerto dell’organizzazione ai propri clienti.
+Rientrano nell’ambito di applicazione anche quelle organizzazione che, nel mediare la fornitura di servizi digitali, assolvono alla funzione di help desk o service desk tecnici nel contesto della rivendita in quanto possono impattare sulla continuità dei servizi.
+Al contempo, indipendentemente dall’applicabilità del decreto NIS alle organizzazioni che mediano la fornitura di servizi digitali, i fornitori dei servizi mediati sono soggetti alla Direttiva 2022/2555 e, qualora sia applicabile la giurisdizione nazionale, al decreto NIS.
+Fermo restando quanto illustrato nella FAQ A2.6.3, non rientrano nell’ambito di applicazione del decreto NIS, invece, le organizzazioni che svolgono la sola attività di marketing e amministrativa contabile/contrattualistica per la rivendita di servizi digitali.
+ Ricerca
+A2.7.1 Quali organizzazioni che operano nel settore Ricerca rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi del decreto NIS, il settore ricerca è considerato critico. Rientrano nel suo ambito di applicazione tutte le organizzazioni stabilite sul territorio nazionale che superano i massimali per le piccole imprese stabiliti dalla 
+Raccomandazione 2003/361/CE
+ e che svolgono attività riconducibili alle tipologie di soggetto di cui all’allegato II, punto 7, del decreto NIS. Tali organizzazioni sono considerate soggetti importanti.
+Rientrano nell’ambito di applicazione di questo settore – e sono pertanto tenute ad effettuare o aggiornare la registrazione entro il 28 febbraio di ogni anno – le organizzazioni che superano i massimali per le piccole imprese e che sono riconducibili ad 
+organizzazioni di ricerca
+. Si intende per organizzazione di ricerca un soggetto che ha come obiettivo principale lo svolgimento di attività di ricerca applicata o di sviluppo sperimentale al fine di sfruttare i risultati di tale ricerca a fini commerciali, ma che non comprende gli istituti di istruzione (ex articolo 2, comma 1, lettera mmm) del decreto NIS).
+Per completezza di informazione, si rimanda alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A2.7.2 Gli istituti di istruzione che svolgono attività di ricerca rientrano nell’ambito di applicazione della disciplina NIS?
+Nel richiamare la FAQ A2.7.2, con riferimento al settore Ricerca, gli istituti di istruzione – anche qualora svolgano attività di ricerca – non rientrano, in linea generale, nell’ambito di applicazione del decreto NIS.
+Al contempo, rimane ferma, ai sensi dell’articolo 3, commi 8 e 13, e dell’articolo 11, comma 4, lettera b), la facoltà per l’Autorità nazionale compente NIS, su proposta del Ministero dell’università e della ricerca, di individuare quali soggetti NIS essenziali o importanti gli istituti di istruzione che svolgono attività di ricerca (vds. allegato IV del decreto NIS). 
+[1] Tali chiarimenti trovano applicazione nelle more della costituzione di un consenso a livello Unionale.
+ Amministrazioni centrali, regionali, locali e di altro tipo
+A3.1 Come posso verificare se un soggetto rientra nell'Allegato III?
+Ai sensi dell’art. 3, comma 6, il decreto NIS si applica, indipendentemente dalle loro dimensioni, alle pubbliche amministrazioni ricomprese nell’elenco ISTAT di cui all'articolo 1, comma 3, della legge 31 dicembre 2009, n. 196, e, in particolare, nelle categorie elencate nell'allegato III (si rinvia, sul punto, alla FAQ AMB.PU.1).
+Di conseguenza, è possibile verificare se un soggetto rientra nell’Allegato III consultando l’elenco ISTAT delle Amministrazioni Pubbliche e verificando che il soggetto sia incluso in una o più delle categorie a), b), c), e d) individuate dall’Allegato stesso.
+L’elenco è disponibile al seguente link: 
+Elenco ISTAT delle Amministrazioni Pubbliche
+.
+Con riferimento alle “Amministrazioni locali” incluse nell’elenco ISTAT delle amministrazioni pubbliche, l’Allegato III, lettera c), prevede che rientrino nell’ambito di applicazione della Direttiva NIS i seguenti soggetti:
+le Città metropolitane;
+i Comuni con popolazione superiore a 100.000 abitanti;
+i Comuni capoluogo di Regione;
+le Aziende sanitarie locali (ASL).
+A3.b.1.1 I Consigli regionali, provinciali, metropolitani e comunali sono considerati soggetti autonomi ai fini dell’applicazione del decreto NIS?
+I Consigli sono organi degli enti territoriali di appartenenza (Regioni, Province, Città metropolitane e Comuni) per espresse previsioni costituzionali. Essi godono di una propria autonomia amministrativa, organizzativa e contabile che si può tradurre anche nell’adozione di sistemi organizzativi diversi rispetto ad altri organi amministrativi degli stessi Enti.
+Di conseguenza, gli stessi devono considerarsi quali soggetti autonomi rispetto all’Ente di cui sono organi, riconducibili, in linea generale, alla medesima tipologia di soggetto.
+L’autonomia amministrativa, organizzativa e contabile comporta, in particolare, l’obbligo di registrazione separata rispetto all’Ente di appartenenza.
+A3.c.4.1 Le Aziende sanitarie locali rientrano nell’ambito di applicazione della disciplina NIS?
+Le aziende sanitarie locali costituiscono amministrazioni pubbliche inserite nell’Elenco delle amministrazioni pubbliche, ricomprese nel conto economico consolidato individuate ai sensi dell’articolo 1, comma 3 della legge 31 dicembre 2009, n. 196 e ss.mm. (Legge di contabilità e di finanza pubblica) e appartenenti alle categorie elencate nell’Allegato III.
+Pertanto, ai sensi dell’art. 3, comma 6, e 6, comma 3, del decreto NIS, sono qualificate quale soggetti importanti.
+Le Aziende sanitarie locali che erogano servizi di assistenza sanitaria sono riconducibili altresì al settore “Sanitario” e alla tipologia di soggetto “Prestatori di assistenza sanitaria quali definiti all'articolo 3, lettera g), della direttiva 2011/24/UE del Parlamento europeo e del Consiglio”.
+In qualità di prestatori di assistenza sanitaria, le aziende sanitarie locali sono considerate soggetti importanti, salvo qualora superino i massimali previsti per la media impresa dalla Raccomandazione 2003/361/CE; in tal caso sono considerati soggetti essenziali.
+Ne consegue che, al ricorrere dei presupposti anzidetti, le Aziende sanitarie locali hanno l’obbligo di registrazione/aggiornamento ai sensi dell’art. 7 del decreto NIS per entrambi i settori e le tipologie di soggetto cui appaiono riconducibili.
+A3.c.4.2 Le Aziende Pubbliche di Servizi alla Persona rientrano nell’ambito di applicazione della disciplina NIS?
+Le Aziende Pubbliche di Servizi alla Persona non rientrano nelle categorie elencate nell’Allegato III.
+ Pertanto, non sono soggette all’obbligo di registrazione come Amministrazioni centrali, regionali, locali e di altro tipo (Allegato III).
+Tuttavia, al pari di ogni altro soggetto, tali Organizzazioni rientrano nell’ambito di applicazione della disciplina NIS ove le attività effettivamente svolte siano riconducibili ad alcuna delle tipologie di soggetto previste dagli Allegati I e II del decreto NIS.
+In particolare, le Aziende Pubbliche di Servizi alla Persona appaiono riconducibili al settore “Sanitario” e alla tipologia di soggetto “Prestatori di assistenza sanitaria quali definiti all'articolo 3, lettera g), della direttiva 2011/24/UE del Parlamento europeo e del Consiglio” ove l’Azienda superi i massimali previsti per la piccola impresa dalla Raccomandazione 2003/361/CE e le attività svolte ricomprendano, anche in via meramente secondaria o residuale, la prestazione di assistenza sanitaria quale definita dall’art. articolo 3, lettera a), della direttiva 2011/24/UE.
+Si invita, dunque, ciascuna Azienda Pubblica di Servizi alla Persona ad effettuare un’approfondita autovalutazione in ordine alla possibile riconducibilità dell’Organizzazione alla predetta tipologia di soggetto, rinviando sul punto alla FAQ REG.1 che delinea il processo generale di autovalutazione che le organizzazioni sono tenute a svolgere per determinare l’esigenza, o meno, di procedere con la registrazione.
+A3.c.4.3 Le Aziende ospedaliere/ospedaliero-universitarie rientrano nell’ambito di applicazione della disciplina NIS?
+Sì. Le Aziende ospedaliere e le Aziende ospedaliero-universitarie rientrano nell’ambito di applicazione del D.lgs. 4 settembre 2024, n. 138.
+Tali enti operano nel “settore sanitario”, espressamente ricompreso tra i settori ad alta criticità individuati dall’Allegato I del D.lgs. 4 settembre 2024, n. 138. In particolare, la normativa include tra i soggetti rilevanti le strutture che erogano assistenza sanitaria, la cui compromissione potrebbe avere un impatto significativo sulla salute pubblica e sulla continuità dei servizi essenziali.
+Le Aziende ospedaliere e ospedaliero-universitarie sono pertanto tenute al rispetto degli obblighi previsti dalla disciplina NIS, inclusi quelli relativi alla gestione del rischio per la sicurezza informatica, all’adozione di misure tecniche e organizzative adeguate e alla notifica degli incidenti.
+Le Aziende ospedaliere/ospedaliero-universitarie non sono invece riconducibili al settore “Amministrazioni centrali, regionali, locali e di altro tipo” (Allegato III) e alla tipologia di soggetto “Aziende Sanitarie Locali”.
+A3.c.4.4 Le Aziende ospedaliere e ospedaliero-universitarie sono soggetti distinti rispetto alle Aziende Sanitarie Locali di appartenenza?
+Le Aziende ospedaliere e ospedaliero-universitarie, pur facendo parte del Sistema Sanitario Nazionale ed essendo ricomprese nel territorio di un’Azienda Sanitaria Locale, non sono qualificabili come Aziende Sanitarie Locali. Esse sono enti dotati di personalità giuridica autonoma e istituiti per finalità solo parzialmente sovrapponibili a quelle delle ASL.
+Di conseguenza, le Aziende ospedaliere/ospedaliero-universitarie sono soggetti distinti dalle Aziende Sanitarie Locali di appartenenza ai sensi della disciplina NIS e devono adempiere autonomamente agli obblighi posti da tale disciplina.
+Ne consegue, in particolare, che l’inclusione nell’elenco dei soggetti NIS dell’Azienda Sanitaria Locale di appartenenza non esime dall’obbligo di registrazione le Aziende ospedaliere/ospedaliero-universitarie ricomprese nello stesso ambito territoriale.
+A3.c.4.5 Perché una Azienda Sanitaria Locale potrebbe risultare “fuori ambito” in fase di registrazione sulla piattaforma NIS?
+Una Azienda Sanitaria Locale risulta “fuori ambito” in fase di registrazione sulla piattaforma NIS qualora si registri esclusivamente quale Organizzazione del settore “Sanitario” e della tipologia di soggetto “Prestatori di assistenza sanitaria” ai sensi dell’Allegato I, punto 5), dichiarando parametri dimensionali inferiori ai massimali previsti per la piccola impresa dalla Raccomandazione 2003/361/CE.
+In tal caso, sulla base dei dati dichiarati dal Soggetto, la piattaforma restituisce un’autovalutazione “fuori ambito”. Tuttavia, tale classificazione non è corretta alla luce dei chiarimenti forniti con la FAQ A3.c.4.1.
+A3.d.3.1 Che cosa si intende per “Enti a struttura associativa”?
+Ai sensi dell’art. 3, comma 6, il decreto NIS si applica, indipendentemente dalle loro dimensioni, alle pubbliche amministrazioni ricomprese nell’elenco ISTAT di cui all'articolo 1, comma 3, della legge 31 dicembre 2009, n. 196, e, in particolare, nelle categorie elencate nell'allegato III.
+Di conseguenza, sono “
+Enti a struttura associativa
+” ai sensi dell’Allegato III al decreto NIS i soli soggetti ricompresi nella categoria degli “
+Enti a struttura associativa
+” all’interno dell’Elenco ISTAT delle amministrazioni pubbliche.
+A3.d.3.2 Gli ordini, i collegi professionali e i relativi organismi nazionali sono “Enti a struttura associativa” ai sensi del decreto NIS?
+No. Gli ordini, i collegi professionali e i relativi organismi nazionali non rientrano tra le amministrazioni pubbliche individuate dall’Allegato III del decreto NIS.
+Pertanto, non sono soggetti agli obblighi previsti dal decreto ai sensi dell’Allegato III.
+Resta salva, in ogni caso, la possibilità che tali Organizzazioni rientrino nell’ambito di applicazione del decreto NIS qualora le attività effettivamente svolte siano riconducibili a una o più delle tipologie di soggetto previste dagli Allegati I e II del decreto NIS.
+In particolare, si raccomanda a tali Organizzazioni di effettuare un’approfondita autovalutazione volta ad accertare la riconducibilità delle eventuali attività svolte nei confronti degli associati anche in via meramente secondaria o residuale ai settori “Gestione dei servizi TIC” e/o “Infrastrutture digitali”.
+ Ulteriori tipologie di soggetto (Allegato IV)
+A4.1. Come posso verificare se un soggetto rientra nell'Allegato IV?
+Ai sensi dell’art. 3, comma 8, il decreto NIS si applica, indipendentemente dalle loro dimensioni, ai soggetti delle tipologie di cui all'allegato IV, individuati secondo le procedure di cui al comma 13 dello stesso articolo.
+Il predetto comma 13 prevede, a sua volta, che i soggetti delle tipologie di cui all'allegato IV siano individuati con una o più determinazioni dell'Agenzia per la cybersicurezza nazionale, su proposta delle Autorità di settore NIS interessate, sentito il Tavolo per l'attuazione della disciplina NIS.
+L'Autorità nazionale competente NIS notifica a tali soggetti la loro individuazione ai fini della registrazione di cui all'articolo 7, comma 1, del decreto NIS.
+Di conseguenza, sono tenuti alla registrazione come soggetti delle tipologie di cui all'allegato IV le sole Organizzazioni cui sia stata notificata l’individuazione ai sensi dell’art. 3, commi 8 e 13, del decreto NIS.
+A4.2. Quali sono i settori soggetti a eventuale individuazione dell’Autorità nell’Allegato IV del decreto NIS?
+L’Allegato IV del decreto legislativo n. 138/2024 individua ulteriori tipologie di soggetti che possono essere qualificati come “importanti” o “essenziali” solo a seguito di identificazione autoritativa da parte dell’Autorità competente. Tali soggetti non rientrano automaticamente nell’ambito di applicazione del decreto NIS, ma possono essere inclusi in considerazione della rilevanza strategica o dell’impatto delle attività svolte.
+Le tipologie di soggetto indicate nell’Allegato IV comprendono:
+Soggetti che forniscono servizi di trasporto pubblico locale;
+Istituti di istruzione che svolgono attività di ricerca;
+Soggetti che svolgono attività di interesse culturale;
+Società in house, società partecipate e società a controllo pubblico, come definite nel decreto legislativo 19 agosto 2016, n.175.
+L’inclusione di tali soggetti avviene esclusivamente mediante provvedimento di identificazione autoritativa, ai sensi dell’articolo 3, comma 13, del decreto NIS.
+A4.3.1 Le fondazioni museali o che svolgono attività culturali rientrano nell’ambito di applicazione del decreto NIS?
+Non necessariamente. Tali soggetti sono suscettibili di riconduzione nel novero dei “Soggetti che svolgono attività di interesse culturale” solo ove identificati ai sensi dell’articolo 3, comma 13, del decreto NIS e dall’Allegato IV.
+Resta salva, in ogni caso, la possibilità che tali Organizzazioni rientrino nell’ambito di applicazione del decreto NIS in caso di svolgimento di attività riconducibili a una o più delle tipologie di soggetto previste dagli Allegati I e II del decreto NIS. In tal caso l’obbligo di registrazione ai sensi dell’art. 7, comma 1, del decreto NIS sorge 
+ex lege
+, senza necessità di individuazione ai sensi dell’art. 3, comma 13, del medesimo decreto.
+A4.3.2 Le biblioteche e i musei che fanno parte del Ministero della Cultura rientrano nell’ambito di applicazione del decreto NIS?
+Le strutture centrali e periferiche del Ministero rientrano già nel perimetro dei soggetti essenziali ai sensi dell’Allegato III, punto 1, del d.lgs. 138/2024.
+L’elenco ex Allegato IV, punto III riguarda esclusivamente soggetti terzi.
+A4.3.3 Su che base un soggetto che svolge attività di interesse culturale rientra nell’ambito di applicazione del decreto NIS?
+Un soggetto che svolge attività di interesse culturale rientra nell’ambito di applicazione del decreto NIS su proposta dell’Autorità di settore (Ministero della Cultura) che, nel formularla, tiene conto dei seguenti elementi: attività culturale rilevante, dipendenza critica da sistemi ICT, impatto potenziale di un incidente cyber.
+A4.3.4 L’inclusione in elenco NIS nella tipologia “soggetti che svolgono attività di interesse culturale” dipende dalle dimensioni dell’ente?
+No. L’Allegato IV del d.lgs. 138/2024 non prevede criteri dimensionali. La valutazione è di natura funzionale e qualitativa, basata sull’impatto potenziale di un incidente.
+A4.3.5 Essere partecipati o vigilati dal Ministero della Cultura comporta automaticamente l’assoggettamento alla disciplina NIS?
+No. La valutazione tiene conto dell’autonomia giuridica del soggetto e della funzione esercitata.
+Si ricorda che i soggetti indicati nell’allegato ISTAT rientrano a prescindere dall’individuazione ministeriale, in quanto previsti dall’allegato III, lettera d), punto 4.
+Informazioni su 
+Agenzia per la
+ cybersicurezza nazionale
+Contatti
+info@acn.gov.it
+Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
+non all’indirizzo e-mail dell’Agenzia
+.
+Per interviste, inviti ad eventi o manifestazioni
+comunicazione@acn.gov.it
+Link utili
+Centro di Valutazione e Certificazione Nazionale
+: apre una nuova finestra
+Linee guida ACN
+Referente per la cybersicurezza
+Patrocinio
+Lavora con noi
+Domande frequenti
+Trasparenza
+Amministrazione trasparente
+Atti di notifica
+Piattaforma Whistleblowing
+: apre una nuova finestra
+Seguici su
+Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Altre informazioni
+Note legali
+Privacy policy
+Dichiarazione di accessibilità
+: apre una nuova finestra
+Social media policy
+Nascosta

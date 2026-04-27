@@ -1,0 +1,210 @@
+Ambito - ACN
+		Skip to Main Content
+Ambito
+seguici_su
+Agenzia:
+Linkedin: apre una nuova finestra
+Youtube: apre una nuova finestra
+seguici_su
+CSIRT Italia:
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Lingue disponibili:
+ ITA 
+ITA
+: italiano
+ENG
+: english
+Apri menu principale
+Agenzia per la 
+cybersicurezza nazionale
+Segnala un incidente informatico
+apri_ricerca
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+ Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+ Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
+ Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+ Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+ Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Home
+NIS
+Ambito
+Ambito
+Ambito di applicazione
+La nuova normativa NIS amplia il campo di applicazione della normativa a 18 settori di cui 11 altamente critici (originariamente 8) e 7 critici (di nuova introduzione) per oltre 80 tipologie di soggetti, distinguendo i soggetti in essenziali e importanti.
+Per ulteriori dettagli si fa riferimento agli 
+allegati I, II, III e IV del Decreto legislativo 4 settembre 2024, n. 138
+.
+Consulta il dettaglio degli 
+ambiti di applicazione
+.
+ Schema degli ambiti di applicazione
+ * Possibile identificazione dell’Autorità come essenziali
+ ** Possibile identificazione dell’Autorità come importanti o essenziali
+Settore
+Dettaglio
+Grandi imprese
+Medie imprese
+Piccole e micro imprese
+SETTORI ALTAMENTE CRITICI
+Energia
+19 tipologie di soggetto
+Essenziali
+Importanti *
+Fuori ambito **
+Trasporti
+10 tipologie di soggetto
+Settore bancario
+DORA Lex specialis
+Infrastrutture dei mercati finanziari
+Settore sanitario
+5 tipologie di soggetto
+Acqua potabile
+1 tipologia di soggetto
+Acque reflue
+1 tipologia di soggetto
+Infrastrutture digitali
+9 tipologie di soggetto
+Gestione dei servizi TIC (b2b)
+2 tipologie di soggetto
+Importanti *
+Fuori ambito **
+Spazio
+1 tipologia di soggetto
+SETTORI CRITICI
+Servizi postali e di corriere
+1 tipologia di soggetto
+Importanti *
+Fuori ambito **
+Gestione dei rifiuti
+1 tipologia di soggetto
+Fabbricazione, produzione e distribuzione di sostanze chimiche
+1 tipologia di soggetto
+Produzione, trasformazione e distribuzione di alimenti
+1 tipologia di soggetto
+Fabbricazione
+6 tipologie di soggetto
+Fornitori di servizi digitali
+4 tipologie di soggetto
+Ricerca
+2 tipologie di soggetto
+Importanti *
+Fuori ambito **
+ULTERIORI TIPOLOGIE DI SOGGETTI
+Pubblica Amministrazione centrale
+ 4 categorie di PA
+Essenziali
+Pubblica Amministrazione regionale e locale
+11 categorie di PA
+Importanti *
+Ulteriori tipologie di soggetti
+4 tipologie di soggetti 
+Identificazione dell’Autorità
+Informazioni su 
+Agenzia per la
+ cybersicurezza nazionale
+Contatti
+info@acn.gov.it
+Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
+non all’indirizzo e-mail dell’Agenzia
+.
+Per interviste, inviti ad eventi o manifestazioni
+comunicazione@acn.gov.it
+Link utili
+Centro di Valutazione e Certificazione Nazionale
+: apre una nuova finestra
+Linee guida ACN
+Referente per la cybersicurezza
+Patrocinio
+Lavora con noi
+Domande frequenti
+Trasparenza
+Amministrazione trasparente
+Atti di notifica
+Piattaforma Whistleblowing
+: apre una nuova finestra
+Seguici su
+Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Altre informazioni
+Note legali
+Privacy policy
+Dichiarazione di accessibilità
+: apre una nuova finestra
+Social media policy
+Nascosta

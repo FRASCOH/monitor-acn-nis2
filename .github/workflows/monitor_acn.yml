@@ -1,0 +1,39 @@
+name: Monitor ACN Atti Generali
+
+on:
+  schedule:
+    # Esegui alle 8:00, 16:00 e 17:00 ora italiana (7:00, 15:00 e 16:00 UTC in inverno)
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Permette esecuzione manuale
+
+jobs:
+  check-website:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        
+    - name: Install dependencies
+      run: |
+        pip install requests
+        
+    - name: Run monitor script
+      env:
+        EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+        EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+      run: |
+        python monitor_acn.py
+        
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add page_hash_*.json page_content_*.txt
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update page states [skip ci]" && git pull --rebase && git push)

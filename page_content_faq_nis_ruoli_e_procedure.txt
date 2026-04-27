@@ -1,0 +1,368 @@
+Domande frequenti NIS - Ruoli e procedure - ACN
+		Skip to Main Content
+Domande frequenti NIS - Ruoli e procedure
+seguici_su
+Agenzia:
+Linkedin: apre una nuova finestra
+Youtube: apre una nuova finestra
+seguici_su
+CSIRT Italia:
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Lingue disponibili:
+ ITA 
+ITA
+: italiano
+ENG
+: english
+Apri menu principale
+Agenzia per la 
+cybersicurezza nazionale
+Segnala un incidente informatico
+apri_ricerca
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+ Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+ Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
+ Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+ Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+ Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Home
+Domande frequenti
+NIS
+Ruoli e procedure
+Domande frequenti NIS - Ruoli e procedure
+Home
+Domande frequenti
+NIS
+Domande frequenti NIS - Ruoli e procedure
+Menu della sezione 
+ Domande frequenti
+Apri menu della sezione Domande frequenti
+PNRR
+Cloud
+NIS
+Profili generali
+Ambito
+Settori, sottosettori e tipologie di soggetto
+Registrazione
+Misure di sicurezza e notifica di incidenti
+Aggiornamento delle informazioni
+Categorizzazione
+Ruoli e procedure
+PSNC
+Concorsi
+CSIRT Italia
+NCC Italia
+Strategia Nazionale di Cybersicurezza
+ NIS - Ruoli e procedure
+Puoi utilizzare la ricerca nelle domande frequenti digitando la paroladi interesse così da poter più facilmente identificare quello che staicercando. I risultati saranno filtrati dal terzo carattere digitato.
+ Nessun risultato trovato
+Per chiarimenti sulla registrazione, vai alla sezione 
+Registrazione
+.
+Per chiarimenti sulle misure di sicurezza e la notifica di incidenti, vai alla sezione 
+Misure di sicurezza e notifica di incidenti
+.
+Per chiarimenti sull’aggiornamento delle informazioni, vai alla sezione 
+Aggiornamento delle informazioni
+.
+ Organi di amministrazione e direttivi
+ODA.1 Cosa si intende per “organi di amministrazione” e “organi direttivi”?
+Con la locuzione “organi di amministrazione” e “organi direttivi” ci si riferisce a quegli organi che detengono il potere di direzione dell’Organizzazione, incluso, ove presente, il Consiglio di amministrazione dell’organizzazione (cfr. articolo 1, comma 1, lettera e) della 
+Determinazione ACN 379887/2025
+)
+ODA.2 Quali sono le persone fisiche che devono essere elencate ai sensi dell’articolo 7, comma 4, lettera c) del decreto NIS?
+Le persone fisiche che devono essere elencate ai sensi dell’articolo 7, comma 4, lettera c) del decreto NIS sono le persone fisiche responsabili ai sensi dell’articolo 38, comma 5, del decreto NIS. In altri termini si tratta delle persone fisiche che compongono gli organi di amministrazione e gli organi direttivi dei soggetti essenziali e dei soggetti importanti di cui all’articolo 23 del decreto NIS.
+Pertanto, ai fini dell’aggiornamento annuale è richiesta la sola l’elencazione dei componenti del Consiglio di amministrazione dell’organizzazione, o strutture analoghe tenuto conto della natura giuridica e alla struttura organizzativa dell’organizzazione. Essi, infatti, ai sensi dell’articolo 23, sovrintendono all’implementazione degli obblighi di cui al decreto NIS e sono responsabili delle eventuali violazioni.
+Pertanto, ai fini dell’adempimento in parola, non è attesa l’elencazione delle persone fisiche che svolgono le funzioni di punto di contatto (e sostituto), di CISO o di responsabile della sicurezza aziendale, né altre figure apicali sotto ordinate al CDA, salvo che essi siano anche componenti del CDA.
+ODA.3 I dirigenti rientrano tra i componenti degli organi di amministrazione e direttivi?
+I dirigenti che non fanno parte del Consiglio di amministrazione (o altro organo analogo) non sono considerati componenti degli organi di amministrazione e direttivi.
+ Pertanto, ai fini dell’adempimento in parola, non è attesa l’elencazione delle persone fisiche che svolgono le funzioni di punto di contatto (e sostituto), di CISO o di responsabile della sicurezza aziendale, né altre figure apicali sotto ordinate al CDA, salvo che essi siano anche componenti del CDA.
+ODA.4 Nell’elencazione degli organi di amministrazione e direttivi è necessario indicare tutti i componenti del Consiglio di amministrazione?
+Nelle organizzazioni in cui è previsto un Consiglio di amministrazione è necessario elencarne tutti i membri quali componenti degli organi di amministrazione e direttivi.
+ Nelle organizzazioni in cui il CDA è monocratico, è necessario indicare la persona fisica che ricopre tale ruolo.
+ Nelle organizzazioni in cui non è previsto un CDA, è necessario individuare l’organo che svolge le analoghe funzioni ed elencarne i membri quali componenti degli organi di amministrazione e direttivi.
+ Si rammenta che, ai fini dell’adempimento in parola, non è attesa l’elencazione delle persone fisiche che svolgono le funzioni di punto di contatto (e sostituto), di CISO o di responsabile della sicurezza aziendale, né altre figure apicali sotto ordinate al CDA, salvo che essi siano anche componenti del CDA o dell’organo che svolge analoghe funzioni.
+ODA.5 Come si individuano i componenti degli organi di amministrazione e direttivi nelle organizzazioni in cui non è previsto un consiglio di amministrazione ovvero, laddove previsto, non svolge funzioni di direzione, indirizzo e coordinamento delle attività?
+Nelle organizzazioni in cui non è previsto un CDA, ovvero, laddove previsto, non svolge funzioni di direzione, indirizzo e coordinamento delle attività, è necessario individuare, anche attraverso l’analisi della legge istitutiva dell’organizzazione e del suo statuto, l’organo che svolge le analoghe funzioni ed elencarne i membri quali componenti degli organi di amministrazione e direttivi.
+In ogni caso, il rappresentante legale è considerato tra i componenti degli organi di amministrazione e direttivi.
+ODA.6 Il punto di contatto, il suo sostituto o altre persone fisiche possono essere indicate come componenti degli organi di amministrazione e direttivi?
+In linea generale, non è attesa l’elencazione delle persone fisiche che svolgono le funzioni di punto di contatto (e sostituto), di CISO o di responsabile della sicurezza aziendale, né altre figure apicali sotto ordinate al CDA.
+ Tuttavia, se tali persone fisiche sono anche componenti del CDA o dell’organo che svolge analoghe funzioni, allora devono anch’esse essere elencate.
+ODA.7 Quali organizzazioni devono elencare i componenti degli organi di amministrazione e direttivi?
+Tutti i soggetti NIS (essenziali e importanti) devono provvedere ad elencare gli organi di amministrazione e direttivi.
+ODA.8 Gli organi di amministrazione e gli organi direttivi dei soggetti essenziali e dei soggetti importanti possono delegare al proprio interno lo svolgimento delle attività finalizzate all’assolvimento degli obblighi di cui all’articolo 23, commi 1 e 2 del decreto NIS?
+Si, è possibile conferire tale delega ferma restando in capo agli organi di amministrazione e agli organi direttivi dei soggetti essenziali e dei soggetti importanti la responsabilità ai sensi dell’articolo 23 del decreto NIS di (i) approvare le modalità di implementazione delle misure di gestione dei rischi per la sicurezza informatica di cui alla 
+Determinazione ACN 379887/2025
+ (comma 1, lett. a)); (ii) sovrintendere alla loro implementazione (comma 1, lett.b)); (iii) essere responsabili delle violazioni di cui al decreto nis (comma 1, lett. c)); (iv) seguire una formazione in materia di sicurezza informatica (comma 2, lett. a)); (v) promuovere l’offerta periodica di formazione per i dipendenti coerente con quella seguita dagli organi di amministrazione e dagli organi direttivi (comma 2, lett. b)).
+ODA. 9 L’eventuale delega per lo svolgimento di attività finalizzate all’assolvimento degli obblighi di cui all’articolo 23, commi 1 e 2 del decreto NIS, può escludere la responsabilità degli organi di amministrazione e degli organi direttivi ai sensi del predetto articolo?
+Come illustrato nella ODA.8 la responsabilità ex articolo 23 del decreto NIS discende per legge in capo agli organi di amministrazione e direttivi, in caso di inadempimento dei seguenti obblighi:
+approvare le modalità di implementazione delle misure di gestione dei rischi per la sicurezza informatica adottate da tali soggetti ai sensi dell'articolo 24 del predetto decreto NIS;
+sovrintendere all'implementazione degli obblighi di cui al capo IV e di cui all'articolo 7 del citato decreto NIS;
+seguire una formazione in materia di sicurezza informatica;
+promuovere l'offerta periodica di una formazione coerente a quella di cui al punto precedente ai loro dipendenti, per favorire l'acquisizione di conoscenze e competenze sufficienti al fine di individuare i rischi e valutare le pratiche di gestione dei rischi per la sicurezza informatica e il loro impatto sulle attività del soggetto e sui servizi offerti.
+Si tratta di obblighi di indirizzo e pianificazione strategica che, in quanto tali, non sono delegabili.
+È invece possibile la delega per lo svolgimento delle attività finalizzate all’attuazione dei predetti obblighi di cui all’articolo 23, commi 1 e 2 del decreto NIS.
+In tal caso, ai fini delle responsabilità, per le società, resta fermo quanto previsto dagli artt. 2381 c.c. e 2392 c.c..
+ODA.10 Nell’elencazione dei componenti degli organi di amministrazione e direttivi è necessario indicare la PEC personale?
+Non
+ è richiesta, per quanto auspicabile, l’indicazione dell’indirizzo PEC individuale e/o nominativo dei componenti degli organi di amministrazione e direttivi che vengono elencati. È anche sufficiente indicare un indirizzo PEC funzionale dell’organizzazione (come il domicilio digitale) o, qualora non disponibile, un indirizzo PEO aziendale.
+ Punto di contatto , Sostituto punto di contatto, Segreteria
+PDC.1 Di quali competenze e caratteristiche deve essere dotato il punto di contatto
+Ai sensi dell'articolo 4, comma 2, della 
+Determinazione ACN 379887/2025
+, le funzioni di punto di contatto possono essere svolte dal rappresentante legale o da un suo procuratore generale (censito sul registro delle imprese) oppure da un dipendente delegato del soggetto. Inoltre, ai sensi del comma 5 della medesima Determinazione, il Punto di contatto riferisce direttamente al vertice gerarchico del soggetto NIS nonché agli organi di amministrazione e direttivi del soggetto medesimo ai fini di quanto previsto dal decreto NIS.
+La disciplina NIS non enuncia ulteriori specifiche in termini di competenze e caratteristiche.
+ Inoltre, rimane ferma la facoltà per il punto di contatto di avvalersi, senza delegare la propria funzione, del supporto di competenze esterne (vds articolo 4, comma 2, ultimo periodo, della citata Determinazione).
+Si evidenzia, inoltre, il richiamo alle la responsabilità degli organi di amministrazione e direttivi del soggetto NIS ai sensi dell’articolo 23 del decreto NIS e delle persone fisiche ai sensi dell’articolo 38 del medesimo decreto, che non vengono meno con la designazione del Punto di contatto.
+Infine, al fine di supportare il punto di contatto è data la facoltà di designare ulteriore personale che potrà operare sul Portale dei Servizi dell’Agenzia ai fini degli adempimenti NIS.
+PDC.2 Si può svolgere la funzione di punto di contatto per più organizzazioni (gruppi di imprese e PA)? Quale è la procedura?
+Ai sensi dell'articolo 4, comma 2, della 
+Determinazione ACN 379887/2025
+, le funzioni di punto di contatto possono essere svolte dal rappresentante legale o da un suo procuratore generale (censito sul registro delle imprese) oppure da un dipendente delegato del soggetto. Pertanto, in linea generale, una persona fisica svolge tale funzione per una sola organizzazione.
+Tuttavia, ai sensi del comma 3 del medesimo articolo, i soggetti che fanno parte di un gruppo di imprese possono designare quale punto di contatto il dipendente di un'altra impresa che rientra nell’ambito di applicazione del decreto NIS e che fa parte del medesimo gruppo di imprese. Inoltre, ai sensi del comma 4 del medesimo articolo, le pubbliche amministrazioni possono designare quale punto di contatto il dipendente di un’altra pubblica amministrazione che rientra nell’ambito di applicazione del decreto NIS. Infine, ai sensi dell’articolo 6, comma 4, della citata Determinazione, la funzione di punto di contatto può anche essere svolta dal rappresentante nell’Unione in Italia.
+Tenendo presente quanto sopra, qualora il punto di contatto abbia l’esigenza di associarsi a più organizzazioni, dovrà ripetere la procedura di associazione per ciascuna delle organizzazioni per i quali svolgerà le funzioni di punto di contatto, in forza di un opportuno titolo giuridico.
+Dal punto di vista operativo è quindi necessario completare una prima volta la procedura ordinaria di censimento dell’utente e associazione alla prima organizzazione. Si consiglia, in linea generale, di iniziare dall’organizzazione di cui il punto di contatto è dipendente.
+Dalla pagina iniziale (“landing page”) del Portale dei Servizi, sarà possibile
+ avviare l’associazione ad ulteriori organizzazioni
+ cliccando sul pulsante in alto a destra (contenente le iniziali dell’utente e il nome dell’organizzazione corrente) per aprire il menu contestuale. In tale menù a tendina sarà possibile
+ cliccare su “Associa nuova organizzazione”
+ per avviare una nuova procedura di associazione a una ulteriore organizzazione tramite la procedura ordinaria. In particolare, verrà inviata una PEC di convalida al domicilio digitale di ogni organizzazione per la quale si richiedere l’associazione.
+Completata l’associazione, a valle dell’autenticazione sul Portale dei Servizi, sarà visualizzata una pagina di snodo (“Scegli organizzazione”) per selezionare l’organizzazione per cui si intende operare (es. inviare la dichiarazione NIS). Inoltre, sarà possibile cambiare l’organizzazione per cui si intende operare, anche da altre pagine del Portale dei Servizi, aprendo il menu contestuale con il pulsante in alto a destra e 
+cliccando su “Cambia organizzazione”
+.
+Si evidenzia che la piattaforma consente la gestione simultanea di più registrazioni NIS per conto delle organizzazioni associate al medesimo punto di contatto.
+PDC.3 Quali sono le responsabilità del punto di contatto?
+Ai sensi dell’articolo 4, comma 1, della 
+Determinazione ACN 379887/2025
+, il punto di contatto non ha la “responsabilità” degli adempimenti di cui al decreto NIS, ma ne “cura” l’attuazione , ciò in quanto, ai sensi dell’articolo 23 del Decreto NIS, in prima battuta, la responsabilità delle violazioni è posta in capo ai vertici aziendali (organi di amministrazione e direttivi), ovvero i componenti del Consiglio di amministrazione (CDA) e /o assimilabil), richiamati, poi, all’articolo 38 relativo alle sanzioni.
+Il punto di contatto, inoltre, è la figura tramite la quale l’Autorità nazionale competente NIS interloquisce con il soggetto circa tutti gli aspetti inerenti al decreto NIS.
+PDC.4 Quali sono i ruoli e le responsabilità del Sostituto punto di contatto? Come viene designato?
+Ai sensi dell'articolo 5 della 
+Determinazione ACN 379887/2025
+ il sostituto punto di contatto è una persona fisica designata con le medesime modalità del punto di contatto ai sensi dell’articolo 4 della medesima determinazione. Il sostituto punto di contatto supporta il punto di contatto nell’esercizio delle proprie funzioni, può interloquire direttamente con l’Autorità nazionale competente NIS e può effettuare sul Portale NIS/Aggiornamento annuale le medesime azioni del punto di contatto.
+PDC.5 Come si procede al censimento e all’associazione del punto di contatto?
+Eseguita l’autenticazione sul portale dei servizi tramite SPID, CIE o tramite credenziali personali, per la fase di censimento del punto di contatto, sarà necessario verificare o fornire i seguenti dati:
+nome e cognome;
+luogo e data di nascita;
+ codice fiscale;
+cittadinanza;
+Paese di residenza e, ove richiesto, di domicilio;
+indirizzo di posta elettronica ordinaria, preferibilmente individuale, nonché di servizio, aziendale o professionale;
+ove disponibile, un indirizzo di posta elettronica certificata, preferibilmente individuale, nonché di servizio, aziendale o professionale;
+numero di telefono, preferibilmente individuale, nonché di servizio, aziendale o professionale;
+ove disponibile, un numero alternativo di telefono, preferibilmente individuale di servizio, aziendale o professionale.
+Successivamente, per la fase di 
+associazione del punto di contatto all’organizzazione
+, sarà necessario disporre del codice fiscale di quest’ultimo. Inoltre, qualora il punto di contatto non sia il rappresentante legale del soggetto o un suo procuratore generale censito sul registro delle imprese, sarà necessario caricare il titolo giuridico che lo delega a operare per conto del soggetto.
+L’associazione dell’utenza del punto di contatto è sottoposta alla convalida dell’organizzazione, secondo la procedura telematica indicata nella richiesta inviata al domicilio digitale di quest’ultimo.
+PDC.6 Come si procede al censimento e all’associazione del sostituto punto di contatto?
+Il sostituto punto di contatto viene invitato dal punto di contatto, il quale dovrà indicare il codice fiscale e un indirizzo email della persona fisica che è stata designata dal rappresentante legale per svolgere tale funzione.
+A valle dell’inserimento dei dati soprariportati verrà inviata contestualmente sia una e-mail PEC al domicilio digitale dell’organizzazione per validare l’associazione del Sostituto punto di Contatto sia una e-mail al sostituto punto di contatto per procedere con il primo accesso al Portale Servizi tramite SPID o accesso con credenziali. Al termine del processo di registrazione e associazione all’organizzazione, nella homepage del Portale Servizi, il Sostituto punto di contatto dovrà accedere alla pagina “Lista inviti” (contenente la lista degli inviti ricevuti ancora in stato “da validare”) e confermare la designazione ricevuta.
+PDC.7 Chi possono delegare come Punto di contatto i soggetti che sono tenuti a designare un rappresentante nell’Unione?
+Ai sensi dell'articolo 4, comma 2, della 
+Determinazione ACN 379887/2025
+, le funzioni di Punto di contatto possono essere svolte dal rappresentante legale o da un suo procuratore generale oppure da un dipendente delegato del soggetto.
+Tuttavia, i soggetti che, ai sensi dell’articolo 5, del decreto NIS designano il proprio rappresentante nell’Unione in Italia possono delegare la funzione di Punto di contatto anche al rappresentante stesso (articolo 6, comma 4, della citata determinazione).
+In particolare, la funzione di Punto di contatto può essere svolta per tali soggetti, oltre che dal rappresentante legale o da un suo procuratore generale oppure da un dipendente delegato del soggetto, anche:
+dal rappresentante NIS stesso, qualora sia una persona fisica;
+dal rappresentante legale, da uno dei procuratori generali o da un dipendente del rappresentante NIS stesso, qualora quest’ultimo sia una persona giuridica.
+Rimane ferma la facoltà, ai sensi del comma 3 del medesimo articolo, per le organizzazioni che fanno parte di un gruppo di imprese di designare quale Punto di contatto il dipendente di un'altra impresa che rientra nell’ambito di applicazione del decreto NIS e che fa parte del medesimo gruppo di imprese.
+RR.1 Quale è il ruolo e le responsabilità della segreteria? Come viene designata?
+La Segreteria è una persona fisica che svolge funzioni di supporto al punto di contatto ed al sostituto per promuovere l’efficace interlocuzione con l’Autorità Nazionale Competente NIS.
+Inoltre, la segreteria potrà visualizzare ed aggiornare le informazioni richieste sui Servizi NIS mentre non potrà effettuare le azioni che determinano la trasmissione di comunicazioni inerenti il perfezionamento degli adempimenti di cui al decreto NIS, al domicilio digitale del soggetto NIS o all’Autorità Nazionale Competente NIS.
+La designazione della Segreteria non è obbligatoria ma la volontà di non nominarla deve essere manifestata esplicitamente.
+Qualora l’organizzazione decidesse di designare la segreteria, il punto di contatto (o il sostituto) dovranno invitare la persona fisica che svolgerà tale ruolo indicandone codice fiscale e indirizzo email
+A valle dell’inserimento dei dati soprariportati verrà inviata una e-mail all’indirizzo digitale fornito nel Portale Servizi per notificare l’avvenuta designazione. All’interno della e-mail sarà presente un link (con validità pari a 7 giorni), tramite il quale sarà possibile avviare il processo di associazione, previa registrazione della Segreteria sul Portale Servizi tramite SPID o accesso con credenziali.
+Al termine del processo di registrazione e associazione all’organizzazione, nella homepage del Portale Servizi, la Segreteria dovrà accedere alla pagina “Lista inviti” (contenente la lista degli inviti ricevuti ancora in stato “da validare”) e confermare la designazione ricevuta.
+L’associazione della Segreteria all’organizzazione designante avverrà automaticamente, senza necessità di caricare ulteriore documentazione.
+RR.2 Quale è il ruolo e le responsabilità degli operatori? Come vengono designati?
+Gli operatori sono una o più persone fisiche che svolgono funzioni di supporto al punto di contatto (e al sostituto) operando sui servizi NIS.
+La designazione di uno o più operatori non è obbligatoria.
+Gli operatori agiscono sul Portale dei Servizi limitatamente alle attività di visualizzazione ed aggiornamento delle informazioni richieste, mentre non potranno effettuare azioni che determinano la trasmissione di comunicazioni inerenti il perfezionamento degli adempimenti di cui al decreto NIS, al domicilio digitale del soggetto NIS o all’Autorità Nazionale Competente NIS.
+Ai sensi dell'articolo 10, comma 1, della 
+Determinazione ACN 379887/2025
+ al Punto di contatto e al suo sostituto è data facoltà di invitare ulteriori utenti con tale ruolo.
+RR.3 E' possibile attribuire ruoli e responsabilità a soggetti esterni all'organizzazione?
+Ai sensi della 
+Determinazione ACN 379887/2025
+, articoli 4 e 5, le uniche figure che non possono essere esternalizzate sono il punto di contatto e il suo sostituto, i quali, possono avvalersi di di personale esterno nell’espletamento delle proprie funzioni.
+ Referente CSIRT
+RCS.1 Di quali competenze e caratteristiche deve essere dotato il Referente CSIRT?
+Ai sensi dell'articolo 7 della 
+Determinazione ACN 379887/2025
+, le funzioni di Referente CSISRT possono essere svolte da qualsiasi persona fisica designata dal Punto di contatto per conto del soggetto NIS, purché possieda almeno competenze di base in materia di sicurezza informatica e di gestione di incidenti informatici, nonché una conoscenza approfondita dei sistemi informativi e di rete del soggetto NIS per conto del quale opera.
+Nelle organizzazioni complesse e articolate è possibile soddisfare il requisito di cui all’articolo 7 della 
+Determinazione ACN 379887/2025
+, attraverso un modello operativo che consenta al referente CSIRT di disporre, anche indirettamente, attivando caso per caso personale preposto, delle prescritte conoscenze approfondite dei sistemi informativi e di rete
+Per quanto sia auspicabile che il Referente CSIRT sia interno all’organizzazione, contrariamente al Punto di contatto, la citata determinazione non vieta l’esternalizzazione di tale figura. Pertanto, è possibile designare quale Referente CSIRT personale esterno come, ad esempio, un responsabile del SOC/CERT o della gestione dell’infrastruttura IT esternalizzato.
+Analogamente, per quanto sia auspicabile che i ruoli di Punto di contatto e Referente CSIRT siano svolte da persone fisiche distinte, con riguardo alle organizzazioni di dimensioni contenute, la citata determinazione non vieta la sovrapposizione di tali ruoli sulla medesima persona fisica che, in questo caso, deve necessariamente essere interna all’organizzazione.
+RCS.2 Quali sono le responsabilità e il ruolo del Referente CSIRT?
+Ai sensi dell’articolo 7, comma 2, della 
+Determinazione ACN 379887/2025
+, il Referente CSIRT ha il compito di interloquire con lo CSIRT Italia ed effettuare le notifiche obbligatorie degli incidenti significativi (ex articolo 25 del Decreto NIS e articolo 2, comma 3, della 
+Determinazione ACN 379907/2025
+), nonché di quelle volontarie (ex articolo 26 del medesimo Decreto NIS) per conto del soggetto per cui opera.
+Si evidenzia che la designazione del referente CSIRT è una delega “operativa” e non costituisce una delega di responsabilità, in quanto ai sensi dell’articolo 23 del Decreto NIS, in prima battuta, la responsabilità delle violazioni è posta in capo ai vertici (organi di amministrazione e direttivi), ovvero ai componenti del Consiglio di amministrazione [(CDA) e /o assimilabili)].
+Al fine di assicurare che le informazioni siano tempestivamente veicolate alle strutture e figure competenti è necessario che il soggetto NIS definisca ruoli, responsabilità, processi e procedure per l’assunzione delle relative decisioni che, nei casi più gravi, rientrano nelle competenze degli organi di amministrazione e direttivi.
+In tale contesto, viene in rilievo la misura RS.MA-01 “Il piano di risposta agli incidenti è eseguito in coordinamento con le terze parti interessate una volta dichiarato un incidente” di cui agli allegati 1 e 2 della 
+Determinazione ACN 379907/2025
+ relativa alle specifiche di base che i soggetti NIS sono tenuti ad adottare. La piena attuazione di tale misura consente al soggetto di poter assicurare la tempestiva circolarità informativa tra le figure necessarie per la gestione di un incidente sul piano tecnico (ad esempio, personale dell’IT e del SOC/CERT), di business e manageriale/apicale, nonché un efficace processo decisionale.
+RCS.3 E’ possibile designare personale esterno al soggetto quale Referente CSIRT?
+Ai sensi dell'articolo 7 della 
+Determinazione ACN 379887/2025
+, le funzioni di Referente CSIRT possono essere svolte da qualsiasi persona fisica designata dal Punto di contatto per conto del soggetto NIS, purché possieda almeno competenze di base in materia di sicurezza informatica e di gestione di incidenti informatici, nonché una conoscenza approfondita dei sistemi informativi e di rete del soggetto NIS per conto del quale opera.
+Per quanto sia auspicabile che il Referente CSIRT sia interno all’organizzazione, contrariamente al Punto di contatto, la citata determinazione non vieta l’esternalizzazione di tale figura. Pertanto, è possibile designare quale Referente CSIRT personale esterno come, ad esempio, un responsabile del SOC/CERT o della gestione dell’infrastruttura IT esternalizzato.
+Si segnala, inoltre che, non sono previste limitazioni in termini di cittadinanza del referente CSIRT. Infine, si rappresenta che, fermo restando che la lingua delle comunicazioni ufficiali è l’italiano, è possibile interloquire con lo CSIRT Italia anche in lingua inglese.
+RCS.4 Quali sono le responsabilità e il ruolo del sostituto Referente CSIRT?
+I sostituti supportano il Referente CSIRT nello svolgimento tempestivo dei suoi compiti.
+Inoltre, al sostituto Referente CSIRT si applicano le medesime previsioni del Referente CSIRT e, pertanto, vengono in rilievo le FAQ RCS.1, RCS.2 e RCS.3.
+RCS.5 Come si procede alla designazione del Referente CSIRT e dei suoi sostituti?
+Ai sensi dell’articolo 7 della 
+Determinazione ACN 379887/2025
+, il Referente CSIRT e i suoi sostituti sono designati dal Punto di contatto tramite la funzionalità di Aggiornamento dati disponibile tra i Servizi NIS del Portale dei Servizi ACN.
+In particolare, dal 20 novembre, il Punto di Contatto, accedendo al Portale dei Servizi, troverà all’interno della funzionalità di Aggiornamento dati una nuova sezione per l’inserimento dei dati del referente CSIRT (codice fiscale e indirizzo di posta elettronica) e di eventuali suoi Sostituti.
+Per completare la procedura, il Referente CSIRT (e i suoi sostituti) dovranno accedere sul Portale dei Servizi e completare il censimento della propria utenza.
+Si segnala che non è quindi necessario caricare alcuna documentazione a tal fine.
+RCS.6 Chi può effettuare la notifica (obbligatoria) degli incidenti significativi?
+Ai sensi della 
+Determinazione ACN 379887/2025
+ i principali interlocutori dello CSIRT Italia sono il Referente CSIRT e i suoi sostituti che, pertanto, sono preposti alla notifica degli incidenti.
+Oltre a tali interlocutori, la notifica degli incidenti può anche essere effettuata dal Punto di contatto e dal Sostituto Punto di Contatto.
+ Procedure
+ELN.1 Cosa deve fare un soggetto che non ha ricevuto la comunicazione di inserimento nell’elenco dei soggetti NIS?
+A cavallo del 12 e 13 aprile 2025, sono state trasmesse le comunicazioni di cui all'articolo 7, comma 3, ai domicili digitali di tutte le organizzazioni che hanno svolto la procedura di registrazione, completando il censimento del Punto di contatto e trasmettendo la dichiarazione.
+I soggetti, per i quali non è stato possibile accertare la ricezione telematica della PEC, sono stati contattati direttamente dall'Autorità nazionale competente NIS.
+Pertanto, prima di segnalare la mancata ricezione della predetta comunicazione tramite Service Desk le Organizzazioni sono tenute ad effettuare la verifica approfondita delle mail ricevute al loro domicilio digitale.
+RET.1 Quale procedura è prevista per le organizzazioni che non abbiano svolto la registrazione entro il 28 febbraio 2025?
+A partire dal 14 aprile 2025 è stato ri-attivato il servizio ACN/Registrazione sul portale dei servizi al fine di consentire alle organizzazioni non ancora registrate di procedere alla cd. registrazione tardiva.
+ACC.1 Quale è la procedura per la richiesta di credenziali di accesso al portale ACN per gli utenti che non possono disporre di SPID o di CIE?
+Ai sensi del dell’articolo 8, comma 3, della 
+Determinazione ACN 379887/2025
+, qualora, ai sensi della normativa vigente, un utente non possa disporre di credenziali SPID o di CIE, può richiedere delle credenziali personali per autenticarsi al Portale dei servizi di ACN.
+Per poter ottenere tali credenziali personali (utenza e password), deve essere inviata all’Agenzia per la cybersicurezza nazionale;
+il seguente 
+modulo di richiesta
+, compilato e firmato digitalmente dal richiedente;
+copia di un documento identificativo valido e vigente del richiedente, quali il passaporto (preferibile), carta d'identità nazionale o altro documento di identificazione rilasciato dalle autorità locali del Paese di appartenenza.
+La documentazione deve essere trasmessa dal Punto di contatto o dal suo sostituto, inviando una richiesta di assistenza tramite il Service Desk
+ (
+https://portale.acn.gov.it/support/
+), con oggetto “Richiesta credenziali personali”.
+ACN provvederà a notificare l’eventuale diniego (motivato) ovvero a trasmettere all’indirizzo di posta elettronica ordinaria indicata nel modulo il link per la generazione delle credenziali personali, che saranno associate al medesimo indirizzo.
+Qualora la richiesta sia per il Punto di contatto, la documentazione deve essere all’indirizzo 
+acn@pec.acn.gov.it
+ dall’indirizzo PEC:
+del soggetto per il quale l’utente si dichiara essere Punto di contatto;
+del Rappresentante nell’Unione in Italia del soggetto designante, se il soggetto non dispone di PEC e, ai sensi dell’articolo 6 della citata determinazione, è tenuto a designare il Rappresentante nell’Unione e ha provveduto a designarlo in Italia;
+del Punto di contatto del soggetto, se il soggetto non dispone di PEC e non è tenuto a designare il Rappresentante nell’Unione sul territorio nazionale.
+DOC.1 Qual è la procedura di aggiornamento delle deleghe?
+L'utente (Punto di contatto o Sostituto punto di contatto) ha la possibilità di aggiornare la delega conferitagli all’interno della sezione "Documenti" presente nell'area "Il mio profilo”. In tale sezione l'utente visualizza e gestisce esclusivamente le proprie deleghe relative ai diversi Servizi presenti all'interno del "Catalogo servizi", assicurandone la correttezza e l’aggiornamento. Qualora l’utente intenda aggiornare la propria delega potrà procedere con il caricamento di una nuova versione del documento delega e del documento di identità del delegante qualora la delega non sia firmata digitalmente. Si precisa che l’aggiornamento della delega non comporta l’eliminazione del documento precedentemente caricato che rimane visibile nella cronologia documentale.
+Informazioni su 
+Agenzia per la
+ cybersicurezza nazionale
+Contatti
+info@acn.gov.it
+Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
+non all’indirizzo e-mail dell’Agenzia
+.
+Per interviste, inviti ad eventi o manifestazioni
+comunicazione@acn.gov.it
+Link utili
+Centro di Valutazione e Certificazione Nazionale
+: apre una nuova finestra
+Linee guida ACN
+Referente per la cybersicurezza
+Patrocinio
+Lavora con noi
+Domande frequenti
+Trasparenza
+Amministrazione trasparente
+Atti di notifica
+Piattaforma Whistleblowing
+: apre una nuova finestra
+Seguici su
+Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Altre informazioni
+Note legali
+Privacy policy
+Dichiarazione di accessibilità
+: apre una nuova finestra
+Social media policy
+Nascosta

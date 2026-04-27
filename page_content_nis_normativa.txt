@@ -1,0 +1,325 @@
+La normativa - ACN
+		Skip to Main Content
+La normativa
+seguici_su
+Agenzia:
+Linkedin: apre una nuova finestra
+Youtube: apre una nuova finestra
+seguici_su
+CSIRT Italia:
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Lingue disponibili:
+ ITA 
+ITA
+: italiano
+ENG
+: english
+Apri menu principale
+Agenzia per la 
+cybersicurezza nazionale
+Segnala un incidente informatico
+apri_ricerca
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+ Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+ Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
+ Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+ Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+ Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Home
+NIS
+La normativa
+La normativa
+Con il 
+decreto legislativo 4 settembre 2024, n. 138
+, l’Italia ha recepito nell’ordinamento nazionale la direttiva (UE) 2022/2555, relativa a misure per un livello comune elevato di sicurezza informatica nell'Unione abrogando la precedente direttiva. Rimangono tuttavia fermi gli obblighi in capo agli operatori di servizi essenziali (OSE) e ai fornitori di servizi digitali (FSD).
+Il decreto conferma il ruolo dell’ACN come Autorità nazionale competente NIS e Punto di contatto unico. Sono inoltre identificati 9 Ministeri quali Autorità di settore che supportano l’attuazione della normativa con la propria competenza settoriale, collaborando nel contesto del Tavolo per l’attuazione della disciplina NIS presieduto da ACN, a cui prendono parte anche rappresentanti della Conferenza permanente per i rapporti tra lo Stato, le Regioni e le Province autonome di Trento e di Bolzano.
+Il nuovo impianto normativo contiene diverse novità. La prima riguarda l'ampliamento del campo di applicazione a 18 settori di cui 11 altamente critici e 7 critici, imponendo obblighi all’intera infrastruttura ICT.
+Identificazione
+La revisione del meccanismo di identificazione dei soggetti importanti o essenziali prevede un criterio omogeneo basato sulla dimensione (cosiddetto “
+size-cap rule
+”) che estende l'applicazione della normativa a tutte le medie e grandi imprese operanti nei settori identificati (in taluni casi, anche a piccole e microimprese), nonché a numerose pubbliche amministrazioni.
+Resta ferma la possibilità per l’Autorità nazionale competente NIS, su proposta delle Autorità di settore, di individuare ulteriori soggetti ritenuti critici.
+Registrazione
+Tutti i soggetti pubblici e privati che rientrano nel campo di applicazione dovranno manifestarsi all’Autorità nazionale competente NIS 
+registrandosi o aggiornando la propria registrazione sulla piattaforma
+ a partire dal primo dicembre 2024.
+Supporto e supervisione
+Al fine di guidare i soggetti nell’attuazione sostanziale degli obblighi, la normativa pone un forte accento sulle attività di monitoraggio, supporto e analisi. Al contempo vengono rafforzati i poteri di supervisione, in termini di attività di esecuzione, verifica, ispezione, ed allineata l’entità delle sanzioni a quelle previste dal GDPR.
+Misure di sicurezza e obblighi
+Sono previsti un maggior dettaglio degli obblighi in capo ai soggetti, con l’indicazione di dieci ambiti per le misure di sicurezza, un processo di notifica degli incidenti più articolato e la responsabilizzazione dei vertici delle organizzazioni. Al fine di garantire che la severità di tutti gli obblighi sia coerente con l’effettiva esposizione ai rischi dei segmenti di infrastruttura ICT è introdotto un meccanismo per la loro definizione in maniera graduale e proporzionata, fondato sulla categorizzazione delle attività e dei servizi dei soggetti.
+Condivisione
+Viene assicurata una più ampia condivisione a livello europeo, con l’estensione dei compiti del Gruppo di Cooperazione NIS e l’introduzione della revisione tra pari e della mutua assistenza tra Autorità nazionali competenti degli Stati membri.
+Risposta agli incidenti e gestione delle crisi
+Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni i materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala.
+Il nuovo assetto normativo NIS prevede:
+Ambito
+L’indicazione dell'ambito di applicazione e dei soggetti a cui si applica il decreto (articoli 3 e 6).
+ Ambito
+su Ambito
+Registrazione
+Le modalità di registrazione per i soggetti in ambito di applicazione del decreto (articolo 7).
+ Registrazione
+su Registrazione
+Obblighi
+La definizione dei relativi obblighi in materia di misure di gestione dei rischi per la sicurezza informatica e di notifica di incidente.
+ Obblighi
+su Obblighi
+Principali provvedimenti attuativi D.Lgs. 138/2024
+Termine
+Atto
+Contenuto
+Entro 30 giorni dalla data di entrata in vigore del D.Lgs NIS2
+DPCM su proposta ACN
+, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+, previo parere 
+Comitato per la Cybersicurezza
+Criteri per l'applicazione della clausola di salvaguardia (
+DPCM del 9 dicembre 2024, n. 221
+, pubblicato nella Gazzetta Ufficiale del 10 febbraio 2025)
+DPCM su proposta ACN
+, d'intesa con le Autorità di settore, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+, previo parere 
+Comitato per la Cybersicurezza
+Eventuali ulteriori specifiche dei settori
+DPCM su proposta ACN
+, d'intesa con 
+Le Amministrazioni interessate
+, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+, previo parere 
+Comitato per la Cybersicurezza
+Cooperazione con le autorità nazionali
+Determinazione ACN
+, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+Determinazione ACN 112335/2026
+ - Composizione del Tavolo per l’attuazione della disciplina NIS
+Determinazione ACN 276206 del 16 luglio 2025
+ - Organizzazione e per il funzionamento del Tavolo per l'attuazione della disciplina NIS
+Determinazione ACN
+, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+Determinazione ACN 127437/2026
+ - Piattaforma, Punto di contatto e sostituto, aggiornamento delle informazioni e rappresentante NIS di cui all'articolo 7 del decreto NIS
+Determinazione ACN
+, su proposta delle 
+Autorità di settore
+ interessate, sentito il Tavolo per l'attuazione della disciplina NIS
+Da fine gennaio a inizio febbraio sono state adottate le determinazioni, su proposta della PCM, dal MIMIT, dal MASE, dal MIT, dal MUR e dal MIC, per l'individuazione di ulteriori soggetti ai sensi dell'articolo 3, comma 13, del decreto NIS
+Entro il 31 marzo 2025
+Determinazione ACN
+, su proposta delle 
+Autorità di settore
+ interessate, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+Il 14 aprile sono state esaminate le determinazioni recanti, a fronte delle richieste formulate dai soggetti NIS, l'applicazione della clausola di salvaguardia
+Determinazione ACN
+, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+Il 14 aprile sono state esaminate le determinazioni recanti l'elenco dei soggetti essenziali e dei soggetti importanti (elenco dei soggetti NIS) di cui all'articolo 7 del decreto NIS
+Entro 6 mesi dalla data di entrata in vigore del D.Lgs. NIS2
+DPCM su proposta ACN
+, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+, previo parere 
+Comitato per la Cybersicurezza
+Criteri, procedure e modalità per le attività di monitoraggio, vigilanza ed esecuzione
+DPCM su proposta ACN
+, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+, previo parere 
+Comitato per la Cybersicurezza
+Modalità di applicazione degli strumenti deflattivi del contenzioso
+DPCM su proposta ACN
+, d'intesa con 
+Autorità di settore
+, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+, previo parere 
+Comitato per la Cybersicurezza
+Modalità di collaborazione con le Autorità di settore
+Determinazione ACN
+, d'intesa con il 
+Ministero della Giustizia
+, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+Politica nazionale di divulgazione coordinata delle vulnerabilità
+Determinazione ACN
+, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+ Determinazione ACN 136118 del 10 aprile 2025 – Notifica degli accordi di condivisione delle informazioni sulla sicurezza informatica di cui all'articolo 17 del decreto NIS 
+Determinazione ACN
+, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+Determinazione ACN 379907/2025
+ – Specifiche di base per l'adempimento agli obblighi di cui agli articoli 23, 24, 25, 29 e 32 del decreto NIS. 
+Allegato recante le specifiche di base per l'adempimento agli obblighi di cui agli articoli 23 e 24 per i soggetti importanti.
+Allegato recante le specifiche di base per l'adempimento agli obblighi di cui agli articoli 23 e 24 per i soggetti essenziali.
+Allegato recante le specifiche di base per l'adempimento agli obblighi di cui all'articolo 25 per i soggetti importanti.
+Allegato recante le specifiche di base per l'adempimento agli obblighi di cui all'articolo 25 per i soggetti essenziali.
+Determinazione ACN
+, sentito il 
+Tavolo per l'attuazione della disciplina NIS
+Determinazione ACN 127434/2026
+ – Termini per i soggetti 2026 in relazione agli obblighi di cui agli articoli 23, 24, 25, 29 e 32 del decreto NIS
+Entro 18 mesi dalla data di entrata in vigore del D.Lgs. NIS2
+Determinazione ACN
+, sentito il 
+Tavolo per l'attuazione della disciplina NISGG
+Determinazione 155238/2026
+ categorie di rilevanza nonché il processo, le modalità e i criteri per l'elencazione, caratterizzazione e categorizzazione delle attività e dei servizi 
+Allegato 1
+ recante il modello per l’elencazione, caratterizzazione e categorizzazione delle attività e dei servizi per i soggetti NIS riconducibili alle tipologie di soggetto di cui ai numeri 1, 2, 5, 6, 7 e 10, dell’allegato I, ai numeri 1, 2, 3, 4 e 5, dell’allegato II, nonché al numero 1 dell’allegato IV del decreto NIS 
+Allegato 2
+ recante il modello per l’elencazione, caratterizzazione e categorizzazione delle attività e dei servizi per i soggetti NIS riconducibili alle altre tipologie di soggetto di cui al decreto NIS 
+Recepimento e attuazione
+Recepimento e attuazione
+ febbraio 23 - metà ottobre 24
+Recepimento
+Avvio di alcuni tavoli settoriali
+7 agosto 2024
+: adozione definitiva in CDM
+1° ottobre 2024
+: pubblicazione in Gazzetta Ufficiale
+16 ottobre 2024
+: entrata in vigore 
+ metà ottobre 24 – metà aprile 25
+Prima fase attuativa
+Avvio formale di tutti i tavoli settoriali
+Entro febbraio 2025
+: censimento e registrazione dei soggetti
+Entro marzo 2025
+: adozione dell’elenco dei soggetti NIS
+Entro aprile 2025
+: notifica ai soggetti NIS
+Entro aprile 2025
+: elaborazione e adozione obblighi di base
+ metà aprile 25 – metà aprile 26
+Seconda fase attuativa
+Monitoraggio e supporto
+A partire da gennaio 2026 
+(9 mesi dalla ricezione delle prime comunicazioni di inserimento nell’elenco dei soggetti NIS): obbligo di notifica di base
+Entro aprile 2026
+: elaborazione e adozione del modello di 
+ categorizzazione delle attività e dei servizi
+Entro aprile 2026
+: elaborazione e adozione degli
+ obblighi a lungo termine
+Entro settembre 2026 
+ Entro ottobre 2026 (18 mesi dalla ricezione delle prime comunicazioni di inserimento nell’elenco dei soggetti NIS): completa implementazione
+ delle misure di sicurezza di base
+ da metà aprile 26
+Terza fase attuativa
+Categorizzazione delle attività e dei servizi
+Implementazione degli obblighi a lungo termine
+Informazioni su 
+Agenzia per la
+ cybersicurezza nazionale
+Contatti
+info@acn.gov.it
+Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
+non all’indirizzo e-mail dell’Agenzia
+.
+Per interviste, inviti ad eventi o manifestazioni
+comunicazione@acn.gov.it
+Link utili
+Centro di Valutazione e Certificazione Nazionale
+: apre una nuova finestra
+Linee guida ACN
+Referente per la cybersicurezza
+Patrocinio
+Lavora con noi
+Domande frequenti
+Trasparenza
+Amministrazione trasparente
+Atti di notifica
+Piattaforma Whistleblowing
+: apre una nuova finestra
+Seguici su
+Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Altre informazioni
+Note legali
+Privacy policy
+Dichiarazione di accessibilità
+: apre una nuova finestra
+Social media policy
+Nascosta

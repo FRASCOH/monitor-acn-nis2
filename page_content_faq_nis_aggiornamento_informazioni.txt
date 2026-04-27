@@ -1,0 +1,163 @@
+Aggiornamento delle informazioni - ACN
+		Skip to Main Content
+Aggiornamento delle informazioni
+seguici_su
+Agenzia:
+Linkedin: apre una nuova finestra
+Youtube: apre una nuova finestra
+seguici_su
+CSIRT Italia:
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Lingue disponibili:
+ ITA 
+ITA
+: italiano
+ENG
+: english
+Apri menu principale
+Agenzia per la 
+cybersicurezza nazionale
+Segnala un incidente informatico
+apri_ricerca
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+ Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+ Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
+ Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+ Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+ Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Home
+NIS
+Aggiornamento delle informazioni
+Aggiornamento delle informazioni
+Intro
+In linea con quanto stabilito dall’articolo 7, commi 4 e 5, del decreto NIS, la 
+Determinazione ACN 379887/2025
+, che aggiorna la precedente determinazione (333017 del 22 settembre 2025), disciplina, tra l’altro, le modalità di designazione del punto di contatto e di aggiornamento annuale e continuo delle informazioni, tramite i servizi dedicati NIS/Aggiornamento annuale e NIS/Aggiornamento continuo disponibili sul Portale ACN.
+ apre nuova scheda
+ Portale dei Servizi 
+Punto di contatto e sostituto
+Oltre a verificare la correttezza dei dati anagrafici e di contatto, nonché della delega, del punto di contatto, entro il 31 maggio 2025 i soggetti NIS dovranno designare il sostituto punto di contatto.
+Il sostituto punto di contatto è una persona fisica, distinta dal punto di contatto, designato con le medesime modalità, che supporta quest’ultimo nell’esercizio delle proprie funzioni, che può interloquire direttamente con l’Autorità nazionale competente NIS e che può effettuare sulla piattaforma digitale le medesime azioni del punto di contatto.
+Inoltre, per agevolare le attività tramite i servizi NIS resi disponibili sul Portale ACN, il punto di contatto potrà farsi assistere da ulteriori utenti, invitandoli a svolgere il ruolo di operatore o di segreteria.
+Spazio di indirizzamento IP e nomi di dominio
+Tra le attività necessarie per effettuare l’aggiornamento annuale delle informazioni, i punti di contatto dovranno indicare gli indirizzi IP pubblici e statici che il soggetto NIS utilizza o ha nella propria disponibilità in forza di contratti o accordi con fornitori di servizi Internet (ISP), Registri Internet Regionali o altre organizzazioni deputate alla fornitura di indirizzi IP sulla base delle normative e degli accordi nazionali, europei e internazionali vigenti.
+Inoltre, i punti di contatto dovranno indicare i nomi di dominio che il soggetto NIS utilizza o ha nella propria disponibilità in forza di contratti o accordi con fornitori di servizi di registrazione di nomi di dominio o altre organizzazioni deputate loro fornitura di nomi di dominio sulla base delle normative e degli accordi nazionali, europei e internazionali vigenti.
+Altre informazioni
+Per concludere l’adempimento, sarà necessario anche verificare la correttezza dei dati anagrafici e di contatto del soggetto NIS, nonché indicare ulteriori informazioni, come i servizi offerti e le sedi nell’UE.
+Domande frequenti
+Consulta le domande frequenti sulla nuova direttiva NIS
+ Scopri di più
+su Domande frequenti
+Assistenza
+Dopo aver consultato questa sezione e le domande frequenti hai ancora dei dubbi?
+ Puoi chiedere assistenza all’Autorità nazionale competente NIS.
+ Richiedi assistenza 
+Informazioni su 
+Agenzia per la
+ cybersicurezza nazionale
+Contatti
+info@acn.gov.it
+Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
+non all’indirizzo e-mail dell’Agenzia
+.
+Per interviste, inviti ad eventi o manifestazioni
+comunicazione@acn.gov.it
+Link utili
+Centro di Valutazione e Certificazione Nazionale
+: apre una nuova finestra
+Linee guida ACN
+Referente per la cybersicurezza
+Patrocinio
+Lavora con noi
+Domande frequenti
+Trasparenza
+Amministrazione trasparente
+Atti di notifica
+Piattaforma Whistleblowing
+: apre una nuova finestra
+Seguici su
+Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Altre informazioni
+Note legali
+Privacy policy
+Dichiarazione di accessibilità
+: apre una nuova finestra
+Social media policy
+Nascosta

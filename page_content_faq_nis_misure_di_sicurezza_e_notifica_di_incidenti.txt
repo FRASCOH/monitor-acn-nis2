@@ -1,0 +1,280 @@
+Domande frequenti NIS - Misure di sicurezza e notifica di incidenti - ACN
+		Skip to Main Content
+Domande frequenti NIS - Misure di sicurezza e notifica di incidenti
+seguici_su
+Agenzia:
+Linkedin: apre una nuova finestra
+Youtube: apre una nuova finestra
+seguici_su
+CSIRT Italia:
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Lingue disponibili:
+ ITA 
+ITA
+: italiano
+ENG
+: english
+Apri menu principale
+Agenzia per la 
+cybersicurezza nazionale
+Segnala un incidente informatico
+apri_ricerca
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+ Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+ Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
+ Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+ Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+ Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Home
+Domande frequenti
+NIS
+Misure di sicurezza e notifica di incidenti
+Domande frequenti NIS - Misure di sicurezza e notifica di incidenti
+Home
+Domande frequenti
+NIS
+Domande frequenti NIS - Misure di sicurezza e notifica di incidenti
+Menu della sezione 
+ Domande frequenti
+Apri menu della sezione Domande frequenti
+PNRR
+Cloud
+NIS
+Profili generali
+Ambito
+Settori, sottosettori e tipologie di soggetto
+Registrazione
+Misure di sicurezza e notifica di incidenti
+Aggiornamento delle informazioni
+Categorizzazione
+Ruoli e procedure
+PSNC
+Concorsi
+CSIRT Italia
+NCC Italia
+Strategia Nazionale di Cybersicurezza
+ NIS - Misure di sicurezza e notifica di incidenti
+Puoi utilizzare la ricerca nelle domande frequenti digitando la paroladi interesse così da poter più facilmente identificare quello che staicercando. I risultati saranno filtrati dal terzo carattere digitato.
+ Nessun risultato trovato
+Per chiarimenti su ruoli e procedure, vai alla sezione 
+Ruoli e procedure
+.
+DSB.1 Cosa cambia con l’ultimo aggiornamento della determinazione sugli obblighi di base?
+Con l’adozione della Determinazione 379907/2025 del 19 dicembre 2025 – che si applica a partire dal 15 gennaio 2026 – , viene aggiornata la determinazione 164179 del 14 aprile:
+viene dato atto del perfezionamento della procedura di informazione delle regole tecniche alla Commissione ai sensi della Direttiva 2015/1535 (c.d. notifica TRIS), il cui periodo di standstill si è concluso l’11 novembre u.s.;
+le previsioni transitorie inerenti all’obbligo di notifica per gli operatori di servizi essenziali e per gli operatori telco rimangono in vigore fino al 14 gennaio 2026, per poi essere abrogate dalla disciplina generale dell’obbligo di notifica che si applica dal 15 gennaio 2026;
+sono apportati gli affinamenti agli obblighi di base di seguito elencati: 
+Usata la stessa formulazione delle altre misure con riferimento alle forniture con potenziali impatti sulla sicurezza nella misura GV.SC-04.
+Specificato che si tratta di piano di trattamento dei rischi per la sicurezza informatica nella misura ID.RA-06 (prima si parlava di piano di trattamento).
+Aggiunto “in modo adeguato” con riguardo alla configurazione dei sistemi perimetrali.
+Aggiunto “acquisiti” nella misura in cui si chiede di conservare i log.
+Aggiunto “ivi incluse le esigenze di continuità/ripristino” con riferimento alle finalità dei piani di continuità e di ripristino, in quanto queste le esigenze di continuità/ripristino sono richiamate dalla misura PR.DS-11.
+Rimossi i riferimenti a 3 punti (PR.IR-01 punto 1, DE.CM-01 punto 2, DE.CM-01 punto 6) nei requisiti in cui è richiesto di adottare e documentare procedure facendo i riferimenti ad altri punti.
+Uso di “riservatezza” al posto di “confidenzialità” e “dei servizi” al posto di “servizi” nella definizione di sistemi informativi e di rete rilevanti presente nella determina.
+“Soluzioni di autenticazione multifattore” anziché “Modalità di autenticazione multifattore”.
+Uso del termine “punti terminali (endpoint)” anziché “postazioni terminali”.
+Specifica sulla gestione delle crisi: “da gestione delle crisi” a “gestione delle crisi informatiche”.
+Inclusione referente CSIRT ed eventuali sostituti nell’organizzazione di sicurezza informatica di cui alla misura GV.RR-02.
+Aggiunta clausola “in accordo agli esiti della valutazione del rischio” nelle misure PR.DS-11 punto 4 (verifica dei backup) e PR.PS-02 punto 1 (installazione software per il quale sono disponibili aggiornamenti di sicurezza).
+Aggiunta della previsione di rendere note le politiche alle articolazioni competenti del soggetto NIS tenuto anche conto della necessità di conoscere (need to know).
+ Misure di sicurezza di base
+MSB.1 Quali soggetti devono adottare le misure di sicurezza di base?
+ Tutti i soggetti che hanno ricevuto la comunicazione di inserimento nell’elenco nazionale dei soggetti NIS.
+MSB.2 Quali misure di sicurezza sono tenuti ad adottare i soggetti NIS?
+L'Autorità nazionale competente NIS stabilisce termini, modalità, specifiche e tempi graduali di implementazione degli obblighi di cui agli articoli 23, 24, 25, 29 e 32 del decreto NIS.
+In primis, i soggetti importanti sono tenuti ad adottare le misure di sicurezza riportate nell’
+allegato 1
+ della 
+Determinazione ACN 379907 del 19 dicembre 2025
+ mentre i soggetti essenziali sono tenuti ad adottare le misure di sicurezza riportate nell’
+allegato 2
+ della medesima determina.
+MSB.3 Qual è il termine per l’adozione delle misure di sicurezza di base?
+Il termine per l’adozione delle misure di sicurezza di base si configura differentemente a seconda che il soggetto sia stato inserito nell’elenco dei soggetti NIS per la prima volta nel corso dell’anno solare 2025 o dell’anno solare 2026. In dettaglio:
+per i soggetti inseriti nell’elenco dei soggetti NIS nel corso dell’anno solare 2025, il termine è fissato in diciotto mesi dalla ricezione da parte del soggetto della comunicazione di inserimento nell’elenco;
+per i soggetti inseriti nell’elenco dei soggetti NIS per la prima volta nel corso dell’anno solare 2026, il termine scade il 31 luglio 2027.
+MSB.4 Perché si chiamano misure di sicurezza “di base”?
+La dicitura “di base” è usata per indicare che si tratta delle misure di sicurezza che i soggetti NIS adottano in fase di prima applicazione ai sensi dell’art. 42 del decreto NIS. Per brevità, ove non si perda di chiarezza, potranno essere indicate anche come “misure di sicurezza”.
+Atteso che il 31 dicembre 2025 si è conclusa la predetta fase di prima applicazione e considerata la necessità di dare attuazione al principio di proporzionalità attraverso la definizione di termini, modalità, specifiche e tempi graduali di implementazione degli obblighi di cui agli articoli 23, 24, 25, 27, 28 e 29, del decreto NIS, si configurano termini diversi per l’adozione delle misure di sicurezza di base a seconda che il soggetto sia stato inserito nell’elenco dei soggetti NIS per la prima volta nel corso dell’anno solare 2025 o dell’anno solare 2026.
+MSB.5 Come sono strutturate le misure di sicurezza?
+Ogni misura di sicurezza è caratterizzata da un codice identificativo, una descrizione e da uno o più requisiti. Il codice e la descrizione fanno riferimento alle sottocategorie del Framework Nazionale, i requisiti specificano ciò che è richiesto ai fini dell’implementazione della misura.
+MSB.6 Cosa vuol dire adottare le misure di sicurezza?
+Con la dicitura in questione si intende l’implementazione di tutti i requisiti delle misure di sicurezza previste per i soggetti NIS.
+MSB.7 In alcuni requisiti delle misure di sicurezza è presente la dicitura “per almeno i sistemi informativi e di rete rilevanti”. Che cosa si intende?
+In linea di principio, le misure di sicurezza si applicano a tutti i sistemi informativi e di rete del soggetto NIS (per la definizione di “sistema informativo e di rete” si faccia riferimento all’articolo 2, comma 1, lettera p) del decreto NIS). Ove, tuttavia, la disposizione di un requisito, o di parte di esso, contiene la dicitura in questione, il soggetto NIS ha la facoltà di limitare l’ambito di applicazione della disposizione ai sistemi informativi e di rete la cui compromissione comporterebbe un impatto significativo sulla confidenzialità, integrità e disponibilità delle attività e servizi per i quali il soggetto NIS rientra nell’ambito di applicazione del decreto NIS.
+MSB.8 Cosa di intende per forniture con potenziali impatti sulla sicurezza dei sistemi informativi e di rete?
+Con la dicitura in questione si intendono le forniture la cui eventuale compromissione può determinare effetti sulla capacità dei sistemi informativi e di rete di resistere, con un determinato livello di affidabilità, agli eventi che potrebbero compromettere la disponibilità, l'autenticità, l'integrità o la riservatezza dei dati conservati, trasmessi o elaborati o dei servizi offerti da tali sistemi informativi e di rete o accessibili attraverso di essi.
+MSB.9 Quale modello è necessario impiegare per svolgere la valutazione del rischio di cui alla misura di sicurezza ID.RA-05?
+La misura in questione non impone un particolare standard per la redazione del documento di valutazione del rischio. Pertanto, ciascun soggetto NIS può redigere il documento secondo il modello già in uso presso lo stesso o, comunque, quello che ritiene più appropriato.
+MSB.10 Che tipo di specifiche indicano i requisiti?
+I requisiti delle misure di sicurezza indicano cosa deve fare un soggetto NIS per essere conforme alle misure di sicurezza in termini di specifiche da realizzare. Tali specifiche possono essere generalmente distinte in due tipologie:
+amministrative
+, riguardano la gestione, l’organizzazione, la documentazione e il controllo di processi e attività, come ad esempio l’adozione e l’approvazione di politiche, la definizione di piani o la documentazione di procedure;
+tecniche
+, implicano l’adozione e l’utilizzo di strumenti tecnologici, come ad esempio la cifratura dei dati, l’aggiornamento del software o l’impiego di modalità di autenticazione multifattore.
+MSB.11 Quali sono le principali evidenze documentali da produrre?
+Il soggetto NIS, ai fini dell’attuazione delle misure di sicurezza e dell’attestazione dell’effettiva implementazione delle stesse, deve essere in possesso o provvedere all’elaborazione di una serie di documenti. In particolare, sono previste le seguenti tipologie di documenti:
+elenchi
+: personale dell’organizzazione di sicurezza informatica, configurazioni di riferimento (solo per soggetti essenziali), sistemi ai quali è possibile accedere da remoto;
+inventari
+: apparati fisici, servizi, sistemi e applicazioni software, flussi di rete (solo per soggetti essenziali), servizi erogati dai fornitori, fornitori;
+piani
+: piano di gestione del rischio, piani di business continuity e disaster recovery, piano di trattamento del rischio, piano di gestione delle vulnerabilità, piano di adeguamento, piano per la valutazione dell'efficacia delle misure di gestione del rischio (solo per soggetti essenziali), piano di formazione in materia di sicurezza informatica, piano di risposta agli incidenti;
+politiche
+: definite per almeno i requisiti riportati nella tabella 1 in appendice agli Allegati 1 (soggetti importanti) e 2 (soggetti essenziali) della Determinazione ACN 379907 del 19 dicembre 2025;
+procedure
+: in relazione agli specifici requisiti per i quali sono richieste;
+registri
+: esiti del riesame delle politiche, attività formazione dei dipendenti, manutenzioni effettuate.
+In base al proprio contesto, il soggetto può decidere come organizzare la propria documentazione ad esempio raggruppare i contenuti in un unico documento o distribuirli tra più documenti. I documenti, che dovranno riprodurre la situazione corrente ed essere aggiornati in caso di variazioni dello stato di fatto, possono essere resi disponibili in formato cartaceo o digitale, purché facilmente fruibili da chi ha la necessità di consultarli.
+ Incidenti significativi di base
+ISB.G.1 Quali incidenti devono essere notificati allo CSIRT Italia?
+Ai sensi del decreto NIS, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono considerati significativi. Al fine di semplificare tale valutazione e fornire dei parametri oggettivi, l’Autorità nazionale competente NIS ha definito quattro fattispecie (tre per tutti i soggetti e una ulteriore per i soli soggetti essenziali) che, ove si verifichino, sono considerate incidenti significativi.
+ Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, così come definite nell’allegato 3[CB2.1], per i soggetti importanti, e nell’allegato 4[CB3.1], per i soggetti essenziali, v
+/portale/documents/d/guest/allegato-3-v2
+.
+ Infine, rimane sempre ferma la possibilità per i soggetti NIS di notificare, su base volontaria, incidenti non significativi, quasi-incidenti e minacce informatiche.
+ISB.G.2 La causa degli incidenti è rilevante per determinare se si tratta di un incidente significativo da notificare allo CSIRT Italia?
+La causa dell’incidente non è rilevante per determinare se si tratta di un incidente significativo o meno. 
+ Pertanto, rientrano nell’obbligo di notifica anche gli incidenti significativi dovuti a eventi naturali (e.g., alluvione) o accidentali (i.e., malfunzionamenti), e quelli di natura antropica (e.g. errore umano). 
+ Ciò anche in considerazione del cosiddetto approccio multi-rischio adottato dalla direttiva NIS che, superando e ampliando l’ambito previsto dalla precedente direttiva, prende in esame per la gestione dei rischi quelli “derivanti da tutte le tipologie di minaccia ai sistemi informativi e di rete nonché al loro contesto fisico, quali furti, incendi, inondazioni, interruzioni, anche parziali, delle telecomunicazioni e della corrente elettrica, e in generale accessi fisici non autorizzati”. 
+ISB.G.3 Quale è il termine per l’obbligo di notifica degli incidenti significativi di base?
+Il termine per l’adempimento dell’obbligo di notifica degli incidenti significativi di base decorre differentemente a seconda che il soggetto sia stato inserito nell’elenco dei soggetti NIS per la prima volta nel corso dell’anno solare 2025 o dell’anno solare 2026. In dettaglio:
+per i soggetti inseriti nell’elenco dei soggetti NIS nel corso dell’anno solare 2025, il termine è fissato in nove mesi dalla ricezione, da parte del soggetto, della comunicazione di inserimento nell’elenco;
+per i soggetti inseriti nell’elenco dei soggetti NIS per la prima volta nel corso dell’anno solare 2026, il termine decorre dal 1° gennaio 2027.
+ISB.G.4 Entro quando deve essere effettuata la notifica degli incidenti significativi allo CSIRT Italia?
+I soggetti NIS sono tenuti a segnalare allo CSIRT Italia gli incidenti significativi trasmettendo una pre-notifica senza ingiustificato ritardo e comunque non oltre 24 ore da quando ne sono venuti a conoscenza. 
+ Pertanto, il termine per la trasmissione della pre-notifica decorre dal momento in cui il soggetto dispone, a valle di un’analisi anche sommaria, degli elementi oggettivi dai quali si evince che si è verificata una delle fattispecie così come definite negli allegati 3, per i soggetti importanti, e 4, per i soggetti essenziali, della Determinazione ACN 379907 del 19 dicembre 2025.
+ L’evidenza di un incidente viene generalmente acquisita a seguito dell’analisi:
+di segnalazioni fatte da attori esterni al soggetto, come ad esempio quelle effettuate dal CSIRT Italia;
+di segnalazioni fatte da attori interni al soggetto, come ad esempio quelle di un utente che riporta un malfunzionamento al servizio di help desk;
+degli eventi di sicurezza o di malfunzionamenti rilevati dai sistemi di monitoraggio.
+ La pre-notifica contiene gli elementi informativi di base necessari allo CSIRT Italia per contestualizzare l’incidente significativo segnalato.
+ A seguito della pre-notifica, senza ingiustificato ritardo e comunque non oltre 72 ore, i soggetti NIS sono tenuti a trasmettere allo CSIRT Italia la notifica completa dell’incidente significativo. La notifica reca gli ulteriori elementi informativi che il soggetto avrà potuto raccogliere.
+ISB.G.5 Perché si chiamano incidenti significativi “di base” e come sono strutturati?
+La dicitura “di base” è usata per indicare che si tratta degli incidenti significativi che i soggetti NIS notificano in fase di prima applicazione ai sensi dell’art. 42 del decreto NIS. Per brevità, ove non si perda di chiarezza, potranno essere indicati anche come “incidenti significativi”.
+Atteso che il 31 dicembre 2025 si è conclusa la predetta fase di prima applicazione e considerata la necessità di dare attuazione al principio di proporzionalità attraverso la definizione di termini, modalità, specifiche e tempi graduali di implementazione degli obblighi di cui agli articoli 23, 24, 25, 27, 28 e 29, del decreto NIS, si configurano termini diversi per l’adozione delle misure di sicurezza di base a seconda che il soggetto sia stato inserito nell’elenco dei soggetti NIS per la prima volta nel corso dell’anno solare 2025 o dell’anno solare 2026.
+Ogni incidente significativo è identificato da un codice identificativo e dalla descrizione di ciascuna tipologia di incidente. 
+In particolare:
+le prime due fattispecie (IS-1 e IS-2) sono relative, rispettivamente, alle violazioni in termini di riservatezza e di integrità dei servizi e delle attività del soggetto NIS;
+la terza fattispecie (IS-3) è prevalentemente relativa alle violazioni in termini di disponibilità dei servizi e delle attività del soggetto NIS;
+la quarta fattispecie (IS-4) è relativa all’accesso non autorizzato o con abuso dei privilegi concessi.
+ISB.F.1 Nel caso in cui occorra un incidente significativo sui sistemi informativi e di rete di un soggetto NIS (cliente) in favore del quale un soggetto NIS (fornitore) eroga servizi, a quale soggetto è in capo l’obbligo di notifica al CSIRT Italia dell’incidente?
+L’obbligo di notifica di cui all’articolo 25 del decreto NIS al CSIRT Italia è in capo al soggetto NIS cliente che potrà poi coinvolgere il fornitore nella fase di gestione dell’incidente. 
+ Ad esempio, nel caso in cui il fornitore eroghi servizi gestiti di sicurezza (come, ad esempio, un servizio di Security Operation Center – SOC) oppure servizi gestiti (come, ad esempio, la manutenzione e la gestione di un impianto di riscaldamento, ventilazione e condizionamento dell’aria – HVAC), un incidente che occorre sui sistemi informativi e di rete del cliente soggetto NIS, dovrà essere notificato da quest’ultimo.
+ Si osserva inoltre che nell’ambito della definizione dei requisiti di sicurezza sulla fornitura da prevedere ai sensi della misura GV.SC-01), il cliente soggetto NIS è tenuto ad assicurarsi che il fornitore segnali tempestivamente il rilevamento di eventi di sicurezza che hanno impatto sui servizi del cliente.
+ISB.F.2 Nel caso in cui occorra un incidente significativo sui sistemi informativi e di rete di un soggetto NIS (fornitore) che eroga servizi in favore di un soggetto NIS (cliente), a quale soggetto è in capo l’obbligo di notifica al CSIRT Italia dell’incidente?
+L’obbligo di notifica di cui all’articolo 25 del decreto NIS al CSIRT Italia è in capo al soggetto NIS fornitore. L’obbligo è inoltre in capo anche al soggetto NIS cliente se l’incidente significativo si configura quale incidente significativo anche in relazione ai servizi e alle attività del cliente.
+ Ad esempio, nel caso in cui il fornitore eroghi servizi gestiti (come, ad esempio, l’amministrazione di un sistema di gestione degli impianti – BMS) in favore del soggetto NIS cliente, un incidente significativo che occorre sui sistemi informativi e di rete del fornitore soggetto NIS ma che ha impatto sui servizi e attività del cliente tale da configurarlo come incidente significativo per il cliente dovrà essere notificato sia dal soggetto fornitore che dal soggetto cliente. 
+ Con riferimento agli obblighi del fornitore soggetto NIS nei confronti dei destinatari dei propri servizi, si rimanda, inoltre, a quanto previsto dall’articolo 25, commi 9 e 10, del decreto NIS. 
+ISB.F.3 Nel caso in cui occorra un incidente significativo sui sistemi informativi e di rete di un soggetto NIS (cliente) in favore del quale un soggetto NIS (fornitore) eroga servizi cloud, a quale soggetto è in capo l’obbligo di notifica al CSIRT Italia dell’incidente?
+ Nel caso di specie, l’obbligo di notifica al CSIRT Italia è in capo sia al soggetto NIS cliente che al soggetto NIS fornitore, ad eccezione del caso in cui il servizio cloud erogato sia di tipo IAAS (infrastructure as a service) o di hosting dell’infrastruttura del cliente. In tali fattispecie l’obbligo è pertanto in capo al solo soggetto NIS cliente. Si osserva inoltre che nell’ambito della definizione dei requisiti di sicurezza sulla fornitura da prevedere ai sensi della misura GV.SC-01), il cliente soggetto NIS è tenuto ad assicurarsi che il fornitore segnali tempestivamente il rilevamento di eventi di sicurezza che hanno impatto sui servizi del cliente.
+Informazioni su 
+Agenzia per la
+ cybersicurezza nazionale
+Contatti
+info@acn.gov.it
+Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
+non all’indirizzo e-mail dell’Agenzia
+.
+Per interviste, inviti ad eventi o manifestazioni
+comunicazione@acn.gov.it
+Link utili
+Centro di Valutazione e Certificazione Nazionale
+: apre una nuova finestra
+Linee guida ACN
+Referente per la cybersicurezza
+Patrocinio
+Lavora con noi
+Domande frequenti
+Trasparenza
+Amministrazione trasparente
+Atti di notifica
+Piattaforma Whistleblowing
+: apre una nuova finestra
+Seguici su
+Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Altre informazioni
+Note legali
+Privacy policy
+Dichiarazione di accessibilità
+: apre una nuova finestra
+Social media policy
+Nascosta

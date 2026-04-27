@@ -1,0 +1,186 @@
+Modalità e specifiche di base - ACN
+		Skip to Main Content
+Modalità e specifiche di base
+seguici_su
+Agenzia:
+Linkedin: apre una nuova finestra
+Youtube: apre una nuova finestra
+seguici_su
+CSIRT Italia:
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Lingue disponibili:
+ ITA 
+ITA
+: italiano
+ENG
+: english
+Apri menu principale
+Agenzia per la 
+cybersicurezza nazionale
+Segnala un incidente informatico
+apri_ricerca
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+ Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+ Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
+ Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+ Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+ Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Home
+NIS
+Modalità e specifiche di base
+Modalità e specifiche di base
+Per l’adempimento degli obblighi di cui agli articoli 23, 24, e 25 del decreto NIS, i soggetti NIS, sono tenuti ad adottare le misure di sicurezza di base e a notificare al CSIRT Italia gli incidenti significativi di base stabiliti dalla determinazione ACN 379907/2025. Gli allegati tecnici alla determinazione sono stati elaborati sulla base dei riscontri pervenuti nel corso delle consultazioni con le Autorità di settore e con le associazioni di categoria. anche per mezzo dei tavoli settoriali di cui all’articolo 11, comma 4, lettera f), del decreto NIS.
+Fermo restando l’obbligatorietà di conformarsi nei termini previsti alle specifiche di base di cui alla 
+determinazione ACN 379907/2025
+, al fine di supportare i soggetti NIS nel loro percorso di adeguamento agli obblighi previsti dal decreto l’Agenzia ha pubblicato:
+le 
+Linee guida NIS - Specifiche di base - Guida alla lettura
+ con le quali sono fornite indicazioni per agevolare la comprensione e l’interpretazione delle specifiche di base degli allegati tecnici;
+le 
+Linee guida NIS - Specifiche di base - Per la definizione del processo di gestione degli incidenti di sicurezza informatica
+, con le quali viene suggerito un modello per il processo di gestione degli incidenti e descritta la relazione tra le fasi del processo e le misure di sicurezza di base;
+Misure di sicurezza
+Entro 18 mesi (ottobre 2026) dalla ricezione della comunicazione di inserimento nell’elenco nazionale NIS, i soggetti importanti sono tenuti ad adottare le misure di sicurezza riportate nell’allegato 1 della 
+determinazione ACN 379907/2025
+, mentre i soggetti essenziali sono tenuti ad adottare le misure di sicurezza riportate nell’allegato 2 della medesima determina.
+Le misure di sicurezza sono sviluppate in accordo al 
+Framework nazionale per la Cybersecurity e la Data Protection
+ (edizione 2025) e sono organizzate in funzioni, categorie, sottocategorie e requisiti.
+Ogni misura è costituita da un codice identificativo e una descrizione e da uno o più requisiti. Il codice e la descrizione fanno riferimento alle sottocategorie del framework. I requisiti indicano ciò che è richiesto ai fini dell’implementazione della misura.
+Misure di sicurezza di base per i soggetti importanti
+Misure di sicurezza di base per i soggetti essenziali
+Misure di sicurezza di base per i soggetti importanti formato xlsx
+Misure di sicurezza di base per i soggetti essenziali formato xlsx
+Notifiche di incidente
+Entro 9 mesi (gennaio 2026) dalla ricezione della comunicazione di inserimento nell’elenco nazionale NIS, i soggetti importanti sono tenuti a notificare al CSRIT Italia gli incidenti significativi riportati nell’allegato 3 della 
+determinazione ACN 379907/2025
+, mentre i soggetti essenziali sono tenuti a notificare al CSIRT Italia gli incidenti significativi riportati nell’allegato 4 della medesima determina.
+Incidenti significativi di base per i soggetti importanti
+Incidenti significativi di base per i soggetti essenziali
+Sicurezza, stabilità e resilienza dei sistemi di nomi di dominio
+L’articolo 29 del decreto NIS prevede obblighi specifici per i gestori di registri dei nomi di dominio di primo livello e i fornitori di servizi di registrazione dei nomi di dominio in materia di sicurezza, stabilità e resilienza dei sistemi di nomi di dominio. Questi soggetti sono tenuti a raccogliere e mantenere dati di registrazione dei nomi di dominio accurati e completi con la dovuta diligenza, con particolare riferimento alle informazioni necessarie per identificare e contattare i titolari dei nomi di dominio. A tal fine, sono predisposte e rese pubbliche politiche e procedure.
+Inoltre, ai sensi dell’articolo 32 del decreto NIS, obblighi in materia di misure di sicurezza (articolo 24) e di notifica di incidente (articolo 25) 
+non si applicano
+ ai soggetti che erogano 
+esclusivamente 
+servizi di registrazione dei nomi di dominio. Tuttavia, tali soggetti assicurano un livello di sicurezza informatica coerente.
+L’articolo 4 della 
+determinazione ACN 379907/2025
+ fornisce ulteriori indicazioni al riguardo e stabilisce il termine di 18 mesi per l’adeguamento.
+Domande frequenti
+Consulta le domande frequenti sulla nuova direttiva NIS
+ Scopri di più
+su Domande frequenti
+Assistenza
+Dopo aver consultato questa sezione e le domande frequenti hai ancora dei dubbi?
+ Puoi chiedere assistenza all’Autorità nazionale competente NIS.
+ Richiedi assistenza 
+Informazioni su 
+Agenzia per la
+ cybersicurezza nazionale
+Contatti
+info@acn.gov.it
+Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
+non all’indirizzo e-mail dell’Agenzia
+.
+Per interviste, inviti ad eventi o manifestazioni
+comunicazione@acn.gov.it
+Link utili
+Centro di Valutazione e Certificazione Nazionale
+: apre una nuova finestra
+Linee guida ACN
+Referente per la cybersicurezza
+Patrocinio
+Lavora con noi
+Domande frequenti
+Trasparenza
+Amministrazione trasparente
+Atti di notifica
+Piattaforma Whistleblowing
+: apre una nuova finestra
+Seguici su
+Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Altre informazioni
+Note legali
+Privacy policy
+Dichiarazione di accessibilità
+: apre una nuova finestra
+Social media policy
+Nascosta
