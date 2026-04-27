@@ -379,7 +379,9 @@ Determinazione del Direttore generale dell’ACN n. 127434 del 13 aprile 2026
 Determinazione del Direttore generale dell’ACN n. 127437 del 13 aprile 2026
  di cui all’articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimento di designazione dei rappresentanti NIS sul territorio nazionale. – che aggiorna e sostituisce la Determinazione ACN n. 379887 del 19 dicembre 2025
 Determinazione del Direttore generale dell’ACN n. 155238 del 20 aprile 2026
-, “di cui all’articolo 30, comma 2, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante le categorie di rilevanza nonché il processo, le modalità e i criteri per l'elencazione, caratterizzazione e categorizzazione delle attività e dei servizi di cui all’articolo 30.”
+, “di cui all’articolo 30, comma 2, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante le categorie di rilevanza nonché il processo, le modalità e i criteri per l'elencazione, caratterizzazione e categorizzazione delle attività e dei servizi di cui all’articolo 30.” 
+Allegato 1 "Modello per l’elencazione, caratterizzazione e categorizzazione delle attività e dei servizi"
+Allegato 2 "Modello per l’elencazione, caratterizzazione e categorizzazione delle attività e dei servizi"
 Pianificazione Strategica
 Piano Strategico 2024 - 2026
 Provvedimenti attuativi D.Lgs. 123/2022
@@ -407,7 +409,7 @@ Obiettivi strategici 2024
 Obiettivi strategici 2025
 Obiettivi strategici 2026
 Data Ultimo Aggiornamento
- 24 Aprile 2026
+ 27 Aprile 2026
 Informazioni su 
 Agenzia per la
  cybersicurezza nazionale

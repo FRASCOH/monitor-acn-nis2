@@ -1,6 +1,6 @@
-Registrazione - ACN
+Domande frequenti NIS - Registrazione - ACN
 		Skip to Main Content
-Registrazione
+Domande frequenti NIS - Registrazione
 seguici_su
 Agenzia:
 Linkedin: apre una nuova finestra
@@ -97,50 +97,246 @@ Seguici su CSIRT Italia
 Twitter: apre una nuova finestra
 Telegram: apre una nuova finestra
 Home
+Domande frequenti
 NIS
 Registrazione
-Registrazione
-Dal 1° dicembre 2024 al 28 febbraio di ogni anno i soggetti pubblici e privati a cui si applica la NIS devono manifestarsi all’Autorità nazionale competente NIS registrandosi o aggiornando la propria registrazione sulla piattaforma digitale che sarà resa disponibile da ACN.
-Resta ferma la possibilità per l’Autorità nazionale competente NIS, su proposta delle Autorità di settore, di individuare ulteriori soggetti ritenuti critici. Tali soggetti riceveranno una specifica comunicazione diretta, a valle della quale potranno procedere con la registrazione.
-Tale adempimento è funzionale a consentire ad ACN di censire i soggetti operanti nei settori vigilati, anche al fine di fornire loro supporto in fase di implementazione degli obblighi, attraverso le articolate attività di monitoraggio e ausilio nel loro percorso condiviso di crescita, disciplinate dall'articolo 35.
-La mancata registrazione è una violazione assistita da una sanzione amministrativa pecuniaria con un importo fino al 0.1% del fatturato annuo su scala mondiale del soggetto.
- apre nuova scheda
- Guarda il video 
-Guarda il video su Youtube: apre una nuova finestra
-Come registrare un’organizzazione
-La registrazione è prevista dall’articolo 7 del decreto NIS e le modalità, termini e procedimenti sono definiti dalla 
-Determinazione 379887/2025
-.
- Consulta le 
-domande frequenti
- per maggiori dettagli.
-Prima di avviare la registrazione, il soggetto deve designare il punto di contatto, di cui all’articolo 7, comma 1, lettera c) del decreto NIS. In linea generale, il punto di contatto deve essere un dipendente delegato dal rappresentante legale del soggetto.
-La registrazione è composta da tre fasi, il censimento del punto di contatto, la sua associazione al soggetto e la compilazione della dichiarazione NIS.
-Dal primo gennaio di ogni anno si potrà avviare la registrazione tramite il Portale dei servizi.
- apre nuova scheda
- Accedi al Portale dei Servizi 
-Cosa deve fare il Punto di contatto
-Dal primo gennaio di ogni anno, il Punto di contatto potrà autenticarsi sul portale dei Servizi dell’Agenzia tramite SPID o CIE.
-Per associare il punto di contatto al soggetto è necessario indicare:
-per le pubbliche amministrazioni, il codice IPA;
-per i soggetti pubblici e privati, il codice fiscale.
-Il punto di contatto dovrà caricare il titolo giuridico che lo abilita ad operare per conto del soggetto nel contesto NIS (a meno che non sia il rappresentante legale o un procuratore generale).
-Il processo di censimento del punto di contatto e associazione al soggetto NIS si conclude con l’invio di un link di richiesta di convalida al domicilio digitale del soggetto stesso.
-La dichiarazione che il punto di contatto dovrà compilare è suddivisa in 4 sezioni: contesto, caratterizzazione, tipologie di soggetto e autovalutazione. Per maggiori dettagli, consulta le 
-domande frequenti dedicate
-.
-Dopo aver compilato la dichiarazione, il Punto di contatto dovrà prendere visione del riepilogo delle informazioni fornite, accettare le clausole di responsabilità e trasmettere la dichiarazione all’Agenzia. Una copia della dichiarazione è inviata al domicilio digitale del soggetto.
-I passi successivi
-Al termine della fase di registrazione, che si avvia il 1° gennaio e si conclude il 28 febbraio di ogni anno, l’Agenzia e le Autorità di settore vaglieranno le dichiarazioni per costituire l’elenco dei soggetti NIS entro fine marzo 2025.
- Nel mese di aprile 2025, l’Autorità nazionale competente NIS notificherà al domicilio digitale di tutti i soggetti registrati se rientrano, o meno, nell’elenco.
+Domande frequenti NIS - Registrazione
+Home
 Domande frequenti
-Consulta le domande frequenti sulla nuova direttiva NIS
- Scopri di più
-su Domande frequenti
-Assistenza
-Dopo aver consultato questa sezione e le domande frequenti hai ancora dei dubbi?
- Puoi chiedere assistenza all’Autorità nazionale competente NIS.
- Richiedi assistenza 
+NIS
+Domande frequenti NIS - Registrazione
+Menu della sezione 
+ Domande frequenti
+Apri menu della sezione Domande frequenti
+PNRR
+Cloud
+NIS
+Profili generali
+Ambito
+Settori, sottosettori e tipologie di soggetto
+Registrazione
+Misure di sicurezza e notifica di incidenti
+Aggiornamento delle informazioni
+Categorizzazione
+Ruoli e procedure
+PSNC
+Concorsi
+CSIRT Italia
+NCC Italia
+Strategia Nazionale di Cybersicurezza
+ NIS - Registrazione
+Puoi utilizzare la ricerca nelle domande frequenti digitando la paroladi interesse così da poter più facilmente identificare quello che staicercando. I risultati saranno filtrati dal terzo carattere digitato.
+ Nessun risultato trovato
+Per chiarimenti sull’ambito di applicazione orizzontale, vai alla sezione 
+Ambito
+.
+Per chiarimenti sull’ambito di applicazione settoriale, vai alla sezione 
+Settori, sottosettori e tipologie di soggetto
+.
+Per chiarimenti su ruoli e procedure, vai alla sezione 
+Ruoli e procedure
+.
+REG.1 Quali organizzazioni devono registrarsi (processo di autovalutazione)
+Devono registrarsi le organizzazioni pubbliche o private che si riconoscono in una o più tipologie di soggetto di cui agli allegati I e II (v. FAQ AMB.GE.1) previsti dal decreto NIS (
+d.lgs. n. 138/2024
+) e, ove richiesto, che presentino i requisiti dimensionali stabiliti espressamente dal suo articolo 3. Con il termine organizzazioni non si intendono gruppi di imprese, ma le singole realtà (e.g., legal entities o persone giuridiche).
+Da un punto di vista “pratico”, le organizzazioni (diverse dalla pubblica amministrazione), prima di procedere alla registrazione, devono svolgere una autovalutazione circa la riconducibilità all’ambito di applicazione del decreto NIS seguendo il processo, suddiviso in tre passi, delineato a seguire.
+In relazione alle pubbliche amministrazioni che rientrano nell’ambito di applicazione del decreto NIS, si rimanda alla FAQ AMB.PU.1. Si evidenzia che con il termine “organizzazioni pubbliche o private” si intendono anche società in house, società partecipate e società a controllo pubblico nonché gestori di pubblici servizi.
+Con riferimento alle organizzazioni che non svolgono alcuna attività riconducibile alle tipologie di soggetto di cui agli allegati I e II ma si riconoscono nelle tipologie di soggetto di cui all’allegato IV, si evidenzia che dovranno adempiere all’obbligo di registrazione solo dopo aver ricevuto la notifica di individuazione da parte dell’Autorità (ex articolo 3, comma 13) al proprio domicilio digitale.
+Infine, si evidenzia che rientrano nell’ambito di applicazione del decreto NIS tutte le organizzazioni che fanno parte di un gruppo di imprese (imprese collegate e/o associate) e che soddisfano i criteri di cui all’articolo 3, comma 10, del decreto NIS, indipendentemente dalla dimensione (vds. FAQ AMB.GE.7).
+PROCESSO DI AUTOVALUTAZIONE (per i soggetti di cui agli allegati I e II)
+PDA1
+. Determinazione dell’applicabilità della giurisdizione nazionale all’organizzazione (vds. FAQ AMB.ES.1, AMB.ES.2, AMB.ES.3). 
+PDA1.1
+. Salvo eccezioni, all’organizzazione si applica la giurisdizione nazionale se è stabilita sul territorio nazionale.
+ In tal caso è necessario procedere al secondo punto del processo di autovalutazione (PDA2)
+.
+PDA1.2
+. La prima eccezione (ex. articolo 5, comma 1, lettera a)) è riferita alle organizzazioni che sono riconducibili a fornitori di reti pubbliche di comunicazione elettronica e i fornitori di servizi di comunicazione elettronica accessibili al pubblico. 
+In tal caso, se l’organizzazione offre tali servizi sul territorio nazionale rientra nell’ambito di applicazione del decreto NIS e, pertanto, deve registrarsi (il processo di autovalutazione può essere interrotto)
+.
+PDA1.3
+. La seconda eccezione (ex. articolo 5, comma 1, lettera b)) è riferita alle organizzazioni che erogano i cd. servizi inerentemente transfrontalieri, ovvero quelle riconducibili a fornitori di servizi di sistema dei nomi di dominio DNS, di registri dei nomi di dominio di primo livello, di servizi di registrazione dei nomi di dominio di servizi di cloud computing, di servizi di data center, di reti di distribuzione dei contenuti, di servizi gestiti, di servizi di sicurezza gestiti, nonché i fornitori di mercati online, di motori di ricerca online o di piattaforme di servizi di social network.
+ In tal caso, l’organizzazione è soggetta alla giurisdizione nazionale ed è necessario procedere al secondo punto del processo di autovalutazione (PDA2), se è vera almeno una delle seguenti affermazioni
+: 
+l’organizzazione è stabilita sul territorio nazionale e non ha stabilimenti in altri Stati membri. Eventuali stabilimenti, anche di particolare rilevanza, al di fuori dell’Unione europea sono irrilevanti ai fini della radicazione della giurisdizione nazionale;
+l’organizzazione ha stabilimenti in più Stati membri e sul territorio nazionale è presente lo stabilimento principale, individuato ai sensi dell’articolo 5, comma 2. Tenuto conto che la direttiva e il decreto NIS si applicano alla singola persona giuridica (
+legal entity
+), lo stabilimento principale di tale persona giuridica (
+legal entity
+) è da individuarsi tra le sedi di quest’ultima, senza che rilevino a tal fine le imprese a questa collegate (ex. articolo 1, comma 1, lettera cc), della 
+Determinazione ACN 333017/2025
+) e le relative sedi
+l’organizzazione non ha alcun stabilimento nell’Unione europea, offre i propri servizi sul territorio nazionale e, ai sensi dell’articolo 5, comma 3, ha designato il rappresentante nell’Unione in Italia.
+PDA1.4
+. Salvo le eccezioni di cui ai punti PDA1.2 e PDA1.3, 
+se l’organizzazione non è stabilita sul territorio nazionale non rientra nell’ambito di applicazione del decreto NIS e, pertanto, non deve procedere con la registrazione (il processo di autovalutazione può essere interrotto)
+.
+PDA2
+. Determinazione della riconducibilità dell’organizzazione alle categorie delle micro e piccole imprese, ovvero con un numero di dipendenti inferiore ai 50 effettivi e un fatturato (o bilancio) inferiore ai 10 milioni di euro, ai sensi della 
+Raccomandazione 2003/361/CE
+. Al riguardo, si evidenzia l’applicazione dell’articolo 6, paragrafo 2, dell’allegato alla citata raccomandazione per le organizzazioni che hanno imprese collegate o associate o che fanno parte di gruppi di imprese (vds. FAQ AMB.DI.1, AMB.DI.2 e AMB.DI.3). 
+PDA2.1
+. Le organizzazioni che superano i massimali per le micro e piccole imprese e che, pertanto, sono riconducibili alle categorie delle medie e grandi imprese (ai sensi della Raccomandazione 2003/361/CE), rientrano nell’ambito di applicazione qualora svolgano attività o eroghino servizi riconducibili alle tipologie di soggetto di cui agli allegati I e II. 
+Al fine di valutare la riconducibilità alle citate tipologie di soggetto è necessario procedere al terzo punto dell’autovalutazione (PDA3)
+.
+PDA2.2
+. Le organizzazioni riconducibili a prestatori di servizi fiduciari, gestori di registri dei nomi di dominio di primo livello, fornitori di servizi di sistema dei nomi di dominio e fornitori di servizi di registrazione dei nomi di dominio rientrano nell’ambito di applicazione del decreto NIS indipendentemente dalla dimensione (vds. FAQ AMB.DI.2). 
+In tal caso, se l’organizzazione offre tali servizi, rientra nell’ambito di applicazione del decreto NIS e, pertanto, deve registrarsi (il processo di autovalutazione può essere interrotto)
+.
+PDA2.3
+. Salvo l’eccezione di cui al punto PDA2.2, 
+se l’organizzazione è riconducibile alle categorie delle micro o piccole imprese non rientra nell’ambito di applicazione del decreto NIS e, pertanto, non deve procedere con la registrazione (il processo di autovalutazione può essere interrotto)
+.
+PDA3
+. Determinazione della riconducibilità dell’organizzazione alle tipologie di soggetto di cui agli allegati I e II del decreto NIS. In particolare, l’organizzazione deve valutare se le definizioni delle tipologie di soggetto indicate negli allegati I e II sono applicabili alle attività che svolge e/o ai servizi che eroga (vds. FAQ AMB.GE.3, AMB.GE.4 e AMB.GI.1). 
+PDA3.1
+. In caso affermativo anche per una sola tipologia di soggetto, anche qualora l’attività o il servizio siano svolti in forma residuale (fatta eccezione per i settori “Acqua potabile”, “Acque reflue” e “Gestione rifiuti”), 
+è necessario procedere alla registrazione
+.
+PDA3.2
+. In caso di dubbio anche per una sola tipologia di soggetto, anche qualora l’attività o il servizio siano svolti in forma residuale (fatta eccezione per i settori “Acqua potabile”, “Acque reflue” e “Gestione rifiuti”), 
+è comunque opportuno procedere alla registrazione
+.
+PDA3.3
+. In caso negativo per tutte le tipologie di soggetto 
+l’organizzazione non rientra nell’ambito di applicazione del decreto NIS e non è tenuta, pertanto, a procedere con la registrazione
+.
+In relazione al terzo punto (PDA3), al fine di agevolare la valutazione, 
+sono disponibili FAQ settoriali (sezione “Settori, sottosettori e tipologie di soggetto”)
+ che forniscono una guida alla lettura dedicata del decreto nonché chiarimenti specifici circa l’ambito di applicazione.
+Per completezza di informazione, si rappresenta che rimane ferma la facoltà per l’Autorità nazionale competente NIS, su proposta delle Autorità di settore interessate, di individuare organizzazioni soggette alla giurisdizione nazionale che operano nei settori, sottosettori o che svolgono attività riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV, del decreto NIS (ex articolo 3, comma 9), quali soggetti importanti o essenziali. In tal caso, queste organizzazioni riceveranno una notifica al proprio domicilio digitale (ex articolo 3, comma 13, del decreto NIS).
+REG.2 Quali sono le scadenze previste per registrarsi sulla piattaforma ACN?
+I soggetti che si riconoscono in uno dei settori/sottosettori/tipologie (v. FAQ AMB.GE.1) previste dal decreto NIS (
+d.lgs. n. 138/2024
+) devono registrarsi sulla piattaforma di ACN dal 1° gennaio al 28 febbraio di ogni anno successivo alla data di entrata in vigore del decreto - quindi già entro il 28 febbraio 2025 - fatta eccezione per i fornitori di servizi di sistema dei nomi di dominio, i gestori di registri dei nomi di dominio di primo livello, i fornitori di servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonché i fornitori di mercati online, di motori di ricerca online e di piattaforme di servizi di social network che rientrano nell'ambito di applicazione del decreto (v. FAQ AMB.GE.1), per i quali è stato previsto l’obbligo di registrazione entro il 17 gennaio 2025.
+REG.3 Dopo essermi registrato sulla piattaforma di ACN sarò un soggetto NIS?
+Le pubbliche amministrazioni e i soggetti pubblici o privati che rientrano nell’ambito di applicazione del decreto legislativo 138/2024 (decreto NIS) sono soggetti NIS a prescindere dalla registrazione e sono pertanto tenuti a rispettare gli obblighi previsti dal relativo decreto, a partire dalla registrazione stessa.
+La registrazione di un soggetto sulla piattaforma di ACN è sottoposta ad una fase di analisi. Entro il 31 marzo di ogni anno, l’Agenzia, in qualità di Autorità nazionale competente NIS, redige l’elenco dei soggetti essenziali o importanti e successivamente comunica al soggetto l’eventuale inserimento.
+La registrazione, infatti, è necessaria per costituire l’elenco dei soggetti NIS che l’Agenzia, in qualità di Autorità nazionale competente NIS, deve adottare, d’intesa con le Autorità di settore, entro il 31 marzo di ogni anno successivo. Nel mese di aprile, l’Autorità nazionale competente NIS notifica al domicilio digitale di tutti i soggetti registrati se rientrano, o meno, nell’elenco.
+Questo processo, nell’istituire un canale di comunicazione diretto tra i soggetti registrati e l’Autorità nazionale competente NIS, consente anche di dare ulteriore chiarezza circa la riconducibilità, o meno, di un soggetto all’ambito di applicazione del decreto NIS
+REG.4 Quali sono i criteri per designare il Punto di contatto?
+Ai sensi dell'articolo 4, comma 2, della 
+Determinazione ACN 379887/2025
+, le funzioni di Punto di contatto possono essere svolte dal rappresentante legale o da un suo procuratore generale (censito sul registro delle imprese) oppure da un dipendente delegato del soggetto.
+In quest’ultimo caso, nel corso della registrazione, il punto di contatto dovrà caricare il titolo giuridico che lo delega a operare per conto del soggetto nel contesto NIS. Come titolo giuridico è sufficiente una delega del rappresentante legale che può essere ad-hoc (
+modello suggerito
+) o anche una delega pre-esistente più ampia.
+Ai sensi dell'articolo 4, comma 3, della medesima Determinazione, i soggetti che fanno parte di un gruppo di imprese possono designare quale punto di contatto il dipendente di un'altra impresa che rientra nell’ambito di applicazione del decreto NIS e che fa parte del medesimo gruppo di imprese.
+Ai sensi dell'articolo 4, comma 4, della medesima Determinazione, le pubbliche amministrazioni possono designare quale punto di contatto il dipendente di un’altra pubblica amministrazione che rientra nell’ambito di applicazione del decreto NIS.
+Analogamente, i soggetti che fanno parte di un gruppo di imprese possono designare quale punto di contatto il dipendente di un'altra impresa che rientra nell’ambito di applicazione del decreto NIS e che fa parte del medesimo gruppo di imprese.
+Il punto di contatto ha il compito di curare l’attuazione delle disposizioni del decreto NIS per conto del soggetto stesso, a partire dalla registrazione, e interloquisce, per conto del soggetto NIS, con l’Autorità nazionale competente NIS.
+REG.5 Quali sono le informazioni necessarie per la registrazione?
+La registrazione si compone di tre fasi: il censimento del punto di contatto, la sua associazione al soggetto NIS e la compilazione della dichiarazione.
+Per la fase di
+ censimento del punto di contatto
+, sarà necessario verificare o fornire i seguenti dati: 
+nome e cognome;
+luogo e data di nascita;
+codice fiscale;
+cittadinanza;
+Paese di residenza e, ove richiesto, di domicilio;
+indirizzo di posta elettronica ordinaria, preferibilmente individuale, nonché di servizio, aziendale o professionale;
+ove disponibile, un indirizzo di posta elettronica certificata, preferibilmente individuale, nonché di servizio, aziendale o professionale;
+numero di telefono, preferibilmente individuale, nonché di servizio, aziendale o professionale;
+ove disponibile, un numero alternativo di telefono, preferibilmente individuale di servizio, aziendale o professionale.
+Per la fase di 
+associazione del punto di contatto al soggetto NIS
+, sarà necessario disporre del codice fiscale di quest’ultimo. Inoltre, qualora il Punto di contatto non sia il rappresentante legale del soggetto o un suo procuratore generale censito sul registro delle imprese, sarà necessario caricare il titolo giuridico che lo delega a operare per conto del soggetto.
+Per la fase di 
+compilazione della dichiarazione
+, sarà necessario disporre: 
+dell’elenco dei codici ATECO che caratterizzano le attività svolte e i servizi erogati dal soggetto, con particolare riferimento all’ambito di applicazione del decreto NIS;
+delle 
+normative europee settoriali citate
+ dal decreto NIS per delimitarne l’ambito di applicazione che si applicano al soggetto;
+del numero di dipendenti, del fatturato e del bilancio del soggetto. Qualora il soggetto non sia una impresa autonoma, il numero di dipendenti, il fatturato e il bilancio del soggetto calcolato ai sensi della 
+Raccomandazione 2003/361/CE
+, con particolare riguardo all’articolo 6, paragrafo 2, dell’allegato alla raccomandazione medesima;
+dell’elenco delle tipologie di soggetto di cui agli allegati I, II, III e IV, a cui è riconducibile il soggetto;
+dell’autovalutazione del soggetto quale essenziale, importante o fuori ambito, sulla base di quanto previsto dagli articoli 3 e 6 del decreto NIS.
+Per i soggetti che non sono imprese autonome (ovvero hanno imprese collegate, associate e/o fanno parte di un gruppo di imprese), in fase di registrazione sarà inoltre necessario fornire le informazioni indicate nella FAQ REG.7.
+REG.6 Per le pubbliche amministrazioni di cui all’allegato III, cambia qualcosa nel processo di registrazione?
+Le pubbliche amministrazioni, in linea con quanto previsto dalla legge 90/2024 in relazione al referente per la cybersicurezza, hanno la facoltà di designare quale punto di contatto il dipendente di un’altra pubblica amministrazione che rientra nell’ambito di applicazione del decreto NIS.
+Qualora la stessa persona fisica sia designata quale punto di contatto per più pubbliche amministrazioni che rientrano nell’ambito di applicazione del decreto NIS, occorrerà ripetere la fase di associazione e registrazione per ogni soggetto NIS.
+REG.7 Per i soggetti che non sono imprese autonome (ovvero hanno imprese collegate, associate e/o fanno parte di un gruppo di imprese), cambia qualcosa nel processo di registrazione?
+Con riferimento alla designazione del punto di contatto
+, al fine di non imporre radicali cambiamenti nel governo della sicurezza informatica, i soggetti che fanno parte di un gruppo di imprese ai sensi dell’articolo 1, comma 1, lettera ee), della 
+Determinazione ACN 379887/2025
+, possono designare quale punto di contatto il dipendente di un'altra impresa che rientra nell’ambito di applicazione del decreto NIS e che fa parte del medesimo gruppo di imprese.
+Pertanto, ad esempio:
+nei gruppi di imprese nei quali il governo della sicurezza informatica è decentralizzato, i soggetti che fanno parte del gruppo possono designare ognuno un proprio dipendente quale punto di contatto;
+nei gruppi di imprese nei quali il governo della sicurezza informatica è centralizzato, i soggetti che fanno parte del gruppo possono tutti designare quale punto di contatto un dipendente della struttura del gruppo che governa la sicurezza informatica, oppure designare ognuno un proprio dipendente quale punto di contatto che si coordinerà con la struttura del gruppo che governa la sicurezza informatica.
+Qualora la stessa persona fisica sia designata quale punto di contatto per tutti o una parte dei soggetti NIS del gruppo di imprese, occorrerà ripetere la fase di associazione e registrazione per ogni soggetto NIS.
+Inoltre, 
+con riferimento alla registrazione
+ di soggetti che non sono imprese autonome ai sensi dell’articolo 1, comma 1, lettera dd) della 
+Determinazione ACN 379887/2025
+, sarà necessario fornire le seguenti ulteriori informazioni rispetto a quanto illustrato nella FAQ REG.5:
+il codice fiscale e la ragione sociale della capogruppo, qualora il soggetto appartenga a un gruppo e non sia la capogruppo;
+il codice fiscale e la ragione sociale di tutte le imprese collegate, ai sensi della 
+Determinazione ACN 379887/2025
+, articolo 1, comma 1, lettera cc), che soddisfano almeno uno dei criteri di cui all’articolo 3, comma 10, del decreto legislativo 138/2024 (decreto NIS) nei confronti del soggetto medesimo;
+il codice fiscale e la ragione sociale di tutte le imprese collegate che, per quanto noto, siano a loro volta soggetti NIS, ai sensi della 
+Determinazione ACN 379887/2025
+, articolo 1, comma 1, lettera cc), nei confronti dei quali il soggetto medesimo soddisfa almeno uno dei criteri di cui all’articolo 3, comma 10, del decreto legislativo 138/2024 (decreto NIS);
+il numero di dipendenti, il fatturato e il bilancio del soggetto calcolato ai sensi della 
+Raccomandazione 2003/361/CE
+, con particolare riguardo all’articolo 6, paragrafo 2, dell’allegato alla raccomandazione medesima.
+Infine, con riferimento a quest’ultimo punto, qualora tale soggetto ritenga sproporzionata l’applicazione dell’articolo 6, paragrafo 2, dell’allegato alla 
+Raccomandazione 2003/361/CE
+, sarà necessario fornire anche:
+il numero di dipendenti, il fatturato e il bilancio del soggetto calcolato ai sensi della 
+Raccomandazione 2003/361/CE
+, senza tenere conto di quanto previsto dall’articolo 6, paragrafo 2, dell’allegato alla raccomandazione medesima;
+la valutazione del grado di indipendenza (totale, parziale o assente) dei sistemi informativi e di rete NIS dell’organizzazione dai sistemi informativi e di rete delle imprese collegate. Con attività e servizi NIS si intendono le attività e i servizi per i quali l’organizzazione rientra nell’ambito di applicazione del decreto NIS. Con sistemi informativi e di rete NIS, si intendono i sistemi informativi e di rete che abilitano attività e servizi NIS;
+la valutazione del grado di indipendenza (totale, parziale o assente) delle attività e dei servizi NIS dell’organizzazione NIS dalle attività e dai servizi delle imprese collegate;
+la risposta (si, in parte, no) alle domande seguenti: 
+I sistemi informativi e di rete delle imprese collegate concorrono ai sistemi informativi e di rete NIS dell’organizzazione?
+Le attività e i servizi di imprese collegate concorrono alle attività e servizi NIS dell’organizzazione?
+Le imprese collegate sono essenziali nella catena di approvvigionamento, anche digitale, dell’organizzazione?
+REG.8 Nei gruppi di imprese, la registrazione può essere svolta a livello di gruppo?
+Gli adempimenti previsti dal decreto NIS, così come la Direttiva, sono relativi alle single persone giuridiche che rientrano nell’ambito di applicazione.
+Pertanto, l’obbligo di registrazione deve essere assolto da ogni persona giuridica distintamente, anche se parte del medesimo gruppo.
+Inoltre, si segnala che, ai fini dell’articolo 5, comma 2, per i fornitori di servizi di sistema dei nomi di dominio DNS, i registri dei nomi di dominio di primo livello, i soggetti che forniscono servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonché i fornitori di mercati online, di motori di ricerca online o di piattaforme di servizi di social network, lo stabilimento principale è da individuarsi tra le sedi della singola persona giuridica 
+(legal entity
+), senza che rilevino a tal fine le imprese a questa collegate (ex. articolo 1, comma 1, lettera cc), della 
+Determinazione ACN 379887/2025
+) e le relative sedi.
+REG.9 Quale è la procedura per designare il rappresentante nell’UE in Italia?
+In linea con quanto previsto dalla direttiva 2022/2555, l’articolo 5, comma 3, del decreto NIS prevede che le organizzazioni che 
+non
+ hanno 
+alcun
+ stabilimento sul territorio dell’Unione europea e che svolgono attività riconducibili alle tipologie di soggetto inerentemente transfrontalierie di cui al comma 1, lettera b, del medesimo articolo (fornitori di servizi di sistema dei nomi di dominio DNS, registri dei nomi di dominio di primo livello, soggetti che forniscono servizi di registrazione dei nomi di dominio, fornitori di servizi di cloud computing, fornitori di servizi di data center, fornitori di reti di distribuzione dei contenuti, fornitori di servizi gestiti, fornitori di servizi di sicurezza gestiti, nonché fornitori di mercati online, di motori di ricerca online o di piattaforme di servizi di social network) devono designare un rappresentante nell’Unione in uno degli Stati membri in cui sono offerti servizi. A tali organizzazioni si applica la giurisdizione dello Stato membro in cui è stato designato tale rappresentante.
+Qualora tali organizzazioni offrano servizi esclusivamente sul territorio nazionale sono tenuti a designare il proprio rappresentante nell’Unione in Italia. Se i servizi sono offerti anche in altri Stati membri, oltre che sul territorio nazionale, tali organizzazioni hanno la facoltà di designare il proprio rappresentante in Italia o in uno degli altri Stati membri. Nell’ipotesi che i servizi 
+non
+ siano erogati sul territorio nazionale, non è possibile designare il proprio rappresentante in Italia.
+Al fine della designazione del rappresentante nell’UE in Italia, ai sensi dell’articolo 6 della 
+Determinazione ACN 379887/2025
+ è necessario inviare una PEC all’indirizzo 
+acn@pec.acn.gov.it
+ con:
+oggetto “NIS – Designazione Rappresentante nell’UE – [DENOMINAZIONE ORGANIZZAZIONE RICHIEDENTE]”.
+allegati i moduli ​​ 
+Modulo_PF
+ o 
+Modulo_PG
+ di designazione (recante, in particolare, il domicilio digitale dell’organizzazione designante), compilato e firmato digitalmente dal rappresentante legale dell’organizzazione designante o da un suo procuratore generale;
+allegata la copia di un documento identificativo valido e vigente del rappresentante legale dell’organizzazione designante o di un suo procuratore generale, quali il passaporto (preferibile), la carta d'identità nazionale o un altro documento di identificazione rilasciato dalle autorità locali del Paese di appartenenza.
+L’indirizzo da cui deve esser trasmessa la richiesta è l’indirizzo PEC:
+dell’organizzazione designante;
+del rappresentante nell’Unione in Italia del soggetto designante, se l’organizzazione non dispone di PEC.
+Qualora un rappresentante nell’Unione in Italia svolga tale ruolo per più organizzazioni, è necessario inviare una PEC per ogni soggetto.
+ACN, ai sensi dell’articolo 6, comma 2, della citata Determinazione, provvederà a notificare, al domicilio digitale indicato, l’eventuale diniego (motivato) ovvero l’autorizzazione a procedere con il censimento del Punto di contatto e con la registrazione entro 30 giorni dalla ricezione della PEC. Ai sensi del comma 3 del medesimo articolo, ACN potrà anche richiedere ulteriori integrazioni o informazioni.
+REG.10 Quale è la procedura per designare il rappresentante nell’UE in Italia per i gruppi di imprese italiani che controllano società estere?
+In linea con quanto previsto dalla direttiva 2022/2555, l’articolo 5, comma 3, del decreto NIS prevede che le organizzazioni che 
+non
+ hanno 
+alcun
+ stabilimento sul territorio dell’Unione europea e che svolgono attività riconducibili alle tipologie di soggetto inerentemente transfrontalierie di cui al comma 1, lettera b, del medesimo articolo (fornitori di servizi di sistema dei nomi di dominio DNS, registri dei nomi di dominio di primo livello, soggetti che forniscono servizi di registrazione dei nomi di dominio, fornitori di servizi di cloud computing, fornitori di servizi di data center, fornitori di reti di distribuzione dei contenuti, fornitori di servizi gestiti, fornitori di servizi di sicurezza gestiti, nonché fornitori di mercati online, di motori di ricerca online o di piattaforme di servizi di social network) devono designare un rappresentante nell’Unione in uno degli Stati membri in cui sono offerti servizi. A tali organizzazioni si applica la giurisdizione dello Stato membro in cui è stato designato tale rappresentante.
+Qualora tali organizzazioni offrano servizi esclusivamente sul territorio nazionale sono tenute a designare il proprio rappresentante nell’Unione in Italia. Se i servizi sono offerti anche in altri Stati membri, oltre che sul territorio nazionale, tali organizzazioni hanno la facoltà di designare il proprio rappresentante in Italia o in uno degli altri Stati membri
+Se tali organizzazioni fanno parte di un gruppo di imprese italiano (capo gruppo di diritto nazionale), è possibile designare quale rappresentante nell’Unione in Italia una delle imprese del gruppo stabilite sul territorio nazionale, ivi inclusa la capo gruppo.
 Informazioni su 
 Agenzia per la
  cybersicurezza nazionale

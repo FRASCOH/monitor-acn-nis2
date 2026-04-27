@@ -244,9 +244,20 @@ def monitor_page(page_config):
     print(f"\n--- Monitoraggio: {name} ---")
     print(f"URL: {url}")
     
+    # Risultato per la dashboard
+    result = {
+        "name": name,
+        "url": url,
+        "last_check": datetime.now().strftime('%d/%m/%Y %H:%M'),
+        "status": "Inizializzato",
+        "has_changes": False,
+        "summary": ""
+    }
+    
     raw_content = get_page_content(url)
     if not raw_content:
-        return [] # Nessun nuovo link scoperto se il download fallisce
+        result["status"] = "Errore download"
+        return [], result
 
     # Scoperta sub-pagine (se abilitata)
     discovered_urls = []
@@ -260,33 +271,35 @@ def monitor_page(page_config):
     paths = get_state_paths(page_id)
     old_hash, old_text, last_check = load_state(paths)
     
-    has_changes = False
-    additions, removals = [], []
-    
     if old_hash and old_text:
         if current_hash != old_hash:
             print(f"⚠️ MODIFICHE RILEVATE per {name}!")
-            has_changes = True
             additions, removals = generate_detailed_diff(old_text, current_text)
+            
+            result["has_changes"] = True
+            result["status"] = "Modificato"
+            result["summary"] = f"+{len(additions)} aggiunte, -{len(removals)} rimozioni"
+            
+            html_report = generate_html_report(name, additions, removals, url)
+            send_email(html_report, name, True)
+            save_state(paths, current_hash, current_text)
         else:
             print(f"✅ Nessuna modifica per {name}")
+            result["status"] = "Nessuna modifica"
+            result["has_changes"] = False
     else:
         print(f"📝 Prima esecuzione per {name} - salvataggio stato")
         save_state(paths, current_hash, current_text)
-        return discovered_urls
-
-    if has_changes:
-        html_report = generate_html_report(name, additions, removals, url)
-        send_email(html_report, name, has_changes)
-        save_state(paths, current_hash, current_text)
+        result["status"] = "Nuova pagina aggiunta"
     
-    return discovered_urls
+    return discovered_urls, result
 
 def main():
     print(f"=== Inizio sessione monitoraggio: {datetime.now()} ===")
     
     processed_urls = set()
     queue = PAGES_TO_MONITOR.copy()
+    all_results = []
     
     while queue:
         page = queue.pop(0)
@@ -295,21 +308,31 @@ def main():
         if url in processed_urls:
             continue
         
-        discovered = monitor_page(page)
+        discovered, res = monitor_page(page)
+        all_results.append(res)
         processed_urls.add(url)
         
-        # Aggiungi sub-pagine scoperte alla coda se non ancora processate
+        # Aggiungi sub-pagine scoperte alla coda
         for d_url in discovered:
             if d_url not in processed_urls:
-                # Crea un config dinamico per la sub-pagina
-                # Determina il prefisso basato sull'URL
-                prefix = "NIS" if "/portale/nis/" in d_url else "FAQ NIS"
                 url_slug = d_url.strip('/').split('/')[-1]
+                prefix = "NIS" if "/portale/nis/" in d_url else "FAQ NIS"
                 queue.append({
                     "name": f"{prefix}: {url_slug.replace('-', ' ').title()}",
                     "url": d_url,
                     "id": f"{prefix.lower().replace(' ', '_')}_{url_slug.replace('-', '_')}"
                 })
+    
+    # Salva risultati per la dashboard
+    try:
+        with open("status.json", "w", encoding="utf-8") as f:
+            json.dump({
+                "last_update": datetime.now().strftime('%d/%m/%Y %H:%M'),
+                "pages": all_results
+            }, f, indent=2)
+        print("\n✅ status.json aggiornato correttamente")
+    except Exception as e:
+        print(f"\n❌ Errore salvataggio status.json: {e}")
     
     print(f"\n=== Fine sessione: {datetime.now()} ===")
 

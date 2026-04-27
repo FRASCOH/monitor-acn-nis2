@@ -1,0 +1,168 @@
+Obblighi - ACN
+		Skip to Main Content
+Obblighi
+seguici_su
+Agenzia:
+Linkedin: apre una nuova finestra
+Youtube: apre una nuova finestra
+seguici_su
+CSIRT Italia:
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Lingue disponibili:
+ ITA 
+ITA
+: italiano
+ENG
+: english
+Apri menu principale
+Agenzia per la 
+cybersicurezza nazionale
+Segnala un incidente informatico
+apri_ricerca
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+ Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+ Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
+ Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+ Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+ Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Home
+NIS
+Obblighi
+Obblighi
+Sei un soggetto NIS?
+Dal 1° dicembre 2024 e non oltre il 28 febbraio 2025, i soggetti pubblici e privati a cui si applica la normativa 
+devono registrarsi
+.
+Per agevolare l’adeguamento sostenibile agli altri obblighi normativi, il decreto introduce il principio della graduale implementazione degli stessi. Prevede, in particolare, che i primi obblighi in materia di misure di sicurezza e notifiche di incidente siano declinati con modalità e specifiche di base.
+Per favorirne l’efficace attuazione, il decreto legislativo stabilisce una prima differenziata finestra temporale di implementazione: 9 mesi per le notifiche e 18 mesi per le misure di sicurezza, decorrenti dalla data di consolidamento dell’elenco dei soggetti NIS (aprile 2025).
+Inoltre, Al fine di assicurare un quadro conoscitivo e la stabilità dei contatti con l’Autorità nazionale competente NIS, ogni anno, dal 15 aprile al 31 maggio, i soggetti NIS sono chiamati ad effettuare l’aggiornamento annuale delle informazioni.
+Aggiornamento delle informazioni
+A valle della fase di registrazione i soggetti NIS saranno tenuti ad avviare il processo di aggiornamento delle informazioni ai sensi dell’articolo 7, commi 4, 5 e 7, del decreto NIS. In particolare, da metà aprile a fine maggio, i soggetti NIS dovranno fornire tali informazioni, tra cui lo spazio di indirizzamento IP e i nomi di dominio, e mantenerle aggiornate nel tempo.
+In questa fase i soggetti NIS dovranno anche designare il sostituto punto di contatto.
+A tal fine, sul Portale dei servizi dell’Agenzia, è reso disponibile il servizio NIS/Aggiornamento annuale, dedicato a questo specifico adempimento.
+ Scopri di più 
+Misure di sicurezza e notifiche di incidente
+Il decreto NIS prevede obblighi per gli organi di amministrazione e direttivi (articolo 23), la gestione dei rischi per la sicurezza informatica (articolo 24) e le notifiche di incidente (articolo 25).
+In fase di prima applicazione, per assicurare la conformità dei soggetti essenziali e importanti a tali obblighi, sono state stabilite le misure di sicurezza e le notifiche di incidente di base.
+Sono inoltre stabiliti gli obblighi specifici per i gestori di registri dei nomi di dominio di primo livello e i fornitori di servizi di registrazione dei nomi di dominio in materia di Sicurezza, stabilità e resilienza dei sistemi di nomi di dominio (articolo 29).
+ Scopri di più 
+La categorizzazione e l’evoluzione degli obblighi
+Nell’impianto regolatorio è di fondamentale importanza anche il principio di proporzionalità, realizzato tramite l’attività di categorizzazione delle attività e dei servizi dei soggetti NIS (articolo 30).
+ L'attività, che dovrà essere condotta a partire dal 2026 (articolo 42), consentirà ai soggetti NIS di distinguere, all’interno della loro organizzazione e con il supporto di ACN, i diversi livelli di esposizione al rischio dei propri sistemi informativi e di rete. A tali sistemi si applicheranno, coerentemente con la loro esposizione al rischio, maggiori obblighi finalizzati a innalzarne progressivamente i livelli di sicurezza informatica.
+Domande frequenti
+Consulta le domande frequenti sulla nuova direttiva NIS
+ Scopri di più
+su Domande frequenti
+Assistenza
+Dopo aver consultato questa sezione e le domande frequenti hai ancora dei dubbi?
+ Puoi chiedere assistenza all’Autorità nazionale competente NIS.
+ Richiedi assistenza 
+Informazioni su 
+Agenzia per la
+ cybersicurezza nazionale
+Contatti
+info@acn.gov.it
+Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
+non all’indirizzo e-mail dell’Agenzia
+.
+Per interviste, inviti ad eventi o manifestazioni
+comunicazione@acn.gov.it
+Link utili
+Centro di Valutazione e Certificazione Nazionale
+: apre una nuova finestra
+Linee guida ACN
+Referente per la cybersicurezza
+Patrocinio
+Lavora con noi
+Domande frequenti
+Trasparenza
+Amministrazione trasparente
+Atti di notifica
+Piattaforma Whistleblowing
+: apre una nuova finestra
+Seguici su
+Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Altre informazioni
+Note legali
+Privacy policy
+Dichiarazione di accessibilità
+: apre una nuova finestra
+Social media policy
+Nascosta

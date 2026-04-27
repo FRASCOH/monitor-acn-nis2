@@ -1,0 +1,181 @@
+Registrazione - ACN
+		Skip to Main Content
+Registrazione
+seguici_su
+Agenzia:
+Linkedin: apre una nuova finestra
+Youtube: apre una nuova finestra
+seguici_su
+CSIRT Italia:
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Lingue disponibili:
+ ITA 
+ITA
+: italiano
+ENG
+: english
+Apri menu principale
+Agenzia per la 
+cybersicurezza nazionale
+Segnala un incidente informatico
+apri_ricerca
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+ Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+ Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
+ Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+ Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+ Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Home
+NIS
+Registrazione
+Registrazione
+Dal 1° dicembre 2024 al 28 febbraio di ogni anno i soggetti pubblici e privati a cui si applica la NIS devono manifestarsi all’Autorità nazionale competente NIS registrandosi o aggiornando la propria registrazione sulla piattaforma digitale che sarà resa disponibile da ACN.
+Resta ferma la possibilità per l’Autorità nazionale competente NIS, su proposta delle Autorità di settore, di individuare ulteriori soggetti ritenuti critici. Tali soggetti riceveranno una specifica comunicazione diretta, a valle della quale potranno procedere con la registrazione.
+Tale adempimento è funzionale a consentire ad ACN di censire i soggetti operanti nei settori vigilati, anche al fine di fornire loro supporto in fase di implementazione degli obblighi, attraverso le articolate attività di monitoraggio e ausilio nel loro percorso condiviso di crescita, disciplinate dall'articolo 35.
+La mancata registrazione è una violazione assistita da una sanzione amministrativa pecuniaria con un importo fino al 0.1% del fatturato annuo su scala mondiale del soggetto.
+ apre nuova scheda
+ Guarda il video 
+Guarda il video su Youtube: apre una nuova finestra
+Come registrare un’organizzazione
+La registrazione è prevista dall’articolo 7 del decreto NIS e le modalità, termini e procedimenti sono definiti dalla 
+Determinazione 379887/2025
+.
+ Consulta le 
+domande frequenti
+ per maggiori dettagli.
+Prima di avviare la registrazione, il soggetto deve designare il punto di contatto, di cui all’articolo 7, comma 1, lettera c) del decreto NIS. In linea generale, il punto di contatto deve essere un dipendente delegato dal rappresentante legale del soggetto.
+La registrazione è composta da tre fasi, il censimento del punto di contatto, la sua associazione al soggetto e la compilazione della dichiarazione NIS.
+Dal primo gennaio di ogni anno si potrà avviare la registrazione tramite il Portale dei servizi.
+ apre nuova scheda
+ Accedi al Portale dei Servizi 
+Cosa deve fare il Punto di contatto
+Dal primo gennaio di ogni anno, il Punto di contatto potrà autenticarsi sul portale dei Servizi dell’Agenzia tramite SPID o CIE.
+Per associare il punto di contatto al soggetto è necessario indicare:
+per le pubbliche amministrazioni, il codice IPA;
+per i soggetti pubblici e privati, il codice fiscale.
+Il punto di contatto dovrà caricare il titolo giuridico che lo abilita ad operare per conto del soggetto nel contesto NIS (a meno che non sia il rappresentante legale o un procuratore generale).
+Il processo di censimento del punto di contatto e associazione al soggetto NIS si conclude con l’invio di un link di richiesta di convalida al domicilio digitale del soggetto stesso.
+La dichiarazione che il punto di contatto dovrà compilare è suddivisa in 4 sezioni: contesto, caratterizzazione, tipologie di soggetto e autovalutazione. Per maggiori dettagli, consulta le 
+domande frequenti dedicate
+.
+Dopo aver compilato la dichiarazione, il Punto di contatto dovrà prendere visione del riepilogo delle informazioni fornite, accettare le clausole di responsabilità e trasmettere la dichiarazione all’Agenzia. Una copia della dichiarazione è inviata al domicilio digitale del soggetto.
+I passi successivi
+Al termine della fase di registrazione, che si avvia il 1° gennaio e si conclude il 28 febbraio di ogni anno, l’Agenzia e le Autorità di settore vaglieranno le dichiarazioni per costituire l’elenco dei soggetti NIS entro fine marzo 2025.
+ Nel mese di aprile 2025, l’Autorità nazionale competente NIS notificherà al domicilio digitale di tutti i soggetti registrati se rientrano, o meno, nell’elenco.
+Domande frequenti
+Consulta le domande frequenti sulla nuova direttiva NIS
+ Scopri di più
+su Domande frequenti
+Assistenza
+Dopo aver consultato questa sezione e le domande frequenti hai ancora dei dubbi?
+ Puoi chiedere assistenza all’Autorità nazionale competente NIS.
+ Richiedi assistenza 
+Informazioni su 
+Agenzia per la
+ cybersicurezza nazionale
+Contatti
+info@acn.gov.it
+Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
+non all’indirizzo e-mail dell’Agenzia
+.
+Per interviste, inviti ad eventi o manifestazioni
+comunicazione@acn.gov.it
+Link utili
+Centro di Valutazione e Certificazione Nazionale
+: apre una nuova finestra
+Linee guida ACN
+Referente per la cybersicurezza
+Patrocinio
+Lavora con noi
+Domande frequenti
+Trasparenza
+Amministrazione trasparente
+Atti di notifica
+Piattaforma Whistleblowing
+: apre una nuova finestra
+Seguici su
+Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+RSS: apre una nuova finestra
+Altre informazioni
+Note legali
+Privacy policy
+Dichiarazione di accessibilità
+: apre una nuova finestra
+Social media policy
+Nascosta

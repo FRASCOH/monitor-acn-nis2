@@ -1,6 +1,6 @@
-Ambito - ACN
+Domande frequenti NIS - Ambito - ACN
 		Skip to Main Content
-Ambito
+Domande frequenti NIS - Ambito
 seguici_su
 Agenzia:
 Linkedin: apre una nuova finestra
@@ -97,79 +97,343 @@ Seguici su CSIRT Italia
 Twitter: apre una nuova finestra
 Telegram: apre una nuova finestra
 Home
+Domande frequenti
 NIS
 Ambito
+Domande frequenti NIS - Ambito
+Home
+Domande frequenti
+NIS
+Domande frequenti NIS - Ambito
+Menu della sezione 
+ Domande frequenti
+Apri menu della sezione Domande frequenti
+PNRR
+Cloud
+NIS
+Profili generali
 Ambito
-Ambito di applicazione
-La nuova normativa NIS amplia il campo di applicazione della normativa a 18 settori di cui 11 altamente critici (originariamente 8) e 7 critici (di nuova introduzione) per oltre 80 tipologie di soggetti, distinguendo i soggetti in essenziali e importanti.
-Per ulteriori dettagli si fa riferimento agli 
-allegati I, II, III e IV del Decreto legislativo 4 settembre 2024, n. 138
+Settori, sottosettori e tipologie di soggetto
+Registrazione
+Misure di sicurezza e notifica di incidenti
+Aggiornamento delle informazioni
+Categorizzazione
+Ruoli e procedure
+PSNC
+Concorsi
+CSIRT Italia
+NCC Italia
+Strategia Nazionale di Cybersicurezza
+ NIS - Ambito
+Puoi utilizzare la ricerca nelle domande frequenti digitando la paroladi interesse così da poter più facilmente identificare quello che staicercando. I risultati saranno filtrati dal terzo carattere digitato.
+ Nessun risultato trovato
+Per chiarimenti sulla registrazione, vai alla sezione 
+Registrazione
 .
-Consulta il dettaglio degli 
-ambiti di applicazione
+Per chiarimenti sull’ambito di applicazione settoriale, vai alla sezione 
+Settori, sottosettori e tipologie di soggetto
 .
- Schema degli ambiti di applicazione
- * Possibile identificazione dell’Autorità come essenziali
- ** Possibile identificazione dell’Autorità come importanti o essenziali
-Settore
-Dettaglio
-Grandi imprese
-Medie imprese
-Piccole e micro imprese
-SETTORI ALTAMENTE CRITICI
-Energia
-19 tipologie di soggetto
-Essenziali
-Importanti *
-Fuori ambito **
-Trasporti
-10 tipologie di soggetto
-Settore bancario
-DORA Lex specialis
-Infrastrutture dei mercati finanziari
-Settore sanitario
-5 tipologie di soggetto
-Acqua potabile
-1 tipologia di soggetto
-Acque reflue
-1 tipologia di soggetto
-Infrastrutture digitali
-9 tipologie di soggetto
-Gestione dei servizi TIC (b2b)
-2 tipologie di soggetto
-Importanti *
-Fuori ambito **
-Spazio
-1 tipologia di soggetto
-SETTORI CRITICI
-Servizi postali e di corriere
-1 tipologia di soggetto
-Importanti *
-Fuori ambito **
-Gestione dei rifiuti
-1 tipologia di soggetto
-Fabbricazione, produzione e distribuzione di sostanze chimiche
-1 tipologia di soggetto
-Produzione, trasformazione e distribuzione di alimenti
-1 tipologia di soggetto
-Fabbricazione
-6 tipologie di soggetto
-Fornitori di servizi digitali
-4 tipologie di soggetto
-Ricerca
-2 tipologie di soggetto
-Importanti *
-Fuori ambito **
-ULTERIORI TIPOLOGIE DI SOGGETTI
-Pubblica Amministrazione centrale
- 4 categorie di PA
-Essenziali
-Pubblica Amministrazione regionale e locale
-11 categorie di PA
-Importanti *
-Ulteriori tipologie di soggetti
-4 tipologie di soggetti 
-Identificazione dell’Autorità
+AMB.GE.1 Quali sono i settori e i soggetti che ricadono nell’ambito di applicazione?
+Il d.lgs. n. 138/2024 (decreto NIS) recante il recepimento della Direttiva NIS (v. FAQ GEN.2), indica all’articolo 3 il suo ambito di applicazione. In particolare, vi rientrano i soggetti pubblici e privati delle tipologie di cui agli allegati I, II, III e IV, che sono sottoposti alla giurisdizione nazionale ai sensi dell’articolo 5.
+Nell’allegato I del decreto sono elencati i settori altamente critici. Nell’allegato II sono elencati gli altri settori critici.
+Nell’allegato III sono elencate le categorie di pubbliche amministrazioni alle quali si applica il decreto.
+Nell’allegato IV sono elencate le ulteriori tipologie di soggetti a cui si applica il decreto a seguito di identificazione governativa (v. infra).
+La maggior parte dei soggetti pubblici e privati rientrano nell’ambito di applicazione sulla base dei criteri (dimensioni e tipologia di soggetto) stabiliti dal decreto, mentre un numero limitato di ulteriori soggetti può essere inserito nell’ambito di applicazione in esito all’identificazione da parte dell’Autorità nazionale competente NIS, su proposta delle Autorità di settore competenti.
+In particolare, ricadono nell’ambito di applicazione del decreto NIS i soggetti pubblici e privati che, ai sensi dell’articolo 3, soddisfano i seguenti criteri: 
+appartengono alle tipologie di cui agli allegati I e II e superano i massimali per le piccole imprese (ossia sono almeno medie imprese) ai sensi dell'articolo 2, paragrafo 2, dell'allegato alla 
+Raccomandazione 2003/361/CE
+;
+indipendentemente dalle loro dimensioni (possono quindi essere anche micro e piccole imprese) sono: 
+identificati come soggetti critici ai sensi del d.lgs. 134/2024 che recepisce la Direttiva (UE) 2022/2557 del Parlamento europeo e del Consiglio, del 14 dicembre 2022 (Direttiva CER – Resilience of Critical Entities);
+fornitori di reti pubbliche di comunicazione elettronica o di servizi di comunicazione elettronica accessibili al pubblico (allegato I);
+prestatori di servizi fiduciari (allegato I);
+gestori di registri dei nomi di dominio di primo livello e fornitori di servizi di sistema dei nomi di dominio (allegato I);
+fornitori di servizi di registrazione dei nomi di dominio (allegato II);
+pubbliche amministrazioni di cui all’articolo 1, comma 3, della legge 31 dicembre 2009, n. 196, ricomprese nelle categorie elencate nell’allegato III;
+imprese associate o collegate ad un soggetto essenziale o importante che soddisfano almeno uno dei seguenti criteri: 
+adottano decisioni o esercitano una influenza dominante sulle decisioni relative alle misure di gestione del rischio per la sicurezza informatica di un soggetto importante o essenziale;
+detengono o gestiscono sistemi informativi e di rete da cui dipende la fornitura dei servizi del soggetto importante o essenziale;
+effettuano operazioni di sicurezza informatica del soggetto importante o essenziale;
+forniscono servizi TIC o di sicurezza, anche gestiti, al soggetto importante o essenziale.
+Tali soggetti devono riconoscersi in base ai suddetti criteri, autoidentificarsi e manifestarsi all’Autorità nazionale competente NIS attraverso l’apposita registrazione sulla piattaforma digitale messa a disposizione da ACN (articolo 7, comma 1).
+Inoltre, l’Autorità Nazionale Competente NIS (ACN) su proposta delle Autorità di settore, può identificare:
+sulla base di una valutazione del rischio: 
+i soggetti che forniscono servizi di trasporto pubblico locale (allegato IV);
+gli istituti di istruzione che svolgono attività di ricerca (allegato IV);
+i soggetti che svolgono attività di interesse culturale (allegato IV);
+le società in house, società partecipate e società a controllo pubblico, come definite nel decreto legislativo 19 agosto 2016, n. 175 (allegato IV);
+ulteriori soggetti, indipendentemente dalle loro dimensioni, che appartengono ai settori o alle tipologie di cui agli allegati I, II, III e IV che soddisfano almeno uno dei seguenti criteri: 
+il soggetto era stato già identificato come operatore di servizi essenziali ai sensi del decreto legislativo 18 maggio 2018, n. 65 (NIS) prima della data di entrata in vigore del decreto di recepimento della NIS2;
+il soggetto è l'unico fornitore nazionale di un servizio essenziale per il mantenimento di attività sociali o economiche fondamentali;
+una perturbazione del servizio fornito dal soggetto potrebbe avere un impatto significativo sulla sicurezza pubblica, l'incolumità pubblica o la salute pubblica;
+una perturbazione del servizio fornito dal soggetto potrebbe comportare un rischio sistemico significativo, in particolare per i settori nei quali tale perturbazione potrebbe avere un impatto transfrontaliero;
+il soggetto è critico in ragione della sua particolare importanza a livello nazionale o regionale per quel particolare settore o tipo di servizio o per altri settori indipendenti nel territorio dello Stato;
+il soggetto è considerato critico ai sensi del decreto legislativo n. 138/2024 quale elemento sistemico della catena di approvvigionamento, anche digitale, di uno o più soggetti considerati essenziali o importanti.
+Tali soggetti, alla conclusione della procedura di identificazione di cui all’articolo 3, comma 13, riceveranno una specifica notifica da parte dell’Autorità nazionale competente NIS e di conseguenza dovranno registrarsi sulla piattaforma di ACN (articolo 7, comma 1) (v. FAQ GEN.6, REG.1 e REG.2).
+AMB.GE.2 Che differenza c’è fra soggetti essenziali e importanti?
+A seconda del livello di criticità intrinseca dei settori e delle tipologie di soggetti in relazione al rischio informatico, ai sensi dell’articolo 6 del 
+d.lgs. n. 138/2024
+ (decreto NIS) recante il recepimento della Direttiva NIS (v. FAQ GEN.2), i soggetti sono distinti tra “essenziali” e “importanti”. Tale distinzione è utile ai fini dell’applicazione proporzionale degli obblighi nonché dell’esercizio dei poteri ispettivi e sanzionatori dell’Autorità nazionale competente NIS.
+Sono considerati essenziali:
+i soggetti di cui all'allegato I che superano i massimali per le medie imprese di cui all'articolo 2, paragrafo 1, dell'allegato alla 
+Raccomandazione 2003/361/CE
+;
+indipendentemente dalle loro dimensioni, i soggetti identificati come soggetti critici ai sensi del decreto legislativo che recepisce la Direttiva (UE) 2022/2557 (cd. Direttiva CER);
+i fornitori di reti pubbliche di comunicazione elettronica e i fornitori di servizi di comunicazione elettronica accessibili al pubblico di cui all’articolo 3, comma 5, lettera b), che si considerano almeno medie imprese ai sensi dell'articolo 2 dell'allegato alla 
+Raccomandazione 2003/361/CE
+;
+indipendentemente dalle loro dimensioni, i prestatori di servizi fiduciari qualificati e i gestori di registri dei nomi di dominio di primo livello, nonché i prestatori di servizi di sistema dei nomi di dominio di cui all’articolo 3, comma 5, lettere c) e d);
+indipendentemente dalle loro dimensioni, le pubbliche amministrazioni centrali di cui all’allegato III, lettera a);
+i soggetti eventualmente individuati dall’Autorità competente NIS. Tali soggetti riceveranno una specifica notifica di individuazione.
+Tutti gli altri soggetti rientranti nell’
+ambito di applicazione
+ del decreto che non sono considerati essenziali, sono considerati importanti.
+Scopri gli ambiti di applicazione
+ suddivisi in base ai settori, sottosettori o tipologie di soggetti..
+AMB.GE.3 Esiste un elenco dei codici ATECO o NACE delle attività che rientrano nell’ambito di applicazione della disciplina NIS?
+In linea con la direttiva 2022/2555 (Direttiva NIS), il decreto legislativo 138/2024 (decreto NIS) non distingue, in linea generale, i settori, sottosettori e le tipologie di soggetti ricompresi nell’ambito di applicazione in base ai codici ATECO o NACE. Ove, infatti, si è ritenuto fare ricorso a tale classificazione, nella definizione di specifiche tipologie di soggetto inserite negli allegati I e II, sono stati espressamente richiamati i codici NACE di riferimento.
+In particolare, si fa riferimento ai soggetti che fabbricano prodotti farmaceutici di base e preparati farmaceutici (sezione C, divisione 21, della NACE Rev. 2) e alle imprese che rientrano nel settore “Fabbricazione” di computer e prodotti di elettronica e ottica (sezione C, divisione 26, della NACE Rev. 2), di apparecchiature elettriche (sezione C, divisione 27, della NACE Rev. 2), di macchinari e apparecchiature n.c.a. (sezione C, divisione 28, della NACE Rev. 2), di autoveicoli, rimorchi e semirimorchi (sezione C, divisione 29, della NACE Rev. 2), di altri mezzi di trasporto (sezione C, divisione 30, della NACE Rev. 2).
+Al contempo, si evidenzia che la codifica NACE o ATECO non è riconducibile alle ulteriori tipologie di soggetto di cui agli allegati I, II, III e IV del decreto NIS e, pertanto, salvo per le citate tipologie di soggetto, non è possibile determinare l’ambito di applicazione sulla base dei codici ATECO o NACE.
+AMB.GE.4 Esiste un criterio di prevalenza o residualità delle attività svolte al fine di determinare l’ambito di applicazione della disciplina NIS?
+In linea con la direttiva 2022/2555 (Direttiva NIS), rientrano nell’ambito di applicazione del decreto legislativo 138/2024 (decreto NIS) tutti i soggetti che soddisfano i criteri di cui all’articolo 3 e che, in particolare, svolgono attività riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV. Al riguardo, salvo tre eccezioni, la riconducibilità prescinde dalla prevalenza dell’attività svolta dal soggetto.
+Pertanto, un soggetto rientra nell’ambito di applicazione anche qualora svolga solo in forma residuale attività riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV.
+Per completezza di informazione, si evidenzia che le tre eccezioni a tale principio generale sono rappresentante dal:
+settore “Acque reflue” (allegato I) nel quale sono ricomprese le “imprese che raccolgono, smaltiscono o trattano acque reflue urbane, domestiche o industriali quali definite all'articolo 2, punti da 1), 2) e 3), della direttiva 91/271/CEE del Consiglio, escluse le imprese per cui la raccolta, lo smaltimento o il trattamento di acque reflue urbane, domestiche o industriali è 
+una parte non essenziale della loro attività generale
+;
+settore “Gestione Rifiuti” (allegato II) nel quale sono ricomprese le “imprese che si occupano della gestione dei rifiuti quali definite all'articolo 3, punto 9), della direttiva 2008/98/CE […], escluse quelle per cui la gestione dei rifiuti 
+non è la principale attività economica
+”.
+Settore “Acqua potabile” (allegato I) nel quale sono ricompresi i “distributori di acque destinate al consumo umano, quali definiti all'articolo 2, punto 1, lettera a), della direttiva (UE) 2020/2184 del Parlamento europeo e del Consiglio, ma esclusi i distributori per i quali la distribuzione di acque destinate al consumo umano è 
+una parte non essenziale dell'attività generale
+ di distribuzione di altri prodotti e beni”
+AMB.GE.5 Per determinare la riconducibilità alle tipologie di soggetto è opportuno considerare le attività/servizi effettivamente svolte/erogati dall’organizzazione?
+Al fine di determinare la riconducibilità alle tipologie di soggetto di cui agli allegati I e II, è necessario tenere in considerazione le attività e/o i servizi che l’organizzazione svolge/eroga effettivamente allo stato attuale in relazione alla registrazione.
+Pertanto, dichiarazioni precedenti alla registrazione, anche di carattere formale, come l’oggetto sociale o i codici ATECO/NACE indicati nel registro delle imprese, sono indicativi e non sono tassativi in relazione alla registrazione.
+AMB.GE.6 Un fornitore di un soggetto NIS rientra nell’ambito di applicazione della disciplina NIS?
+Le organizzazioni che non soddisfano i criteri di cui all'articolo 3 del decreto NIS non rientrano automaticamente nell'ambito di applicazione del decreto NIS per il solo fatto di fornire servizi a soggetti NIS (o comunque a soggetti ritenuti critici).
+In linea generale, non è previsto un meccanismo di propagazione diretta dell’ambito di applicazione del decreto NIS dai soggetti NIS alla loro catena di approvvigionamento.
+Tuttavia, i soggetti NIS, al fine di gestire il rischio informatico che deriva dalla propria catena di approvvigionamento, digitale o meno, dovranno imporre obblighi contrattuali ai propri fornitori.
+Pertanto, le organizzazioni che fanno parte della catena di approvvigionamento di un soggetto NIS dovranno adempiere a degli obblighi contrattuali che derivano dall’applicazione del decreto NIS, ma non sono automaticamente soggetti NIS e non sono pertanto tenuti a rispettare le previsioni di cui al decreto NIS né sono soggetti alle attività di supervisione dell’Autorità nazionale competente NIS.
+AMB.GE.7 Le imprese collegate/associate ad un soggetto NIS rientrano nell’ambito di applicazione della disciplina NIS (articolo 3, comma 10, del decreto NIS)?
+L’articolo 3, comma 10, attrae nell’ambito di applicazione del decreto NIS, indipendentemente dalle loro dimensioni, le organizzazioni (persone giuridiche) che fanno parte di un gruppo di imprese (collegate, associate, etc.) e che esercitano un determinato controllo (lettera a)) o offrono, anche in forma residuale, determinati servizi (lettere b), c) e d)) a soggetti NIS facenti parte del medesimo gruppo.
+In fase di registrazione, tali organizzazioni dovranno dichiarare nei confronti di quali soggetti NIS del gruppo soddisfano i criteri di cui all’articolo 3, comma 10, e nella sezione dedicata all’indicazione delle tipologie di soggetto è possibile indicare che l’organizzazione è soggetto NIS unicamente in forza dell’articolo 3, comma 10.
+Si specifica, inoltre, che l’articolo 3, comma 10, attrae nell’ambito di applicazione del decreto NIS solo le organizzazioni a cui si applica la giurisdizione nazionale ai sensi dell’articolo 5 e che soddisfano i criteri di cui all’articolo 3 , comma 10, nei confronti di soggetti NIS nazionali. L’articolo 3, comma 10, non è rilevante, pertanto, per le organizzazioni a cui non si applica la giurisdizione nazionale o che soddisfano i criteri di cui al medesimo comma nei confronti di soggetti NIS a cui non si applica la giurisdizione nazionale (ex articolo 5).
+Per completezza di informazione, si evidenzia che le organizzazioni (persone giuridiche) che soddisfano i criteri di cui all’articolo 3, comma 10, lettere b), c) e d), potrebbero essere riconducibili a tipologie di soggetto di cui all’allegato I, con specifico riferimento al settore infrastrutture digitali e al settore gestione dei servizi TIC. Pertanto, tali organizzazioni potrebbero in ogni caso ricadere nell’ambito di applicazione indipendentemente dall’articolo 3, comma 10 (vds. FAQ AMB.ES.1, AMB.ES.2, AMB.ES.3, AMB.ES.4, AMB.GI.1 e REG.1).
+AMB.GE.8 Le associazioni datoriali, territoriali o di settore rientrano nell’ambito di applicazione della disciplina NIS?
+Le associazioni datoriali, territoriali o di settore non rientrano automaticamente nell’ambito di applicazione del decreto NIS. Tuttavia, è necessario valutare se i servizi offerti alle imprese associate sono riconducibili, o meno, a quelli che caratterizzano le tipologie di soggetto di cui agli allegati I e II.
+In particolare, un’associazione potrebbe rientrare nell’ambito di applicazione qualora eroghi servizi riconducibili ad alcune tipologie di soggetti del settore delle infrastrutture digitali (e.g., fornitore di servizi cloud), servizi gestiti TIC (e.g., fornitore di servizi gestiti) o servizi digitali (e.g., registrar), soddisfacendo i relativi criteri dimensionali di cui all’articolo 3 del decreto NIS. Pertanto, anche per le associazioni, è utile svolgere il processo di autovalutazione di cui alla FAQ REG.1 e consultare le FAQ settoriali, considerando che anche un’organizzazione che opera senza scopo di lucro può rientrare nell’ambito di applicazione.
+ Dimensione delle organizzazioni
+AMB.DI.1 Come faccio a sapere se sono una grande, media o piccola impresa?
+Per la definizione di media impresa occorre far riferimento ai requisiti dimensionali indicati nell’articolo 2, paragrafo 1, dell'allegato alla 
+raccomandazione 2003/361/CE
+ nonché, in modo più specifico, alla 
+Guida dell’utente alla definizione di PMI
+ (pubblicata dalla Commissione europea nel 2020).
+Confrontando i propri dati con le soglie stabilite dalla citata disciplina, un’impresa può determinare se è una microimpresa, una piccola o una media impresa.
+Le microimprese sono definite come imprese con meno di 10 occupati e che realizzano un fatturato annuo oppure un totale di bilancio annuo non superiore a 2 milioni di euro.
+Le piccole imprese sono definite come imprese con meno di 50 occupati e che realizzano un fatturato annuo oppure un totale di bilancio annuo non superiore a 10 milioni di euro.
+Le medie imprese sono definite come imprese con meno di 250 occupati e che realizzano un fatturato annuo non superiore a 50 milioni di euro oppure un totale di bilancio annuo non superiore a 43 milioni di euro.
+Si evidenzia che per essere riconducibile a una delle categorie di PMI (micro, piccola o media impresa) devono essere sempre soddisfatti sia il criterio del numero di effettivi, sia almeno uno dei due parametri contabili (fatturato o bilancio) tra loro alternativi, essendo sufficiente che almeno uno dei due rientri nei parametri dimensionali. Se i valori dei parametri contabili sono superati entrambi, oppure se si supera anche solo il criterio del numero di effettivi, si ricade nella categoria più elevata di PMI (micro, piccola o media impresa), ovvero nella categoria delle grandi imprese.
+Per esempio:
+un'organizzazione con 
+meno di 50 occupati, un fatturato di almeno 2 milioni non superiore ai 10 milioni
+ ma un bilancio superiore ai 43 milioni, cade nella categoria delle piccole imprese;
+un'organizzazione con meno di 10 occupati, 
+un fatturato e un bilancio di almeno 10 milioni ma non superiore 43 milioni
+, cade nella categoria delle medie imprese;
+un'organizzazione con meno di 10 occupati, un fatturato superiore ai 50 milioni e 
+un bilancio di almeno 10 milioni ma non superiore 43 milioni
+, cade nella categoria delle medie imprese;
+un'organizzazione con meno di 10 occupati, 
+un fatturato di almeno 50 milioni e un bilancio di almeno 43 milioni
+, ricade nella categoria delle grandi imprese;
+un'organizzazione 
+con almeno 50 e meno di 250 dipendenti
+, un fatturato e un bilancio non superiore ai 10 milioni, ricade nella categoria delle medie imprese;
+un’organizzazione 
+con almeno 250 dipendenti
+, un fatturato e un bilancio non superiore ai 10 milioni, ricade nella categoria delle grandi imprese.
+La raccomandazione prevede che il calcolo del numero di effettivi, fatturato e bilancio, tenga conto delle imprese associate o collegate (articolo 6, paragrafo 2).
+Qualora il soggetto ritenga che ciò non sia proporzionato - tenuto anche conto dell’indipendenza dello stesso dalle sue imprese associate o collegate in termini di servizi che fornisce e di sistemi informativi e di rete che utilizza nella fornitura di tali servizi - potrà richiedere una deroga ai sensi dell’articolo 3, comma 4, del decreto NIS, in presenza degli specifici criteri stabiliti dal DPCM sull’applicazione della clausola di salvaguardia, adottato ai sensi dell’articolo 40, comma 1, lettera a), del 
+decreto NIS
+.
+La presente FAQ, elaborata 
+sulla base “Guida dell’utente alla definizione di PMI” pubblicata dalla UE nel 2020, mira a favorire l’attività di autovalutazione dell’impresa. Si segnala che analoga impostazione è stata seguita dall’Autorità nazionale competente NIS belga e che interpretazioni veicolate da fonti non ufficiali non saranno prese in considerazione.
+AMB.DI.2 Le micro e piccole imprese rientrano nell’ambito di applicazione della disciplina NIS?
+In linea generale, salvo specifiche eccezioni, le organizzazioni che non superano i massimali per le categorie delle micro e piccole imprese, ai sensi della Raccomandazione 2003/361 CE, non rientrano nell’ambito di applicazione del decreto legislativo 134/2024 (cd. decreto NIS). Per i gruppi di imprese, si evidenzia l’applicazione dell’articolo 6, paragrafo 2, dell’allegato alla citata Raccomandazione.
+Tuttavia, tenuto conto della specificità di alcune tipologie di soggetto, sono ricomprese nell’ambito di applicazione le organizzazioni assimilabili a micro e piccole imprese le cui attività sono riconducibili a:
+[ex articolo 3, comma 5, lettera b] fornitori di reti pubbliche di comunicazione elettronica;
+[ex articolo 3, comma 5, lettera b] fornitori di servizi di comunicazione elettronica accessibili al pubblico;
+[ex articolo 3, comma 5, lettera c] prestatori di servizi fiduciari;
+[ex articolo 3, comma 5, lettera d] gestori di registri dei nomi di dominio di primo livello;
+[ex articolo 3, comma 5, lettera d] fornitori di servizi di sistema dei nomi di dominio;
+[ex articolo 3, comma 5, lettera e] fornitori di servizi di registrazione dei nomi di dominio.
+Inoltre, il decreto NIS si applica alle pubbliche amministrazioni, indipendentemente dalla dimensione dell’ente (in termini di dipendenti e bilancio) elencate nel bilancio consolidato dello Stato (
+elenco ISTAT
+) nelle 15 categorie indicate nell’allegato III del decreto NIS.
+Infine, rimane ferma la facoltà per l’Autorità nazionale competente NIS, su proposta delle Autorità di settore interessate, di individuare quali soggetti importanti o essenziali anche piccole e micro-imprese che operano nei settori, sottosettori o che svolgono attività riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV, del decreto NIS (ex. articolo 9). In tal caso, queste organizzazioni riceveranno una notifica al proprio domicilio digitale (ex. articolo 3, comma 13, del decreto NIS).
+AMB.DI.3 Quali medie e grandi imprese rientrano nell’ambito di applicazione della disciplina NIS?
+Tutte le organizzazioni che superano i massimali per le piccole imprese, ai sensi della 
+Raccomandazione 2003/361/CE
+ (ovvero sono riconducibili alle categorie delle medie e grandi imprese) che svolgono attività riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV rientrano nell’ambito di applicazione del decreto legislativo 134/2024 (cd. decreto NIS).
+Per i gruppi di imprese, si evidenzia l’applicazione dell’articolo 6, paragrafo 2, dell’allegato alla citata Raccomandazione.
+Con riferimento all’allegato IV del decreto NIS, si evidenzia che le organizzazioni (ivi incluse medie e grandi imprese) che svolgono esclusivamente attività riconducibili alle tipologie di soggetto ivi elencate sono tenute ad adempiere agli obblighi previsti dal decreto NIS, a partire dalla registrazione, dalla data di ricezione della notifica di individuazione da parte dell’Autorità nazionale competente NIS, su proposta delle Autorità di settore interessate (ex. articolo 3, commi 8 e 13, del decreto NIS).
+Infine, rimane ferma la facoltà per l’Autorità nazionale competente NIS, su proposta delle Autorità di settore interessate, di individuare quali soggetti importanti o essenziali anche piccole e micro imprese che operano nei settori, sottosettori o che svolgono attività riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV, del decreto NIS (ex. articolo 3, comma 9). In tal caso, queste organizzazioni riceveranno una notifica al proprio domicilio digitale (ex. articolo 3, comma 13, del decreto NIS).
+ Gruppi di imprese
+AMB.GI.1 Le attività e i servizi infragruppo (tra organizzazioni dello stesso gruppo di imprese, dello stesso consorzio, etc.) rientrano nell’ambito di applicazione della disciplina NIS?
+Tenuto conto che la direttiva e il decreto NIS si applicano alle singole persone giuridiche (legal entities) e non a gruppi di imprese o consorzi (o ad altre aggregazioni di persone giuridiche), ai fini delle valutazioni circa l’ambito di applicazione non sono distinte le attività e i servizi svolti a favore di organizzazioni dello stesso gruppo di imprese o dello stesso consorzio rispetto a quelli svolti a favore di soggetti esterni al gruppo di imprese o al consorzio.
+Pertanto, rientrano nell’ambito di applicazione anche le organizzazioni che soddisfano i criteri di cui all’articolo 3 del decreto NIS svolgendo attività riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV esclusivamente a favore di organizzazioni dello stesso gruppo di imprese o dello stesso consorzio.
+AMB.GI.2 A cosa serve la clausola di salvaguardia di cui all’articolo 3, comma 4 del decreto NIS e al DPCM 221/2024? Come si richiede?
+La clausola di salvaguardia, prevista dall’articolo all’articolo 3, comma 4, del decreto NIS e i cui criteri per l’applicazione sono definiti con il 
+Decreto del Presidente del Consiglio dei ministri del 9 dicembre 2024, n. 221
+ (pubblicato nella Gazzetta Ufficiale del 10 febbraio 2025) è volta a mitigare effetti sproporzionati nell’applicazione del decreto NIS.
+Di fatto, ai sensi della raccomandazione 2003/361, con particolare riferimento all’articolo 6, paragrafo 2, del suo allegato) il calcolo dei parametri per determinare la riconducibilità di una organizzazione alla categoria delle medie e grandi imprese nel contesto dei gruppi di imprese (imprese collegate e/o associate) prevede una forma di consolidamento.
+La clausola di salvaguardia consente di disapplicare questa forma di consolidamento (ovvero disapplicare l’articolo 6, paragrafo 2, dell’allegato alla raccomandazione 2003/361) determinando un potenziale declassamento dell’organizzazione da grande impresa a media impresa (con conseguenti potenziali impatti sulla qualifica di soggetto essenziale o importante), ovvero da media impresa a piccola impresa (con conseguenti potenziali impatti sulla riconducibilità dell’organizzazione all’ambito di applicazione).
+Ai sensi dell’articolo 3, commi 4 e 12, e dell’articolo 11, comma 4, lettera c), del decreto NIS, la clausola può essere concessa dall’Autorità di settore competente “tenuto anche conto dell’indipendenza del soggetto dalle sue imprese collegate in termini di sistemi informativi e di rete che utilizza nella fornitura dei suoi servizi e in termini di servizi che fornisce”.
+Pertanto, il Punto di contatto di una organizzazione che fa parte di un gruppo di imprese (imprese collegate e/o associate) e che ritiene sproporzionata l’applicazione dell’articolo 6, paragrafo 2, dell’allegato alla raccomandazione 2003/361, può fare richiesta della clausola di salvaguardia in fase di registrazione, dichiarando che l’organizzazione soddisfa tutti i criteri stabiliti dal DPCM 221/2024:
+[articolo 3, comma 1, lettera a)] 
+totale 
+indipendenza dei sistemi informativi e di rete NIS dell’organizzazione da quelli delle imprese del gruppo, nel senso che i sistemi informativi e di rete delle imprese del gruppo 
+non contribuiscono in alcun modo
+ al funzionamento dei sistemi informativi e di rete NIS dell’organizzazione medesima (con sistemi informativi e di rete NIS, si intendono i sistemi informativi e di rete che abilitano attività e servizi NIS);
+[articolo 3, comma 1, lettera b)] 
+totale
+ indipendenza delle attività e servizi NIS dell’organizzazione da quelli delle imprese collegate, nel senso che le attività e i servizi delle imprese del gruppo 
+non contribuiscono in alcun modo
+ allo svolgimento delle attività e dei servizi NIS dell’organizzazione medesima (con attività e servizi NIS si intendono le attività e i servizi per i quali l’organizzazione rientra nell’ambito di applicazione del decreto NIS);
+[articolo 3, comma 2]
+ all’organizzazione non si applica l’articolo 3, comma 10, del decreto NIS.
+Pertanto, in linea generale, la clausola di salvaguardia potrà essere accolta qualora l’organizzazione richiedente non sia integrata nel gruppo di imprese in termini di sistemi informativi e di rete NIS, nonché di attività e di servizi NIS.
+Per completezza di informazione, al fine di completare la richiesta di clausola di salvaguardia, nel corso della registrazione, oltre alle succitate dichiarazioni, è richiesta l’indicazione del numero di dipendenti, fatturato e bilancio disapplicando l’articolo 6, paragrafo 2, dell’allegato alla raccomandazione 2003/361.
+In fase di analisi delle dichiarazioni trasmesse dai soggetti NIS, le Autorità di settore valuteranno le richieste di clausola di salvaguardia, la cui concessione, o meno, sarà comunicata all’organizzazione richiedente con la notifica ad inizio aprile di cui all’articolo 7, comma 3, del decreto NIS.
+AMB.GI.3 Quali organizzazioni non possono richiedere la clausola di salvaguardia di cui all’articolo 3, comma 4 del decreto NIS e al DPCM 221/2024?
+Tenuto conto che la concessione della clausola di salvaguardia è volta a disapplicare l’articolo 6, paragrafo 2, dell’allegato alla 
+Raccomandazione 2003/361/CE
+, 
+la clausola non è applicabile alle imprese autonome
+ (quelle organizzazioni che non fanno parte di un gruppo di imprese e che non hanno imprese collegate o associate).
+La clausola di salvaguardia, ai sensi del 
+DPCM 221/2024
+, è altresì 
+preclusa alle organizzazioni che sono attratte nell’ambito di applicazione ai sensi dell’articolo 3, comma 10, del decreto NIS
+.
+Inoltre, ai sensi del DPCM 221/2024, la clausola di salvaguardia non può essere concessa alle organizzazioni i cui sistemi informativi e di rete NIS 
+dipendono anche solo in forma residuale
+ da quelli delle imprese del gruppo, nel senso che i sistemi informativi e di rete delle imprese del gruppo 
+contribuiscono anche solo in forma residuale
+ al funzionamento dei sistemi informativi e di rete NIS dell’organizzazione medesima (per sistemi informativi e di rete NIS, si intendono i sistemi informativi e di rete che abilitano attività e servizi NIS).
+Infine, ai sensi del DPCM 221/2024, la clausola di salvaguardia non può essere concessa alle organizzazioni le cui attività e servizi NIS dipendono anche solo in forma residuale da quelli delle imprese collegate, nel senso che le attività e i servizi delle imprese del gruppo 
+contribuiscono anche solo in forma residuale
+ allo svolgimento delle attività e dei servizi NIS dell’organizzazione medesima (per attività e servizi NIS si intendono le attività e i servizi per i quali l’organizzazione rientra nell’ambito di applicazione del decreto NIS).
+ Settore pubblico
+AMB.PU.1 Quali pubbliche amministrazioni rientrano nell’ambito di applicazione della disciplina NIS?
+Il decreto NIS si applica alle pubbliche amministrazioni, indipendentemente dalla dimensione dell’ente (in termini di dipendenti e bilancio), elencate nel bilancio consolidato dello Stato (
+elenco ISTAT
+) nelle 15 categorie indicate nell’allegato III del decreto NIS.
+In particolare, il decreto NIS si applica a tutte le pubbliche amministrazioni centrali. Inoltre, si applica anche alle seguenti categorie di amministrazioni locali:
+Regioni e Province autonome
+Città metropolitane;
+Comuni con popolazione superiore ai 100.000 abitanti
+Comuni capoluoghi di regione
+ASL
+Pertanto, in linea generale e salvo che non svolgano attività riconducibili agli allegati I e II, o che ricevano una notifica di individuazione da parte dell’Autorità nazionale competente NIS ai sensi dell’articolo 3, comma 13, del decreto NIS, 
+non
+ rientrano nell’ambito di applicazione (elenco indicativo e non esaustivo):
+i Comuni che non siano capoluoghi di Regione e con 100.000 abitanti o meno;
+le Unioni di comuni;
+le scuole.
+Infine, rimane ferma la facoltà per l’Autorità nazionale competente NIS, su proposta delle Autorità di settore interessate, di individuare ulteriori organizzazioni che operano nei settori di cui agli allegati I, II, III e IV, del decreto NIS (ex. articolo 9), quali soggetti importanti o essenziali. In tal caso, queste organizzazioni riceveranno una notifica al proprio domicilio digitale (ex. articolo 3, comma 13, del decreto NIS).
+AMB.PU.2 Quali organizzazioni del settore pubblico rientrano nell’ambito di applicazione della disciplina NIS?
+Oltre alle pubbliche amministrazioni, indipendentemente dalla dimensione dell’ente (in termini di dipendenti e bilancio) elencate nel bilancio consolidato dello Stato (
+elenco ISTAT
+) indicate nelle 15 categorie nell’allegato III del decreto NIS, il decreto NIS si applica anche ad altre organizzazioni del settore pubblico.
+Si fa riferimento, in particolare, alle società in-house, alle società partecipate e alle società a controllo pubblico (decreto legislativo 175/2016), che svolgono attività riconducibili alle tipologie di soggetto di cui agli allegati I e II del decreto NIS e che sono assimilabili a medie o grandi imprese ai sensi della 
+Raccomandazione 2003/361/CE
+.
+Inoltre, se tali organizzazioni sono invece assimilabili a micro o piccole imprese, sono comunque ricomprese nell’ambito di applicazione del decreto NIS se svolgono attività riconducibili a:
+[ex articolo 3, comma 5, lettera b] fornitori di reti pubbliche di comunicazione elettronica;
+[ex articolo 3, comma 5, lettera b] fornitori di servizi di comunicazione elettronica accessibili al pubblico;
+[ex articolo 3, comma 5, lettera c] prestatori di servizi fiduciari;
+[ex articolo 3, comma 5, lettera d] gestori di registri dei nomi di dominio di primo livello;
+[ex articolo 3, comma 5, lettera d] fornitori di servizi di sistema dei nomi di dominio;
+[ex articolo 3, comma 5, lettera e] fornitori di servizi di registrazione dei nomi di dominio.
+Infine, rimane ferma la facoltà per l’Autorità nazionale competente NIS, su proposta delle Autorità di settore interessate, di individuare ulteriori soggetti (pubblici o privati) che operano nei settori, sottosettori o che svolgono attività riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV, del decreto NIS (ex. articolo 9), quali soggetti importanti o essenziali. In tal caso, queste organizzazioni riceveranno una notifica al proprio domicilio digitale (ex. articolo 3, comma 13, del decreto NIS).
+Con riferimento all’allegato IV del decreto NIS, si evidenzia che le organizzazioni che svolgono esclusivamente attività riconducibili alle tipologie di soggetto ivi elencate sono tenute ad adempiere agli obblighi previsti dal decreto NIS, a partire dalla registrazione, dalla data di ricezione della notifica di individuazione da parte dell’Autorità nazionale competente NIS, su proposta delle Autorità di settore interessate (ex. articolo 3, commi 8 e 13, del decreto NIS).
+ Organizzazioni estere
+AMB.ES.1 Quali organizzazioni estere (EU) rientrano nell’ambito di applicazione della disciplina NIS?
+In linea con la Direttiva 2022/2555 (direttiva NIS), il decreto 138/2024 (cd. decreto NIS) si applica a tutte le organizzazioni che soddisfano i criteri di cui all’articolo 3 (in relazione alle dimensioni e alla tipologia di attività svolta) che sono stabiliti sul territorio nazionale (ex. articolo 5, comma 1, primo periodo, del decreto NIS).
+Pertanto, rientrano nell’ambito di applicazione del decreto NIS anche le organizzazioni di diritto di altri Stati membri che sono stabilite in Italia. Inoltre, qualora una organizzazione sia stabilita in più Stati membri, è possibile che sia soggetta alla giurisdizione di più Stati membri.
+Si evidenzia, tuttavia, che la direttiva e il decreto NIS si applicano alle singole persone giuridiche (legal entities). Conseguentemente, salvo specifiche eccezioni, rientrano nell’ambito di applicazione del decreto NIS le persone giuridiche (legal entities) che sono stabilite in Italia e non le eventuali persone giuridiche collegate stabilite in altri Stati membri. Con particolare riferimento ai gruppi di imprese multi-nazionali stabiliti anche in Italia (ovvero gruppi europei con filiali in Italia o gruppi italiani con filiali all’estero), salvo specifiche eccezioni, il decreto NIS si applica solo alle persone giuridiche del gruppo (legal entities / filiali) stabilite in Italia
+[1]
+.
+Tuttavia, tenuto conto della natura transfrontaliera di alcune tipologie di soggetti del settore delle infrastrutture digitali e del settore dei servizi digitali, in linea con la direttiva, l’articolo 5 del decreto NIS prevede specifiche eccezioni a quanto illustrato.
+In particolare, i fornitori di reti pubbliche di comunicazione elettronica e i fornitori di servizi di comunicazione elettronica accessibili al pubblico sono soggetti alla giurisdizione congiunta di tutti gli Stati membri in cui offrono servizi (ex. articolo 5, comma 1, lettera a).
+Inoltre, i fornitori di servizi di sistema dei nomi di dominio DNS, i registri dei nomi di dominio di primo livello, i soggetti che forniscono servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonché i fornitori di mercati online, di motori di ricerca online o di piattaforme di servizi di social network, sono sottoposti alla giurisdizione dello Stato membro in cui è presente lo stabilimento principale nell’Unione europea, così come individuabile ai sensi dell’articolo 5, comma 2.
+Tenuto conto che la direttiva e il decreto NIS si applicano alla singola persona giuridica (
+legal entity
+), lo stabilimento principale di tale persona giuridica (
+legal entity
+) è da individuarsi tra le sedi di quest’ultima, senza che rilevino a tal fine le imprese a questa collegate (ex articolo 1, comma 1, lettera cc), della 
+Determinazione ACN 379887/2025
+) e le relative sedi.
+Infine, rimane ferma la facoltà per l’Autorità nazionale competente NIS, su proposta delle Autorità di settore interessate, di individuare organizzazioni europee stabilite sul territorio nazionale che operano nei settori, sottosettori o che svolgono attività riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV, del decreto NIS (ex. articolo 9), quali soggetti importanti o essenziali. In tal caso, queste organizzazioni riceveranno una notifica al proprio domicilio digitale (ex articolo 3, comma 13, del decreto NIS).
+AMB.ES.2 Quali soggetti esteri (extra-UE) rientrano nell’ambito di applicazione della disciplina NIS?
+In linea con la Direttiva 2022/2555 (direttiva NIS), il decreto 138/2024 (cd. decreto NIS) si applica a tutte le organizzazioni che soddisfano i criteri di cui all’articolo 3 (in relazione alle dimensioni e alla tipologia di attività svolta) che sono stabiliti sul territorio nazionale (ex articolo 5, comma 1, primo periodo, del decreto NIS).
+Pertanto, rientrano nell’ambito di applicazione del decreto NIS anche le organizzazioni di diritto estero (extra-UE) che sono stabilite in Italia. Inoltre, qualora una organizzazione sia stabilita in più Stati membri, è possibile che sia soggetta alla giurisdizione di più Stati membri.
+Si evidenzia, tuttavia, che la direttiva e il decreto NIS si applicano alle singole persone giuridiche (legal entities). Conseguentemente, salvo specifiche eccezioni, rientrano nell’ambito di applicazione del decreto NIS le persone giuridiche (legal entities) che sono stabilite in Italia e non le eventuali persone giuridiche collegate stabilite in altri Stati membri. Con particolare riferimento ai gruppi di imprese multi-nazionali stabiliti anche in Italia (ovvero gruppi esteri con filiali in Italia o gruppi italiani con filiali all’estero), salvo specifiche eccezioni, il decreto NIS si applica solo alle persone giuridiche del gruppo (legal entities / filiali) stabilite in Italia
+[1]
+.
+Tuttavia, tenuto conto della natura transfrontaliera di alcune tipologie di soggetti del settore delle infrastrutture digitali e del settore dei servizi digitali, in linea con la direttiva, l’articolo 5 del decreto NIS prevede specifiche eccezioni a quanto illustrato.
+In particolare, i fornitori di reti pubbliche di comunicazione elettronica e i fornitori di servizi di comunicazione elettronica accessibili al pubblico son soggetti alla giurisdizione congiunta di tutti gli Stati membri in cui offrono servizi (ex. articolo 5, comma 1, lettera a).
+Inoltre, i fornitori di servizi di sistema dei nomi di dominio DNS, i registri dei nomi di dominio di primo livello, i soggetti che forniscono servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonché i fornitori di mercati online, di motori di ricerca online o di piattaforme di servizi di social network, sono sottoposti alla giurisdizione dello Stato membro in cui è stato designato il rappresentante nell’Unione (articolo 5, comma 3) se non è presente alcuno stabilimento nell’Unione europea.
+Infine, rimane ferma la facoltà per l’Autorità nazionale competente NIS, su proposta delle Autorità di settore interessate, di individuare organizzazioni estere stabilite sul territorio nazionale che operano nei settori, sottosettori o che svolgono attività riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV, del decreto NIS (ex. articolo 9), quali soggetti importanti o essenziali. In tal caso, queste organizzazioni riceveranno una notifica al proprio domicilio digitale (ex. articolo 3, comma 13, del decreto NIS).
+AMB.ES.3 Quali organizzazioni estere (EU e non EU) non rientrano nell’ambito di applicazione della disciplina NIS ?
+In linea con la direttiva 2022/2555 (Direttiva NIS), il decreto 138/2024 (cd. decreto NIS) si applica a tutte le organizzazioni che soddisfano i criteri di cui all’articolo 3 (in relazione alle dimensioni e alla tipologia di attività svolta) che sono stabilite sul territorio nazionale (ex articolo 5, comma 1, primo periodo, del decreto NIS).
+Pertanto, in linea generale, non rientrano nell’ambito di applicazione del decreto NIS le organizzazioni che non sono stabilite sul territorio nazionale, salvo alcune eccezioni indicate dall’articolo 5 del decreto NIS, in coerenza con la direttiva e tenuto conto della natura transfrontaliera di alcune tipologie di soggetti del settore delle infrastrutture digitali e del settore dei servizi digitali.
+Tra 
+i soggetti
+ che 
+non sono stabiliti sul territorio nazionale a cui si applica la giurisdizione nazionale
+ rientrano:
+fornitori di reti pubbliche di comunicazione elettronica e i fornitori di servizi di comunicazione elettronica accessibili al pubblico 
+che offrono servizi in Italia
+ (ex articolo 5, comma 1, lettera a);
+i fornitori di servizi di sistema dei nomi di dominio DNS, i registri dei nomi di dominio di primo livello, i soggetti che forniscono servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonché i fornitori di mercati online, di motori di ricerca online o di piattaforme di servizi di social network
+ che hanno il proprio stabilimento principale in Italia (individuato ai sensi dell’articolo 5, comma 2)
+.
+ Tenuto conto che la direttiva e il decreto NIS si applicano alla singola persona giuridica (
+legal entity
+), lo stabilimento principale di tale persona giuridica (
+legal entity
+) è da individuarsi tra le sedi di quest’ultima, senza che rilevino a tal fine le imprese a questa collegate (ex articolo 1, comma 1, lettera cc), della 
+Determinazione ACN 379887/2025
+) e le relative sedi.
+Al contempo, sempre con riferimento all’articolo 5, 
+sono soggetti alla giurisdizione di altri Stati membri
+ (e non alla giurisdizione nazionale):
+i fornitori di reti pubbliche di comunicazione elettronica e i fornitori di servizi di comunicazione elettronica accessibili al pubblico 
+che non offrono servizi sul territorio nazionale
+;
+i fornitori di servizi di sistema dei nomi di dominio DNS, i registri dei nomi di dominio di primo livello, i soggetti che forniscono servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonché i fornitori di mercati online, di motori di ricerca online o di piattaforme di servizi di social network il 
+cui stabilimento principale nell’Unione europea
+ (individuato ai sensi dell’articolo 5, comma 2) 
+non è sul territorio nazionale
+. 
+Non sono soggetti alla giurisdizione nazionale
+, altresì, i soggetti 
+che non hanno stabilimenti nell’Unione europea e che non offrono servizi tali sul territorio nazionale
+.
+ Relazioni con altre normative
+AMB.NO.1 I soggetti CER di cui al decreto legislativo 134/2024 (di recepimento della Direttiva 2022/2557) rientrano nell’ambito di applicazione della disciplina NIS?
+Ai sensi dell’articolo 3, comma 5, lettera a), tutte le organizzazioni individuate quali soggetti critici ai sensi del decreto legislativo 134/2024 (decreto CER) sono soggetti essenziali ai sensi del decreto NIS.
+Al riguardo, si evidenzia che la qualifica di soggetto CER si acquisisce con l’inserimento nel decreto del Presidente del Consiglio dei ministri recante l’elenco dei soggetti critici composto ai sensi dell’articolo 8 del decreto CER. Dell’inclusione nell’elenco è data notizia, entro 30 giorni dalla sua adozione, sia all’organizzazione censita come soggetto critico sia all’Agenzia per la cybersicurezza nazionale. 
+AMB.NO.2 I soggetti DORA (Regolamento 2022/2554) devono adempiere agli obblighi previsti dalla nuova disciplina NIS ?
+DORA (Regolamento (UE) 2022/2554) è considerato lex specialis settoriale per la maggior parte delle previsioni della Direttiva NIS (2022/2555).
+Pertanto, ai soggetti DORA riconducibili alle medie o grandi imprese che svolgono attività o erogano servizi riconducibili alle tipologie di soggetto di cui all’allegato I, punti 3 (settore bancario) e 4 (settore infrastrutture dei mercati finanziari), 
+si applicano solamente le disposizioni del decreto NIS relative all’obbligo di registrazione (articolo 7, comma 1, del decreto NIS)
+.
+In sostanza, l’articolo 3, comma 14, del decreto NIS disapplica, per tali soggetti, solo le previsioni dell’articolo 17 e dei capi IV e V, fermo restando il ruolo di CyCLONe nel contesto della gestione delle crisi cyber a livello transfrontaliero.
 Informazioni su 
 Agenzia per la
  cybersicurezza nazionale

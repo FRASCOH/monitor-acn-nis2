@@ -1,0 +1,157 @@
+{
+  "last_update": "27/04/2026 14:01",
+  "pages": [
+    {
+      "name": "ACN Atti Generali",
+      "url": "https://www.acn.gov.it/portale/atti-generali",
+      "last_check": "27/04/2026 14:01",
+      "status": "Modificato",
+      "has_changes": true,
+      "summary": "+3 aggiunte, -1 rimozioni"
+    },
+    {
+      "name": "FAQ NIS (Parent)",
+      "url": "https://www.acn.gov.it/portale/faq/nis",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "NIS Home",
+      "url": "https://www.acn.gov.it/portale/nis",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "FAQ NIS: Categorizzazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "FAQ NIS: Ambito",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
+      "last_check": "27/04/2026 14:01",
+      "status": "Modificato",
+      "has_changes": true,
+      "summary": "+336 aggiunte, -72 rimozioni"
+    },
+    {
+      "name": "FAQ NIS: Aggiornamento Delle Informazioni",
+      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "FAQ NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
+      "last_check": "27/04/2026 14:01",
+      "status": "Modificato",
+      "has_changes": true,
+      "summary": "+239 aggiunte, -43 rimozioni"
+    },
+    {
+      "name": "FAQ NIS: Profili Generali",
+      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "FAQ NIS: Misure Di Sicurezza E Notifica Di Incidenti",
+      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "FAQ NIS: Ruoli E Procedure",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "FAQ NIS: Settori Sottosettori E Tipologie Di Soggetto",
+      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "NIS: Notizie Ed Eventi",
+      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nuova pagina aggiunta",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "NIS: La Normativa",
+      "url": "https://www.acn.gov.it/portale/nis/la-normativa",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nuova pagina aggiunta",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "NIS: Obblighi",
+      "url": "https://www.acn.gov.it/portale/nis/obblighi",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nuova pagina aggiunta",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "NIS: Faq",
+      "url": "https://www.acn.gov.it/portale/nis/faq",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nuova pagina aggiunta",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "NIS: Aggiornamento Informazioni",
+      "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nuova pagina aggiunta",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/nis/registrazione",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nuova pagina aggiunta",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "NIS: Ambito",
+      "url": "https://www.acn.gov.it/portale/nis/ambito",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nuova pagina aggiunta",
+      "has_changes": false,
+      "summary": ""
+    },
+    {
+      "name": "NIS: Modalita Specifiche Base",
+      "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
+      "last_check": "27/04/2026 14:01",
+      "status": "Nuova pagina aggiunta",
+      "has_changes": false,
+      "summary": ""
+    }
+  ]
+}

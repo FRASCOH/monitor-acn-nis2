@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACN NIS2 Monitor Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --secondary: #a855f7;
+            --bg: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --success: #22c55e;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background: var(--bg);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(168, 85, 247, 0.15) 0px, transparent 50%);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 2rem;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        .last-update {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--success);
+            border-radius: 50%;
+            display: inline-block;
+            box-shadow: 0 0 0 rgba(34, 197, 94, 0.4);
+            animation: pulse 2s infinite;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1.5rem;
+            padding: 1.5rem;
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            animation: fadeInUp 0.5s ease-out backwards;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--primary);
+            opacity: 0.5;
+        }
+
+        .card.has-changes::before {
+            background: var(--warning);
+            opacity: 1;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .page-name {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--text);
+            max-width: 80%;
+        }
+
+        .badge {
+            font-size: 0.7rem;
+            padding: 0.25rem 0.6rem;
+            border-radius: 2rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+
+        .badge-none { background: rgba(34, 197, 94, 0.1); color: var(--success); }
+        .badge-mod { background: rgba(245, 158, 11, 0.1); color: var(--warning); }
+        .badge-err { background: rgba(239, 68, 68, 0.1); color: var(--danger); }
+
+        .card-body {
+            margin-bottom: 1.5rem;
+        }
+
+        .check-info {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .summary-text {
+            font-size: 0.95rem;
+            color: var(--text);
+            min-height: 1.5rem;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .btn {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.75rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .btn:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .loader {
+            text-align: center;
+            padding: 5rem;
+            color: var(--text-muted);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            body { padding: 1rem; }
+            h1 { font-size: 2rem; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Monitor ACN NIS2</h1>
+            <div id="header-info" class="last-update">
+                <span class="pulse-dot"></span>
+                <span>In attesa dei dati...</span>
+            </div>
+        </header>
+
+        <div id="dashboard-grid" class="grid">
+            <div class="loader">Caricamento in corso...</div>
+        </div>
+    </div>
+
+    <script>
+        async function fetchStatus() {
+            try {
+                const response = await fetch('status.json?t=' + new Date().getTime());
+                const data = await response.json();
+                renderDashboard(data);
+            } catch (error) {
+                document.getElementById('dashboard-grid').innerHTML = `
+                    <div class="loader" style="color: var(--danger)">
+                        Errore nel caricamento dei dati. Assicurati che status.json sia presente.
+                    </div>
+                `;
+            }
+        }
+
+        function renderDashboard(data) {
+            const headerInfo = document.getElementById('header-info');
+            headerInfo.innerHTML = `
+                <span class="pulse-dot"></span>
+                <span>Ultimo controllo globale: <strong>${data.last_update}</strong></span>
+            `;
+
+            const grid = document.getElementById('dashboard-grid');
+            grid.innerHTML = '';
+
+            data.pages.forEach((page, index) => {
+                const card = document.createElement('div');
+                card.className = `card ${page.has_changes ? 'has-changes' : ''}`;
+                card.style.animationDelay = `${index * 0.05}s`;
+
+                const badgeClass = page.status === 'Modificato' ? 'badge-mod' : 
+                                  (page.status.includes('Errore') ? 'badge-err' : 'badge-none');
+
+                card.innerHTML = `
+                    <div class="card-header">
+                        <div class="page-name">${page.name}</div>
+                        <div class="badge ${badgeClass}">${page.status}</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="check-info">Controllato il: ${page.last_check}</div>
+                        <div class="summary-text">${page.summary || 'Nessuna attività rilevata'}</div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="${page.url}" target="_blank" class="btn">Apri Pagina</a>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Carica subito e poi ogni 60 secondi
+        fetchStatus();
+        setInterval(fetchStatus, 60000);
+    </script>
+</body>
+</html>
