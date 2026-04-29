@@ -130,27 +130,76 @@
         .filter-btn {
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(255, 255, 255, 0.1);
-            color: var(--text-muted);
+            color: var(--text);
             padding: 0.6rem 1.2rem;
             border-radius: 2rem;
             cursor: pointer;
             font-size: 0.9rem;
-            font-weight: 500;
             transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
         }
 
         .filter-btn:hover {
-            background: rgba(255, 255, 255, 0.1);
-            color: var(--text);
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
         }
 
         .filter-btn.active {
             background: var(--primary);
             border-color: var(--primary);
             color: white;
-            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
         }
 
+        /* Atti List View */
+        .atti-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .atti-item {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1.2rem;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .atti-item:hover {
+            background: rgba(255, 255, 255, 0.07);
+            border-color: var(--primary);
+            transform: translateX(5px);
+        }
+
+        .atti-name {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text);
+            flex: 1;
+            padding-right: 1.5rem;
+        }
+
+        .atti-actions {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 4rem;
+            color: var(--text-muted);
+            font-size: 1.2rem;
+        }
+
+        /* Grid System */
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -415,6 +464,7 @@
                 <button class="filter-btn active" onclick="setFilter('all', this)">Tutti</button>
                 <button class="filter-btn" onclick="setFilter('pages', this)">Pagine Web</button>
                 <button class="filter-btn" onclick="setFilter('pdfs', this)">Documenti PDF</button>
+                <button class="filter-btn" onclick="setFilter('atti', this)">Registro Atti</button>
             </div>
         </div>
 
@@ -480,6 +530,47 @@
             const grid = document.getElementById('dashboard-grid');
             grid.innerHTML = '';
 
+            // Se il filtro è 'atti', mostriamo la lista documenti speciale
+            if (currentFilter === 'atti') {
+                grid.className = 'atti-list'; // Cambiamo classe per layout a lista
+                
+                // Troviamo la pagina Atti Generali che contiene la lista
+                const attiPage = currentData.pages.find(p => p.id === 'atti_generali');
+                const attiList = attiPage ? attiPage.atti_list : [];
+
+                if (!attiList || attiList.length === 0) {
+                    grid.innerHTML = '<div class="empty-state">Nessun atto amministrativo trovato o lista in fase di caricamento...</div>';
+                    return;
+                }
+
+                // Applichiamo la ricerca anche alla lista atti
+                const filteredAtti = attiList.filter(a => {
+                    if (!searchQuery) return true;
+                    return a.name.toLowerCase().includes(searchQuery);
+                });
+
+                if (filteredAtti.length === 0) {
+                    grid.innerHTML = '<div class="empty-state">Nessun documento corrisponde alla tua ricerca.</div>';
+                    return;
+                }
+
+                filteredAtti.forEach(atto => {
+                    const item = document.createElement('div');
+                    item.className = 'atti-item';
+                    item.innerHTML = `
+                        <div class="atti-name">${atto.name}</div>
+                        <div class="atti-actions">
+                            <a href="${atto.url}" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Apri Atto</a>
+                        </div>
+                    `;
+                    grid.appendChild(item);
+                });
+                return;
+            }
+
+            // Layout standard a Card
+            grid.className = 'grid';
+            
             const filteredPages = currentData.pages.filter(page => {
                 const isPdf = page.name.includes('📄');
                 

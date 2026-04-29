@@ -78,6 +78,41 @@ def clean_html(html):
     html = re.sub(r' +', ' ', html)
     return html.strip()
 
+def extract_document_list(html_content):
+    """Estrae l'elenco dei documenti (Determine, Decreti, etc) dalla pagina Atti Generali"""
+    docs = []
+    
+    # Pattern HTML: <a ... href="URL">TEXT</a>
+    # Cerchiamo link che hanno testo descrittivo (Determina, Decreto, etc)
+    matches = re.finditer(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', html_content, re.IGNORECASE | re.DOTALL)
+    
+    # Parole chiave che indicano un atto amministrativo
+    keywords = ["determina", "decreto", "circolare", "nomina", "disciplina", "regolamento", "direttiva", "linee guida", "attuazione", "piano"]
+    
+    processed_urls = set()
+    
+    for m in matches:
+        url = m.group(1).strip()
+        name = clean_html(m.group(2)) # Puliamo i tag interni al testo del link
+        
+        # Saltiamo duplicati e link troppo corti
+        if url in processed_urls: continue
+        
+        # Filtriamo per parole chiave per evitare link di navigazione
+        if any(kw in name.lower() for kw in keywords) and len(name) > 10:
+            # Pulizia nome
+            clean_name = name.replace('\n', ' ').replace('\r', ' ').strip()
+            clean_name = re.sub(r'\s+', ' ', clean_name)
+            
+            # Assicuriamoci che l'URL sia assoluto
+            if url.startswith('/'):
+                url = "https://www.acn.gov.it" + url
+                
+            docs.append({"name": clean_name, "url": url})
+            processed_urls.add(url)
+            
+    return docs
+
 def discover_links(html, base_url, pattern):
     """Trova link che corrispondono a un pattern"""
     links = re.findall(f'href="({pattern})"', html)
@@ -346,7 +381,8 @@ def monitor_page(page_config):
         "has_history": os.path.exists(os.path.join("archive", f"history_{page_id}.json")),
         "summary": "",
         "additions": [],
-        "removals": []
+        "removals": [],
+        "atti_list": [] # Elenco documenti se è la pagina Atti Generali
     }
     
     if is_pdf:
@@ -366,6 +402,11 @@ def monitor_page(page_config):
 
     if not current_text:
         return [], result
+
+    # Se è la pagina Atti Generali, estraiamo la lista documenti
+    if "atti-generali" in url:
+        result["atti_list"] = extract_document_list(raw_content)
+        print(f"📊 Estratti {len(result['atti_list'])} documenti dalla lista atti")
 
     # Scoperta sub-pagine e PDF (solo per pagine HTML)
     discovered_urls = []
