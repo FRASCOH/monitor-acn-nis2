@@ -93,15 +93,24 @@ def extract_pdf_text(url):
         return "[Errore: PyPDF2 non installato]"
     
     try:
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        response = requests.get(url, timeout=30, headers=headers)
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Accept': 'application/pdf,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+        }
+        response = requests.get(url, timeout=30, headers=headers, stream=True)
         response.raise_for_status()
         
         with io.BytesIO(response.content) as f:
             reader = PyPDF2.PdfReader(f)
             text = ""
             for page in reader.pages:
-                text += page.extract_text() + "\n"
+                extracted = page.extract_text()
+                if extracted:
+                    text += extracted + "\n"
+            
+            if not text.strip():
+                return "[PDF senza testo estraibile (possibile scansione immagine)]"
+                
             return text.strip()
     except Exception as e:
         print(f"Errore estrazione PDF {url}: {e}")
