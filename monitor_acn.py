@@ -101,7 +101,12 @@ def extract_pdf_text(url):
         response.raise_for_status()
         
         with io.BytesIO(response.content) as f:
-            reader = PyPDF2.PdfReader(f)
+            # strict=False permette di leggere PDF malformati o senza marker EOF
+            try:
+                reader = PyPDF2.PdfReader(f, strict=False)
+            except Exception as pdf_err:
+                return None, f"PDF Corrotto: {str(pdf_err)}"
+                
             text = ""
             for page in reader.pages:
                 extracted = page.extract_text()
