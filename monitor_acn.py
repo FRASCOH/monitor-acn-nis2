@@ -9,6 +9,11 @@ from email.mime.multipart import MIMEMultipart
 import difflib
 import re
 from urllib.parse import urljoin
+import io
+try:
+    import PyPDF2
+except ImportError:
+    PyPDF2 = None
 
 # Configurazione monitoraggio
 PAGES_TO_MONITOR = [
@@ -81,6 +86,26 @@ def discover_links(html, base_url, pattern):
     for link in links:
         absolute_links.add(urljoin(base_url, link))
     return list(absolute_links)
+
+def extract_pdf_text(url):
+    """Scarica un PDF ed estrae il testo"""
+    if not PyPDF2:
+        return "[Errore: PyPDF2 non installato]"
+    
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(url, timeout=30, headers=headers)
+        response.raise_for_status()
+        
+        with io.BytesIO(response.content) as f:
+            reader = PyPDF2.PdfReader(f)
+            text = ""
+            for page in reader.pages:
+                text += page.extract_text() + "\n"
+            return text.strip()
+    except Exception as e:
+        print(f"Errore estrazione PDF {url}: {e}")
+        return None
 
 def load_state(paths):
     """Carica hash e contenuto precedente"""
@@ -254,18 +279,28 @@ def monitor_page(page_config):
         "summary": ""
     }
     
-    raw_content = get_page_content(url)
-    if not raw_content:
-        result["status"] = "Errore download"
+    if is_pdf:
+        current_text = extract_pdf_text(url)
+        raw_content = current_text # Per coerenza
+    else:
+        raw_content = get_page_content(url)
+        current_text = clean_html(raw_content) if raw_content else None
+
+    if not current_text:
+        result["status"] = "Errore download/lettura"
         return [], result
 
-    # Scoperta sub-pagine (se abilitata)
+    # Scoperta sub-pagine e PDF (solo per pagine HTML)
     discovered_urls = []
-    if page_config.get("discover_subpages") and page_config.get("subpage_pattern"):
-        discovered_urls = discover_links(raw_content, url, page_config["subpage_pattern"])
-        print(f"Trovate {len(discovered_urls)} sub-pagine potenziali.")
+    if not is_pdf:
+        if page_config.get("discover_subpages") and page_config.get("subpage_pattern"):
+            discovered_urls = discover_links(raw_content, url, page_config["subpage_pattern"])
+        
+        # Trova anche i PDF nella pagina
+        pdf_links = re.findall(r'href="([^"]+\.pdf)"', raw_content, re.IGNORECASE)
+        for pdf in pdf_links:
+            discovered_urls.append(urljoin(url, pdf))
 
-    current_text = clean_html(raw_content)
     current_hash = hashlib.sha256(current_text.encode('utf-8')).hexdigest()
     
     paths = get_state_paths(page_id)
@@ -290,9 +325,9 @@ def monitor_page(page_config):
     else:
         print(f"📝 Prima esecuzione per {name} - salvataggio stato")
         save_state(paths, current_hash, current_text)
-        result["status"] = "Nuova pagina aggiunta"
+        result["status"] = "Nuova risorsa aggiunta"
     
-    return discovered_urls, result
+    return list(set(discovered_urls)), result
 
 def main():
     print(f"=== Inizio sessione monitoraggio: {datetime.now()} ===")
@@ -312,16 +347,25 @@ def main():
         all_results.append(res)
         processed_urls.add(url)
         
-        # Aggiungi sub-pagine scoperte alla coda
+        # Aggiungi sub-pagine o PDF scoperti alla coda
         for d_url in discovered:
             if d_url not in processed_urls:
+                is_pdf = d_url.lower().endswith('.pdf')
                 url_slug = d_url.strip('/').split('/')[-1]
-                prefix = "NIS" if "/portale/nis/" in d_url else "FAQ NIS"
-                queue.append({
-                    "name": f"{prefix}: {url_slug.replace('-', ' ').title()}",
-                    "url": d_url,
-                    "id": f"{prefix.lower().replace(' ', '_')}_{url_slug.replace('-', '_')}"
-                })
+                
+                if is_pdf:
+                    queue.append({
+                        "name": f"📄 PDF: {url_slug}",
+                        "url": d_url,
+                        "id": f"pdf_{hashlib.md5(d_url.encode()).hexdigest()[:10]}"
+                    })
+                else:
+                    prefix = "NIS" if "/portale/nis/" in d_url else "FAQ NIS"
+                    queue.append({
+                        "name": f"{prefix}: {url_slug.replace('-', ' ').title()}",
+                        "url": d_url,
+                        "id": f"{prefix.lower().replace(' ', '_')}_{url_slug.replace('-', '_')}"
+                    })
     
     # Salva risultati per la dashboard
     try:
