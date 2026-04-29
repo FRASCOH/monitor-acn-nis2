@@ -158,6 +158,33 @@ def load_state(paths):
         
     return state
 
+def append_to_history(page_id, name, url, additions, removals):
+    """Aggiunge una nuova voce allo storico delle modifiche"""
+    archive_dir = "archive"
+    if not os.path.exists(archive_dir):
+        os.makedirs(archive_dir)
+        
+    history_file = os.path.join(archive_dir, f"history_{page_id}.json")
+    history = []
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, 'r', encoding='utf-8') as f:
+                history = json.load(f)
+        except:
+            pass
+            
+    entry = {
+        "timestamp": datetime.now().isoformat(),
+        "date_formatted": datetime.now().strftime('%d/%m/%Y %H:%M'),
+        "additions": additions,
+        "removals": removals
+    }
+    
+    history.insert(0, entry) # Inserisci in cima (più recente prima)
+    
+    with open(history_file, 'w', encoding='utf-8') as f:
+        json.dump(history, f, indent=2)
+
 def save_state(paths, content_hash, content, last_change_date=None, additions=None, removals=None):
     """Salva hash, contenuto e metadati modifica"""
     # Carichiamo lo stato esistente per non perdere i dati se non stiamo salvando una nuova modifica
@@ -310,11 +337,13 @@ def monitor_page(page_config):
     
     # Risultato per la dashboard
     result = {
+        "id": page_id,
         "name": name,
         "url": url,
         "last_check": datetime.now().strftime('%d/%m/%Y %H:%M'),
         "status": "Inizializzato",
         "has_changes": False,
+        "has_history": os.path.exists(os.path.join("archive", f"history_{page_id}.json")),
         "summary": "",
         "additions": [],
         "removals": []
@@ -370,6 +399,10 @@ def monitor_page(page_config):
         if current_hash != old_hash:
             print(f"⚠️ MODIFICHE RILEVATE per {name}!")
             additions, removals = generate_detailed_diff(old_text, current_text)
+            
+            # Salva nello storico permanente
+            append_to_history(page_id, name, url, additions, removals)
+            result["has_history"] = True
             
             now_str = datetime.now().isoformat()
             result["has_changes"] = True

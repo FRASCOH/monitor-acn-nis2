@@ -458,11 +458,67 @@
                     </div>
                     <div class="card-footer">
                         <a href="${page.url}" target="_blank" class="btn">Apri Pagina</a>
-                        ${page.has_changes ? `<button onclick="showChanges('${page.name}')" class="btn btn-primary">Vedi modifiche</button>` : ''}
+                        ${page.has_changes ? `<button onclick="showChanges('${page.name}')" class="btn btn-primary">Ultima Modifica</button>` : ''}
+                        ${page.has_history ? `<button onclick="showHistory('${page.id}', '${page.name}')" class="btn" style="border-color: var(--secondary); color: var(--secondary);">Storico</button>` : ''}
                     </div>
                 `;
                 grid.appendChild(card);
             });
+        }
+
+        async function showHistory(pageId, pageName) {
+            const modalOverlay = document.getElementById('modal-overlay');
+            const modalBody = document.getElementById('modal-body');
+            const modalTitle = document.getElementById('modal-page-name');
+
+            modalTitle.innerText = `Storico Modifiche: ${pageName}`;
+            modalBody.innerHTML = '<div class="loader">Caricamento storico...</div>';
+            modalOverlay.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+
+            try {
+                const response = await fetch(`archive/history_${pageId}.json?t=` + new Date().getTime());
+                if (!response.ok) throw new Error("Storico non trovato");
+                const history = await response.json();
+                
+                modalBody.innerHTML = '';
+                
+                if (history.length === 0) {
+                    modalBody.innerHTML = '<p>Nessuna modifica registrata nello storico.</p>';
+                    return;
+                }
+
+                history.forEach((entry, index) => {
+                    const entryDiv = document.createElement('div');
+                    entryDiv.style.marginBottom = '2rem';
+                    entryDiv.style.paddingBottom = '2rem';
+                    entryDiv.style.borderBottom = index < history.length - 1 ? '1px solid rgba(255,255,255,0.1)' : 'none';
+                    
+                    let html = `<h3 style="color: var(--primary); margin-bottom: 1rem;">📅 Modifica del ${entry.date_formatted}</h3>`;
+                    
+                    if (entry.additions && entry.additions.length > 0) {
+                        html += `<div class="diff-section diff-add"><h4>✅ Aggiunte</h4>`;
+                        entry.additions.forEach(text => {
+                            html += `<div class="diff-item item-add">${text}</div>`;
+                        });
+                        html += `</div>`;
+                    }
+                    
+                    if (entry.removals && entry.removals.length > 0) {
+                        html += `<div class="diff-section diff-rem"><h4>❌ Rimozioni</h4>`;
+                        entry.removals.forEach(text => {
+                            html += `<div class="diff-item item-rem">${text}</div>`;
+                        });
+                        html += `</div>`;
+                    }
+                    
+                    entryDiv.innerHTML = html;
+                    modalBody.appendChild(entryDiv);
+                });
+
+            } catch (error) {
+                modalBody.innerHTML = `<div class="loader" style="color: var(--danger)">Errore: Impossibile caricare lo storico.</div>`;
+            }
         }
 
         function showChanges(pageName) {
