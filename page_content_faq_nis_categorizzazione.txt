@@ -182,7 +182,7 @@ Regolamento Cloud
 L’articolo 4 della 
 Determina 155238/2026
  prevede che i soggetti NIS che hanno svolto la classificazione dei dati e dei servizi di cui al citato articolo 3 del Regolamento Cloud, applicano il modello stabilito da tale Regolamento ai fini dell’elencazione e categorizzazione delle attività e dei servizi.
-In particolare, a tali soggetti sarà presentato l’elenco dei dati e dei servizi classificati presente su padigitale2026.gov.it al [data di estrazione], rimettendo al medesimo la facoltà di confermare tale elenco anche ai fini della categorizzazione, ovvero di aggiornarlo. In questo secondo caso, il soggetto è tenuto ad assicurare la coerenza con la classificazione dei dati e dei servizi effettuata sulla piattaforma PA digitale 2026. 
+In particolare, a tali soggetti sarà presentato l’elenco dei dati e dei servizi classificati presente su padigitale2026.gov.it al 07/04/2026, rimettendo al medesimo la facoltà di confermare tale elenco anche ai fini della categorizzazione, ovvero di aggiornarlo. In questo secondo caso, il soggetto è tenuto ad assicurare la coerenza con la classificazione dei dati e dei servizi effettuata sulla piattaforma PA digitale 2026. 
 CAT.9 Come si coordina la categorizzazione con la disciplina del perimetro di sicurezza nazionale cibernetica?
 Ai sensi dell’articolo 5 della 
 Determina 155238/2026

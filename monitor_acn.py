@@ -15,7 +15,9 @@ try:
 except ImportError:
     PyPDF2 = None
 
-# Configurazione monitoraggio
+# Configurazione e Stato
+os.makedirs("archive", exist_ok=True)
+STATE_FILE = "status.json"
 PAGES_TO_MONITOR = [
     {
         "name": "ACN Atti Generali",

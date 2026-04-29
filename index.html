@@ -756,33 +756,41 @@
             const modalBody = document.getElementById('modal-body');
             const modalTitle = document.getElementById('modal-page-name');
 
-            modalTitle.innerText = `Storico Modifiche: ${pageName}`;
-            modalBody.innerHTML = '<div class="loader">Caricamento storico...</div>';
+            modalTitle.innerText = `Storico: ${pageName}`;
+            modalBody.innerHTML = '<div class="loader">Caricamento cronologia in corso...</div>';
             modalOverlay.style.display = 'flex';
             document.body.style.overflow = 'hidden';
 
             try {
-                const response = await fetch(`archive/history_${pageId}.json?t=` + new Date().getTime());
-                if (!response.ok) throw new Error("Storico non trovato");
-                const history = await response.json();
+                // Pulizia dell'ID per sicurezza nel fetch
+                const safeId = pageId.trim();
+                const response = await fetch(`archive/history_${safeId}.json?t=` + new Date().getTime());
                 
+                if (!response.ok) {
+                    throw new Error(`File di storico non trovato per questa pagina (ID: ${safeId})`);
+                }
+                
+                const history = await response.json();
                 modalBody.innerHTML = '';
                 
-                if (history.length === 0) {
-                    modalBody.innerHTML = '<p>Nessuna modifica registrata nello storico.</p>';
+                if (!history || history.length === 0) {
+                    modalBody.innerHTML = '<div class="empty-state">Nessuna modifica registrata nello storico per questa pagina.</div>';
                     return;
                 }
 
                 history.forEach((entry, index) => {
                     const entryDiv = document.createElement('div');
+                    entryDiv.className = 'history-entry';
                     entryDiv.style.marginBottom = '2rem';
-                    entryDiv.style.paddingBottom = '2rem';
-                    entryDiv.style.borderBottom = index < history.length - 1 ? '1px solid rgba(255,255,255,0.1)' : 'none';
+                    entryDiv.style.padding = '1.5rem';
+                    entryDiv.style.background = 'rgba(255,255,255,0.02)';
+                    entryDiv.style.borderRadius = '1rem';
+                    entryDiv.style.border = '1px solid rgba(255,255,255,0.05)';
                     
-                    let html = `<h3 style="color: var(--primary); margin-bottom: 1rem;">📅 Modifica del ${entry.date_formatted}</h3>`;
+                    let html = `<h3 style="color: var(--primary); margin-bottom: 1rem; font-size: 1rem;">📅 Rilevazione del ${entry.date_formatted}</h3>`;
                     
                     if (entry.additions && entry.additions.length > 0) {
-                        html += `<div class="diff-section diff-add"><h4>✅ Aggiunte</h4>`;
+                        html += `<div class="diff-section diff-add"><h4 style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">✅ AGGIUNTE</h4>`;
                         entry.additions.forEach(text => {
                             html += `<div class="diff-item item-add">${text}</div>`;
                         });
@@ -790,7 +798,7 @@
                     }
                     
                     if (entry.removals && entry.removals.length > 0) {
-                        html += `<div class="diff-section diff-rem"><h4>❌ Rimozioni</h4>`;
+                        html += `<div class="diff-section diff-rem" style="margin-top: 1rem;"><h4 style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">❌ RIMOZIONI</h4>`;
                         entry.removals.forEach(text => {
                             html += `<div class="diff-item item-rem">${text}</div>`;
                         });
@@ -802,7 +810,17 @@
                 });
 
             } catch (error) {
-                modalBody.innerHTML = `<div class="loader" style="color: var(--danger)">Errore: Impossibile caricare lo storico.</div>`;
+                console.error("Errore storico:", error);
+                modalBody.innerHTML = `
+                    <div class="empty-state" style="color: var(--danger)">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">⚠️</div>
+                        <strong>Errore nel caricamento</strong><br>
+                        <small>${error.message}</small>
+                        <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted)">
+                            Se la pagina non è mai stata modificata da quando è attivo il sistema di monitoraggio, lo storico non è ancora disponibile.
+                        </p>
+                    </div>
+                `;
             }
         }
 

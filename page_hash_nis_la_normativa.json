@@ -1,7 +1,13 @@
 {
-  "hash": "20599058eb68833ea81aa0b5ae7688dfe9d8fdae581effb4a4ae7a440ac3c7f9",
-  "last_check": "2026-04-29T12:30:17.218530",
-  "last_change_date": null,
-  "last_additions": [],
-  "last_removals": []
+  "hash": "28e3e5200c18fb3e5f64e60e943ba83a9d4f7d1b9a2f7dd52dabbe3711edc6c6",
+  "last_check": "2026-04-29T18:00:42.851618",
+  "last_change_date": "2026-04-29T18:00:42.851524",
+  "last_additions": [
+    "- Termini per i soggetti 2026 in relazione agli obblighi di cui agli articoli 23, 24, 25, 29 e 32 del decreto NIS",
+    "Tavolo per l'attuazione della disciplina NIS"
+  ],
+  "last_removals": [
+    "\u2013 Termini per i soggetti 2026 in relazione agli obblighi di cui agli articoli 23, 24, 25, 29 e 32 del decreto NIS",
+    "Tavolo per l'attuazione della disciplina NISGG"
+  ]
 }
