@@ -248,30 +248,63 @@
             justify-content: space-between;
             align-items: flex-start;
             margin-bottom: 1rem;
+            gap: 1rem;
         }
 
-        .page-name {
-            font-weight: 600;
+        .card-title {
             font-size: 1.1rem;
+            font-weight: 600;
             color: var(--text);
-            max-width: 80%;
+            margin: 0;
+            line-height: 1.4;
+            flex: 1;
+            /* Gestione titoli lunghi: max 2 righe poi ellipsis */
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .status-badge {
+            padding: 0.3rem 0.7rem;
+            border-radius: 2rem;
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05rem;
+            white-space: nowrap;
+            flex-shrink: 0;
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.3rem;
         }
 
-        .badge {
-            font-size: 0.7rem;
-            padding: 0.25rem 0.6rem;
-            border-radius: 2rem;
-            text-transform: uppercase;
-            font-weight: 700;
-            letter-spacing: 0.05em;
+        .status-badge.status-ok {
+            background: rgba(16, 185, 129, 0.1);
+            color: #10b981;
+            border: 1px solid rgba(16, 185, 129, 0.2);
         }
 
-        .badge-none { background: rgba(34, 197, 94, 0.1); color: var(--success); }
-        .badge-mod { background: rgba(245, 158, 11, 0.1); color: var(--warning); }
-        .badge-err { background: rgba(239, 68, 68, 0.1); color: var(--danger); }
+        .status-badge.status-mod {
+            background: rgba(245, 158, 11, 0.2);
+            color: var(--warning);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            box-shadow: 0 0 10px rgba(245, 158, 11, 0.1);
+            animation: pulse-warning 2s infinite;
+        }
+
+        .status-badge.status-err {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--danger);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+        }
+
+        @keyframes pulse-warning {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.05); opacity: 0.8; }
+            100% { transform: scale(1); opacity: 1; }
+        }
 
         .card-body {
             margin-bottom: 1.5rem;
@@ -600,13 +633,21 @@
                 card.className = `card ${page.has_changes ? 'has-changes' : ''}`;
                 card.style.animationDelay = `${index * 0.05}s`;
 
-                const badgeClass = (page.status === 'Modificato' || page.status === 'Modificato (Recente)') ? 'badge-mod' : 
-                                  (page.status.includes('Errore') ? 'badge-err' : 'badge-none');
+                let statusClass = 'status-ok';
+                let statusLabel = '✓ OK';
+                
+                if (page.status === 'Modificato' || page.status === 'Modificato (Recente)') {
+                    statusClass = 'status-mod';
+                    statusLabel = '🔔 Modificato';
+                } else if (page.status.includes('Errore')) {
+                    statusClass = 'status-err';
+                    statusLabel = '⚠️ Errore';
+                }
 
                 card.innerHTML = `
                     <div class="card-header">
-                        <div class="page-name">${page.name}</div>
-                        <div class="badge ${badgeClass}">${page.status}</div>
+                        <h3 class="card-title" title="${page.name}">${page.name}</h3>
+                        <span class="status-badge ${statusClass}">${statusLabel}</span>
                     </div>
                     <div class="card-body">
                         <div class="check-info">Controllato il: ${page.last_check}</div>
