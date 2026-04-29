@@ -79,36 +79,66 @@ def clean_html(html):
     return html.strip()
 
 def extract_document_list(html_content):
-    """Estrae l'elenco dei documenti (Determine, Decreti, etc) dalla pagina Atti Generali"""
+    """Estrae l'elenco dei documenti con metadati (tipo, data, anno)"""
     docs = []
-    
-    # Pattern HTML: <a ... href="URL">TEXT</a>
-    # Cerchiamo link che hanno testo descrittivo (Determina, Decreto, etc)
     matches = re.finditer(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>', html_content, re.IGNORECASE | re.DOTALL)
     
-    # Parole chiave che indicano un atto amministrativo
-    keywords = ["determina", "decreto", "circolare", "nomina", "disciplina", "regolamento", "direttiva", "linee guida", "attuazione", "piano"]
+    # Mappa mesi italiani
+    mesi = {
+        "gennaio": "01", "febbraio": "02", "marzo": "03", "aprile": "04", "maggio": "05", "giugno": "06",
+        "luglio": "07", "agosto": "08", "settembre": "09", "ottobre": "10", "novembre": "11", "dicembre": "12"
+    }
     
+    types_keywords = ["determina", "decreto", "circolare", "regolamento", "direttiva", "linee guida", "avviso", "nomina", "disciplina"]
     processed_urls = set()
     
     for m in matches:
         url = m.group(1).strip()
-        name = clean_html(m.group(2)) # Puliamo i tag interni al testo del link
+        name = clean_html(m.group(2))
         
-        # Saltiamo duplicati e link troppo corti
         if url in processed_urls: continue
         
-        # Filtriamo per parole chiave per evitare link di navigazione
-        if any(kw in name.lower() for kw in keywords) and len(name) > 10:
-            # Pulizia nome
+        lower_name = name.lower()
+        doc_type = "Altro"
+        for tk in types_keywords:
+            if tk in lower_name:
+                doc_type = tk.capitalize()
+                break
+        
+        if doc_type != "Altro" or any(kw in lower_name for kw in ["attuazione", "piano"]) and len(name) > 10:
+            # Cerchiamo la data nel testo: es. "18 gennaio 2022"
+            date_str = ""
+            year_str = ""
+            
+            # Regex per data: giorno (1-2 cifre) mese (testo) anno (4 cifre)
+            date_match = re.search(r'(\d{1,2})\s+(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+(\d{4})', lower_name)
+            
+            if date_match:
+                giorno = date_match.group(1).zfill(2)
+                mese_testo = date_match.group(2)
+                anno = date_match.group(3)
+                mese_num = mesi.get(mese_testo, "01")
+                date_str = f"{giorno}/{mese_num}/{anno}"
+                year_str = anno
+            else:
+                # Prova solo anno se data completa manca
+                year_match = re.search(r'\b(202\d)\b', name)
+                if year_match:
+                    year_str = year_match.group(1)
+
             clean_name = name.replace('\n', ' ').replace('\r', ' ').strip()
             clean_name = re.sub(r'\s+', ' ', clean_name)
             
-            # Assicuriamoci che l'URL sia assoluto
             if url.startswith('/'):
                 url = "https://www.acn.gov.it" + url
                 
-            docs.append({"name": clean_name, "url": url})
+            docs.append({
+                "name": clean_name, 
+                "url": url,
+                "type": doc_type,
+                "date": date_str,
+                "year": year_str
+            })
             processed_urls.add(url)
             
     return docs

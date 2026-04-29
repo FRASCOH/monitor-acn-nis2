@@ -199,6 +199,37 @@
             font-size: 1.2rem;
         }
 
+        /* Sub-filters for Atti */
+        .sub-filters {
+            display: none; /* Show only when 'atti' is selected */
+            justify-content: center;
+            gap: 1rem;
+            margin-top: -1rem;
+            margin-bottom: 2rem;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .select-filter {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text);
+            padding: 0.5rem 1rem;
+            border-radius: 0.75rem;
+            outline: none;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+        }
+
+        .select-filter:focus {
+            border-color: var(--primary);
+        }
+
+        .select-filter option {
+            background: var(--bg);
+            color: var(--text);
+        }
+
         /* Grid System */
         .grid {
             display: grid;
@@ -499,6 +530,15 @@
                 <button class="filter-btn" onclick="setFilter('pdfs', this)">Documenti PDF</button>
                 <button class="filter-btn" onclick="setFilter('atti', this)">Registro Atti</button>
             </div>
+            
+            <div id="sub-filters" class="sub-filters">
+                <select id="type-filter" class="select-filter" onchange="renderDashboard()">
+                    <option value="all">Tutti i tipi</option>
+                </select>
+                <select id="year-filter" class="select-filter" onchange="renderDashboard()">
+                    <option value="all">Tutti gli anni</option>
+                </select>
+            </div>
         </div>
 
         <div id="dashboard-grid" class="grid">
@@ -548,7 +588,44 @@
             currentFilter = filter;
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
+            
+            // Show/hide sub-filters for Atti
+            const subFilters = document.getElementById('sub-filters');
+            if (filter === 'atti') {
+                subFilters.style.display = 'flex';
+                populateSubFilters();
+            } else {
+                subFilters.style.display = 'none';
+            }
+            
             renderDashboard();
+        }
+
+        function populateSubFilters() {
+            const attiPage = currentData.pages.find(p => p.id === 'atti_generali');
+            const attiList = attiPage ? attiPage.atti_list : [];
+            
+            if (!attiList || attiList.length === 0) return;
+
+            const typeFilter = document.getElementById('type-filter');
+            const yearFilter = document.getElementById('year-filter');
+            
+            const currentType = typeFilter.value;
+            const currentYear = yearFilter.value;
+
+            // Unique types and years
+            const types = [...new Set(attiList.map(a => a.type).filter(Boolean))].sort();
+            const years = [...new Set(attiList.map(a => a.year).filter(Boolean))].sort((a,b) => b-a);
+
+            typeFilter.innerHTML = '<option value="all">Tutti i tipi</option>' + 
+                types.map(t => `<option value="${t}">${t}</option>`).join('');
+            
+            yearFilter.innerHTML = '<option value="all">Tutti gli anni</option>' + 
+                years.map(y => `<option value="${y}">${y}</option>`).join('');
+
+            // Restore selection if still valid
+            if (types.includes(currentType)) typeFilter.value = currentType;
+            if (years.includes(currentYear)) yearFilter.value = currentYear;
         }
 
         function renderDashboard() {
@@ -565,9 +642,8 @@
 
             // Se il filtro è 'atti', mostriamo la lista documenti speciale
             if (currentFilter === 'atti') {
-                grid.className = 'atti-list'; // Cambiamo classe per layout a lista
+                grid.className = 'atti-list';
                 
-                // Troviamo la pagina Atti Generali che contiene la lista
                 const attiPage = currentData.pages.find(p => p.id === 'atti_generali');
                 const attiList = attiPage ? attiPage.atti_list : [];
 
@@ -576,14 +652,19 @@
                     return;
                 }
 
-                // Applichiamo la ricerca anche alla lista atti
+                const selectedType = document.getElementById('type-filter').value;
+                const selectedYear = document.getElementById('year-filter').value;
+
+                // Applichiamo i filtri (ricerca + tipo + anno)
                 const filteredAtti = attiList.filter(a => {
-                    if (!searchQuery) return true;
-                    return a.name.toLowerCase().includes(searchQuery);
+                    const matchesSearch = !searchQuery || a.name.toLowerCase().includes(searchQuery);
+                    const matchesType = selectedType === 'all' || a.type === selectedType;
+                    const matchesYear = selectedYear === 'all' || a.year === selectedYear;
+                    return matchesSearch && matchesType && matchesYear;
                 });
 
                 if (filteredAtti.length === 0) {
-                    grid.innerHTML = '<div class="empty-state">Nessun documento corrisponde alla tua ricerca.</div>';
+                    grid.innerHTML = '<div class="empty-state">Nessun documento corrisponde ai filtri selezionati.</div>';
                     return;
                 }
 
@@ -591,7 +672,13 @@
                     const item = document.createElement('div');
                     item.className = 'atti-item';
                     item.innerHTML = `
-                        <div class="atti-name">${atto.name}</div>
+                        <div style="flex: 1;">
+                            <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.3rem;">
+                                <span class="status-badge" style="background: rgba(99, 102, 241, 0.1); color: var(--primary); border: 1px solid rgba(99, 102, 241, 0.2);">${atto.type}</span>
+                                ${atto.date ? `<span style="font-size: 0.8rem; color: var(--text-muted);">${atto.date}</span>` : ''}
+                            </div>
+                            <div class="atti-name">${atto.name}</div>
+                        </div>
                         <div class="atti-actions">
                             <a href="${atto.url}" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Apri Atto</a>
                         </div>
