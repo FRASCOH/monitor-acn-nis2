@@ -79,10 +79,52 @@
         /* Filter Controls */
         .controls {
             display: flex;
-            justify-content: center;
-            gap: 1rem;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
             margin-bottom: 3rem;
             animation: fadeIn 1s ease;
+        }
+
+        .filter-row {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .search-container {
+            width: 100%;
+            max-width: 500px;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text);
+            padding: 0.8rem 1.5rem;
+            padding-left: 3rem;
+            border-radius: 2rem;
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--primary);
+            box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 1.2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
         }
 
         .filter-btn {
@@ -365,9 +407,15 @@
         </header>
 
         <div class="controls">
-            <button class="filter-btn active" onclick="setFilter('all', this)">Tutti</button>
-            <button class="filter-btn" onclick="setFilter('pages', this)">Pagine Web</button>
-            <button class="filter-btn" onclick="setFilter('pdfs', this)">Documenti PDF</button>
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search-input" class="search-input" placeholder="Cerca tra documenti, stati o contenuti..." oninput="handleSearch()">
+            </div>
+            <div class="filter-row">
+                <button class="filter-btn active" onclick="setFilter('all', this)">Tutti</button>
+                <button class="filter-btn" onclick="setFilter('pages', this)">Pagine Web</button>
+                <button class="filter-btn" onclick="setFilter('pdfs', this)">Documenti PDF</button>
+            </div>
         </div>
 
         <div id="dashboard-grid" class="grid">
@@ -391,6 +439,7 @@
     <script>
         let currentData = null;
         let currentFilter = 'all';
+        let searchQuery = '';
 
         async function fetchStatus() {
             try {
@@ -405,6 +454,11 @@
                     </div>
                 `;
             }
+        }
+
+        function handleSearch() {
+            searchQuery = document.getElementById('search-input').value.toLowerCase();
+            renderDashboard();
         }
 
         function setFilter(filter, btn) {
@@ -428,8 +482,20 @@
 
             const filteredPages = currentData.pages.filter(page => {
                 const isPdf = page.name.includes('📄');
-                if (currentFilter === 'pages') return !isPdf;
-                if (currentFilter === 'pdfs') return isPdf;
+                
+                // Filtro categoria
+                let passFilter = true;
+                if (currentFilter === 'pages') passFilter = !isPdf;
+                else if (currentFilter === 'pdfs') passFilter = isPdf;
+                
+                if (!passFilter) return false;
+
+                // Filtro ricerca
+                if (searchQuery) {
+                    const searchContent = (page.name + ' ' + page.status + ' ' + (page.summary || '')).toLowerCase();
+                    return searchContent.includes(searchQuery);
+                }
+
                 return true;
             });
 
