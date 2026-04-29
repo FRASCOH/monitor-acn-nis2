@@ -90,14 +90,14 @@ def discover_links(html, base_url, pattern):
 def extract_pdf_text(url):
     """Scarica un PDF ed estrae il testo"""
     if not PyPDF2:
-        return "[Errore: PyPDF2 non installato]"
+        return None, "PyPDF2 non installato"
     
     try:
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
             'Accept': 'application/pdf,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
         }
-        response = requests.get(url, timeout=30, headers=headers, stream=True)
+        response = requests.get(url, timeout=30, headers=headers, stream=True, verify=False) # verify=False per bypassare eventuali problemi SSL
         response.raise_for_status()
         
         with io.BytesIO(response.content) as f:
@@ -109,12 +109,14 @@ def extract_pdf_text(url):
                     text += extracted + "\n"
             
             if not text.strip():
-                return "[PDF senza testo estraibile (possibile scansione immagine)]"
+                return None, "PDF senza testo estraibile (immagine/scansione)"
                 
-            return text.strip()
+            return text.strip(), None
+    except requests.exceptions.HTTPError as e:
+        return None, f"Errore HTTP: {e.response.status_code}"
     except Exception as e:
         print(f"Errore estrazione PDF {url}: {e}")
-        return None
+        return None, str(e)
 
 def load_state(paths):
     """Carica hash e contenuto precedente"""
@@ -292,14 +294,18 @@ def monitor_page(page_config):
     }
     
     if is_pdf:
-        current_text = extract_pdf_text(url)
+        current_text, error_msg = extract_pdf_text(url)
         raw_content = current_text # Per coerenza
+        if error_msg:
+            result["status"] = f"Errore: {error_msg}"
+            result["summary"] = error_msg
     else:
         raw_content = get_page_content(url)
         current_text = clean_html(raw_content) if raw_content else None
+        if not current_text:
+            result["status"] = "Errore download/lettura"
 
     if not current_text:
-        result["status"] = "Errore download/lettura"
         return [], result
 
     # Scoperta sub-pagine e PDF (solo per pagine HTML)
