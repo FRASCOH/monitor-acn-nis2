@@ -443,7 +443,7 @@
                 card.className = `card ${page.has_changes ? 'has-changes' : ''}`;
                 card.style.animationDelay = `${index * 0.05}s`;
 
-                const badgeClass = page.status === 'Modificato' ? 'badge-mod' : 
+                const badgeClass = (page.status === 'Modificato' || page.status === 'Modificato (Recente)') ? 'badge-mod' : 
                                   (page.status.includes('Errore') ? 'badge-err' : 'badge-none');
 
                 card.innerHTML = `
@@ -453,6 +453,7 @@
                     </div>
                     <div class="card-body">
                         <div class="check-info">Controllato il: ${page.last_check}</div>
+                        ${page.last_change_date ? `<div class="check-info" style="color: var(--warning)">Ultima modifica rilevata: ${page.last_change_date}</div>` : ''}
                         <div class="summary-text">${page.summary || 'Nessuna attività rilevata'}</div>
                     </div>
                     <div class="card-footer">

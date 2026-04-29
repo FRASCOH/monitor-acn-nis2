@@ -119,33 +119,50 @@ def extract_pdf_text(url):
         return None, str(e)
 
 def load_state(paths):
-    """Carica hash e contenuto precedente"""
-    old_hash, last_check = None, None
-    old_content = None
+    """Carica hash, contenuto e dati ultima modifica"""
+    state = {
+        "hash": None,
+        "content": None,
+        "last_check": None,
+        "last_change_date": None,
+        "last_additions": [],
+        "last_removals": []
+    }
     
     if os.path.exists(paths["hash"]):
         try:
             with open(paths["hash"], 'r') as f:
                 data = json.load(f)
-                old_hash = data.get('hash')
-                last_check = data.get('last_check')
+                state["hash"] = data.get('hash')
+                state["last_check"] = data.get('last_check')
+                state["last_change_date"] = data.get('last_change_date')
+                state["last_additions"] = data.get('last_additions', [])
+                state["last_removals"] = data.get('last_removals', [])
         except: pass
         
     if os.path.exists(paths["content"]):
         try:
             with open(paths["content"], 'r', encoding='utf-8') as f:
-                old_content = f.read()
+                state["content"] = f.read()
         except: pass
         
-    return old_hash, old_content, last_check
+    return state
 
-def save_state(paths, content_hash, content):
-    """Salva hash e contenuto attuale"""
+def save_state(paths, content_hash, content, last_change_date=None, additions=None, removals=None):
+    """Salva hash, contenuto e metadati modifica"""
+    # Carichiamo lo stato esistente per non perdere i dati se non stiamo salvando una nuova modifica
+    existing_state = load_state(paths)
+    
+    state_data = {
+        'hash': content_hash,
+        'last_check': datetime.now().isoformat(),
+        'last_change_date': last_change_date or existing_state.get('last_change_date'),
+        'last_additions': additions if additions is not None else existing_state.get('last_additions', []),
+        'last_removals': removals if removals is not None else existing_state.get('last_removals', [])
+    }
+    
     with open(paths["hash"], 'w') as f:
-        json.dump({
-            'hash': content_hash,
-            'last_check': datetime.now().isoformat()
-        }, f, indent=2)
+        json.dump(state_data, f, indent=2)
     
     with open(paths["content"], 'w', encoding='utf-8') as f:
         f.write(content)
@@ -322,26 +339,50 @@ def monitor_page(page_config):
     current_hash = hashlib.sha256(current_text.encode('utf-8')).hexdigest()
     
     paths = get_state_paths(page_id)
-    old_hash, old_text, last_check = load_state(paths)
+    old_state = load_state(paths)
+    old_hash = old_state["hash"]
+    old_text = old_state["content"]
     
+    # Logica dei 15 giorni
+    change_date_str = old_state.get("last_change_date")
+    is_within_15_days = False
+    if change_date_str:
+        change_date = datetime.fromisoformat(change_date_str)
+        days_since = (datetime.now() - change_date).days
+        if days_since <= 15:
+            is_within_15_days = True
+            result["last_change_date"] = change_date.strftime('%d/%m/%Y %H:%M')
+
     if old_hash and old_text:
         if current_hash != old_hash:
             print(f"⚠️ MODIFICHE RILEVATE per {name}!")
             additions, removals = generate_detailed_diff(old_text, current_text)
             
+            now_str = datetime.now().isoformat()
             result["has_changes"] = True
             result["status"] = "Modificato"
             result["summary"] = f"+{len(additions)} aggiunte, -{len(removals)} rimozioni"
             result["additions"] = additions
             result["removals"] = removals
+            result["last_change_date"] = datetime.now().strftime('%d/%m/%Y %H:%M')
             
             html_report = generate_html_report(name, additions, removals, url)
             send_email(html_report, name, True)
-            save_state(paths, current_hash, current_text)
+            save_state(paths, current_hash, current_text, now_str, additions, removals)
         else:
             print(f"✅ Nessuna modifica per {name}")
-            result["status"] = "Nessuna modifica"
-            result["has_changes"] = False
+            if is_within_15_days:
+                result["has_changes"] = True
+                result["status"] = "Modificato (Recente)"
+                result["additions"] = old_state.get("last_additions", [])
+                result["removals"] = old_state.get("last_removals", [])
+                result["summary"] = f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
+            else:
+                result["status"] = "Nessuna modifica"
+                result["has_changes"] = False
+            
+            # Aggiorniamo comunque l'ultimo check nello stato
+            save_state(paths, current_hash, current_text)
     else:
         print(f"📝 Prima esecuzione per {name} - salvataggio stato")
         save_state(paths, current_hash, current_text)
