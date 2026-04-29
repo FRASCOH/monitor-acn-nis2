@@ -100,12 +100,17 @@ def extract_pdf_text(url):
         response = requests.get(url, timeout=30, headers=headers, stream=True, verify=False) # verify=False per bypassare eventuali problemi SSL
         response.raise_for_status()
         
+        # Verifica che il server abbia effettivamente restituito un PDF
+        content_type = response.headers.get('Content-Type', '').lower()
+        if 'application/pdf' not in content_type:
+            return None, f"Il link non restituisce un PDF (Content-Type: {content_type}). Potrebbe essere una pagina di errore o di login."
+        
         with io.BytesIO(response.content) as f:
             # strict=False permette di leggere PDF malformati o senza marker EOF
             try:
                 reader = PyPDF2.PdfReader(f, strict=False)
             except Exception as pdf_err:
-                return None, f"PDF Corrotto: {str(pdf_err)}"
+                return None, f"Impossibile leggere il file PDF: {str(pdf_err)}"
                 
             text = ""
             for page in reader.pages:

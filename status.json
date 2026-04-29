@@ -1,10 +1,10 @@
 {
-  "last_update": "29/04/2026 10:36",
+  "last_update": "29/04/2026 10:43",
   "pages": [
     {
       "name": "ACN Atti Generali",
       "url": "https://www.acn.gov.it/portale/atti-generali",
-      "last_check": "29/04/2026 10:36",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -14,7 +14,7 @@
     {
       "name": "FAQ NIS (Parent)",
       "url": "https://www.acn.gov.it/portale/faq/nis",
-      "last_check": "29/04/2026 10:36",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -24,57 +24,17 @@
     {
       "name": "NIS Home",
       "url": "https://www.acn.gov.it/portale/nis",
-      "last_check": "29/04/2026 10:36",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
-      "additions": [],
-      "removals": []
-    },
-    {
-      "name": "\ud83d\udcc4 PDF: NIS-5-23_v1.1.pdf",
-      "url": "https://www.ocsi.gov.it/documenti/nis/NIS-5-23_v1.1.pdf",
-      "last_check": "29/04/2026 10:36",
-      "status": "Errore: PDF Corrotto: EOF marker not found",
-      "has_changes": false,
-      "summary": "PDF Corrotto: EOF marker not found",
-      "additions": [],
-      "removals": []
-    },
-    {
-      "name": "\ud83d\udcc4 PDF: NIS-2-23_v1.1.pdf",
-      "url": "https://www.ocsi.gov.it/documenti/nis/NIS-2-23_v1.1.pdf",
-      "last_check": "29/04/2026 10:36",
-      "status": "Errore: PDF Corrotto: EOF marker not found",
-      "has_changes": false,
-      "summary": "PDF Corrotto: EOF marker not found",
       "additions": [],
       "removals": []
     },
     {
       "name": "\ud83d\udcc4 PDF: 1642754054-all1det307acn.pdf",
       "url": "https://assets.innovazione.gov.it/1642754054-all1det307acn.pdf",
-      "last_check": "29/04/2026 10:36",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "summary": "",
-      "additions": [],
-      "removals": []
-    },
-    {
-      "name": "\ud83d\udcc4 PDF: NIS-4-23_v1.1.pdf",
-      "url": "https://www.ocsi.gov.it/documenti/nis/NIS-4-23_v1.1.pdf",
-      "last_check": "29/04/2026 10:36",
-      "status": "Errore: PDF Corrotto: EOF marker not found",
-      "has_changes": false,
-      "summary": "PDF Corrotto: EOF marker not found",
-      "additions": [],
-      "removals": []
-    },
-    {
-      "name": "\ud83d\udcc4 PDF: 1642694063-det_306_all1_20220118_modello.pdf",
-      "url": "https://assets.innovazione.gov.it/1642694063-det_306_all1_20220118_modello.pdf",
-      "last_check": "29/04/2026 10:36",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -84,27 +44,67 @@
     {
       "name": "\ud83d\udcc4 PDF: NIS-1-23_v1.1.pdf",
       "url": "https://www.ocsi.gov.it/documenti/nis/NIS-1-23_v1.1.pdf",
-      "last_check": "29/04/2026 10:36",
-      "status": "Errore: PDF Corrotto: EOF marker not found",
+      "last_check": "29/04/2026 10:43",
+      "status": "Errore: Il link non restituisce un PDF (Content-Type: text/html;charset=utf-8). Potrebbe essere una pagina di errore o di login.",
       "has_changes": false,
-      "summary": "PDF Corrotto: EOF marker not found",
+      "summary": "Il link non restituisce un PDF (Content-Type: text/html;charset=utf-8). Potrebbe essere una pagina di errore o di login.",
+      "additions": [],
+      "removals": []
+    },
+    {
+      "name": "\ud83d\udcc4 PDF: NIS-2-23_v1.1.pdf",
+      "url": "https://www.ocsi.gov.it/documenti/nis/NIS-2-23_v1.1.pdf",
+      "last_check": "29/04/2026 10:43",
+      "status": "Errore: Il link non restituisce un PDF (Content-Type: text/html;charset=utf-8). Potrebbe essere una pagina di errore o di login.",
+      "has_changes": false,
+      "summary": "Il link non restituisce un PDF (Content-Type: text/html;charset=utf-8). Potrebbe essere una pagina di errore o di login.",
+      "additions": [],
+      "removals": []
+    },
+    {
+      "name": "\ud83d\udcc4 PDF: NIS-4-23_v1.1.pdf",
+      "url": "https://www.ocsi.gov.it/documenti/nis/NIS-4-23_v1.1.pdf",
+      "last_check": "29/04/2026 10:43",
+      "status": "Errore: Il link non restituisce un PDF (Content-Type: text/html;charset=utf-8). Potrebbe essere una pagina di errore o di login.",
+      "has_changes": false,
+      "summary": "Il link non restituisce un PDF (Content-Type: text/html;charset=utf-8). Potrebbe essere una pagina di errore o di login.",
+      "additions": [],
+      "removals": []
+    },
+    {
+      "name": "\ud83d\udcc4 PDF: NIS-5-23_v1.1.pdf",
+      "url": "https://www.ocsi.gov.it/documenti/nis/NIS-5-23_v1.1.pdf",
+      "last_check": "29/04/2026 10:43",
+      "status": "Errore: Il link non restituisce un PDF (Content-Type: text/html;charset=utf-8). Potrebbe essere una pagina di errore o di login.",
+      "has_changes": false,
+      "summary": "Il link non restituisce un PDF (Content-Type: text/html;charset=utf-8). Potrebbe essere una pagina di errore o di login.",
+      "additions": [],
+      "removals": []
+    },
+    {
+      "name": "\ud83d\udcc4 PDF: 1642694063-det_306_all1_20220118_modello.pdf",
+      "url": "https://assets.innovazione.gov.it/1642694063-det_306_all1_20220118_modello.pdf",
+      "last_check": "29/04/2026 10:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": "",
       "additions": [],
       "removals": []
     },
     {
       "name": "\ud83d\udcc4 PDF: NIS-3-23_v1.1.pdf",
       "url": "https://www.ocsi.gov.it/documenti/nis/NIS-3-23_v1.1.pdf",
-      "last_check": "29/04/2026 10:36",
-      "status": "Errore: PDF Corrotto: EOF marker not found",
+      "last_check": "29/04/2026 10:43",
+      "status": "Errore: Il link non restituisce un PDF (Content-Type: text/html;charset=utf-8). Potrebbe essere una pagina di errore o di login.",
       "has_changes": false,
-      "summary": "PDF Corrotto: EOF marker not found",
+      "summary": "Il link non restituisce un PDF (Content-Type: text/html;charset=utf-8). Potrebbe essere una pagina di errore o di login.",
       "additions": [],
       "removals": []
     },
     {
-      "name": "FAQ NIS: Ambito",
-      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
-      "last_check": "29/04/2026 10:36",
+      "name": "FAQ NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -114,17 +114,7 @@
     {
       "name": "FAQ NIS: Profili Generali",
       "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
-      "last_check": "29/04/2026 10:36",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "summary": "",
-      "additions": [],
-      "removals": []
-    },
-    {
-      "name": "FAQ NIS: Categorizzazione",
-      "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
-      "last_check": "29/04/2026 10:36",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -134,27 +124,7 @@
     {
       "name": "FAQ NIS: Ruoli E Procedure",
       "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
-      "last_check": "29/04/2026 10:36",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "summary": "",
-      "additions": [],
-      "removals": []
-    },
-    {
-      "name": "FAQ NIS: Aggiornamento Delle Informazioni",
-      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
-      "last_check": "29/04/2026 10:36",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "summary": "",
-      "additions": [],
-      "removals": []
-    },
-    {
-      "name": "FAQ NIS: Registrazione",
-      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
-      "last_check": "29/04/2026 10:36",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -164,7 +134,27 @@
     {
       "name": "FAQ NIS: Settori Sottosettori E Tipologie Di Soggetto",
       "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
-      "last_check": "29/04/2026 10:36",
+      "last_check": "29/04/2026 10:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": "",
+      "additions": [],
+      "removals": []
+    },
+    {
+      "name": "FAQ NIS: Categorizzazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
+      "last_check": "29/04/2026 10:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": "",
+      "additions": [],
+      "removals": []
+    },
+    {
+      "name": "FAQ NIS: Ambito",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -174,7 +164,7 @@
     {
       "name": "FAQ NIS: Misure Di Sicurezza E Notifica Di Incidenti",
       "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
-      "last_check": "29/04/2026 10:36",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -182,49 +172,9 @@
       "removals": []
     },
     {
-      "name": "NIS: Ambito",
-      "url": "https://www.acn.gov.it/portale/nis/ambito",
-      "last_check": "29/04/2026 10:36",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "summary": "",
-      "additions": [],
-      "removals": []
-    },
-    {
-      "name": "NIS: Notizie Ed Eventi",
-      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
-      "last_check": "29/04/2026 10:36",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "summary": "",
-      "additions": [],
-      "removals": []
-    },
-    {
-      "name": "NIS: Modalita Specifiche Base",
-      "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
-      "last_check": "29/04/2026 10:36",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "summary": "",
-      "additions": [],
-      "removals": []
-    },
-    {
-      "name": "NIS: Aggiornamento Informazioni",
-      "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
-      "last_check": "29/04/2026 10:36",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "summary": "",
-      "additions": [],
-      "removals": []
-    },
-    {
-      "name": "NIS: Registrazione",
-      "url": "https://www.acn.gov.it/portale/nis/registrazione",
-      "last_check": "29/04/2026 10:36",
+      "name": "FAQ NIS: Aggiornamento Delle Informazioni",
+      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -234,7 +184,7 @@
     {
       "name": "NIS: Obblighi",
       "url": "https://www.acn.gov.it/portale/nis/obblighi",
-      "last_check": "29/04/2026 10:36",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -244,7 +194,37 @@
     {
       "name": "NIS: La Normativa",
       "url": "https://www.acn.gov.it/portale/nis/la-normativa",
-      "last_check": "29/04/2026 10:36",
+      "last_check": "29/04/2026 10:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": "",
+      "additions": [],
+      "removals": []
+    },
+    {
+      "name": "NIS: Aggiornamento Informazioni",
+      "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
+      "last_check": "29/04/2026 10:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": "",
+      "additions": [],
+      "removals": []
+    },
+    {
+      "name": "NIS: Notizie Ed Eventi",
+      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+      "last_check": "29/04/2026 10:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": "",
+      "additions": [],
+      "removals": []
+    },
+    {
+      "name": "NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/nis/registrazione",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -254,7 +234,7 @@
     {
       "name": "NIS: Faq",
       "url": "https://www.acn.gov.it/portale/nis/faq",
-      "last_check": "29/04/2026 10:36",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -262,9 +242,9 @@
       "removals": []
     },
     {
-      "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2024.pdf",
-      "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2024.pdf",
-      "last_check": "29/04/2026 10:36",
+      "name": "NIS: Ambito",
+      "url": "https://www.acn.gov.it/portale/nis/ambito",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -272,9 +252,9 @@
       "removals": []
     },
     {
-      "name": "\ud83d\udcc4 PDF: RegolamentoCloud.pdf",
-      "url": "https://www.acn.gov.it/portale/documents/20119/111690/RegolamentoCloud.pdf",
-      "last_check": "29/04/2026 10:36",
+      "name": "NIS: Modalita Specifiche Base",
+      "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
@@ -284,7 +264,27 @@
     {
       "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
       "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
-      "last_check": "29/04/2026 10:36",
+      "last_check": "29/04/2026 10:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": "",
+      "additions": [],
+      "removals": []
+    },
+    {
+      "name": "\ud83d\udcc4 PDF: RegolamentoCloud.pdf",
+      "url": "https://www.acn.gov.it/portale/documents/20119/111690/RegolamentoCloud.pdf",
+      "last_check": "29/04/2026 10:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "summary": "",
+      "additions": [],
+      "removals": []
+    },
+    {
+      "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2024.pdf",
+      "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2024.pdf",
+      "last_check": "29/04/2026 10:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "summary": "",
