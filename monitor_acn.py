@@ -3,6 +3,11 @@ import hashlib
 import json
 import os
 from datetime import datetime
+from zoneinfo import ZoneInfo
+
+def get_now():
+    return datetime.now(ZoneInfo("Europe/Rome"))
+
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -241,8 +246,8 @@ def append_to_history(page_id, name, url, additions, removals):
             pass
             
     entry = {
-        "timestamp": datetime.now().isoformat(),
-        "date_formatted": datetime.now().strftime('%d/%m/%Y %H:%M'),
+        "timestamp": get_now().isoformat(),
+        "date_formatted": get_now().strftime('%d/%m/%Y %H:%M'),
         "additions": additions,
         "removals": removals
     }
@@ -259,7 +264,7 @@ def save_state(paths, content_hash, content, last_change_date=None, additions=No
     
     state_data = {
         'hash': content_hash,
-        'last_check': datetime.now().isoformat(),
+        'last_check': get_now().isoformat(),
         'last_change_date': last_change_date or existing_state.get('last_change_date'),
         'last_additions': additions if additions is not None else existing_state.get('last_additions', []),
         'last_removals': removals if removals is not None else existing_state.get('last_removals', [])
@@ -312,7 +317,7 @@ def generate_html_report(page_name, additions, removals, url):
     <body>
         <h2>🔔 Report Modifiche - {page_name}</h2>
         <p><strong>Pagina monitorata:</strong> <a href="{url}">{url}</a></p>
-        <p class="timestamp">Report generato il {datetime.now().strftime('%d/%m/%Y alle %H:%M')}</p>
+        <p class="timestamp">Report generato il {get_now().strftime('%d/%m/%Y alle %H:%M')}</p>
     """
     
     total_changes = len(additions) + len(removals)
@@ -380,7 +385,7 @@ def send_email(html_content, page_name, has_changes):
     message["To"] = ", ".join(dest_list)
     
     status = "MODIFICHE RILEVATE" if has_changes else "Nessuna modifica"
-    message["Subject"] = f"🔔 {status} - {page_name} - {datetime.now().strftime('%d/%m/%Y %H:%M')}"
+    message["Subject"] = f"🔔 {status} - {page_name} - {get_now().strftime('%d/%m/%Y %H:%M')}"
     
     message.attach(MIMEText(html_content, "html"))
     
@@ -407,7 +412,7 @@ def monitor_page(page_config):
         "id": page_id,
         "name": name,
         "url": url,
-        "last_check": datetime.now().strftime('%d/%m/%Y %H:%M'),
+        "last_check": get_now().strftime('%d/%m/%Y %H:%M'),
         "status": "Inizializzato",
         "has_changes": False,
         "has_history": os.path.exists(os.path.join("archive", f"history_{page_id}.json")),
@@ -463,7 +468,7 @@ def monitor_page(page_config):
     is_within_15_days = False
     if change_date_str:
         change_date = datetime.fromisoformat(change_date_str)
-        days_since = (datetime.now() - change_date).days
+        days_since = (get_now().replace(tzinfo=None) - change_date.replace(tzinfo=None)).days
         if days_since <= 15:
             is_within_15_days = True
             result["last_change_date"] = change_date.strftime('%d/%m/%Y %H:%M')
@@ -477,13 +482,13 @@ def monitor_page(page_config):
             append_to_history(page_id, name, url, additions, removals)
             result["has_history"] = True
             
-            now_str = datetime.now().isoformat()
+            now_str = get_now().isoformat()
             result["has_changes"] = True
             result["status"] = "Modificato"
             result["summary"] = f"+{len(additions)} aggiunte, -{len(removals)} rimozioni"
             result["additions"] = additions
             result["removals"] = removals
-            result["last_change_date"] = datetime.now().strftime('%d/%m/%Y %H:%M')
+            result["last_change_date"] = get_now().strftime('%d/%m/%Y %H:%M')
             
             html_report = generate_html_report(name, additions, removals, url)
             send_email(html_report, name, True)
@@ -510,7 +515,7 @@ def monitor_page(page_config):
     return list(set(discovered_urls)), result
 
 def main():
-    print(f"=== Inizio sessione monitoraggio: {datetime.now()} ===")
+    print(f"=== Inizio sessione monitoraggio: {get_now()} ===")
     
     processed_urls = set()
     queue = PAGES_TO_MONITOR.copy()
@@ -552,14 +557,14 @@ def main():
     try:
         with open("status.json", "w", encoding="utf-8") as f:
             json.dump({
-                "last_update": datetime.now().strftime('%d/%m/%Y %H:%M'),
+                "last_update": get_now().strftime('%d/%m/%Y %H:%M'),
                 "pages": all_results
             }, f, indent=2)
         print("\n✅ status.json aggiornato correttamente")
     except Exception as e:
         print(f"\n❌ Errore salvataggio status.json: {e}")
     
-    print(f"\n=== Fine sessione: {datetime.now()} ===")
+    print(f"\n=== Fine sessione: {get_now()} ===")
 
 if __name__ == "__main__":
     main()
