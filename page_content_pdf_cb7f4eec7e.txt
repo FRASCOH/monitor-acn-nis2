@@ -1,0 +1,137 @@
+1 Allegato 1 
+ 
+ 
+MODELLO PER LA PREDISPOSIZIONE DELL’ELENCO E DELLA CLASSIFICAZIONE 
+DEI DATI E DEI SERVIZI DELLA PUBBLICA AMMINISTRAZIO NE  
+  
+(Articolo 4 del Regolamento adottato dall’Agenzia p er l’Italia Digitale, ai sensi dell’articolo 33-
+septies, comma 4, del decreto-legge 18 ottobre 2012 , n. 179 , convertito, con modificazioni, dalla 
+legge 17 dicembre 2012, n. 221)   
+  
+Articolo 1  
+(Definizioni) 
+ 
+1.  Ai fini del presente documento si intende per: 
+a.  ACN, l’Agenzia per la cybersicurezza nazionale, di cui al decreto-legge 14 giugno 
+2021, n. 82, convertito, con modificazioni, dalla l egge 4 agosto 2021, n. 109 ; 
+b.  DTD, il Dipartimento per la trasformazione digitale  della Presidenza del Consiglio dei 
+ministri; 
+c.  Regolamento, il regolamento di cui all’articolo 33- septies, comma 4, del decreto legge 
+18 ottobre 2012, n. 179, convertito, con modificazi oni, dalla legge 17 dicembre 2012, 
+n. 221, recante “livelli minimi di sicurezza, capac ità elaborativa, risparmio energetico 
+e affidabilità delle infrastrutture digitali per la  PA e le caratteristiche di qualità, 
+sicurezza, performance e scalabilità, portabilità d ei servizi cloud per la pubblica 
+amministrazione, le modalità di migrazione nonché l e modalità di qualificazione dei 
+servizi cloud per la pubblica amministrazione”, ado ttato dall’ AgID con 
+Determinazione n. 628/2021 del 15 dicembre 2021; 
+d.  Amministrazioni centrali, le amministrazioni centra li individuate dall’articolo 1, 
+comma 3, della legge 31 dicembre 2009, n. 196; 
+e.  Amministrazioni locali, le amministrazioni locali i ndividuate dall’articolo 1, comma 
+3, della legge 31 dicembre 2009, n. 196;  
+f.  Amministrazioni, le amministrazioni centrali di cui  alla lettera d) e le amministrazioni 
+locali di cui alla lettera e); 
+g.  Dati dell’amministrazione, le informazioni trattate  dall’amministrazione, o da terzi 
+per conto dell’amministrazione. 
+h.  Dati digitali dell’amministrazione, trattati tramit e reti e sistemi informativi 
+dell’amministrazione o tramite reti e sistemi infor mativi di terzi per conto 
+dell’amministrazione; 
+i.  Servizi dell’amministrazione, servizi erogati verso  terzi o internamente 
+all’amministrazione; 
+j.  Servizi digitali dell’amministrazione, servizi info rmatici erogati tramite reti e sistemi 
+informativi dell’amministrazione o tramite reti e s istemi informativi di terzi per conto 
+dell’amministrazione, verso terzi, internamente all ’amministrazione o a supporto di 
+servizi dell’amministrazione, ad esclusione dei ser vizi ICT di base; 
+k.  Servizi ICT di base, servizi informatici erogati tr amite reti e sistemi informativi a 
+supporto di servizi digitali dell’amministrazione, quali i servizi infrastrutturali ICT, i 
+servizi di sicurezza ICT e la connettività; 
+l.  Piattaforma digitale, la piattaforma digitale messa  a disposizione dal DTD , entro il 30 
+maggio 2022,  per le attività inerenti il PNRR. 
+ 
+ 
+ 
+ 
+2  
+ 
+Articolo 2 
+(Finalità e oggetto) 
+ 
+Il presente  documento definisce, in conformità alle previsioni  di cui all’articolo 4 del 
+Regolamento, un modello per la predisposizione e l’ aggiornamento dell’elenco e della 
+classificazione dei dati e dei servizi digitali di cui all’articolo 3 del Regolamento, nonché 
+la relativa modalità di trasmissione all’ACN ai fin i della verifica di conformità di cui 
+all’articolo 5 del Regolamento . 
+ 
+Articolo 3 
+(Predisposizione e trasmissione dell’elenco e della  classificazione) 
+ 
+1.  Il modello per la predisposizione dell’elenco e del la classificazione dei dati digitali e 
+dei servizi digitali della pubblica amministrazione  prevede è basato sulla compilazione 
+di un questionario elaborato dall’ACN, d’intesa con  il DTD, al fine di agevolare le 
+pubbliche amministrazioni nell’analisi guidata e se mplificata dell’impatto 
+dell’eventuale compromissione dei propri dati e dei  servizi sotto il profilo della 
+confidenzialità, integrità e disponibilità. 
+2.  Il questionario di cui al comma 1 è reso disponibil e tramite i canali di comunicazione 
+dell’ACN e del DTD e, al pari del presente modello,  nel rispetto di quanto previsto 
+dall’articolo 4, comma 3, del Regolamento, è aggior nato su base periodica almeno una 
+volta ogni due anni.  
+3.  L’ACN, d’intesa con il DTD, può predisporre, per gr uppi di amministrazioni 
+omogenee, un elenco predefinito di dati e servizi, con la contestuale classificazione, 
+precisando la metodologia adottata.  
+4.  Nell’ipotesi prevista dal comma 3, le amministrazio ni che appartengono al gruppo 
+omogeneo individuato dall’ACN, d’intesa con il DTD,  prendono visione dell’elenco 
+predefinito e della relativa classificazione pubbli cati nella sezione dedicata della 
+piattaforma digitale e, tramite le funzionalità off erte dalla stessa piattaforma digitale, 
+possono: 
+a.   accettare, nei termini previsti dall’articolo 5, c omma 1, del Regolamento, l’elenco 
+predefinito e la relativa classificazione. In tal c aso l’elenco e la classificazione di 
+cui all’articolo 3 del Regolamento si intendono con validati ai sensi dell’articolo 5, 
+comma 5, lettera a), dello stesso Regolamento; 
+b. aggiornare l’elenco predefinito e la relativa cl assificazione se non trattano tutti i 
+dati e i servizi presenti nell’elenco. In tal caso l’elenco è aggiornato eliminando i 
+dati e i servizi che non sono trattati. L’aggiornam ento dell’elenco e della 
+classificazione è trasmesso all’ACN, nei termini pr evisti dall’articolo 5, comma 1, 
+del Regolamento e mediante la piattaforma digitale,  per la verifica di conformità 
+di cui all’articolo 5, comma 3, del Regolamento; 
+c.   ampliare l’elenco predefinito e la relativa classi ficazione se trattano dati e servizi 
+non previsti. In tal caso l’elenco ampliato è trasm esso all’ACN, nei termini previsti 
+dall’articolo 5, comma 1, del Regolamento e mediant e la piattaforma digitale, 
+unitamente al questionario di cui al comma 1 compil ato in ogni sua parte per ogni 
+dato e servizio trattato e non presente nell’elenca zione. L’elenco ampliato e il 
+questionario sono soggetti alla verifica di conform ità di cui all’articolo 5, comma 
+3, del Regolamento; 
+ 
+3 d. rifiutare l’elenco predefinito e la relativa cla ssificazione se, in ragione di 
+documentate motivazioni, gli stessi non sono ritenu ti idonei per il contesto di 
+riferimento. In tal caso l’amministrazione trasmett e all’ACN, nei termini previsti 
+dall’articolo 5, comma 1, del Regolamento e mediant e la piattaforma digitale, il 
+questionario di cui al comma 1, compilato in ogni s ua parte per ogni dato e servizio 
+trattato, unitamente alla documentazione a supporto  del rifiuto dell’elenco 
+predefinito e della relativa classificazione. Il qu estionario è soggetto alla verifica 
+di conformità di cui all’articolo 5, comma 3, del R egolamento. 
+5.  Le amministrazioni, fatto salvo quanto previsto dai  commi 3 e 4, trasmettono all’ACN, 
+nei termini previsti dall’articolo 5, comma 1, del Regolamento e mediante la 
+piattaforma digitale, il questionario di cui al com ma 1, compilato in ogni sua parte per 
+ogni dato e servizio trattato, unitamente alla clas sificazione che scaturisce dalla sua 
+compilazione. 
+6.  Le amministrazioni, ai sensi di quanto previsto dal l’articolo 5, comma 2, del 
+Regolamento, aggiornano l’elenco e la classificazio ne dei dati e dei servizi digitali di 
+cui all’articolo 3 dello stesso Regolamento e li tr asmettono all’ACN con le modalità 
+previste ai commi 4 e 5, in presenza di dati e serv izi ulteriori rispetto a quelli già oggetto 
+di conferimento e classificazione nonché a seguito dell’aggiornamento del presente atto 
+o del questionario di cui al comma 1.   
+ 
+ 
+Articolo 4 
+(Disposizioni finali) 
+ 
+1.  Al fine di predisporre l’elenco predefinito e la re lativa classificazione di cui all’articolo 3, 
+comma 3, nonché all’aggiornamento del questionario di cui al comma 1 del medesimo 
+articolo 3, l’ACN, d’intesa con il DTD, può sottopo rre a gruppi rappresentativi di 
+amministrazioni omogenee, il questionario di cui al l’articolo 3, comma 1. Le 
+amministrazioni individuate dall’ACN, d’intesa con il DTD, aderiscono su base volontaria. 
+2.  Le amministrazioni, per la trasmissione all’ACN del l’elenco e della classificazione dei dati 
+e dei servizi di cui all’articolo 3 del Regolamento  mediante la piattaforma digitale, 
+utilizzano il questionario di cui al comma 1 o, nei  casi previsti dall’articolo 3, comma 5, 
+l’elenco predefinito e la relativa classificazione nella versione aggiornata alla data di entrata 
+in funzione della piattaforma digitale comunicata t ramite i canali di comunicazione 
+dell’ACN e del DTD.

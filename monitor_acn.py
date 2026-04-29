@@ -265,6 +265,7 @@ def monitor_page(page_config):
     name = page_config["name"]
     url = page_config["url"]
     page_id = page_config["id"]
+    is_pdf = url.lower().endswith('.pdf')
     
     print(f"\n--- Monitoraggio: {name} ---")
     print(f"URL: {url}")
@@ -276,7 +277,9 @@ def monitor_page(page_config):
         "last_check": datetime.now().strftime('%d/%m/%Y %H:%M'),
         "status": "Inizializzato",
         "has_changes": False,
-        "summary": ""
+        "summary": "",
+        "additions": [],
+        "removals": []
     }
     
     if is_pdf:
@@ -314,6 +317,8 @@ def monitor_page(page_config):
             result["has_changes"] = True
             result["status"] = "Modificato"
             result["summary"] = f"+{len(additions)} aggiunte, -{len(removals)} rimozioni"
+            result["additions"] = additions
+            result["removals"] = removals
             
             html_report = generate_html_report(name, additions, removals, url)
             send_email(html_report, name, True)
