@@ -324,6 +324,9 @@ def monitor_page(page_config):
         current_text, error_msg = extract_pdf_text(url)
         raw_content = current_text # Per coerenza
         if error_msg:
+            # Se è un falso PDF (pagina HTML), nascondilo dalla dashboard ignorandolo
+            if "non restituisce un PDF" in error_msg:
+                return [], None
             result["status"] = f"Errore: {error_msg}"
             result["summary"] = error_msg
     else:
@@ -415,7 +418,8 @@ def main():
             continue
         
         discovered, res = monitor_page(page)
-        all_results.append(res)
+        if res is not None:
+            all_results.append(res)
         processed_urls.add(url)
         
         # Aggiungi sub-pagine o PDF scoperti alla coda
