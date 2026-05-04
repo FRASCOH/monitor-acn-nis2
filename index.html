@@ -570,7 +570,8 @@
                     <select id="sort-select" class="select-filter" onchange="setSort(this.value)">
                         <option value="default">Default</option>
                         <option value="alpha">Alfabetico (A-Z)</option>
-                        <option value="recent">Ultima Modifica</option>
+                        <option value="recent_desc">Modificati (Più recenti)</option>
+                        <option value="recent_asc">Modificati (Meno recenti)</option>
                     </select>
                 </div>
             </div>
@@ -828,11 +829,17 @@
                 // Ordinamento
                 if (currentSort === 'alpha') {
                     filteredPages.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
-                } else if (currentSort === 'recent') {
+                } else if (currentSort === 'recent_desc' || currentSort === 'recent_asc') {
                     filteredPages.sort((a, b) => {
+                        // 1. Priorità a chi ha modifiche
+                        if (a.has_changes && !b.has_changes) return -1;
+                        if (!a.has_changes && b.has_changes) return 1;
+                        
+                        // 2. Tra pari stato, ordina per data
                         const dateA = parseItalianDate(a.last_change_date || a.last_check);
                         const dateB = parseItalianDate(b.last_change_date || b.last_check);
-                        return dateB - dateA;
+                        
+                        return currentSort === 'recent_desc' ? (dateB - dateA) : (dateA - dateB);
                     });
                 }
 
