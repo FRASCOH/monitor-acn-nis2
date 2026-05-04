@@ -147,6 +147,9 @@ def extract_document_list(html_content):
                     date_str = last_found_date
                     year_str = last_found_year
                     month_str = last_found_month
+                
+                # Se abbiamo l'anno ma non il mese, e non abbiamo memoria, 
+                # lasciamo month_str come "" (verrà gestito dal frontend)
 
             clean_name = name.replace('\n', ' ').replace('\r', ' ').strip()
             clean_name = re.sub(r'\s+', ' ', clean_name)

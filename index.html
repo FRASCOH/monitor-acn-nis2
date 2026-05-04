@@ -723,6 +723,9 @@
             if (currentFilter === 'atti') {
                 grid.className = 'atti-list';
                 
+                // Assicuriamoci che i filtri siano popolati con i dati correnti
+                populateSubFilters();
+                
                 const attiPage = currentData.pages.find(p => p.id === 'atti_generali');
                 const attiList = attiPage ? attiPage.atti_list : [];
 
