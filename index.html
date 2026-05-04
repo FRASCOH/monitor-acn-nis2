@@ -632,34 +632,53 @@
     <script>
         let currentData = null;
         let currentFilter = 'all';
+        let currentSort = 'default';
         let searchQuery = '';
 
         async function fetchStatus() {
             try {
                 const response = await fetch('status.json?t=' + new Date().getTime());
+                if (!response.ok) throw new Error('File status.json non trovato sul server.');
+                
                 const data = await response.json();
+                if (!data || !data.pages) throw new Error('Formato dati non valido in status.json');
+                
                 currentData = data;
-                renderDashboard();
+                
+                // Piccolo delay per assicurarsi che il DOM sia pronto al 100%
+                setTimeout(() => {
+                    renderDashboard();
+                }, 50);
+                
             } catch (error) {
-                document.getElementById('dashboard-grid').innerHTML = `
-                    <div class="loader" style="color: var(--danger)">
-                        Errore nel caricamento dei dati. Assicurati che status.json sia presente.
-                    </div>
-                `;
+                console.error("Errore critico caricamento:", error);
+                const grid = document.getElementById('dashboard-grid');
+                if (grid) {
+                    grid.innerHTML = `
+                        <div class="empty-state" style="color: var(--danger)">
+                            <div style="font-size: 3rem; margin-bottom: 1rem;">⚠️</div>
+                            <strong>Errore nel caricamento dei dati</strong><br>
+                            <small>${error.message}</small>
+                            <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted)">
+                                Verifica che lo script monitor_acn.py abbia generato il file status.json correttamente.
+                            </p>
+                        </div>
+                    `;
+                }
             }
         }
 
         function setFilter(filter, btn) {
             currentFilter = filter;
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
+            if (btn) btn.classList.add('active');
             
             const subFilters = document.getElementById('sub-filters');
             if (filter === 'atti') {
-                subFilters.style.display = 'flex';
+                if (subFilters) subFilters.style.display = 'flex';
                 populateSubFilters();
             } else {
-                subFilters.style.display = 'none';
+                if (subFilters) subFilters.style.display = 'none';
             }
             
             renderDashboard();
