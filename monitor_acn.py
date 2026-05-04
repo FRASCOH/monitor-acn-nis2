@@ -116,6 +116,7 @@ def extract_document_list(html_content):
             # Cerchiamo la data nel testo: es. "18 gennaio 2022"
             date_str = ""
             year_str = ""
+            month_str = ""
             
             # Regex per data: giorno (1-2 cifre) mese (testo) anno (4 cifre)
             date_match = re.search(r'(\d{1,2})\s+(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+(\d{4})', lower_name)
@@ -127,6 +128,7 @@ def extract_document_list(html_content):
                 mese_num = mesi.get(mese_testo, "01")
                 date_str = f"{giorno}/{mese_num}/{anno}"
                 year_str = anno
+                month_str = mese_num
             else:
                 # Prova solo anno se data completa manca
                 year_match = re.search(r'\b(202\d)\b', name)
@@ -144,7 +146,8 @@ def extract_document_list(html_content):
                 "url": url,
                 "type": doc_type,
                 "date": date_str,
-                "year": year_str
+                "year": year_str,
+                "month": month_str
             })
             processed_urls.add(url)
             

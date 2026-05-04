@@ -199,35 +199,75 @@
             font-size: 1.2rem;
         }
 
-        /* Sub-filters for Atti */
+        /* Sub-filters for Atti - Toolbar Style */
         .sub-filters {
-            display: none; /* Show only when 'atti' is selected */
+            display: none;
             justify-content: center;
-            gap: 1rem;
+            align-items: center;
+            gap: 0.8rem;
             margin-top: -1rem;
             margin-bottom: 2rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 1.2rem;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            flex-wrap: wrap;
             animation: fadeIn 0.5s ease;
         }
 
-        .select-filter {
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
             background: rgba(255, 255, 255, 0.05);
+            padding: 0.3rem 0.8rem;
+            border-radius: 0.8rem;
             border: 1px solid rgba(255, 255, 255, 0.1);
-            color: var(--text);
-            padding: 0.5rem 1rem;
-            border-radius: 0.75rem;
-            outline: none;
-            cursor: pointer;
-            font-size: 0.85rem;
-            transition: all 0.3s ease;
         }
 
-        .select-filter:focus {
-            border-color: var(--primary);
+        .filter-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .select-filter {
+            background: transparent;
+            border: none;
+            color: var(--text);
+            padding: 0.3rem 0.5rem;
+            outline: none;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
         }
 
         .select-filter option {
             background: var(--bg);
             color: var(--text);
+        }
+
+        .btn-reset {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--danger);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 0.8rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .btn-reset:hover {
+            background: var(--danger);
+            color: white;
+            transform: scale(1.05);
         }
 
         /* Grid System */
@@ -532,12 +572,30 @@
             </div>
             
             <div id="sub-filters" class="sub-filters">
-                <select id="type-filter" class="select-filter" onchange="renderDashboard()">
-                    <option value="all">Tutti i tipi</option>
-                </select>
-                <select id="year-filter" class="select-filter" onchange="renderDashboard()">
-                    <option value="all">Tutti gli anni</option>
-                </select>
+                <div class="filter-group">
+                    <span class="filter-label">Tipo</span>
+                    <select id="type-filter" class="select-filter" onchange="renderDashboard()">
+                        <option value="all">Tutti</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <span class="filter-label">Anno</span>
+                    <select id="year-filter" class="select-filter" onchange="renderDashboard()">
+                        <option value="all">Tutti</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <span class="filter-label">Mese</span>
+                    <select id="month-filter" class="select-filter" onchange="renderDashboard()">
+                        <option value="all">Tutti</option>
+                    </select>
+                </div>
+
+                <button class="btn-reset" onclick="resetAttiFilters()">
+                    <span>🔄</span> Reset
+                </button>
             </div>
         </div>
 
@@ -601,6 +659,13 @@
             renderDashboard();
         }
 
+        function resetAttiFilters() {
+            document.getElementById('type-filter').value = 'all';
+            document.getElementById('year-filter').value = 'all';
+            document.getElementById('month-filter').value = 'all';
+            renderDashboard();
+        }
+
         function populateSubFilters() {
             const attiPage = currentData.pages.find(p => p.id === 'atti_generali');
             const attiList = attiPage ? attiPage.atti_list : [];
@@ -609,23 +674,37 @@
 
             const typeFilter = document.getElementById('type-filter');
             const yearFilter = document.getElementById('year-filter');
+            const monthFilter = document.getElementById('month-filter');
             
             const currentType = typeFilter.value;
             const currentYear = yearFilter.value;
+            const currentMonth = monthFilter.value;
 
-            // Unique types and years
+            // Mappa mesi
+            const monthNames = {
+                "01": "Gennaio", "02": "Febbraio", "03": "Marzo", "04": "Aprile",
+                "05": "Maggio", "06": "Giugno", "07": "Luglio", "08": "Agosto",
+                "09": "Settembre", "10": "Ottobre", "11": "Novembre", "12": "Dicembre"
+            };
+
+            // Unique types, years, months
             const types = [...new Set(attiList.map(a => a.type).filter(Boolean))].sort();
             const years = [...new Set(attiList.map(a => a.year).filter(Boolean))].sort((a,b) => b-a);
+            const months = [...new Set(attiList.map(a => a.month).filter(Boolean))].sort();
 
-            typeFilter.innerHTML = '<option value="all">Tutti i tipi</option>' + 
+            typeFilter.innerHTML = '<option value="all">Tutti</option>' + 
                 types.map(t => `<option value="${t}">${t}</option>`).join('');
             
-            yearFilter.innerHTML = '<option value="all">Tutti gli anni</option>' + 
+            yearFilter.innerHTML = '<option value="all">Tutti</option>' + 
                 years.map(y => `<option value="${y}">${y}</option>`).join('');
+
+            monthFilter.innerHTML = '<option value="all">Tutti</option>' + 
+                months.map(m => `<option value="${m}">${monthNames[m] || m}</option>`).join('');
 
             // Restore selection if still valid
             if (types.includes(currentType)) typeFilter.value = currentType;
             if (years.includes(currentYear)) yearFilter.value = currentYear;
+            if (months.includes(currentMonth)) monthFilter.value = currentMonth;
         }
 
         function renderDashboard() {
@@ -654,13 +733,15 @@
 
                 const selectedType = document.getElementById('type-filter').value;
                 const selectedYear = document.getElementById('year-filter').value;
+                const selectedMonth = document.getElementById('month-filter').value;
 
-                // Applichiamo i filtri (ricerca + tipo + anno)
+                // Applichiamo i filtri (ricerca + tipo + anno + mese)
                 const filteredAtti = attiList.filter(a => {
                     const matchesSearch = !searchQuery || a.name.toLowerCase().includes(searchQuery);
                     const matchesType = selectedType === 'all' || a.type === selectedType;
                     const matchesYear = selectedYear === 'all' || a.year === selectedYear;
-                    return matchesSearch && matchesType && matchesYear;
+                    const matchesMonth = selectedMonth === 'all' || a.month === selectedMonth;
+                    return matchesSearch && matchesType && matchesYear && matchesMonth;
                 });
 
                 if (filteredAtti.length === 0) {
