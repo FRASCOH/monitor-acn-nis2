@@ -113,6 +113,12 @@ Inoltre, per agevolare le attività tramite i servizi NIS resi disponibili sul P
 Spazio di indirizzamento IP e nomi di dominio
 Tra le attività necessarie per effettuare l’aggiornamento annuale delle informazioni, i punti di contatto dovranno indicare gli indirizzi IP pubblici e statici che il soggetto NIS utilizza o ha nella propria disponibilità in forza di contratti o accordi con fornitori di servizi Internet (ISP), Registri Internet Regionali o altre organizzazioni deputate alla fornitura di indirizzi IP sulla base delle normative e degli accordi nazionali, europei e internazionali vigenti.
 Inoltre, i punti di contatto dovranno indicare i nomi di dominio che il soggetto NIS utilizza o ha nella propria disponibilità in forza di contratti o accordi con fornitori di servizi di registrazione di nomi di dominio o altre organizzazioni deputate loro fornitura di nomi di dominio sulla base delle normative e degli accordi nazionali, europei e internazionali vigenti.
+Fornitori rilevanti
+L’articolo 3, comma 9, lettera f), del decreto NIS prevede che il decreto stesso si applichi, indipendentemente dalle dimensioni, a un soggetto considerato critico in quanto elemento sistemico della catena di approvvigionamento, anche digitale, di uno o più soggetti considerati essenziali o importanti ai sensi della disciplina NIS.
+Pertanto, è necessario acquisire le informazioni relative ai fornitori considerati rilevanti (fornitori rilevanti NIS) al fine di individuare tra di essi, d’intesa con le Autorità di settore, gli elementi sistemici della catena di approvvigionamento da individuare quali soggetti importanti o essenziali al fine di promuovere un adeguato livello di sicurezza informatica lungo la catena di approvvigionamento dei soggetti NIS.
+A tal fine, nella 
+Determinazione ACN 127437/2026
+ recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale, è richiamata l’attenzione sulla definizione di fornitore rilevante NIS e sul processo che consentirà ai soggetti NIS di indicare nella piattaforma tali fornitori in sede di aggiornamento annuale, al fine di consentire all’Agenzia di acquisire le informazioni relative ai fornitori considerati rilevanti e così individuare gli elementi sistemici della loro catena di approvvigionamento anche digitale.
 Altre informazioni
 Per concludere l’adempimento, sarà necessario anche verificare la correttezza dei dati anagrafici e di contatto del soggetto NIS, nonché indicare ulteriori informazioni, come i servizi offerti e le sedi nell’UE.
 Domande frequenti

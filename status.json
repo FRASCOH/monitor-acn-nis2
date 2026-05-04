@@ -1,11 +1,11 @@
 {
-  "last_update": "29/04/2026 18:18",
+  "last_update": "04/05/2026 14:43",
   "pages": [
     {
       "id": "atti_generali",
       "name": "ACN Atti Generali",
       "url": "https://www.acn.gov.it/portale/atti-generali",
-      "last_check": "29/04/2026 18:17",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -252,11 +252,25 @@
           "year": "2022"
         },
         {
+          "name": "allegato",
+          "url": "https://assets.innovazione.gov.it/1642694063-det_306_all1_20220118_modello.pdf",
+          "type": "Allegato",
+          "date": "",
+          "year": ""
+        },
+        {
           "name": "Determina del Direttore generale dell'ACN n. 307 del 18 gennaio 2022",
           "url": "https://www.acn.gov.it/portale/documents/d/guest/1642694131-det_307_cloud_ulteriorilerqc_20220118",
           "type": "Determina",
           "date": "18/01/2022",
           "year": "2022"
+        },
+        {
+          "name": "allegato",
+          "url": "https://assets.innovazione.gov.it/1642754054-all1det307acn.pdf",
+          "type": "Allegato",
+          "date": "",
+          "year": ""
         },
         {
           "name": "Circolare del Direttore generale dell\u2019ACN del 21 aprile 2022",
@@ -420,6 +434,20 @@
           "year": ""
         },
         {
+          "name": "Modulo A - Istanza per l'autorizzazione allo svolgimento di incarichi extra istituzionali",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/modulo_a-incarichi-extra-istituzionali_rev-17-04-24",
+          "type": "Modulo",
+          "date": "",
+          "year": ""
+        },
+        {
+          "name": "Modulo B - Comunicazione preventiva per lo svolgimento di incarichi extra istituzionali non soggetti ad autorizzazione",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/modulo_b-incarichi-extra-isituzionali_comunicazione-preventiva",
+          "type": "Modulo",
+          "date": "",
+          "year": ""
+        },
+        {
           "name": "Determina del Direttore Generale dell'ACN n. 18637 del 12 febbraio 2025",
           "url": "https://www.acn.gov.it/portale/documents/d/guest/2025_18637_registro-unico_determina",
           "type": "Determina",
@@ -451,6 +479,13 @@
           "name": "Decreto del Direttore generale dell\u2019ACN di approvazione del Piano per l\u2019industria cyber nazionale",
           "url": "https://www.acn.gov.it/portale/documents/d/guest/2025_320700_us_copia_timbrata-1",
           "type": "Decreto",
+          "date": "",
+          "year": ""
+        },
+        {
+          "name": "allegato",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/2025_320700_us_all1_copia_timbrata-1",
+          "type": "Allegato",
           "date": "",
           "year": ""
         },
@@ -560,6 +595,34 @@
           "year": "2025"
         },
         {
+          "name": "Allegato 1 \"Misure di Sicurezza di base per i soggetti importanti\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_specifiche_2025_164179_allegato1",
+          "type": "Allegato",
+          "date": "",
+          "year": ""
+        },
+        {
+          "name": "Allegato 2 \"Misure di sicurezza di base per i soggetti essenziali\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_specifiche_2025_164179_allegato2",
+          "type": "Allegato",
+          "date": "",
+          "year": ""
+        },
+        {
+          "name": "Allegato 3 \"Incidenti significativi di base per i soggetti importanti\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_specifiche_2025_164179_allegato3",
+          "type": "Allegato",
+          "date": "",
+          "year": ""
+        },
+        {
+          "name": "Allegato 4 \"Incidenti significativi di base per i soggetti essenziali\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_specifiche_2025_164179_allegato4",
+          "type": "Allegato",
+          "date": "",
+          "year": ""
+        },
+        {
           "name": "Determinazione del Direttore generale dell\u2019ACN n. 276206 del 16 luglio 2025",
           "url": "https://www.acn.gov.it/portale/documents/d/guest/2025_276206_registro-unico_copia_timbrata",
           "type": "Determina",
@@ -600,6 +663,34 @@
           "type": "Determina",
           "date": "19/12/2025",
           "year": "2025"
+        },
+        {
+          "name": "Allegato 1 \"Misure di Sicurezza di base per i soggetti importanti\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/allegato-1-1",
+          "type": "Allegato",
+          "date": "",
+          "year": ""
+        },
+        {
+          "name": "Allegato 2 \"Misure di sicurezza di base per i soggetti essenziali\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/allegato-2",
+          "type": "Allegato",
+          "date": "",
+          "year": ""
+        },
+        {
+          "name": "Allegato 3 \"Incidenti significativi di base per i soggetti importanti\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/allegato-3",
+          "type": "Allegato",
+          "date": "",
+          "year": ""
+        },
+        {
+          "name": "Allegato 4 \"Incidenti significativi di base per i soggetti essenziali\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/allegato-4",
+          "type": "Allegato",
+          "date": "",
+          "year": ""
         },
         {
           "name": "Determinazione del Direttore generale dell\u2019ACN n. 379887 del 19 dicembre 2025",
@@ -644,6 +735,20 @@
           "year": "2026"
         },
         {
+          "name": "Allegato 1 \"Modello per l\u2019elencazione, caratterizzazione e categorizzazione delle attivit\u00e0 e dei servizi\"",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/allegato_1_modello260409-v1",
+          "type": "Allegato",
+          "date": "",
+          "year": ""
+        },
+        {
+          "name": "Allegato 2 \"Modello per l\u2019elencazione, caratterizzazione e categorizzazione delle attivit\u00e0 e dei servizi\"",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/allegato_2_modello260409-v1",
+          "type": "Allegato",
+          "date": "",
+          "year": ""
+        },
+        {
           "name": "Piano Strategico 2024 - 2026",
           "url": "https://www.acn.gov.it/portale/documents/d/guest/piano-strategico-acn-2024-2026_copia_timbrata",
           "type": "Altro",
@@ -670,7 +775,7 @@
       "id": "faq_nis_parent",
       "name": "FAQ NIS (Parent)",
       "url": "https://www.acn.gov.it/portale/faq/nis",
-      "last_check": "29/04/2026 18:17",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -683,7 +788,7 @@
       "id": "nis_home",
       "name": "NIS Home",
       "url": "https://www.acn.gov.it/portale/nis",
-      "last_check": "29/04/2026 18:17",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -696,7 +801,7 @@
       "id": "pdf_cb7f4eec7e",
       "name": "\ud83d\udcc4 PDF: 1642694063-det_306_all1_20220118_modello.pdf",
       "url": "https://assets.innovazione.gov.it/1642694063-det_306_all1_20220118_modello.pdf",
-      "last_check": "29/04/2026 18:17",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -709,46 +814,7 @@
       "id": "pdf_9a28ca48f3",
       "name": "\ud83d\udcc4 PDF: 1642754054-all1det307acn.pdf",
       "url": "https://assets.innovazione.gov.it/1642754054-all1det307acn.pdf",
-      "last_check": "29/04/2026 18:17",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": false,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": []
-    },
-    {
-      "id": "faq_nis_aggiornamento_delle_informazioni",
-      "name": "FAQ NIS: Aggiornamento Delle Informazioni",
-      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
-      "last_check": "29/04/2026 18:17",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": false,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": []
-    },
-    {
-      "id": "faq_nis_profili_generali",
-      "name": "FAQ NIS: Profili Generali",
-      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
-      "last_check": "29/04/2026 18:17",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": false,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": []
-    },
-    {
-      "id": "faq_nis_registrazione",
-      "name": "FAQ NIS: Registrazione",
-      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
-      "last_check": "29/04/2026 18:17",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -761,7 +827,46 @@
       "id": "faq_nis_ambito",
       "name": "FAQ NIS: Ambito",
       "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
-      "last_check": "29/04/2026 18:17",
+      "last_check": "04/05/2026 14:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "faq_nis_misure_di_sicurezza_e_notifica_di_incidenti",
+      "name": "FAQ NIS: Misure Di Sicurezza E Notifica Di Incidenti",
+      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
+      "last_check": "04/05/2026 14:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "faq_nis_aggiornamento_delle_informazioni",
+      "name": "FAQ NIS: Aggiornamento Delle Informazioni",
+      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
+      "last_check": "04/05/2026 14:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "faq_nis_profili_generali",
+      "name": "FAQ NIS: Profili Generali",
+      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -774,7 +879,20 @@
       "id": "faq_nis_ruoli_e_procedure",
       "name": "FAQ NIS: Ruoli E Procedure",
       "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
-      "last_check": "29/04/2026 18:18",
+      "last_check": "04/05/2026 14:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "faq_nis_settori_sottosettori_e_tipologie_di_soggetto",
+      "name": "FAQ NIS: Settori Sottosettori E Tipologie Di Soggetto",
+      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -787,7 +905,7 @@
       "id": "faq_nis_categorizzazione",
       "name": "FAQ NIS: Categorizzazione",
       "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
-      "last_check": "29/04/2026 18:18",
+      "last_check": "04/05/2026 14:43",
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
@@ -802,10 +920,10 @@
       "last_change_date": "29/04/2026 18:00"
     },
     {
-      "id": "faq_nis_misure_di_sicurezza_e_notifica_di_incidenti",
-      "name": "FAQ NIS: Misure Di Sicurezza E Notifica Di Incidenti",
-      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
-      "last_check": "29/04/2026 18:18",
+      "id": "faq_nis_registrazione",
+      "name": "FAQ NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -815,10 +933,10 @@
       "atti_list": []
     },
     {
-      "id": "faq_nis_settori_sottosettori_e_tipologie_di_soggetto",
-      "name": "FAQ NIS: Settori Sottosettori E Tipologie Di Soggetto",
-      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
-      "last_check": "29/04/2026 18:18",
+      "id": "nis_registrazione",
+      "name": "NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/nis/registrazione",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -828,10 +946,70 @@
       "atti_list": []
     },
     {
-      "id": "nis_faq",
-      "name": "NIS: Faq",
-      "url": "https://www.acn.gov.it/portale/nis/faq",
-      "last_check": "29/04/2026 18:18",
+      "id": "nis_aggiornamento_informazioni",
+      "name": "NIS: Aggiornamento Informazioni",
+      "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
+      "last_check": "04/05/2026 14:43",
+      "status": "Modificato",
+      "has_changes": true,
+      "has_history": true,
+      "summary": "+6 aggiunte, -0 rimozioni",
+      "additions": [
+        "Fornitori rilevanti",
+        "L\u2019articolo 3, comma 9, lettera f), del decreto NIS prevede che il decreto stesso si applichi, indipendentemente dalle dimensioni, a un soggetto considerato critico in quanto elemento sistemico della catena di approvvigionamento, anche digitale, di uno o pi\u00f9 soggetti considerati essenziali o importanti ai sensi della disciplina NIS.",
+        "Pertanto, \u00e8 necessario acquisire le informazioni relative ai fornitori considerati rilevanti (fornitori rilevanti NIS) al fine di individuare tra di essi, d\u2019intesa con le Autorit\u00e0 di settore, gli elementi sistemici della catena di approvvigionamento da individuare quali soggetti importanti o essenziali al fine di promuovere un adeguato livello di sicurezza informatica lungo la catena di approvvigionamento dei soggetti NIS.",
+        "A tal fine, nella",
+        "Determinazione ACN 127437/2026",
+        "recante termini, modalit\u00e0 e procedimenti di utilizzo e accesso alla piattaforma digitale, \u00e8 richiamata l\u2019attenzione sulla definizione di fornitore rilevante NIS e sul processo che consentir\u00e0 ai soggetti NIS di indicare nella piattaforma tali fornitori in sede di aggiornamento annuale, al fine di consentire all\u2019Agenzia di acquisire le informazioni relative ai fornitori considerati rilevanti e cos\u00ec individuare gli elementi sistemici della loro catena di approvvigionamento anche digitale."
+      ],
+      "removals": [],
+      "atti_list": [],
+      "last_change_date": "04/05/2026 14:43"
+    },
+    {
+      "id": "nis_ambito",
+      "name": "NIS: Ambito",
+      "url": "https://www.acn.gov.it/portale/nis/ambito",
+      "last_check": "04/05/2026 14:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "nis_notizie_ed_eventi",
+      "name": "NIS: Notizie Ed Eventi",
+      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+      "last_check": "04/05/2026 14:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "nis_obblighi",
+      "name": "NIS: Obblighi",
+      "url": "https://www.acn.gov.it/portale/nis/obblighi",
+      "last_check": "04/05/2026 14:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "nis_modalita_specifiche_base",
+      "name": "NIS: Modalita Specifiche Base",
+      "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -844,7 +1022,7 @@
       "id": "nis_la_normativa",
       "name": "NIS: La Normativa",
       "url": "https://www.acn.gov.it/portale/nis/la-normativa",
-      "last_check": "29/04/2026 18:18",
+      "last_check": "04/05/2026 14:43",
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
@@ -861,75 +1039,10 @@
       "last_change_date": "29/04/2026 18:00"
     },
     {
-      "id": "nis_aggiornamento_informazioni",
-      "name": "NIS: Aggiornamento Informazioni",
-      "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
-      "last_check": "29/04/2026 18:18",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": false,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": []
-    },
-    {
-      "id": "nis_ambito",
-      "name": "NIS: Ambito",
-      "url": "https://www.acn.gov.it/portale/nis/ambito",
-      "last_check": "29/04/2026 18:18",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": false,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": []
-    },
-    {
-      "id": "nis_notizie_ed_eventi",
-      "name": "NIS: Notizie Ed Eventi",
-      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
-      "last_check": "29/04/2026 18:18",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": false,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": []
-    },
-    {
-      "id": "nis_obblighi",
-      "name": "NIS: Obblighi",
-      "url": "https://www.acn.gov.it/portale/nis/obblighi",
-      "last_check": "29/04/2026 18:18",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": false,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": []
-    },
-    {
-      "id": "nis_registrazione",
-      "name": "NIS: Registrazione",
-      "url": "https://www.acn.gov.it/portale/nis/registrazione",
-      "last_check": "29/04/2026 18:18",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": false,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": []
-    },
-    {
-      "id": "nis_modalita_specifiche_base",
-      "name": "NIS: Modalita Specifiche Base",
-      "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
-      "last_check": "29/04/2026 18:18",
+      "id": "nis_faq",
+      "name": "NIS: Faq",
+      "url": "https://www.acn.gov.it/portale/nis/faq",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -942,20 +1055,7 @@
       "id": "pdf_80b8113e88",
       "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2024.pdf",
       "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2024.pdf",
-      "last_check": "29/04/2026 18:18",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": false,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": []
-    },
-    {
-      "id": "pdf_403942e3c6",
-      "name": "\ud83d\udcc4 PDF: RegolamentoCloud.pdf",
-      "url": "https://www.acn.gov.it/portale/documents/20119/111690/RegolamentoCloud.pdf",
-      "last_check": "29/04/2026 18:18",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -968,7 +1068,20 @@
       "id": "pdf_39f9f139a9",
       "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
       "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
-      "last_check": "29/04/2026 18:18",
+      "last_check": "04/05/2026 14:43",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "pdf_403942e3c6",
+      "name": "\ud83d\udcc4 PDF: RegolamentoCloud.pdf",
+      "url": "https://www.acn.gov.it/portale/documents/20119/111690/RegolamentoCloud.pdf",
+      "last_check": "04/05/2026 14:43",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,

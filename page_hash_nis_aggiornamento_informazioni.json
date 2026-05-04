@@ -1,7 +1,14 @@
 {
-  "hash": "3ab145c24fd71b1109cb8cd712984eb5a6055cd4e4e7909ae6284f4446ad2877",
-  "last_check": "2026-04-29T18:18:04.601276+02:00",
-  "last_change_date": null,
-  "last_additions": [],
+  "hash": "9bdb145f2edf6e4655f22f9195b3b6dacb6beea35d0e4fdeb70b15ff5c5fda6f",
+  "last_check": "2026-05-04T14:43:47.730526+02:00",
+  "last_change_date": "2026-05-04T14:43:47.730423+02:00",
+  "last_additions": [
+    "Fornitori rilevanti",
+    "L\u2019articolo 3, comma 9, lettera f), del decreto NIS prevede che il decreto stesso si applichi, indipendentemente dalle dimensioni, a un soggetto considerato critico in quanto elemento sistemico della catena di approvvigionamento, anche digitale, di uno o pi\u00f9 soggetti considerati essenziali o importanti ai sensi della disciplina NIS.",
+    "Pertanto, \u00e8 necessario acquisire le informazioni relative ai fornitori considerati rilevanti (fornitori rilevanti NIS) al fine di individuare tra di essi, d\u2019intesa con le Autorit\u00e0 di settore, gli elementi sistemici della catena di approvvigionamento da individuare quali soggetti importanti o essenziali al fine di promuovere un adeguato livello di sicurezza informatica lungo la catena di approvvigionamento dei soggetti NIS.",
+    "A tal fine, nella",
+    "Determinazione ACN 127437/2026",
+    "recante termini, modalit\u00e0 e procedimenti di utilizzo e accesso alla piattaforma digitale, \u00e8 richiamata l\u2019attenzione sulla definizione di fornitore rilevante NIS e sul processo che consentir\u00e0 ai soggetti NIS di indicare nella piattaforma tali fornitori in sede di aggiornamento annuale, al fine di consentire all\u2019Agenzia di acquisire le informazioni relative ai fornitori considerati rilevanti e cos\u00ec individuare gli elementi sistemici della loro catena di approvvigionamento anche digitale."
+  ],
   "last_removals": []
 }

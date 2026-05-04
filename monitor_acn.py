@@ -96,7 +96,7 @@ def extract_document_list(html_content):
         "luglio": "07", "agosto": "08", "settembre": "09", "ottobre": "10", "novembre": "11", "dicembre": "12"
     }
     
-    types_keywords = ["determina", "decreto", "circolare", "regolamento", "direttiva", "linee guida", "avviso", "nomina", "disciplina"]
+    types_keywords = ["determina", "decreto", "circolare", "regolamento", "direttiva", "linee guida", "avviso", "nomina", "disciplina", "allegato", "modello", "modulo"]
     processed_urls = set()
     
     for m in matches:
