@@ -739,106 +739,109 @@
         }
 
         function renderDashboard() {
-            if (!currentData) return;
+            if (!currentData || !currentData.pages) return;
 
-            const headerInfo = document.getElementById('header-info');
-            headerInfo.innerHTML = `
-                <span class="pulse-dot"></span>
-                <span>Ultimo controllo globale: <strong>${currentData.last_update}</strong></span>
-            `;
+            try {
+                const headerInfo = document.getElementById('header-info');
+                headerInfo.innerHTML = `
+                    <span class="pulse-dot"></span>
+                    <span>Ultimo controllo globale: <strong>${currentData.last_update || 'N/A'}</strong></span>
+                `;
 
-            const grid = document.getElementById('dashboard-grid');
-            grid.innerHTML = '';
+                const grid = document.getElementById('dashboard-grid');
+                if (!grid) return;
+                grid.innerHTML = '';
 
-            // Se il filtro è 'atti', mostriamo la lista documenti speciale
-            if (currentFilter === 'atti') {
-                grid.className = 'atti-list';
-                
-                // Assicuriamoci che i filtri siano popolati con i dati correnti
-                populateSubFilters();
-                
-                const attiPage = currentData.pages.find(p => p.id === 'atti_generali');
-                const attiList = attiPage ? attiPage.atti_list : [];
+                // Se il filtro è 'atti', mostriamo la lista documenti speciale
+                if (currentFilter === 'atti') {
+                    grid.className = 'atti-list';
+                    
+                    populateSubFilters();
+                    
+                    const attiPage = currentData.pages.find(p => p.id === 'atti_generali');
+                    const attiList = attiPage ? (attiPage.atti_list || []) : [];
 
-                if (!attiList || attiList.length === 0) {
-                    grid.innerHTML = '<div class="empty-state">Nessun atto amministrativo trovato o lista in fase di caricamento...</div>';
-                    return;
-                }
+                    if (attiList.length === 0) {
+                        grid.innerHTML = '<div class="empty-state">Nessun atto amministrativo trovato.</div>';
+                        return;
+                    }
 
-                const selectedType = document.getElementById('type-filter').value;
-                const selectedYear = document.getElementById('year-filter').value;
-                const selectedMonth = document.getElementById('month-filter').value;
+                    const selectedType = document.getElementById('type-filter')?.value || 'all';
+                    const selectedYear = document.getElementById('year-filter')?.value || 'all';
+                    const selectedMonth = document.getElementById('month-filter')?.value || 'all';
 
-                // Applichiamo i filtri (ricerca + tipo + anno + mese)
-                const filteredAtti = attiList.filter(a => {
-                    const matchesSearch = !searchQuery || a.name.toLowerCase().includes(searchQuery);
-                    const matchesType = selectedType === 'all' || a.type === selectedType;
-                    const matchesYear = selectedYear === 'all' || a.year === selectedYear;
-                    const matchesMonth = selectedMonth === 'all' || a.month === selectedMonth;
-                    return matchesSearch && matchesType && matchesYear && matchesMonth;
-                });
+                    const filteredAtti = attiList.filter(a => {
+                        const name = (a.name || '').toLowerCase();
+                        const matchesSearch = !searchQuery || name.includes(searchQuery);
+                        const matchesType = selectedType === 'all' || a.type === selectedType;
+                        const matchesYear = selectedYear === 'all' || a.year === selectedYear;
+                        const matchesMonth = selectedMonth === 'all' || a.month === selectedMonth;
+                        return matchesSearch && matchesType && matchesYear && matchesMonth;
+                    });
 
-                if (filteredAtti.length === 0) {
-                    grid.innerHTML = '<div class="empty-state">Nessun documento corrisponde ai filtri selezionati.</div>';
-                    return;
-                }
+                    if (filteredAtti.length === 0) {
+                        grid.innerHTML = '<div class="empty-state">Nessun documento corrisponde ai filtri selezionati.</div>';
+                        return;
+                    }
 
-                filteredAtti.forEach(atto => {
-                    const item = document.createElement('div');
-                    item.className = 'atti-item';
-                    item.innerHTML = `
-                        <div style="flex: 1;">
-                            <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.3rem;">
-                                <span class="status-badge" style="background: rgba(99, 102, 241, 0.1); color: var(--primary); border: 1px solid rgba(99, 102, 241, 0.2);">${atto.type}</span>
-                                ${atto.date ? `<span style="font-size: 0.8rem; color: var(--text-muted);">${atto.date}</span>` : ''}
+                    filteredAtti.forEach(atto => {
+                        const item = document.createElement('div');
+                        item.className = 'atti-item';
+                        item.innerHTML = `
+                            <div style="flex: 1;">
+                                <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.3rem;">
+                                    <span class="status-badge" style="background: rgba(99, 102, 241, 0.1); color: var(--primary); border: 1px solid rgba(99, 102, 241, 0.2);">${atto.type || 'Atto'}</span>
+                                    ${atto.date ? `<span style="font-size: 0.8rem; color: var(--text-muted);">${atto.date}</span>` : ''}
+                                </div>
+                                <div class="atti-name">${atto.name || 'Senza titolo'}</div>
                             </div>
-                            <div class="atti-name">${atto.name}</div>
-                        </div>
-                        <div class="atti-actions">
-                            <a href="${atto.url}" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Apri Atto</a>
-                        </div>
-                    `;
-                    grid.appendChild(item);
-                });
-                return;
-            }
+                            <div class="atti-actions">
+                                <a href="${atto.url || '#'}" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Apri Atto</a>
+                            </div>
+                        `;
+                        grid.appendChild(item);
+                    });
+                    return;
+                }
 
-            // Layout standard a Card
-            grid.className = 'grid';
-            
-            // Applichiamo i filtri (ricerca + tab)
-            let filteredPages = currentData.pages.filter(page => {
-                const isPdf = page.name.includes('📄');
-                const matchesSearch = !searchQuery || 
-                                    page.name.toLowerCase().includes(searchQuery) || 
-                                    (page.status || '').toLowerCase().includes(searchQuery) ||
-                                    (page.summary || '').toLowerCase().includes(searchQuery);
+                // Layout standard a Card
+                grid.className = 'grid';
                 
-                let matchesCategory = true;
-                if (currentFilter === 'pages') matchesCategory = !isPdf;
-                else if (currentFilter === 'pdf') matchesCategory = isPdf;
-                
-                return matchesSearch && matchesCategory;
-            });
-
-            // Applichiamo l'ORDINAMENTO
-            if (currentSort === 'alpha') {
-                filteredPages.sort((a, b) => a.name.localeCompare(b.name));
-            } else if (currentSort === 'recent') {
-                // Ordina per data di modifica, se presente, altrimenti data di controllo
-                filteredPages.sort((a, b) => {
-                    const dateA = parseItalianDate(a.last_change_date || a.last_check);
-                    const dateB = parseItalianDate(b.last_change_date || b.last_check);
-                    return dateB - dateA; // Decrescente (più recenti sopra)
+                let filteredPages = currentData.pages.filter(page => {
+                    const name = (page.name || '').toLowerCase();
+                    const status = (page.status || '').toLowerCase();
+                    const summary = (page.summary || '').toLowerCase();
+                    const isPdf = name.includes('📄');
+                    
+                    const matchesSearch = !searchQuery || 
+                                        name.includes(searchQuery) || 
+                                        status.includes(searchQuery) ||
+                                        summary.includes(searchQuery);
+                    
+                    let matchesCategory = true;
+                    if (currentFilter === 'pages') matchesCategory = !isPdf;
+                    else if (currentFilter === 'pdf') matchesCategory = isPdf;
+                    
+                    return matchesSearch && matchesCategory;
                 });
-            }
 
-            if (filteredPages.length === 0) {
-                grid.innerHTML = '<div class="empty-state">Nessun elemento trovato per i criteri selezionati.</div>';
-                return;
-            }
+                // Ordinamento
+                if (currentSort === 'alpha') {
+                    filteredPages.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+                } else if (currentSort === 'recent') {
+                    filteredPages.sort((a, b) => {
+                        const dateA = parseItalianDate(a.last_change_date || a.last_check);
+                        const dateB = parseItalianDate(b.last_change_date || b.last_check);
+                        return dateB - dateA;
+                    });
+                }
 
-            filteredPages.forEach((page, index) => {
+                if (filteredPages.length === 0) {
+                    grid.innerHTML = '<div class="empty-state">Nessun elemento trovato per i criteri selezionati.</div>';
+                    return;
+                }
+
+                filteredPages.forEach((page, index) => {
                 const card = document.createElement('div');
                 card.className = `card ${page.has_changes ? 'has-changes' : ''}`;
                 card.style.animationDelay = `${index * 0.05}s`;
@@ -872,6 +875,9 @@
                 `;
                 grid.appendChild(card);
             });
+            } catch (error) {
+                console.error("Errore rendering dashboard:", error);
+            }
         }
 
         async function showHistory(pageId, pageName) {
