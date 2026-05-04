@@ -98,6 +98,9 @@ def extract_document_list(html_content):
     
     types_keywords = ["determina", "decreto", "circolare", "regolamento", "direttiva", "linee guida", "avviso", "nomina", "disciplina", "allegato", "modello", "modulo"]
     processed_urls = set()
+    last_found_date = ""
+    last_found_year = ""
+    last_found_month = ""
     
     for m in matches:
         url = m.group(1).strip()
@@ -129,11 +132,21 @@ def extract_document_list(html_content):
                 date_str = f"{giorno}/{mese_num}/{anno}"
                 year_str = anno
                 month_str = mese_num
+                # Aggiorniamo la "memoria" per i successivi allegati
+                last_found_date = date_str
+                last_found_year = year_str
+                last_found_month = month_str
             else:
                 # Prova solo anno se data completa manca
                 year_match = re.search(r'\b(202\d)\b', name)
                 if year_match:
                     year_str = year_match.group(1)
+                
+                # Se è un allegato/modello e non ha data, usa l'ultima trovata
+                if not date_str and not year_str and last_found_date:
+                    date_str = last_found_date
+                    year_str = last_found_year
+                    month_str = last_found_month
 
             clean_name = name.replace('\n', ' ').replace('\r', ' ').strip()
             clean_name = re.sub(r'\s+', ' ', clean_name)
