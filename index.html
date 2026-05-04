@@ -560,10 +560,21 @@
         </header>
 
         <div class="controls">
-            <div class="search-container">
-                <span class="search-icon">🔍</span>
-                <input type="text" id="search-input" class="search-input" placeholder="Cerca tra documenti, stati o contenuti..." oninput="handleSearch()">
+            <div style="display: flex; gap: 1rem; width: 100%; max-width: 800px; flex-wrap: wrap; justify-content: center;">
+                <div class="search-container" style="flex: 2; min-width: 300px;">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="search-input" class="search-input" placeholder="Cerca tra documenti, stati o contenuti..." oninput="handleSearch()">
+                </div>
+                <div class="filter-group" style="flex: 1; min-width: 200px; margin-top: 0;">
+                    <span class="filter-label">Ordina</span>
+                    <select id="sort-select" class="select-filter" onchange="setSort(this.value)">
+                        <option value="default">Default</option>
+                        <option value="alpha">Alfabetico (A-Z)</option>
+                        <option value="recent">Ultima Modifica</option>
+                    </select>
+                </div>
             </div>
+
             <div class="filter-row">
                 <button class="filter-btn active" onclick="setFilter('all', this)">Tutti</button>
                 <button class="filter-btn" onclick="setFilter('pages', this)">Pagine Web</button>
@@ -637,17 +648,11 @@
             }
         }
 
-        function handleSearch() {
-            searchQuery = document.getElementById('search-input').value.toLowerCase();
-            renderDashboard();
-        }
-
         function setFilter(filter, btn) {
             currentFilter = filter;
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             
-            // Show/hide sub-filters for Atti
             const subFilters = document.getElementById('sub-filters');
             if (filter === 'atti') {
                 subFilters.style.display = 'flex';
@@ -657,6 +662,32 @@
             }
             
             renderDashboard();
+        }
+
+        function setSort(sortType) {
+            currentSort = sortType;
+            renderDashboard();
+        }
+
+        function handleSearch() {
+            searchQuery = document.getElementById('search-input').value.toLowerCase();
+            renderDashboard();
+        }
+
+        // Helper per convertire data "DD/MM/YYYY HH:MM" in oggetto Date
+        function parseItalianDate(dateStr) {
+            if (!dateStr) return new Date(0);
+            try {
+                const [datePart, timePart] = dateStr.split(' ');
+                const [d, m, y] = datePart.split('/');
+                if (timePart) {
+                    const [h, min] = timePart.split(':');
+                    return new Date(y, m - 1, d, h, min);
+                }
+                return new Date(y, m - 1, d);
+            } catch (e) {
+                return new Date(0);
+            }
         }
 
         function resetAttiFilters() {
@@ -775,27 +806,35 @@
             // Layout standard a Card
             grid.className = 'grid';
             
-            const filteredPages = currentData.pages.filter(page => {
+            // Applichiamo i filtri (ricerca + tab)
+            let filteredPages = currentData.pages.filter(page => {
                 const isPdf = page.name.includes('📄');
+                const matchesSearch = !searchQuery || 
+                                    page.name.toLowerCase().includes(searchQuery) || 
+                                    (page.status || '').toLowerCase().includes(searchQuery) ||
+                                    (page.summary || '').toLowerCase().includes(searchQuery);
                 
-                // Filtro categoria
-                let passFilter = true;
-                if (currentFilter === 'pages') passFilter = !isPdf;
-                else if (currentFilter === 'pdfs') passFilter = isPdf;
+                let matchesCategory = true;
+                if (currentFilter === 'pages') matchesCategory = !isPdf;
+                else if (currentFilter === 'pdf') matchesCategory = isPdf;
                 
-                if (!passFilter) return false;
-
-                // Filtro ricerca
-                if (searchQuery) {
-                    const searchContent = (page.name + ' ' + page.status + ' ' + (page.summary || '')).toLowerCase();
-                    return searchContent.includes(searchQuery);
-                }
-
-                return true;
+                return matchesSearch && matchesCategory;
             });
 
+            // Applichiamo l'ORDINAMENTO
+            if (currentSort === 'alpha') {
+                filteredPages.sort((a, b) => a.name.localeCompare(b.name));
+            } else if (currentSort === 'recent') {
+                // Ordina per data di modifica, se presente, altrimenti data di controllo
+                filteredPages.sort((a, b) => {
+                    const dateA = parseItalianDate(a.last_change_date || a.last_check);
+                    const dateB = parseItalianDate(b.last_change_date || b.last_check);
+                    return dateB - dateA; // Decrescente (più recenti sopra)
+                });
+            }
+
             if (filteredPages.length === 0) {
-                grid.innerHTML = '<div class="loader">Nessun elemento trovato per questo filtro.</div>';
+                grid.innerHTML = '<div class="empty-state">Nessun elemento trovato per i criteri selezionati.</div>';
                 return;
             }
 
