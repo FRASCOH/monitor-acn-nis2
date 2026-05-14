@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-05-14T14:50:46.714306+02:00",
+    "timestamp": "2026-05-14T14:50:52.774920+02:00",
     "date_formatted": "14/05/2026 14:50",
     "additions": [
       "[HEADER] seguici_su",
@@ -25,9 +25,6 @@
       "[HEADER] apri_ricerca",
       "Il Team dell'Agenzia per la risposta agli incidenti cyber",
       "Feed Pubblico MISP",
-      "La finalit\u00e0 perseguita attraverso l\u2019elencazione e la categorizzazione delle attivit\u00e0 e dei servizi \u00e8 quella di aggregare attivit\u00e0 e servizi in funzione della categoria di rilevanza loro assegnata dal modello di categorizzazione e cos\u00ec    corrispondere a quanto disposto dall\u2019articolo 31 del decreto NIS che prevede che le misure di sicurezza siano differenziate in relazione alle categorie di rilevanza delle attivit\u00e0 e dei servizi che i sistemi informativi e di rete supportano, svolgono o erogano.",
-      ", ossia le attivit\u00e0 e i servizi per i quali il soggetto rientra nell'ambito di applicazione del decreto NIS.  Il modello di categorizzazione definisce in tutto 4 categorie di rilevanza con livello di impatto crescente: minimo, basso, medio e alto.",
-      ", prevede che le pubbliche amministrazioni predispongano e aggiornino un elenco dei propri dati e dei propri servizi digitali, comprensivo di tutti gli elementi necessari alla loro caratterizzazione ai fini della relativa classificazione in dati e servizi ordinari, critici o strategici.  Le modalit\u00e0 per la predisposizione dell\u2019elenco e della classificazione dei dati e dei servizi della pubblica amministrazione sono riportate all\u2019allegato 1 del Regolamento Cloud.",
       "[FOOTER] Informazioni su",
       "[FOOTER] Agenzia per la",
       "[FOOTER] cybersicurezza nazionale",
@@ -88,9 +85,6 @@
       "Segnala un incidente informatico",
       "apri_ricerca",
       "L'obiettivo dell'investimento \u00e8 rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.",
-      "La finalit\u00e0 perseguita attraverso l\u2019elencazione e la categorizzazione delle attivit\u00e0 e dei servizi \u00e8 quella di aggregare attivit\u00e0 e servizi in funzione della categoria di rilevanza loro assegnata dal modello di categorizzazione e cos\u00ec corrispondere a quanto disposto dall\u2019articolo 31 del decreto NIS che prevede che le misure di sicurezza siano differenziate in relazione alle categorie di rilevanza delle attivit\u00e0 e dei servizi che i sistemi informativi e di rete supportano, svolgono o erogano.",
-      ", ossia le attivit\u00e0 e i servizi per i quali il soggetto rientra nell'ambito di applicazione del decreto NIS. Il modello di categorizzazione definisce in tutto 4 categorie di rilevanza con livello di impatto crescente: minimo, basso, medio e alto.",
-      ", prevede che le pubbliche amministrazioni predispongano e aggiornino un elenco dei propri dati e dei propri servizi digitali, comprensivo di tutti gli elementi necessari alla loro caratterizzazione ai fini della relativa classificazione in dati e servizi ordinari, critici o strategici. Le modalit\u00e0 per la predisposizione dell\u2019elenco e della classificazione dei dati e dei servizi della pubblica amministrazione sono riportate all\u2019allegato 1 del Regolamento Cloud.",
       "Informazioni su",
       "Agenzia per la",
       "cybersicurezza nazionale",
@@ -128,16 +122,6 @@
       "Dichiarazione di accessibilit\u00e0",
       ": apre una nuova finestra",
       "Social media policy"
-    ]
-  },
-  {
-    "timestamp": "2026-04-29T18:00:42.386763",
-    "date_formatted": "29/04/2026 18:00",
-    "additions": [
-      "In particolare, a tali soggetti sar\u00e0 presentato l\u2019elenco dei dati e dei servizi classificati presente su padigitale2026.gov.it al 07/04/2026, rimettendo al medesimo la facolt\u00e0 di confermare tale elenco anche ai fini della categorizzazione, ovvero di aggiornarlo. In questo secondo caso, il soggetto \u00e8 tenuto ad assicurare la coerenza con la classificazione dei dati e dei servizi effettuata sulla piattaforma PA digitale 2026."
-    ],
-    "removals": [
-      "In particolare, a tali soggetti sar\u00e0 presentato l\u2019elenco dei dati e dei servizi classificati presente su padigitale2026.gov.it al [data di estrazione], rimettendo al medesimo la facolt\u00e0 di confermare tale elenco anche ai fini della categorizzazione, ovvero di aggiornarlo. In questo secondo caso, il soggetto \u00e8 tenuto ad assicurare la coerenza con la classificazione dei dati e dei servizi effettuata sulla piattaforma PA digitale 2026."
     ]
   }
 ]

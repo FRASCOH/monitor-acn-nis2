@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-05-14T14:50:46.714306+02:00",
+    "timestamp": "2026-05-14T14:50:49.530231+02:00",
     "date_formatted": "14/05/2026 14:50",
     "additions": [
       "[HEADER] seguici_su",
@@ -25,9 +25,12 @@
       "[HEADER] apri_ricerca",
       "Il Team dell'Agenzia per la risposta agli incidenti cyber",
       "Feed Pubblico MISP",
-      "La finalit\u00e0 perseguita attraverso l\u2019elencazione e la categorizzazione delle attivit\u00e0 e dei servizi \u00e8 quella di aggregare attivit\u00e0 e servizi in funzione della categoria di rilevanza loro assegnata dal modello di categorizzazione e cos\u00ec    corrispondere a quanto disposto dall\u2019articolo 31 del decreto NIS che prevede che le misure di sicurezza siano differenziate in relazione alle categorie di rilevanza delle attivit\u00e0 e dei servizi che i sistemi informativi e di rete supportano, svolgono o erogano.",
-      ", ossia le attivit\u00e0 e i servizi per i quali il soggetto rientra nell'ambito di applicazione del decreto NIS.  Il modello di categorizzazione definisce in tutto 4 categorie di rilevanza con livello di impatto crescente: minimo, basso, medio e alto.",
-      ", prevede che le pubbliche amministrazioni predispongano e aggiornino un elenco dei propri dati e dei propri servizi digitali, comprensivo di tutti gli elementi necessari alla loro caratterizzazione ai fini della relativa classificazione in dati e servizi ordinari, critici o strategici.  Le modalit\u00e0 per la predisposizione dell\u2019elenco e della classificazione dei dati e dei servizi della pubblica amministrazione sono riportate all\u2019allegato 1 del Regolamento Cloud.",
+      "Nelle organizzazioni in cui \u00e8 previsto un Consiglio di amministrazione \u00e8 necessario elencarne tutti i membri quali componenti degli organi  di amministrazione e direttivi.",
+      "Si, \u00e8 possibile conferire tale delega ferma restando in capo agli organi di amministrazione e agli organi direttivi dei soggetti essenziali e dei soggetti importanti la responsabilit\u00e0 ai sensi dell\u2019articolo 23 del decreto NIS di (i) approvare le modalit\u00e0 di implementazione  delle misure di gestione dei rischi per la sicurezza informatica di cui alla",
+      "Determinazione ACN 379887/2025",
+      "(comma 1, lett. a)); (ii) sovrintendere alla loro implementazione (comma 1, lett.b)); (iii)  essere responsabili delle violazioni di cui al decreto nis (comma 1, lett. c)); (iv) seguire una formazione in materia di sicurezza informatica (comma 2, lett. a)); (v) promuovere l\u2019offerta periodica di formazione per i dipendenti coerente con quella seguita dagli organi di amministrazione e dagli organi direttivi (comma 2, lett. b)).",
+      "Dal punto di vista operativo \u00e8 quindi necessario completare una prima volta la procedura ordinaria di censimento dell\u2019utente e associazione alla prima organizzazione.  Si consiglia, in linea generale, di iniziare dall\u2019organizzazione di cui il punto di contatto \u00e8 dipendente.",
+      ", il Referente CSIRT e i suoi sostituti sono designati dal Punto di contatto tramite la funzionalit\u00e0  di Aggiornamento dati disponibile tra i Servizi NIS del Portale dei Servizi ACN.",
       "[FOOTER] Informazioni su",
       "[FOOTER] Agenzia per la",
       "[FOOTER] cybersicurezza nazionale",
@@ -88,9 +91,12 @@
       "Segnala un incidente informatico",
       "apri_ricerca",
       "L'obiettivo dell'investimento \u00e8 rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.",
-      "La finalit\u00e0 perseguita attraverso l\u2019elencazione e la categorizzazione delle attivit\u00e0 e dei servizi \u00e8 quella di aggregare attivit\u00e0 e servizi in funzione della categoria di rilevanza loro assegnata dal modello di categorizzazione e cos\u00ec corrispondere a quanto disposto dall\u2019articolo 31 del decreto NIS che prevede che le misure di sicurezza siano differenziate in relazione alle categorie di rilevanza delle attivit\u00e0 e dei servizi che i sistemi informativi e di rete supportano, svolgono o erogano.",
-      ", ossia le attivit\u00e0 e i servizi per i quali il soggetto rientra nell'ambito di applicazione del decreto NIS. Il modello di categorizzazione definisce in tutto 4 categorie di rilevanza con livello di impatto crescente: minimo, basso, medio e alto.",
-      ", prevede che le pubbliche amministrazioni predispongano e aggiornino un elenco dei propri dati e dei propri servizi digitali, comprensivo di tutti gli elementi necessari alla loro caratterizzazione ai fini della relativa classificazione in dati e servizi ordinari, critici o strategici. Le modalit\u00e0 per la predisposizione dell\u2019elenco e della classificazione dei dati e dei servizi della pubblica amministrazione sono riportate all\u2019allegato 1 del Regolamento Cloud.",
+      "Nelle organizzazioni in cui \u00e8 previsto un Consiglio di amministrazione \u00e8 necessario elencarne tutti i membri quali componenti degli organi di amministrazione e direttivi.",
+      "Si, \u00e8 possibile conferire tale delega ferma restando in capo agli organi di amministrazione e agli organi direttivi dei soggetti essenziali e dei soggetti importanti la responsabilit\u00e0 ai sensi dell\u2019articolo 23 del decreto NIS di (i) approvare le modalit\u00e0 di implementazione delle misure di gestione dei rischi per la sicurezza informatica di cui alla",
+      "Determinazione ACN 379887/2025",
+      "(comma 1, lett. a)); (ii) sovrintendere alla loro implementazione (comma 1, lett.b)); (iii) essere responsabili delle violazioni di cui al decreto nis (comma 1, lett. c)); (iv) seguire una formazione in materia di sicurezza informatica (comma 2, lett. a)); (v) promuovere l\u2019offerta periodica di formazione per i dipendenti coerente con quella seguita dagli organi di amministrazione e dagli organi direttivi (comma 2, lett. b)).",
+      "Dal punto di vista operativo \u00e8 quindi necessario completare una prima volta la procedura ordinaria di censimento dell\u2019utente e associazione alla prima organizzazione. Si consiglia, in linea generale, di iniziare dall\u2019organizzazione di cui il punto di contatto \u00e8 dipendente.",
+      ", il Referente CSIRT e i suoi sostituti sono designati dal Punto di contatto tramite la funzionalit\u00e0 di Aggiornamento dati disponibile tra i Servizi NIS del Portale dei Servizi ACN.",
       "Informazioni su",
       "Agenzia per la",
       "cybersicurezza nazionale",
@@ -128,16 +134,6 @@
       "Dichiarazione di accessibilit\u00e0",
       ": apre una nuova finestra",
       "Social media policy"
-    ]
-  },
-  {
-    "timestamp": "2026-04-29T18:00:42.386763",
-    "date_formatted": "29/04/2026 18:00",
-    "additions": [
-      "In particolare, a tali soggetti sar\u00e0 presentato l\u2019elenco dei dati e dei servizi classificati presente su padigitale2026.gov.it al 07/04/2026, rimettendo al medesimo la facolt\u00e0 di confermare tale elenco anche ai fini della categorizzazione, ovvero di aggiornarlo. In questo secondo caso, il soggetto \u00e8 tenuto ad assicurare la coerenza con la classificazione dei dati e dei servizi effettuata sulla piattaforma PA digitale 2026."
-    ],
-    "removals": [
-      "In particolare, a tali soggetti sar\u00e0 presentato l\u2019elenco dei dati e dei servizi classificati presente su padigitale2026.gov.it al [data di estrazione], rimettendo al medesimo la facolt\u00e0 di confermare tale elenco anche ai fini della categorizzazione, ovvero di aggiornarlo. In questo secondo caso, il soggetto \u00e8 tenuto ad assicurare la coerenza con la classificazione dei dati e dei servizi effettuata sulla piattaforma PA digitale 2026."
     ]
   }
 ]

@@ -1,26 +1,26 @@
+[HEADER] seguici_su
+[HEADER] Agenzia:
+[HEADER] Linkedin: apre una nuova finestra
+[HEADER] Youtube: apre una nuova finestra
+[HEADER] seguici_su
+[HEADER] CSIRT Italia:
+[HEADER] Twitter: apre una nuova finestra
+[HEADER] Telegram: apre una nuova finestra
+[HEADER] RSS: apre una nuova finestra
+[HEADER] Lingue disponibili:
+[HEADER] ITA
+[HEADER] ITA
+[HEADER] : italiano
+[HEADER] ENG
+[HEADER] : english
+[HEADER] Apri menu principale
+[HEADER] Agenzia per la
+[HEADER] cybersicurezza nazionale
+[HEADER] Segnala un incidente informatico
+[HEADER] apri_ricerca
 Domande frequenti NIS - Categorizzazione - ACN
-		Skip to Main Content
+Skip to Main Content
 Domande frequenti NIS - Categorizzazione
-seguici_su
-Agenzia:
-Linkedin: apre una nuova finestra
-Youtube: apre una nuova finestra
-seguici_su
-CSIRT Italia:
-Twitter: apre una nuova finestra
-Telegram: apre una nuova finestra
-RSS: apre una nuova finestra
-Lingue disponibili:
- ITA 
-ITA
-: italiano
-ENG
-: english
-Apri menu principale
-Agenzia per la 
-cybersicurezza nazionale
-Segnala un incidente informatico
-apri_ricerca
 Menu
 Agenzia
 Agenzia
@@ -39,7 +39,7 @@ PNRR
 NIS
 NIS
 Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
- Scopri NIS
+Scopri NIS
 La normativa
 Ambito
 Registrazione
@@ -52,7 +52,7 @@ Domande frequenti
 Cloud
 Cloud
 L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
- Scopri Cloud
+Scopri Cloud
 Regolamento Cloud per la PA
 Catalogo delle Infrastrutture digitali e dei Servizi cloud
 Qualificazione e adeguamento
@@ -60,19 +60,20 @@ Documentazione utile
 Domande frequenti
 CSIRT Italia
 CSIRT Italia
-L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
- Scopri CSIRT Italia
+Il Team dell'Agenzia per la risposta agli incidenti cyber
+Scopri CSIRT Italia
 Chi siamo
 Glossario
 Alert e Bollettini
 Pubblicazioni
 La settimana cibernetica
 Operational Summary
+Feed Pubblico MISP
 Domande frequenti
 NCC Italia
 NCC Italia
 L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
- Scopri NCC Italia
+Scopri NCC Italia
 Chi siamo
 Opportunità di finanziamento
 Community
@@ -82,7 +83,7 @@ Domande frequenti
 Certificazione
 Certificazione
 L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
- Scopri Certificazione
+Scopri Certificazione
 Centro di Valutazione e Certificazione Nazionale
 Certificazione e vigilanza
 NCCA
@@ -105,8 +106,8 @@ Home
 Domande frequenti
 NIS
 Domande frequenti NIS - Categorizzazione
-Menu della sezione 
- Domande frequenti
+Menu della sezione
+Domande frequenti
 Apri menu della sezione Domande frequenti
 PNRR
 Cloud
@@ -124,46 +125,46 @@ Concorsi
 CSIRT Italia
 NCC Italia
 Strategia Nazionale di Cybersicurezza
- NIS - Categorizzazione
+NIS - Categorizzazione
 Puoi utilizzare la ricerca nelle domande frequenti digitando la paroladi interesse così da poter più facilmente identificare quello che staicercando. I risultati saranno filtrati dal terzo carattere digitato.
- Nessun risultato trovato
+Nessun risultato trovato
 CAT.1 Quali sono gli obblighi previsti dall’articolo 30 del decreto NIS a carico dei soggetti NIS ?
-Gli obblighi previsti a carico dei soggetti NIS dall’articolo 30 del decreto NIS consistono nell’elencazione e categorizzazione di tutte le attività svolte e i servizi erogati. Tali attività devono essere svolte dal 1° maggio al 30 giugno di ogni anno a partire dalla ricezione della prima comunicazione di cui all'articolo 7, comma 3, lettera a) del predetto decreto. Si veda per i dettagli quanto previsto dall’articolo 3 della 
+Gli obblighi previsti a carico dei soggetti NIS dall’articolo 30 del decreto NIS consistono nell’elencazione e categorizzazione di tutte le attività svolte e i servizi erogati. Tali attività devono essere svolte dal 1° maggio al 30 giugno di ogni anno a partire dalla ricezione della prima comunicazione di cui all'articolo 7, comma 3, lettera a) del predetto decreto. Si veda per i dettagli quanto previsto dall’articolo 3 della
 Determina 155238/2026
-. 
+.
 CAT.2 Che cosa si intende per elencazione e categorizzazione delle attività e dei servizi?
-Per elencazione e categorizzazione delle attività e dei servizi si intende il processo di elaborazione dell’elenco di attività e servizi del soggetto comprensivo dell’assegnazione a tali attività e servizi della relativa categoria di rilevanza (cosiddetto 
+Per elencazione e categorizzazione delle attività e dei servizi si intende il processo di elaborazione dell’elenco di attività e servizi del soggetto comprensivo dell’assegnazione a tali attività e servizi della relativa categoria di rilevanza (cosiddetto
 elenco categorizzato
 ).
-Per ulteriori informazioni, si faccia riferimento alla 
+Per ulteriori informazioni, si faccia riferimento alla
 guida alla lettura del modello di categorizzazione
 .
 CAT.3 Qual è la finalità dell’elencazione e categorizzazione delle attività e dei servizi?
-La finalità perseguita attraverso l’elencazione e la categorizzazione delle attività e dei servizi è quella di aggregare attività e servizi in funzione della categoria di rilevanza loro assegnata dal modello di categorizzazione e così corrispondere a quanto disposto dall’articolo 31 del decreto NIS che prevede che le misure di sicurezza siano differenziate in relazione alle categorie di rilevanza delle attività e dei servizi che i sistemi informativi e di rete supportano, svolgono o erogano.
+La finalità perseguita attraverso l’elencazione e la categorizzazione delle attività e dei servizi è quella di aggregare attività e servizi in funzione della categoria di rilevanza loro assegnata dal modello di categorizzazione e così    corrispondere a quanto disposto dall’articolo 31 del decreto NIS che prevede che le misure di sicurezza siano differenziate in relazione alle categorie di rilevanza delle attività e dei servizi che i sistemi informativi e di rete supportano, svolgono o erogano.
 L’elencazione, ma soprattutto la categorizzazione delle attività e dei servizi, con l’attribuzione della categoria di rilevanza “minimo”, “basso”, “medio” e “alto”, è pertanto il presupposto per l’identificazione delle misure di sicurezza adeguate che il soggetto NIS deve mettere in atto, incluse le cosiddette “
 misure di sicurezza a lungo termine
 ” che saranno stabilite mediante successive determinazioni dell’Agenzia per la cybersicurezza nazionale entro la fine del 2026 e riguarderanno le fasi successive a quelle di prima applicazione.
-Ad oggi, infatti, in accordo a quanto previsto dall’articolo 42 del decreto che disciplina la fase di prima applicazione, sono state definite, con la 
+Ad oggi, infatti, in accordo a quanto previsto dall’articolo 42 del decreto che disciplina la fase di prima applicazione, sono state definite, con la
 determina 379907/2025
-, le cosiddette 
+, le cosiddette
 misure di sicurezza di base
 .
-Le misure di sicurezza di base saranno quindi integrate, entro la fine del 2026, da misure di sicurezza aggiuntive – caratterizzate da requisiti di livello avanzato rispetto a quelle di base – e confluiranno nelle misure di sicurezza a lungo termine per la realizzazione delle quali verrà stabilito anche l’arco temporale entro il quale questa attività dovrà essere completata. 
+Le misure di sicurezza di base saranno quindi integrate, entro la fine del 2026, da misure di sicurezza aggiuntive – caratterizzate da requisiti di livello avanzato rispetto a quelle di base – e confluiranno nelle misure di sicurezza a lungo termine per la realizzazione delle quali verrà stabilito anche l’arco temporale entro il quale questa attività dovrà essere completata.
 CAT.4 Come viene effettuata l’elencazione e categorizzazione delle attività e dei servizi?
-I soggetti NIS provvedono all’elencazione e alla categorizzazione di tutte le attività svolte e dei servizi erogati, internamente ed esternamente, suddivisi nelle macro-aree di cui al modello di categorizzazione predisposto dall’Agenzia per la cybersicurezza nazionale, tramite la piattaforma digitale di cui all’articolo 7, comma 1, del decreto NIS, con le modalità stabilite dalla 
+I soggetti NIS provvedono all’elencazione e alla categorizzazione di tutte le attività svolte e dei servizi erogati, internamente ed esternamente, suddivisi nelle macro-aree di cui al modello di categorizzazione predisposto dall’Agenzia per la cybersicurezza nazionale, tramite la piattaforma digitale di cui all’articolo 7, comma 1, del decreto NIS, con le modalità stabilite dalla
 Determinazione ACN 127437/2026
 .
 CAT.5 Che cosa è il modello di categorizzazione?
-Il Modello di categorizzazione, disciplinato dalla 
+Il Modello di categorizzazione, disciplinato dalla
 Determina 155238/2026
 , è il modello elaborato dall’ACN – con il concorso delle Autorità di settore NIS nonché avvalendosi anche dei contributi offerti dalle associazioni di categoria, anche per mezzo dei Tavoli Settoriali – in accordo al quale i soggetti NIS predispongono l’elenco di attività e servizi del soggetto, comprensivo della relativa categoria di rilevanza.
-In particolare, il modello struttura le attività e i servizi di un’organizzazione in macro-aree (ciascuna delle quali rappresenta un insieme astratto di attività e servizi che possono essere caratterizzati da elementi in comune come, ad esempio, utenti, finalità o tipologia di prestazione) ognuna delle quali è caratterizzata da una denominazione, una descrizione e una categoria di rilevanza pre-assegnata. 
+In particolare, il modello struttura le attività e i servizi di un’organizzazione in macro-aree (ciascuna delle quali rappresenta un insieme astratto di attività e servizi che possono essere caratterizzati da elementi in comune come, ad esempio, utenti, finalità o tipologia di prestazione) ognuna delle quali è caratterizzata da una denominazione, una descrizione e una categoria di rilevanza pre-assegnata.
 CAT.6 Cosa rappresenta la categoria di rilevanza di un’attività o un di un servizio?
-La categoria di rilevanza di un’attività o di un servizio rappresenta il livello dell’impatto di una possibile compromissione di quell’attività o di quel servizio sulla capacità del soggetto di svolgere correttamente le 
+La categoria di rilevanza di un’attività o di un servizio rappresenta il livello dell’impatto di una possibile compromissione di quell’attività o di quel servizio sulla capacità del soggetto di svolgere correttamente le
 attività
- e i 
+e i
 servizi NIS
-, ossia le attività e i servizi per i quali il soggetto rientra nell'ambito di applicazione del decreto NIS. Il modello di categorizzazione definisce in tutto 4 categorie di rilevanza con livello di impatto crescente: minimo, basso, medio e alto.
+, ossia le attività e i servizi per i quali il soggetto rientra nell'ambito di applicazione del decreto NIS.  Il modello di categorizzazione definisce in tutto 4 categorie di rilevanza con livello di impatto crescente: minimo, basso, medio e alto.
 CAT.7 Come si procede in concreto all’elencazione e categorizzazione delle attività e dei servizi?
 Ai fini dell’elencazione e categorizzazione delle attività e dei servizi, il soggetto può adottare un processo articolato nelle seguenti fasi:
 Identificazione attività/servizi
@@ -171,58 +172,58 @@ Identificazione attività/servizi
 mappatura attività/servizi in macro-aree
 : le attività e i servizi individuati sono associati alle macro-aree definite dal modello di categorizzazione che meglio ne rappresenta le finalità e le caratteristiche. Poiché ogni attività/servizio deve essere associata a una sola macro-area, qualora un’attività o un servizio siano riconducibili a più macro-aree, è necessario procedere a una loro ulteriore scomposizione, al fine di associarli a una specifica macro-area;
 attribuzione categoria di rilevanza
-: per ogni attività/servizio individuato è assegnata una specifica categoria di rilevanza. Ai sensi dell’articolo 3, comma 3, della citata 
+: per ogni attività/servizio individuato è assegnata una specifica categoria di rilevanza. Ai sensi dell’articolo 3, comma 3, della citata
 Determina 155238/2026
- – sulla base della valutazione dell’impatto di una possibile compromissione dell’attività o del servizio sulla capacità del soggetto di svolgere correttamente le attività e i servizi per i quali è stato censito come soggetto NIS e conservando la documentazione recante tale analisi – il soggetto potrà comunque indicare una categoria di rilevanza per un’attività o un servizio differente da quella pre-assegnata alla macro-area. Di conseguenza, una stessa macro-area potrà avere al suo interno attività e servizi con differenti categorie di rilevanza.
-Questo è un processo suggerito e non è vincolante per il soggetto, il quale può adottare altre modalità di analisi o anche impiegare gli esiti di analisi di impatto già svolte precedentemente. 
+– sulla base della valutazione dell’impatto di una possibile compromissione dell’attività o del servizio sulla capacità del soggetto di svolgere correttamente le attività e i servizi per i quali è stato censito come soggetto NIS e conservando la documentazione recante tale analisi – il soggetto potrà comunque indicare una categoria di rilevanza per un’attività o un servizio differente da quella pre-assegnata alla macro-area. Di conseguenza, una stessa macro-area potrà avere al suo interno attività e servizi con differenti categorie di rilevanza.
+Questo è un processo suggerito e non è vincolante per il soggetto, il quale può adottare altre modalità di analisi o anche impiegare gli esiti di analisi di impatto già svolte precedentemente.
 CAT.8 Come è coordinata la categorizzazione con la classificazione dei dati e servizi per la Pubblica Amministrazione?
-L’articolo 3 del Decreto Direttoriale ACN n. 21007/24 del 27 giugno 2024, cosiddetto 
+L’articolo 3 del Decreto Direttoriale ACN n. 21007/24 del 27 giugno 2024, cosiddetto
 Regolamento Cloud
-, prevede che le pubbliche amministrazioni predispongano e aggiornino un elenco dei propri dati e dei propri servizi digitali, comprensivo di tutti gli elementi necessari alla loro caratterizzazione ai fini della relativa classificazione in dati e servizi ordinari, critici o strategici. Le modalità per la predisposizione dell’elenco e della classificazione dei dati e dei servizi della pubblica amministrazione sono riportate all’allegato 1 del Regolamento Cloud.
-L’articolo 4 della 
+, prevede che le pubbliche amministrazioni predispongano e aggiornino un elenco dei propri dati e dei propri servizi digitali, comprensivo di tutti gli elementi necessari alla loro caratterizzazione ai fini della relativa classificazione in dati e servizi ordinari, critici o strategici.  Le modalità per la predisposizione dell’elenco e della classificazione dei dati e dei servizi della pubblica amministrazione sono riportate all’allegato 1 del Regolamento Cloud.
+L’articolo 4 della
 Determina 155238/2026
- prevede che i soggetti NIS che hanno svolto la classificazione dei dati e dei servizi di cui al citato articolo 3 del Regolamento Cloud, applicano il modello stabilito da tale Regolamento ai fini dell’elencazione e categorizzazione delle attività e dei servizi.
-In particolare, a tali soggetti sarà presentato l’elenco dei dati e dei servizi classificati presente su padigitale2026.gov.it al 07/04/2026, rimettendo al medesimo la facoltà di confermare tale elenco anche ai fini della categorizzazione, ovvero di aggiornarlo. In questo secondo caso, il soggetto è tenuto ad assicurare la coerenza con la classificazione dei dati e dei servizi effettuata sulla piattaforma PA digitale 2026. 
+prevede che i soggetti NIS che hanno svolto la classificazione dei dati e dei servizi di cui al citato articolo 3 del Regolamento Cloud, applicano il modello stabilito da tale Regolamento ai fini dell’elencazione e categorizzazione delle attività e dei servizi.
+In particolare, a tali soggetti sarà presentato l’elenco dei dati e dei servizi classificati presente su padigitale2026.gov.it al 07/04/2026, rimettendo al medesimo la facoltà di confermare tale elenco anche ai fini della categorizzazione, ovvero di aggiornarlo. In questo secondo caso, il soggetto è tenuto ad assicurare la coerenza con la classificazione dei dati e dei servizi effettuata sulla piattaforma PA digitale 2026.
 CAT.9 Come si coordina la categorizzazione con la disciplina del perimetro di sicurezza nazionale cibernetica?
-Ai sensi dell’articolo 5 della 
+Ai sensi dell’articolo 5 della
 Determina 155238/2026
- le attività e i servizi a cui si applicano gli obblighi imposti dal decreto-legge 21 settembre 2019, n. 105 non sono oggetto del processo di elencazione e categorizzazione, essendo già etichettati con la categoria di rilevanza “impatto alto”. 
+le attività e i servizi a cui si applicano gli obblighi imposti dal decreto-legge 21 settembre 2019, n. 105 non sono oggetto del processo di elencazione e categorizzazione, essendo già etichettati con la categoria di rilevanza “impatto alto”.
 Pertanto, i servizi che sono oggetto del Perimetro di sicurezza nazionale cibernetica non vanno indicati nell’elenco categorizzato.
-Informazioni su 
-Agenzia per la
- cybersicurezza nazionale
-Contatti
-info@acn.gov.it
-Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
-non all’indirizzo e-mail dell’Agenzia
-.
-Per interviste, inviti ad eventi o manifestazioni
-comunicazione@acn.gov.it
-Link utili
-Centro di Valutazione e Certificazione Nazionale
-: apre una nuova finestra
-Linee guida ACN
-Referente per la cybersicurezza
-Patrocinio
-Lavora con noi
-Domande frequenti
-Trasparenza
-Amministrazione trasparente
-Atti di notifica
-Piattaforma Whistleblowing
-: apre una nuova finestra
-Seguici su
-Agenzia
-linkedin: apre una nuova finestra
-youtube: apre una nuova finestra
-CSIRT Italia
-Twitter: apre una nuova finestra
-Telegram: apre una nuova finestra
-RSS: apre una nuova finestra
-Altre informazioni
-Note legali
-Privacy policy
-Dichiarazione di accessibilità
-: apre una nuova finestra
-Social media policy
 Nascosta
+[FOOTER] Informazioni su
+[FOOTER] Agenzia per la
+[FOOTER] cybersicurezza nazionale
+[FOOTER] Contatti
+[FOOTER] info@acn.gov.it
+[FOOTER] Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e
+[FOOTER] non all’indirizzo e-mail dell’Agenzia
+[FOOTER] .
+[FOOTER] Per interviste, inviti ad eventi o manifestazioni
+[FOOTER] comunicazione@acn.gov.it
+[FOOTER] Link utili
+[FOOTER] Centro di Valutazione e Certificazione Nazionale
+[FOOTER] : apre una nuova finestra
+[FOOTER] Linee guida ACN
+[FOOTER] Referente per la cybersicurezza
+[FOOTER] Patrocinio
+[FOOTER] Lavora con noi
+[FOOTER] Domande frequenti
+[FOOTER] Trasparenza
+[FOOTER] Amministrazione trasparente
+[FOOTER] Atti di notifica
+[FOOTER] Piattaforma Whistleblowing
+[FOOTER] : apre una nuova finestra
+[FOOTER] Seguici su
+[FOOTER] Agenzia
+[FOOTER] linkedin: apre una nuova finestra
+[FOOTER] youtube: apre una nuova finestra
+[FOOTER] CSIRT Italia
+[FOOTER] Twitter: apre una nuova finestra
+[FOOTER] Telegram: apre una nuova finestra
+[FOOTER] RSS: apre una nuova finestra
+[FOOTER] Altre informazioni
+[FOOTER] Note legali
+[FOOTER] Privacy policy
+[FOOTER] Dichiarazione di accessibilità
+[FOOTER] : apre una nuova finestra
+[FOOTER] Social media policy

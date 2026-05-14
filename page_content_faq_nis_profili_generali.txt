@@ -1,26 +1,26 @@
+[HEADER] seguici_su
+[HEADER] Agenzia:
+[HEADER] Linkedin: apre una nuova finestra
+[HEADER] Youtube: apre una nuova finestra
+[HEADER] seguici_su
+[HEADER] CSIRT Italia:
+[HEADER] Twitter: apre una nuova finestra
+[HEADER] Telegram: apre una nuova finestra
+[HEADER] RSS: apre una nuova finestra
+[HEADER] Lingue disponibili:
+[HEADER] ITA
+[HEADER] ITA
+[HEADER] : italiano
+[HEADER] ENG
+[HEADER] : english
+[HEADER] Apri menu principale
+[HEADER] Agenzia per la
+[HEADER] cybersicurezza nazionale
+[HEADER] Segnala un incidente informatico
+[HEADER] apri_ricerca
 Domande frequenti NIS - Profili generali - ACN
-		Skip to Main Content
+Skip to Main Content
 Domande frequenti NIS - Profili generali
-seguici_su
-Agenzia:
-Linkedin: apre una nuova finestra
-Youtube: apre una nuova finestra
-seguici_su
-CSIRT Italia:
-Twitter: apre una nuova finestra
-Telegram: apre una nuova finestra
-RSS: apre una nuova finestra
-Lingue disponibili:
- ITA 
-ITA
-: italiano
-ENG
-: english
-Apri menu principale
-Agenzia per la 
-cybersicurezza nazionale
-Segnala un incidente informatico
-apri_ricerca
 Menu
 Agenzia
 Agenzia
@@ -39,7 +39,7 @@ PNRR
 NIS
 NIS
 Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
- Scopri NIS
+Scopri NIS
 La normativa
 Ambito
 Registrazione
@@ -52,7 +52,7 @@ Domande frequenti
 Cloud
 Cloud
 L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
- Scopri Cloud
+Scopri Cloud
 Regolamento Cloud per la PA
 Catalogo delle Infrastrutture digitali e dei Servizi cloud
 Qualificazione e adeguamento
@@ -60,19 +60,20 @@ Documentazione utile
 Domande frequenti
 CSIRT Italia
 CSIRT Italia
-L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
- Scopri CSIRT Italia
+Il Team dell'Agenzia per la risposta agli incidenti cyber
+Scopri CSIRT Italia
 Chi siamo
 Glossario
 Alert e Bollettini
 Pubblicazioni
 La settimana cibernetica
 Operational Summary
+Feed Pubblico MISP
 Domande frequenti
 NCC Italia
 NCC Italia
 L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
- Scopri NCC Italia
+Scopri NCC Italia
 Chi siamo
 Opportunità di finanziamento
 Community
@@ -82,7 +83,7 @@ Domande frequenti
 Certificazione
 Certificazione
 L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
- Scopri Certificazione
+Scopri Certificazione
 Centro di Valutazione e Certificazione Nazionale
 Certificazione e vigilanza
 NCCA
@@ -105,8 +106,8 @@ Home
 Domande frequenti
 NIS
 Domande frequenti NIS - Profili generali
-Menu della sezione 
- Domande frequenti
+Menu della sezione
+Domande frequenti
 Apri menu della sezione Domande frequenti
 PNRR
 Cloud
@@ -124,59 +125,59 @@ Concorsi
 CSIRT Italia
 NCC Italia
 Strategia Nazionale di Cybersicurezza
- NIS - Profili generali
+NIS - Profili generali
 Puoi utilizzare la ricerca nelle domande frequenti digitando la paroladi interesse così da poter più facilmente identificare quello che staicercando. I risultati saranno filtrati dal terzo carattere digitato.
- Nessun risultato trovato
+Nessun risultato trovato
 GEN.1 Cos’è la Direttiva NIS (Direttiva 2022/2555)?
-La 
+La
 Direttiva (UE) n. 2022/2555
 , nota anche come “Direttiva NIS2”, del Parlamento europeo e del Consiglio, del 14 dicembre 2022, relativa a misure per un livello comune elevato di cybersicurezza nell'Unione europea, è la legislazione dell'UE in materia di cybersicurezza.
 Aggiorna le norme dell'UE in materia di cybersicurezza introdotte con la prima Direttiva NIS (direttiva (UE) 2016/1148) modernizzando e uniformando il quadro giuridico esistente. Fa parte di un ampio pacchetto di strumenti giuridici e di iniziative a livello dell'Unione, mirato ad aumentare la resilienza di soggetti pubblici e privati alle minacce nell'ambito cibernetico.
 Entrata in vigore nel 2023 con l’obbligo di recepimento negli Stati Membri entro il 17 ottobre 2024, è stata recepita in Italia con il decreto legislativo 4 settembre 2024, n. 138 (
 d.lgs. n. 138/2024
- – cd. decreto NIS) pubblicato sulla Gazzetta Ufficiale, Serie Generale n. 230 del 1° ottobre 2024 (v. FAQ 1.2).
+– cd. decreto NIS) pubblicato sulla Gazzetta Ufficiale, Serie Generale n. 230 del 1° ottobre 2024 (v. FAQ 1.2).
 GEN.2 Quando è entrata in vigore in Italia la Direttiva NIS (Direttiva 2022/2555)?
-Con il 
+Con il
 d.lgs. n. 138/2024
- (cd. decreto NIS), pubblicato sulla Gazzetta Ufficiale Serie Generale n. 230 del 1° ottobre 2024, l'Italia ha dato attuazione alla Direttiva NIS (v. FAQ GEN.1), recependola nell'ordinamento nazionale con entrata in vigore dal 16 ottobre 2024.
+(cd. decreto NIS), pubblicato sulla Gazzetta Ufficiale Serie Generale n. 230 del 1° ottobre 2024, l'Italia ha dato attuazione alla Direttiva NIS (v. FAQ GEN.1), recependola nell'ordinamento nazionale con entrata in vigore dal 16 ottobre 2024.
 GEN.3 Quali sono gli elementi fondanti della normativa NIS?
 Il d.lgs. n. 138/2024 recante il recepimento della nuova Direttiva NIS (v. FAQ GEN.2) prevede l’abrogazione del d.lgs. n. 65/2018, che recepiva la precedente Direttiva NIS (Direttiva 2016/1148). La nuova normativa NIS mira a garantire un aumento del livello di sicurezza cibernetica comune, grazie all'armonizzazione delle norme applicabili ai diversi operatori nei diversi Stati membri e al rafforzamento dei livelli standard di sicurezza rispetto a quelli previsti dalla disciplina vigente.
 I principali elementi della nuova normativa NIS sono:
 l’estensione degli ambiti di applicazione rispetto alla precedente normativa NIS.
- La nuova normativa riguarda, in particolare: 
+La nuova normativa riguarda, in particolare:
 oltre 80 tipologie di soggetto, raggruppate in 18 settori, di cui 11 settori altamente critici (originariamente 8) e 7 settori critici (originariamente nessuno);
 l’intera infrastruttura ICT del soggetto (originariamente solo reti e sistemi serventi i servizi essenziali);
-l’identificazione dei soggetti, distinti tra essenziali e importanti: 
+l’identificazione dei soggetti, distinti tra essenziali e importanti:
 prevede un meccanismo di identificazione automatica sulla base di criteri oggettivi, includendo nell’ambito di applicazione tutti i soggetti riconducibili alle specifiche tipologie individuate dalla normativa che sono ritenute medie o grandi imprese ai sensi della Raccomandazione 2003/361/CE (micro e piccole imprese, salvo eccezioni, sono fuori ambito) ;
 può anche essere effettuata dall’Autorità nazionale competente NIS (v. FAQ GEN.4), su proposta delle Autorità di settore competenti (v. FAQ GEN.5), per inserire nell’ambito di applicazione ulteriori soggetti (cd. identificazione governativa);
-il rafforzamento degli obblighi con: 
+il rafforzamento degli obblighi con:
 l’obbligo di implementare misure di sicurezza in relazione ad almeno 10 ambiti, con un approccio multi-rischio e proporzionale rispetto al rischio posto al sistema informativo e di rete;
 un processo di notifica degli incidenti più articolato;
 un rafforzamento dei poteri di esecuzione, ispettivi e sanzionatori. In particolare, le sanzioni si allineano a quanto previsto dal GDPR;
-l’introduzione di nuovi strumenti, quali: 
+l’introduzione di nuovi strumenti, quali:
 la divulgazione coordinata delle vulnerabilità (CVD);
 la gestione delle crisi, specie a carattere transfrontaliero, con l’istituzione del Cyber crisis liaison organisation network (CyCLONe) e dell’Autorità nazionale competente per la gestione delle crisi informatiche.
 GEN.4 Qual è l’Autorità nazionale competente NIS e quali funzioni svolge?
 L'
 Agenzia per la cybersicurezza nazionale
- è l'Autorità nazionale competente NIS di cui all'articolo 8, paragrafo 1, della Direttiva (UE) 2022/2555 e svolge numerose funzioni ai sensi dell’articolo 10 del 
+è l'Autorità nazionale competente NIS di cui all'articolo 8, paragrafo 1, della Direttiva (UE) 2022/2555 e svolge numerose funzioni ai sensi dell’articolo 10 del
 d.lgs. n. 138/2024
- (v. FAQ GEN.2) tra le quali:
+(v. FAQ GEN.2) tra le quali:
 sovrintende all'implementazione e all'attuazione del decreto;
 svolge le funzioni e le attività di regolamentazione di cui al decreto, anche adottando linee guida, raccomandazioni e orientamenti non vincolanti;
 elabora e adotta l’elenco dei soggetti NIS;
-partecipa al 
+partecipa al
 Gruppo di cooperazione NIS
-, nonché ai consessi e alle iniziative promosse a livello di Unione europea per l'attuazione della 
+, nonché ai consessi e alle iniziative promosse a livello di Unione europea per l'attuazione della
 Direttiva (UE) n. 2022/2555
- (FAQ GEN.1);
+(FAQ GEN.1);
 definisce gli obblighi (v. FAQ GEN.9) di cui all'articolo 7, comma 6, e al capo IV (Obblighi in materia di gestione del rischio per la sicurezza informatica e di notifica di incidente);
 svolge le attività ed esercita i poteri di monitoraggio, vigilanza ed esecuzione.
-L'Agenzia per la cybersicurezza nazionale è anche il Punto di contatto unico NIS ai sensi della 
+L'Agenzia per la cybersicurezza nazionale è anche il Punto di contatto unico NIS ai sensi della
 Direttiva (UE) n. 2022/2555
- (FAQ GEN.1), svolgendo una funzione di collegamento per garantire la cooperazione transfrontaliera delle autorità nazionali con le autorità pertinenti degli altri Stati membri, la 
+(FAQ GEN.1), svolgendo una funzione di collegamento per garantire la cooperazione transfrontaliera delle autorità nazionali con le autorità pertinenti degli altri Stati membri, la
 Commissione
- e l'
+e l'
 ENISA
 .
 Inoltre, l’Agenzia per la cybersicurezza nazionale (con funzioni di coordinamento) e il Ministero della difesa sono Autorità nazionali di gestione delle crisi informatiche.
@@ -211,12 +212,12 @@ per i soggetti inseriti nell’elenco dei soggetti NIS nel corso dell’anno sol
 per i soggetti inseriti nell’elenco dei soggetti NIS per la prima volta nel corso dell’anno solare 2026. Il termine decorre dal 1° gennaio 2027.
 Con riferimento ai citati obblighi, entrando più nel dettaglio:
 Registrazione e aggiornamento dati (articolo 7)
- I soggetti che si riconoscono in uno dei settori/sottosettori/tipologie previsti dalla normativa NIS (v. FAQ AMB.GE.1) devono registrarsi su una piattaforma messa a disposizione dall’ACN e comunicare una serie di informazioni tra le quali, ad esempio, la ragione sociale, l'indirizzo e i recapiti aggiornati, la designazione di un punto di contatto indicando il suo ruolo/qualifica presso il soggetto. Ove possibile, i soggetti devono anche selezionare uno o più settori/sottosettori in cui operano, tra quelli previsti dagli allegati I, II e III, e la relativa tipologia di soggetto in cui si identificano tra quelle previste dagli allegati I, II, III e IV.
- I dati raccolti sono impiegati per costituire l’elenco dei soggetti NIS, entro il 31 marzo di ogni anno (v. FAQ REG.3), anche al fine di fornire ogni due anni le relative statistiche alla Commissione UE.
+I soggetti che si riconoscono in uno dei settori/sottosettori/tipologie previsti dalla normativa NIS (v. FAQ AMB.GE.1) devono registrarsi su una piattaforma messa a disposizione dall’ACN e comunicare una serie di informazioni tra le quali, ad esempio, la ragione sociale, l'indirizzo e i recapiti aggiornati, la designazione di un punto di contatto indicando il suo ruolo/qualifica presso il soggetto. Ove possibile, i soggetti devono anche selezionare uno o più settori/sottosettori in cui operano, tra quelli previsti dagli allegati I, II e III, e la relativa tipologia di soggetto in cui si identificano tra quelle previste dagli allegati I, II, III e IV.
+I dati raccolti sono impiegati per costituire l’elenco dei soggetti NIS, entro il 31 marzo di ogni anno (v. FAQ REG.3), anche al fine di fornire ogni due anni le relative statistiche alla Commissione UE.
 Organi di amministrazione e direttivi (articolo 23)
- Sono individuate precise responsabilità in capo agli organi di amministrazione del soggetto, i quali approvano e sovraintendono all’implementazione delle misure e sono responsabili delle eventuali violazioni.
+Sono individuate precise responsabilità in capo agli organi di amministrazione del soggetto, i quali approvano e sovraintendono all’implementazione delle misure e sono responsabili delle eventuali violazioni.
 Obblighi in materia di misure di sicurezza informatica (articolo 24)
- I soggetti essenziali e i soggetti importanti adottano misure tecniche, operative e organizzative adeguate e proporzionate alla gestione dei rischi posti alla sicurezza dei sistemi informativi e di rete che tali soggetti utilizzano nelle loro attività o nella fornitura dei loro servizi, nonché per prevenire o ridurre al minimo l'impatto degli incidenti. Tali misure sono basate su un approccio multi-rischio, volto a proteggere i sistemi informativi e di rete nonché il loro ambiente fisico da incidenti, e comprendono almeno i seguenti elementi: 
+I soggetti essenziali e i soggetti importanti adottano misure tecniche, operative e organizzative adeguate e proporzionate alla gestione dei rischi posti alla sicurezza dei sistemi informativi e di rete che tali soggetti utilizzano nelle loro attività o nella fornitura dei loro servizi, nonché per prevenire o ridurre al minimo l'impatto degli incidenti. Tali misure sono basate su un approccio multi-rischio, volto a proteggere i sistemi informativi e di rete nonché il loro ambiente fisico da incidenti, e comprendono almeno i seguenti elementi:
 politiche di analisi dei rischi e di sicurezza dei sistemi informativi e di rete;
 gestione degli incidenti, ivi incluse le procedure e gli strumenti per eseguire le notifiche;
 continuità operativa, ivi inclusa la gestione di backup, il ripristino in caso di disastro, ove possibile, e la gestione delle crisi;
@@ -228,17 +229,17 @@ politiche e procedure relative all'uso della crittografia e, ove opportuno, dell
 sicurezza e affidabilità del personale, politiche di controllo dell'accesso e gestione dei beni e degli assetti;
 uso di soluzioni di autenticazione a più fattori o di autenticazione continua, di comunicazioni vocali, video e testuali protette, e di sistemi di comunicazione di emergenza protetti da parte del soggetto al proprio interno, ove opportuno.
 Obblighi in materia di notifica di incidente (articolo 25)
- I soggetti essenziali e i soggetti importanti devono notificare, senza ingiustificato ritardo, al
- CSIRT Italia
- ogni incidente che ha un impatto significativo sulla fornitura dei loro servizi.
- Ai fini della notifica, i soggetti interessati trasmettono al CSIRT Italia:
+I soggetti essenziali e i soggetti importanti devono notificare, senza ingiustificato ritardo, al
+CSIRT Italia
+ogni incidente che ha un impatto significativo sulla fornitura dei loro servizi.
+Ai fini della notifica, i soggetti interessati trasmettono al CSIRT Italia:
 senza ingiustificato ritardo, e comunque entro 24 ore da quando sono venuti a conoscenza dell'incidente significativo, una pre-notifica che, ove possibile, indichi se l'incidente significativo possa ritenersi il risultato di atti illegittimi o malevoli oppure possa avere un impatto transfrontaliero;
 senza ingiustificato ritardo, e comunque entro 72 ore (24 ore nel caso di un prestatore di servizi fiduciari) da quando sono venuti a conoscenza dell'incidente significativo, una notifica dell'incidente che, ove possibile, aggiorni le informazioni già trasmesse nella pre-notifica e indichi una valutazione iniziale dell'incidente significativo, comprensiva della sua gravità e del suo impatto, nonché, ove disponibili, gli indicatori di compromissione;
 una relazione finale entro un mese dalla trasmissione della notifica di incidente.
 Banca dei dati di registrazione di nomi di dominio (articolo 29)
- I gestori di registri dei nomi di dominio di primo livello e i fornitori di servizi di registrazione dei nomi di dominio raccolgono e mantengono dati di registrazione dei nomi di dominio accurati e completi in un'apposita banca dati con la dovuta diligenza, conformemente al diritto dell'Unione europea in materia di protezione dei dati personali.
+I gestori di registri dei nomi di dominio di primo livello e i fornitori di servizi di registrazione dei nomi di dominio raccolgono e mantengono dati di registrazione dei nomi di dominio accurati e completi in un'apposita banca dati con la dovuta diligenza, conformemente al diritto dell'Unione europea in materia di protezione dei dati personali.
 GEN.7 Quali sono le principali scadenze previste per i soggetti?
-Registrazione sulla piattaforma ACN (articolo 7, comma 1, del decreto NIS): 
+Registrazione sulla piattaforma ACN (articolo 7, comma 1, del decreto NIS):
 entro il 28 febbraio di ogni anno (v. FAQ AMB.GE.1).
 Entro il 31 maggio di ogni anno, trasmissione e aggiornamento, tempestivo (comunque non oltre 14 giorni dalla modifica) delle informazioni dei soggetti NIS (articolo 7, commi 4, 5 e 7).
 Dal nono mese successivo alla ricezione della notifica di inserimento nell’elenco dei soggetti NIS, se avvenuta nel corso dell’anno solare 2025, oppure dal 1° gennaio 2027, per i soggetti inseriti nell’elenco dei soggetti NIS per la prima volta nel corso dell’anno solare 2026, adempimento agli obblighi di base in materia di notifica di incidente..
@@ -246,7 +247,7 @@ Entro il diciottesimo mese successivo alla ricezione della notifica di inserimen
 GEN.8 Cos’è EU-CyCLONe e che compiti svolge?
 La rete europea delle organizzazioni di collegamento per le crisi informatiche (
 EU Cyber Crises Liaison Organisation Network
- - EU-CyCLONe) è una rete di cooperazione per le autorità nazionali degli Stati membri responsabili della gestione delle crisi informatiche. La rete è stata lanciata nel 2020 e formalizzata a seguito dell’entrata in vigore della NIS2.
+- EU-CyCLONe) è una rete di cooperazione per le autorità nazionali degli Stati membri responsabili della gestione delle crisi informatiche. La rete è stata lanciata nel 2020 e formalizzata a seguito dell’entrata in vigore della NIS2.
 EU-CyCLONe è composta dai rappresentanti delle autorità di gestione delle crisi informatiche degli Stati membri e, nei casi in cui un incidente di cybersicurezza su larga scala, potenziale o in corso, abbia o possa avere un impatto significativo sui servizi e sulle attività che rientrano nell'ambito di applicazione della Direttiva NIS, anche dalla Commissione. Negli altri casi, la Commissione partecipa alle attività di EU-CyCLONe in qualità di osservatore.
 I compiti principali di EU-CyCLONe sono:
 sostenere la gestione coordinata di incidenti e crisi informatiche su larga scala a livello operativo e garantire lo scambio regolare di informazioni pertinenti tra gli Stati membri e le istituzioni, gli organi e gli organismi dell'Unione;
@@ -256,47 +257,47 @@ valutare le conseguenze e l'impatto di incidenti e crisi informatiche su larga s
 coordinare la gestione degli incidenti e delle crisi informatiche su larga scala e sostenere il processo decisionale a livello politico in relazione a tali incidenti e crisi;
 discutere, su richiesta di uno Stato membro interessato, i piani nazionali di risposta agli incidenti e alle crisi informatiche su larga scala.
 GEN.9 Cosa sono gli obblighi di base in materia di misure di sicurezza e di notifica di incidente?
-In ossequio ai principi di proporzionalità e gradualità previsti dal decreto NIS, gli obblighi (articolo 23, 24 e 25) in materia di misure di sicurezza e notifica di incidente sono definiti con 
+In ossequio ai principi di proporzionalità e gradualità previsti dal decreto NIS, gli obblighi (articolo 23, 24 e 25) in materia di misure di sicurezza e notifica di incidente sono definiti con
 Determinazione ACN 379907
- del 19 dicembre 2025.
+del 19 dicembre 2025.
 Si vedano al riguardo le FAQ “
 Misure di sicurezza e notifica di incidenti
-”. 
-Informazioni su 
-Agenzia per la
- cybersicurezza nazionale
-Contatti
-info@acn.gov.it
-Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
-non all’indirizzo e-mail dell’Agenzia
-.
-Per interviste, inviti ad eventi o manifestazioni
-comunicazione@acn.gov.it
-Link utili
-Centro di Valutazione e Certificazione Nazionale
-: apre una nuova finestra
-Linee guida ACN
-Referente per la cybersicurezza
-Patrocinio
-Lavora con noi
-Domande frequenti
-Trasparenza
-Amministrazione trasparente
-Atti di notifica
-Piattaforma Whistleblowing
-: apre una nuova finestra
-Seguici su
-Agenzia
-linkedin: apre una nuova finestra
-youtube: apre una nuova finestra
-CSIRT Italia
-Twitter: apre una nuova finestra
-Telegram: apre una nuova finestra
-RSS: apre una nuova finestra
-Altre informazioni
-Note legali
-Privacy policy
-Dichiarazione di accessibilità
-: apre una nuova finestra
-Social media policy
+”.
 Nascosta
+[FOOTER] Informazioni su
+[FOOTER] Agenzia per la
+[FOOTER] cybersicurezza nazionale
+[FOOTER] Contatti
+[FOOTER] info@acn.gov.it
+[FOOTER] Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e
+[FOOTER] non all’indirizzo e-mail dell’Agenzia
+[FOOTER] .
+[FOOTER] Per interviste, inviti ad eventi o manifestazioni
+[FOOTER] comunicazione@acn.gov.it
+[FOOTER] Link utili
+[FOOTER] Centro di Valutazione e Certificazione Nazionale
+[FOOTER] : apre una nuova finestra
+[FOOTER] Linee guida ACN
+[FOOTER] Referente per la cybersicurezza
+[FOOTER] Patrocinio
+[FOOTER] Lavora con noi
+[FOOTER] Domande frequenti
+[FOOTER] Trasparenza
+[FOOTER] Amministrazione trasparente
+[FOOTER] Atti di notifica
+[FOOTER] Piattaforma Whistleblowing
+[FOOTER] : apre una nuova finestra
+[FOOTER] Seguici su
+[FOOTER] Agenzia
+[FOOTER] linkedin: apre una nuova finestra
+[FOOTER] youtube: apre una nuova finestra
+[FOOTER] CSIRT Italia
+[FOOTER] Twitter: apre una nuova finestra
+[FOOTER] Telegram: apre una nuova finestra
+[FOOTER] RSS: apre una nuova finestra
+[FOOTER] Altre informazioni
+[FOOTER] Note legali
+[FOOTER] Privacy policy
+[FOOTER] Dichiarazione di accessibilità
+[FOOTER] : apre una nuova finestra
+[FOOTER] Social media policy

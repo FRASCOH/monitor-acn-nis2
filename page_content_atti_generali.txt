@@ -1,26 +1,26 @@
+[HEADER] seguici_su
+[HEADER] Agenzia:
+[HEADER] Linkedin: apre una nuova finestra
+[HEADER] Youtube: apre una nuova finestra
+[HEADER] seguici_su
+[HEADER] CSIRT Italia:
+[HEADER] Twitter: apre una nuova finestra
+[HEADER] Telegram: apre una nuova finestra
+[HEADER] RSS: apre una nuova finestra
+[HEADER] Lingue disponibili:
+[HEADER] ITA
+[HEADER] ITA
+[HEADER] : italiano
+[HEADER] ENG
+[HEADER] : english
+[HEADER] Apri menu principale
+[HEADER] Agenzia per la
+[HEADER] cybersicurezza nazionale
+[HEADER] Segnala un incidente informatico
+[HEADER] apri_ricerca
 Atti generali - ACN
-		Skip to Main Content
+Skip to Main Content
 Atti generali
-seguici_su
-Agenzia:
-Linkedin: apre una nuova finestra
-Youtube: apre una nuova finestra
-seguici_su
-CSIRT Italia:
-Twitter: apre una nuova finestra
-Telegram: apre una nuova finestra
-RSS: apre una nuova finestra
-Lingue disponibili:
- ITA 
-ITA
-: italiano
-ENG
-: english
-Apri menu principale
-Agenzia per la 
-cybersicurezza nazionale
-Segnala un incidente informatico
-apri_ricerca
 Menu
 Agenzia
 Agenzia
@@ -39,7 +39,7 @@ PNRR
 NIS
 NIS
 Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
- Scopri NIS
+Scopri NIS
 La normativa
 Ambito
 Registrazione
@@ -52,7 +52,7 @@ Domande frequenti
 Cloud
 Cloud
 L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
- Scopri Cloud
+Scopri Cloud
 Regolamento Cloud per la PA
 Catalogo delle Infrastrutture digitali e dei Servizi cloud
 Qualificazione e adeguamento
@@ -60,19 +60,20 @@ Documentazione utile
 Domande frequenti
 CSIRT Italia
 CSIRT Italia
-L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
- Scopri CSIRT Italia
+Il Team dell'Agenzia per la risposta agli incidenti cyber
+Scopri CSIRT Italia
 Chi siamo
 Glossario
 Alert e Bollettini
 Pubblicazioni
 La settimana cibernetica
 Operational Summary
+Feed Pubblico MISP
 Domande frequenti
 NCC Italia
 NCC Italia
 L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
- Scopri NCC Italia
+Scopri NCC Italia
 Chi siamo
 Opportunità di finanziamento
 Community
@@ -82,7 +83,7 @@ Domande frequenti
 Certificazione
 Certificazione
 L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
- Scopri Certificazione
+Scopri Certificazione
 Centro di Valutazione e Certificazione Nazionale
 Certificazione e vigilanza
 NCCA
@@ -105,8 +106,8 @@ Home
 Amministrazione trasparente
 Disposizioni generali
 Atti generali
-Menu della sezione 
- Amministrazione trasparente
+Menu della sezione
+Amministrazione trasparente
 Apri menu della sezione Amministrazione trasparente
 Disposizioni generali
 Atti generali
@@ -186,58 +187,58 @@ Atti generali
 Riferimenti normativi su organizzazione e attività
 Istituzione e funzioni dell'ACN
 Decreto-legge 14 giugno 2021, n. 82
- – “Disposizioni urgenti in materia di cybersicurezza, definizione dell'architettura nazionale di cybersicurezza e istituzione dell'Agenzia per la cybersicurezza nazionale
+– “Disposizioni urgenti in materia di cybersicurezza, definizione dell'architettura nazionale di cybersicurezza e istituzione dell'Agenzia per la cybersicurezza nazionale
 Decreto del Presidente del Consiglio dei ministri 9 dicembre 2021, n. 222
- “Regolamento di contabilità dell'Agenzia per la cybersicurezza nazionale”
+“Regolamento di contabilità dell'Agenzia per la cybersicurezza nazionale”
 Decreto del Presidente del Consiglio dei ministri 9 dicembre 2021, n. 223
- “Regolamento di organizzazione e funzionamento dell'Agenzia per la cybersicurezza nazionale”
+“Regolamento di organizzazione e funzionamento dell'Agenzia per la cybersicurezza nazionale”
 Decreto del Presidente del Consiglio dei ministri 9 dicembre 2021, n. 224
- “Regolamento del personale dell'Agenzia per la cybersicurezza nazionale”
+“Regolamento del personale dell'Agenzia per la cybersicurezza nazionale”
 Decreto del Presidente del Consiglio dei ministri 1° settembre 2022, n. 166
- “Regolamento recante le procedure per la stipula di contratti di appalti di lavori, servizi e forniture per le attività dell'Agenzia per la cybersicurezza nazionale finalizzate alla tutela della sicurezza nazionale nello spazio cibernetico”
+“Regolamento recante le procedure per la stipula di contratti di appalti di lavori, servizi e forniture per le attività dell'Agenzia per la cybersicurezza nazionale finalizzate alla tutela della sicurezza nazionale nello spazio cibernetico”
 Decreto del Presidente del Consiglio dei ministri 15 giugno 2022
- - “Definizione dei termini e delle modalità del trasferimento di funzioni, beni strumentali e documentazione dal Ministero dello sviluppo economico all'Agenzia per la cybersicurezza nazionale”
+- “Definizione dei termini e delle modalità del trasferimento di funzioni, beni strumentali e documentazione dal Ministero dello sviluppo economico all'Agenzia per la cybersicurezza nazionale”
 Decreto del Presidente del Consiglio dei ministri 1° settembre 2022
- “Modalità e termini per assicurare il trasferimento delle funzioni, dei beni strumentali e della documentazione dall'Agenzia per l'Italia digitale e dal Dipartimento per la trasformazione digitale all'Agenzia per la cybersicurezza nazionale”
+“Modalità e termini per assicurare il trasferimento delle funzioni, dei beni strumentali e della documentazione dall'Agenzia per l'Italia digitale e dal Dipartimento per la trasformazione digitale all'Agenzia per la cybersicurezza nazionale”
 Decreto del Presidente del Consiglio dei ministri 24 novembre 2023
- “Definizione dei termini e delle modalità del trasferimento di funzioni e documentazione dal Ministero dell'economia e delle finanze all'Agenzia per la cybersicurezza nazionale”
+“Definizione dei termini e delle modalità del trasferimento di funzioni e documentazione dal Ministero dell'economia e delle finanze all'Agenzia per la cybersicurezza nazionale”
 Decreto del Presidente del Consiglio dei ministri 26 gennaio 2024
- “Termini e modalità del trasferimento di funzioni e documentazione dal Ministero dell'ambiente e della sicurezza energetica all'Agenzia per la cybersicurezza nazionale”
+“Termini e modalità del trasferimento di funzioni e documentazione dal Ministero dell'ambiente e della sicurezza energetica all'Agenzia per la cybersicurezza nazionale”
 Decreto-legge 2 marzo 2024, n. 19
- Ulteriori disposizioni urgenti per l'attuazione del Piano nazionale di ripresa e resilienza PNRR
+Ulteriori disposizioni urgenti per l'attuazione del Piano nazionale di ripresa e resilienza PNRR
 Norme settoriali in materia di cybersicurezza
 Decreto legislativo 18 maggio 2018, n. 65
- “Attuazione della direttiva (UE) 2016/1148 del Parlamento europeo e del Consiglio, del 6 luglio 2016, recante misure per un livello comune elevato di sicurezza delle reti e dei sistemi informativi nell'Unione”
+“Attuazione della direttiva (UE) 2016/1148 del Parlamento europeo e del Consiglio, del 6 luglio 2016, recante misure per un livello comune elevato di sicurezza delle reti e dei sistemi informativi nell'Unione”
 Decreto-legge 21 settembre 2019, n. 105
- - “Disposizioni urgenti in materia di perimetro di sicurezza nazionale cibernetica e di disciplina dei poteri speciali nei settori di rilevanza strategica”
+- “Disposizioni urgenti in materia di perimetro di sicurezza nazionale cibernetica e di disciplina dei poteri speciali nei settori di rilevanza strategica”
 Decreto del Presidente del Consiglio dei ministri 30 luglio 2020, n. 131
- “Regolamento in materia di perimetro di sicurezza nazionale cibernetica, ai sensi dell'articolo 1, comma 2, del decreto-legge 21 settembre 2019, n. 105, convertito, con modificazioni, dalla legge 18 novembre 2019, n. 133”
+“Regolamento in materia di perimetro di sicurezza nazionale cibernetica, ai sensi dell'articolo 1, comma 2, del decreto-legge 21 settembre 2019, n. 105, convertito, con modificazioni, dalla legge 18 novembre 2019, n. 133”
 Decreto del Presidente del Consiglio dei ministri 14 aprile 2021, n. 81
- “Regolamento in materia di notifiche degli incidenti aventi impatto su reti, sistemi informativi e servizi informatici di cui all'articolo 1, comma 2, lettera b), del decreto-legge 21 settembre 2019, n. 105, convertito, con modificazioni, dalla legge 18 novembre 2019, n. 133, e di misure volte a garantire elevati livelli di sicurezza”
+“Regolamento in materia di notifiche degli incidenti aventi impatto su reti, sistemi informativi e servizi informatici di cui all'articolo 1, comma 2, lettera b), del decreto-legge 21 settembre 2019, n. 105, convertito, con modificazioni, dalla legge 18 novembre 2019, n. 133, e di misure volte a garantire elevati livelli di sicurezza”
 Decreto del Presidente della Repubblica 5 febbraio 2021, n. 54
- “Regolamento recante attuazione dell'articolo 1, comma 6, del decreto-legge 21 settembre 2019, n. 105, convertito, con modificazioni, dalla legge 18 novembre 2019, n. 133”
+“Regolamento recante attuazione dell'articolo 1, comma 6, del decreto-legge 21 settembre 2019, n. 105, convertito, con modificazioni, dalla legge 18 novembre 2019, n. 133”
 Decreto del Presidente del Consiglio dei ministri 15 giugno 2021
- “Individuazione delle categorie di beni, sistemi e servizi ICT destinati ad essere impiegati nel perimetro di sicurezza nazionale cibernetica, in attuazione dell'articolo 1, comma 6, lettera a), del decreto-legge 21 settembre 2019, n. 105, convertito, con modificazioni, dalla legge 18 novembre 2019, n. 133”
+“Individuazione delle categorie di beni, sistemi e servizi ICT destinati ad essere impiegati nel perimetro di sicurezza nazionale cibernetica, in attuazione dell'articolo 1, comma 6, lettera a), del decreto-legge 21 settembre 2019, n. 105, convertito, con modificazioni, dalla legge 18 novembre 2019, n. 133”
 Decreto del Presidente del Consiglio dei ministri 18 maggio 2022, n. 92
- “Regolamento in materia di accreditamento dei laboratori di prova e di raccordi tra Centro di Valutazione e Certificazione Nazionale, i laboratori di prova accreditati e i Centri di Valutazione del Ministero dell'interno e del Ministero della difesa, ai sensi dell'articolo 1, comma 7, lettera b), del decreto-legge 21 settembre 2019, n. 105, convertito, con modificazioni, dalla legge 18 novembre 2019, 133”
+“Regolamento in materia di accreditamento dei laboratori di prova e di raccordi tra Centro di Valutazione e Certificazione Nazionale, i laboratori di prova accreditati e i Centri di Valutazione del Ministero dell'interno e del Ministero della difesa, ai sensi dell'articolo 1, comma 7, lettera b), del decreto-legge 21 settembre 2019, n. 105, convertito, con modificazioni, dalla legge 18 novembre 2019, 133”
 Decreto legislativo 3 agosto 2022, n. 123
- “Norme di adeguamento della normativa nazionale alle disposizioni del Titolo III «Quadro di certificazione della cibersicurezza» del regolamento (UE) 2019/881 del Parlamento europeo e del Consiglio del 17 aprile 2019 relativo all'ENISA, l'Agenzia dell'Unione europea per la cibersicurezza, e alla certificazione della cibersicurezza per le tecnologie dell'informazione e della comunicazione, e che abroga il regolamento (UE) n. 526/2013”
+“Norme di adeguamento della normativa nazionale alle disposizioni del Titolo III «Quadro di certificazione della cibersicurezza» del regolamento (UE) 2019/881 del Parlamento europeo e del Consiglio del 17 aprile 2019 relativo all'ENISA, l'Agenzia dell'Unione europea per la cibersicurezza, e alla certificazione della cibersicurezza per le tecnologie dell'informazione e della comunicazione, e che abroga il regolamento (UE) n. 526/2013”
 Decreto del Presidente del Consiglio dei ministri 30 ottobre 2003
- “Approvazione dello schema nazionale per la valutazione e la certificazione della sicurezza nel settore della tecnologia dell'informazione, ai sensi dell'art. 10, comma 1, del decreto legislativo 23 febbraio 2002, n. 10”
-Strategia nazionale di cybersicurezza 2022-2026 
-e 
+“Approvazione dello schema nazionale per la valutazione e la certificazione della sicurezza nel settore della tecnologia dell'informazione, ai sensi dell'art. 10, comma 1, del decreto legislativo 23 febbraio 2002, n. 10”
+Strategia nazionale di cybersicurezza 2022-2026
+e
 Piano di implementazione
 Legge 28 giugno 2024, n. 90
 , “Disposizioni in materia di rafforzamento della cybersicurezza nazionale e di reati informatici
 ”
 Decreto del Presidente del Consiglio dei ministri 30 aprile 2025
- “Disciplina dei contratti di beni e servizi informatici impiegati in un contesto connesso alla tutela degli interessi nazionali strategici e della sicurezza nazionale“
+“Disciplina dei contratti di beni e servizi informatici impiegati in un contesto connesso alla tutela degli interessi nazionali strategici e della sicurezza nazionale“
 Decreto legislativo 4 settembre 2024, n. 138
- “Recepimento della direttiva (UE) 2022/2555, relativa a misure per un livello comune elevato di cibersicurezza nell'Unione, recante modifica del regolamento (UE) n. 910/2014 e della direttiva (UE) 2018/1972 e che abroga la direttiva (UE) 2016/1148” (c.d. NIS 2)
+“Recepimento della direttiva (UE) 2022/2555, relativa a misure per un livello comune elevato di cibersicurezza nell'Unione, recante modifica del regolamento (UE) n. 910/2014 e della direttiva (UE) 2018/1972 e che abroga la direttiva (UE) 2016/1148” (c.d. NIS 2)
 Atti amministrativi generali
-Nomina Comitato tecnico-scientifico di ACN 
+Nomina Comitato tecnico-scientifico di ACN
 doc 1
- e 
+e
 doc 2
 Nomina Collegio dei revisori dei conti di ACN
 Nomina Responsabile della prevenzione della corruzione e della trasparenza
@@ -246,155 +247,155 @@ Disciplina applicabile al personale proveniente da altri enti in regime di dista
 Normativa generale per l’assunzione in Agenzia di personale a tempo determinato con contratti di diritto privato
 Provvedimento del Direttore generale dell'ACN che dispone sulla strutturazione interna dell'Agenzia
 Determina del Direttore generale dell'ACN n. 306 del 18 gennaio 2022
- e l'
+e l'
 allegato
- sul modello per la predisposizione dell'elenco e della classificazione di dati e di servizi
+sul modello per la predisposizione dell'elenco e della classificazione di dati e di servizi
 Determina del Direttore generale dell'ACN n. 307 del 18 gennaio 2022
- e l'
+e l'
 allegato
- sulle ulteriori caratteristiche dei servizi cloud e requisiti per la qualificazione
+sulle ulteriori caratteristiche dei servizi cloud e requisiti per la qualificazione
 Circolare del Direttore generale dell’ACN del 21 aprile 2022
- “Attuazione dell’articolo 29, comma 3, del decreto-legge 21 marzo 2022, n. 21. Diversificazione di prodotti e servizi tecnologici di sicurezza informatica”
+“Attuazione dell’articolo 29, comma 3, del decreto-legge 21 marzo 2022, n. 21. Diversificazione di prodotti e servizi tecnologici di sicurezza informatica”
 Determina del Direttore generale dell'ACN n. 10829 del 11 agosto 2022
- “Determinazioni tecniche per l’accreditamento dei Laboratori Accreditati di Prova”
+“Determinazioni tecniche per l’accreditamento dei Laboratori Accreditati di Prova”
 Decreto del Direttore generale dell'ACN n. 29 del 2 gennaio 2023
- che definisce il percorso di qualificazione dei servizi e delle infrastrutture di servizi cloud per la Pubblica Amministrazione.
+che definisce il percorso di qualificazione dei servizi e delle infrastrutture di servizi cloud per la Pubblica Amministrazione.
 Determina del Direttore generale dell'ACN del 3 gennaio 2023
- “Tassonomia degli incidenti che debbono essere oggetto di notifica”
+“Tassonomia degli incidenti che debbono essere oggetto di notifica”
 Decreto del Direttore generale dell’ACN n 5489 del 8 febbraio 2023
- “Differimenti dei termini per l’adeguamento delle infrastrutture e dei servizi cloud per la pubblica amministrazione”
+“Differimenti dei termini per l’adeguamento delle infrastrutture e dei servizi cloud per la pubblica amministrazione”
 Determina del Direttore generale dell’ACN n 15369 del 25 maggio 2023
- “Applicazione dell'art.12 comma 2 lettera c) della legge istitutiva dell'ACN (
+“Applicazione dell'art.12 comma 2 lettera c) della legge istitutiva dell'ACN (
 Decreto-legge 14 giugno 2021, n. 82
 ) in materia di esperti”
 Decreto del Direttore generale dell’ACN n 20610 del 28 luglio 2023
- ”Modifiche ai livelli minimi delle infrastrutture e dei servizi cloud per le Pubbliche Amministrazioni”
+”Modifiche ai livelli minimi delle infrastrutture e dei servizi cloud per le Pubbliche Amministrazioni”
 Decreto del Direttore Generale n 30570 del 30 novembre 2023
- ”Attivazione del Servizio strategie e cooperazione”
+”Attivazione del Servizio strategie e cooperazione”
 Decreto del Direttore Generale n 31880 del 15 dicembre 2023
- ”Nuova articolazione del Servizio certificazione e vigilanza e istituzione della Divisione sicurezza architetture e nuove tecnologie”
+”Nuova articolazione del Servizio certificazione e vigilanza e istituzione della Divisione sicurezza architetture e nuove tecnologie”
 Decreto del Direttore Generale n. 32623 del 22 dicembre 2023
- ”Attivazione del Servizio Amministrazione e bilancio”
+”Attivazione del Servizio Amministrazione e bilancio”
 Decreto del Direttore Generale n. 2927 del 30 gennaio 2024
 , ”Proroga del regime transitorio della disciplina di qualificazione cloud per le Pubbliche Amministrazioni"
 Deleghe in favore del Vice Direttore generale
 Deleghe al Capo Servizio certificazione e vigilanza
 DPCM in materia di deroga agli obblighi di trasparenza relativi alla pubblicazione dei dati dei dirigenti
- di cui all’articolo 14 del d. lgs. 33/2013
+di cui all’articolo 14 del d. lgs. 33/2013
 Disposizioni in materia di incompatibilità successiva alla cessazione del rapporto d'impiego del personale dell'Agenzia per la cybersicurezza nazionale
 Manuale di conservazione dei documenti informatici dell’ACN – Specificità del contratto – edizione maggio 2024
-Determina del Direttore Generale dell'ACN n. 14943 del 13 maggio 2024
- “Adozione del manuale di conservazione“
-Determina del Direttore Generale dell'ACN n. 14940 del 13 maggio 2024
- “Affidamento della conservazione documentale“
-Determina del Direttore Generale dell'ACN n. 13939 del 13 maggio 2024
- “Nomina del Responsabile della conservazione“
+Determina del Direttore Generale dell'ACN  n. 14943 del 13 maggio 2024
+“Adozione del manuale di conservazione“
+Determina del Direttore Generale dell'ACN  n.  14940 del 13 maggio 2024
+“Affidamento della conservazione documentale“
+Determina del Direttore Generale dell'ACN  n. 13939 del 13 maggio 2024
+“Nomina del Responsabile della conservazione“
 Regolamento per le infrastrutture digitali e per i servizi cloud per la Pubblica Amministrazione, n. 21007 del 27 giugno 2024
-Manuale di gestione documentale dell’Agenzia per la cybersicurezza nazionale – 
+Manuale di gestione documentale dell’Agenzia per la cybersicurezza nazionale –
 edizione giugno 2024
- - relativi provvedimenti di 
+- relativi provvedimenti di
 nomina del responsabile
- e di 
+e di
 adozione
- della gestione documentale.
+della gestione documentale.
 Decreto del Direttore generale dell’ACN n. 20972 del 27 giugno 2024
- “Nuova struttura organizzativa dell’Agenzia”
+“Nuova struttura organizzativa dell’Agenzia”
 Decreto del Presidente del Consiglio dei ministri 24 luglio 2024
- “Definizione dei termini e delle modalità per l'impiego del personale del Ministero della difesa presso l'Agenzia per la cybersicurezza nazionale”.
+“Definizione dei termini e delle modalità per l'impiego del personale del Ministero della difesa presso l'Agenzia per la cybersicurezza nazionale”.
 Decreto del Direttore Generale dell’ACN n. 37032 del 13 novembre 2024
- - ”
+- ”
 Linee guida per il rafforzamento della resilienza dei soggetti di cui all’articolo 1, comma 1, della Legge 28 giugno 2024, n. 90
 ”
 Decreto del Direttore Generale dell’ACN n. 38428 del 25 novembre 2024
- - ”
+- ”
 Linee guida per il rafforzamento della protezione delle banche dati rispetto al rischio di utilizzo improprio
 ”
 Direttiva sul conferimento degli incarichi per l'Agenzia per la cybersicurezza nazionale
-Allegato 1: 
+Allegato 1:
 Modulo A - Istanza per l'autorizzazione allo svolgimento di incarichi extra istituzionali
-Allegato 2: 
+Allegato 2:
 Modulo B - Comunicazione preventiva per lo svolgimento di incarichi extra istituzionali non soggetti ad autorizzazione
 Determina del Direttore Generale dell'ACN n. 18637 del 12 febbraio 2025
- “Nomina Responsabile dell’Anagrafe per la Stazione appaltante (RASA)”
+“Nomina Responsabile dell’Anagrafe per la Stazione appaltante (RASA)”
 DPCM di nomina del Comitato tecnico-scientifico dell’Agenzia per la cybersicurezza nazionale
 Decreto del Direttore Generale dell'ACN n. 169856 del 2 maggio 2025
- ”Attribuzione di funzioni al comitato tecnico-scientifico di cui all’articolo 7, comma 1-bis, del decreto-legge 14 giugno 2021, n. 82, in materia di salvaguardia dell’imparzialità dell’organismo di certificazione della sicurezza informatica”
+”Attribuzione di funzioni al comitato tecnico-scientifico di cui all’articolo 7, comma 1-bis, del decreto-legge 14 giugno 2021, n. 82, in materia di salvaguardia dell’imparzialità dell’organismo di certificazione della sicurezza informatica”
 Decreto del Direttore generale dell’ACN di riorganizzazione dei Servizi Gabinetto e Certificazione e vigilanza
 Decreto del Direttore generale dell’ACN di approvazione del Piano per l’industria cyber nazionale
- e del relativo 
+e del relativo
 allegato
 Regolamento per la concessione del patrocinio e l’autorizzazione all’utilizzo del logo di ACN
-Determina del Direttore Generale dell'ACN n. 343069 del 24 ottobre 2025
- “Adozione delle Linee guida per l'applicazione dei criteri di premialità di cui all'articolo 14 della legge 90 2024“ 
-Allegato 1 - 
+Determina del Direttore Generale dell'ACN  n. 343069 del 24 ottobre 2025
+“Adozione delle Linee guida per l'applicazione dei criteri di premialità di cui all'articolo 14 della legge 90 2024“
+Allegato 1 -
 Linee guida per l’applicazione dei criteri di premialità
 Regolamento per la concessione del patrocinio e l’autorizzazione all’utilizzo del logo dell’Agenzia per la cybersicurezza nazionale
 Decreto del Direttore generale dell’ACN n. 344695 del 30 ottobre 2025
-Allegato 1 - 
+Allegato 1 -
 Linee guida CAD - Definizione dei processi e delle procedure per la gestione degli incidenti di sicurezza informatica
 Decreto del Direttore generale dell’ACN n. 35654 del 17 febbraio 2026
 Linee Guida CAD - Definizione dei processi di cyber risk management e security by design
 Determina del Direttore generale dell’ACN n. 28900 del 09 febbraio 2026
- “Tassonomia degli incidenti di cui all’articolo 1, comma 1, legge 28 giugno 2024, n. 90“
+“Tassonomia degli incidenti di cui all’articolo 1, comma 1, legge 28 giugno 2024, n. 90“
 Principali provvedimenti attuativi D.Lgs. 138/2024
 Determinazione del Direttore generale dell’ACN n. 38564 del 26 novembre 2024
- - “ di cui all’articolo 12, comma 6 e articolo 40, comma 5, lettera c), recante ulteriori disposizioni per l’organizzazione e per il funzionamento del Tavolo per l’attuazione della disciplina NIS
-Determinazione del Direttore generale dell’ACN n. 38565 del 26 novembre 2024 
- - “di cui all’articolo 7, comma 6, e all’articolo 40, comma 5, lettera b), del decreto legislativo 4 settembre 2024, n. 138, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimenti di designazione dei rappresentanti NIS nell’Unione” ;
+- “ di cui all’articolo 12, comma 6 e articolo 40, comma 5, lettera c), recante ulteriori disposizioni per l’organizzazione e per il funzionamento del Tavolo per l’attuazione della disciplina NIS
+Determinazione del Direttore generale dell’ACN n. 38565 del 26 novembre 2024
+- “di cui all’articolo 7, comma 6, e all’articolo 40, comma 5, lettera b), del decreto legislativo 4 settembre 2024, n. 138, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimenti di designazione dei rappresentanti NIS nell’Unione” ;
 Decreto del Presidente del Consiglio dei ministri 9 dicembre 2024, n. 221
- “Regolamento per la definizione dei criteri per l’applicazione della clausola di salvaguardia di cui all’articolo 3, commi 4 e 12, del decreto legislativo del 4 settembre 2024, n. 138, di recepimento della direttiva (UE) 2022/2555, relativa a misure per un livello comune elevato di cybersicurezza nell'Unione, recante modifica del regolamento (UE) n. 910/2014 e della direttiva (UE) 2018/1972 e che abroga la direttiva (UE) 2016/1148“
+“Regolamento per la definizione dei criteri per l’applicazione della clausola di salvaguardia di cui all’articolo 3, commi 4 e 12, del decreto legislativo del 4 settembre 2024, n. 138, di recepimento della direttiva (UE) 2022/2555, relativa a misure per un livello comune elevato di cybersicurezza nell'Unione, recante modifica del regolamento (UE) n. 910/2014 e della direttiva (UE) 2018/1972 e che abroga la direttiva (UE) 2016/1148“
 Determinazione del Direttore generale dell’ACN n. 136117 del 10 aprile 2025
- - “di cui all’articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimento di designazione dei rappresentanti NIS sul territorio nazionale”;
-Determinazione del Direttore generale dell’ACN n. 136118 del 10 aprile 2025 
- - “ di cui all’articolo 17, comma 4, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, lettera f), recante le modalità con cui i soggetti essenziali e i soggetti importanti notificano all’Autorità nazionale competente NIS la loro partecipazione agli accordi di condivisione delle informazioni sulla sicurezza informatica”;
+- “di cui all’articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimento di designazione dei rappresentanti NIS sul territorio nazionale”;
+Determinazione del Direttore generale dell’ACN n. 136118 del 10 aprile 2025
+- “ di cui all’articolo 17, comma 4, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, lettera f), recante le modalità con cui i soggetti essenziali e i soggetti importanti notificano all’Autorità nazionale competente NIS la loro partecipazione agli accordi di condivisione delle informazioni sulla sicurezza informatica”;
 Determinazione del Direttore generale dell’ACN n.164179 del 14 aprile 2025
- - “ di cui all’articolo 31, commi 1 e 2, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, lettera l), che, ai sensi dell’articolo 42, comma 1, lettera c), in fase di prima applicazione, stabilisce le modalità e le specifiche di base per l’adempimento agli obblighi di cui agli articoli 23, 24, 25, 29 e 32 del decreto medesimo”; 
-Allegato 1 "Misure di Sicurezza di base per i soggetti importanti". 
+- “ di cui all’articolo 31, commi 1 e 2, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, lettera l), che, ai sensi dell’articolo 42, comma 1, lettera c), in fase di prima applicazione, stabilisce le modalità e le specifiche di base per l’adempimento agli obblighi di cui agli articoli 23, 24, 25, 29 e 32 del decreto medesimo”;
+Allegato 1 "Misure di Sicurezza di base per i soggetti importanti".
 Allegato 2 "Misure di sicurezza di base per i soggetti essenziali".
 Allegato 3 "Incidenti significativi di base per i soggetti importanti".
 Allegato 4 "Incidenti significativi di base per i soggetti essenziali".
 Determinazione del Direttore generale dell’ACN n. 276206 del 16 luglio 2025
- – “di cui all’articolo 12, comma 6, e articolo 40, comma 5, lettera c), recante ulteriori disposizioni per l’organizzazione e per il funzionamento del Tavolo per l’attuazione della disciplina NIS.” – che aggiorna e sostituisce la determinazione ACN n. 38564 del 26/11/2024;
+– “di cui all’articolo 12, comma 6, e articolo 40, comma 5, lettera c), recante ulteriori disposizioni per l’organizzazione e per il funzionamento del Tavolo per l’attuazione della disciplina NIS.” – che aggiorna e sostituisce la determinazione ACN n. 38564 del 26/11/2024;
 Determinazione del Direttore generale dell’ACN n.283727 del 22 luglio 2025
- - “ di cui all’articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimento di designazione dei rappresentanti NIS sul territorio nazionale.” - che aggiorna e sostituisce la determinazione ACN n. 136117 del 10/04/2025;
+- “ di cui all’articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimento di designazione dei rappresentanti NIS sul territorio nazionale.” - che aggiorna e sostituisce la determinazione ACN n. 136117 del 10/04/2025;
 Decreto del Direttore generale dell’ACN n. 327240 del 2 settembre 2025
- - 
+-
 Linee guida NIS – Specifiche di base – Guida alla lettura
 Determinazione del Direttore generale dell’ACN n. 333017 del 22 settembre 2025
- – “di cui all’articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimento di designazione dei rappresentanti NIS sul territorio nazionale.” – che aggiorna e sostituisce la determinazione ACN n. 283727 del 22/07/2025.
+– “di cui all’articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimento di designazione dei rappresentanti NIS sul territorio nazionale.” – che aggiorna e sostituisce la determinazione ACN n. 283727 del 22/07/2025.
 Determinazione del Direttore generale dell’ACN n. 379907 del 19 dicembre 2025
- – “di cui all’articolo 31, commi 1 e 2, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, lettera l), che, ai sensi dell’articolo 42, comma 1, lettera c), in fase di prima applicazione, stabilisce le modalità e le specifiche di base per l’adempimento agli obblighi di cui agli articoli 23, 24, 25, 29 e 32 del decreto medesimo” che aggiorna e sostituisce la determinazione ACN n. 164179 del 14 aprile 2025. 
-Allegato 1 "Misure di Sicurezza di base per i soggetti importanti". 
+– “di cui all’articolo 31, commi 1 e 2, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, lettera l), che, ai sensi dell’articolo 42, comma 1, lettera c), in fase di prima applicazione, stabilisce le modalità e le specifiche di base per l’adempimento agli obblighi di cui agli articoli 23, 24, 25, 29 e 32 del decreto medesimo” che aggiorna  e sostituisce la determinazione ACN n. 164179 del 14 aprile 2025.
+Allegato 1 "Misure di Sicurezza di base per i soggetti importanti".
 Allegato 2 "Misure di sicurezza di base per i soggetti essenziali".
 Allegato 3 "Incidenti significativi di base per i soggetti importanti".
 Allegato 4 "Incidenti significativi di base per i soggetti essenziali".
-Determinazione del Direttore generale dell’ACN n. 379887 del 19 dicembre 2025
- – “ di cui all’articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimento di designazione dei rappresentanti NIS sul territorio nazionale.” – che aggiorna e sostituisce la determinazione ACN n. ACN n. 333017 del 22 settembre 2025.
-Decreto del Direttore generale dell’ACN n. 397589 del 31 dicembre 2025 
-- 
+Determinazione del Direttore generale  dell’ACN n. 379887 del 19 dicembre 2025
+– “ di cui all’articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimento di designazione dei rappresentanti NIS sul territorio nazionale.” – che aggiorna e sostituisce la determinazione ACN n. ACN n. 333017 del 22 settembre 2025.
+Decreto del Direttore generale dell’ACN n. 397589 del 31 dicembre 2025
+-
 Linee guida NIS - Specifiche di base – Definizione del processo di gestione degli incidenti di sicurezza informatica
 .
 Determinazione del Direttore generale dell’ACN n. 127434 del 13 aprile 2026
- di cui all’articolo 31, commi 1 e 2, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, lettera l), che stabilisce i termini per l’adempimento agli obblighi di cui agli articoli 23, 24, 25, 29 e 32 del decreto medesimo per i soggetti inseriti per la prima volta nell’elenco nell’anno solare 2026
+di cui all’articolo 31, commi 1 e 2, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, lettera l), che stabilisce i termini per l’adempimento agli obblighi di cui agli articoli 23, 24, 25, 29 e 32 del decreto medesimo per i soggetti inseriti per la prima volta nell’elenco nell’anno solare 2026
 Determinazione del Direttore generale dell’ACN n. 127437 del 13 aprile 2026
- di cui all’articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimento di designazione dei rappresentanti NIS sul territorio nazionale. – che aggiorna e sostituisce la Determinazione ACN n. 379887 del 19 dicembre 2025
-Determinazione del Direttore generale dell’ACN n. 155238 del 20 aprile 2026
-, “di cui all’articolo 30, comma 2, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante le categorie di rilevanza nonché il processo, le modalità e i criteri per l'elencazione, caratterizzazione e categorizzazione delle attività e dei servizi di cui all’articolo 30.” 
+di cui all’articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale nonché ulteriori informazioni che i soggetti devono fornire all’Autorità nazionale competente NIS e termini, modalità e procedimento di designazione dei rappresentanti NIS sul territorio nazionale. – che aggiorna e sostituisce la Determinazione ACN n. 379887 del 19 dicembre 2025
+Determinazione del Direttore generale dell’ACN n.  155238 del 20 aprile 2026
+, “di cui all’articolo 30, comma 2, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalità di cui all’articolo 40, comma 5, recante le categorie di rilevanza nonché il processo, le modalità e i criteri per l'elencazione, caratterizzazione e categorizzazione delle attività e dei servizi di cui all’articolo 30.”
 Allegato 1 "Modello per l’elencazione, caratterizzazione e categorizzazione delle attività e dei servizi"
 Allegato 2 "Modello per l’elencazione, caratterizzazione e categorizzazione delle attività e dei servizi"
 Pianificazione Strategica
 Piano Strategico 2024 - 2026
 Provvedimenti attuativi D.Lgs. 123/2022
 Decreto del Direttore Generale n. 12053 del 03 febbraio 2025
- “Organizzazione e procedure per lo svolgimento dei compiti dell'Agenzia quale Autorità nazionale di certificazione della cybersicurezza ex art. 7, comma 1, lettera del decreto-legge 14 giugno 2021, e 4, comma 2, del d. lgs. 3 agosto 2022, n. 123” 
+“Organizzazione e procedure per lo svolgimento dei compiti dell'Agenzia quale Autorità nazionale di certificazione della cybersicurezza ex art. 7, comma 1, lettera del decreto-legge 14 giugno 2021, e 4, comma 2, del d. lgs. 3 agosto 2022, n. 123”
 NCCA/1: Linea Guida NCCA N. 1
- – Attività di vigilanza nazionale e autorizzazione per il sistema EUCC (art. 5, art. 8 cc. 3-4 d.lgs. 123/2022);
+– Attività di vigilanza nazionale e autorizzazione per il sistema EUCC (art. 5, art. 8 cc. 3-4 d.lgs. 123/2022);
 OCSI/1: Linea Guida OCSI N. 1
- – Sistema EUCC: le caratteristiche generali e gli attori del processo di certificazione dell’OCSI (art. 4 c. 2, art. 11 cc. 3-4 d.lgs. 123/2022); 
+– Sistema EUCC: le caratteristiche generali e gli attori del processo di certificazione dell’OCSI (art. 4 c. 2, art. 11 cc. 3-4 d.lgs. 123/2022);
 OCSI/2: Linea Guida OCSI N. 2
- – Abilitazione dei laboratori per la valutazione della sicurezza per il sistema EUCC (art. 8 c. 4 d.lgs. 123/2022); 
+– Abilitazione dei laboratori per la valutazione della sicurezza per il sistema EUCC (art. 8 c. 4 d.lgs. 123/2022);
 OCSI/3: Linea Guida OCSI N. 3
- – Attività di valutazione ed emissione dei certificati per il sistema EUCC (art. 6 d.lgs. 123/2022).
+– Attività di valutazione ed emissione dei certificati per il sistema EUCC (art. 6 d.lgs. 123/2022).
 Note Informative dello Schema (DPCM 30 ottobre 2003) - Organismo di Certificazione della Sicurezza Informatica (OCSI)
 NIS 1/23 - Descrizione generale dello Schema nazionale di valutazione e certificazione della sicurezza
 NIS 2/23 - Accreditamento degli LVS e abilitazione degli Assistenti
@@ -409,42 +410,42 @@ Obiettivi strategici 2024
 Obiettivi strategici 2025
 Obiettivi strategici 2026
 Data Ultimo Aggiornamento
- 27 Aprile 2026
-Informazioni su 
-Agenzia per la
- cybersicurezza nazionale
-Contatti
-info@acn.gov.it
-Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
-non all’indirizzo e-mail dell’Agenzia
-.
-Per interviste, inviti ad eventi o manifestazioni
-comunicazione@acn.gov.it
-Link utili
-Centro di Valutazione e Certificazione Nazionale
-: apre una nuova finestra
-Linee guida ACN
-Referente per la cybersicurezza
-Patrocinio
-Lavora con noi
-Domande frequenti
-Trasparenza
-Amministrazione trasparente
-Atti di notifica
-Piattaforma Whistleblowing
-: apre una nuova finestra
-Seguici su
-Agenzia
-linkedin: apre una nuova finestra
-youtube: apre una nuova finestra
-CSIRT Italia
-Twitter: apre una nuova finestra
-Telegram: apre una nuova finestra
-RSS: apre una nuova finestra
-Altre informazioni
-Note legali
-Privacy policy
-Dichiarazione di accessibilità
-: apre una nuova finestra
-Social media policy
+27 Aprile 2026
 Nascosta
+[FOOTER] Informazioni su
+[FOOTER] Agenzia per la
+[FOOTER] cybersicurezza nazionale
+[FOOTER] Contatti
+[FOOTER] info@acn.gov.it
+[FOOTER] Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e
+[FOOTER] non all’indirizzo e-mail dell’Agenzia
+[FOOTER] .
+[FOOTER] Per interviste, inviti ad eventi o manifestazioni
+[FOOTER] comunicazione@acn.gov.it
+[FOOTER] Link utili
+[FOOTER] Centro di Valutazione e Certificazione Nazionale
+[FOOTER] : apre una nuova finestra
+[FOOTER] Linee guida ACN
+[FOOTER] Referente per la cybersicurezza
+[FOOTER] Patrocinio
+[FOOTER] Lavora con noi
+[FOOTER] Domande frequenti
+[FOOTER] Trasparenza
+[FOOTER] Amministrazione trasparente
+[FOOTER] Atti di notifica
+[FOOTER] Piattaforma Whistleblowing
+[FOOTER] : apre una nuova finestra
+[FOOTER] Seguici su
+[FOOTER] Agenzia
+[FOOTER] linkedin: apre una nuova finestra
+[FOOTER] youtube: apre una nuova finestra
+[FOOTER] CSIRT Italia
+[FOOTER] Twitter: apre una nuova finestra
+[FOOTER] Telegram: apre una nuova finestra
+[FOOTER] RSS: apre una nuova finestra
+[FOOTER] Altre informazioni
+[FOOTER] Note legali
+[FOOTER] Privacy policy
+[FOOTER] Dichiarazione di accessibilità
+[FOOTER] : apre una nuova finestra
+[FOOTER] Social media policy

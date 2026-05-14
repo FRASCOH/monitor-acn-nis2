@@ -1,26 +1,26 @@
+[HEADER] seguici_su
+[HEADER] Agenzia:
+[HEADER] Linkedin: apre una nuova finestra
+[HEADER] Youtube: apre una nuova finestra
+[HEADER] seguici_su
+[HEADER] CSIRT Italia:
+[HEADER] Twitter: apre una nuova finestra
+[HEADER] Telegram: apre una nuova finestra
+[HEADER] RSS: apre una nuova finestra
+[HEADER] Lingue disponibili:
+[HEADER] ITA
+[HEADER] ITA
+[HEADER] : italiano
+[HEADER] ENG
+[HEADER] : english
+[HEADER] Apri menu principale
+[HEADER] Agenzia per la
+[HEADER] cybersicurezza nazionale
+[HEADER] Segnala un incidente informatico
+[HEADER] apri_ricerca
 Aggiornamento delle informazioni - ACN
-		Skip to Main Content
+Skip to Main Content
 Aggiornamento delle informazioni
-seguici_su
-Agenzia:
-Linkedin: apre una nuova finestra
-Youtube: apre una nuova finestra
-seguici_su
-CSIRT Italia:
-Twitter: apre una nuova finestra
-Telegram: apre una nuova finestra
-RSS: apre una nuova finestra
-Lingue disponibili:
- ITA 
-ITA
-: italiano
-ENG
-: english
-Apri menu principale
-Agenzia per la 
-cybersicurezza nazionale
-Segnala un incidente informatico
-apri_ricerca
 Menu
 Agenzia
 Agenzia
@@ -39,7 +39,7 @@ PNRR
 NIS
 NIS
 Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
- Scopri NIS
+Scopri NIS
 La normativa
 Ambito
 Registrazione
@@ -52,7 +52,7 @@ Domande frequenti
 Cloud
 Cloud
 L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
- Scopri Cloud
+Scopri Cloud
 Regolamento Cloud per la PA
 Catalogo delle Infrastrutture digitali e dei Servizi cloud
 Qualificazione e adeguamento
@@ -60,19 +60,20 @@ Documentazione utile
 Domande frequenti
 CSIRT Italia
 CSIRT Italia
-L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
- Scopri CSIRT Italia
+Il Team dell'Agenzia per la risposta agli incidenti cyber
+Scopri CSIRT Italia
 Chi siamo
 Glossario
 Alert e Bollettini
 Pubblicazioni
 La settimana cibernetica
 Operational Summary
+Feed Pubblico MISP
 Domande frequenti
 NCC Italia
 NCC Italia
 L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
- Scopri NCC Italia
+Scopri NCC Italia
 Chi siamo
 Opportunità di finanziamento
 Community
@@ -82,7 +83,7 @@ Domande frequenti
 Certificazione
 Certificazione
 L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
- Scopri Certificazione
+Scopri Certificazione
 Centro di Valutazione e Certificazione Nazionale
 Certificazione e vigilanza
 NCCA
@@ -101,11 +102,11 @@ NIS
 Aggiornamento delle informazioni
 Aggiornamento delle informazioni
 Intro
-In linea con quanto stabilito dall’articolo 7, commi 4 e 5, del decreto NIS, la 
+In linea con quanto stabilito dall’articolo 7, commi 4 e 5, del decreto NIS, la
 Determinazione ACN 379887/2025
-, che aggiorna la precedente determinazione (333017 del 22 settembre 2025), disciplina, tra l’altro, le modalità di designazione del punto di contatto e di aggiornamento annuale e continuo delle informazioni, tramite i servizi dedicati NIS/Aggiornamento annuale e NIS/Aggiornamento continuo disponibili sul Portale ACN.
- apre nuova scheda
- Portale dei Servizi 
+, che aggiorna la precedente determinazione (333017 del 22 settembre 2025), disciplina, tra l’altro, le modalità di designazione del punto di contatto e di aggiornamento annuale e continuo delle informazioni, tramite i servizi dedicati NIS/Aggiornamento annuale  e NIS/Aggiornamento continuo disponibili sul Portale ACN.
+apre nuova scheda
+Portale dei Servizi
 Punto di contatto e sostituto
 Oltre a verificare la correttezza dei dati anagrafici e di contatto, nonché della delega, del punto di contatto, entro il 31 maggio 2025 i soggetti NIS dovranno designare il sostituto punto di contatto.
 Il sostituto punto di contatto è una persona fisica, distinta dal punto di contatto, designato con le medesime modalità, che supporta quest’ultimo nell’esercizio delle proprie funzioni, che può interloquire direttamente con l’Autorità nazionale competente NIS e che può effettuare sulla piattaforma digitale le medesime azioni del punto di contatto.
@@ -116,54 +117,54 @@ Inoltre, i punti di contatto dovranno indicare i nomi di dominio che il soggetto
 Fornitori rilevanti
 L’articolo 3, comma 9, lettera f), del decreto NIS prevede che il decreto stesso si applichi, indipendentemente dalle dimensioni, a un soggetto considerato critico in quanto elemento sistemico della catena di approvvigionamento, anche digitale, di uno o più soggetti considerati essenziali o importanti ai sensi della disciplina NIS.
 Pertanto, è necessario acquisire le informazioni relative ai fornitori considerati rilevanti (fornitori rilevanti NIS) al fine di individuare tra di essi, d’intesa con le Autorità di settore, gli elementi sistemici della catena di approvvigionamento da individuare quali soggetti importanti o essenziali al fine di promuovere un adeguato livello di sicurezza informatica lungo la catena di approvvigionamento dei soggetti NIS.
-A tal fine, nella 
+A tal fine, nella
 Determinazione ACN 127437/2026
- recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale, è richiamata l’attenzione sulla definizione di fornitore rilevante NIS e sul processo che consentirà ai soggetti NIS di indicare nella piattaforma tali fornitori in sede di aggiornamento annuale, al fine di consentire all’Agenzia di acquisire le informazioni relative ai fornitori considerati rilevanti e così individuare gli elementi sistemici della loro catena di approvvigionamento anche digitale.
+recante termini, modalità e procedimenti di utilizzo e accesso alla piattaforma digitale, è richiamata l’attenzione sulla definizione di fornitore rilevante NIS e sul processo che consentirà ai soggetti NIS di indicare nella piattaforma tali fornitori in sede di aggiornamento annuale, al fine di consentire all’Agenzia di acquisire le informazioni relative ai fornitori considerati rilevanti e così individuare gli elementi sistemici della loro catena di approvvigionamento anche digitale.
 Altre informazioni
 Per concludere l’adempimento, sarà necessario anche verificare la correttezza dei dati anagrafici e di contatto del soggetto NIS, nonché indicare ulteriori informazioni, come i servizi offerti e le sedi nell’UE.
 Domande frequenti
 Consulta le domande frequenti sulla nuova direttiva NIS
- Scopri di più
+Scopri di più
 su Domande frequenti
 Assistenza
 Dopo aver consultato questa sezione e le domande frequenti hai ancora dei dubbi?
- Puoi chiedere assistenza all’Autorità nazionale competente NIS.
- Richiedi assistenza 
-Informazioni su 
-Agenzia per la
- cybersicurezza nazionale
-Contatti
-info@acn.gov.it
-Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
-non all’indirizzo e-mail dell’Agenzia
-.
-Per interviste, inviti ad eventi o manifestazioni
-comunicazione@acn.gov.it
-Link utili
-Centro di Valutazione e Certificazione Nazionale
-: apre una nuova finestra
-Linee guida ACN
-Referente per la cybersicurezza
-Patrocinio
-Lavora con noi
-Domande frequenti
-Trasparenza
-Amministrazione trasparente
-Atti di notifica
-Piattaforma Whistleblowing
-: apre una nuova finestra
-Seguici su
-Agenzia
-linkedin: apre una nuova finestra
-youtube: apre una nuova finestra
-CSIRT Italia
-Twitter: apre una nuova finestra
-Telegram: apre una nuova finestra
-RSS: apre una nuova finestra
-Altre informazioni
-Note legali
-Privacy policy
-Dichiarazione di accessibilità
-: apre una nuova finestra
-Social media policy
+Puoi chiedere assistenza all’Autorità nazionale competente NIS.
+Richiedi assistenza
 Nascosta
+[FOOTER] Informazioni su
+[FOOTER] Agenzia per la
+[FOOTER] cybersicurezza nazionale
+[FOOTER] Contatti
+[FOOTER] info@acn.gov.it
+[FOOTER] Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e
+[FOOTER] non all’indirizzo e-mail dell’Agenzia
+[FOOTER] .
+[FOOTER] Per interviste, inviti ad eventi o manifestazioni
+[FOOTER] comunicazione@acn.gov.it
+[FOOTER] Link utili
+[FOOTER] Centro di Valutazione e Certificazione Nazionale
+[FOOTER] : apre una nuova finestra
+[FOOTER] Linee guida ACN
+[FOOTER] Referente per la cybersicurezza
+[FOOTER] Patrocinio
+[FOOTER] Lavora con noi
+[FOOTER] Domande frequenti
+[FOOTER] Trasparenza
+[FOOTER] Amministrazione trasparente
+[FOOTER] Atti di notifica
+[FOOTER] Piattaforma Whistleblowing
+[FOOTER] : apre una nuova finestra
+[FOOTER] Seguici su
+[FOOTER] Agenzia
+[FOOTER] linkedin: apre una nuova finestra
+[FOOTER] youtube: apre una nuova finestra
+[FOOTER] CSIRT Italia
+[FOOTER] Twitter: apre una nuova finestra
+[FOOTER] Telegram: apre una nuova finestra
+[FOOTER] RSS: apre una nuova finestra
+[FOOTER] Altre informazioni
+[FOOTER] Note legali
+[FOOTER] Privacy policy
+[FOOTER] Dichiarazione di accessibilità
+[FOOTER] : apre una nuova finestra
+[FOOTER] Social media policy

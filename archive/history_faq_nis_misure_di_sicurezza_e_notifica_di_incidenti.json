@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-05-14T14:50:46.714306+02:00",
+    "timestamp": "2026-05-14T14:50:42.168006+02:00",
     "date_formatted": "14/05/2026 14:50",
     "additions": [
       "[HEADER] seguici_su",
@@ -25,9 +25,11 @@
       "[HEADER] apri_ricerca",
       "Il Team dell'Agenzia per la risposta agli incidenti cyber",
       "Feed Pubblico MISP",
-      "La finalit\u00e0 perseguita attraverso l\u2019elencazione e la categorizzazione delle attivit\u00e0 e dei servizi \u00e8 quella di aggregare attivit\u00e0 e servizi in funzione della categoria di rilevanza loro assegnata dal modello di categorizzazione e cos\u00ec    corrispondere a quanto disposto dall\u2019articolo 31 del decreto NIS che prevede che le misure di sicurezza siano differenziate in relazione alle categorie di rilevanza delle attivit\u00e0 e dei servizi che i sistemi informativi e di rete supportano, svolgono o erogano.",
-      ", ossia le attivit\u00e0 e i servizi per i quali il soggetto rientra nell'ambito di applicazione del decreto NIS.  Il modello di categorizzazione definisce in tutto 4 categorie di rilevanza con livello di impatto crescente: minimo, basso, medio e alto.",
-      ", prevede che le pubbliche amministrazioni predispongano e aggiornino un elenco dei propri dati e dei propri servizi digitali, comprensivo di tutti gli elementi necessari alla loro caratterizzazione ai fini della relativa classificazione in dati e servizi ordinari, critici o strategici.  Le modalit\u00e0 per la predisposizione dell\u2019elenco e della classificazione dei dati e dei servizi della pubblica amministrazione sono riportate all\u2019allegato 1 del Regolamento Cloud.",
+      ": apparati fisici, servizi, sistemi e applicazioni software,  flussi di rete (solo per soggetti essenziali), servizi erogati dai fornitori, fornitori;",
+      "MSB.12 La misura GV.SC-05, relativa alla sicurezza della catena di approvvigionamento, richiede di inserire requisiti di sicurezza nelle richieste di offerta, bandi di gara, contratti, accordi e convenzioni relativi alle forniture con potenziali impatti sulla sicurezza dei sistemi informativi e di rete. A tal fine \u00e8 obbligatorio adeguare i contratti di fornitura gi\u00e0 in essere?",
+      "Ai fini di quanto richiesto dalla misura in parola, non \u00e8 obbligatorio adeguare i contratti di fornitura gi\u00e0 in essere. L\u2019inserimento dei requisiti di sicurezza \u2013 che sulla base di quanto previsto dalla misura GV.SC-01 sono definiti in accordo agli esiti della valutazione del rischio associato alle forniture e coerenti con le misure di sicurezza di base applicate dal soggetto NIS ai sistemi informativi e di rete \u2013 \u00e8 pertanto obbligatorio, fatte salve motivate e documentate ragioni normative o tecniche, per i contratti stipulati, rinnovati o prorogati a partire dal termine per l\u2019adozione delle misure di sicurezza.",
+      "Tale termine, per i soggetti iscritti nell\u2019elenco dei soggetti NIS entro il 31 dicembre 2025, \u00e8 fissato in diciotto mesi dalla ricezione, della comunicazione di inserimento nel medesimo elenco.",
+      "Ad esempio, nel caso in cui il fornitore eroghi servizi gestiti (come, ad esempio, l\u2019amministrazione di un sistema di gestione degli impianti \u2013 BMS) in favore del soggetto NIS cliente, un incidente significativo che occorre sui sistemi informativi e di rete del fornitore soggetto NIS ma che ha impatto sui servizi e attivit\u00e0 del cliente tale da configurarlo come incidente significativo per il cliente  dovr\u00e0 essere notificato sia dal soggetto fornitore che dal soggetto cliente.",
       "[FOOTER] Informazioni su",
       "[FOOTER] Agenzia per la",
       "[FOOTER] cybersicurezza nazionale",
@@ -88,9 +90,8 @@
       "Segnala un incidente informatico",
       "apri_ricerca",
       "L'obiettivo dell'investimento \u00e8 rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.",
-      "La finalit\u00e0 perseguita attraverso l\u2019elencazione e la categorizzazione delle attivit\u00e0 e dei servizi \u00e8 quella di aggregare attivit\u00e0 e servizi in funzione della categoria di rilevanza loro assegnata dal modello di categorizzazione e cos\u00ec corrispondere a quanto disposto dall\u2019articolo 31 del decreto NIS che prevede che le misure di sicurezza siano differenziate in relazione alle categorie di rilevanza delle attivit\u00e0 e dei servizi che i sistemi informativi e di rete supportano, svolgono o erogano.",
-      ", ossia le attivit\u00e0 e i servizi per i quali il soggetto rientra nell'ambito di applicazione del decreto NIS. Il modello di categorizzazione definisce in tutto 4 categorie di rilevanza con livello di impatto crescente: minimo, basso, medio e alto.",
-      ", prevede che le pubbliche amministrazioni predispongano e aggiornino un elenco dei propri dati e dei propri servizi digitali, comprensivo di tutti gli elementi necessari alla loro caratterizzazione ai fini della relativa classificazione in dati e servizi ordinari, critici o strategici. Le modalit\u00e0 per la predisposizione dell\u2019elenco e della classificazione dei dati e dei servizi della pubblica amministrazione sono riportate all\u2019allegato 1 del Regolamento Cloud.",
+      ": apparati fisici, servizi, sistemi e applicazioni software, flussi di rete (solo per soggetti essenziali), servizi erogati dai fornitori, fornitori;",
+      "Ad esempio, nel caso in cui il fornitore eroghi servizi gestiti (come, ad esempio, l\u2019amministrazione di un sistema di gestione degli impianti \u2013 BMS) in favore del soggetto NIS cliente, un incidente significativo che occorre sui sistemi informativi e di rete del fornitore soggetto NIS ma che ha impatto sui servizi e attivit\u00e0 del cliente tale da configurarlo come incidente significativo per il cliente dovr\u00e0 essere notificato sia dal soggetto fornitore che dal soggetto cliente.",
       "Informazioni su",
       "Agenzia per la",
       "cybersicurezza nazionale",
@@ -128,16 +129,6 @@
       "Dichiarazione di accessibilit\u00e0",
       ": apre una nuova finestra",
       "Social media policy"
-    ]
-  },
-  {
-    "timestamp": "2026-04-29T18:00:42.386763",
-    "date_formatted": "29/04/2026 18:00",
-    "additions": [
-      "In particolare, a tali soggetti sar\u00e0 presentato l\u2019elenco dei dati e dei servizi classificati presente su padigitale2026.gov.it al 07/04/2026, rimettendo al medesimo la facolt\u00e0 di confermare tale elenco anche ai fini della categorizzazione, ovvero di aggiornarlo. In questo secondo caso, il soggetto \u00e8 tenuto ad assicurare la coerenza con la classificazione dei dati e dei servizi effettuata sulla piattaforma PA digitale 2026."
-    ],
-    "removals": [
-      "In particolare, a tali soggetti sar\u00e0 presentato l\u2019elenco dei dati e dei servizi classificati presente su padigitale2026.gov.it al [data di estrazione], rimettendo al medesimo la facolt\u00e0 di confermare tale elenco anche ai fini della categorizzazione, ovvero di aggiornarlo. In questo secondo caso, il soggetto \u00e8 tenuto ad assicurare la coerenza con la classificazione dei dati e dei servizi effettuata sulla piattaforma PA digitale 2026."
     ]
   }
 ]

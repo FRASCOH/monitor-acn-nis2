@@ -1,26 +1,26 @@
+[HEADER] seguici_su
+[HEADER] Agenzia:
+[HEADER] Linkedin: apre una nuova finestra
+[HEADER] Youtube: apre una nuova finestra
+[HEADER] seguici_su
+[HEADER] CSIRT Italia:
+[HEADER] Twitter: apre una nuova finestra
+[HEADER] Telegram: apre una nuova finestra
+[HEADER] RSS: apre una nuova finestra
+[HEADER] Lingue disponibili:
+[HEADER] ITA
+[HEADER] ITA
+[HEADER] : italiano
+[HEADER] ENG
+[HEADER] : english
+[HEADER] Apri menu principale
+[HEADER] Agenzia per la
+[HEADER] cybersicurezza nazionale
+[HEADER] Segnala un incidente informatico
+[HEADER] apri_ricerca
 Domande frequenti NIS - Aggiornamento delle informazioni - ACN
-		Skip to Main Content
+Skip to Main Content
 Domande frequenti NIS - Aggiornamento delle informazioni
-seguici_su
-Agenzia:
-Linkedin: apre una nuova finestra
-Youtube: apre una nuova finestra
-seguici_su
-CSIRT Italia:
-Twitter: apre una nuova finestra
-Telegram: apre una nuova finestra
-RSS: apre una nuova finestra
-Lingue disponibili:
- ITA 
-ITA
-: italiano
-ENG
-: english
-Apri menu principale
-Agenzia per la 
-cybersicurezza nazionale
-Segnala un incidente informatico
-apri_ricerca
 Menu
 Agenzia
 Agenzia
@@ -39,7 +39,7 @@ PNRR
 NIS
 NIS
 Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
- Scopri NIS
+Scopri NIS
 La normativa
 Ambito
 Registrazione
@@ -52,7 +52,7 @@ Domande frequenti
 Cloud
 Cloud
 L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
- Scopri Cloud
+Scopri Cloud
 Regolamento Cloud per la PA
 Catalogo delle Infrastrutture digitali e dei Servizi cloud
 Qualificazione e adeguamento
@@ -60,19 +60,20 @@ Documentazione utile
 Domande frequenti
 CSIRT Italia
 CSIRT Italia
-L'obiettivo dell'investimento è rafforzare l'ecosistema digitale nazionale potenziando i servizi di gestione.
- Scopri CSIRT Italia
+Il Team dell'Agenzia per la risposta agli incidenti cyber
+Scopri CSIRT Italia
 Chi siamo
 Glossario
 Alert e Bollettini
 Pubblicazioni
 La settimana cibernetica
 Operational Summary
+Feed Pubblico MISP
 Domande frequenti
 NCC Italia
 NCC Italia
 L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
- Scopri NCC Italia
+Scopri NCC Italia
 Chi siamo
 Opportunità di finanziamento
 Community
@@ -82,7 +83,7 @@ Domande frequenti
 Certificazione
 Certificazione
 L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
- Scopri Certificazione
+Scopri Certificazione
 Centro di Valutazione e Certificazione Nazionale
 Certificazione e vigilanza
 NCCA
@@ -105,8 +106,8 @@ Home
 Domande frequenti
 NIS
 Domande frequenti NIS - Aggiornamento delle informazioni
-Menu della sezione 
- Domande frequenti
+Menu della sezione
+Domande frequenti
 Apri menu della sezione Domande frequenti
 PNRR
 Cloud
@@ -124,18 +125,18 @@ Concorsi
 CSIRT Italia
 NCC Italia
 Strategia Nazionale di Cybersicurezza
- NIS - Aggiornamento delle informazioni
+NIS - Aggiornamento delle informazioni
 Puoi utilizzare la ricerca nelle domande frequenti digitando la paroladi interesse così da poter più facilmente identificare quello che staicercando. I risultati saranno filtrati dal terzo carattere digitato.
- Nessun risultato trovato
-Per chiarimenti su ruoli (Organi di amministrazione, Punto di contatto, Sostituto punto di contatto, Segreteria e Referente CSIRT) e procedure, vai alla sezione 
+Nessun risultato trovato
+Per chiarimenti su ruoli (Organi di amministrazione, Punto di contatto, Sostituto punto di contatto, Segreteria e Referente CSIRT) e procedure, vai alla sezione
 Ruoli e procedure
 .
- Aggiornamento annuale
+Aggiornamento annuale
 AGA.1 Quali sono i termini per effettuare l’aggiornamento annuale delle informazioni di cui all’articolo 7, commi 4 e 5, del decreto NIS?
 L’aggiornamento annuale delle informazioni di cui all’articolo 7, commi 4 e 5, del decreto NIS deve essere effettuato entro il 31 maggio di ogni anno tramite il “Servizio NIS/ Aggiornamento annuale informazioni”.
 Successivamente, ai sensi del comma 7 del medesimo articolo, le organizzazioni sono tenute a notificare tramite il “Servizio NIS/Aggiornamento continuo informazioni”, qualsiasi modifica alle informazioni trasmesse tempestivamente e, in ogni caso, entro quattordici giorni dalla data di modifica.
 AGA.2 Quali sono i passaggi per effettuare l’aggiornamento annuale delle informazioni di cui all’articolo 7, commi 4 e 5, del decreto NIS?
-L’aggiornamento annuale delle informazioni di cui all’articolo 7, commi 4 e 5, del decreto NIS, così come disciplinato dall’articolo 16 della 
+L’aggiornamento annuale delle informazioni di cui all’articolo 7, commi 4 e 5, del decreto NIS, così come disciplinato dall’articolo 16 della
 Determinazione ACN 379887/2025
 , richiede di effettuare i seguenti passaggi:
 invitare il sostituto punto di contatto;
@@ -148,34 +149,34 @@ elencare gli accordi di condivisione delle informazioni.
 Inoltre, il punto di contatto (e il sostituto) dovrà verificare che i suoi dati anagrafici e di contatto siano corretti aggiornati. Sul punto, ove prevista, il punto di contatto dovrà assicurarsi che la delega conferitagli dal rappresentante legale del soggetto sia corretta, aggiornata e conforme a quanto previsto dall’articolo 4 della citata determinazione.
 Le organizzazioni di cui all’articolo 7, comma 5, e quelle di cui all’articolo 5, comma 1, lettera b), del decreto NIS, sono tenuti a condividere ulteriori informazioni in relazione alle sedi nell’Unione e al rappresentante NIS in Italia.
 AGA.3 Quali sono gli obblighi previsti dall’articolo 7, commi 3 e 4, del decreto NIS (cd. Aggiornamento annuale)
-L’articolo 16 della 
+L’articolo 16 della
 Determinazione ACN 379887/2025
- disciplina le modalità con le quali i soggetti NIS sono tenuti a svolgere l’aggiornamento delle informazioni, ai sensi dell’articolo 7, commi 3 e 4, del decreto NIS, dal 15 aprile al 31 maggio di ogni anno.
- Gli utenti potranno visualizzare, aggiornare e compilare tramite il Servizio NIS/Aggiornamento annuale le informazioni per conto del soggetto per cui operano, assicurandone la correttezza.
- Successivamente (articolo 7, comma 7, del decreto NIS), i soggetti NIS sono tenuti a mantenere queste informazioni aggiornate nel tempo.
+disciplina le modalità con le quali i soggetti NIS sono tenuti a svolgere l’aggiornamento delle informazioni, ai sensi dell’articolo 7, commi 3 e 4, del decreto NIS, dal 15 aprile al 31 maggio di ogni anno.
+Gli utenti potranno visualizzare, aggiornare e compilare tramite il Servizio NIS/Aggiornamento annuale le informazioni per conto del soggetto per cui operano, assicurandone la correttezza.
+Successivamente (articolo 7, comma 7, del decreto NIS), i soggetti NIS sono tenuti a mantenere queste informazioni aggiornate nel tempo.
 AGA.4 Quali organizzazioni hanno l’obbligo di aggiornamento annuale (articolo 7, commi 4 e 5 del decreto NIS)?
-Tutti i soggetti NIS (essenziali e importanti) di cui agli articoli 3 e 7 del decreto NIS sono tenuti a svolgere l’aggiornamento annuale. 
- Si evidenzia che, ai sensi dell’articolo 38, commi 10 e 13, la mancata registrazione non solleva dall’obbligo di aggiornamento annuale.
+Tutti i soggetti NIS (essenziali e importanti) di cui agli articoli 3 e 7 del decreto NIS sono tenuti a svolgere l’aggiornamento annuale.
+Si evidenzia che, ai sensi dell’articolo 38, commi 10 e 13, la mancata registrazione non solleva dall’obbligo di aggiornamento annuale.
 AGA.5 Come si adempie all’obbligo di Aggiornamento annuale (articolo 7, commi 4 e 5 del decreto NIS)?
 Per supportare i soggetti NIS, tramite il Portale dei Servizi ACN è reso disponibile il servizio NIS/Aggiornamento annuale, visibile esclusivamente dagli utenti associati alle organizzazioni designate come soggetto NIS (essenziali o importanti) e che hanno ricevuto la comunicazione di inserimento nell’elenco dei soggetti NIS (ex articolo 7, comma 3, lettera a)).
- Elenco dei Servizi in UE
+Elenco dei Servizi in UE
 EDS.1 Quali organizzazioni devono elencare gli Stati membri in cui erogano servizi NIS?
- Tutti i soggetti NIS (essenziali e importanti) devono provvedere ad elencare gli Stati membri in cui erogano servizi NIS (e quali).
+Tutti i soggetti NIS (essenziali e importanti) devono provvedere ad elencare gli Stati membri in cui erogano servizi NIS (e quali).
 EDS.2 Per quali servizi un’organizzazione deve indicare gli Stati membri in cui li eroga?
 Il soggetto NIS deve elencare tutti i servizi che dei servizi che rientrano nell’ambito di applicazione della direttiva 2022/2555 (ovvero tutti i servizi riconducibili alle tipologie di soggetto di cui agli allegati I,II, III e IV) e in quali Stati membri (inclusa l’Italia) sono erogati.
 EDS.3 In un gruppo di imprese quali organizzazioni devono inserire l'elenco degli Stati membri in cui erogano i servizi?
 L’obbligo di aggiornamento annuale deve essere assolto da ogni persona giuridica distintamente, anche se parte del medesimo gruppo.
- Pertanto, ove applicabile, il singolo soggetto NIS dovrà fornire l’elenco dei servizi che rientrano nell’ambito di applicazione della direttiva 2022/2555 che tale soggetto offre nell’UE indicando in quali Stati membri, ai sensi dell'articolo 16, comma 3, lettera c) della 
+Pertanto, ove applicabile, il singolo soggetto NIS dovrà fornire l’elenco dei servizi che rientrano nell’ambito di applicazione della direttiva 2022/2555 che tale soggetto offre nell’UE indicando in quali Stati membri, ai sensi dell'articolo 16, comma 3, lettera c) della
 Determinazione ACN 379887/2025
 .
- Elenco delle sedi in UE e Rappresentante NIS
+Elenco delle sedi in UE e Rappresentante NIS
 SIT.1 Quali organizzazioni devono elencare le proprie sedi nell’UE
 Devono fornire l'elenco delle sedi quei soggetti NIS (persone giuridiche) che sono stabiliti sul territorio nazionali (sede principale) e che svolgono attività ritenute “inerentemente transfrontaliere” elencate dall’articolo 7, comma 5, del decreto NIS: i fornitori di servizi di sistema dei nomi di dominio, i gestori di registri dei nomi di dominio di primo livello, i fornitori di servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonché i fornitori di mercati online, i fornitori di motori di ricerca online e i fornitori di piattaforme di social network.
 SIT.2 Quali organizzazioni devono indicare il rappresentante NIS?
 Devono indicare i dati di anagrafica e di contatto del rappresentante NIS quei soggetti NIS (persone giuridiche) che non hanno alcuna sede sul territorio dell’Unione, che hanno designato il proprio rappresentante NIS sul territorio nazionale e che svolgono attività ritenute “inerentemente transfrontaliere” elencate dall’articolo 7, comma 5, del decreto NIS: i fornitori di servizi di sistema dei nomi di dominio, i gestori di registri dei nomi di dominio di primo livello, i fornitori di servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonché i fornitori di mercati online, i fornitori di motori di ricerca online e i fornitori di piattaforme di social network.
- Indirizzi IP e nomi di dominio
+Indirizzi IP e nomi di dominio
 IPD.1 Quali indirizzi IP e quali nomi di domino devono essere elencati?
-Conformemente a quanto stabilito dalla 
+Conformemente a quanto stabilito dalla
 Determinazione ACN 379887/2025
 , devono essere elencati tutti gli indirizzi IP il cui uso o la cui disponibilità deriva da contratti o accordi con fornitori di servizi di registrazione di nomi di dominio o altre organizzazioni responsabili della fornitura di nomi di dominio, in conformità con le normative e gli accordi nazionali, europei e internazionali attualmente in vigore, prescindendo da aspetti organizzativi e tecnologici.
 Analogamente, dovranno essere elencati tutti i nomi di dominio il cui uso o la cui disponibilità deriva contratti o accordi con fornitori di servizi di registrazione di nomi di dominio o altre organizzazioni deputate alla fornitura di nomi di dominio sulla base delle normative e degli accordi nazionali, europei e internazionali vigenti.
@@ -188,39 +189,39 @@ Con tale dicitura ci si riferisce ai nomi di dominio che un soggetto utilizza o 
 IPD.5 Quali nomi di dominio devono essere elencati?
 Devono essere inseriti tutti i nomi di dominio che sono presenti nei contratti o accordi di acquisizione che sono stati stipulati con fornitori di servizi Internet (ISP), Registri Internet Regionali o altre organizzazioni deputate alla fornitura di indirizzi IP.
 IPD.6 Come ci si comporta nel caso in cui indirizzi IP e nomi di domino siano in uso o nella disponibilità di più organizzazioni?
-Conformemente a quanto stabilito dalla 
+Conformemente a quanto stabilito dalla
 Determinazione ACN 379887/2025
 , devono essere elencati tutti gli indirizzi IP il cui uso o la cui disponibilità deriva da contratti o accordi con fornitori di servizi di registrazione di nomi di dominio o altre organizzazioni responsabili della fornitura di nomi di dominio, in conformità con le normative e gli accordi nazionali, europei e internazionali attualmente in vigore. Analogamente, dovranno essere elencati tutti i nomi di dominio il cui uso o la cui disponibilità deriva da contratti o accordi con fornitori di servizi di registrazione di nomi di dominio o altre organizzazioni deputate alla fornitura di nomi di dominio sulla base delle normative e degli accordi nazionali, europei e internazionali vigenti. Ogni organizzazione dovrà quindi elencare gli indirizzi IP e i nomi di dominio presenti in tali contratti o accordi, ivi compresi eventuali contratti o accordi infragruppo. Lo stesso indirizzo IP e/o lo stesso nome di dominio potrà essere indicato da più organizzazioni.
 IPD. 7 Devono essere elencati anche gli indirizzi IP di filiali dell'organizzazione localizzate al di fuori del territorio nazionale o UE?
-Conformemente a quanto stabilito dalla 
+Conformemente a quanto stabilito dalla
 Determinazione ACN 379887/2025
 , devono essere elencati tutti gli indirizzi IP il cui uso o la cui disponibilità deriva da contratti o accordi con fornitori di servizi di registrazione di nomi di dominio o altre organizzazioni responsabili della fornitura di nomi di dominio, in conformità con le normative e gli accordi nazionali, europei e internazionali attualmente in vigore.
 Ciò prescindendo dalla localizzazione fisica delle filiali.
 IPD.8 Devono essere elencati anche gli indirizzi IP e i nomi di dominio riferiti a società estere che fanno parte del medesimo gruppo di imprese?
-Il decreto NIS si applica alle persone giuridiche (soggetti) e non ai gruppi di imprese. Pertanto, ogni organizzazione deve conferire gli indirizzi IP e i domini in uso o nella disponibilità del dell’organizzazione medesima ai sensi della 
+Il decreto NIS si applica alle persone giuridiche (soggetti) e non ai gruppi di imprese. Pertanto, ogni organizzazione deve conferire gli indirizzi IP e i domini in uso o nella disponibilità del dell’organizzazione medesima ai sensi della
 Determinazione ACN 379887/2025
- e non di altre persone giuridiche.
+e non di altre persone giuridiche.
 IPD.9 Devono essere elencati anche gli indirizzi IP e i nomi di dominio gestiti da per conto di terzi (i.e., clienti) o da terzi (i.e., fornitori di servizi)?
-Conformemente a quanto stabilito dalla 
+Conformemente a quanto stabilito dalla
 Determinazione ACN 379887/2025
 , devono essere elencati tutti gli indirizzi IP e i nomi di dominio il cui uso o la cui disponibilità deriva da contratti o accordi.
 Pertanto, i soggetti sono tenuti a comunicare anche gli eventuali indirizzi IP e i nomi di dominio che hanno in uso o nella propria disponibilità per conto di terzi (come, ad esempio, nell'ambito di servizi di gestione dei contenuti web), o che sono gestiti da terzi e che comunque il soggetto ha in uso o nella propria disponibilità in forza di contratti o accordi.
 IPD.10 I fornitori di servizi di registrazione di nomi di dominio sono tenuti a comunicare tutti i nomi di dominio che forniscono ai propri clienti?
-Conformemente a quanto stabilito dalla 
+Conformemente a quanto stabilito dalla
 Determinazione ACN 379887/2025
 , devono essere elencati tutti i nomi di dominio il cui uso o la cui disponibilità deriva da contratti o accordi.
 Pertanto, i soggetti che forniscono servizi di registrazione dei nomi di dominio non sono tenuti a comunicare i nomi di dominio di cui hanno mediato la fornitura o rivendita e per i quali mantengono i dati di registrazione o per i quali offrono servizi di hosting.
 IPD.11 I fornitori di servizi di sistema dei nomi di dominio sono tenuti a comunicare tutti i nomi di dominio presenti nella banca dati?
-Conformemente a quanto stabilito dalla 
+Conformemente a quanto stabilito dalla
 Determinazione ACN 379887/2025
 , devono essere elencati tutti i nomi di dominio il cui uso o la cui disponibilità deriva da contratti o accordi.
-Pertanto, i soggetti che forniscono servizi di sistema dei nomi di dominio non sono tenuti a comunicare i nomi di dominio che sono presenti nei DNS che gestiscono. 
- Accordi di condivisione delle informazioni sulla sicurezza informatica
+Pertanto, i soggetti che forniscono servizi di sistema dei nomi di dominio non sono tenuti a comunicare i nomi di dominio che sono presenti nei DNS che gestiscono.
+Accordi di condivisione delle informazioni sulla sicurezza informatica
 ACI.1 Cosa sono gli accordi di condivisione delle informazioni sulla sicurezza informatica?
-Ai sensi dell’articolo 1, comma 1, lettera kk) della 
+Ai sensi dell’articolo 1, comma 1, lettera kk) della
 Determinazione ACN 379887/2025
 , per “accordi di condivisione”, si intendono gli accordi di condivisione delle informazioni sulla sicurezza informatica, di cui all’articolo 17, comma 2, del decreto NIS, per attuare lo scambio di informazioni pertinenti su base volontaria di cui al comma 1 del medesimo articolo.
-Tali accordi sono adottati dai soggetti essenziali ed importanti, nell’ambito delle proprie autonomie decisionali, per condividere informazioni sulla sicurezza informatica, comprese quelle relative a minacce informatiche, quasi incidenti, vulnerabilità, tecniche e procedure, indicatori di compromissione, tattiche avversarie, informazioni specifiche sugli attori delle minacce, allarmi di sicurezza informatica e raccomandazioni sulla configurazione degli strumenti di sicurezza informatica per rilevare minacce informatiche. La condivisione di tali informazioni mira a prevenire o a rilevare gli incidenti e ad aumentare il livello di sicurezza informatica.
+Tali accordi sono adottati dai soggetti essenziali ed importanti, nell’ambito delle proprie autonomie decisionali, per condividere  informazioni sulla sicurezza informatica, comprese quelle relative a minacce informatiche, quasi incidenti, vulnerabilità, tecniche e procedure, indicatori di compromissione, tattiche avversarie, informazioni specifiche sugli attori delle minacce, allarmi di sicurezza informatica e raccomandazioni sulla configurazione degli strumenti di sicurezza informatica per rilevare minacce informatiche. La condivisione di tali informazioni mira a prevenire o a rilevare gli incidenti e ad aumentare il livello di sicurezza informatica.
 ACI.2 È obbligatorio sottoscrivere accordi di condivisione con tutte le organizzazioni con le quali vengono scambiate informazioni sulla sicurezza informatica?
 La condivisone di informazioni sulla sicurezza informatica ai sensi dell’articolo 17, comma 1, del decreto NIS tra soggetti NIS e/o tra soggetti NIS e le loro terze parti (ivi inclusi i fornitori) deve essere regolata, ai sensi del comma 2 del medesimo articolo, da accordi di condivisione, volti a definire il perimetro della condivisione e gli strumenti di tutela delle informazioni condivise.
 Ferma restando l’opportunità di aderire quanto prima a questa migliore pratica, il termine per l’adeguamento a tale prescrizione è allineato al termine per l’adozione delle specifiche di base in materia di misure di sicurezza (ottobre 2026).
@@ -241,18 +242,18 @@ Red Teaming;
 Cyber Threat Intel.
 Non sono altresì oggetto di notifica i contratti relativi a forniture che non hanno oggetto servizi di sicurezza informatica e in cui, su base volontaria o in forza di clausole contrattuali, il fornitore segnali al cliente eventuali eventi di sicurezza informatica di interesse del cliente stesso.
 Si osserva, inoltre, che ai fini della notifica è sufficiente comunicare l’estratto del contratto inerente allo scambio delle informazioni.
- Fornitori rilevanti
+Fornitori rilevanti
 FRN.1 Per quale motivo nell’ambito dell’aggiornamento annuale delle informazioni devono essere indicati anche fornitori rilevanti NIS?
 L’articolo 3, comma 9, lettera f), del decreto NIS prevede che il decreto stesso si applichi, indipendentemente dalle dimensioni, a un soggetto considerato critico in quanto elemento sistemico della catena di approvvigionamento, anche digitale, di uno o più soggetti considerati essenziali o importanti ai sensi della disciplina NIS.
 Pertanto, è necessario, di conseguenza, acquisire le informazioni relative ai fornitori considerati rilevanti (fornitori rilevanti NIS) al fine di individuare tra di essi, d’intesa con le Autorità di settore, gli elementi sistemici della catena di approvvigionamento da individuare quali soggetti importanti o essenziali al fine di promuovere un adeguato livello di sicurezza informatica lungo la catena di approvvigionamento dei soggetti NIS.
 FRN.2 Come si individuano i fornitori rilevanti NIS?
-Ai sensi dell’articolo 1, comma 1, lettera ll), della 
+Ai sensi dell’articolo 1, comma 1, lettera ll), della
 Determinazione ACN 127437/2026
- , un fornitore si considera “fornitore rilevante NIS” se fornisce servizi o prodotti a un soggetto NIS e soddisfa almeno uno dei seguenti criteri di rilevanza:
+, un fornitore si considera “fornitore rilevante NIS” se fornisce servizi o prodotti a un soggetto NIS e soddisfa almeno uno dei seguenti criteri di rilevanza:
 la fornitura è riconducibile alle attività o ai servizi di cui all’allegato I, punti 8 e 9, del decreto NIS (fornitura ICT);
 l’interruzione o la compromissione della fornitura comportano un impatto significativo sulla capacità del soggetto NIS, anche per effetto della indisponibilità di fornitori alternativi, di erogare le attività o i servizi per i quali rientra nell’ambito di applicazione del decreto NIS (fornitura non fungibile).
 FRN.3 Quali informazioni devono essere comunicate in merito ai fornitori rilevanti NIS?
-Ai sensi dell’articolo 18 della 
+Ai sensi dell’articolo 18 della
 Determinazione ACN 127437/2026
 , devono essere comunicate le seguenti informazioni:
 la denominazione;
@@ -263,24 +264,24 @@ il criterio di rilevanza, di cui all’articolo 1, comma 1, lettera ll), utilizz
 Si evidenzia che i criteri di rilevanza sono (in alternativa o congiuntamente) i seguenti:
 la fornitura è riconducibile alle attività o ai servizi di cui all’allegato I, punti 8 e 9, del decreto NIS;
 l’interruzione o la compromissione della fornitura comportano un impatto significativo sulla capacità del soggetto NIS, anche per effetto della indisponibilità di fornitori alternativi, di erogare le attività o i servizi per i quali rientra nell’ambito di applicazione del decreto NIS.
-Ai fini della definizione della fornitura si fa riferimento alla tassonomia contenuta nel vocabolario comune per gli appalti pubblici (common procurement vocabulary - CPV) adottato con Regolamento (CE) n. 2195/2002, successivamente modificato dal Regolamento (CE) n. 213/2008, disponibile al seguente link: 
+Ai fini della definizione della fornitura si fa riferimento alla tassonomia contenuta nel vocabolario comune per gli appalti pubblici (common procurement vocabulary - CPV) adottato con Regolamento (CE) n. 2195/2002, successivamente modificato dal Regolamento (CE) n. 213/2008, disponibile al seguente link:
 https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32008R0213
 .
-A titolo di mero supporto orientativo, al link seguente 
+A titolo di mero supporto orientativo, al link seguente
 Allegato II.2 bis, Tabella D.1. nuovo Codice Appalti
 , è disponibile una corrispondenza di alto livello tra codici CPV e codici NACE/ATECO, utile per ricondurre, limitatamente ai codici in esso contenuti, le forniture alla classificazione delle attività economiche di riferimento. Si precisa che tale tabella non sostituisce l'elenco completo dei codici CPV previsti dal Regolamento (CE) n. 2195/2002 e, pertanto, la selezione definitiva dei codici CPV applicabili resta rimessa a ciascun soggetto sulla base dell'elenco completo contenuto nel predetto Regolamento.
-Infine, alla FAQ FRN.4 sono illustrati alcuni esempi di forniture con la relativa indicazione del CPV di riferimento. 
+Infine, alla FAQ FRN.4 sono illustrati alcuni esempi di forniture con la relativa indicazione del CPV di riferimento.
 FRN.4 Quali sono alcuni esempi di forniture rilevanti NIS?
-Tenuto conto della definizione di fornitori rilevanti NIS, rientrano tutte le dipendenze digitali del soggetto NIS nonché anche le dipendenze non digitali che non possono essere sostituite senza determinare un impatto significativo sulle attività e sui servizi NIS.
+Tenuto conto della definizione di fornitori rilevanti NIS, rientrano tutte le dipendenze digitali del soggetto NIS  nonché anche le dipendenze non digitali che non possono essere sostituite senza determinare un impatto significativo sulle attività e sui servizi NIS.
 Con riferimento a quest’ultimo criterio di rilevanza (forniture non fungibili – criterio di rilevanza b)), si evidenziano, in particolare:
 Connettività (dati e voce, fissa e mobile), qualora non ridondata:
 CPV: Servizi di Internet [72400000-4], Fornitori di servizi Internet (ISP) [72411000-4], Servizi di trasmissione di dati [72318000-7]
 Corrente elettrica
-: 
+:
 CPV: Erogazione di energia elettrica [65310000-9], Erogazione di energia elettrica e servizi connessi [65300000-6].
 Con riferimento al primo criterio di rilevanza (forniture ICT – criterio di rilevanza a)), si evidenziano, in particolare:
 Infrastrutture digitali
-: 
+:
 punti di interscambio internet - CPV: Servizi di interconnessione [64221000-1];
 servizi di sistema dei nomi di dominio - CPV: Nomi di dominio di Internet [72417000-6];
 servizi di cloud computing - CPV: Servizi di Internet [72400000-4], Servizi di elaborazione dati [72300000-8], Servizi informatici [72500000-0], Servizi di gestione connessi all'informatica [72510000-3];
@@ -290,9 +291,9 @@ servizi fiduciari - CPV: Servizi di certificazione della firma elettronica [7913
 Fornitore di reti pubbliche di comunicazione elettronica - CPV: Servizi di telecomunicazione [64200000-8]
 Fornitore di servizi di comunicazione elettronica accessibili al pubblico - CPV: Servizi telefonici e di trasmissione dati [64210000-1];
 Servizi gestiti e servizi gestiti di sicurezza
-: 
+:
 CPV: Servizi informatici [72500000-0], Servizi di gestione connessi all'informatica [72510000-3], Servizi di manutenzione e assistenza sistemi [72250000-2], Servizi di consulenza e assistenza informatica [72600000-6], Servizi di audit e collaudo informatico [72800000-8].
- VERSIONE TABELLARE
+VERSIONE TABELLARE
 Tipologia fornitura non fungibile
 Descrizione fornitura
 Codice CPV
@@ -308,7 +309,7 @@ Erogazione di energia elettrica e servizi connessi
 65300000-6
 Erogazione di energia elettrica
 65310000-9
- VERSIONE TABELLARE
+VERSIONE TABELLARE
 Tipologia fornitura ICT - Infrastrutture digitali
 Descrizione fornitura nel vocabolario CPV
 Codice CPV
@@ -344,7 +345,7 @@ Servizi di telecomunicazione
 Fornitore di servizi di comunicazione elettronica accessibili al pubblico
 Servizi telefonici e di trasmissione dati
 64210000-1
- VERSIONE TABELLARE
+VERSIONE TABELLARE
 Tipologia fornitura ICT - Gestione dei servizi TIC
 Descrizione fornitura nel vocabolario CPV
 Codice CPV
@@ -359,41 +360,41 @@ Servizi di consulenza e assistenza informatica
 72600000-6
 Servizi di audit e collaudo informatico
 72800000-8
-Informazioni su 
-Agenzia per la
- cybersicurezza nazionale
-Contatti
-info@acn.gov.it
-Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e 
-non all’indirizzo e-mail dell’Agenzia
-.
-Per interviste, inviti ad eventi o manifestazioni
-comunicazione@acn.gov.it
-Link utili
-Centro di Valutazione e Certificazione Nazionale
-: apre una nuova finestra
-Linee guida ACN
-Referente per la cybersicurezza
-Patrocinio
-Lavora con noi
-Domande frequenti
-Trasparenza
-Amministrazione trasparente
-Atti di notifica
-Piattaforma Whistleblowing
-: apre una nuova finestra
-Seguici su
-Agenzia
-linkedin: apre una nuova finestra
-youtube: apre una nuova finestra
-CSIRT Italia
-Twitter: apre una nuova finestra
-Telegram: apre una nuova finestra
-RSS: apre una nuova finestra
-Altre informazioni
-Note legali
-Privacy policy
-Dichiarazione di accessibilità
-: apre una nuova finestra
-Social media policy
 Nascosta
+[FOOTER] Informazioni su
+[FOOTER] Agenzia per la
+[FOOTER] cybersicurezza nazionale
+[FOOTER] Contatti
+[FOOTER] info@acn.gov.it
+[FOOTER] Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e
+[FOOTER] non all’indirizzo e-mail dell’Agenzia
+[FOOTER] .
+[FOOTER] Per interviste, inviti ad eventi o manifestazioni
+[FOOTER] comunicazione@acn.gov.it
+[FOOTER] Link utili
+[FOOTER] Centro di Valutazione e Certificazione Nazionale
+[FOOTER] : apre una nuova finestra
+[FOOTER] Linee guida ACN
+[FOOTER] Referente per la cybersicurezza
+[FOOTER] Patrocinio
+[FOOTER] Lavora con noi
+[FOOTER] Domande frequenti
+[FOOTER] Trasparenza
+[FOOTER] Amministrazione trasparente
+[FOOTER] Atti di notifica
+[FOOTER] Piattaforma Whistleblowing
+[FOOTER] : apre una nuova finestra
+[FOOTER] Seguici su
+[FOOTER] Agenzia
+[FOOTER] linkedin: apre una nuova finestra
+[FOOTER] youtube: apre una nuova finestra
+[FOOTER] CSIRT Italia
+[FOOTER] Twitter: apre una nuova finestra
+[FOOTER] Telegram: apre una nuova finestra
+[FOOTER] RSS: apre una nuova finestra
+[FOOTER] Altre informazioni
+[FOOTER] Note legali
+[FOOTER] Privacy policy
+[FOOTER] Dichiarazione di accessibilità
+[FOOTER] : apre una nuova finestra
+[FOOTER] Social media policy
