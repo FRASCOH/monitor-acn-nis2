@@ -66,24 +66,54 @@ def get_page_content(url):
         return None
 
 def clean_html(html):
-    """Estrae il testo visibile dalla pagina HTML"""
-    # Rimuovi script e style
-    html = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.DOTALL | re.IGNORECASE)
-    html = re.sub(r'<style[^>]*>.*?</style>', '', html, flags=re.DOTALL | re.IGNORECASE)
-    # Rimuovi commenti HTML
-    html = re.sub(r'<!--.*?-->', '', html, flags=re.DOTALL)
-    # Rimuovi tag HTML ma mantieni il contenuto
-    html = re.sub(r'<[^>]+>', '\n', html)
-    # Decodifica entità HTML comuni
-    html = html.replace('&nbsp;', ' ')
-    html = html.replace('&amp;', '&')
-    html = html.replace('&lt;', '<')
-    html = html.replace('&gt;', '>')
-    # Rimuovi linee vuote multiple
-    html = re.sub(r'\n\s*\n', '\n', html)
-    # Rimuovi spazi multipli
-    html = re.sub(r' +', ' ', html)
-    return html.strip()
+    """Estrae il testo visibile dalla pagina HTML distinguendo header e footer"""
+    
+    # Rilevamento sezioni
+    header_part = ""
+    footer_part = ""
+    main_part = html
+    
+    # Estrai header
+    header_match = re.search(r'<header[^>]*>(.*?)</header>', html, re.DOTALL | re.IGNORECASE)
+    if header_match:
+        header_part = header_match.group(1)
+        main_part = main_part.replace(header_match.group(0), "")
+        
+    # Estrai footer
+    footer_match = re.search(r'<footer[^>]*>(.*?)</footer>', html, re.DOTALL | re.IGNORECASE)
+    if footer_match:
+        footer_part = footer_match.group(1)
+        main_part = main_part.replace(footer_match.group(0), "")
+
+    def process_text(text, prefix=""):
+        if not text: return ""
+        # Rimuovi script e style
+        text = re.sub(r'<script[^>]*>.*?</script>', '', text, flags=re.DOTALL | re.IGNORECASE)
+        text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL | re.IGNORECASE)
+        # Rimuovi commenti HTML
+        text = re.sub(r'<!--.*?-->', '', text, flags=re.DOTALL)
+        # Rimuovi tag HTML ma mantieni il contenuto
+        text = re.sub(r'<[^>]+>', '\n', text)
+        # Decodifica entità HTML comuni
+        text = text.replace('&nbsp;', ' ').replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
+        
+        lines = []
+        for line in text.split('\n'):
+            line = line.strip()
+            if line:
+                lines.append(f"{prefix}{line}")
+        return "\n".join(lines)
+
+    cleaned_header = process_text(header_part, "[HEADER] ")
+    cleaned_footer = process_text(footer_part, "[FOOTER] ")
+    cleaned_main = process_text(main_part, "")
+    
+    result = []
+    if cleaned_header: result.append(cleaned_header)
+    if cleaned_main: result.append(cleaned_main)
+    if cleaned_footer: result.append(cleaned_footer)
+    
+    return "\n".join(result).strip()
 
 def extract_document_list(html_content):
     """Estrae l'elenco dei documenti con metadati (tipo, data, anno)"""
@@ -384,8 +414,8 @@ def generate_html_report(page_name, additions, removals, url):
     """
     return html
 
-def send_email(html_content, page_name, has_changes):
-    """Invia email con il report"""
+def send_email(html_content, subject):
+    """Invia email con il report consolidato"""
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
     sender_email = os.environ.get("EMAIL_SENDER")
@@ -393,18 +423,15 @@ def send_email(html_content, page_name, has_changes):
     receiver_emails = os.environ.get("EMAIL_RECEIVER")
     
     if not all([sender_email, sender_password, receiver_emails]):
-        print(f"[{page_name}] Variabili d'ambiente email non configurate")
+        print("Variabili d'ambiente email non configurate")
         return
     
-    # Gestisci destinatari multipli (separati da virgola)
     dest_list = [email.strip() for email in receiver_emails.split(',')]
     
     message = MIMEMultipart()
     message["From"] = sender_email
     message["To"] = ", ".join(dest_list)
-    
-    status = "MODIFICHE RILEVATE" if has_changes else "Nessuna modifica"
-    message["Subject"] = f"🔔 {status} - {page_name} - {get_now().strftime('%d/%m/%Y %H:%M')}"
+    message["Subject"] = subject
     
     message.attach(MIMEText(html_content, "html"))
     
@@ -413,9 +440,99 @@ def send_email(html_content, page_name, has_changes):
             server.starttls()
             server.login(sender_email, sender_password)
             server.send_message(message)
-        print(f"[{page_name}] Email inviata a {receiver_email}")
+        print(f"Email inviata correttamente a {len(dest_list)} destinatari")
     except Exception as e:
-        print(f"[{page_name}] Errore invio email: {e}")
+        print(f"Errore invio email: {e}")
+
+def generate_summary_report(results_with_changes):
+    """Genera un report HTML consolidato per tutte le pagine modificate"""
+    now_str = get_now().strftime('%d/%m/%Y alle %H:%M')
+    
+    html = f"""
+    <html>
+    <head>
+        <style>
+            body {{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 1000px; margin: 0 auto; padding: 20px; color: #333; }}
+            h2 {{ color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }}
+            .change-group {{ background: #f9f9f9; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 30px; }}
+            .url-list {{ background: #fff; padding: 10px; border-radius: 4px; border-left: 4px solid #3498db; margin: 10px 0; }}
+            .addition {{ color: #27ae60; background: #eafaf1; padding: 5px 10px; margin: 2px 0; border-radius: 3px; font-family: monospace; }}
+            .removal {{ color: #c0392b; background: #fdedec; padding: 5px 10px; margin: 2px 0; border-radius: 3px; font-family: monospace; text-decoration: line-through; }}
+            .context-header {{ color: #2980b9; font-weight: bold; font-size: 0.9em; text-transform: uppercase; }}
+            .context-footer {{ color: #8e44ad; font-weight: bold; font-size: 0.9em; text-transform: uppercase; }}
+            .timestamp {{ color: #7f8c8d; font-size: 0.9em; font-style: italic; }}
+            a {{ color: #3498db; text-decoration: none; }}
+            a:hover {{ text-decoration: underline; }}
+        </style>
+    </head>
+    <body>
+        <h2>🔔 Report Consolidato Modifiche ACN</h2>
+        <p class="timestamp">Sessione di monitoraggio del {now_str}</p>
+        <p>Sono state rilevate modifiche in <strong>{len(results_with_changes)}</strong> risorse.</p>
+    """
+
+    # Raggruppa le pagine per set di modifiche identiche
+    groups = {}
+    for res in results_with_changes:
+        # Crea una chiave basata su aggiunte e rimozioni
+        key = hashlib.md5(json.dumps([res["additions"], res["removals"]]).encode()).hexdigest()
+        if key not in groups:
+            groups[key] = {
+                "additions": res["additions"],
+                "removals": res["removals"],
+                "pages": []
+            }
+        groups[key]["pages"].append({"name": res["name"], "url": res["url"]})
+
+    for key, group in groups.items():
+        html += '<div class="change-group">'
+        html += '<h3>Pagine interessate:</h3>'
+        html += '<div class="url-list">'
+        for p in group["pages"]:
+            html += f'• <a href="{p["url"]}">{p["name"]}</a><br>'
+        html += '</div>'
+        
+        if group["additions"]:
+            html += '<h4>✅ Aggiunte o Modifiche:</h4>'
+            for item in group["additions"][:30]:
+                content = item
+                label = ""
+                if item.startswith("[HEADER]"):
+                    label = '<span class="context-header">[HEADER]</span> '
+                    content = item.replace("[HEADER] ", "")
+                elif item.startswith("[FOOTER]"):
+                    label = '<span class="context-footer">[FOOTER]</span> '
+                    content = item.replace("[FOOTER] ", "")
+                
+                html += f'<div class="addition">{label}{content}</div>'
+            if len(group["additions"]) > 30:
+                html += f'<p><em>... e altre {len(group["additions"]) - 30} righe</em></p>'
+
+        if group["removals"]:
+            html += '<h4>❌ Rimozioni:</h4>'
+            for item in group["removals"][:30]:
+                content = item
+                label = ""
+                if item.startswith("[HEADER]"):
+                    label = '<span class="context-header">[HEADER]</span> '
+                    content = item.replace("[HEADER] ", "")
+                elif item.startswith("[FOOTER]"):
+                    label = '<span class="context-footer">[FOOTER]</span> '
+                    content = item.replace("[FOOTER] ", "")
+                
+                html += f'<div class="removal">{label}{content}</div>'
+            if len(group["removals"]) > 30:
+                html += f'<p><em>... e altre {len(group["removals"]) - 30} righe</em></p>'
+        
+        html += '</div>'
+
+    html += """
+        <hr style="margin: 40px 0; border: none; border-top: 1px solid #eee;">
+        <p class="timestamp">Sistema di monitoraggio automatico ACN & NIS2</p>
+    </body>
+    </html>
+    """
+    return html
 
 def monitor_page(page_config):
     name = page_config["name"]
@@ -509,8 +626,7 @@ def monitor_page(page_config):
             result["removals"] = removals
             result["last_change_date"] = get_now().strftime('%d/%m/%Y %H:%M')
             
-            html_report = generate_html_report(name, additions, removals, url)
-            send_email(html_report, name, True)
+            # Non inviamo più l'email qui, salviamo solo lo stato
             save_state(paths, current_hash, current_text, now_str, additions, removals)
         else:
             print(f"✅ Nessuna modifica per {name}")
@@ -572,6 +688,28 @@ def main():
                         "id": f"{prefix.lower().replace(' ', '_')}_{url_slug.replace('-', '_')}"
                     })
     
+    # Gestione notifiche consolidate
+    results_with_changes = [r for r in all_results if r.get("has_changes") and not r.get("status") == "Nessuna modifica" and not "Modificato (Recente)" in r.get("status")]
+    
+    # Includiamo anche i "Nuova risorsa aggiunta" se vogliamo notificarli
+    new_resources = [r for r in all_results if r.get("status") == "Nuova risorsa aggiunta"]
+    
+    if results_with_changes or new_resources:
+        print(f"\n📧 Preparazione invio email consolidata per {len(results_with_changes)} modifiche...")
+        
+        # Per le nuove risorse, creiamo dei fake "additions" per il report
+        for nr in new_resources:
+            nr["has_changes"] = True
+            nr["additions"] = ["[NUOVA RISORSA] Contenuto inizializzato correttamente"]
+            nr["removals"] = []
+            results_with_changes.append(nr)
+
+        subject = f"🔔 Monitor ACN: {len(results_with_changes)} modifiche rilevate - {get_now().strftime('%d/%m/%Y %H:%M')}"
+        html_report = generate_summary_report(results_with_changes)
+        send_email(html_report, subject)
+    else:
+        print("\n✅ Nessuna nuova modifica rilevante da notificare via email.")
+
     # Salva risultati per la dashboard
     try:
         with open("status.json", "w", encoding="utf-8") as f:
