@@ -42,6 +42,21 @@ PAGES_TO_MONITOR = [
         "id": "nis_home",
         "discover_subpages": True,
         "subpage_pattern": r'/portale/nis/[\w-]+'
+    },
+    {
+        "name": "Linee Guida ACN",
+        "url": "https://www.acn.gov.it/portale/linee-guida",
+        "id": "linee_guida"
+    },
+    {
+        "name": "Avvisi ACN",
+        "url": "https://www.acn.gov.it/portale/avvisi",
+        "id": "avvisi"
+    },
+    {
+        "name": "PNRR Cybersecurity",
+        "url": "https://www.acn.gov.it/portale/pnrr",
+        "id": "pnrr"
     }
 ]
 
