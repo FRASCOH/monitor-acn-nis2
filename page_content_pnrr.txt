@@ -1,0 +1,245 @@
+[HEADER] seguici_su
+[HEADER] Agenzia:
+[HEADER] Linkedin: apre una nuova finestra
+[HEADER] Youtube: apre una nuova finestra
+[HEADER] seguici_su
+[HEADER] CSIRT Italia:
+[HEADER] Twitter: apre una nuova finestra
+[HEADER] Telegram: apre una nuova finestra
+[HEADER] RSS: apre una nuova finestra
+[HEADER] Lingue disponibili:
+[HEADER] ITA
+[HEADER] ITA
+[HEADER] : italiano
+[HEADER] ENG
+[HEADER] : english
+[HEADER] Apri menu principale
+[HEADER] Agenzia per la
+[HEADER] cybersicurezza nazionale
+[HEADER] Segnala un incidente informatico
+[HEADER] apri_ricerca
+PNRR - Piano Nazionale di Ripresa e Resilienza - ACN
+Skip to Main Content
+PNRR - Piano Nazionale di Ripresa e Resilienza
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+Il Team dell'Agenzia per la risposta agli incidenti cyber
+Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Feed Pubblico MISP
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Home
+PNRR - Piano Nazionale di Ripresa e Resilienza
+PNRR - Piano Nazionale di Ripresa e Resilienza
+Un programma di investimenti cybersecurity per un Paese ancora più sicuro
+L'obiettivo dell'investimento 1.5 "Cybersecurity" è
+rafforzare l'ecosistema digitale nazionale
+potenziando i servizi di gestione della minaccia cyber. Il tutto grazie ad una
+rinnovata capacità di monitoraggio, prevenzione e scrutinio
+tecnologico a supporto della
+transizione digitale del Paese
+.
+L'Agenzia per la cybersicurezza nazionale, in stretto contatto con l'amministrazione titolare, il Dipartimento per la trasformazione digitale (DTD), cura l'attuazione dell'investimento
+connettendo il mondo della Pubblica Amministrazione, dell'impresa e dei fornitori di tecnologia
+I
+623 milioni di fondi
+disponibili hanno promosso l’attuazione di
+8 avvisi pubblici
+, che hanno coinvolto circa
+300 tra progetti e investimenti
+, oltre
+200 soggetti finanziati
+e circa
+3500 richieste gestite
+, con oltre
+120 soggetti della PA locale coinvolti
+su tutto il territorio nazionale.
+L’Agenzia ha realizzato progetti per il potenziamento delle capacità nazionali di prevenzione, monitoraggio, risposta e mitigazione delle minacce mediante la creazione di specifici servizi cyber nazionali, potenziando la resilienza cyber della PA e i laboratori di scrutinio e certificazione tecnologica.
+apre nuova scheda
+Guarda il video
+Guarda il video su Youtube: apre una nuova finestra
+I tre pilastri dell'investimento
+L'Agenzia per la cybersicurezza nazionale cura l'evoluzione dell'infrastruttura e dei servizi per l'attuazione della strategia cyber nazionale che si articola su
+tre pilastri
+.
+Sviluppare
+le capacità di cyber resilience in modo diffuso nel Paese
+Rafforzare
+le capacità nazionali di scrutinio e certificazione tecnologica
+Potenziare
+le capacità cyber della Pubblica Amministrazione
+I benefici del programma
+Gli investimenti cyber sono incentrati su capacità e procedure di
+monitoraggio, prevenzione e risposta
+più efficaci contro le minacce cyber.
+Conservare
+e gestire in tutta sicurezza i dati e i servizi della Pubblica Amministrazione
+Identificare
+tempestivamente gli eventi informatici malevoli e mitigarne gli effetti
+Rafforzare
+la valutazione e certificazione delle tecnologie cyber per una transizione digitale nazionale resiliente
+Obiettivi e traguardi
+Dicembre 2024
+Dicembre 2022
+Dispiego integrale dei Servizi nazionali di cybersecurity
+Attivazione di una rete nazionale integrata di servizi di rilevamento, gestione e mitigazione del rischio cyber a supporto della PA e dell'industria nazionale
+Rete di laboratori di valutazione e certificazione
+Completamento della rete dei laboratori a supporto del conseguimento dell'autonomia strategica nazionale nel settore
+Servizio ispettivo nazionale
+Piano operativo delle attività di monitoraggio tecnico-organizzativo dell'adozione delle misure di sicurezza in linea con la normativa di riferimento
+Interventi di potenziamento cyber per la Pubblica Amministrazione
+Almeno 50 interventi di potenziamento delle capacità cyber della PA a protezione dei dati e dei servizi dei cittadini
+La nuova Agenzia Nazionale
+Istituzione e operatività della nuova Agenzia per la cybersicurezza nazionale
+Servizi nazionali di cybersecurity
+Dispiego iniziale dei servizi nazionali di rilevamento, gestione e mitigazione del rischio cyber nazionale
+Avvio della rete dei laboratori
+Attivazione della rete dei laboratori di valutazione e certificazione sotto la supervisione del Centro di Valutazione e Certificazione Nazionale (CVCN)
+Unità centrale ispettiva
+Avvio dell'unità centrale ispettiva dell'ACN a supporto del monitoraggio dell'applicazione delle misure di sicurezza in linea con la normativa di riferimento
+Interventi di potenziamento cyber per la Pubblica Amministrazione
+Almeno 5 interventi di potenziamento delle capacità cyber della PA a protezione dei dati e dei servizi dei cittadini
+Scopri di più
+sugli obiettivi e traguardi: apre un link esterno
+Avvisi
+Per maggiori informazioni sulle opportunità di finanziamento e di erogazione di contributi in ambito PNRR, è possibile consultare la sezione dedicata al seguente link:
+Avvisi
+Per ulteriori informazioni sulle modalità di gestione delle progettualità a titolarità dei Soggetti attuatori individuati tramite Avvisi Pubblici, è possibile consultare le risposte alle domande più frequenti al seguente link:
+Domande frequenti
+Linee guida Soggetti Attuatori
+Linee guida per i soggetti attuatori individuati tramite avvisi pubblici
+Manuale Operativo
+Per i soggetti attuatori di
+Avviso n. 1/2022, n. 3/2022, n. 5/2022, n. 6/2023, n. 8/2024
+Data di pubblicazione
+09/10/2024
+Scarica manuale
+: apre un link esterno
+Scarica allegati
+: apre un link esterno
+Linee guida per i soggetti attuatori individuati tramite accordi ai sensi ex articolo 15, legge 7 agosto 1990, n. 241 e dell’art. 5, comma 6, del d.lgs. n. 50/2016 e ss.mm.ii.
+Manuale Operativo
+Per i soggetti attuatori degli
+Accordi Cyber Defence, Accordi CSIRT Settoriali
+Data di pubblicazione
+20/01/2025
+Scarica manuale
+: apre un link esterno
+Scarica allegati
+: apre un link esterno
+Scarica nota integrativa
+: apre un link esterno
+Collegamenti utili
+Scopri i dettagli delle iniziative per la transizione digitale della PA -
+Vai su Italia Digitale 2026
+: apre una nuova finestra
+Approfondisci le circolari e le line guida fornite dall’Unità di missione PNRR -
+Vai su Attuazione misure PNRR
+: apre una nuova finestra
+Nascosta
+[FOOTER] Informazioni su
+[FOOTER] Agenzia per la
+[FOOTER] cybersicurezza nazionale
+[FOOTER] Contatti
+[FOOTER] info@acn.gov.it
+[FOOTER] Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e
+[FOOTER] non all’indirizzo e-mail dell’Agenzia
+[FOOTER] .
+[FOOTER] Per interviste, inviti ad eventi o manifestazioni
+[FOOTER] comunicazione@acn.gov.it
+[FOOTER] Link utili
+[FOOTER] Centro di Valutazione e Certificazione Nazionale
+[FOOTER] : apre una nuova finestra
+[FOOTER] Linee guida ACN
+[FOOTER] Referente per la cybersicurezza
+[FOOTER] Patrocinio
+[FOOTER] Lavora con noi
+[FOOTER] Domande frequenti
+[FOOTER] Trasparenza
+[FOOTER] Amministrazione trasparente
+[FOOTER] Atti di notifica
+[FOOTER] Piattaforma Whistleblowing
+[FOOTER] : apre una nuova finestra
+[FOOTER] Seguici su
+[FOOTER] Agenzia
+[FOOTER] linkedin: apre una nuova finestra
+[FOOTER] youtube: apre una nuova finestra
+[FOOTER] CSIRT Italia
+[FOOTER] Twitter: apre una nuova finestra
+[FOOTER] Telegram: apre una nuova finestra
+[FOOTER] RSS: apre una nuova finestra
+[FOOTER] Altre informazioni
+[FOOTER] Note legali
+[FOOTER] Privacy policy
+[FOOTER] Dichiarazione di accessibilità
+[FOOTER] : apre una nuova finestra
+[FOOTER] Social media policy

@@ -1,0 +1,334 @@
+[HEADER] seguici_su
+[HEADER] Agenzia:
+[HEADER] Linkedin: apre una nuova finestra
+[HEADER] Youtube: apre una nuova finestra
+[HEADER] seguici_su
+[HEADER] CSIRT Italia:
+[HEADER] Twitter: apre una nuova finestra
+[HEADER] Telegram: apre una nuova finestra
+[HEADER] RSS: apre una nuova finestra
+[HEADER] Lingue disponibili:
+[HEADER] ITA
+[HEADER] ITA
+[HEADER] : italiano
+[HEADER] ENG
+[HEADER] : english
+[HEADER] Apri menu principale
+[HEADER] Agenzia per la
+[HEADER] cybersicurezza nazionale
+[HEADER] Segnala un incidente informatico
+[HEADER] apri_ricerca
+Avvisi - ACN
+Skip to Main Content
+Avvisi
+Menu
+Agenzia
+Agenzia
+L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+Chi siamo
+Organizzazione
+Strategia
+Attività
+Relazione annuale
+Comunicazione
+Avvisi
+Coordinamento interministeriale
+Relazioni Internazionali
+Eventi
+PNRR
+NIS
+NIS
+Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+Scopri NIS
+La normativa
+Ambito
+Registrazione
+Obblighi
+Modalità e specifiche di base
+Aggiornamento delle informazioni
+Categorizzazione
+Notizie ed eventi
+Domande frequenti
+Cloud
+Cloud
+L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+Scopri Cloud
+Regolamento Cloud per la PA
+Catalogo delle Infrastrutture digitali e dei Servizi cloud
+Qualificazione e adeguamento
+Documentazione utile
+Domande frequenti
+CSIRT Italia
+CSIRT Italia
+Il Team dell'Agenzia per la risposta agli incidenti cyber
+Scopri CSIRT Italia
+Chi siamo
+Glossario
+Alert e Bollettini
+Pubblicazioni
+La settimana cibernetica
+Operational Summary
+Feed Pubblico MISP
+Domande frequenti
+NCC Italia
+NCC Italia
+L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+Scopri NCC Italia
+Chi siamo
+Opportunità di finanziamento
+Community
+Notizie ed eventi
+Contatti
+Domande frequenti
+Certificazione
+Certificazione
+L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+Scopri Certificazione
+Centro di Valutazione e Certificazione Nazionale
+Certificazione e vigilanza
+NCCA
+OCSI
+E-Academy
+Lavora con noi
+Segnala un incidente informatico
+Seguici su Agenzia
+linkedin: apre una nuova finestra
+youtube: apre una nuova finestra
+Seguici su CSIRT Italia
+Twitter: apre una nuova finestra
+Telegram: apre una nuova finestra
+Home
+Agenzia
+Avvisi
+Avvisi
+Elenco Avvisi
+Selezionando una delle voci disponibili vengono filtrate le informazioni in pagina
+Filtra per stato:
+Tutti gli stati
+In corso
+Scaduto
+Filtra per tipologia:
+Tutte le tipologie
+Cyber Innovation Network
+PNRR
+Ricerca
+Formazione
+Consapevolezza
+Strategia Nazionale
+Ricerca avanzata
+Cerca
+Avviso
+In corso
+BANDO PER IL FINANZIAMENTO DI 30 BORSE DI DOTTORATO PER IL XLII CICLO
+Data apertura
+05/03/26 ore 17:00
+Data chiusura
+02/04/26 ore 18:00
+Ricerca
+Avviso
+Scaduto
+Avviso per l’Erogazione di contributi a fondo perduto per il supporto alle Attività di sviluppo di Startup appartenenti al Portafoglio degli Operatori del Cyber Innovation Network
+Data apertura
+05/01/26 ore 10:00
+Data chiusura
+09/02/26 ore 17:00
+Cyber Innovation Network
+Avviso
+Scaduto
+Seconda Call per il Cybersecurity Incubation Program di I3P
+Data apertura
+07/12/25 ore 10:00
+Data chiusura
+07/01/26 ore 23:59
+Cyber Innovation Network
+Avviso
+Scaduto
+II Call per il programma GlitchZone di Scientifica VC
+Data apertura
+20/10/25 ore 09:00
+Data chiusura
+20/12/25 ore 23:59
+Cyber Innovation Network
+Avviso
+Scaduto
+Consultazione preliminare di mercato per l'acquisizione di servizi di analisi strategica, ricerche di mercato e benchmarking nel settore ICT e Cybersecurity
+Data apertura
+10/10/25 ore 09:00
+Data chiusura
+31/10/25 ore 16:00
+Avviso
+Scaduto
+Call per il FUCINA Cyber Lab di Alan Advantage
+Data apertura
+01/10/25 ore 09:00
+Data chiusura
+30/11/25 ore 23:59
+Cyber Innovation Network
+Avviso
+In corso
+Regolamento per lo svolgimento dei tirocini curriculari presso l’Agenzia per la cybersicurezza nazionale
+Data apertura
+04/08/25 ore 17:00
+Consapevolezza
+Formazione
+Avviso
+Scaduto
+Bando per il finanziamento di 125 borse di studio per studenti iscritti a percorsi formativi in cybersicurezza presso Istituti tecnologici superiori (ITS Academy) per il biennio 2024-2026
+Data apertura
+01/08/25 ore 12:30
+Data chiusura
+19/09/25 ore 13:00
+Formazione
+Avviso
+Scaduto
+Invito a manifestare interesse - Partnership per progetti nell'ambito del D.D.G. del DGMO MAECI n. 2600/10/2022
+Data apertura
+11/07/25 ore 16:00
+Data chiusura
+21/07/25 ore 16:00
+Avviso
+Scaduto
+Call per il Magic Mind Accelerator Program di Zest
+Data apertura
+30/06/25 ore 09:00
+Data chiusura
+11/07/25 ore 23:59
+Cyber Innovation Network
+Avviso
+Scaduto
+Bando per il finanziamento di 30 borse di dottorato di ricerca sulla cybersicurezza per il XLI Ciclo
+Data apertura
+24/02/25 ore 18:00
+Data chiusura
+26/03/25 ore 18:00
+Ricerca
+Avviso
+Scaduto
+Call per il programma GlitchZone di Scientifica VC
+Data apertura
+01/07/24 ore 09:00
+Data chiusura
+31/07/24 ore 23:59
+Cyber Innovation Network
+Avviso
+Scaduto
+Invito a manifestare interesse - Attivazione e potenziamento CSIRT settoriali
+Data apertura
+17/06/24 ore 18:00
+Data chiusura
+12/07/24 ore 18:00
+PNRR
+Avviso
+Scaduto
+Call per il Cybersecurity Incubation Program di I3P
+Data apertura
+02/05/24 ore 09:00
+Data chiusura
+14/06/24 ore 23:59
+Cyber Innovation Network
+Avviso
+Scaduto
+Call per il Cybershield Program di Nana Bianca
+Data apertura
+28/03/24 ore 09:00
+Data chiusura
+19/07/24 ore 23:59
+Cyber Innovation Network
+Avviso
+8/2024
+Scaduto
+Interventi di potenziamento della resilienza cyber - PA
+Data apertura
+26/02/24 ore 18:00
+Data chiusura
+12/04/24 ore 18:00
+PNRR
+Avviso
+Scaduto
+Invito a manifestare interesse - finanziamento borse di dottorato di ricerca sulla cybersicurezza per il XL ciclo
+Data apertura
+15/02/24 ore 17:00
+Data chiusura
+18/03/24 ore 18:00
+Ricerca
+Avviso
+Scaduto
+Strategia Nazionale di Cybersicurezza 2022-26 - Rilevazione degli interventi
+Data apertura
+01/01/24 ore 09:00
+Data chiusura
+15/02/24 ore 18:00
+Strategia Nazionale
+Avviso
+7/2023
+Scaduto
+Interventi di potenziamento della resilienza cyber - PA Centrale
+Data apertura
+11/10/23 ore 09:00
+Data chiusura
+05/12/23 ore 18:00
+PNRR
+Avviso
+6/2023
+Scaduto
+Attivazione e potenziamento CSIRT regionali
+Data apertura
+11/08/23 ore 15:00
+Data chiusura
+25/09/23 ore 18:00
+PNRR
+Prima pagina
+Pagina precedente
+Pagina
+1
+Pagina
+2
+Pagina successiva
+Ultima pagina
+sorta
+Ordina Per
+dataApertura
+parent_query
+Applica
+ddmFieldArray.ddmFieldName
+Applica
+classTypeId
+Applica
+Nascosta
+[FOOTER] Informazioni su
+[FOOTER] Agenzia per la
+[FOOTER] cybersicurezza nazionale
+[FOOTER] Contatti
+[FOOTER] info@acn.gov.it
+[FOOTER] Denunce, segnalazioni o esposti devono essere inviati alle competenti Forze di Polizia e/o Autorità amministrative e
+[FOOTER] non all’indirizzo e-mail dell’Agenzia
+[FOOTER] .
+[FOOTER] Per interviste, inviti ad eventi o manifestazioni
+[FOOTER] comunicazione@acn.gov.it
+[FOOTER] Link utili
+[FOOTER] Centro di Valutazione e Certificazione Nazionale
+[FOOTER] : apre una nuova finestra
+[FOOTER] Linee guida ACN
+[FOOTER] Referente per la cybersicurezza
+[FOOTER] Patrocinio
+[FOOTER] Lavora con noi
+[FOOTER] Domande frequenti
+[FOOTER] Trasparenza
+[FOOTER] Amministrazione trasparente
+[FOOTER] Atti di notifica
+[FOOTER] Piattaforma Whistleblowing
+[FOOTER] : apre una nuova finestra
+[FOOTER] Seguici su
+[FOOTER] Agenzia
+[FOOTER] linkedin: apre una nuova finestra
+[FOOTER] youtube: apre una nuova finestra
+[FOOTER] CSIRT Italia
+[FOOTER] Twitter: apre una nuova finestra
+[FOOTER] Telegram: apre una nuova finestra
+[FOOTER] RSS: apre una nuova finestra
+[FOOTER] Altre informazioni
+[FOOTER] Note legali
+[FOOTER] Privacy policy
+[FOOTER] Dichiarazione di accessibilità
+[FOOTER] : apre una nuova finestra
+[FOOTER] Social media policy
