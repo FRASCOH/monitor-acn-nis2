@@ -20,6 +20,11 @@ try:
 except ImportError:
     PyPDF2 = None
 
+try:
+    import google.generativeai as genai
+except ImportError:
+    genai = None
+
 # Configurazione e Stato
 os.makedirs("archive", exist_ok=True)
 STATE_FILE = "status.json"
@@ -459,6 +464,46 @@ def send_email(html_content, subject):
     except Exception as e:
         print(f"Errore invio email: {e}")
 
+def get_ai_summary(results_with_changes):
+    """Genera un riassunto delle modifiche usando Google Gemini"""
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not genai or not api_key:
+        return None
+    
+    try:
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel('gemini-1.5-flash')
+        
+        # Prepara il testo completo per l'AI
+        all_text = ""
+        for res in results_with_changes:
+            all_text += f"\n--- PAGINA: {res['name']} ---\n"
+            if res['additions']:
+                all_text += "AGGIUNTE:\n" + "\n".join(res['additions'][:15]) + "\n"
+            if res['removals']:
+                all_text += "RIMOZIONI:\n" + "\n".join(res['removals'][:15]) + "\n"
+
+        prompt = f"""
+        Sei un esperto di cybersecurity e normativa NIS2. 
+        Analizza le seguenti modifiche rilevate sul sito dell'Agenzia per la Cybersicurezza Nazionale (ACN).
+        Fornisci un breve riassunto esecutivo (max 150 parole) spiegando in modo semplice:
+        1. Qual è la natura principale dei cambiamenti.
+        2. Se ci sono impatti diretti per i soggetti obbligati NIS2 (es. nuove scadenze, requisiti tecnici).
+        3. Un consiglio rapido su come procedere.
+        
+        Usa un tono professionale ma accessibile. Rispondi in Italiano.
+        Usa grassetti per evidenziare i punti chiave.
+        
+        MODIFICHE RILEVATE:
+        {all_text}
+        """
+        
+        response = model.generate_content(prompt)
+        return response.text.replace("\n", "<br>")
+    except Exception as e:
+        print(f"Errore durante la generazione del riassunto AI: {e}")
+        return None
+
 def generate_summary_report(results_with_changes):
     """Genera un report HTML consolidato per tutte le pagine modificate"""
     now_str = get_now().strftime('%d/%m/%Y alle %H:%M')
@@ -476,6 +521,7 @@ def generate_summary_report(results_with_changes):
             .context-header {{ color: #2980b9; font-weight: bold; font-size: 0.9em; text-transform: uppercase; }}
             .context-footer {{ color: #8e44ad; font-weight: bold; font-size: 0.9em; text-transform: uppercase; }}
             .timestamp {{ color: #7f8c8d; font-size: 0.9em; font-style: italic; }}
+            .ai-summary {{ background: #eef2ff; border: 1px solid #c7d2fe; border-radius: 8px; padding: 20px; margin: 20px 0; border-left: 6px solid #6366f1; }}
             a {{ color: #3498db; text-decoration: none; }}
             a:hover {{ text-decoration: underline; }}
         </style>
@@ -485,6 +531,18 @@ def generate_summary_report(results_with_changes):
         <p class="timestamp">Sessione di monitoraggio del {now_str}</p>
         <p>Sono state rilevate modifiche in <strong>{len(results_with_changes)}</strong> risorse.</p>
     """
+    
+    # Ottieni il riassunto AI
+    ai_summary = get_ai_summary(results_with_changes)
+    if ai_summary:
+        html += f"""
+        <div class="ai-summary">
+            <h3 style="margin-top: 0; color: #4338ca; display: flex; align-items: center; gap: 10px;">
+                🤖 Analisi Intelligente (Gemini AI)
+            </h3>
+            <div style="line-height: 1.6;">{ai_summary}</div>
+        </div>
+        """
 
     # Raggruppa le pagine per set di modifiche identiche
     groups = {}
