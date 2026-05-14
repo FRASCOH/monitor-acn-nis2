@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACN NIS2 Monitor Dashboard</title>
     <link rel="icon" type="image/png" href="favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --primary: #6366f1;
+            --primary-light: #818cf8;
             --secondary: #a855f7;
             --bg: #0f172a;
-            --card-bg: rgba(30, 41, 59, 0.7);
+            --card-bg: rgba(30, 41, 59, 0.6);
+            --card-border: rgba(255, 255, 255, 0.1);
             --text: #f8fafc;
             --text-muted: #94a3b8;
-            --success: #22c55e;
+            --success: #10b981;
             --warning: #f59e0b;
             --danger: #ef4444;
-            --modal-bg: rgba(15, 23, 42, 0.95);
+            --modal-bg: rgba(15, 23, 42, 0.98);
+            --glass: rgba(255, 255, 255, 0.03);
         }
 
         * {
@@ -30,73 +33,118 @@
         body {
             background: var(--bg);
             background-image: 
-                radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
-                radial-gradient(at 100% 100%, rgba(168, 85, 247, 0.15) 0px, transparent 50%);
+                radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.1) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(168, 85, 247, 0.1) 0px, transparent 50%),
+                radial-gradient(at 50% 100%, rgba(99, 102, 241, 0.1) 0px, transparent 50%);
             color: var(--text);
             min-height: 100vh;
-            padding: 2rem;
-            line-height: 1.5;
+            padding-bottom: 4rem;
+            line-height: 1.6;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
+            padding: 0 1.5rem;
         }
 
+        /* Top Header & Stats */
         header {
+            padding: 3rem 0;
             text-align: center;
-            margin-bottom: 2rem;
-            animation: fadeInDown 0.8s ease-out;
+        }
+
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .brand img {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
         }
 
         h1 {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             font-weight: 700;
-            background: linear-gradient(to right, var(--primary), var(--secondary));
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #fff 30%, var(--primary-light));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 0.5rem;
         }
 
-        .last-update {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.5rem;
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 3rem;
+            animation: fadeInDown 0.8s ease-out;
         }
 
-        .pulse-dot {
-            width: 8px;
-            height: 8px;
-            background: var(--success);
-            border-radius: 50%;
-            display: inline-block;
-            box-shadow: 0 0 0 rgba(34, 197, 94, 0.4);
-            animation: pulse 2s infinite;
-        }
-
-        /* Filter Controls */
-        .controls {
+        .stat-card {
+            background: var(--glass);
+            border: 1px solid var(--card-border);
+            padding: 1.2rem;
+            border-radius: 1.2rem;
+            backdrop-filter: blur(10px);
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 1.5rem;
-            margin-bottom: 3rem;
-            animation: fadeIn 1s ease;
+            transition: transform 0.3s ease;
         }
 
-        .filter-row {
+        .stat-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 0.2rem;
+        }
+
+        .stat-icon {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Controls Section */
+        .controls-wrapper {
+            position: sticky;
+            top: 1rem;
+            z-index: 100;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(20px);
+            padding: 1rem;
+            border-radius: 2rem;
+            border: 1px solid var(--card-border);
+            margin-bottom: 3rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .controls {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
             gap: 1rem;
             flex-wrap: wrap;
         }
 
         .search-container {
-            width: 100%;
-            max-width: 500px;
+            flex: 1;
+            min-width: 300px;
             position: relative;
         }
 
@@ -105,18 +153,17 @@
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(255, 255, 255, 0.1);
             color: var(--text);
-            padding: 0.8rem 1.5rem;
-            padding-left: 3rem;
-            border-radius: 2rem;
-            font-size: 1rem;
+            padding: 0.8rem 1.2rem 0.8rem 3rem;
+            border-radius: 1.2rem;
+            font-size: 0.95rem;
             outline: none;
             transition: all 0.3s ease;
         }
 
         .search-input:focus {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.08);
             border-color: var(--primary);
-            box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
         }
 
         .search-icon {
@@ -124,301 +171,175 @@
             left: 1.2rem;
             top: 50%;
             transform: translateY(-50%);
-            color: var(--text-muted);
-            pointer-events: none;
+            opacity: 0.5;
+        }
+
+        .filters {
+            display: flex;
+            gap: 0.5rem;
+            overflow-x: auto;
+            padding: 0.2rem;
+            scrollbar-width: none;
         }
 
         .filter-btn {
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(255, 255, 255, 0.1);
-            color: var(--text);
+            color: var(--text-muted);
             padding: 0.6rem 1.2rem;
-            border-radius: 2rem;
+            border-radius: 1rem;
             cursor: pointer;
             font-size: 0.9rem;
-            transition: all 0.3s ease;
-            backdrop-filter: blur(5px);
+            font-weight: 500;
+            white-space: nowrap;
+            transition: all 0.2s ease;
         }
 
         .filter-btn:hover {
-            background: rgba(255, 255, 255, 0.15);
-            transform: translateY(-2px);
+            color: var(--text);
+            background: rgba(255, 255, 255, 0.1);
         }
 
         .filter-btn.active {
             background: var(--primary);
-            border-color: var(--primary);
             color: white;
-            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
-        }
-
-        /* Atti List View */
-        .atti-list {
-            display: flex;
-            flex-direction: column;
-            gap: 0.8rem;
-            width: 100%;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        .atti-item {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 1.2rem;
-            border-radius: 12px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
-        }
-
-        .atti-item:hover {
-            background: rgba(255, 255, 255, 0.07);
             border-color: var(--primary);
-            transform: translateX(5px);
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
         }
 
-        .atti-name {
-            font-size: 1rem;
-            font-weight: 500;
-            color: var(--text);
-            flex: 1;
-            padding-right: 1.5rem;
-        }
-
-        .atti-actions {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .empty-state {
-            text-align: center;
-            padding: 4rem;
-            color: var(--text-muted);
-            font-size: 1.2rem;
-        }
-
-        /* Sub-filters for Atti - Toolbar Style */
-        .sub-filters {
-            display: none;
-            justify-content: center;
-            align-items: center;
-            gap: 0.8rem;
-            margin-top: -1rem;
-            margin-bottom: 2rem;
-            padding: 1rem;
-            background: rgba(255, 255, 255, 0.03);
-            border-radius: 1.2rem;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            flex-wrap: wrap;
-            animation: fadeIn 0.5s ease;
-        }
-
-        .filter-group {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
+        .sort-select {
             background: rgba(255, 255, 255, 0.05);
-            padding: 0.3rem 0.8rem;
-            border-radius: 0.8rem;
             border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .filter-label {
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: var(--primary);
-            text-transform: uppercase;
-            letter-spacing: 0.03em;
-        }
-
-        .select-filter {
-            background: transparent;
-            border: none;
             color: var(--text);
-            padding: 0.3rem 0.5rem;
+            padding: 0.6rem 1rem;
+            border-radius: 1rem;
+            font-size: 0.9rem;
             outline: none;
             cursor: pointer;
-            font-size: 0.9rem;
-            font-weight: 500;
         }
 
-        .select-filter option {
-            background: var(--bg);
-            color: var(--text);
-        }
-
-        .btn-reset {
-            background: rgba(239, 68, 68, 0.1);
-            color: var(--danger);
-            border: 1px solid rgba(239, 68, 68, 0.2);
-            padding: 0.5rem 1rem;
-            border-radius: 0.8rem;
-            font-size: 0.85rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
-        }
-
-        .btn-reset:hover {
-            background: var(--danger);
-            color: white;
-            transform: scale(1.05);
-        }
-
-        /* Grid System */
+        /* Grid & Cards */
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
             gap: 1.5rem;
         }
 
         .card {
             background: var(--card-bg);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid var(--card-border);
             border-radius: 1.5rem;
-            padding: 1.5rem;
-            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease;
+            padding: 1.8rem;
             position: relative;
-            overflow: hidden;
-            animation: fadeInUp 0.5s ease-out backwards;
+            transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
             display: flex;
             flex-direction: column;
+            animation: fadeInUp 0.6s ease-out backwards;
         }
 
         .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            transform: translateY(-6px) scale(1.01);
             border-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            background: rgba(30, 41, 59, 0.8);
         }
 
-        .card::before {
+        .card.has-changes {
+            border-color: rgba(245, 158, 11, 0.3);
+        }
+
+        .card.has-changes::after {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            width: 4px;
-            height: 100%;
-            background: var(--primary);
-            opacity: 0.5;
-        }
-
-        .card.has-changes::before {
+            top: 1rem;
+            right: 1rem;
+            width: 10px;
+            height: 10px;
             background: var(--warning);
-            opacity: 1;
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--warning);
         }
 
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 1rem;
-            gap: 1rem;
-        }
-
-        .card-title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--text);
-            margin: 0;
-            line-height: 1.4;
-            flex: 1;
-            /* Gestione titoli lunghi: max 2 righe poi ellipsis */
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .status-badge {
-            padding: 0.3rem 0.7rem;
-            border-radius: 2rem;
-            font-size: 0.65rem;
+        .card-type {
+            font-size: 0.7rem;
             font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 0.05rem;
-            white-space: nowrap;
-            flex-shrink: 0;
-            display: flex;
-            align-items: center;
-            gap: 0.3rem;
-        }
-
-        .status-badge.status-ok {
-            background: rgba(16, 185, 129, 0.1);
-            color: #10b981;
-            border: 1px solid rgba(16, 185, 129, 0.2);
-        }
-
-        .status-badge.status-mod {
-            background: rgba(245, 158, 11, 0.2);
-            color: var(--warning);
-            border: 1px solid rgba(245, 158, 11, 0.3);
-            box-shadow: 0 0 10px rgba(245, 158, 11, 0.1);
-            animation: pulse-warning 2s infinite;
-        }
-
-        .status-badge.status-err {
-            background: rgba(239, 68, 68, 0.1);
-            color: var(--danger);
-            border: 1px solid rgba(239, 68, 68, 0.2);
-        }
-
-        @keyframes pulse-warning {
-            0% { transform: scale(1); opacity: 1; }
-            50% { transform: scale(1.05); opacity: 0.8; }
-            100% { transform: scale(1); opacity: 1; }
-        }
-
-        .card-body {
-            margin-bottom: 1.5rem;
-            flex-grow: 1;
-        }
-
-        .check-info {
-            font-size: 0.85rem;
-            color: var(--text-muted);
+            letter-spacing: 0.1em;
+            color: var(--primary-light);
             margin-bottom: 0.5rem;
         }
 
-        .summary-text {
-            font-size: 0.95rem;
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 1.2rem;
+            line-height: 1.4;
             color: var(--text);
-            min-height: 1.5rem;
+            display: block;
         }
 
-        .card-footer {
+        .card-meta {
+            margin-top: auto;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
             display: flex;
             justify-content: space-between;
-            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        .meta-label {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        .meta-value {
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .status-pill {
+            padding: 0.4rem 0.8rem;
+            border-radius: 2rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            background: rgba(255,255,255,0.05);
+        }
+
+        .status-pill.success { color: var(--success); background: rgba(16, 185, 129, 0.1); }
+        .status-pill.warning { color: var(--warning); background: rgba(245, 158, 11, 0.1); }
+        .status-pill.danger { color: var(--danger); background: rgba(239, 68, 68, 0.1); }
+
+        .card-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.8rem;
+            margin-top: 1.5rem;
         }
 
         .btn {
-            background: rgba(255, 255, 255, 0.05);
-            color: var(--text);
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border-radius: 0.75rem;
+            padding: 0.7rem;
+            border-radius: 1rem;
+            border: 1px solid rgba(255,255,255,0.1);
+            background: rgba(255,255,255,0.05);
+            color: white;
             font-size: 0.85rem;
             font-weight: 500;
-            transition: all 0.2s ease;
-            border: 1px solid rgba(255, 255, 255, 0.1);
             cursor: pointer;
             text-align: center;
-            flex: 1;
+            text-decoration: none;
+            transition: all 0.2s;
         }
 
         .btn:hover {
-            background: rgba(255, 255, 255, 0.1);
-            border-color: rgba(255, 255, 255, 0.2);
+            background: rgba(255,255,255,0.1);
+            border-color: rgba(255,255,255,0.2);
         }
 
         .btn-primary {
@@ -427,104 +348,72 @@
         }
 
         .btn-primary:hover {
-            filter: brightness(1.1);
-            background: var(--primary);
+            background: var(--primary-light);
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
         }
 
-        /* Modal Styles */
+        /* Modal Enhancement */
         #modal-overlay {
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            backdrop-filter: blur(8px);
+            inset: 0;
+            background: rgba(0,0,0,0.85);
+            backdrop-filter: blur(12px);
             z-index: 1000;
             display: none;
-            justify-content: center;
-            align-items: center;
+            place-items: center;
             padding: 2rem;
-            animation: fadeIn 0.3s ease;
         }
 
         #modal {
-            background: var(--card-bg);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: var(--bg);
+            border: 1px solid var(--card-border);
             border-radius: 2rem;
             width: 100%;
-            max-width: 800px;
+            max-width: 900px;
             max-height: 85vh;
             display: flex;
             flex-direction: column;
             overflow: hidden;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
         }
 
         .modal-header {
-            padding: 1.5rem 2rem;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            background: rgba(255,255,255,0.02);
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        .modal-title {
-            font-size: 1.25rem;
-            font-weight: 700;
-        }
-
-        .close-modal {
-            background: none;
-            border: none;
-            color: var(--text-muted);
-            font-size: 1.5rem;
-            cursor: pointer;
-            transition: color 0.2s;
-        }
-
-        .close-modal:hover { color: var(--text); }
-
-        .modal-content {
+        .modal-body {
             padding: 2rem;
             overflow-y: auto;
         }
 
-        .diff-section { margin-bottom: 2rem; }
-        .diff-section h3 { 
-            font-size: 0.9rem; 
-            text-transform: uppercase; 
-            margin-bottom: 1rem;
-            letter-spacing: 0.05em;
+        .diff-tag {
+            display: inline-block;
+            padding: 0.3rem 0.6rem;
+            border-radius: 0.5rem;
+            font-size: 0.7rem;
+            font-weight: 700;
+            margin-right: 0.5rem;
         }
-        .diff-add h3 { color: var(--success); }
-        .diff-rem h3 { color: var(--danger); }
 
-        .diff-item {
-            padding: 0.75rem 1rem;
-            border-radius: 0.75rem;
+        .tag-add { background: var(--success); color: white; }
+        .tag-rem { background: var(--danger); color: white; }
+
+        .diff-line {
+            padding: 0.8rem;
+            border-radius: 0.8rem;
             margin-bottom: 0.5rem;
+            background: rgba(255,255,255,0.03);
             font-size: 0.9rem;
-            border-left: 3px solid transparent;
+            border-left: 4px solid transparent;
         }
 
-        .item-add {
-            background: rgba(34, 197, 94, 0.1);
-            border-left-color: var(--success);
-        }
+        .line-add { border-color: var(--success); background: rgba(16, 185, 129, 0.05); }
+        .line-rem { border-color: var(--danger); background: rgba(239, 68, 68, 0.05); text-decoration: line-through; }
 
-        .item-rem {
-            background: rgba(239, 68, 68, 0.1);
-            border-left-color: var(--danger);
-        }
-
-        @keyframes pulse {
-            0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
-            70% { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
-        }
-
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
         @keyframes fadeInDown {
             from { opacity: 0; transform: translateY(-20px); }
             to { opacity: 1; transform: translateY(0); }
@@ -535,97 +424,114 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        .loader {
-            text-align: center;
-            padding: 5rem;
-            color: var(--text-muted);
-        }
-
         @media (max-width: 768px) {
-            body { padding: 1rem; }
             h1 { font-size: 2rem; }
             .grid { grid-template-columns: 1fr; }
-            #modal { max-height: 95vh; }
-            .controls { flex-wrap: wrap; }
+            .controls { flex-direction: column; align-items: stretch; }
+            .stats-bar { grid-template-columns: 1fr 1fr; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Monitor ACN NIS2</h1>
-            <div id="header-info" class="last-update">
-                <span class="pulse-dot"></span>
-                <span>In attesa dei dati...</span>
+            <div class="brand">
+                <img src="favicon.png" alt="Logo">
+                <h1>Monitor ACN NIS2</h1>
             </div>
+            <p style="color: var(--text-muted); margin-top: -0.5rem;">Intelligence e monitoraggio normativo in tempo reale</p>
         </header>
 
-        <div class="controls">
-            <div style="display: flex; gap: 1rem; width: 100%; max-width: 800px; flex-wrap: wrap; justify-content: center;">
-                <div class="search-container" style="flex: 2; min-width: 300px;">
+        <div class="stats-bar" id="stats-container">
+            <div class="stat-card">
+                <span class="stat-icon">📡</span>
+                <span class="stat-value" id="stat-total">-</span>
+                <span class="stat-label">Risorse Monitorate</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-icon">🔔</span>
+                <span class="stat-value" id="stat-modified" style="color: var(--warning);">-</span>
+                <span class="stat-label">Modifiche Recenti</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-icon">✅</span>
+                <span class="stat-value" id="stat-ok" style="color: var(--success);">-</span>
+                <span class="stat-label">Sistemi OK</span>
+            </div>
+        </div>
+
+        <div class="controls-wrapper">
+            <div class="controls">
+                <div class="search-container">
                     <span class="search-icon">🔍</span>
                     <input type="text" id="search-input" class="search-input" placeholder="Cerca tra documenti, stati o contenuti..." oninput="handleSearch()">
                 </div>
-                <div class="filter-group" style="flex: 1; min-width: 200px; margin-top: 0;">
-                    <span class="filter-label">Ordina</span>
-                    <select id="sort-select" class="select-filter" onchange="setSort(this.value)">
-                        <option value="default">Default</option>
-                        <option value="alpha">Alfabetico (A-Z)</option>
-                        <option value="recent_desc" selected>Modificati (Più recenti)</option>
-                        <option value="recent_asc">Modificati (Meno recenti)</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="filter-row">
-                <button class="filter-btn active" onclick="setFilter('pages', this)">Pagine Web</button>
-                <button class="filter-btn" onclick="setFilter('pdfs', this)">Documenti PDF</button>
-                <button class="filter-btn" onclick="setFilter('atti', this)">Registro Atti</button>
-            </div>
-            
-            <div id="sub-filters" class="sub-filters">
-                <div class="filter-group">
-                    <span class="filter-label">Tipo</span>
-                    <select id="type-filter" class="select-filter" onchange="renderDashboard()">
-                        <option value="all">Tutti</option>
-                    </select>
-                </div>
                 
-                <div class="filter-group">
-                    <span class="filter-label">Anno</span>
-                    <select id="year-filter" class="select-filter" onchange="renderDashboard()">
+                <div class="filters">
+                    <button class="filter-btn active" onclick="setFilter('pages', this)">Pagine Web</button>
+                    <button class="filter-btn" onclick="setFilter('pdfs', this)">Documenti PDF</button>
+                    <button class="filter-btn" onclick="setFilter('atti', this)">Registro Atti</button>
+                </div>
+
+                <select id="sort-select" class="sort-select" onchange="setSort(this.value)">
+                    <option value="recent_desc">Più Recenti</option>
+                    <option value="alpha">Alfabetico (A-Z)</option>
+                    <option value="recent_asc">Meno Recenti</option>
+                </select>
+            </div>
+
+            <!-- Sub-filters for Atti -->
+            <div id="atti-subfilters" style="display: none; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--card-border); gap: 0.8rem; flex-wrap: wrap; justify-content: center; animation: fadeIn 0.3s ease;">
+                <div class="stat-card" style="flex-direction: row; padding: 0.5rem 1rem; gap: 0.5rem; min-width: auto;">
+                    <span style="font-size: 0.7rem; font-weight: 700; color: var(--primary-light);">TIPO</span>
+                    <select id="type-filter" class="sort-select" style="padding: 0.2rem; border: none; background: transparent;" onchange="renderDashboard()">
                         <option value="all">Tutti</option>
                     </select>
                 </div>
-
-                <div class="filter-group">
-                    <span class="filter-label">Mese</span>
-                    <select id="month-filter" class="select-filter" onchange="renderDashboard()">
+                <div class="stat-card" style="flex-direction: row; padding: 0.5rem 1rem; gap: 0.5rem; min-width: auto;">
+                    <span style="font-size: 0.7rem; font-weight: 700; color: var(--primary-light);">ANNO</span>
+                    <select id="year-filter" class="sort-select" style="padding: 0.2rem; border: none; background: transparent;" onchange="renderDashboard()">
                         <option value="all">Tutti</option>
                     </select>
                 </div>
-
-                <button class="btn-reset" onclick="resetAttiFilters()">
-                    <span>🔄</span> Reset
-                </button>
+                <div class="stat-card" style="flex-direction: row; padding: 0.5rem 1rem; gap: 0.5rem; min-width: auto;">
+                    <span style="font-size: 0.7rem; font-weight: 700; color: var(--primary-light);">MESE</span>
+                    <select id="month-filter" class="sort-select" style="padding: 0.2rem; border: none; background: transparent;" onchange="renderDashboard()">
+                        <option value="all">Tutti</option>
+                    </select>
+                </div>
+                <button onclick="resetAttiFilters()" class="btn" style="width: auto; padding: 0.5rem 1rem; border-color: var(--danger); color: var(--danger);">Reset 🔄</button>
             </div>
         </div>
 
         <div id="dashboard-grid" class="grid">
-            <div class="loader">Caricamento in corso...</div>
+            <!-- Cards injected by JS -->
         </div>
+
+        <footer style="margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--card-border); text-align: center; color: var(--text-muted);">
+            <p style="font-size: 0.9rem; margin-bottom: 1rem;">Sviluppato con passione per la Cybersecurity Italiana</p>
+            <div style="display: flex; justify-content: center; gap: 1.5rem;">
+                <a href="https://github.com/FRASCOH" target="_blank" style="color: var(--text); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;">
+                    <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/lorenzo-frasconi/" target="_blank" style="color: var(--text); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;">
+                    <svg height="20" width="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    LinkedIn
+                </a>
+            </div>
+            <p style="margin-top: 1.5rem; font-size: 0.75rem; opacity: 0.6;">&copy; 2026 Lorenzo Frasconi. Tutti i diritti riservati.</p>
+        </footer>
     </div>
 
     <!-- Modal for Changes -->
     <div id="modal-overlay">
         <div id="modal">
             <div class="modal-header">
-                <div class="modal-title" id="modal-page-name">Dettaglio Modifiche</div>
-                <button class="close-modal" id="close-modal">&times;</button>
+                <h2 id="modal-page-name">Dettaglio Modifiche</h2>
+                <button onclick="closeModal()" style="background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer;">&times;</button>
             </div>
-            <div class="modal-content" id="modal-body">
-                <!-- Content injected by JS -->
-            </div>
+            <div class="modal-body" id="modal-body"></div>
         </div>
     </div>
 
@@ -638,54 +544,45 @@
         async function fetchStatus() {
             try {
                 const response = await fetch('status.json?t=' + new Date().getTime());
-                if (!response.ok) throw new Error('File status.json non trovato sul server.');
-                
-                const data = await response.json();
-                if (!data || !data.pages) throw new Error('Formato dati non valido in status.json');
-                
-                currentData = data;
-                
-                // Piccolo delay per assicurarsi che il DOM sia pronto al 100%
-                setTimeout(() => {
-                    renderDashboard();
-                }, 50);
-                
+                if (!response.ok) throw new Error('Dati non disponibili.');
+                currentData = await response.json();
+                updateStats();
+                renderDashboard();
             } catch (error) {
-                console.error("Errore critico caricamento:", error);
-                const grid = document.getElementById('dashboard-grid');
-                if (grid) {
-                    grid.innerHTML = `
-                        <div class="empty-state" style="color: var(--danger)">
-                            <div style="font-size: 3rem; margin-bottom: 1rem;">⚠️</div>
-                            <strong>Errore nel caricamento dei dati</strong><br>
-                            <small>${error.message}</small>
-                            <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted)">
-                                Verifica che lo script monitor_acn.py abbia generato il file status.json correttamente.
-                            </p>
-                        </div>
-                    `;
-                }
+                console.error(error);
+                document.getElementById('dashboard-grid').innerHTML = '<div style="text-align:center; padding: 5rem;">⚠️ Errore caricamento dati.</div>';
             }
         }
 
-        function setFilter(filter, btn) {
-            currentFilter = filter;
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-            if (btn) btn.classList.add('active');
+        function updateStats() {
+            if (!currentData) return;
+            const total = currentData.pages.length;
+            const modified = currentData.pages.filter(p => p.has_changes).length;
+            const errors = currentData.pages.filter(p => p.status.includes('Errore')).length;
             
-            const subFilters = document.getElementById('sub-filters');
-            if (filter === 'atti') {
-                if (subFilters) subFilters.style.display = 'flex';
+            document.getElementById('stat-total').innerText = total;
+            document.getElementById('stat-modified').innerText = modified;
+            document.getElementById('stat-ok').innerText = total - modified - errors;
+        }
+
+        function setFilter(f, btn) {
+            currentFilter = f;
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            
+            const attiSub = document.getElementById('atti-subfilters');
+            if (f === 'atti') {
+                attiSub.style.display = 'flex';
                 populateSubFilters();
             } else {
-                if (subFilters) subFilters.style.display = 'none';
+                attiSub.style.display = 'none';
             }
             
             renderDashboard();
         }
 
-        function setSort(sortType) {
-            currentSort = sortType;
+        function setSort(s) {
+            currentSort = s;
             renderDashboard();
         }
 
@@ -694,20 +591,14 @@
             renderDashboard();
         }
 
-        // Helper per convertire data "DD/MM/YYYY HH:MM" in oggetto Date
-        function parseItalianDate(dateStr) {
-            if (!dateStr) return new Date(0);
-            try {
-                const [datePart, timePart] = dateStr.split(' ');
-                const [d, m, y] = datePart.split('/');
-                if (timePart) {
-                    const [h, min] = timePart.split(':');
-                    return new Date(y, m - 1, d, h, min);
-                }
-                return new Date(y, m - 1, d);
-            } catch (e) {
-                return new Date(0);
-            }
+        function parseDate(s) {
+            if (!s) return new Date(0);
+            const parts = s.split(' ');
+            const datePart = parts[0];
+            const timePart = parts[1] || '00:00';
+            const [d, m, y] = datePart.split('/');
+            const [h, min] = timePart.split(':');
+            return new Date(y, m-1, d, h, min);
         }
 
         function resetAttiFilters() {
@@ -719,316 +610,157 @@
 
         function populateSubFilters() {
             const attiPage = currentData.pages.find(p => p.id === 'atti_generali');
-            const attiList = attiPage ? attiPage.atti_list : [];
-            
-            if (!attiList || attiList.length === 0) return;
+            const attiList = attiPage ? (attiPage.atti_list || []) : [];
+            if (attiList.length === 0) return;
 
             const typeFilter = document.getElementById('type-filter');
             const yearFilter = document.getElementById('year-filter');
             const monthFilter = document.getElementById('month-filter');
-            
-            const currentType = typeFilter.value;
-            const currentYear = yearFilter.value;
-            const currentMonth = monthFilter.value;
 
-            // Mappa mesi
-            const monthNames = {
-                "01": "Gennaio", "02": "Febbraio", "03": "Marzo", "04": "Aprile",
-                "05": "Maggio", "06": "Giugno", "07": "Luglio", "08": "Agosto",
-                "09": "Settembre", "10": "Ottobre", "11": "Novembre", "12": "Dicembre"
-            };
-
-            // Unique types, years, months
             const types = [...new Set(attiList.map(a => a.type).filter(Boolean))].sort();
             const years = [...new Set(attiList.map(a => a.year).filter(Boolean))].sort((a,b) => b-a);
             const months = [...new Set(attiList.map(a => a.month).filter(Boolean))].sort();
 
-            typeFilter.innerHTML = '<option value="all">Tutti</option>' + 
-                types.map(t => `<option value="${t}">${t}</option>`).join('');
-            
-            yearFilter.innerHTML = '<option value="all">Tutti</option>' + 
-                years.map(y => `<option value="${y}">${y}</option>`).join('');
+            const monthNames = {"01":"Gen", "02":"Feb", "03":"Mar", "04":"Apr", "05":"Mag", "06":"Giu", "07":"Lug", "08":"Ago", "09":"Set", "10":"Ott", "11":"Nov", "12":"Dic"};
 
-            monthFilter.innerHTML = '<option value="all">Tutti</option>' + 
-                months.map(m => `<option value="${m}">${monthNames[m] || m}</option>`).join('');
-
-            // Restore selection if still valid
-            if (types.includes(currentType)) typeFilter.value = currentType;
-            if (years.includes(currentYear)) yearFilter.value = currentYear;
-            if (months.includes(currentMonth)) monthFilter.value = currentMonth;
+            typeFilter.innerHTML = '<option value="all">Tutti</option>' + types.map(t => `<option value="${t}">${t}</option>`).join('');
+            yearFilter.innerHTML = '<option value="all">Tutti</option>' + years.map(y => `<option value="${y}">${y}</option>`).join('');
+            monthFilter.innerHTML = '<option value="all">Tutti</option>' + months.map(m => `<option value="${m}">${monthNames[m] || m}</option>`).join('');
         }
 
         function renderDashboard() {
-            if (!currentData || !currentData.pages) return;
+            const grid = document.getElementById('dashboard-grid');
+            grid.innerHTML = '';
 
-            try {
-                const headerInfo = document.getElementById('header-info');
-                headerInfo.innerHTML = `
-                    <span class="pulse-dot"></span>
-                    <span>Ultimo controllo globale: <strong>${currentData.last_update || 'N/A'}</strong></span>
-                `;
+            if (currentFilter === 'atti') {
+                grid.className = 'grid'; // Maintain grid or change to list
+                const attiPage = currentData.pages.find(p => p.id === 'atti_generali');
+                const attiList = attiPage ? (attiPage.atti_list || []) : [];
 
-                const grid = document.getElementById('dashboard-grid');
-                if (!grid) return;
-                grid.innerHTML = '';
+                const selectedType = document.getElementById('type-filter')?.value || 'all';
+                const selectedYear = document.getElementById('year-filter')?.value || 'all';
+                const selectedMonth = document.getElementById('month-filter')?.value || 'all';
 
-                // Se il filtro è 'atti', mostriamo la lista documenti speciale
-                if (currentFilter === 'atti') {
-                    grid.className = 'atti-list';
-                    
-                    populateSubFilters();
-                    
-                    const attiPage = currentData.pages.find(p => p.id === 'atti_generali');
-                    const attiList = attiPage ? (attiPage.atti_list || []) : [];
-
-                    if (attiList.length === 0) {
-                        grid.innerHTML = '<div class="empty-state">Nessun atto amministrativo trovato.</div>';
-                        return;
-                    }
-
-                    const selectedType = document.getElementById('type-filter')?.value || 'all';
-                    const selectedYear = document.getElementById('year-filter')?.value || 'all';
-                    const selectedMonth = document.getElementById('month-filter')?.value || 'all';
-
-                    const filteredAtti = attiList.filter(a => {
-                        const name = (a.name || '').toLowerCase();
-                        const matchesSearch = !searchQuery || name.includes(searchQuery);
-                        const matchesType = selectedType === 'all' || a.type === selectedType;
-                        const matchesYear = selectedYear === 'all' || a.year === selectedYear;
-                        const matchesMonth = selectedMonth === 'all' || a.month === selectedMonth;
-                        return matchesSearch && matchesType && matchesYear && matchesMonth;
-                    });
-
-                    if (filteredAtti.length === 0) {
-                        grid.innerHTML = '<div class="empty-state">Nessun documento corrisponde ai filtri selezionati.</div>';
-                        return;
-                    }
-
-                    filteredAtti.forEach(atto => {
-                        const item = document.createElement('div');
-                        item.className = 'atti-item';
-                        item.innerHTML = `
-                            <div style="flex: 1;">
-                                <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.3rem;">
-                                    <span class="status-badge" style="background: rgba(99, 102, 241, 0.1); color: var(--primary); border: 1px solid rgba(99, 102, 241, 0.2);">${atto.type || 'Atto'}</span>
-                                    ${atto.date ? `<span style="font-size: 0.8rem; color: var(--text-muted);">${atto.date}</span>` : ''}
-                                </div>
-                                <div class="atti-name">${atto.name || 'Senza titolo'}</div>
-                            </div>
-                            <div class="atti-actions">
-                                <a href="${atto.url || '#'}" target="_blank" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Apri Atto</a>
-                            </div>
-                        `;
-                        grid.appendChild(item);
-                    });
-                    return;
-                }
-
-                // Layout standard a Card
-                grid.className = 'grid';
-                
-                let filteredPages = currentData.pages.filter(page => {
-                    const name = (page.name || '').toLowerCase();
-                    const status = (page.status || '').toLowerCase();
-                    const summary = (page.summary || '').toLowerCase();
-                    const isPdf = name.includes('📄');
-                    
-                    const matchesSearch = !searchQuery || 
-                                        name.includes(searchQuery) || 
-                                        status.includes(searchQuery) ||
-                                        summary.includes(searchQuery);
-                    
-                    let matchesCategory = true;
-                    if (currentFilter === 'pages') matchesCategory = !isPdf;
-                    else if (currentFilter === 'pdf') matchesCategory = isPdf;
-                    
-                    return matchesSearch && matchesCategory;
+                const filteredAtti = attiList.filter(a => {
+                    const matchesSearch = !searchQuery || a.name.toLowerCase().includes(searchQuery);
+                    const matchesType = selectedType === 'all' || a.type === selectedType;
+                    const matchesYear = selectedYear === 'all' || a.year === selectedYear;
+                    const matchesMonth = selectedMonth === 'all' || a.month === selectedMonth;
+                    return matchesSearch && matchesType && matchesYear && matchesMonth;
                 });
 
-                // Ordinamento
-                if (currentSort === 'alpha') {
-                    filteredPages.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
-                } else if (currentSort === 'recent_desc' || currentSort === 'recent_asc') {
-                    filteredPages.sort((a, b) => {
-                        // 1. Priorità a chi ha modifiche
-                        if (a.has_changes && !b.has_changes) return -1;
-                        if (!a.has_changes && b.has_changes) return 1;
-                        
-                        // 2. Tra pari stato, ordina per data
-                        const dateA = parseItalianDate(a.last_change_date || a.last_check);
-                        const dateB = parseItalianDate(b.last_change_date || b.last_check);
-                        
-                        return currentSort === 'recent_desc' ? (dateB - dateA) : (dateA - dateB);
-                    });
-                }
-
-                if (filteredPages.length === 0) {
-                    grid.innerHTML = '<div class="empty-state">Nessun elemento trovato per i criteri selezionati.</div>';
+                if (filteredAtti.length === 0) {
+                    grid.innerHTML = '<div style="grid-column: 1/-1; text-align:center; padding: 5rem;">Nessun atto trovato con questi filtri.</div>';
                     return;
                 }
 
-                filteredPages.forEach((page, index) => {
-                const card = document.createElement('div');
-                card.className = `card ${page.has_changes ? 'has-changes' : ''}`;
-                card.style.animationDelay = `${index * 0.05}s`;
+                filteredAtti.forEach((a, idx) => {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.style.animationDelay = `${idx * 0.02}s`;
+                    card.innerHTML = `
+                        <div class="card-type">${a.type || 'ATTO'}</div>
+                        <h3 class="card-title" style="min-height: auto; margin-bottom: 0.5rem;">${a.name}</h3>
+                        <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1.5rem;">Data: ${a.date || 'N/A'}</div>
+                        <div class="card-actions" style="margin-top: auto; grid-template-columns: 1fr;">
+                            <a href="${a.url}" target="_blank" class="btn btn-primary">Apri Documento</a>
+                        </div>
+                    `;
+                    grid.appendChild(card);
+                });
+                return;
+            }
 
-                let statusClass = 'status-ok';
-                let statusLabel = '✓ OK';
+            // Normal Card Layout
+            grid.className = 'grid';
+            let filtered = currentData.pages.filter(p => {
+                const isPdf = (p.name || '').includes('📄');
+                const isAtto = p.id === 'atti_generali';
                 
-                if (page.status === 'Modificato' || page.status === 'Modificato (Recente)') {
-                    statusClass = 'status-mod';
-                    statusLabel = '🔔 Modificato';
-                } else if (page.status.includes('Errore')) {
-                    statusClass = 'status-err';
-                    statusLabel = '⚠️ Errore';
-                }
+                let catMatch = false;
+                if (currentFilter === 'pages') catMatch = !isPdf && !isAtto;
+                else if (currentFilter === 'pdfs') catMatch = isPdf;
+
+                const searchMatch = !searchQuery || 
+                                  p.name.toLowerCase().includes(searchQuery) ||
+                                  p.status.toLowerCase().includes(searchQuery);
+                
+                return catMatch && searchMatch;
+            });
+
+            filtered.sort((a, b) => {
+                if (currentSort === 'alpha') return a.name.localeCompare(b.name);
+                const da = parseDate(a.last_change_date || a.last_check);
+                const db = parseDate(b.last_change_date || b.last_check);
+                return currentSort === 'recent_desc' ? db - da : da - db;
+            });
+
+            filtered.forEach((p, idx) => {
+                const card = document.createElement('div');
+                card.className = `card ${p.has_changes ? 'has-changes' : ''}`;
+                card.style.animationDelay = `${idx * 0.05}s`;
+
+                let statusClass = 'success';
+                if (p.has_changes) statusClass = 'warning';
+                if (p.status.includes('Errore')) statusClass = 'danger';
 
                 card.innerHTML = `
-                    <div class="card-header">
-                        <h3 class="card-title" title="${page.name}">${page.name}</h3>
-                        <span class="status-badge ${statusClass}">${statusLabel}</span>
+                    <div class="card-type">${p.id.split('_')[0]}</div>
+                    <h3 class="card-title">${p.name}</h3>
+                    
+                    <div class="card-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Stato</span>
+                            <span class="status-pill ${statusClass}">${p.status}</span>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <div class="check-info">Controllato il: ${page.last_check}</div>
-                        ${page.last_change_date ? `<div class="check-info" style="color: var(--warning)">Ultima modifica rilevata: ${page.last_change_date}</div>` : ''}
-                        <div class="summary-text">${page.summary || 'Nessuna attività rilevata'}</div>
-                    </div>
-                    <div class="card-footer">
-                        <a href="${page.url}" target="_blank" class="btn">Apri Pagina</a>
-                        ${page.has_changes ? `<button onclick="showChanges('${page.name}')" class="btn btn-primary">Ultima Modifica</button>` : ''}
-                        ${page.has_history ? `<button onclick="showHistory('${page.id}', '${page.name}')" class="btn" style="border-color: var(--secondary); color: var(--secondary);">Storico</button>` : ''}
+
+                    <div class="card-actions">
+                        <a href="${p.url}" target="_blank" class="btn">Apri</a>
+                        ${p.has_changes ? `<button onclick="showChanges('${p.name}')" class="btn btn-primary">Novità</button>` : `<button onclick="showHistory('${p.id}', '${p.name}')" class="btn">Storico</button>`}
                     </div>
                 `;
                 grid.appendChild(card);
             });
-            } catch (error) {
-                console.error("Errore rendering dashboard:", error);
-            }
         }
 
-        async function showHistory(pageId, pageName) {
-            const modalOverlay = document.getElementById('modal-overlay');
-            const modalBody = document.getElementById('modal-body');
-            const modalTitle = document.getElementById('modal-page-name');
-
-            modalTitle.innerText = `Storico: ${pageName}`;
-            modalBody.innerHTML = '<div class="loader">Caricamento cronologia in corso...</div>';
-            modalOverlay.style.display = 'flex';
-            document.body.style.overflow = 'hidden';
+        async function showHistory(id, name) {
+            const body = document.getElementById('modal-body');
+            document.getElementById('modal-page-name').innerText = `Storico: ${name}`;
+            body.innerHTML = 'Caricamento...';
+            document.getElementById('modal-overlay').style.display = 'grid';
 
             try {
-                // Pulizia dell'ID per sicurezza nel fetch
-                const safeId = pageId.trim();
-                const response = await fetch(`archive/history_${safeId}.json?t=` + new Date().getTime());
-                
-                if (!response.ok) {
-                    throw new Error(`File di storico non trovato per questa pagina (ID: ${safeId})`);
-                }
-                
-                const history = await response.json();
-                modalBody.innerHTML = '';
-                
-                if (!history || history.length === 0) {
-                    modalBody.innerHTML = '<div class="empty-state">Nessuna modifica registrata nello storico per questa pagina.</div>';
-                    return;
-                }
-
-                history.forEach((entry, index) => {
-                    const entryDiv = document.createElement('div');
-                    entryDiv.className = 'history-entry';
-                    entryDiv.style.marginBottom = '2rem';
-                    entryDiv.style.padding = '1.5rem';
-                    entryDiv.style.background = 'rgba(255,255,255,0.02)';
-                    entryDiv.style.borderRadius = '1rem';
-                    entryDiv.style.border = '1px solid rgba(255,255,255,0.05)';
-                    
-                    let html = `<h3 style="color: var(--primary); margin-bottom: 1rem; font-size: 1rem;">📅 Rilevazione del ${entry.date_formatted}</h3>`;
-                    
-                    if (entry.additions && entry.additions.length > 0) {
-                        html += `<div class="diff-section diff-add"><h4 style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">✅ AGGIUNTE</h4>`;
-                        entry.additions.forEach(text => {
-                            html += `<div class="diff-item item-add">${text}</div>`;
-                        });
-                        html += `</div>`;
-                    }
-                    
-                    if (entry.removals && entry.removals.length > 0) {
-                        html += `<div class="diff-section diff-rem" style="margin-top: 1rem;"><h4 style="font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.5rem;">❌ RIMOZIONI</h4>`;
-                        entry.removals.forEach(text => {
-                            html += `<div class="diff-item item-rem">${text}</div>`;
-                        });
-                        html += `</div>`;
-                    }
-                    
-                    entryDiv.innerHTML = html;
-                    modalBody.appendChild(entryDiv);
-                });
-
-            } catch (error) {
-                console.error("Errore storico:", error);
-                modalBody.innerHTML = `
-                    <div class="empty-state" style="color: var(--danger)">
-                        <div style="font-size: 3rem; margin-bottom: 1rem;">⚠️</div>
-                        <strong>Errore nel caricamento</strong><br>
-                        <small>${error.message}</small>
-                        <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted)">
-                            Se la pagina non è mai stata modificata da quando è attivo il sistema di monitoraggio, lo storico non è ancora disponibile.
-                        </p>
+                const resp = await fetch(`archive/history_${id}.json`);
+                const history = await resp.json();
+                body.innerHTML = history.map(h => `
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="color: var(--primary-light); margin-bottom: 1rem;">📅 ${h.date_formatted}</h4>
+                        ${h.additions.map(a => `<div class="diff-line line-add"><span class="diff-tag tag-add">ADD</span>${a}</div>`).join('')}
+                        ${h.removals.map(r => `<div class="diff-line line-rem"><span class="diff-tag tag-rem">REM</span>${r}</div>`).join('')}
                     </div>
-                `;
+                `).join('');
+            } catch {
+                body.innerHTML = 'Nessuna cronologia disponibile per questa risorsa.';
             }
         }
 
-        function showChanges(pageName) {
-            const page = currentData.pages.find(p => p.name === pageName);
-            const modalOverlay = document.getElementById('modal-overlay');
-            const modalBody = document.getElementById('modal-body');
-            const modalTitle = document.getElementById('modal-page-name');
-
-            modalTitle.innerText = page.name;
-            modalBody.innerHTML = '';
-
-            if (page.additions && page.additions.length > 0) {
-                const addSection = document.createElement('div');
-                addSection.className = 'diff-section diff-add';
-                addSection.innerHTML = '<h3>✅ Aggiunte e Modifiche</h3>';
-                page.additions.forEach(text => {
-                    const item = document.createElement('div');
-                    item.className = 'diff-item item-add';
-                    item.innerText = text;
-                    addSection.appendChild(item);
-                });
-                modalBody.appendChild(addSection);
-            }
-
-            if (page.removals && page.removals.length > 0) {
-                const remSection = document.createElement('div');
-                remSection.className = 'diff-section diff-rem';
-                remSection.innerHTML = '<h3>❌ Rimozioni</h3>';
-                page.removals.forEach(text => {
-                    const item = document.createElement('div');
-                    item.className = 'diff-item item-rem';
-                    item.innerText = text;
-                    remSection.appendChild(item);
-                });
-                modalBody.appendChild(remSection);
-            }
-
-            modalOverlay.style.display = 'flex';
-            document.body.style.overflow = 'hidden';
+        function showChanges(name) {
+            const p = currentData.pages.find(x => x.name === name);
+            const body = document.getElementById('modal-body');
+            document.getElementById('modal-page-name').innerText = p.name;
+            
+            body.innerHTML = `
+                ${p.additions.map(a => `<div class="diff-line line-add"><span class="diff-tag tag-add">ADD</span>${a}</div>`).join('')}
+                ${p.removals.map(r => `<div class="diff-line line-rem"><span class="diff-tag tag-rem">REM</span>${r}</div>`).join('')}
+            `;
+            document.getElementById('modal-overlay').style.display = 'grid';
         }
-
-        document.getElementById('close-modal').onclick = closeModal;
-        document.getElementById('modal-overlay').onclick = (e) => {
-            if (e.target.id === 'modal-overlay') closeModal();
-        };
 
         function closeModal() {
             document.getElementById('modal-overlay').style.display = 'none';
-            document.body.style.overflow = 'auto';
         }
 
-        // Carica subito e poi ogni 60 secondi
         fetchStatus();
         setInterval(fetchStatus, 60000);
     </script>
