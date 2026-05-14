@@ -8,7 +8,7 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
@@ -877,8 +877,7 @@
           "year": "2025",
           "month": "02"
         }
-      ],
-      "last_change_date": "14/05/2026 14:50"
+      ]
     },
     {
       "id": "faq_nis_parent",
@@ -887,12 +886,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "nis_home",
@@ -901,12 +899,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "pdf_cb7f4eec7e",
@@ -941,12 +938,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "faq_nis_aggiornamento_delle_informazioni",
@@ -955,12 +951,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "faq_nis_misure_di_sicurezza_e_notifica_di_incidenti",
@@ -969,12 +964,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "faq_nis_settori_sottosettori_e_tipologie_di_soggetto",
@@ -983,12 +977,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "faq_nis_categorizzazione",
@@ -997,12 +990,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "faq_nis_profili_generali",
@@ -1011,12 +1003,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "faq_nis_ruoli_e_procedure",
@@ -1025,12 +1016,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "faq_nis_registrazione",
@@ -1039,12 +1029,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "nis_faq",
@@ -1053,12 +1042,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "nis_ambito",
@@ -1067,12 +1055,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "nis_modalita_specifiche_base",
@@ -1081,12 +1068,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "nis_aggiornamento_informazioni",
@@ -1095,12 +1081,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "nis_registrazione",
@@ -1109,12 +1094,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "nis_obblighi",
@@ -1123,12 +1107,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "nis_la_normativa",
@@ -1137,12 +1120,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "nis_notizie_ed_eventi",
@@ -1151,12 +1133,11 @@
       "last_check": "14/05/2026 14:50",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": [],
-      "last_change_date": "14/05/2026 14:50"
+      "atti_list": []
     },
     {
       "id": "pdf_80b8113e88",

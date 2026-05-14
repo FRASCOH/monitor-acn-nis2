@@ -570,15 +570,14 @@
                     <select id="sort-select" class="select-filter" onchange="setSort(this.value)">
                         <option value="default">Default</option>
                         <option value="alpha">Alfabetico (A-Z)</option>
-                        <option value="recent_desc">Modificati (Più recenti)</option>
+                        <option value="recent_desc" selected>Modificati (Più recenti)</option>
                         <option value="recent_asc">Modificati (Meno recenti)</option>
                     </select>
                 </div>
             </div>
 
             <div class="filter-row">
-                <button class="filter-btn active" onclick="setFilter('all', this)">Tutti</button>
-                <button class="filter-btn" onclick="setFilter('pages', this)">Pagine Web</button>
+                <button class="filter-btn active" onclick="setFilter('pages', this)">Pagine Web</button>
                 <button class="filter-btn" onclick="setFilter('pdfs', this)">Documenti PDF</button>
                 <button class="filter-btn" onclick="setFilter('atti', this)">Registro Atti</button>
             </div>
@@ -631,8 +630,8 @@
 
     <script>
         let currentData = null;
-        let currentFilter = 'all';
-        let currentSort = 'default';
+        let currentFilter = 'pages';
+        let currentSort = 'recent_desc';
         let searchQuery = '';
 
         async function fetchStatus() {
