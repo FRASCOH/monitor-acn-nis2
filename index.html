@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,6 +20,7 @@
             --success: #10b981;
             --warning: #f59e0b;
             --danger: #ef4444;
+            --new: #06b6d4;
             --modal-bg: rgba(15, 23, 42, 0.98);
             --glass: rgba(255, 255, 255, 0.03);
         }
@@ -32,7 +34,7 @@
 
         body {
             background: var(--bg);
-            background-image: 
+            background-image:
                 radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.1) 0px, transparent 50%),
                 radial-gradient(at 100% 0%, rgba(168, 85, 247, 0.1) 0px, transparent 50%),
                 radial-gradient(at 50% 100%, rgba(99, 102, 241, 0.1) 0px, transparent 50%);
@@ -131,7 +133,7 @@
             border-radius: 2rem;
             border: 1px solid var(--card-border);
             margin-bottom: 3rem;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         }
 
         .controls {
@@ -240,24 +242,29 @@
         .card:hover {
             transform: translateY(-6px) scale(1.01);
             border-color: rgba(255, 255, 255, 0.2);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
             background: rgba(30, 41, 59, 0.8);
         }
 
-        .card.has-changes {
-            border-color: rgba(245, 158, 11, 0.3);
-        }
-
-        .card.has-changes::after {
+        .card.has-changes::after,
+        .card.is-new::after {
             content: '';
             position: absolute;
             top: 1rem;
             right: 1rem;
             width: 10px;
             height: 10px;
-            background: var(--warning);
             border-radius: 50%;
+        }
+
+        .card.has-changes::after {
+            background: var(--warning);
             box-shadow: 0 0 10px var(--warning);
+        }
+
+        .card.is-new::after {
+            background: var(--new);
+            box-shadow: 0 0 10px var(--new);
         }
 
         .card-type {
@@ -309,12 +316,28 @@
             border-radius: 2rem;
             font-size: 0.75rem;
             font-weight: 600;
-            background: rgba(255,255,255,0.05);
+            background: rgba(255, 255, 255, 0.05);
         }
 
-        .status-pill.success { color: var(--success); background: rgba(16, 185, 129, 0.1); }
-        .status-pill.warning { color: var(--warning); background: rgba(245, 158, 11, 0.1); }
-        .status-pill.danger { color: var(--danger); background: rgba(239, 68, 68, 0.1); }
+        .status-pill.success {
+            color: var(--success);
+            background: rgba(16, 185, 129, 0.1);
+        }
+
+        .status-pill.warning {
+            color: var(--warning);
+            background: rgba(245, 158, 11, 0.1);
+        }
+
+        .status-pill.danger {
+            color: var(--danger);
+            background: rgba(239, 68, 68, 0.1);
+        }
+
+        .status-pill.new {
+            color: var(--new);
+            background: rgba(6, 182, 212, 0.1);
+        }
 
         .card-actions {
             display: grid;
@@ -326,8 +349,8 @@
         .btn {
             padding: 0.7rem;
             border-radius: 1rem;
-            border: 1px solid rgba(255,255,255,0.1);
-            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.05);
             color: white;
             font-size: 0.85rem;
             font-weight: 500;
@@ -338,8 +361,8 @@
         }
 
         .btn:hover {
-            background: rgba(255,255,255,0.1);
-            border-color: rgba(255,255,255,0.2);
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
         }
 
         .btn-primary {
@@ -356,7 +379,7 @@
         #modal-overlay {
             position: fixed;
             inset: 0;
-            background: rgba(0,0,0,0.85);
+            background: rgba(0, 0, 0, 0.85);
             backdrop-filter: blur(12px);
             z-index: 1000;
             display: none;
@@ -374,12 +397,12 @@
             display: flex;
             flex-direction: column;
             overflow: hidden;
-            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
         }
 
         .modal-header {
             padding: 2rem;
-            background: rgba(255,255,255,0.02);
+            background: rgba(255, 255, 255, 0.02);
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -399,39 +422,132 @@
             margin-right: 0.5rem;
         }
 
-        .tag-add { background: var(--success); color: white; }
-        .tag-rem { background: var(--danger); color: white; }
+        .tag-add {
+            background: var(--success);
+            color: white;
+        }
+
+        .tag-rem {
+            background: var(--danger);
+            color: white;
+        }
 
         .diff-line {
             padding: 0.8rem;
             border-radius: 0.8rem;
             margin-bottom: 0.5rem;
-            background: rgba(255,255,255,0.03);
+            background: rgba(255, 255, 255, 0.03);
             font-size: 0.9rem;
             border-left: 4px solid transparent;
         }
 
-        .line-add { border-color: var(--success); background: rgba(16, 185, 129, 0.05); }
-        .line-rem { border-color: var(--danger); background: rgba(239, 68, 68, 0.05); text-decoration: line-through; }
+        .line-add {
+            border-color: var(--success);
+            background: rgba(16, 185, 129, 0.05);
+        }
+
+        .line-rem {
+            border-color: var(--danger);
+            background: rgba(239, 68, 68, 0.05);
+            text-decoration: line-through;
+        }
+
+        /* Floating Disclaimer */
+        .disclaimer-trigger {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 40px;
+            height: 40px;
+            background: var(--glass);
+            border: 1px solid var(--card-border);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: var(--text-muted);
+            font-weight: 700;
+            z-index: 900;
+            transition: all 0.3s;
+            backdrop-filter: blur(10px);
+        }
+
+        .disclaimer-trigger:hover {
+            background: var(--primary);
+            color: white;
+            transform: scale(1.1);
+        }
+
+        /* Onboarding Button (Moved to Top) */
+        .onboarding-trigger {
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary-light);
+            padding: 0.5rem 1rem;
+            border-radius: 1rem;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .onboarding-trigger:hover {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
 
         @keyframes fadeInDown {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         @media (max-width: 768px) {
-            h1 { font-size: 2rem; }
-            .grid { grid-template-columns: 1fr; }
-            .controls { flex-direction: column; align-items: stretch; }
-            .stats-bar { grid-template-columns: 1fr 1fr; }
+            h1 {
+                font-size: 2rem;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .stats-bar {
+                grid-template-columns: 1fr 1fr;
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -439,7 +555,11 @@
                 <img src="favicon.png" alt="Logo">
                 <h1>Monitor ACN NIS2</h1>
             </div>
-            <p style="color: var(--text-muted); margin-top: -0.5rem;">Intelligence e monitoraggio normativo in tempo reale</p>
+            <p style="color: var(--text-muted); margin-top: -0.5rem;">Intelligence e monitoraggio normativo in tempo
+                reale</p>
+            <button class="onboarding-trigger" onclick="showOnboarding()">
+                <span>👋</span>Scopri come funziona
+            </button>
         </header>
 
         <div class="stats-bar" id="stats-container">
@@ -451,7 +571,12 @@
             <div class="stat-card">
                 <span class="stat-icon">🔔</span>
                 <span class="stat-value" id="stat-modified" style="color: var(--warning);">-</span>
-                <span class="stat-label">Modifiche Recenti</span>
+                <span class="stat-label">Modifiche</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-icon">✨</span>
+                <span class="stat-value" id="stat-new" style="color: var(--new);">-</span>
+                <span class="stat-label">Nuove Risorse</span>
             </div>
             <div class="stat-card">
                 <span class="stat-icon">✅</span>
@@ -464,9 +589,10 @@
             <div class="controls">
                 <div class="search-container">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="search-input" class="search-input" placeholder="Cerca tra documenti, stati o contenuti..." oninput="handleSearch()">
+                    <input type="text" id="search-input" class="search-input"
+                        placeholder="Cerca tra documenti, stati o contenuti..." oninput="handleSearch()">
                 </div>
-                
+
                 <div class="filters">
                     <button class="filter-btn active" onclick="setFilter('pages', this)">Pagine Web</button>
                     <button class="filter-btn" onclick="setFilter('pdfs', this)">Documenti PDF</button>
@@ -481,26 +607,32 @@
             </div>
 
             <!-- Sub-filters for Atti -->
-            <div id="atti-subfilters" style="display: none; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--card-border); gap: 0.8rem; flex-wrap: wrap; justify-content: center; animation: fadeIn 0.3s ease;">
+            <div id="atti-subfilters"
+                style="display: none; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--card-border); gap: 0.8rem; flex-wrap: wrap; justify-content: center; animation: fadeIn 0.3s ease;">
                 <div class="stat-card" style="flex-direction: row; padding: 0.5rem 1rem; gap: 0.5rem; min-width: auto;">
                     <span style="font-size: 0.7rem; font-weight: 700; color: var(--primary-light);">TIPO</span>
-                    <select id="type-filter" class="sort-select" style="padding: 0.2rem; border: none; background: transparent;" onchange="renderDashboard()">
+                    <select id="type-filter" class="sort-select"
+                        style="padding: 0.2rem; border: none; background: transparent;" onchange="renderDashboard()">
                         <option value="all">Tutti</option>
                     </select>
                 </div>
                 <div class="stat-card" style="flex-direction: row; padding: 0.5rem 1rem; gap: 0.5rem; min-width: auto;">
                     <span style="font-size: 0.7rem; font-weight: 700; color: var(--primary-light);">ANNO</span>
-                    <select id="year-filter" class="sort-select" style="padding: 0.2rem; border: none; background: transparent;" onchange="renderDashboard()">
+                    <select id="year-filter" class="sort-select"
+                        style="padding: 0.2rem; border: none; background: transparent;" onchange="renderDashboard()">
                         <option value="all">Tutti</option>
                     </select>
                 </div>
                 <div class="stat-card" style="flex-direction: row; padding: 0.5rem 1rem; gap: 0.5rem; min-width: auto;">
                     <span style="font-size: 0.7rem; font-weight: 700; color: var(--primary-light);">MESE</span>
-                    <select id="month-filter" class="sort-select" style="padding: 0.2rem; border: none; background: transparent;" onchange="renderDashboard()">
+                    <select id="month-filter" class="sort-select"
+                        style="padding: 0.2rem; border: none; background: transparent;" onchange="renderDashboard()">
                         <option value="all">Tutti</option>
                     </select>
                 </div>
-                <button onclick="resetAttiFilters()" class="btn" style="width: auto; padding: 0.5rem 1rem; border-color: var(--danger); color: var(--danger);">Reset 🔄</button>
+                <button onclick="resetAttiFilters()" class="btn"
+                    style="width: auto; padding: 0.5rem 1rem; border-color: var(--danger); color: var(--danger);">Reset
+                    🔄</button>
             </div>
         </div>
 
@@ -508,20 +640,246 @@
             <!-- Cards injected by JS -->
         </div>
 
-        <footer style="margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--card-border); text-align: center; color: var(--text-muted);">
+        <footer
+            style="margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--card-border); text-align: center; color: var(--text-muted);">
             <p style="font-size: 0.9rem; margin-bottom: 1rem;">Sviluppato con passione per la Cybersecurity Italiana</p>
             <div style="display: flex; justify-content: center; gap: 1.5rem;">
-                <a href="https://github.com/FRASCOH" target="_blank" style="color: var(--text); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;">
-                    <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                <a href="https://github.com/FRASCOH" target="_blank"
+                    style="color: var(--text); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;">
+                    <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                        </path>
+                    </svg>
                     GitHub
                 </a>
-                <a href="https://www.linkedin.com/in/lorenzo-frasconi/" target="_blank" style="color: var(--text); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;">
-                    <svg height="20" width="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <a href="https://www.linkedin.com/in/lorenzo-frasconi/" target="_blank"
+                    style="color: var(--text); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;">
+                    <svg height="20" width="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
                     LinkedIn
                 </a>
             </div>
-            <p style="margin-top: 1.5rem; font-size: 0.75rem; opacity: 0.6;">&copy; 2026 Lorenzo Frasconi. Tutti i diritti riservati.</p>
+            <p style="margin-top: 1.5rem; font-size: 0.75rem; opacity: 0.6;">&copy; 2026 Lorenzo Frasconi. Tutti i
+                diritti riservati.</p>
         </footer>
+    </div>
+
+    <!-- Floating Disclaimer Trigger -->
+    <div class="disclaimer-trigger" onclick="showDisclaimer()" title="Informazioni Legali">i</div>
+
+    <!-- Modal for Onboarding -->
+    <div id="onboarding-overlay"
+        style="position: fixed; inset: 0; background: rgba(0,0,0,0.9); backdrop-filter: blur(15px); z-index: 2000; display: none; place-items: center; padding: 1.5rem;">
+        <div id="modal"
+            style="max-width: 1000px; width: 90vw; background: var(--bg); border: 1px solid var(--card-border); border-radius: 2.5rem; overflow: hidden; box-shadow: 0 40px 100px rgba(0,0,0,0.6);">
+            <div class="modal-header"
+                style="padding: 2rem 2.5rem; background: rgba(255,255,255,0.02); border-bottom: 1px solid var(--card-border);">
+                <div style="display: flex; align-items: center; gap: 1.2rem;">
+                    <div
+                        style="background: linear-gradient(135deg, var(--primary), var(--secondary)); width: 45px; height: 45px; border-radius: 14px; display: grid; place-items: center; font-size: 1.3rem; box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);">
+                        👋</div>
+                    <div>
+                        <h2 style="margin: 0; font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em;">Benvenuto
+                            nel Monitor NIS2</h2>
+                        <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0; opacity: 0.8;">Scopri come
+                            semplifichiamo la tua conformità</p>
+                    </div>
+                </div>
+                <button onclick="closeOnboarding()"
+                    style="background: rgba(255,255,255,0.05); border: none; color: white; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; cursor: pointer; transition: 0.3s;">&times;</button>
+            </div>
+
+            <div class="modal-body" style="padding: 2.5rem;">
+                <!-- Intro Description -->
+                <p
+                    style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--card-border);">
+                    Questo portale è il tuo hub centralizzato per il monitoraggio dell'<strong>Agenzia per la
+                        Cybersicurezza Nazionale</strong>.
+                    Progettato per supportare la conformità <strong>NIS2</strong>, analizziamo ogni aggiornamento
+                    critico per fornirti informazioni tempestive e analisi AI avanzate.
+                </p>
+
+                <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 3rem; align-items: start;">
+
+                    <!-- Left: How it works & Features -->
+                    <div>
+                        <h3
+                            style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--primary-light); margin-bottom: 1.5rem; font-weight: 700;">
+                            Il Servizio in breve</h3>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin-bottom: 2rem;">
+                            <div
+                                style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.05);">
+                                <div style="font-size: 1.5rem; margin-bottom: 1rem;">🧠</div>
+                                <h4 style="font-size: 0.95rem; margin-bottom: 0.4rem;">AI Analysis</h4>
+                                <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">Riassunti
+                                    esecutivi di Gemini 1.5 sulle modifiche normative.</p>
+                            </div>
+                            <div
+                                style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.05);">
+                                <div style="font-size: 1.5rem; margin-bottom: 1rem;">⚡</div>
+                                <h4 style="font-size: 0.95rem; margin-bottom: 0.4rem;">Real-Time</h4>
+                                <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">Scansione
+                                    automatica ogni 5 minuti tramite GitHub Actions.</p>
+                            </div>
+                        </div>
+
+                        <div
+                            style="background: rgba(99, 102, 241, 0.05); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(99, 102, 241, 0.1);">
+                            <div style="display: flex; gap: 1rem; align-items: center;">
+                                <div style="font-size: 1.2rem;">🛡️</div>
+                                <div>
+                                    <h4 style="font-size: 0.9rem; color: var(--text);">Integrità del Dato</h4>
+                                    <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">Rileviamo
+                                        variazioni millimetriche dei contenuti e dei documenti PDF.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Legend & Actions -->
+                    <div style="display: flex; flex-direction: column; gap: 2rem;">
+                        <div>
+                            <h3
+                                style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--primary-light); margin-bottom: 1.5rem; font-weight: 700;">
+                                Guida agli Stati</h3>
+                            <div style="display: flex; flex-direction: column; gap: 1rem;">
+                                <div
+                                    style="display: flex; align-items: center; gap: 1rem; background: rgba(255,255,255,0.02); padding: 0.8rem 1.2rem; border-radius: 1rem;">
+                                    <div
+                                        style="width: 10px; height: 10px; border-radius: 50%; background: var(--success); box-shadow: 0 0 10px var(--success);">
+                                    </div>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Aggiornato</span>
+                                </div>
+                                <div
+                                    style="display: flex; align-items: center; gap: 1rem; background: rgba(255,255,255,0.02); padding: 0.8rem 1.2rem; border-radius: 1rem;">
+                                    <div
+                                        style="width: 10px; height: 10px; border-radius: 50%; background: var(--warning); box-shadow: 0 0 10px var(--warning);">
+                                    </div>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Cambiamento rilevato</span>
+                                </div>
+                                <div
+                                    style="display: flex; align-items: center; gap: 1rem; background: rgba(255,255,255,0.02); padding: 0.8rem 1.2rem; border-radius: 1rem;">
+                                    <div
+                                        style="width: 10px; height: 10px; border-radius: 50%; background: var(--new); box-shadow: 0 0 10px var(--new);">
+                                    </div>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Nuova risorsa inserita</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="padding-top: 1.5rem; border-top: 1px solid var(--card-border);">
+                            <p
+                                style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; text-align: center;">
+                                Hai bisogno di supporto?</p>
+                            <a href="https://www.linkedin.com/in/lorenzo-frasconi/" target="_blank"
+                                class="btn btn-primary"
+                                style="display: flex; align-items: center; justify-content: center; gap: 0.7rem; padding: 0.9rem; font-size: 0.9rem; border-radius: 1.2rem; width: 100%;">
+                                <svg height="18" width="18" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                </svg>
+                                Contattami su LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal for Onboarding -->
+    <div id="onboarding-overlay"
+        style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(12px); z-index: 2000; display: none; place-items: center; padding: 2rem;">
+        <div id="modal" style="max-width: 600px;">
+            <div class="modal-header">
+                <h2>Benvenuto sul Monitor ACN</h2>
+                <button onclick="closeOnboarding()"
+                    style="background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer;">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div style="margin-bottom: 2rem;">
+                    <h3 style="color: var(--primary-light); margin-bottom: 0.5rem;">🎯 A cosa serve questo portale?</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-muted);">
+                        Questo strumento monitora h24 le sezioni critiche del sito dell'Agenzia per la Cybersicurezza
+                        Nazionale (ACN) per aiutarti a rimanere aggiornato sulla normativa <strong>NIS2</strong> e sulle
+                        novità di settore senza dover controllare manualmente ogni giorno.
+                    </p>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
+                    <div>
+                        <h4 style="color: var(--text); margin-bottom: 0.5rem;">🤖 Intelligenza AI</h4>
+                        <p style="font-size: 0.85rem; color: var(--text-muted);">Analizziamo ogni modifica con Gemini AI
+                            per fornirti un riassunto immediato dell'impatto normativo.</p>
+                    </div>
+                    <div>
+                        <h4 style="color: var(--text); margin-bottom: 0.5rem;">🕒 Ogni 5 Minuti</h4>
+                        <p style="font-size: 0.85rem; color: var(--text-muted);">Il nostro "battito cardiaco" controlla
+                            costantemente testi, PDF e atti ufficiali.</p>
+                    </div>
+                    <div>
+                        <h4 style="color: var(--text); margin-bottom: 0.5rem;">📂 Archivio Storico</h4>
+                        <p style="font-size: 0.85rem; color: var(--text-muted);">Manteniamo traccia di ogni variazione
+                            avvenuta nel tempo, consultabile con un clic.</p>
+                    </div>
+                    <div>
+                        <h4 style="color: var(--text); margin-bottom: 0.5rem;">📄 Monitoraggio PDF</h4>
+                        <p style="font-size: 0.85rem; color: var(--text-muted);">Non solo pagine web: leggiamo dentro i
+                            documenti PDF per scovare modifiche nei testi.</p>
+                    </div>
+                </div>
+
+                <div
+                    style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 1rem; border: 1px solid var(--card-border);">
+                    <h4 style="margin-bottom: 0.5rem;">Legenda Colori Card:</h4>
+                    <ul style="font-size: 0.85rem; color: var(--text-muted); list-style: none; padding: 0;">
+                        <li>🟢 <strong style="color: var(--success);">Verde</strong>: Nessuna modifica rilevata.</li>
+                        <li>🟡 <strong style="color: var(--warning);">Arancione</strong>: Modifica rilevata (entro 15
+                            giorni).</li>
+                        <li>🔵 <strong style="color: var(--new);">Azzurro</strong>: Nuova pagina o documento aggiunto.
+                        </li>
+                    </ul>
+                </div>
+
+                <button onclick="closeOnboarding()" class="btn btn-primary"
+                    style="width: 100%; margin-top: 2rem;">Inizia il Monitoraggio</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Disclaimer -->
+    <div id="disclaimer-overlay"
+        style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(12px); z-index: 2000; display: none; place-items: center; padding: 2rem;">
+        <div id="modal" style="max-width: 500px;">
+            <div class="modal-header">
+                <h2>Disclaimer</h2>
+                <button onclick="closeDisclaimer()"
+                    style="background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer;">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p style="margin-bottom: 1rem; color: var(--text);">Questo servizio è uno strumento di supporto
+                    informativo <strong>non ufficiale</strong>.</p>
+                <p style="margin-bottom: 1rem; font-size: 0.9rem; color: var(--text-muted);">
+                    Sebbene sia progettato per monitorare costantemente le modifiche al sito dell'ACN, non è possibile
+                    garantire l'accuratezza, la completezza o la tempestività delle informazioni riportate.
+                </p>
+                <p style="margin-bottom: 1rem; font-size: 0.9rem; color: var(--text-muted);">
+                    <strong>Lorenzo Frasconi</strong> non si assume alcuna responsabilità per eventuali errori,
+                    omissioni, ritardi tecnici o per l'uso che verrà fatto di tali informazioni da parte di terzi.
+                </p>
+                <p style="font-size: 0.9rem; color: var(--text-muted);">
+                    Si consiglia di fare sempre riferimento esclusivo ai canali ufficiali dell'Agenzia per la
+                    Cybersicurezza Nazionale per ogni adempimento normativo o tecnico.
+                </p>
+                <button onclick="closeDisclaimer()" class="btn btn-primary" style="width: 100%; margin-top: 2rem;">Ho
+                    capito</button>
+            </div>
+        </div>
     </div>
 
     <!-- Modal for Changes -->
@@ -529,7 +887,8 @@
         <div id="modal">
             <div class="modal-header">
                 <h2 id="modal-page-name">Dettaglio Modifiche</h2>
-                <button onclick="closeModal()" style="background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer;">&times;</button>
+                <button onclick="closeModal()"
+                    style="background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer;">&times;</button>
             </div>
             <div class="modal-body" id="modal-body"></div>
         </div>
@@ -557,19 +916,21 @@
         function updateStats() {
             if (!currentData) return;
             const total = currentData.pages.length;
-            const modified = currentData.pages.filter(p => p.has_changes).length;
+            const newResources = currentData.pages.filter(p => p.status === 'Nuova risorsa aggiunta').length;
+            const modified = currentData.pages.filter(p => p.has_changes && p.status !== 'Nuova risorsa aggiunta').length;
             const errors = currentData.pages.filter(p => p.status.includes('Errore')).length;
-            
+
             document.getElementById('stat-total').innerText = total;
             document.getElementById('stat-modified').innerText = modified;
-            document.getElementById('stat-ok').innerText = total - modified - errors;
+            document.getElementById('stat-new').innerText = newResources;
+            document.getElementById('stat-ok').innerText = total - modified - newResources - errors;
         }
 
         function setFilter(f, btn) {
             currentFilter = f;
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            
+
             const attiSub = document.getElementById('atti-subfilters');
             if (f === 'atti') {
                 attiSub.style.display = 'flex';
@@ -577,7 +938,7 @@
             } else {
                 attiSub.style.display = 'none';
             }
-            
+
             renderDashboard();
         }
 
@@ -598,7 +959,7 @@
             const timePart = parts[1] || '00:00';
             const [d, m, y] = datePart.split('/');
             const [h, min] = timePart.split(':');
-            return new Date(y, m-1, d, h, min);
+            return new Date(y, m - 1, d, h, min);
         }
 
         function resetAttiFilters() {
@@ -618,10 +979,10 @@
             const monthFilter = document.getElementById('month-filter');
 
             const types = [...new Set(attiList.map(a => a.type).filter(Boolean))].sort();
-            const years = [...new Set(attiList.map(a => a.year).filter(Boolean))].sort((a,b) => b-a);
+            const years = [...new Set(attiList.map(a => a.year).filter(Boolean))].sort((a, b) => b - a);
             const months = [...new Set(attiList.map(a => a.month).filter(Boolean))].sort();
 
-            const monthNames = {"01":"Gen", "02":"Feb", "03":"Mar", "04":"Apr", "05":"Mag", "06":"Giu", "07":"Lug", "08":"Ago", "09":"Set", "10":"Ott", "11":"Nov", "12":"Dic"};
+            const monthNames = { "01": "Gen", "02": "Feb", "03": "Mar", "04": "Apr", "05": "Mag", "06": "Giu", "07": "Lug", "08": "Ago", "09": "Set", "10": "Ott", "11": "Nov", "12": "Dic" };
 
             typeFilter.innerHTML = '<option value="all">Tutti</option>' + types.map(t => `<option value="${t}">${t}</option>`).join('');
             yearFilter.innerHTML = '<option value="all">Tutti</option>' + years.map(y => `<option value="${y}">${y}</option>`).join('');
@@ -676,15 +1037,15 @@
             let filtered = currentData.pages.filter(p => {
                 const isPdf = (p.name || '').includes('📄');
                 const isAtto = p.id === 'atti_generali';
-                
+
                 let catMatch = false;
                 if (currentFilter === 'pages') catMatch = !isPdf && !isAtto;
                 else if (currentFilter === 'pdfs') catMatch = isPdf;
 
-                const searchMatch = !searchQuery || 
-                                  p.name.toLowerCase().includes(searchQuery) ||
-                                  p.status.toLowerCase().includes(searchQuery);
-                
+                const searchMatch = !searchQuery ||
+                    p.name.toLowerCase().includes(searchQuery) ||
+                    p.status.toLowerCase().includes(searchQuery);
+
                 return catMatch && searchMatch;
             });
 
@@ -697,11 +1058,14 @@
 
             filtered.forEach((p, idx) => {
                 const card = document.createElement('div');
-                card.className = `card ${p.has_changes ? 'has-changes' : ''}`;
+                const isNew = p.status === 'Nuova risorsa aggiunta';
+                card.className = `card ${p.has_changes && !isNew ? 'has-changes' : ''} ${isNew ? 'is-new' : ''}`;
                 card.style.animationDelay = `${idx * 0.05}s`;
 
                 let statusClass = 'success';
-                if (p.has_changes) statusClass = 'warning';
+                if (p.status === 'Nuova risorsa aggiunta') statusClass = 'new';
+                else if (p.has_changes) statusClass = 'warning';
+
                 if (p.status.includes('Errore')) statusClass = 'danger';
 
                 card.innerHTML = `
@@ -749,7 +1113,7 @@
             const p = currentData.pages.find(x => x.name === name);
             const body = document.getElementById('modal-body');
             document.getElementById('modal-page-name').innerText = p.name;
-            
+
             body.innerHTML = `
                 ${p.additions.map(a => `<div class="diff-line line-add"><span class="diff-tag tag-add">ADD</span>${a}</div>`).join('')}
                 ${p.removals.map(r => `<div class="diff-line line-rem"><span class="diff-tag tag-rem">REM</span>${r}</div>`).join('')}
@@ -761,8 +1125,25 @@
             document.getElementById('modal-overlay').style.display = 'none';
         }
 
+        function showDisclaimer() {
+            document.getElementById('disclaimer-overlay').style.display = 'grid';
+        }
+
+        function closeDisclaimer() {
+            document.getElementById('disclaimer-overlay').style.display = 'none';
+        }
+
+        function showOnboarding() {
+            document.getElementById('onboarding-overlay').style.display = 'grid';
+        }
+
+        function closeOnboarding() {
+            document.getElementById('onboarding-overlay').style.display = 'none';
+        }
+
         fetchStatus();
         setInterval(fetchStatus, 60000);
     </script>
 </body>
+
 </html>
