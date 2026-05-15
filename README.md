@@ -32,6 +32,17 @@ Il progetto è costruito su una filosofia **Serverless & GitOps**:
 
 ---
 
+## 🐋 Docker Usage
+
+Per chi preferisce eseguire il monitor in un ambiente isolato o su un server proprio:
+
+```bash
+docker pull ghcr.io/frascoh/cyber-monitor-main:latest
+docker run -e GEMINI_API_KEY="tua_chiave" -e EMAIL_SENDER="..." -v $(pwd)/archive:/app/archive ghcr.io/frascoh/cyber-monitor-main:latest
+```
+
+---
+
 ## ⚙️ Installazione e Setup Rapido
 
 Vuoi creare la tua istanza personalizzata? Segui questi passi:
