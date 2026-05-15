@@ -1,0 +1,32 @@
+name: Segnalazione Bug
+description: Aiutaci a migliorare segnalando un errore
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per la segnalazione! Descrivi il problema il più chiaramente possibile.
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrizione del Bug
+      description: Cosa è successo esattamente?
+      placeholder: Esempio lo script fallisce durante la lettura dei PDF...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passaggi per riprodurre
+      description: Come possiamo replicare l'errore?
+      placeholder: |
+        1. Eseguo lo script...
+        2. Succede X...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento atteso
+      description: Cosa ti aspettavi che succedesse?

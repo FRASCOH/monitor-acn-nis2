@@ -1,0 +1,18 @@
+name: Suggerimento Funzionalità
+description: Proponi una nuova idea per il monitor
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Descrizione dell'idea
+      description: Quale nuova funzione vorresti vedere nel progetto?
+      placeholder: Esempio mi piacerebbe avere l'integrazione con Telegram...
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Perché questa funzione è utile?
+      description: In che modo aiuta gli utenti del monitor?
