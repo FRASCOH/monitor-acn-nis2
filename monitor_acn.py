@@ -717,8 +717,11 @@ def monitor_page(page_config):
             save_state(paths, current_hash, current_text)
     else:
         print(f"📝 Prima esecuzione per {name} - salvataggio stato")
-        save_state(paths, current_hash, current_text)
+        now_iso = get_now().isoformat()
+        now_fmt = get_now().strftime('%d/%m/%Y %H:%M')
+        save_state(paths, current_hash, current_text, last_change_date=now_iso)
         result["status"] = "Nuova risorsa aggiunta"
+        result["last_change_date"] = now_fmt
     
     return list(set(discovered_urls)), result
 

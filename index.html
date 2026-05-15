@@ -1010,6 +1010,13 @@
                     return matchesSearch && matchesType && matchesYear && matchesMonth;
                 });
 
+                filteredAtti.sort((a, b) => {
+                    if (currentSort === 'alpha') return a.name.localeCompare(b.name);
+                    const da = parseDate(a.date);
+                    const db = parseDate(b.date);
+                    return currentSort === 'recent_desc' ? db - da : da - db;
+                });
+
                 if (filteredAtti.length === 0) {
                     grid.innerHTML = '<div style="grid-column: 1/-1; text-align:center; padding: 5rem;">Nessun atto trovato con questi filtri.</div>';
                     return;
@@ -1051,8 +1058,20 @@
 
             filtered.sort((a, b) => {
                 if (currentSort === 'alpha') return a.name.localeCompare(b.name);
-                const da = parseDate(a.last_change_date || a.last_check);
-                const db = parseDate(b.last_change_date || b.last_check);
+                
+                const getDate = (item) => {
+                    if (item.last_change_date) return parseDate(item.last_change_date);
+                    if (item.status === 'Nuova risorsa aggiunta') return parseDate(item.last_check);
+                    return new Date(0); // Fallback per mai modificati
+                };
+
+                const da = getDate(a);
+                const db = getDate(b);
+                
+                if (da.getTime() === db.getTime()) {
+                    return a.name.localeCompare(b.name);
+                }
+                
                 return currentSort === 'recent_desc' ? db - da : da - db;
             });
 
