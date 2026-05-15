@@ -163,7 +163,7 @@ Elenco dei Servizi in UE
 EDS.1 Quali organizzazioni devono elencare gli Stati membri in cui erogano servizi NIS?
 Tutti i soggetti NIS (essenziali e importanti) devono provvedere ad elencare gli Stati membri in cui erogano servizi NIS (e quali).
 EDS.2 Per quali servizi un’organizzazione deve indicare gli Stati membri in cui li eroga?
-Il soggetto NIS deve elencare tutti i servizi che dei servizi che rientrano nell’ambito di applicazione della direttiva 2022/2555 (ovvero tutti i servizi riconducibili alle tipologie di soggetto di cui agli allegati I,II, III e IV) e in quali Stati membri (inclusa l’Italia) sono erogati.
+Il soggetto NIS deve elencare tutti i servizi che rientrano nell’ambito di applicazione della direttiva 2022/2555 (ovvero tutti i servizi riconducibili alle tipologie di soggetto di cui agli allegati I,II, III e IV) e in quali Stati membri (inclusa l’Italia) sono erogati.
 EDS.3 In un gruppo di imprese quali organizzazioni devono inserire l'elenco degli Stati membri in cui erogano i servizi?
 L’obbligo di aggiornamento annuale deve essere assolto da ogni persona giuridica distintamente, anche se parte del medesimo gruppo.
 Pertanto, ove applicabile, il singolo soggetto NIS dovrà fornire l’elenco dei servizi che rientrano nell’ambito di applicazione della direttiva 2022/2555 che tale soggetto offre nell’UE indicando in quali Stati membri, ai sensi dell'articolo 16, comma 3, lettera c) della
@@ -245,13 +245,17 @@ Si osserva, inoltre, che ai fini della notifica è sufficiente comunicare l’es
 Fornitori rilevanti
 FRN.1 Per quale motivo nell’ambito dell’aggiornamento annuale delle informazioni devono essere indicati anche fornitori rilevanti NIS?
 L’articolo 3, comma 9, lettera f), del decreto NIS prevede che il decreto stesso si applichi, indipendentemente dalle dimensioni, a un soggetto considerato critico in quanto elemento sistemico della catena di approvvigionamento, anche digitale, di uno o più soggetti considerati essenziali o importanti ai sensi della disciplina NIS.
-Pertanto, è necessario, di conseguenza, acquisire le informazioni relative ai fornitori considerati rilevanti (fornitori rilevanti NIS) al fine di individuare tra di essi, d’intesa con le Autorità di settore, gli elementi sistemici della catena di approvvigionamento da individuare quali soggetti importanti o essenziali al fine di promuovere un adeguato livello di sicurezza informatica lungo la catena di approvvigionamento dei soggetti NIS.
+Pertanto, è necessario acquisire le informazioni relative ai fornitori considerati rilevanti (fornitori rilevanti NIS) al fine di individuare tra di essi, d’intesa con le Autorità di settore, gli elementi sistemici della catena di approvvigionamento da individuare quali soggetti importanti o essenziali al fine di promuovere un adeguato livello di sicurezza informatica lungo la catena di approvvigionamento dei soggetti NIS.
 FRN.2 Come si individuano i fornitori rilevanti NIS?
 Ai sensi dell’articolo 1, comma 1, lettera ll), della
 Determinazione ACN 127437/2026
 , un fornitore si considera “fornitore rilevante NIS” se fornisce servizi o prodotti a un soggetto NIS e soddisfa almeno uno dei seguenti criteri di rilevanza:
 la fornitura è riconducibile alle attività o ai servizi di cui all’allegato I, punti 8 e 9, del decreto NIS (fornitura ICT);
 l’interruzione o la compromissione della fornitura comportano un impatto significativo sulla capacità del soggetto NIS, anche per effetto della indisponibilità di fornitori alternativi, di erogare le attività o i servizi per i quali rientra nell’ambito di applicazione del decreto NIS (fornitura non fungibile).
+Si evidenzia che i criteri di rilevanza possono essere considerati in alternativa tra loro o congiuntamente. Di conseguenza, una fornitura può essere di tre tipi:
+fornitura ICT;
+fornitura non fungibile;
+fornitura ICT non fungibile.
 FRN.3 Quali informazioni devono essere comunicate in merito ai fornitori rilevanti NIS?
 Ai sensi dell’articolo 18 della
 Determinazione ACN 127437/2026
@@ -272,14 +276,19 @@ Allegato II.2 bis, Tabella D.1. nuovo Codice Appalti
 , è disponibile una corrispondenza di alto livello tra codici CPV e codici NACE/ATECO, utile per ricondurre, limitatamente ai codici in esso contenuti, le forniture alla classificazione delle attività economiche di riferimento. Si precisa che tale tabella non sostituisce l'elenco completo dei codici CPV previsti dal Regolamento (CE) n. 2195/2002 e, pertanto, la selezione definitiva dei codici CPV applicabili resta rimessa a ciascun soggetto sulla base dell'elenco completo contenuto nel predetto Regolamento.
 Infine, alla FAQ FRN.4 sono illustrati alcuni esempi di forniture con la relativa indicazione del CPV di riferimento.
 FRN.4 Quali sono alcuni esempi di forniture rilevanti NIS?
-Tenuto conto della definizione di fornitori rilevanti NIS, rientrano tutte le dipendenze digitali del soggetto NIS  nonché anche le dipendenze non digitali che non possono essere sostituite senza determinare un impatto significativo sulle attività e sui servizi NIS.
-Con riferimento a quest’ultimo criterio di rilevanza (forniture non fungibili – criterio di rilevanza b)), si evidenziano, in particolare:
+Tenuto conto della definizione di fornitori rilevanti NIS, rientrano tutte le dipendenze digitali del soggetto NIS nonché anche le dipendenze non digitali che non possono essere sostituite senza determinare un impatto significativo sulle attività e sui servizi NIS.
+Poiché i criteri di rilevanza possono essere considerati in alternativa tra loro o congiuntamente, una fornitura può essere di tre tipi:
+fornitura ICT;
+fornitura non fungibile;
+fornitura ICT non fungibile.
+Con riferimento a quest’ultima casistica (forniture ICT non fungibili – criteri di rilevanza a) e b)), si evidenzia, in particolare:
 Connettività (dati e voce, fissa e mobile), qualora non ridondata:
 CPV: Servizi di Internet [72400000-4], Fornitori di servizi Internet (ISP) [72411000-4], Servizi di trasmissione di dati [72318000-7]
+Con riferimento alla seconda casistica (forniture non fungibili – criterio di rilevanza b)), si evidenzia, in particolare:
 Corrente elettrica
 :
 CPV: Erogazione di energia elettrica [65310000-9], Erogazione di energia elettrica e servizi connessi [65300000-6].
-Con riferimento al primo criterio di rilevanza (forniture ICT – criterio di rilevanza a)), si evidenziano, in particolare:
+Con riferimento alla prima casistica (forniture ICT – criterio di rilevanza a)), si evidenziano, in particolare:
 Infrastrutture digitali
 :
 punti di interscambio internet - CPV: Servizi di interconnessione [64221000-1];
@@ -360,6 +369,21 @@ Servizi di consulenza e assistenza informatica
 72600000-6
 Servizi di audit e collaudo informatico
 72800000-8
+FRN.5 È necessario elencare fornitori esteri?
+Si, è necessario, oltre che opportuno, tenuto conto che la maggior parte di questi fornitori, anche se extra-UE, è soggetta alla Direttiva NIS, in Italia o in altri SM.
+FRN.6 È necessario elencare i fornitori di sedi estere di soggetti NIS nazionali?
+Si. Come indicato anche nella FAQ FRN.5, l’elencazione è necessaria, oltre che opportuna, tenuto conto che la maggior parte di questi fornitori, anche se extra-UE, è soggetta alla Direttiva NIS, in Italia o in altri SM.
+FRN.7 Se la fornitura rilevante è contrattualizzata tramite il fornitore A il quale si avvale del fornitore B come subfornitore, quale fornitore deve essere elencato?
+In linea generale è necessario segnalare il fornitore A. Il fornitore B viene in rilievo solo qualora sia palese il suo contributo alla fornitura rilevante. Sul punto, si veda anche la FAQ FRN.8
+FRN.8 Se la fornitura rilevante è contrattualizzata tramite il fornitore A ma effettivamente erogata dal fornitore B, quale fornitore deve essere elencato?
+In linea generale è necessario segnalare il fornitore B mentre è opportuna una ulteriore valutazione circa il fornitore A.
+In particolare, il fornitore A viene in rilievo quale rilevante, qualora non si occupi della sola facilitazione dell’acquisizione della fornitura del fornitore B (i.e., broker, vds FAQ A1.9.5), ma sia funzionale all’erogazione della fornitura stessa.
+Ad esempio, se l’organizzazione fruisce di un servizio SaaS del fornitore B la cui gestione applicativa è svolta dal fornitore A, entrambi sono fornitori rilevanti.
+Al contrario, se l’organizzazione acquista dal fornitore A le licenze per accedere al servizio SaaS del fornitore B e non ha necessità di ulteriori interazioni con A per gestire la fornitura, il fornitore A non appare rilevante.
+FRN.9 Un fornitore che fa parte del medesimo gruppo di imprese deve essere valutato ai fini dell’individuazione dei fornitori rilevanti?
+Si, al riguardo, viene in rilievo la FAQ FRN.8
+FRN.10 Come si compila il file excel nel caso in cui sia necessario indicare più CPV per uno stesso fornitore?
+Se un fornitore eroga fornitura/e riferite a più codici CPV, l'utente dovrà compilare nel file una nuova riga per ogni codice CPV indicando il medesimo fornitore.
 Nascosta
 [FOOTER] Informazioni su
 [FOOTER] Agenzia per la
