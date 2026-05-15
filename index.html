@@ -948,8 +948,15 @@
         }
 
         function handleSearch() {
-            searchQuery = document.getElementById('search-input').value.toLowerCase();
+            searchQuery = document.getElementById('search-input').value.toLowerCase().trim();
             renderDashboard();
+        }
+
+        function matchKeywords(text, query) {
+            if (!query) return true;
+            const keywords = query.split(/\s+/).filter(k => k.length > 0);
+            const lowerText = (text || '').toLowerCase();
+            return keywords.every(k => lowerText.includes(k));
         }
 
         function parseDate(s) {
@@ -1003,7 +1010,8 @@
                 const selectedMonth = document.getElementById('month-filter')?.value || 'all';
 
                 const filteredAtti = attiList.filter(a => {
-                    const matchesSearch = !searchQuery || a.name.toLowerCase().includes(searchQuery);
+                    const searchableText = `${a.name} ${a.type} ${a.date} ${a.year}`.toLowerCase();
+                    const matchesSearch = matchKeywords(searchableText, searchQuery);
                     const matchesType = selectedType === 'all' || a.type === selectedType;
                     const matchesYear = selectedYear === 'all' || a.year === selectedYear;
                     const matchesMonth = selectedMonth === 'all' || a.month === selectedMonth;
@@ -1049,9 +1057,15 @@
                 if (currentFilter === 'pages') catMatch = !isPdf && !isAtto;
                 else if (currentFilter === 'pdfs') catMatch = isPdf;
 
-                const searchMatch = !searchQuery ||
-                    p.name.toLowerCase().includes(searchQuery) ||
-                    p.status.toLowerCase().includes(searchQuery);
+                const searchableText = [
+                    p.name,
+                    p.status,
+                    p.summary,
+                    ...(p.additions || []),
+                    ...(p.removals || [])
+                ].join(' ');
+
+                const searchMatch = matchKeywords(searchableText, searchQuery);
 
                 return catMatch && searchMatch;
             });
