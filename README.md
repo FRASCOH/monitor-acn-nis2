@@ -1,47 +1,81 @@
-# Monitor ACN NIS2
+# 🛡️ Monitor ACN NIS2
+### Intelligence e monitoraggio normativo in tempo reale per la Cybersicurezza Italiana
 
-Un sistema automatizzato in Python per il monitoraggio continuo degli aggiornamenti pubblicati dall'Agenzia per la Cybersicurezza Nazionale (ACN) in materia di NIS2 e Atti Generali.
+[![GitHub Actions](https://img.shields.io/badge/Workflow-GitHub%20Actions-blue?logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![AI Powered](https://img.shields.io/badge/AI-Gemini%201.5%20Flash-6366f1?logo=google-gemini&logoColor=white)](https://deepmind.google/technologies/gemini/)
 
-Questo progetto è progettato per inviare notifiche email istantanee non appena viene rilevata una modifica sui siti istituzionali monitorati e offre una dashboard visiva dello stato di controllo, basata su GitHub Pages.
+**Monitor ACN NIS2** è uno strumento avanzato di *Regulatory Intelligence* progettato per professionisti della cybersecurity, DPO e consulenti legali. Il sistema monitora h24 le sezioni critiche del sito dell'**Agenzia per la Cybersicurezza Nazionale (ACN)**, rilevando ogni variazione normativa, tecnica o procedurale relativa alla direttiva **NIS2**.
 
-## Funzionalità Principali
+---
 
-*   **Monitoraggio Multi-Pagina**: Controlla contemporaneamente la sezione Atti Generali e tutto l'albero delle pagine relative alla NIS2 (FAQ comprese).
-*   **Discovery Automatica**: Identifica e aggiunge automaticamente al monitoraggio nuove sotto-pagine pubblicate all'interno delle sezioni principali (es. nuove sezioni FAQ).
-*   **Notifiche Email in Tempo Reale**: Invia una mail dettagliata con le differenze (aggiunte e rimozioni nel testo) non appena viene rilevata una modifica. Supporta l'invio a destinatari multipli.
-*   **Esecuzione Automatica su Cloud**: Utilizza GitHub Actions per eseguire lo script di controllo ogni 5 minuti in modo totalmente gratuito e senza necessità di un server dedicato.
-*   **Dashboard di Stato Integrata**: Include un'interfaccia web moderna (Glassmorphism, Dark Mode) ospitata su GitHub Pages che mostra lo stato in tempo reale di tutte le pagine monitorate (Modificato, Nessuna modifica, Errore).
+## 🚀 Funzionalità Chiave
 
-## Struttura del Progetto
+*   **🧠 Analisi Intelligente con AI**: Non solo notifiche. Ogni modifica rilevata viene analizzata da **Google Gemini 1.5 Flash** per produrre un riassunto esecutivo dell'impatto normativo e consigli azionati.
+*   **📡 Monitoraggio Real-Time**: Scansione automatica ogni 5 minuti tramite GitHub Actions, garantendo una tempestività impossibile con controlli manuali.
+*   **📄 Deep PDF Tracking**: Il sistema scarica e confronta il testo all'interno dei documenti PDF, scovando modifiche che spesso passano inosservate.
+*   **🎨 Dashboard Premium**: Un'interfaccia web moderna in *Glassmorphism* (Dark Mode) che offre una visione d'insieme immediata dello stato di tutte le risorse monitorate.
+*   **🔍 Ricerca Intelligente**: Motore di ricerca avanzato che scansiona non solo i titoli, ma anche il contenuto delle modifiche (additions/removals) e i riassunti AI.
+*   **📂 Registro Atti Automatizzato**: Estrazione e classificazione automatica di decreti, determine e circolari con filtri per tipo, anno e mese.
 
-*   `monitor_acn.py`: Lo script Python principale che si occupa di scaricare le pagine, calcolarne l'hash, confrontare le versioni e inviare le mail.
-*   `.github/workflows/monitor_acn.yml`: Il file di configurazione per GitHub Actions che schedula l'esecuzione dello script.
-*   `index.html`: La dashboard web per la visualizzazione dello stato.
-*   `status.json`: File generato automaticamente dallo script che alimenta i dati della dashboard.
-*   `page_content_*.txt` / `page_hash_*.json`: File di stato generati automaticamente per tenere traccia dell'ultima versione nota di ogni pagina.
+---
 
-## Come Installare e Configurare
+## 🛠️ Architettura Tecnica
 
-1.  **Clona o crea un fork di questo repository**.
-2.  **Configura i GitHub Secrets**:
-    Vai su *Settings > Secrets and variables > Actions* e aggiungi:
-    *   `EMAIL_SENDER`: Il tuo indirizzo Gmail da cui inviare le notifiche.
-    *   `EMAIL_PASSWORD`: La "Password per le app" di Google (non la tua password standard).
-    *   `EMAIL_RECEIVER`: Gli indirizzi email a cui inviare le notifiche (separati da virgola, es. `mario@email.it, luigi@email.it`).
-3.  **Abilita i permessi di scrittura per GitHub Actions**:
-    Vai su *Settings > Actions > General*, scorri fino a *Workflow permissions* e seleziona **Read and write permissions**. Questo è fondamentale affinché lo script possa aggiornare i file di stato (`status.json` e storici).
-4.  **Attiva la Dashboard (GitHub Pages)**:
-    Vai su *Settings > Pages*, imposta il *Source* su *Deploy from a branch*, scegli il branch `main` e la cartella `/(root)`, poi salva.
+Il progetto è costruito su una filosofia **Serverless & GitOps**:
 
-## Come Funziona il Discovery delle Pagine
+- **Core**: Python 3.10 per scraping (Requests), hashing e analisi differenziale.
+- **Automation**: GitHub Actions gestisce l'orchestrazione e la persistenza dei dati direttamente nel repository.
+- **Intelligence**: Integrazione con le API di Google Generative AI per l'interpretazione dei cambiamenti.
+- **Frontend**: Single Page Application in Vanilla JS/CSS ospitata su GitHub Pages per la massima velocità e affidabilità.
 
-Lo script analizza il codice HTML delle pagine genitore (come la home NIS e la home delle FAQ NIS) alla ricerca di URL che corrispondono a determinati pattern (es. `/portale/faq/nis/[\w-]+`). 
-Ogni nuovo link trovato che rientra in questa categoria viene automaticamente accodato per il monitoraggio. Questo garantisce che se l'ACN aggiunge nuove categorie di FAQ, il sistema le includerà senza alcun intervento manuale sul codice.
+---
 
-## Tecnologie Utilizzate
+## ⚙️ Installazione e Setup Rapido
 
-*   **Python 3.10**: Logica di scraping e hashing.
-*   **Requests**: Per il download delle pagine web.
-*   **smtplib / email**: Per la gestione e l'invio delle email HTML.
-*   **GitHub Actions**: Per l'orchestrazione CI/CD e l'esecuzione schedulata (cron jobs).
-*   **HTML/CSS/JS (Vanilla)**: Per la dashboard.
+Vuoi creare la tua istanza personalizzata? Segui questi passi:
+
+1.  **Fork del repository**: Crea una copia sul tuo account GitHub.
+2.  **Configura i Secret**: Vai su `Settings > Secrets and variables > Actions` e aggiungi:
+    *   `GEMINI_API_KEY`: La tua chiave API di Google AI Studio.
+    *   `EMAIL_SENDER` / `EMAIL_PASSWORD`: Credenziali SMTP per l'invio delle notifiche.
+    *   `EMAIL_RECEIVER`: Indirizzo email destinatario dei report.
+3.  **Permessi**: Assicurati che il workflow abbia i permessi di scrittura (`Settings > Actions > General > Workflow permissions > Read and write permissions`).
+4.  **GitHub Pages**: Abilita GitHub Pages sulla cartella root per visualizzare la dashboard.
+
+---
+
+## 📊 Dashboard in Anteprima
+
+La dashboard utilizza un design futuristico per rendere la consultazione dei dati un'esperienza piacevole ed efficiente. 
+
+*   🟢 **Verde**: Risorsa aggiornata.
+*   🟡 **Arancione**: Modifica rilevata negli ultimi 15 giorni.
+*   🔵 **Azzurro**: Nuova risorsa identificata dal sistema.
+
+---
+
+## 📝 Disclaimer
+
+*Questo progetto è uno strumento informativo **non ufficiale** sviluppato a scopo di supporto alla conformità. Non garantisce l'accuratezza totale delle informazioni e non sostituisce in alcun modo i canali ufficiali dell'Agenzia per la Cybersicurezza Nazionale.*
+
+---
+
+## 👨‍💻 Autore
+
+**Lorenzo Frasconi**
+*Esperto di Cybersecurity, AI e automazione.*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/lorenzo-frasconi/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/FRASCOH)
+
+---
+
+## 📄 Licenza
+
+Distribuito sotto Licenza MIT. Vedi `LICENSE` per maggiori informazioni.
+
+---
+*Developed with ❤️ for the Italian Cybersecurity Community.*
+
