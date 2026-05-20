@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACN NIS2 Monitor Dashboard</title>
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -42,6 +42,7 @@
             min-height: 100vh;
             padding-bottom: 4rem;
             line-height: 1.6;
+            overflow-x: hidden;
         }
 
         .container {
@@ -174,6 +175,26 @@
             top: 50%;
             transform: translateY(-50%);
             opacity: 0.5;
+        }
+
+        .clear-btn {
+            position: absolute;
+            right: 1.2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 1.2rem;
+            display: none;
+            padding: 0.5rem;
+            transition: color 0.2s;
+            z-index: 10;
+        }
+
+        .clear-btn:hover {
+            color: var(--primary);
         }
 
         .filters {
@@ -340,10 +361,18 @@
         }
 
         .card-actions {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+            display: flex;
             gap: 0.8rem;
             margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .card-actions>* {
+            flex: 1;
+            min-width: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .btn {
@@ -376,15 +405,18 @@
         }
 
         /* Modal Enhancement */
-        #modal-overlay {
+        .overlay-backdrop {
             position: fixed;
             inset: 0;
             background: rgba(0, 0, 0, 0.85);
             backdrop-filter: blur(12px);
             z-index: 1000;
-            display: none;
             place-items: center;
             padding: 2rem;
+        }
+
+        #modal-overlay {
+            display: none;
         }
 
         #modal {
@@ -411,6 +443,7 @@
         .modal-body {
             padding: 2rem;
             overflow-y: auto;
+            overflow-x: hidden;
         }
 
         .diff-tag {
@@ -420,6 +453,27 @@
             font-size: 0.7rem;
             font-weight: 700;
             margin-right: 0.5rem;
+        }
+
+        .onboarding-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .onboarding-main-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 3rem;
+            align-items: start;
+        }
+
+        .onboarding-features-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.2rem;
+            margin-bottom: 2rem;
         }
 
         .tag-add {
@@ -439,6 +493,10 @@
             background: rgba(255, 255, 255, 0.03);
             font-size: 0.9rem;
             border-left: 4px solid transparent;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            word-break: break-word;
+            white-space: pre-wrap;
         }
 
         .line-add {
@@ -564,31 +622,193 @@
             border-radius: 1rem;
             z-index: 2000;
             display: none;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
             animation: slideUp 0.3s ease-out;
         }
 
         @keyframes slideUp {
-            from { transform: translate(-50%, 100%); opacity: 0; }
-            to { transform: translate(-50%, 0); opacity: 1; }
+            from {
+                transform: translate(-50%, 100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translate(-50%, 0);
+                opacity: 1;
+            }
         }
 
         @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+            }
+
+            header {
+                padding: 1.5rem 0 1rem 0;
+                gap: 0.8rem;
+                text-align: center;
+            }
+
+            .brand {
+                flex-direction: row;
+                justify-content: center;
+                gap: 0.8rem;
+                align-items: center;
+            }
+
+            .brand img {
+                width: 32px;
+                height: 32px;
+            }
+
             h1 {
-                font-size: 2rem;
+                font-size: 1.5rem;
+            }
+
+            header p {
+                font-size: 0.85rem;
+                max-width: 280px;
+                margin: 0 auto;
+            }
+
+            .onboarding-trigger {
+                padding: 0.5rem 1rem;
+                font-size: 0.8rem;
+                width: auto;
+                margin: 0.5rem auto 0 auto;
+            }
+
+            .stats-bar {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 0.3rem;
+                margin-top: 0.5rem;
+            }
+
+            .stat-card {
+                padding: 0.5rem 0.1rem;
+                border-radius: 0.8rem;
+            }
+
+            .stat-icon {
+                font-size: 1rem;
+            }
+
+            .stat-value {
+                font-size: 1rem;
+            }
+
+            .stat-label {
+                font-size: 0.45rem;
+                text-transform: uppercase;
+                letter-spacing: 0.02em;
+                opacity: 0.8;
+                white-space: nowrap;
             }
 
             .grid {
                 grid-template-columns: 1fr;
             }
 
-            .controls {
-                flex-direction: column;
-                align-items: stretch;
+            .card-title {
+                font-size: 1rem !important;
+                margin-bottom: 1rem !important;
             }
 
-            .stats-bar {
+            .card-meta {
+                padding-top: 1rem !important;
+            }
+
+            .btn {
+                padding: 0.6rem 0.8rem;
+                font-size: 0.85rem;
+            }
+
+            .search-input {
+                padding: 0.8rem 1rem 0.8rem 2.5rem;
+                font-size: 0.95rem;
+                height: 44px;
+            }
+
+            .search-icon {
+                left: 1rem;
+            }
+
+            .mobile-filter-toggle {
+                display: flex !important;
+                align-items: center;
+                justify-content: center;
+                background: var(--primary);
+                color: white;
+                border: none;
+                padding: 0;
+                width: 44px;
+                height: 44px;
+                border-radius: 1.2rem;
+                cursor: pointer;
+                flex-shrink: 0;
+            }
+
+            .filters,
+            .sort-select {
+                display: none !important;
+            }
+
+            .filters.active,
+            .sort-select.active {
+                display: flex !important;
+            }
+
+            .sort-select.active {
+                display: block !important;
+            }
+
+            .filters {
+                display: grid;
                 grid-template-columns: 1fr 1fr;
+                width: 100%;
+                gap: 0.5rem;
+            }
+
+            .filters button:last-child {
+                grid-column: span 2;
+            }
+
+            .sort-select {
+                width: 100%;
+                margin-left: 0;
+            }
+
+            #modal {
+                width: 95%;
+                margin: 0;
+            }
+
+            .overlay-backdrop {
+                padding: 1rem;
+            }
+
+            .modal-header, .modal-body {
+                padding: 1rem;
+            }
+
+            .modal-header h2 {
+                font-size: 1.3rem;
+            }
+
+            .onboarding-main-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .onboarding-features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Rimuoviamo l'override per 480px che forzava la colonna singola */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.3rem;
             }
         }
     </style>
@@ -599,7 +819,7 @@
     <div class="container">
         <header>
             <div class="brand">
-                <img src="favicon.png" alt="Logo">
+                <img src="favicon.svg" alt="Logo">
                 <h1>Monitor ACN NIS2</h1>
             </div>
             <p style="color: var(--text-muted); margin-top: -0.5rem;">Intelligence e monitoraggio normativo in tempo
@@ -613,7 +833,7 @@
             <div class="stat-card">
                 <span class="stat-icon">📡</span>
                 <span class="stat-value" id="stat-total">-</span>
-                <span class="stat-label">Risorse Monitorate</span>
+                <span class="stat-label">Risorse</span>
             </div>
             <div class="stat-card">
                 <span class="stat-icon">🔔</span>
@@ -623,26 +843,44 @@
             <div class="stat-card">
                 <span class="stat-icon">✨</span>
                 <span class="stat-value" id="stat-new" style="color: var(--new);">-</span>
-                <span class="stat-label">Nuove Risorse</span>
+                <span class="stat-label">Nuove</span>
             </div>
             <div class="stat-card">
                 <span class="stat-icon">✅</span>
                 <span class="stat-value" id="stat-ok" style="color: var(--success);">-</span>
-                <span class="stat-label">Sistemi OK</span>
+                <span class="stat-label">OK</span>
             </div>
         </div>
 
         <div class="controls-wrapper">
             <div class="controls">
-                <div class="search-container">
-                    <span class="search-icon">🔍</span>
-                    <input type="text" id="search-input" class="search-input"
-                        placeholder="Cerca tra documenti, stati o contenuti..." oninput="handleSearch()">
+                <div class="search-container" style="display: flex; gap: 0.5rem; align-items: stretch;">
+                    <div style="position: relative; flex: 1; display: flex; align-items: center;">
+                        <span class="search-icon" style="display: flex; align-items: center;">
+                            <svg style="width: 16px; height: 16px;" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
+                        </span>
+                        <input type="text" id="search-input" class="search-input"
+                            placeholder="Cerca tra documenti, stati o contenuti..." oninput="handleSearch()">
+                        <button id="clear-search" class="clear-btn" onclick="clearSearch()">&times;</button>
+                    </div>
+                    <button class="mobile-filter-toggle" id="filter-toggle" onclick="toggleMobileFilters()"
+                        style="display: none;">
+                        <svg style="width: 20px; height: 20px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z">
+                            </path>
+                        </svg>
+                    </button>
                 </div>
 
                 <div class="filters">
                     <button class="filter-btn active" onclick="setFilter('pages', this)">Pagine Web</button>
                     <button class="filter-btn" onclick="setFilter('pdfs', this)">Documenti PDF</button>
+                    <button class="filter-btn" onclick="setFilter('globals', this)">Componenti Globali</button>
                     <button class="filter-btn" onclick="setFilter('atti', this)">Registro Atti</button>
                 </div>
 
@@ -718,12 +956,12 @@
     <div class="disclaimer-trigger" onclick="showDisclaimer()" title="Informazioni Legali">i</div>
 
     <!-- Modal for Onboarding -->
-    <div id="onboarding-overlay"
-        style="position: fixed; inset: 0; background: rgba(0,0,0,0.9); backdrop-filter: blur(15px); z-index: 2000; display: none; place-items: center; padding: 1.5rem;">
+    <div id="onboarding-overlay" class="overlay-backdrop"
+        style="background: rgba(0,0,0,0.9); z-index: 2000;">
         <div id="modal"
             style="max-width: 1000px; width: 90vw; background: var(--bg); border: 1px solid var(--card-border); border-radius: 2.5rem; overflow: hidden; box-shadow: 0 40px 100px rgba(0,0,0,0.6);">
             <div class="modal-header"
-                style="padding: 2rem 2.5rem; background: rgba(255,255,255,0.02); border-bottom: 1px solid var(--card-border);">
+                style="background: rgba(255,255,255,0.02); border-bottom: 1px solid var(--card-border);">
                 <div style="display: flex; align-items: center; gap: 1.2rem;">
                     <div
                         style="background: linear-gradient(135deg, var(--primary), var(--secondary)); width: 45px; height: 45px; border-radius: 14px; display: grid; place-items: center; font-size: 1.3rem; box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);">
@@ -739,7 +977,7 @@
                     style="background: rgba(255,255,255,0.05); border: none; color: white; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; cursor: pointer; transition: 0.3s;">&times;</button>
             </div>
 
-            <div class="modal-body" style="padding: 2.5rem;">
+            <div class="modal-body" style="max-height: 85vh; overflow-y: auto;">
                 <!-- Intro Description -->
                 <p
                     style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--card-border);">
@@ -749,7 +987,7 @@
                     critico per fornirti informazioni tempestive e analisi AI avanzate.
                 </p>
 
-                <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 3rem; align-items: start;">
+                <div class="onboarding-main-grid">
 
                     <!-- Left: How it works & Features -->
                     <div>
@@ -757,7 +995,7 @@
                             style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--primary-light); margin-bottom: 1.5rem; font-weight: 700;">
                             Il Servizio in breve</h3>
 
-                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin-bottom: 2rem;">
+                        <div class="onboarding-features-grid">
                             <div
                                 style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.05);">
                                 <div style="font-size: 1.5rem; margin-bottom: 1rem;">🧠</div>
@@ -839,69 +1077,8 @@
     </div>
 
 
-    <!-- Modal for Onboarding -->
-    <div id="onboarding-overlay"
-        style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(12px); z-index: 2000; display: none; place-items: center; padding: 2rem;">
-        <div id="modal" style="max-width: 600px;">
-            <div class="modal-header">
-                <h2>Benvenuto sul Monitor ACN</h2>
-                <button onclick="closeOnboarding()"
-                    style="background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer;">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div style="margin-bottom: 2rem;">
-                    <h3 style="color: var(--primary-light); margin-bottom: 0.5rem;">🎯 A cosa serve questo portale?</h3>
-                    <p style="font-size: 0.95rem; color: var(--text-muted);">
-                        Questo strumento monitora h24 le sezioni critiche del sito dell'Agenzia per la Cybersicurezza
-                        Nazionale (ACN) per aiutarti a rimanere aggiornato sulla normativa <strong>NIS2</strong> e sulle
-                        novità di settore senza dover controllare manualmente ogni giorno.
-                    </p>
-                </div>
-
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem;">
-                    <div>
-                        <h4 style="color: var(--text); margin-bottom: 0.5rem;">🤖 Intelligenza AI</h4>
-                        <p style="font-size: 0.85rem; color: var(--text-muted);">Analizziamo ogni modifica con Gemini AI
-                            per fornirti un riassunto immediato dell'impatto normativo.</p>
-                    </div>
-                    <div>
-                        <h4 style="color: var(--text); margin-bottom: 0.5rem;">🕒 Ogni 5 Minuti</h4>
-                        <p style="font-size: 0.85rem; color: var(--text-muted);">Il nostro "battito cardiaco" controlla
-                            costantemente testi, PDF e atti ufficiali.</p>
-                    </div>
-                    <div>
-                        <h4 style="color: var(--text); margin-bottom: 0.5rem;">📂 Archivio Storico</h4>
-                        <p style="font-size: 0.85rem; color: var(--text-muted);">Manteniamo traccia di ogni variazione
-                            avvenuta nel tempo, consultabile con un clic.</p>
-                    </div>
-                    <div>
-                        <h4 style="color: var(--text); margin-bottom: 0.5rem;">📄 Monitoraggio PDF</h4>
-                        <p style="font-size: 0.85rem; color: var(--text-muted);">Non solo pagine web: leggiamo dentro i
-                            documenti PDF per scovare modifiche nei testi.</p>
-                    </div>
-                </div>
-
-                <div
-                    style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 1rem; border: 1px solid var(--card-border);">
-                    <h4 style="margin-bottom: 0.5rem;">Legenda Colori Card:</h4>
-                    <ul style="font-size: 0.85rem; color: var(--text-muted); list-style: none; padding: 0;">
-                        <li>🟢 <strong style="color: var(--success);">Verde</strong>: Nessuna modifica rilevata.</li>
-                        <li>🟡 <strong style="color: var(--warning);">Arancione</strong>: Modifica rilevata (entro 15
-                            giorni).</li>
-                        <li>🔵 <strong style="color: var(--new);">Azzurro</strong>: Nuova pagina o documento aggiunto.
-                        </li>
-                    </ul>
-                </div>
-
-                <button onclick="closeOnboarding()" class="btn btn-primary"
-                    style="width: 100%; margin-top: 2rem;">Inizia il Monitoraggio</button>
-            </div>
-        </div>
-    </div>
-
     <!-- Modal for Disclaimer -->
-    <div id="disclaimer-overlay"
-        style="position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(12px); z-index: 2000; display: none; place-items: center; padding: 2rem;">
+    <div id="disclaimer-overlay" class="overlay-backdrop" style="z-index: 2000; display: none;">
         <div id="modal" style="max-width: 500px;">
             <div class="modal-header">
                 <h2>Disclaimer</h2>
@@ -930,7 +1107,7 @@
     </div>
 
     <!-- Modal for Changes -->
-    <div id="modal-overlay">
+    <div id="modal-overlay" class="overlay-backdrop" style="display: none;">
         <div id="modal">
             <div class="modal-header">
                 <h2 id="modal-page-name">Dettaglio Modifiche</h2>
@@ -995,8 +1172,30 @@
         }
 
         function handleSearch() {
-            searchQuery = document.getElementById('search-input').value.toLowerCase().trim();
+            const input = document.getElementById('search-input');
+            searchQuery = input.value.toLowerCase().trim();
+
+            const clearBtn = document.getElementById('clear-search');
+            clearBtn.style.display = searchQuery ? 'block' : 'none';
+
             renderDashboard();
+        }
+
+        function clearSearch() {
+            const input = document.getElementById('search-input');
+            input.value = '';
+            handleSearch();
+        }
+
+        function toggleMobileFilters() {
+            const filters = document.querySelector('.filters');
+            const sort = document.getElementById('sort-select');
+            const btn = document.getElementById('filter-toggle');
+
+            const isActive = filters.classList.toggle('active');
+            sort.classList.toggle('active');
+
+            btn.style.background = isActive ? 'var(--secondary)' : 'var(--primary)';
         }
 
         function matchKeywords(text, query) {
@@ -1099,10 +1298,12 @@
             let filtered = currentData.pages.filter(p => {
                 const isPdf = (p.name || '').includes('📄');
                 const isAtto = p.id === 'atti_generali';
+                const isGlobal = p.id === 'global_header' || p.id === 'global_footer';
 
                 let catMatch = false;
-                if (currentFilter === 'pages') catMatch = !isPdf && !isAtto;
+                if (currentFilter === 'pages') catMatch = !isPdf && !isAtto && !isGlobal;
                 else if (currentFilter === 'pdfs') catMatch = isPdf;
+                else if (currentFilter === 'globals') catMatch = isGlobal;
 
                 const searchableText = [
                     p.name,
@@ -1119,7 +1320,7 @@
 
             filtered.sort((a, b) => {
                 if (currentSort === 'alpha') return a.name.localeCompare(b.name);
-                
+
                 const getDate = (item) => {
                     if (item.last_change_date) return parseDate(item.last_change_date);
                     if (item.status === 'Nuova risorsa aggiunta') return parseDate(item.last_check);
@@ -1128,11 +1329,11 @@
 
                 const da = getDate(a);
                 const db = getDate(b);
-                
+
                 if (da.getTime() === db.getTime()) {
                     return a.name.localeCompare(b.name);
                 }
-                
+
                 return currentSort === 'recent_desc' ? db - da : da - db;
             });
 
@@ -1167,7 +1368,8 @@
 
                     <div class="card-actions">
                         <a href="${p.url}" target="_blank" class="btn">Apri</a>
-                        ${p.has_changes ? `<button onclick="showChanges('${p.name}')" class="btn btn-primary">Novità</button>` : `<button onclick="showHistory('${p.id}', '${p.name}')" class="btn">Storico</button>`}
+                        ${p.has_changes ? `<button onclick="showChanges('${p.name}')" class="btn btn-primary">Novità</button>` : ''}
+                        <button onclick="showHistory('${p.id}', '${p.name}')" class="btn">Storico</button>
                     </div>
                 `;
                 grid.appendChild(card);
@@ -1181,15 +1383,29 @@
             document.getElementById('modal-overlay').style.display = 'grid';
 
             try {
-                const resp = await fetch(`archive/history_${id}.json`);
+                const resp = await fetch(`archive/history_${id}.json?t=${new Date().getTime()}`);
                 const history = await resp.json();
-                body.innerHTML = history.map(h => `
-                    <div style="margin-bottom: 2rem;">
-                        <h4 style="color: var(--primary-light); margin-bottom: 1rem;">📅 ${h.date_formatted}</h4>
-                        ${h.additions.map(a => `<div class="diff-line line-add"><span class="diff-tag tag-add">ADD</span>${a}</div>`).join('')}
-                        ${h.removals.map(r => `<div class="diff-line line-rem"><span class="diff-tag tag-rem">REM</span>${r}</div>`).join('')}
+                body.innerHTML = history.map(h => {
+                    const addCount = h.additions ? h.additions.length : 0;
+                    const remCount = h.removals ? h.removals.length : 0;
+
+                    let summaryText = "";
+                    if (h.ai_summary) {
+                        summaryText = `<div style="margin-top: 0.8rem; padding: 0.8rem; background: rgba(99, 102, 241, 0.1); border-left: 4px solid var(--primary); border-radius: 0.5rem;">
+                                        <p style="font-size: 0.9rem; margin: 0; line-height: 1.5;">🤖 <strong>Summary:</strong> ${h.ai_summary}</p>
+                                       </div>`;
+                    }
+
+                    return `
+                    <div style="margin-bottom: 1rem; padding: 1rem; background: rgba(255,255,255,0.02); border-radius: 1rem; border: 1px solid var(--card-border);">
+                        <h4 style="color: var(--primary-light); margin-bottom: 0.5rem;">📅 ${h.date_formatted || 'Data sconosciuta'}</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">
+                            Rilevate <strong style="color: var(--success);">${addCount} aggiunte</strong> e <strong style="color: var(--danger);">${remCount} rimozioni</strong> rispetto alla scansione precedente.
+                        </p>
+                        ${summaryText}
                     </div>
-                `).join('');
+                    `;
+                }).join('');
             } catch {
                 body.innerHTML = 'Nessuna cronologia disponibile per questa risorsa.';
             }
@@ -1200,9 +1416,19 @@
             const body = document.getElementById('modal-body');
             document.getElementById('modal-page-name').innerText = p.name;
 
+            let summaryHtml = '';
+            if (p.ai_summary) {
+                summaryHtml = `
+                    <div style="margin-bottom: 1.5rem; padding: 1rem; background: rgba(99, 102, 241, 0.1); border-left: 4px solid var(--primary); border-radius: 0.5rem;">
+                        <p style="font-size: 0.95rem; margin: 0; line-height: 1.5;">🤖 <strong>Summary:</strong> ${p.ai_summary}</p>
+                    </div>
+                `;
+            }
+
             body.innerHTML = `
-                ${p.additions.map(a => `<div class="diff-line line-add"><span class="diff-tag tag-add">ADD</span>${a}</div>`).join('')}
-                ${p.removals.map(r => `<div class="diff-line line-rem"><span class="diff-tag tag-rem">REM</span>${r}</div>`).join('')}
+                ${summaryHtml}
+                ${(p.additions || []).map(a => `<div class="diff-line line-add"><span class="diff-tag tag-add">ADD</span>${a}</div>`).join('')}
+                ${(p.removals || []).map(r => `<div class="diff-line line-rem"><span class="diff-tag tag-rem">REM</span>${r}</div>`).join('')}
             `;
             document.getElementById('modal-overlay').style.display = 'grid';
         }
@@ -1226,6 +1452,13 @@
         function closeOnboarding() {
             document.getElementById('onboarding-overlay').style.display = 'none';
         }
+
+        // Chiudi i modali al clic esterno
+        window.addEventListener('click', (e) => {
+            if (e.target.id === 'modal-overlay') closeModal();
+            if (e.target.id === 'disclaimer-overlay') closeDisclaimer();
+            if (e.target.id === 'onboarding-overlay') closeOnboarding();
+        });
 
         function copyLink(id) {
             const url = new URL(window.location.href);

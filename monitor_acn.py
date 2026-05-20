@@ -85,7 +85,7 @@ def get_page_content(url):
         print(f"Errore scaricando {url}: {e}")
         return None
 
-def clean_html(html):
+def clean_html(html, extract_parts=False):
     """Estrae il testo visibile dalla pagina HTML distinguendo header e footer"""
     
     # Rilevamento sezioni
@@ -96,8 +96,14 @@ def clean_html(html):
     # Estrai header
     header_match = re.search(r'<header[^>]*>(.*?)</header>', html, re.DOTALL | re.IGNORECASE)
     if header_match:
-        header_part = header_match.group(1)
+        header_part += header_match.group(1)
         main_part = main_part.replace(header_match.group(0), "")
+        
+    # Estrai menu di navigazione globali
+    nav_matches = re.finditer(r'<nav[^>]*aria-label="(?:Menu principale|Collegamenti Veloci)"[^>]*>.*?</nav>', html, re.DOTALL | re.IGNORECASE)
+    for nav_match in nav_matches:
+        header_part += "\n" + nav_match.group(0)
+        main_part = main_part.replace(nav_match.group(0), "")
         
     # Estrai footer
     footer_match = re.search(r'<footer[^>]*>(.*?)</footer>', html, re.DOTALL | re.IGNORECASE)
@@ -128,12 +134,10 @@ def clean_html(html):
     cleaned_footer = process_text(footer_part, "[FOOTER] ")
     cleaned_main = process_text(main_part, "")
     
-    result = []
-    if cleaned_header: result.append(cleaned_header)
-    if cleaned_main: result.append(cleaned_main)
-    if cleaned_footer: result.append(cleaned_footer)
-    
-    return "\n".join(result).strip()
+    if extract_parts:
+        return cleaned_main, cleaned_header, cleaned_footer
+        
+    return cleaned_main
 
 def extract_document_list(html_content):
     """Estrae l'elenco dei documenti con metadati (tipo, data, anno)"""
@@ -289,6 +293,7 @@ def load_state(paths):
                 state["last_change_date"] = data.get('last_change_date')
                 state["last_additions"] = data.get('last_additions', [])
                 state["last_removals"] = data.get('last_removals', [])
+                state["ai_summary"] = data.get('ai_summary', "")
         except: pass
         
     if os.path.exists(paths["content"]):
@@ -299,8 +304,8 @@ def load_state(paths):
         
     return state
 
-def append_to_history(page_id, name, url, additions, removals):
-    """Aggiunge una nuova voce allo storico delle modifiche"""
+def append_to_history(page_id, name, url, additions, removals, ai_summary=""):
+    """Aggiunge una nuova voce allo storico delle modifiche mantenendo solo gli ultimi 90 giorni"""
     archive_dir = "archive"
     if not os.path.exists(archive_dir):
         os.makedirs(archive_dir)
@@ -314,19 +319,33 @@ def append_to_history(page_id, name, url, additions, removals):
         except:
             pass
             
+    now = get_now()
     entry = {
-        "timestamp": get_now().isoformat(),
-        "date_formatted": get_now().strftime('%d/%m/%Y %H:%M'),
+        "timestamp": now.isoformat(),
+        "date_formatted": now.strftime('%d/%m/%Y %H:%M'),
         "additions": additions,
         "removals": removals
     }
+    if ai_summary:
+        entry["ai_summary"] = ai_summary
     
     history.insert(0, entry) # Inserisci in cima (più recente prima)
     
+    # Filtra mantenendo solo gli ultimi 90 giorni
+    filtered_history = []
+    for h in history:
+        try:
+            h_date = datetime.fromisoformat(h["timestamp"]).replace(tzinfo=None)
+            days_diff = (now.replace(tzinfo=None) - h_date).days
+            if days_diff <= 90:
+                filtered_history.append(h)
+        except:
+            pass
+            
     with open(history_file, 'w', encoding='utf-8') as f:
-        json.dump(history, f, indent=2)
+        json.dump(filtered_history, f, indent=2)
 
-def save_state(paths, content_hash, content, last_change_date=None, additions=None, removals=None):
+def save_state(paths, content_hash, content, last_change_date=None, additions=None, removals=None, ai_summary=None):
     """Salva hash, contenuto e metadati modifica"""
     # Carichiamo lo stato esistente per non perdere i dati se non stiamo salvando una nuova modifica
     existing_state = load_state(paths)
@@ -336,7 +355,8 @@ def save_state(paths, content_hash, content, last_change_date=None, additions=No
         'last_check': get_now().isoformat(),
         'last_change_date': last_change_date or existing_state.get('last_change_date'),
         'last_additions': additions if additions is not None else existing_state.get('last_additions', []),
-        'last_removals': removals if removals is not None else existing_state.get('last_removals', [])
+        'last_removals': removals if removals is not None else existing_state.get('last_removals', []),
+        'ai_summary': ai_summary if ai_summary is not None else existing_state.get('ai_summary', "")
     }
     
     with open(paths["hash"], 'w') as f:
@@ -463,6 +483,32 @@ def send_email(html_content, subject):
         print(f"Email inviata correttamente a {len(dest_list)} destinatari")
     except Exception as e:
         print(f"Errore invio email: {e}")
+
+def get_page_ai_summary(name, additions, removals):
+    """Genera un riassunto delle modifiche per una singola pagina"""
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not genai or not api_key:
+        return ""
+    
+    try:
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel('gemini-1.5-flash')
+        
+        prompt = f"""
+        Sei un esperto di cybersecurity. Analizza queste aggiunte e rimozioni dalla pagina "{name}" del sito dell'Agenzia per la Cybersicurezza Nazionale (ACN).
+        Fornisci un breve riassunto (massimo 2-3 frasi) di cosa è cambiato in termini di contenuto. Non fare elenchi, scrivi una descrizione discorsiva. Sii molto conciso.
+        
+        AGGIUNTE:
+        {" ".join(additions[:20])}
+        
+        RIMOZIONI:
+        {" ".join(removals[:20])}
+        """
+        response = model.generate_content(prompt)
+        return response.text.replace("\n", " ").strip()
+    except Exception as e:
+        print(f"Errore generazione summary AI per {name}: {e}")
+        return ""
 
 def get_ai_summary(results_with_changes):
     """Genera un riassunto delle modifiche usando Google Gemini"""
@@ -634,20 +680,26 @@ def monitor_page(page_config):
     if is_pdf:
         current_text, error_msg = extract_pdf_text(url)
         raw_content = current_text # Per coerenza
+        header_text = None
+        footer_text = None
         if error_msg:
             # Se è un falso PDF (pagina HTML), nascondilo dalla dashboard ignorandolo
             if "non restituisce un PDF" in error_msg:
-                return [], None
+                return [], None, None, None
             result["status"] = f"Errore: {error_msg}"
             result["summary"] = error_msg
     else:
         raw_content = get_page_content(url)
-        current_text = clean_html(raw_content) if raw_content else None
-        if not current_text:
+        if raw_content:
+            current_text, header_text, footer_text = clean_html(raw_content, extract_parts=True)
+        else:
+            current_text = None
+            header_text = None
+            footer_text = None
             result["status"] = "Errore download/lettura"
 
     if not current_text:
-        return [], result
+        return [], result, None, None
 
     # Se è la pagina Atti Generali, estraiamo la lista documenti
     if "atti-generali" in url:
@@ -687,8 +739,10 @@ def monitor_page(page_config):
             print(f"⚠️ MODIFICHE RILEVATE per {name}!")
             additions, removals = generate_detailed_diff(old_text, current_text)
             
+            ai_summary = get_page_ai_summary(name, additions, removals)
+            
             # Salva nello storico permanente
-            append_to_history(page_id, name, url, additions, removals)
+            append_to_history(page_id, name, url, additions, removals, ai_summary)
             result["has_history"] = True
             
             now_str = get_now().isoformat()
@@ -697,10 +751,11 @@ def monitor_page(page_config):
             result["summary"] = f"+{len(additions)} aggiunte, -{len(removals)} rimozioni"
             result["additions"] = additions
             result["removals"] = removals
+            result["ai_summary"] = ai_summary
             result["last_change_date"] = get_now().strftime('%d/%m/%Y %H:%M')
             
             # Non inviamo più l'email qui, salviamo solo lo stato
-            save_state(paths, current_hash, current_text, now_str, additions, removals)
+            save_state(paths, current_hash, current_text, now_str, additions, removals, ai_summary)
         else:
             print(f"✅ Nessuna modifica per {name}")
             if is_within_15_days:
@@ -708,6 +763,7 @@ def monitor_page(page_config):
                 result["status"] = "Modificato (Recente)"
                 result["additions"] = old_state.get("last_additions", [])
                 result["removals"] = old_state.get("last_removals", [])
+                result["ai_summary"] = old_state.get("ai_summary", "")
                 result["summary"] = f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
             else:
                 result["status"] = "Nessuna modifica"
@@ -723,7 +779,73 @@ def monitor_page(page_config):
         result["status"] = "Nuova risorsa aggiunta"
         result["last_change_date"] = now_fmt
     
-    return list(set(discovered_urls)), result
+    
+    return list(set(discovered_urls)), result, header_text, footer_text
+
+def check_text_component(name, page_id, current_text, source_url):
+    """Funzione helper per monitorare stringhe di testo generiche come Header e Footer"""
+    if not current_text: return None
+    
+    result = {
+        "id": page_id,
+        "name": name,
+        "url": source_url,
+        "last_check": get_now().strftime('%d/%m/%Y %H:%M'),
+        "status": "Inizializzato",
+        "has_changes": False,
+        "has_history": os.path.exists(os.path.join("archive", f"history_{page_id}.json")),
+        "summary": "",
+        "additions": [],
+        "removals": [],
+        "atti_list": []
+    }
+    
+    current_hash = hashlib.sha256(current_text.encode('utf-8')).hexdigest()
+    paths = get_state_paths(page_id)
+    old_state = load_state(paths)
+    old_hash = old_state["hash"]
+    old_text = old_state["content"]
+    
+    change_date_str = old_state.get("last_change_date")
+    is_within_15_days = False
+    if change_date_str:
+        change_date = datetime.fromisoformat(change_date_str)
+        if (get_now().replace(tzinfo=None) - change_date.replace(tzinfo=None)).days <= 15:
+            is_within_15_days = True
+            result["last_change_date"] = change_date.strftime('%d/%m/%Y %H:%M')
+
+    if old_hash and old_text:
+        if current_hash != old_hash:
+            additions, removals = generate_detailed_diff(old_text, current_text)
+            ai_summary = get_page_ai_summary(name, additions, removals)
+            append_to_history(page_id, name, source_url, additions, removals, ai_summary)
+            result["has_history"] = True
+            result["has_changes"] = True
+            result["status"] = "Modificato"
+            result["summary"] = f"+{len(additions)} aggiunte, -{len(removals)} rimozioni"
+            result["additions"] = additions
+            result["removals"] = removals
+            result["ai_summary"] = ai_summary
+            result["last_change_date"] = get_now().strftime('%d/%m/%Y %H:%M')
+            save_state(paths, current_hash, current_text, get_now().isoformat(), additions, removals, ai_summary)
+        else:
+            if is_within_15_days:
+                result["has_changes"] = True
+                result["status"] = "Modificato (Recente)"
+                result["additions"] = old_state.get("last_additions", [])
+                result["removals"] = old_state.get("last_removals", [])
+                result["ai_summary"] = old_state.get("ai_summary", "")
+                result["summary"] = f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
+            else:
+                result["status"] = "Nessuna modifica"
+            save_state(paths, current_hash, current_text)
+    else:
+        now_iso = get_now().isoformat()
+        save_state(paths, current_hash, current_text, last_change_date=now_iso)
+        result["status"] = "Nuova risorsa aggiunta"
+        result["last_change_date"] = get_now().strftime('%d/%m/%Y %H:%M')
+    
+    return result
 
 def main():
     print(f"=== Inizio sessione monitoraggio: {get_now()} ===")
@@ -732,6 +854,8 @@ def main():
     queue = PAGES_TO_MONITOR.copy()
     all_results = []
     
+    global_components_checked = False
+    
     while queue:
         page = queue.pop(0)
         url = page["url"]
@@ -739,9 +863,18 @@ def main():
         if url in processed_urls:
             continue
         
-        discovered, res = monitor_page(page)
+        discovered, res, h_text, f_text = monitor_page(page)
         if res is not None:
             all_results.append(res)
+            
+        if h_text and f_text and not global_components_checked:
+            print("\n--- Monitoraggio Componenti Globali ---")
+            res_h = check_text_component("Header Globale ACN", "global_header", h_text, url)
+            res_f = check_text_component("Footer Globale ACN", "global_footer", f_text, url)
+            if res_h: all_results.append(res_h)
+            if res_f: all_results.append(res_f)
+            global_components_checked = True
+            
         processed_urls.add(url)
         
         # Aggiungi sub-pagine o PDF scoperti alla coda

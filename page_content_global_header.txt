@@ -1,0 +1,97 @@
+[HEADER] seguici_su
+[HEADER] Agenzia:
+[HEADER] Linkedin: apre una nuova finestra
+[HEADER] Youtube: apre una nuova finestra
+[HEADER] seguici_su
+[HEADER] CSIRT Italia:
+[HEADER] Twitter: apre una nuova finestra
+[HEADER] Telegram: apre una nuova finestra
+[HEADER] RSS: apre una nuova finestra
+[HEADER] Lingue disponibili:
+[HEADER] ITA
+[HEADER] ITA
+[HEADER] : italiano
+[HEADER] ENG
+[HEADER] : english
+[HEADER] Apri menu principale
+[HEADER] Agenzia per la
+[HEADER] cybersicurezza nazionale
+[HEADER] Segnala un incidente informatico
+[HEADER] apri_ricerca
+[HEADER] Skip to Main Content
+[HEADER] Menu
+[HEADER] Agenzia
+[HEADER] Agenzia
+[HEADER] L'ACN è l'Autorità nazionale per la cybersicurezza istituita con il D.L. 14 giugno 2021, n. 82, a tutela degli interessi nazionali nel cyberspazio.
+[HEADER] Chi siamo
+[HEADER] Organizzazione
+[HEADER] Strategia
+[HEADER] Attività
+[HEADER] Relazione annuale
+[HEADER] Comunicazione
+[HEADER] Avvisi
+[HEADER] Coordinamento interministeriale
+[HEADER] Relazioni Internazionali e Affari Europei
+[HEADER] Eventi
+[HEADER] PNRR
+[HEADER] NIS
+[HEADER] NIS
+[HEADER] Dal 16 ottobre 2024 è in vigore la nuova normativa Network and Information Security (NIS). ACN è l’Autorità competente NIS e punto di contatto unico.
+[HEADER] Scopri NIS
+[HEADER] La normativa
+[HEADER] Ambito
+[HEADER] Registrazione
+[HEADER] Obblighi
+[HEADER] Modalità e specifiche di base
+[HEADER] Aggiornamento delle informazioni
+[HEADER] Categorizzazione
+[HEADER] Notizie ed eventi
+[HEADER] Domande frequenti
+[HEADER] Cloud
+[HEADER] Cloud
+[HEADER] L’Agenzia per la cybersicurezza nazionale regola le modalità e i termini di qualificazione delle infrastrutture e dei servizi cloud per la Pubblica Amministrazione.
+[HEADER] Scopri Cloud
+[HEADER] Regolamento Cloud per la PA
+[HEADER] Catalogo delle Infrastrutture digitali e dei Servizi cloud
+[HEADER] Qualificazione e adeguamento
+[HEADER] Documentazione utile
+[HEADER] Domande frequenti
+[HEADER] CSIRT Italia
+[HEADER] CSIRT Italia
+[HEADER] Il Team dell'Agenzia per la risposta agli incidenti cyber
+[HEADER] Scopri CSIRT Italia
+[HEADER] Chi siamo
+[HEADER] Glossario
+[HEADER] Alert e Bollettini
+[HEADER] Pubblicazioni
+[HEADER] La settimana cibernetica
+[HEADER] Operational Summary
+[HEADER] Feed Pubblico MISP
+[HEADER] Domande frequenti
+[HEADER] NCC Italia
+[HEADER] NCC Italia
+[HEADER] L’Agenzia è Centro nazionale di coordinamento per l’Italia (NCC) ai sensi del D.L. 14 giugno 2021, n. 82 e del Regolamento (UE) 2021/887.
+[HEADER] Scopri NCC Italia
+[HEADER] Chi siamo
+[HEADER] Opportunità di finanziamento
+[HEADER] Community
+[HEADER] Notizie ed eventi
+[HEADER] Contatti
+[HEADER] Domande frequenti
+[HEADER] Certificazione
+[HEADER] Certificazione
+[HEADER] L’Agenzia valuta prodotti ICT (Information and Communication Technology) nell’ambito del perimetro nazionale di sicurezza cibernetica attraverso il CVCN. Inoltre, ai sensi del Cybersecurity Act (Regolamento (UE) 2019/881), rilascia certificati di cybersicurezza tramite l’OCSI, e vigila, in qualità di NCCA, i certificati di cybersicurezza e le dichiarazioni UE di conformità emessi sul territorio nazionale.
+[HEADER] Scopri Certificazione
+[HEADER] Centro di Valutazione e Certificazione Nazionale
+[HEADER] Certificazione e vigilanza
+[HEADER] NCCA
+[HEADER] OCSI
+[HEADER] E-Academy
+[HEADER] Lavora con noi
+[HEADER] Segnala un incidente informatico
+[HEADER] Seguici su Agenzia
+[HEADER] linkedin: apre una nuova finestra
+[HEADER] youtube: apre una nuova finestra
+[HEADER] Seguici su CSIRT Italia
+[HEADER] Twitter: apre una nuova finestra
+[HEADER] Telegram: apre una nuova finestra
