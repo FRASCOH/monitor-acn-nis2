@@ -8,7 +8,7 @@
 
 **Monitor ACN NIS2** è uno strumento avanzato di *Regulatory Intelligence* progettato per professionisti della cybersecurity, DPO e consulenti legali. Il sistema monitora h24 le sezioni critiche del sito dell'**Agenzia per la Cybersicurezza Nazionale (ACN)**, rilevando ogni variazione normativa, tecnica o procedurale relativa alla direttiva **NIS2**.
 
-🔗 **[Visita la Dashboard Live](https://frascoh.github.io/cyber-monitor-main/)**
+🔗 **[Visita la Dashboard Live](https://frascoh.github.io/monitor-acn-nis2/)**
 
 ---
 
