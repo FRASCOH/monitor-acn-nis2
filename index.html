@@ -304,6 +304,8 @@
             line-height: 1.4;
             color: var(--text);
             display: block;
+            word-break: break-word;
+            overflow-wrap: break-word;
         }
 
         .card-meta {
@@ -413,9 +415,6 @@
             z-index: 1000;
             place-items: center;
             padding: 2rem;
-        }
-
-        #modal-overlay {
             display: none;
         }
 
@@ -749,16 +748,24 @@
             }
 
             .filters,
-            .sort-select {
+            #sort-select {
                 display: none !important;
             }
 
+            .controls-wrapper:not(.menu-open) #atti-subfilters {
+                display: none !important;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
             .filters.active,
-            .sort-select.active {
+            #sort-select.active {
                 display: flex !important;
             }
 
-            .sort-select.active {
+            #sort-select.active {
                 display: block !important;
             }
 
@@ -773,7 +780,7 @@
                 grid-column: span 2;
             }
 
-            .sort-select {
+            #sort-select {
                 width: 100%;
                 margin-left: 0;
             }
@@ -829,29 +836,6 @@
             </button>
         </header>
 
-        <div class="stats-bar" id="stats-container">
-            <div class="stat-card">
-                <span class="stat-icon">📡</span>
-                <span class="stat-value" id="stat-total">-</span>
-                <span class="stat-label">Risorse</span>
-            </div>
-            <div class="stat-card">
-                <span class="stat-icon">🔔</span>
-                <span class="stat-value" id="stat-modified" style="color: var(--warning);">-</span>
-                <span class="stat-label">Modifiche</span>
-            </div>
-            <div class="stat-card">
-                <span class="stat-icon">✨</span>
-                <span class="stat-value" id="stat-new" style="color: var(--new);">-</span>
-                <span class="stat-label">Nuove</span>
-            </div>
-            <div class="stat-card">
-                <span class="stat-icon">✅</span>
-                <span class="stat-value" id="stat-ok" style="color: var(--success);">-</span>
-                <span class="stat-label">OK</span>
-            </div>
-        </div>
-
         <div class="controls-wrapper">
             <div class="controls">
                 <div class="search-container" style="display: flex; gap: 0.5rem; align-items: stretch;">
@@ -880,8 +864,7 @@
                 <div class="filters">
                     <button class="filter-btn active" onclick="setFilter('pages', this)">Pagine Web</button>
                     <button class="filter-btn" onclick="setFilter('pdfs', this)">Documenti PDF</button>
-                    <button class="filter-btn" onclick="setFilter('globals', this)">Componenti Globali</button>
-                    <button class="filter-btn" onclick="setFilter('atti', this)">Registro Atti</button>
+                    <button class="filter-btn" onclick="setFilter('atti', this)">Documentazione NIS2</button>
                 </div>
 
                 <select id="sort-select" class="sort-select" onchange="setSort(this.value)">
@@ -1129,25 +1112,12 @@
                 const response = await fetch('status.json?t=' + new Date().getTime());
                 if (!response.ok) throw new Error('Dati non disponibili.');
                 currentData = await response.json();
-                updateStats();
+
                 renderDashboard();
             } catch (error) {
                 console.error(error);
                 document.getElementById('dashboard-grid').innerHTML = '<div style="text-align:center; padding: 5rem;">⚠️ Errore caricamento dati.</div>';
             }
-        }
-
-        function updateStats() {
-            if (!currentData) return;
-            const total = currentData.pages.length;
-            const newResources = currentData.pages.filter(p => p.status === 'Nuova risorsa aggiunta').length;
-            const modified = currentData.pages.filter(p => p.has_changes && p.status !== 'Nuova risorsa aggiunta').length;
-            const errors = currentData.pages.filter(p => p.status.includes('Errore')).length;
-
-            document.getElementById('stat-total').innerText = total;
-            document.getElementById('stat-modified').innerText = modified;
-            document.getElementById('stat-new').innerText = newResources;
-            document.getElementById('stat-ok').innerText = total - modified - newResources - errors;
         }
 
         function setFilter(f, btn) {
@@ -1188,12 +1158,14 @@
         }
 
         function toggleMobileFilters() {
+            const wrapper = document.querySelector('.controls-wrapper');
             const filters = document.querySelector('.filters');
             const sort = document.getElementById('sort-select');
             const btn = document.getElementById('filter-toggle');
 
             const isActive = filters.classList.toggle('active');
             sort.classList.toggle('active');
+            wrapper.classList.toggle('menu-open', isActive);
 
             btn.style.background = isActive ? 'var(--secondary)' : 'var(--primary)';
         }
@@ -1298,12 +1270,10 @@
             let filtered = currentData.pages.filter(p => {
                 const isPdf = (p.name || '').includes('📄');
                 const isAtto = p.id === 'atti_generali';
-                const isGlobal = p.id === 'global_header' || p.id === 'global_footer';
 
                 let catMatch = false;
-                if (currentFilter === 'pages') catMatch = !isPdf && !isAtto && !isGlobal;
+                if (currentFilter === 'pages') catMatch = !isPdf && !isAtto;
                 else if (currentFilter === 'pdfs') catMatch = isPdf;
-                else if (currentFilter === 'globals') catMatch = isGlobal;
 
                 const searchableText = [
                     p.name,
