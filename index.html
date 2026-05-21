@@ -24,6 +24,16 @@
         content="Monitoraggio normativo in tempo reale per la Cybersicurezza Italiana (NIS2). Analisi AI e notifiche automatiche.">
     <meta property="twitter:image" content="https://frascoh.github.io/monitor-acn-nis2/social-preview.png">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-27J17EXWZ4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-27J17EXWZ4');
+    </script>
+
     <title>ACN NIS2 Monitor Dashboard</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -178,7 +188,8 @@
             color: var(--text);
             padding: 0.8rem 1.2rem 0.8rem 3rem;
             border-radius: 1.2rem;
-            font-size: 16px; /* 16px prevents iOS auto-zoom */
+            font-size: 16px;
+            /* 16px prevents iOS auto-zoom */
             outline: none;
             transition: all 0.3s ease;
         }
@@ -256,7 +267,8 @@
             color: var(--text);
             padding: 0.6rem 1rem;
             border-radius: 1rem;
-            font-size: 16px; /* 16px prevents iOS auto-zoom */
+            font-size: 16px;
+            /* 16px prevents iOS auto-zoom */
             outline: none;
             cursor: pointer;
         }
@@ -1162,7 +1174,8 @@
                             <h3 class="onboarding-section-label"
                                 style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--primary-light); margin-bottom: 1.5rem; font-weight: 700;">
                                 Guida agli Stati</h3>
-                            <div class="onboarding-legend-list" style="display: flex; flex-direction: column; gap: 1rem;">
+                            <div class="onboarding-legend-list"
+                                style="display: flex; flex-direction: column; gap: 1rem;">
                                 <div class="onboarding-legend-item"
                                     style="display: flex; align-items: center; gap: 1rem; background: rgba(255,255,255,0.02); padding: 0.8rem 1.2rem; border-radius: 1rem;">
                                     <div class="onboarding-legend-dot"
@@ -1187,7 +1200,8 @@
                             </div>
                         </div>
 
-                        <div class="onboarding-support" style="padding-top: 1.5rem; border-top: 1px solid var(--card-border);">
+                        <div class="onboarding-support"
+                            style="padding-top: 1.5rem; border-top: 1px solid var(--card-border);">
                             <p
                                 style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; text-align: center;">
                                 Hai bisogno di supporto?</p>
