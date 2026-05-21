@@ -823,13 +823,137 @@
                 font-size: 1.3rem;
             }
 
+            /* --- Onboarding Mobile Redesign --- */
+            #onboarding-overlay .overlay-backdrop {
+                padding: 0.5rem;
+            }
+
+            #onboarding-overlay #modal {
+                width: 100%;
+                max-width: 100%;
+                border-radius: 1.2rem;
+                max-height: 92vh;
+            }
+
+            .onboarding-header-row {
+                gap: 0.8rem;
+            }
+
+            .onboarding-icon-box {
+                width: 36px;
+                height: 36px;
+                border-radius: 10px;
+                font-size: 1rem;
+            }
+
+            .onboarding-header-text h2 {
+                font-size: 1.15rem;
+            }
+
+            .onboarding-header-text p {
+                font-size: 0.75rem;
+            }
+
+            .onboarding-close-btn {
+                width: 28px;
+                height: 28px;
+            }
+
+            .onboarding-intro {
+                font-size: 0.85rem;
+                margin-bottom: 1.2rem;
+                padding-bottom: 1rem;
+            }
+
+            .onboarding-section-label {
+                font-size: 0.65rem;
+                margin-bottom: 0.8rem;
+            }
+
             .onboarding-main-grid {
                 grid-template-columns: 1fr;
-                gap: 1.5rem;
+                gap: 1.2rem;
             }
 
             .onboarding-features-grid {
                 grid-template-columns: 1fr;
+                gap: 0.6rem;
+            }
+
+            .onboarding-feature-card {
+                padding: 0.8rem 1rem;
+                border-radius: 1rem;
+                flex-direction: row;
+                align-items: center;
+                gap: 0.8rem;
+            }
+
+            .onboarding-feature-card .feat-emoji {
+                font-size: 1.2rem;
+                margin-bottom: 0;
+                flex-shrink: 0;
+            }
+
+            .onboarding-feature-card h4 {
+                font-size: 0.85rem;
+                margin-bottom: 0;
+                display: inline;
+            }
+
+            .onboarding-feature-card p {
+                font-size: 0.75rem;
+                display: inline;
+            }
+
+            .onboarding-feature-card .feat-text h4::after {
+                content: ' — ';
+            }
+
+            .onboarding-integrity-card {
+                padding: 0.8rem 1rem;
+                border-radius: 1rem;
+            }
+
+            .onboarding-integrity-card .feat-emoji {
+                font-size: 1rem;
+            }
+
+            .onboarding-integrity-card h4 {
+                font-size: 0.85rem;
+            }
+
+            .onboarding-integrity-card p {
+                font-size: 0.75rem;
+            }
+
+            .onboarding-legend-list {
+                gap: 0.5rem;
+            }
+
+            .onboarding-legend-item {
+                padding: 0.5rem 0.8rem;
+                border-radius: 0.6rem;
+                font-size: 0.8rem;
+            }
+
+            .onboarding-legend-dot {
+                width: 8px;
+                height: 8px;
+            }
+
+            .onboarding-support {
+                padding-top: 1rem;
+            }
+
+            .onboarding-support p {
+                font-size: 0.75rem;
+                margin-bottom: 0.6rem;
+            }
+
+            .onboarding-support a {
+                padding: 0.7rem;
+                font-size: 0.85rem;
+                border-radius: 0.8rem;
             }
         }
 
@@ -965,24 +1089,24 @@
             style="max-width: 1000px; width: 90vw; background: var(--bg); border: 1px solid var(--card-border); border-radius: 2.5rem; overflow: hidden; box-shadow: 0 40px 100px rgba(0,0,0,0.6);">
             <div class="modal-header"
                 style="background: rgba(255,255,255,0.02); border-bottom: 1px solid var(--card-border);">
-                <div style="display: flex; align-items: center; gap: 1.2rem;">
-                    <div
+                <div class="onboarding-header-row" style="display: flex; align-items: center; gap: 1.2rem;">
+                    <div class="onboarding-icon-box"
                         style="background: linear-gradient(135deg, var(--primary), var(--secondary)); width: 45px; height: 45px; border-radius: 14px; display: grid; place-items: center; font-size: 1.3rem; box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);">
                         👋</div>
-                    <div>
+                    <div class="onboarding-header-text">
                         <h2 style="margin: 0; font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em;">Benvenuto
                             nel Monitor NIS2</h2>
                         <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0; opacity: 0.8;">Scopri come
                             semplifichiamo la tua conformità</p>
                     </div>
                 </div>
-                <button onclick="closeOnboarding()"
+                <button class="onboarding-close-btn" onclick="closeOnboarding()"
                     style="background: rgba(255,255,255,0.05); border: none; color: white; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; cursor: pointer; transition: 0.3s;">&times;</button>
             </div>
 
             <div class="modal-body" style="max-height: 85vh; overflow-y: auto;">
                 <!-- Intro Description -->
-                <p
+                <p class="onboarding-intro"
                     style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--card-border);">
                     Questo portale è il tuo hub centralizzato per il monitoraggio dell'<strong>Agenzia per la
                         Cybersicurezza Nazionale</strong>.
@@ -994,31 +1118,35 @@
 
                     <!-- Left: How it works & Features -->
                     <div>
-                        <h3
+                        <h3 class="onboarding-section-label"
                             style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--primary-light); margin-bottom: 1.5rem; font-weight: 700;">
                             Il Servizio in breve</h3>
 
                         <div class="onboarding-features-grid">
-                            <div
-                                style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.05);">
-                                <div style="font-size: 1.5rem; margin-bottom: 1rem;">🧠</div>
-                                <h4 style="font-size: 0.95rem; margin-bottom: 0.4rem;">AI Analysis</h4>
-                                <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">Riassunti
-                                    esecutivi di Gemini 1.5 sulle modifiche normative.</p>
+                            <div class="onboarding-feature-card"
+                                style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column;">
+                                <div class="feat-emoji" style="font-size: 1.5rem; margin-bottom: 1rem;">🧠</div>
+                                <div class="feat-text">
+                                    <h4 style="font-size: 0.95rem; margin-bottom: 0.4rem;">AI Analysis</h4>
+                                    <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">Riassunti
+                                        esecutivi di Gemini 1.5 sulle modifiche normative.</p>
+                                </div>
                             </div>
-                            <div
-                                style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.05);">
-                                <div style="font-size: 1.5rem; margin-bottom: 1rem;">⚡</div>
-                                <h4 style="font-size: 0.95rem; margin-bottom: 0.4rem;">Real-Time</h4>
-                                <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">Scansione
-                                    automatica ogni 5 minuti tramite GitHub Actions.</p>
+                            <div class="onboarding-feature-card"
+                                style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column;">
+                                <div class="feat-emoji" style="font-size: 1.5rem; margin-bottom: 1rem;">⚡</div>
+                                <div class="feat-text">
+                                    <h4 style="font-size: 0.95rem; margin-bottom: 0.4rem;">Real-Time</h4>
+                                    <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">Scansione
+                                        automatica ogni 5 minuti tramite GitHub Actions.</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div
-                            style="background: rgba(99, 102, 241, 0.05); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(99, 102, 241, 0.1);">
+                        <div class="onboarding-integrity-card"
+                            style="background: rgba(99, 102, 241, 0.05); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(99, 102, 241, 0.1); margin-top: 1.2rem;">
                             <div style="display: flex; gap: 1rem; align-items: center;">
-                                <div style="font-size: 1.2rem;">🛡️</div>
+                                <div class="feat-emoji" style="font-size: 1.2rem;">🛡️</div>
                                 <div>
                                     <h4 style="font-size: 0.9rem; color: var(--text);">Integrità del Dato</h4>
                                     <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">Rileviamo
@@ -1031,35 +1159,35 @@
                     <!-- Right: Legend & Actions -->
                     <div style="display: flex; flex-direction: column; gap: 2rem;">
                         <div>
-                            <h3
+                            <h3 class="onboarding-section-label"
                                 style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--primary-light); margin-bottom: 1.5rem; font-weight: 700;">
                                 Guida agli Stati</h3>
-                            <div style="display: flex; flex-direction: column; gap: 1rem;">
-                                <div
+                            <div class="onboarding-legend-list" style="display: flex; flex-direction: column; gap: 1rem;">
+                                <div class="onboarding-legend-item"
                                     style="display: flex; align-items: center; gap: 1rem; background: rgba(255,255,255,0.02); padding: 0.8rem 1.2rem; border-radius: 1rem;">
-                                    <div
-                                        style="width: 10px; height: 10px; border-radius: 50%; background: var(--success); box-shadow: 0 0 10px var(--success);">
+                                    <div class="onboarding-legend-dot"
+                                        style="width: 10px; height: 10px; border-radius: 50%; background: var(--success); box-shadow: 0 0 10px var(--success); flex-shrink: 0;">
                                     </div>
                                     <span style="font-size: 0.85rem; font-weight: 500;">Aggiornato</span>
                                 </div>
-                                <div
+                                <div class="onboarding-legend-item"
                                     style="display: flex; align-items: center; gap: 1rem; background: rgba(255,255,255,0.02); padding: 0.8rem 1.2rem; border-radius: 1rem;">
-                                    <div
-                                        style="width: 10px; height: 10px; border-radius: 50%; background: var(--warning); box-shadow: 0 0 10px var(--warning);">
+                                    <div class="onboarding-legend-dot"
+                                        style="width: 10px; height: 10px; border-radius: 50%; background: var(--warning); box-shadow: 0 0 10px var(--warning); flex-shrink: 0;">
                                     </div>
                                     <span style="font-size: 0.85rem; font-weight: 500;">Cambiamento rilevato</span>
                                 </div>
-                                <div
+                                <div class="onboarding-legend-item"
                                     style="display: flex; align-items: center; gap: 1rem; background: rgba(255,255,255,0.02); padding: 0.8rem 1.2rem; border-radius: 1rem;">
-                                    <div
-                                        style="width: 10px; height: 10px; border-radius: 50%; background: var(--new); box-shadow: 0 0 10px var(--new);">
+                                    <div class="onboarding-legend-dot"
+                                        style="width: 10px; height: 10px; border-radius: 50%; background: var(--new); box-shadow: 0 0 10px var(--new); flex-shrink: 0;">
                                     </div>
                                     <span style="font-size: 0.85rem; font-weight: 500;">Nuova risorsa inserita</span>
                                 </div>
                             </div>
                         </div>
 
-                        <div style="padding-top: 1.5rem; border-top: 1px solid var(--card-border);">
+                        <div class="onboarding-support" style="padding-top: 1.5rem; border-top: 1px solid var(--card-border);">
                             <p
                                 style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; text-align: center;">
                                 Hai bisogno di supporto?</p>
