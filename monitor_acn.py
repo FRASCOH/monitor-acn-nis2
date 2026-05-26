@@ -484,6 +484,96 @@ def send_email(html_content, subject):
     except Exception as e:
         print(f"Errore invio email: {e}")
 
+def to_telegram_html(text):
+    """Converte un testo markdown semplice in HTML compatibile con Telegram"""
+    if not text:
+        return ""
+    # 1. Escape HTML special characters
+    text = text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    # 2. Convert markdown bold (**text**) to HTML bold (<b>text</b>)
+    text = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', text)
+    # 3. Convert markdown italic (*text*) to HTML italic (<i>text</i>)
+    text = re.sub(r'\*(.*?)\*', r'<i>\1</i>', text)
+    # 4. Convert markdown inline code (`code`) to HTML code (<code>code</code>)
+    text = re.sub(r'`(.*?)`', r'<code>\1</code>', text)
+    # 5. Convert markdown links ([text](url)) to HTML links (<a href="\2">\1</a>)
+    text = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', text)
+    return text
+
+def send_telegram_notification(results_with_changes, ai_summary):
+    """Invia notifica su Telegram con il riepilogo delle modifiche"""
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    
+    if not token or not chat_id:
+        print("Telegram bot token o chat ID non configurati, salto notifica Telegram.")
+        return
+        
+    emoji_bell = "🔔"
+    emoji_robot = "🤖"
+    emoji_list = "📋"
+    
+    now_str = get_now().strftime('%d/%m/%Y %H:%M')
+    
+    header = f"{emoji_bell} <b>Cyber Monitor ACN & NIS2</b>\n"
+    header += f"<i>Aggiornamento del {now_str}</i>\n\n"
+    header += f"Rilevate modifiche in <b>{len(results_with_changes)}</b> risorse.\n\n"
+    
+    if ai_summary:
+        header += f"{emoji_robot} <b>Analisi Intelligente (Gemini AI)</b>\n"
+        header += f"{to_telegram_html(ai_summary)}\n\n"
+        
+    details = f"{emoji_list} <b>Dettaglio Modifiche:</b>\n"
+    
+    for i, r in enumerate(results_with_changes):
+        if len(header) + len(details) > 3800:
+            details += f"• <i>...e altre risorse (visualizza la dashboard per i dettagli completi)</i>\n"
+            break
+            
+        name = to_telegram_html(r.get("name", "Risorsa"))
+        url = r.get("url", "")
+        status = to_telegram_html(r.get("status", "Modificato"))
+        summary = to_telegram_html(r.get("summary", ""))
+        page_ai_summary = r.get("ai_summary", "")
+        
+        link_str = f' (<a href="{url}">Link</a>)' if url else ""
+        
+        item = f"• <b>{name}</b>{link_str}\n"
+        item += f"  Stato: <i>{status}</i>"
+        if summary:
+            item += f" ({summary})"
+        item += "\n"
+        
+        if page_ai_summary and len(results_with_changes) <= 5:
+            if len(page_ai_summary) > 200:
+                page_ai_summary = page_ai_summary[:197] + "..."
+            item += f"  <i>{to_telegram_html(page_ai_summary)}</i>\n"
+            
+        item += "\n"
+        
+        if len(header) + len(details) + len(item) > 3900:
+            details += f"• <i>...e altre {len(results_with_changes) - i} risorse</i>\n"
+            break
+        else:
+            details += item
+            
+    full_message = header + details
+    
+    payload = {
+        "chat_id": chat_id,
+        "text": full_message,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": True
+    }
+    
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+    try:
+        response = requests.post(url, json=payload, timeout=15)
+        response.raise_for_status()
+        print("Notifica Telegram inviata correttamente!")
+    except Exception as e:
+        print(f"Errore durante l'invio della notifica Telegram: {e}")
+
 def get_page_ai_summary(name, additions, removals):
     """Genera un riassunto delle modifiche per una singola pagina"""
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -545,12 +635,12 @@ def get_ai_summary(results_with_changes):
         """
         
         response = model.generate_content(prompt)
-        return response.text.replace("\n", "<br>")
+        return response.text
     except Exception as e:
         print(f"Errore durante la generazione del riassunto AI: {e}")
         return None
 
-def generate_summary_report(results_with_changes):
+def generate_summary_report(results_with_changes, ai_summary=None):
     """Genera un report HTML consolidato per tutte le pagine modificate"""
     now_str = get_now().strftime('%d/%m/%Y alle %H:%M')
     
@@ -578,15 +668,14 @@ def generate_summary_report(results_with_changes):
         <p>Sono state rilevate modifiche in <strong>{len(results_with_changes)}</strong> risorse.</p>
     """
     
-    # Ottieni il riassunto AI
-    ai_summary = get_ai_summary(results_with_changes)
     if ai_summary:
+        ai_summary_html = ai_summary.replace("\n", "<br>")
         html += f"""
         <div class="ai-summary">
             <h3 style="margin-top: 0; color: #4338ca; display: flex; align-items: center; gap: 10px;">
                 🤖 Analisi Intelligente (Gemini AI)
             </h3>
-            <div style="line-height: 1.6;">{ai_summary}</div>
+            <div style="line-height: 1.6;">{ai_summary_html}</div>
         </div>
         """
 
@@ -904,7 +993,7 @@ def main():
     new_resources = [r for r in all_results if r.get("status") == "Nuova risorsa aggiunta"]
     
     if results_with_changes or new_resources:
-        print(f"\n📧 Preparazione invio email consolidata per {len(results_with_changes)} modifiche...")
+        print(f"\n📧 Preparazione invio notifiche per {len(results_with_changes)} modifiche...")
         
         # Per le nuove risorse, creiamo dei fake "additions" per il report
         for nr in new_resources:
@@ -914,10 +1003,18 @@ def main():
             results_with_changes.append(nr)
 
         subject = f"🔔 Monitor ACN: {len(results_with_changes)} modifiche rilevate - {get_now().strftime('%d/%m/%Y %H:%M')}"
-        html_report = generate_summary_report(results_with_changes)
+        
+        # Ottieni il riassunto AI una sola volta
+        ai_summary = get_ai_summary(results_with_changes)
+        
+        # Invia Email
+        html_report = generate_summary_report(results_with_changes, ai_summary)
         send_email(html_report, subject)
+        
+        # Invia Telegram
+        send_telegram_notification(results_with_changes, ai_summary)
     else:
-        print("\n✅ Nessuna nuova modifica rilevante da notificare via email.")
+        print("\n✅ Nessuna nuova modifica rilevante da notificare.")
 
     # Salva risultati per la dashboard
     try:
