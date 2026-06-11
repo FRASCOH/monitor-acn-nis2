@@ -1,8 +1,27 @@
 {
-  "hash": "2547a94069f1b9e6ccf5776ca648778773e64299748471b2a8c86127386cc4e4",
-  "last_check": "2026-06-11T08:22:48.910437+02:00",
-  "last_change_date": null,
-  "last_additions": [],
-  "last_removals": [],
+  "hash": "f8507edb9778efc294fd7b980061d7672a86be65774821c055f36e4f75e36058",
+  "last_check": "2026-06-11T13:02:16.881374+02:00",
+  "last_change_date": "2026-06-11T13:02:16.881275+02:00",
+  "last_additions": [
+    "Avviso",
+    "In corso",
+    "Call per il programma Cybersecurity Fast Track di Plug and Play",
+    "Data apertura",
+    "29/05/26 ore 10:00",
+    "Data chiusura",
+    "14/06/26 ore 23:59",
+    "Cyber Innovation Network"
+  ],
+  "last_removals": [
+    "Avviso",
+    "7/2023",
+    "Scaduto",
+    "Interventi di potenziamento della resilienza cyber - PA Centrale",
+    "Data apertura",
+    "11/10/23 ore 09:00",
+    "Data chiusura",
+    "05/12/23 ore 18:00",
+    "PNRR"
+  ],
   "ai_summary": ""
 }
