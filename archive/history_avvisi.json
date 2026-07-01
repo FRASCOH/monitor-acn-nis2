@@ -1,5 +1,28 @@
 [
   {
+    "timestamp": "2026-07-01T19:49:10.679485+02:00",
+    "date_formatted": "01/07/2026 19:49",
+    "additions": [
+      "Avviso",
+      "In corso",
+      "Attivazione dei tirocini curriculari presso l'Agenzia per la cybersicurezza nazionale",
+      "Data apertura",
+      "01/07/26 ore 18:00",
+      "Data chiusura",
+      "30/09/26 ore 18:00"
+    ],
+    "removals": [
+      "Avviso",
+      "Scaduto",
+      "Strategia Nazionale di Cybersicurezza 2022-26 - Rilevazione degli interventi",
+      "Data apertura",
+      "01/01/24 ore 09:00",
+      "Data chiusura",
+      "15/02/24 ore 18:00",
+      "Strategia Nazionale"
+    ]
+  },
+  {
     "timestamp": "2026-06-22T15:11:23.523585+02:00",
     "date_formatted": "22/06/2026 15:11",
     "additions": [
