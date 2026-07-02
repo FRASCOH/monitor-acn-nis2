@@ -1,25 +1,12 @@
 {
-  "hash": "0af90e53066a74932ef3f093261f013652a9998249813c9a6f42ca98f75b5908",
-  "last_check": "2026-07-02T07:45:01.738307+02:00",
-  "last_change_date": "2026-07-01T19:49:10.679782+02:00",
+  "hash": "8cb6af129b1e206636f315efea358ff23292e046e7740a5a8c129bb4bbe129ae",
+  "last_check": "2026-07-02T10:34:45.328536+02:00",
+  "last_change_date": "2026-07-02T10:34:45.328456+02:00",
   "last_additions": [
-    "Avviso",
-    "In corso",
-    "Attivazione dei tirocini curriculari presso l'Agenzia per la cybersicurezza nazionale",
-    "Data apertura",
-    "01/07/26 ore 18:00",
-    "Data chiusura",
-    "30/09/26 ore 18:00"
+    "30/09/26 ore 14:00"
   ],
   "last_removals": [
-    "Avviso",
-    "Scaduto",
-    "Strategia Nazionale di Cybersicurezza 2022-26 - Rilevazione degli interventi",
-    "Data apertura",
-    "01/01/24 ore 09:00",
-    "Data chiusura",
-    "15/02/24 ore 18:00",
-    "Strategia Nazionale"
+    "30/09/26 ore 18:00"
   ],
   "ai_summary": ""
 }
