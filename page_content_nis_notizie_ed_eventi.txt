@@ -6,6 +6,13 @@ Notizie ed eventi
 Notizie ed eventi
 Notizie
 News -
+14 Luglio 2026
+Aggiornate le FAQ ACN sugli obblighi degli organi di amministrazione e direttivi dei soggetti NIS
+L'Agenzia per la Cybersicurezza Nazionale ha pubblicato nuovi chiarimenti interpretativi sulla governance prevista dalla normativa NIS 2, con l'obiettivo di agevolarne l'applicazione da parte dei soggetti interessati
+Normativa NIS
+NIS
+ACN
+News -
 24 Aprile 2026
 NIS, pubblicate le modalità per l’elencazione e la categorizzazione delle attività e dei servizi
 Nell’avvio della nuova fase attuativa della disciplina NIS, i soggetti sono chiamati a svolgere un'analisi di impatto semplificata e armonizzata sulle proprie attività e sui propri servizi
@@ -151,14 +158,5 @@ Interventi del Magnifico Rettore Polimeni, del Sottosegretario di Stato Mantovan
 Università
 Normativa NIS
 NIS
-ACN
-News -
-26 Novembre 2024
-ACN e Sapienza Università di Roma : la Direttiva NIS2 al centro del dibattito sulla sicurezza digitale
-Possibile partecipare all’evento informativo in presenza o in diretta streaming
-Pubblico-privato
-Normativa NIS
-NIS
-Cybersicurezza
 ACN
 Nascosta

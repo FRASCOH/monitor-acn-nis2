@@ -1,8 +1,26 @@
 {
-  "hash": "db71e447025af02d27629b19762e60914d7eef6981319c0711ddb473ec93bce5",
-  "last_check": "2026-07-14T14:51:48.824826+02:00",
-  "last_change_date": null,
-  "last_additions": [],
-  "last_removals": [],
+  "hash": "871f87416774d682f032d9df886646b4f250db6e635f31f3c82ca6d589c7b682",
+  "last_check": "2026-07-14T16:31:02.584427+02:00",
+  "last_change_date": "2026-07-14T16:31:02.584301+02:00",
+  "last_additions": [
+    "News -",
+    "14 Luglio 2026",
+    "Aggiornate le FAQ ACN sugli obblighi degli organi di amministrazione e direttivi dei soggetti NIS",
+    "L'Agenzia per la Cybersicurezza Nazionale ha pubblicato nuovi chiarimenti interpretativi sulla governance prevista dalla normativa NIS 2, con l'obiettivo di agevolarne l'applicazione da parte dei soggetti interessati",
+    "Normativa NIS",
+    "NIS",
+    "ACN"
+  ],
+  "last_removals": [
+    "News -",
+    "26 Novembre 2024",
+    "ACN e Sapienza Universit\u00e0 di Roma : la Direttiva NIS2 al centro del dibattito sulla sicurezza digitale",
+    "Possibile partecipare all\u2019evento informativo in presenza o in diretta streaming",
+    "Pubblico-privato",
+    "Normativa NIS",
+    "NIS",
+    "Cybersicurezza",
+    "ACN"
+  ],
   "ai_summary": ""
 }
