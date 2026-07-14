@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "timestamp": "2026-07-14T10:07:40.304885+02:00",
+    "date_formatted": "14/07/2026 10:07",
+    "additions": [
+      "ODA.8 Gli organi di amministrazione e gli organi direttivi dei soggetti essenziali e dei soggetti importanti all\u2019articolo 23, commi 1 e 2 del decreto NIS possono delegare al proprio interno lo svolgimento delle attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS?",
+      "Si, \u00e8 possibile conferire tale delega ferma restando in capo agli organi di amministrazione e agli organi direttivi dei soggetti essenziali e dei soggetti importanti la responsabilit\u00e0 ai sensi dell\u2019articolo 23 del decreto NIS di (i) approvare le modalit\u00e0 di implementazione delle misure di gestione dei rischi per la sicurezza informatica di cui alla",
+      "Determinazione ACN 379907/2025",
+      "(comma 1, lett. a)); (ii) sovrintendere alla loro implementazione (comma 1, lett. b)); (iii) essere responsabili delle violazioni di cui al decreto NIS (comma 1, lett. c)); (iv) seguire una formazione in materia di sicurezza informatica (comma 2, lett. a)); (v) promuovere l\u2019offerta periodica di formazione per i dipendenti coerente con quella seguita dagli organi di amministrazione e dagli organi direttivi (comma 2, lett. b)).",
+      "Tale delega non pu\u00f2 riguardare l\u2019approvazione dei documenti di cui all\u2019articolo 23, comma 1, lett. a), e 2 del decreto NIS, riportati sotto forma tabellare nell\u2019appendice C della guida alla lettura delle specifiche di base (vds. ODA.10) che resta in capo unicamente ed esclusivamente agli organi di amministrazione e direttivi del soggetto NIS (sulla cui individuazione si vedano le ODA.1, ODA.3, ODA.5 e ODA.6), nella loro collegialit\u00e0, ovvero all\u2019organo monocratico, ove applicabile. Inoltre, tale obbligo non \u00e8 suscettibile di essere trasferito n\u00e9 a membri specifici, n\u00e9 a distinti organi e funzioni del soggetto NIS, indipendentemente dal modello di",
+      "governance",
+      "societaria adottato.",
+      "ODA.9 L\u2019eventuale delega per lo svolgimento di attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS, pu\u00f2 escludere la responsabilit\u00e0 degli organi di amministrazione e degli organi direttivi ai sensi del predetto articolo?",
+      "In tal caso, ai fini delle responsabilit\u00e0, per le societ\u00e0, resta fermo quanto previsto dagli artt. 2381 c.c. e 2392 c.c.",
+      "Per mera completezza, si precisa che tale rinvio non implica n\u00e9 consente di trasferire in capo a singoli membri degli organi di amministrazione e direttivi, n\u00e9 ad altri organi e funzioni del soggetto NIS, l\u2019adempimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS.",
+      "Difatti, l\u2019introduzione di tali obblighi ha la finalit\u00e0 specifica di elevare la sicurezza informatica a priorit\u00e0 strategica degli organi di amministrazione e direttivi.",
+      "ODA.10 Qual \u00e8 il livello di dettaglio richiesto nei documenti che devono essere approvati dagli organi di amministrazione e direttivi ai fini dell\u2019implementazione delle cd. misure di sicurezza di base?",
+      "I documenti da sottoporre all\u2019approvazione degli organi di amministrazione e direttivi di cui all\u2019articolo 23, comma 1, lett. a) del decreto NIS sono indicati nell\u2019elenco a seguire che riporta tra parentesi il riferimento ai requisiti delle misure di sicurezza che ne impongono l\u2019approvazione:",
+      "Organizzazione per la sicurezza informatica (GV.RR-02 punto 1).",
+      "Politiche di sicurezza informatica (GV.PO-01 punto 3).",
+      "Valutazione del rischio posto alla sicurezza dei sistemi informativi e di rete (ID.RA-05 punto 3).",
+      "Piano di trattamento del rischio (ID.RA-06 punto 3).",
+      "Piano di gestione delle vulnerabilit\u00e0 (ID.RA-08 punto 4).",
+      "Piano di adeguamento (ID.IM-01 punto 1).",
+      "Piano di continuit\u00e0 operativa (ID.IM-04 punto 4).",
+      "Piano di ripristino in caso di disastro (ID.IM-04 punto 4).",
+      "Piano di gestione delle crisi (ID.IM-04 punto 4).",
+      "Piano di formazione (PR.AT-01 punto 2).",
+      "Piano per la gestione degli incidenti di sicurezza informatica (RS.MA-01 punto 2).",
+      "L\u2019elenco dei documenti e dei relativi riferimenti \u00e8 anche riportato sotto forma tabellare nell\u2019appendice C della",
+      "guida alla lettura delle specifiche di base",
+      ".",
+      "Essi devono avere un contenuto minimo coerente con le funzioni tipiche di gestione, indirizzo e pianificazione strategica proprie degli stessi.",
+      "Pertanto, \u00e8 richiesto che tali documenti riflettano e declinino i requisiti delle misure di sicurezza almeno a livello di indirizzo e pianificazione strategica, in modo da consentire agli organi di amministrazione e direttivi di esercitare consapevolmente la propria funzione (v. anche ODA.8 e ODA.9).",
+      "Conseguentemente, il dettaglio tecnico e operativo dei succitati documenti pu\u00f2 essere disciplinato attraverso ulteriori e diversi presidi documentali e organizzativi (e.g., procedure tecniche, istruzioni operative, manuali, documenti e relazioni interne) a cura delle articolazioni competenti del soggetto NIS.",
+      "ODA.11 \u00c8 necessario che gli organi di amministrazione e direttivi approvino anche gli ulteriori e diversi presidi documentali e organizzativi eventualmente referenziati nei documenti di cui alla FAQ ODA.10?",
+      "Non \u00e8 richiesto che gli organi di amministrazione e direttivi approvino gli ulteriori e diversi presidi documentali e organizzativi eventualmente referenziati nei documenti di cui alla FAQ ODA.10.",
+      "Con riferimento all\u2019organizzazione dell\u2019impianto documentale, si osserva infatti che \u2013 come riportato nella",
+      "guida alla lettura delle specifiche di base",
+      "\u2013 il soggetto pu\u00f2 decidere come organizzare la documentazione richiesta raggruppando i contenuti in un unico documento o distribuendoli tra pi\u00f9 documenti.",
+      "In considerazione di quanto sopra, nel caso, ad esempio, del piano per la gestione degli incidenti di sicurezza informatica, non \u00e8 richiesto che tale documento contenga il dettaglio delle pertinenti procedure, ma \u00e8 sufficiente che ne riporti l\u2019elenco con i riferimenti ai relativi documenti.",
+      "ODA.12 Qualora sia aggiornato uno degli ulteriori e diversi presidi documentali e organizzativi referenziati nei documenti approvati dagli organi di amministrazione e direttivi \u00e8 necessario sottoporre nuovamente all\u2019approvazione degli organi di amministrazione e direttivi tali documenti?",
+      "Fermo restando quanto previsto dalla FAQ ODA.10, non \u00e8 richiesto che gli organi di amministrazione e direttivi procedano ad una nuova approvazione dei documenti di cui alla sopracitata FAQ, qualora siano aggiornati gli ulteriori e diversi presidi documentali e organizzativi cui fanno eventualmente riferimento gli stessi documenti.",
+      "ODA.13 Nell\u2019elencazione dei componenti degli organi di amministrazione e direttivi \u00e8 necessario indicare la PEC personale?"
+    ],
+    "removals": [
+      "ODA.8 Gli organi di amministrazione e gli organi direttivi dei soggetti essenziali e dei soggetti importanti possono delegare al proprio interno lo svolgimento delle attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS?",
+      "Si, \u00e8 possibile conferire tale delega ferma restando in capo agli organi di amministrazione e agli organi direttivi dei soggetti essenziali e dei soggetti importanti la responsabilit\u00e0 ai sensi dell\u2019articolo 23 del decreto NIS di (i) approvare le modalit\u00e0 di implementazione  delle misure di gestione dei rischi per la sicurezza informatica di cui alla",
+      "Determinazione ACN 379887/2025",
+      "(comma 1, lett. a)); (ii) sovrintendere alla loro implementazione (comma 1, lett.b)); (iii)  essere responsabili delle violazioni di cui al decreto nis (comma 1, lett. c)); (iv) seguire una formazione in materia di sicurezza informatica (comma 2, lett. a)); (v) promuovere l\u2019offerta periodica di formazione per i dipendenti coerente con quella seguita dagli organi di amministrazione e dagli organi direttivi (comma 2, lett. b)).",
+      "ODA. 9 L\u2019eventuale delega per lo svolgimento di attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS, pu\u00f2 escludere la responsabilit\u00e0 degli organi di amministrazione e degli organi direttivi ai sensi del predetto articolo?",
+      "In tal caso, ai fini delle responsabilit\u00e0, per le societ\u00e0, resta fermo quanto previsto dagli artt. 2381 c.c. e 2392 c.c..",
+      "ODA.10 Nell\u2019elencazione dei componenti degli organi di amministrazione e direttivi \u00e8 necessario indicare la PEC personale?"
+    ]
+  }
+]
