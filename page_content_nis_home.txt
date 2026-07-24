@@ -55,6 +55,9 @@ Notizie ed eventi
 Per restare sempre aggiornati sugli eventi e le ultime notizie NIS consulta questa sezione
 Scopri di più
 News -
+24 Luglio 2026
+Aggiornate le FAQ ACN sulle misure di sicurezza per la supply chain dei soggetti NIS
+News -
 14 Luglio 2026
 Aggiornate le FAQ ACN sugli obblighi degli organi di amministrazione e direttivi dei soggetti NIS
 News -
@@ -111,9 +114,6 @@ Normativa NIS: date e informazioni utili per un’implementazione efficace
 News -
 29 Novembre 2024
 NIS: attiva dal 1° dicembre la registrazione sulla piattaforma ACN
-News -
-27 Novembre 2024
-NIS2, convegno ACN all'Università Sapienza di Roma. Frattasi: dalla direttiva uno sguardo nuovo sulla cybersicurezza
 Domande frequenti
 Consulta le domande frequenti sulla nuova direttiva NIS
 Scopri di più

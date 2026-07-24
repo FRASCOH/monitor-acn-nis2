@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "timestamp": "2026-07-24T19:16:28.619898+02:00",
+    "date_formatted": "24/07/2026 19:16",
+    "additions": [
+      "MSB.13. Qual \u00e8 il processo che deve essere adottato ai fini di garantire la sicurezza della catena di approvvigionamento?",
+      "Con riferimento alla sicurezza della catena di approvvigionamento, le misure di sicurezza di base delineano un processo articolato nelle seguenti fasi (tra parentesi sono riportati i punti delle misure cui le fasi fanno riferimento):",
+      "valutazione del rischio associato alla fornitura",
+      ", \u00e8 valutato e documentato il rischio associato alle forniture (ai sensi della misura GV.SC-07 punto 1);",
+      "identificazione dei requisiti di sicurezza",
+      ", in accordo agli esiti della valutazione del rischio associato alla fornitura di cui al punto precedente, sono definiti requisiti di sicurezza sulla fornitura coerenti con le misure di sicurezza applicate ai propri sistemi informativi e di rete (ai sensi della misura GV.SC-01 punto 1);",
+      "enforcement dei requisiti",
+      ", i requisiti di sicurezza definiti sono inseriti \u2013 fatte salve motivate e documentate ragioni normative o tecniche \u2013 nelle richieste di offerta, bandi di gara (ivi inclusi gli accordi quadro e la relativa documentazione), contratti, accordi e convenzioni relativi alle forniture con potenziali impatti sulla sicurezza dei sistemi informativi e di rete (ai sensi della misura GV.SC-05 punto 1);",
+      "verifica dei requisiti",
+      ", \u00e8 verificata periodicamente e documentata la conformit\u00e0 delle forniture ai requisiti inseriti nei documenti indicati al punto precedente (ai sensi della misura GV.SC-07 punto 2).",
+      "MSB.14. Quali sono i criteri da considerare ai fini della valutazione del rischio associato alla fornitura?",
+      "Con riferimento alla fase di \u201cvalutazione del rischio associato alla fornitura\u201d (vds. FAQ MSB.13), come indicato dal punto 1 della misura GV.SC-07, sono da valutare almeno i seguenti criteri:",
+      "il livello di accesso del fornitore ai sistemi informativi e di rete del soggetto NIS;",
+      "l'accesso del fornitore alla propriet\u00e0 intellettuale e ai dati anche sulla base della loro criticit\u00e0;",
+      "l'impatto di una grave interruzione della fornitura;",
+      "i tempi e i costi di ripristino in caso di indisponibilit\u00e0 dei servizi;",
+      "i ruoli e le responsabilit\u00e0 del fornitore nel governo dei sistemi informativi e di rete.",
+      "MSB.15. I requisiti di sicurezza devono essere definiti per tutte le forniture?",
+      "Con riferimento alla fase di \u201cidentificazione dei requisiti di sicurezza\u201d (vds. FAQ MSB.13), si evidenzia che non \u00e8 richiesto che i requisiti di sicurezza siano definiti per tutte le forniture.",
+      "Il punto 1 della misura GV.SC-01 prevede infatti che i requisiti di sicurezza siano definiti in merito all\u2019affidamento di forniture con potenziali impatti sulla sicurezza, ossia (in accordo a quanto riportato nella FAQ MSB.8) per le forniture la cui eventuale compromissione pu\u00f2 determinare effetti sulla capacit\u00e0 dei sistemi informativi e di rete di resistere, con un determinato livello di affidabilit\u00e0, agli eventi che potrebbero compromettere la disponibilit\u00e0, l'autenticit\u00e0, l'integrit\u00e0 o la riservatezza dei dati conservati, trasmessi o elaborati o dei servizi offerti da tali sistemi informativi e di rete o accessibili attraverso di essi.",
+      "MSB.16. Nelle richieste di offerta, bandi di gara (ivi inclusi gli accordi quadro e la relativa documentazione), contratti, accordi e convenzioni devono essere inseriti tutti i requisiti previsti dalle misure di sicurezza di base e devono riportare testualmente quanto riportato dalle misure di sicurezza?",
+      "Con riferimento alla fase di \u201cenforcement dei requisiti\u201d (vds. FAQ MSB.13), si evidenzia che non \u00e8 richiesto che siano necessariamente inseriti tutti i requisiti previsti dalle misure di sicurezza di base.",
+      "Il punto 1 della misura GV.SC-01 prevede infatti che i requisiti di sicurezza sulle forniture siano individuati in accordo agli esiti della valutazione del rischio associato alla fornitura e che siano coerenti con le misure di sicurezza applicate ai propri sistemi informativi e di rete (vds. FAQ MSB.15).",
+      "Inoltre, non \u00e8 richiesto che i requisiti di sicurezza riportino fedelmente il testo delle misure di sicurezza NIS applicabili ma \u00e8 sufficiente che ne recepiscano il contenuto sostanziale.",
+      "Come infatti indicato al punto 1 della misura GV.SC-01, i requisiti da inserire \u2013 definiti in accordo agli esiti della valutazione del rischio associata alla fornitura in accordo ai criteri indicati (si veda a riguardo la FAQ MSB.14) \u2013 sono coerenti con le misure di sicurezza applicate dal soggetto NIS ai sistemi informativi e di rete.",
+      "MSB.17. La nozione di \u201cmisure di gestione dei rischi di cybersicurezza\u201d di cui all\u2019articolo 24 deve essere interpretata nel senso che tutte le principali categorie di misure ivi elencate (quali, a titolo esemplificativo, analisi dei rischi, gestione degli incidenti, continuit\u00e0 operativa, sicurezza della supply chain e sicurezza nello sviluppo e manutenzione dei sistemi) costituiscono un insieme minimo che deve essere sempre applicato dalle Amministrazioni di riferimento?",
+      "No. L\u2019applicazione di tali categorie deve essere modulata fino alla eventuale esclusione di talune di esse, in funzione del contesto operativo, del livello di rischio e della criticit\u00e0 dei servizi affidati dalla singola Amministrazione.",
+      "Al riguardo, a titolo esemplificativo, si rappresenta che, nel caso di affidamento di servizi non ICT \u2013 quali, ad esempio, il servizio di pulizia, il servizio di vigilanza (senza l\u2019uso di strumenti digitali come quelli di videosorveglianza), servizi di progettazione (senza l\u2019uso di metodologia BIM) \u2013 pur permanendo in capo all\u2019amministrazione gli obblighi generali di gestione del rischio di cybersicurezza, i requisiti delle misure di sicurezza da applicare al fornitore dovranno essere coerenti con l\u2019oggetto della prestazione e al concreto profilo di rischio.",
+      "MSB.18 Qualora l\u2019operatore economico aggiudicatario sia costituito in forma di RTI, le misure di sicurezza possono essere soddisfatte da tutte le imprese componenti il RTI (o Consorzi stabili o di altro tipo di consorzi)?",
+      "Nei casi in cui l\u2019operatore economico aggiudicatario sia costituito in forma di RTI, le misure di sicurezza dovranno essere soddisfatte dai soli componenti che erogano (anche parzialmente) la prestazione contrattuale che ha impatti sulla sicurezza informatica (vds MSB.8). Ci\u00f2 tenuto conto dei diversi ruoli e delle possibili ripartizioni delle attivit\u00e0 nell\u2019ambito del RTI medesimo, nonch\u00e9 dei principi di accountability, adeguatezza e proporzionalit\u00e0 nella gestione del rischio di cui alla normativa NIS2 e in coerenza con un approccio risk-based.",
+      "MSB.19 Con riferimento ai contratti misti, nei quali coesistano prestazioni di diversa natura \u2014 ad esempio componenti ICT e componenti non ICT \u2014 come devono essere applicati i requisiti delle misure di sicurezza?",
+      "Come indicato nella FAQ MSB.17, l\u2019applicazione dei requisiti di sicurezza deve essere modulata tenendo conto della loro proporzionalit\u00e0, pertinenza e adeguatezza rispetto alle specifiche prestazioni affidate, evitando l\u2019imposizione generalizzata di obblighi non coerenti con la natura dell\u2019affidamento o con il rischio di cybersicurezza concretamente rilevabile."
+    ],
+    "removals": []
+  }
+]

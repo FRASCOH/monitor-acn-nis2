@@ -6,6 +6,13 @@ Notizie ed eventi
 Notizie ed eventi
 Notizie
 News -
+24 Luglio 2026
+Aggiornate le FAQ ACN sulle misure di sicurezza per la supply chain dei soggetti NIS
+L'Agenzia per la Cybersicurezza Nazionale ha pubblicato nuovi chiarimenti interpretativi sul processo e i requisiti di sicurezza da implementare per proteggere la sicurezza della catena di approvvigionamento dei soggetti NIS 2, con l'obiettivo di agevolarne l'applicazione da parte dei soggetti interessati
+Normativa NIS
+NIS
+ACN
+News -
 14 Luglio 2026
 Aggiornate le FAQ ACN sugli obblighi degli organi di amministrazione e direttivi dei soggetti NIS
 L'Agenzia per la Cybersicurezza Nazionale ha pubblicato nuovi chiarimenti interpretativi sulla governance prevista dalla normativa NIS 2, con l'obiettivo di agevolarne l'applicazione da parte dei soggetti interessati
@@ -151,12 +158,4 @@ NIS: attiva dal 1° dicembre la registrazione sulla piattaforma ACN
 C’è tempo fino al 28 febbraio 2025 per il censimento dei soggetti NIS. Disponibile anche un video tutorial sul canale YouTube di ACN
 Normativa NIS
 NIS
-News -
-27 Novembre 2024
-NIS2, convegno ACN all'Università Sapienza di Roma. Frattasi: dalla direttiva uno sguardo nuovo sulla cybersicurezza
-Interventi del Magnifico Rettore Polimeni, del Sottosegretario di Stato Mantovano e del Vice Direttore Ciardi
-Università
-Normativa NIS
-NIS
-ACN
 Nascosta
