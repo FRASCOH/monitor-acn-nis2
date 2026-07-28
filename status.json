@@ -1,63 +1,913 @@
 {
-  "last_update": "28/07/2026 15:16",
+  "last_update": "28/07/2026 17:35",
   "pages": [
     {
       "id": "atti_generali",
       "name": "ACN Atti Generali",
       "url": "https://www.acn.gov.it/portale/atti-generali",
-      "last_check": "28/07/2026 15:14",
-      "status": "Errore download/lettura",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": []
-    },
-    {
-      "id": "faq_nis_parent",
-      "name": "FAQ NIS (Parent)",
-      "url": "https://www.acn.gov.it/portale/faq/nis",
-      "last_check": "28/07/2026 15:14",
-      "status": "Errore download/lettura",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": []
-    },
-    {
-      "id": "nis_home",
-      "name": "NIS Home",
-      "url": "https://www.acn.gov.it/portale/nis",
-      "last_check": "28/07/2026 15:15",
-      "status": "Errore download/lettura",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": []
-    },
-    {
-      "id": "linee_guida",
-      "name": "Linee Guida ACN",
-      "url": "https://www.acn.gov.it/portale/linee-guida",
-      "last_check": "28/07/2026 15:15",
+      "last_check": "28/07/2026 17:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [
+        {
+          "name": "Regolamento Cloud per la PA",
+          "url": "https://www.acn.gov.it/portale/cloud/regolamento-cloud-per-la-pa",
+          "type": "Regolamento",
+          "date": "",
+          "year": "",
+          "month": ""
+        },
+        {
+          "name": "Attuazione Misure PNRR",
+          "url": "https://www.acn.gov.it/portale/amministrazione-trasparente/attuazione-misure-pnrr",
+          "type": "Altro",
+          "date": "",
+          "year": "",
+          "month": ""
+        },
+        {
+          "name": "Piano triennale per la prevenzione della corruzione e della trasparenza",
+          "url": "https://www.acn.gov.it/portale/amministrazione-trasparente/piano-triennale-per-la-prevenzione-della-corruzione-e-della-trasparenza",
+          "type": "Altro",
+          "date": "",
+          "year": "",
+          "month": ""
+        },
+        {
+          "name": "Personale non a tempo indeterminato",
+          "url": "https://www.acn.gov.it/portale/amministrazione-trasparente/personale-non-a-tempo-indeterminato",
+          "type": "Determina",
+          "date": "",
+          "year": "",
+          "month": ""
+        },
+        {
+          "name": "Piano della Performance",
+          "url": "https://www.acn.gov.it/portale/amministrazione-trasparente/piano-della-performance",
+          "type": "Altro",
+          "date": "",
+          "year": "",
+          "month": ""
+        },
+        {
+          "name": "Piano degli indicatori e dei risultati attesi di bilancio",
+          "url": "https://www.acn.gov.it/portale/amministrazione-trasparente/piano-degli-indicatori-e-dei-risultati-attesi-di-bilancio",
+          "type": "Altro",
+          "date": "",
+          "year": "",
+          "month": ""
+        },
+        {
+          "name": "Decreto-legge 14 giugno 2021, n. 82",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2021-06-14&amp;atto.codiceRedazionale=21G00098&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=e5b38133-2462-4ac7-8daa-a443468a7f19&amp;tabID=0.43023604502860624&amp;title=lbl.dettaglioAtto",
+          "type": "Decreto",
+          "date": "14/06/2021",
+          "year": "2021",
+          "month": "06"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 9 dicembre 2021, n. 222",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2021-12-24&amp;atto.codiceRedazionale=21G00245&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=c25a046a-44e2-47eb-a790-a5efbf441b5f&amp;tabID=0.26826534810823954&amp;title=lbl.dettaglioAtto",
+          "type": "Decreto",
+          "date": "09/12/2021",
+          "year": "2021",
+          "month": "12"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 9 dicembre 2021, n. 223",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2021-12-27&amp;atto.codiceRedazionale=21G00246&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=936c92a0-30c5-4238-a960-4bef5f1d38f2&amp;tabID=0.7310497239427409&amp;title=lbl.dettaglioAtto",
+          "type": "Decreto",
+          "date": "09/12/2021",
+          "year": "2021",
+          "month": "12"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 9 dicembre 2021, n. 224",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2021-12-27&amp;atto.codiceRedazionale=21G00247&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=5df9255a-00f1-4f70-b605-bf5f4ff5ffc7&amp;tabID=0.7310497239427409&amp;title=lbl.dettaglioAtto",
+          "type": "Decreto",
+          "date": "09/12/2021",
+          "year": "2021",
+          "month": "12"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 1\u00b0 settembre 2022, n. 166",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2022-11-04&amp;atto.codiceRedazionale=22G00173&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=e1f7d4bf-0338-4586-9e1c-0fc4aca60cf2&amp;tabID=0.7310497239427409&amp;title=lbl.dettaglioAtto",
+          "type": "Decreto",
+          "date": "",
+          "year": "2022",
+          "month": ""
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 15 giugno 2022",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2022-06-30&amp;atto.codiceRedazionale=22A03773&amp;elenco30giorni=true",
+          "type": "Decreto",
+          "date": "15/06/2022",
+          "year": "2022",
+          "month": "06"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 1\u00b0 settembre 2022",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2022/10/20/22A05913/sg",
+          "type": "Decreto",
+          "date": "",
+          "year": "2022",
+          "month": ""
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 24 novembre 2023",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2024-01-19&amp;atto.codiceRedazionale=24A00199&amp;elenco30giorni=false",
+          "type": "Decreto",
+          "date": "24/11/2023",
+          "year": "2023",
+          "month": "11"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 26 gennaio 2024",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2024-03-15&amp;atto.codiceRedazionale=24A01370&amp;elenco30giorni=false",
+          "type": "Decreto",
+          "date": "26/01/2024",
+          "year": "2024",
+          "month": "01"
+        },
+        {
+          "name": "Decreto-legge 2 marzo 2024, n. 19",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2024-03-02;19",
+          "type": "Decreto",
+          "date": "02/03/2024",
+          "year": "2024",
+          "month": "03"
+        },
+        {
+          "name": "Decreto legislativo 18 maggio 2018, n. 65",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2018-06-09&amp;atto.codiceRedazionale=18G00092&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=f901f97b-5a3e-43d4-8ee6-09cbfcfd57cf&amp;tabID=0.43023604502860624&amp;title=lbl.dettaglioAtto",
+          "type": "Decreto",
+          "date": "18/05/2018",
+          "year": "2018",
+          "month": "05"
+        },
+        {
+          "name": "Decreto-legge 21 settembre 2019, n. 105",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2019-09-21&amp;atto.codiceRedazionale=19G00111&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=13e58e3a-10d5-4604-ab6f-f11e872b2bb4&amp;tabID=0.26826534810823954&amp;title=lbl.dettaglioAtto",
+          "type": "Decreto",
+          "date": "21/09/2019",
+          "year": "2019",
+          "month": "09"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 30 luglio 2020, n. 131",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2020-10-21&amp;atto.codiceRedazionale=20G00150&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=e263d090-8cad-41bb-97ac-b2cbabf91670&amp;tabID=0.26826534810823954&amp;title=lbl.dettaglioAtto",
+          "type": "Decreto",
+          "date": "30/07/2020",
+          "year": "2020",
+          "month": "07"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 14 aprile 2021, n. 81",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2021-06-11&amp;atto.codiceRedazionale=21G00089&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=117ee9e8-58d1-4ed5-9313-910bc4ca4011&amp;tabID=0.26826534810823954&amp;title=lbl.dettaglioAtto",
+          "type": "Decreto",
+          "date": "14/04/2021",
+          "year": "2021",
+          "month": "04"
+        },
+        {
+          "name": "Decreto del Presidente della Repubblica 5 febbraio 2021, n. 54",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2021-04-23&amp;atto.codiceRedazionale=21G00060&amp;atto.articolo.numero=0&amp;atto.articolo.sottoArticolo=1&amp;atto.articolo.sottoArticolo1=10&amp;qId=cb110bff-40c1-4d41-9168-70adde51bc36&amp;tabID=0.26826534810823954&amp;title=lbl.dettaglioAtto",
+          "type": "Decreto",
+          "date": "05/02/2021",
+          "year": "2021",
+          "month": "02"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 15 giugno 2021",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2021/08/19/21A05087/sg",
+          "type": "Decreto",
+          "date": "15/06/2021",
+          "year": "2021",
+          "month": "06"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 18 maggio 2022, n. 92",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.del.consiglio.dei.ministri:2022-05-18;92",
+          "type": "Decreto",
+          "date": "18/05/2022",
+          "year": "2022",
+          "month": "05"
+        },
+        {
+          "name": "Decreto legislativo 3 agosto 2022, n. 123",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2022-08-03;123",
+          "type": "Decreto",
+          "date": "03/08/2022",
+          "year": "2022",
+          "month": "08"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 30 ottobre 2003",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2004-04-27&amp;atto.codiceRedazionale=04A04314&amp;elenco30giorni=false",
+          "type": "Decreto",
+          "date": "30/10/2003",
+          "year": "2003",
+          "month": "10"
+        },
+        {
+          "name": "Piano di implementazione",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/acn_implementazione",
+          "type": "Altro",
+          "date": "30/10/2003",
+          "year": "2003",
+          "month": "10"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 30 aprile 2025",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2025/05/05/25A02717/SG",
+          "type": "Decreto",
+          "date": "30/04/2025",
+          "year": "2025",
+          "month": "04"
+        },
+        {
+          "name": "Decreto legislativo 4 settembre 2024, n. 138",
+          "url": "https://www.normattiva.it/eli/id/2024/10/01/24G00155/ORIGINAL",
+          "type": "Decreto",
+          "date": "04/09/2024",
+          "year": "2024",
+          "month": "09"
+        },
+        {
+          "name": "Nomina Collegio dei revisori dei conti di ACN",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/prot-7784",
+          "type": "Nomina",
+          "date": "04/09/2024",
+          "year": "2024",
+          "month": "09"
+        },
+        {
+          "name": "Nomina Responsabile della prevenzione della corruzione e della trasparenza",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/prot-14399",
+          "type": "Nomina",
+          "date": "04/09/2024",
+          "year": "2024",
+          "month": "09"
+        },
+        {
+          "name": "Nomina rappresentanti presso il Consiglio di direzione ECC",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/prot-1715",
+          "type": "Nomina",
+          "date": "04/09/2024",
+          "year": "2024",
+          "month": "09"
+        },
+        {
+          "name": "Disciplina applicabile al personale proveniente da altri enti in regime di distacco, comando, fuori ruolo o altra analoga posizione e relativo trattamento economico",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/prot-1468",
+          "type": "Disciplina",
+          "date": "04/09/2024",
+          "year": "2024",
+          "month": "09"
+        },
+        {
+          "name": "Normativa generale per l\u2019assunzione in Agenzia di personale a tempo determinato con contratti di diritto privato",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/prot-1467",
+          "type": "Determina",
+          "date": "04/09/2024",
+          "year": "2024",
+          "month": "09"
+        },
+        {
+          "name": "Determina del Direttore generale dell'ACN n. 306 del 18 gennaio 2022",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/1642693979-det_306_cloud_modclass_20220118",
+          "type": "Determina",
+          "date": "18/01/2022",
+          "year": "2022",
+          "month": "01"
+        },
+        {
+          "name": "allegato",
+          "url": "https://assets.innovazione.gov.it/1642694063-det_306_all1_20220118_modello.pdf",
+          "type": "Allegato",
+          "date": "18/01/2022",
+          "year": "2022",
+          "month": "01"
+        },
+        {
+          "name": "Determina del Direttore generale dell'ACN n. 307 del 18 gennaio 2022",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/1642694131-det_307_cloud_ulteriorilerqc_20220118",
+          "type": "Determina",
+          "date": "18/01/2022",
+          "year": "2022",
+          "month": "01"
+        },
+        {
+          "name": "allegato",
+          "url": "https://assets.innovazione.gov.it/1642754054-all1det307acn.pdf",
+          "type": "Allegato",
+          "date": "18/01/2022",
+          "year": "2022",
+          "month": "01"
+        },
+        {
+          "name": "Circolare del Direttore generale dell\u2019ACN del 21 aprile 2022",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/circolare-diversificazione",
+          "type": "Circolare",
+          "date": "21/04/2022",
+          "year": "2022",
+          "month": "04"
+        },
+        {
+          "name": "Determina del Direttore generale dell'ACN n. 10829 del 11 agosto 2022",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/determinazioni-tecniche-accreditamento-lap",
+          "type": "Determina",
+          "date": "11/08/2022",
+          "year": "2022",
+          "month": "08"
+        },
+        {
+          "name": "Decreto del Direttore generale dell'ACN n. 29 del 2 gennaio 2023",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/decretodirettorialequalificazioneservizicloud2genn23defsigned",
+          "type": "Decreto",
+          "date": "02/01/2023",
+          "year": "2023",
+          "month": "01"
+        },
+        {
+          "name": "Determina del Direttore generale dell'ACN del 3 gennaio 2023",
+          "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2023-01-10&amp;atto.codiceRedazionale=23A00114&amp;elenco30giorni=true",
+          "type": "Determina",
+          "date": "03/01/2023",
+          "year": "2023",
+          "month": "01"
+        },
+        {
+          "name": "Decreto del Direttore generale dell\u2019ACN n 5489 del 8 febbraio 2023",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/determinazionecloud",
+          "type": "Decreto",
+          "date": "08/02/2023",
+          "year": "2023",
+          "month": "02"
+        },
+        {
+          "name": "Determina del Direttore generale dell\u2019ACN n 15369 del 25 maggio 2023",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/determina-applicazione-art-12-comma-2-lett-c",
+          "type": "Determina",
+          "date": "25/05/2023",
+          "year": "2023",
+          "month": "05"
+        },
+        {
+          "name": "Decreto del Direttore generale dell\u2019ACN n 20610 del 28 luglio 2023",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/decreto-20610_2023",
+          "type": "Decreto",
+          "date": "28/07/2023",
+          "year": "2023",
+          "month": "07"
+        },
+        {
+          "name": "Decreto del Direttore Generale n 30570 del 30 novembre 2023",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/direttoriale-servizio-strategie-e-cooperazione",
+          "type": "Decreto",
+          "date": "30/11/2023",
+          "year": "2023",
+          "month": "11"
+        },
+        {
+          "name": "Decreto del Direttore Generale n 31880 del 15 dicembre 2023",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/decreto-certificazione-e-vigilanza",
+          "type": "Decreto",
+          "date": "15/12/2023",
+          "year": "2023",
+          "month": "12"
+        },
+        {
+          "name": "Decreto del Direttore Generale n. 32623 del 22 dicembre 2023",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/decreto-attivazione-servizio-amministrazione-e-bilancio",
+          "type": "Decreto",
+          "date": "22/12/2023",
+          "year": "2023",
+          "month": "12"
+        },
+        {
+          "name": "Decreto del Direttore Generale n. 2927 del 30 gennaio 2024",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/decreto_2927_2024",
+          "type": "Decreto",
+          "date": "30/01/2024",
+          "year": "2024",
+          "month": "01"
+        },
+        {
+          "name": "Determina del Direttore Generale dell'ACN n. 14943 del 13 maggio 2024",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/adozione-manuale-di-conservazione",
+          "type": "Determina",
+          "date": "13/05/2024",
+          "year": "2024",
+          "month": "05"
+        },
+        {
+          "name": "Determina del Direttore Generale dell'ACN n. 14940 del 13 maggio 2024",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/determina-sogei",
+          "type": "Determina",
+          "date": "13/05/2024",
+          "year": "2024",
+          "month": "05"
+        },
+        {
+          "name": "Determina del Direttore Generale dell'ACN n. 13939 del 13 maggio 2024",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/nomina-responsabile-della-conservazione",
+          "type": "Determina",
+          "date": "13/05/2024",
+          "year": "2024",
+          "month": "05"
+        },
+        {
+          "name": "Regolamento per le infrastrutture digitali e per i servizi cloud per la Pubblica Amministrazione, n. 21007 del 27 giugno 2024",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/regolamentocloud",
+          "type": "Regolamento",
+          "date": "27/06/2024",
+          "year": "2024",
+          "month": "06"
+        },
+        {
+          "name": "nomina del responsabile",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/nomina-responsabile-della-gestione-documentale",
+          "type": "Nomina",
+          "date": "27/06/2024",
+          "year": "2024",
+          "month": "06"
+        },
+        {
+          "name": "Decreto del Direttore generale dell\u2019ACN n. 20972 del 27 giugno 2024",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/nuova-struttura-organizzativa-acn",
+          "type": "Decreto",
+          "date": "27/06/2024",
+          "year": "2024",
+          "month": "06"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 24 luglio 2024",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2024/08/28/24A04458/sg",
+          "type": "Decreto",
+          "date": "24/07/2024",
+          "year": "2024",
+          "month": "07"
+        },
+        {
+          "name": "Decreto del Direttore Generale dell\u2019ACN n. 37032 del 13 novembre 2024",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/2024_37032_us_copia_timbrata",
+          "type": "Decreto",
+          "date": "13/11/2024",
+          "year": "2024",
+          "month": "11"
+        },
+        {
+          "name": "Linee guida per il rafforzamento della resilienza dei soggetti di cui all\u2019articolo 1, comma 1, della Legge 28 giugno 2024, n. 90",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/linee-guida-acn-rafforzamento-resilienza",
+          "type": "Linee guida",
+          "date": "28/06/2024",
+          "year": "2024",
+          "month": "06"
+        },
+        {
+          "name": "Decreto del Direttore Generale dell\u2019ACN n. 38428 del 25 novembre 2024",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/2024_-38428_us_copia",
+          "type": "Decreto",
+          "date": "25/11/2024",
+          "year": "2024",
+          "month": "11"
+        },
+        {
+          "name": "Linee guida per il rafforzamento della protezione delle banche dati rispetto al rischio di utilizzo improprio",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/linee-guida-banche-dati-critiche-def",
+          "type": "Linee guida",
+          "date": "25/11/2024",
+          "year": "2024",
+          "month": "11"
+        },
+        {
+          "name": "Direttiva sul conferimento degli incarichi per l'Agenzia per la cybersicurezza nazionale",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/direttiva-conferimento-incarichi",
+          "type": "Direttiva",
+          "date": "25/11/2024",
+          "year": "2024",
+          "month": "11"
+        },
+        {
+          "name": "Modulo A - Istanza per l'autorizzazione allo svolgimento di incarichi extra istituzionali",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/modulo_a-incarichi-extra-istituzionali_rev-17-04-24",
+          "type": "Modulo",
+          "date": "25/11/2024",
+          "year": "2024",
+          "month": "11"
+        },
+        {
+          "name": "Modulo B - Comunicazione preventiva per lo svolgimento di incarichi extra istituzionali non soggetti ad autorizzazione",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/modulo_b-incarichi-extra-isituzionali_comunicazione-preventiva",
+          "type": "Modulo",
+          "date": "25/11/2024",
+          "year": "2024",
+          "month": "11"
+        },
+        {
+          "name": "Determina del Direttore Generale dell'ACN n. 18637 del 12 febbraio 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/2025_18637_registro-unico_determina",
+          "type": "Determina",
+          "date": "12/02/2025",
+          "year": "2025",
+          "month": "02"
+        },
+        {
+          "name": "DPCM di nomina del Comitato tecnico-scientifico dell\u2019Agenzia per la cybersicurezza nazionale",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/decreto-pcm-componenti-cts",
+          "type": "Nomina",
+          "date": "12/02/2025",
+          "year": "2025",
+          "month": "02"
+        },
+        {
+          "name": "Decreto del Direttore Generale dell'ACN n. 169856 del 2 maggio 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/2025_169856_us_copia_timbrata",
+          "type": "Decreto",
+          "date": "02/05/2025",
+          "year": "2025",
+          "month": "05"
+        },
+        {
+          "name": "Decreto del Direttore generale dell\u2019ACN di riorganizzazione dei Servizi Gabinetto e Certificazione e vigilanza",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/dd-riorganizzazione-gab",
+          "type": "Decreto",
+          "date": "02/05/2025",
+          "year": "2025",
+          "month": "05"
+        },
+        {
+          "name": "Decreto del Direttore generale dell\u2019ACN di approvazione del Piano per l\u2019industria cyber nazionale",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/2025_320700_us_copia_timbrata-1",
+          "type": "Decreto",
+          "date": "02/05/2025",
+          "year": "2025",
+          "month": "05"
+        },
+        {
+          "name": "allegato",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/2025_320700_us_all1_copia_timbrata-1",
+          "type": "Allegato",
+          "date": "02/05/2025",
+          "year": "2025",
+          "month": "05"
+        },
+        {
+          "name": "Regolamento per la concessione del patrocinio e l\u2019autorizzazione all\u2019utilizzo del logo di ACN",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/regolamento-patrocini-versione-18-9-2025",
+          "type": "Regolamento",
+          "date": "02/05/2025",
+          "year": "2025",
+          "month": "05"
+        },
+        {
+          "name": "Determina del Direttore Generale dell'ACN n. 343069 del 24 ottobre 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/adozione-linee-guida-per-l-applicazione-dei-criteri-di-premialita-di-cui-all-articolo-14-della-legge-90-2024",
+          "type": "Determina",
+          "date": "24/10/2025",
+          "year": "2025",
+          "month": "10"
+        },
+        {
+          "name": "Linee guida per l\u2019applicazione dei criteri di premialit\u00e0",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/linee-guida-acn_criteri_di_premialita_all_1",
+          "type": "Linee guida",
+          "date": "24/10/2025",
+          "year": "2025",
+          "month": "10"
+        },
+        {
+          "name": "Regolamento per la concessione del patrocinio e l\u2019autorizzazione all\u2019utilizzo del logo dell\u2019Agenzia per la cybersicurezza nazionale",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/regolamento-patrocini",
+          "type": "Regolamento",
+          "date": "24/10/2025",
+          "year": "2025",
+          "month": "10"
+        },
+        {
+          "name": "Decreto del Direttore generale dell\u2019ACN n. 344695 del 30 ottobre 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/decreto_lineeguida_cad_definizioneprocessiproceduregestioneincidenti_n-344695-del-30102025",
+          "type": "Decreto",
+          "date": "30/10/2025",
+          "year": "2025",
+          "month": "10"
+        },
+        {
+          "name": "Linee guida CAD - Definizione dei processi e delle procedure per la gestione degli incidenti di sicurezza informatica",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/lineeguida_cad_definizioneprocessiproceduregestioneincidenti",
+          "type": "Linee guida",
+          "date": "30/10/2025",
+          "year": "2025",
+          "month": "10"
+        },
+        {
+          "name": "Decreto del Direttore generale dell\u2019ACN n. 35654 del 17 febbraio 2026",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/determina-di-approvazione_lineeguidacad_crm_sbd573669000907949821",
+          "type": "Decreto",
+          "date": "17/02/2026",
+          "year": "2026",
+          "month": "02"
+        },
+        {
+          "name": "Linee Guida CAD - Definizione dei processi di cyber risk management e security by design",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/linee-guida-per-la-definizione-dei-processi-di-cyber-risk-management-e-security-by-design",
+          "type": "Linee guida",
+          "date": "17/02/2026",
+          "year": "2026",
+          "month": "02"
+        },
+        {
+          "name": "Determina del Direttore generale dell\u2019ACN n. 28900 del 09 febbraio 2026",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/determinazione-acn_articolo-1-co-1-l90_2024-",
+          "type": "Determina",
+          "date": "09/02/2026",
+          "year": "2026",
+          "month": "02"
+        },
+        {
+          "name": "Decreto del Direttore generale dell'ACN n . 33508 del 16 ottobre 2024",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/decreto-dg-33508-del-16-10-2024",
+          "type": "Decreto",
+          "date": "16/10/2024",
+          "year": "2024",
+          "month": "10"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n. 38564 del 26 novembre 2024",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_ulterioridisposizionitavolo_2024_38564_signed",
+          "type": "Determina",
+          "date": "26/11/2024",
+          "year": "2024",
+          "month": "11"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n. 38565 del 26 novembre 2024",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_piattaforma_2024_38565",
+          "type": "Determina",
+          "date": "26/11/2024",
+          "year": "2024",
+          "month": "11"
+        },
+        {
+          "name": "Decreto del Presidente del Consiglio dei ministri 9 dicembre 2024, n. 221",
+          "url": "https://www.normattiva.it/eli/id/2025/02/10/25G00017/ORIGINAL",
+          "type": "Decreto",
+          "date": "09/12/2024",
+          "year": "2024",
+          "month": "12"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n. 136117 del 10 aprile 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_piattaforma_2025_136117_signed",
+          "type": "Determina",
+          "date": "10/04/2025",
+          "year": "2025",
+          "month": "04"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n. 136118 del 10 aprile 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_accordi_2025_136118_signed",
+          "type": "Determina",
+          "date": "10/04/2025",
+          "year": "2025",
+          "month": "04"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n.164179 del 14 aprile 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_specifiche_2025_164179_signed",
+          "type": "Determina",
+          "date": "14/04/2025",
+          "year": "2025",
+          "month": "04"
+        },
+        {
+          "name": "Allegato 1 \"Misure di Sicurezza di base per i soggetti importanti\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_specifiche_2025_164179_allegato1",
+          "type": "Allegato",
+          "date": "14/04/2025",
+          "year": "2025",
+          "month": "04"
+        },
+        {
+          "name": "Allegato 2 \"Misure di sicurezza di base per i soggetti essenziali\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_specifiche_2025_164179_allegato2",
+          "type": "Allegato",
+          "date": "14/04/2025",
+          "year": "2025",
+          "month": "04"
+        },
+        {
+          "name": "Allegato 3 \"Incidenti significativi di base per i soggetti importanti\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_specifiche_2025_164179_allegato3",
+          "type": "Allegato",
+          "date": "14/04/2025",
+          "year": "2025",
+          "month": "04"
+        },
+        {
+          "name": "Allegato 4 \"Incidenti significativi di base per i soggetti essenziali\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_nis_specifiche_2025_164179_allegato4",
+          "type": "Allegato",
+          "date": "14/04/2025",
+          "year": "2025",
+          "month": "04"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n. 276206 del 16 luglio 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/2025_276206_registro-unico_copia_timbrata",
+          "type": "Determina",
+          "date": "16/07/2025",
+          "year": "2025",
+          "month": "07"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n.283727 del 22 luglio 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/2025_283727_registro-unico_copia_timbrata",
+          "type": "Determina",
+          "date": "22/07/2025",
+          "year": "2025",
+          "month": "07"
+        },
+        {
+          "name": "Decreto del Direttore generale dell\u2019ACN n. 327240 del 2 settembre 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/determina-di-approvazione_lineeguidanis-v2_signed",
+          "type": "Decreto",
+          "date": "02/09/2025",
+          "year": "2025",
+          "month": "09"
+        },
+        {
+          "name": "Linee guida NIS \u2013 Specifiche di base \u2013 Guida alla lettura",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/guida-alla-lettura-specifiche-di-base",
+          "type": "Linee guida",
+          "date": "02/09/2025",
+          "year": "2025",
+          "month": "09"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n. 333017 del 22 settembre 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_piattaformanis_250916-v5_signed821700262329991018",
+          "type": "Determina",
+          "date": "22/09/2025",
+          "year": "2025",
+          "month": "09"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n. 379907 del 19 dicembre 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_obblighi",
+          "type": "Determina",
+          "date": "19/12/2025",
+          "year": "2025",
+          "month": "12"
+        },
+        {
+          "name": "Allegato 1 \"Misure di Sicurezza di base per i soggetti importanti\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/allegato-1-1",
+          "type": "Allegato",
+          "date": "19/12/2025",
+          "year": "2025",
+          "month": "12"
+        },
+        {
+          "name": "Allegato 2 \"Misure di sicurezza di base per i soggetti essenziali\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/allegato-2",
+          "type": "Allegato",
+          "date": "19/12/2025",
+          "year": "2025",
+          "month": "12"
+        },
+        {
+          "name": "Allegato 3 \"Incidenti significativi di base per i soggetti importanti\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/allegato-3",
+          "type": "Allegato",
+          "date": "19/12/2025",
+          "year": "2025",
+          "month": "12"
+        },
+        {
+          "name": "Allegato 4 \"Incidenti significativi di base per i soggetti essenziali\".",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/allegato-4",
+          "type": "Allegato",
+          "date": "19/12/2025",
+          "year": "2025",
+          "month": "12"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n. 379887 del 19 dicembre 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_piattaformanis",
+          "type": "Determina",
+          "date": "19/12/2025",
+          "year": "2025",
+          "month": "12"
+        },
+        {
+          "name": "Decreto del Direttore generale dell\u2019ACN n. 397589 del 31 dicembre 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/determina-di-approvazione_lineeguidanisgestioneincidenti_signed",
+          "type": "Decreto",
+          "date": "31/12/2025",
+          "year": "2025",
+          "month": "12"
+        },
+        {
+          "name": "Linee guida NIS - Specifiche di base \u2013 Definizione del processo di gestione degli incidenti di sicurezza informatica",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/all-1-definizione-del-processo-di-gestione-degli-incidenti-di-sicurezza-informatica",
+          "type": "Linee guida",
+          "date": "31/12/2025",
+          "year": "2025",
+          "month": "12"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n. 127434 del 13 aprile 2026",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_misuresicurezza-v4_post",
+          "type": "Determina",
+          "date": "13/04/2026",
+          "year": "2026",
+          "month": "04"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n. 127437 del 13 aprile 2026",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_piattaformanis_251218-v9_signed",
+          "type": "Determina",
+          "date": "13/04/2026",
+          "year": "2026",
+          "month": "04"
+        },
+        {
+          "name": "Determinazione del Direttore generale dell\u2019ACN n. 155238 del 20 aprile 2026",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/detacn_categorizzazione_260409-v8_signed",
+          "type": "Determina",
+          "date": "20/04/2026",
+          "year": "2026",
+          "month": "04"
+        },
+        {
+          "name": "Allegato 1 \"Modello per l\u2019elencazione, caratterizzazione e categorizzazione delle attivit\u00e0 e dei servizi\"",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/allegato_1_modello260409-v1",
+          "type": "Allegato",
+          "date": "20/04/2026",
+          "year": "2026",
+          "month": "04"
+        },
+        {
+          "name": "Allegato 2 \"Modello per l\u2019elencazione, caratterizzazione e categorizzazione delle attivit\u00e0 e dei servizi\"",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/allegato_2_modello260409-v1",
+          "type": "Allegato",
+          "date": "20/04/2026",
+          "year": "2026",
+          "month": "04"
+        },
+        {
+          "name": "Decreto del Direttore generale dell\u2019ACN n. 161366 del 30 aprile 2026",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/determina-di-approvazione_lineeguidanis_signed6548353695651467805",
+          "type": "Decreto",
+          "date": "30/04/2026",
+          "year": "2026",
+          "month": "04"
+        },
+        {
+          "name": "Linee Guida NIS \u2013 Modello di categorizzazione \u2013 Guida alla lettura",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/all_modello-di-categorizzazione-nis-guida-alla-lettura",
+          "type": "Linee guida",
+          "date": "30/04/2026",
+          "year": "2026",
+          "month": "04"
+        },
+        {
+          "name": "Piano Strategico 2024 - 2026",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/piano-strategico-acn-2024-2026_copia_timbrata",
+          "type": "Altro",
+          "date": "",
+          "year": "2024",
+          "month": ""
+        },
+        {
+          "name": "Decreto del Direttore Generale n. 12053 del 03 febbraio 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/decreto_03feb2025",
+          "type": "Decreto",
+          "date": "03/02/2025",
+          "year": "2025",
+          "month": "02"
+        },
+        {
+          "name": "Linee guida ACN",
+          "url": "https://www.acn.gov.it/portale/linee-guida",
+          "type": "Linee guida",
+          "date": "03/02/2025",
+          "year": "2025",
+          "month": "02"
+        }
+      ]
     },
     {
       "id": "global_header",
       "name": "Header Globale ACN",
-      "url": "https://www.acn.gov.it/portale/linee-guida",
-      "last_check": "28/07/2026 15:15",
+      "url": "https://www.acn.gov.it/portale/atti-generali",
+      "last_check": "28/07/2026 17:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -69,8 +919,8 @@
     {
       "id": "global_footer",
       "name": "Footer Globale ACN",
-      "url": "https://www.acn.gov.it/portale/linee-guida",
-      "last_check": "28/07/2026 15:15",
+      "url": "https://www.acn.gov.it/portale/atti-generali",
+      "last_check": "28/07/2026 17:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -80,11 +930,11 @@
       "atti_list": []
     },
     {
-      "id": "avvisi",
-      "name": "Avvisi ACN",
-      "url": "https://www.acn.gov.it/portale/avvisi",
-      "last_check": "28/07/2026 15:15",
-      "status": "Errore download/lettura",
+      "id": "faq_nis_parent",
+      "name": "FAQ NIS (Parent)",
+      "url": "https://www.acn.gov.it/portale/faq/nis",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
       "summary": "",
@@ -93,13 +943,445 @@
       "atti_list": []
     },
     {
+      "id": "nis_home",
+      "name": "NIS Home",
+      "url": "https://www.acn.gov.it/portale/nis",
+      "last_check": "28/07/2026 17:34",
+      "status": "Modificato (Recente)",
+      "has_changes": true,
+      "has_history": true,
+      "summary": "+3 aggiunte, -3 rimozioni",
+      "additions": [
+        "24 Luglio 2026",
+        "Aggiornate le FAQ ACN sulle misure di sicurezza per la supply chain dei soggetti NIS",
+        "News -"
+      ],
+      "removals": [
+        "News -",
+        "27 Novembre 2024",
+        "NIS2, convegno ACN all'Universit\u00e0 Sapienza di Roma. Frattasi: dalla direttiva uno sguardo nuovo sulla cybersicurezza"
+      ],
+      "atti_list": [],
+      "last_change_date": "24/07/2026 19:16",
+      "ai_summary": ""
+    },
+    {
+      "id": "linee_guida",
+      "name": "Linee Guida ACN",
+      "url": "https://www.acn.gov.it/portale/linee-guida",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "avvisi",
+      "name": "Avvisi ACN",
+      "url": "https://www.acn.gov.it/portale/avvisi",
+      "last_check": "28/07/2026 17:34",
+      "status": "Modificato (Recente)",
+      "has_changes": true,
+      "has_history": true,
+      "summary": "+1 aggiunte, -1 rimozioni",
+      "additions": [
+        "Scaduto"
+      ],
+      "removals": [
+        "In corso"
+      ],
+      "atti_list": [],
+      "last_change_date": "13/07/2026 12:58",
+      "ai_summary": ""
+    },
+    {
       "id": "pnrr",
       "name": "PNRR Cybersecurity",
       "url": "https://www.acn.gov.it/portale/pnrr",
-      "last_check": "28/07/2026 15:16",
-      "status": "Errore download/lettura",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "pdf_cb7f4eec7e",
+      "name": "\ud83d\udcc4 PDF: 1642694063-det_306_all1_20220118_modello.pdf",
+      "url": "https://assets.innovazione.gov.it/1642694063-det_306_all1_20220118_modello.pdf",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "pdf_9a28ca48f3",
+      "name": "\ud83d\udcc4 PDF: 1642754054-all1det307acn.pdf",
+      "url": "https://assets.innovazione.gov.it/1642754054-all1det307acn.pdf",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "faq_nis_profili_generali",
+      "name": "FAQ NIS: Profili Generali",
+      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "faq_nis_aggiornamento_delle_informazioni",
+      "name": "FAQ NIS: Aggiornamento Delle Informazioni",
+      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "faq_nis_ambito",
+      "name": "FAQ NIS: Ambito",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "faq_nis_categorizzazione",
+      "name": "FAQ NIS: Categorizzazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "faq_nis_ruoli_e_procedure",
+      "name": "FAQ NIS: Ruoli E Procedure",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
+      "last_check": "28/07/2026 17:34",
+      "status": "Modificato (Recente)",
+      "has_changes": true,
+      "has_history": true,
+      "summary": "+39 aggiunte, -7 rimozioni",
+      "additions": [
+        "ODA.8 Gli organi di amministrazione e gli organi direttivi dei soggetti essenziali e dei soggetti importanti all\u2019articolo 23, commi 1 e 2 del decreto NIS possono delegare al proprio interno lo svolgimento delle attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS?",
+        "Si, \u00e8 possibile conferire tale delega ferma restando in capo agli organi di amministrazione e agli organi direttivi dei soggetti essenziali e dei soggetti importanti la responsabilit\u00e0 ai sensi dell\u2019articolo 23 del decreto NIS di (i) approvare le modalit\u00e0 di implementazione delle misure di gestione dei rischi per la sicurezza informatica di cui alla",
+        "Determinazione ACN 379907/2025",
+        "(comma 1, lett. a)); (ii) sovrintendere alla loro implementazione (comma 1, lett. b)); (iii) essere responsabili delle violazioni di cui al decreto NIS (comma 1, lett. c)); (iv) seguire una formazione in materia di sicurezza informatica (comma 2, lett. a)); (v) promuovere l\u2019offerta periodica di formazione per i dipendenti coerente con quella seguita dagli organi di amministrazione e dagli organi direttivi (comma 2, lett. b)).",
+        "Tale delega non pu\u00f2 riguardare l\u2019approvazione dei documenti di cui all\u2019articolo 23, comma 1, lett. a), e 2 del decreto NIS, riportati sotto forma tabellare nell\u2019appendice C della guida alla lettura delle specifiche di base (vds. ODA.10) che resta in capo unicamente ed esclusivamente agli organi di amministrazione e direttivi del soggetto NIS (sulla cui individuazione si vedano le ODA.1, ODA.3, ODA.5 e ODA.6), nella loro collegialit\u00e0, ovvero all\u2019organo monocratico, ove applicabile. Inoltre, tale obbligo non \u00e8 suscettibile di essere trasferito n\u00e9 a membri specifici, n\u00e9 a distinti organi e funzioni del soggetto NIS, indipendentemente dal modello di",
+        "governance",
+        "societaria adottato.",
+        "ODA.9 L\u2019eventuale delega per lo svolgimento di attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS, pu\u00f2 escludere la responsabilit\u00e0 degli organi di amministrazione e degli organi direttivi ai sensi del predetto articolo?",
+        "In tal caso, ai fini delle responsabilit\u00e0, per le societ\u00e0, resta fermo quanto previsto dagli artt. 2381 c.c. e 2392 c.c.",
+        "Per mera completezza, si precisa che tale rinvio non implica n\u00e9 consente di trasferire in capo a singoli membri degli organi di amministrazione e direttivi, n\u00e9 ad altri organi e funzioni del soggetto NIS, l\u2019adempimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS.",
+        "Difatti, l\u2019introduzione di tali obblighi ha la finalit\u00e0 specifica di elevare la sicurezza informatica a priorit\u00e0 strategica degli organi di amministrazione e direttivi.",
+        "ODA.10 Qual \u00e8 il livello di dettaglio richiesto nei documenti che devono essere approvati dagli organi di amministrazione e direttivi ai fini dell\u2019implementazione delle cd. misure di sicurezza di base?",
+        "I documenti da sottoporre all\u2019approvazione degli organi di amministrazione e direttivi di cui all\u2019articolo 23, comma 1, lett. a) del decreto NIS sono indicati nell\u2019elenco a seguire che riporta tra parentesi il riferimento ai requisiti delle misure di sicurezza che ne impongono l\u2019approvazione:",
+        "Organizzazione per la sicurezza informatica (GV.RR-02 punto 1).",
+        "Politiche di sicurezza informatica (GV.PO-01 punto 3).",
+        "Valutazione del rischio posto alla sicurezza dei sistemi informativi e di rete (ID.RA-05 punto 3).",
+        "Piano di trattamento del rischio (ID.RA-06 punto 3).",
+        "Piano di gestione delle vulnerabilit\u00e0 (ID.RA-08 punto 4).",
+        "Piano di adeguamento (ID.IM-01 punto 1).",
+        "Piano di continuit\u00e0 operativa (ID.IM-04 punto 4).",
+        "Piano di ripristino in caso di disastro (ID.IM-04 punto 4).",
+        "Piano di gestione delle crisi (ID.IM-04 punto 4).",
+        "Piano di formazione (PR.AT-01 punto 2).",
+        "Piano per la gestione degli incidenti di sicurezza informatica (RS.MA-01 punto 2).",
+        "L\u2019elenco dei documenti e dei relativi riferimenti \u00e8 anche riportato sotto forma tabellare nell\u2019appendice C della",
+        "guida alla lettura delle specifiche di base",
+        ".",
+        "Essi devono avere un contenuto minimo coerente con le funzioni tipiche di gestione, indirizzo e pianificazione strategica proprie degli stessi.",
+        "Pertanto, \u00e8 richiesto che tali documenti riflettano e declinino i requisiti delle misure di sicurezza almeno a livello di indirizzo e pianificazione strategica, in modo da consentire agli organi di amministrazione e direttivi di esercitare consapevolmente la propria funzione (v. anche ODA.8 e ODA.9).",
+        "Conseguentemente, il dettaglio tecnico e operativo dei succitati documenti pu\u00f2 essere disciplinato attraverso ulteriori e diversi presidi documentali e organizzativi (e.g., procedure tecniche, istruzioni operative, manuali, documenti e relazioni interne) a cura delle articolazioni competenti del soggetto NIS.",
+        "ODA.11 \u00c8 necessario che gli organi di amministrazione e direttivi approvino anche gli ulteriori e diversi presidi documentali e organizzativi eventualmente referenziati nei documenti di cui alla FAQ ODA.10?",
+        "Non \u00e8 richiesto che gli organi di amministrazione e direttivi approvino gli ulteriori e diversi presidi documentali e organizzativi eventualmente referenziati nei documenti di cui alla FAQ ODA.10.",
+        "Con riferimento all\u2019organizzazione dell\u2019impianto documentale, si osserva infatti che \u2013 come riportato nella",
+        "guida alla lettura delle specifiche di base",
+        "\u2013 il soggetto pu\u00f2 decidere come organizzare la documentazione richiesta raggruppando i contenuti in un unico documento o distribuendoli tra pi\u00f9 documenti.",
+        "In considerazione di quanto sopra, nel caso, ad esempio, del piano per la gestione degli incidenti di sicurezza informatica, non \u00e8 richiesto che tale documento contenga il dettaglio delle pertinenti procedure, ma \u00e8 sufficiente che ne riporti l\u2019elenco con i riferimenti ai relativi documenti.",
+        "ODA.12 Qualora sia aggiornato uno degli ulteriori e diversi presidi documentali e organizzativi referenziati nei documenti approvati dagli organi di amministrazione e direttivi \u00e8 necessario sottoporre nuovamente all\u2019approvazione degli organi di amministrazione e direttivi tali documenti?",
+        "Fermo restando quanto previsto dalla FAQ ODA.10, non \u00e8 richiesto che gli organi di amministrazione e direttivi procedano ad una nuova approvazione dei documenti di cui alla sopracitata FAQ, qualora siano aggiornati gli ulteriori e diversi presidi documentali e organizzativi cui fanno eventualmente riferimento gli stessi documenti.",
+        "ODA.13 Nell\u2019elencazione dei componenti degli organi di amministrazione e direttivi \u00e8 necessario indicare la PEC personale?"
+      ],
+      "removals": [
+        "ODA.8 Gli organi di amministrazione e gli organi direttivi dei soggetti essenziali e dei soggetti importanti possono delegare al proprio interno lo svolgimento delle attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS?",
+        "Si, \u00e8 possibile conferire tale delega ferma restando in capo agli organi di amministrazione e agli organi direttivi dei soggetti essenziali e dei soggetti importanti la responsabilit\u00e0 ai sensi dell\u2019articolo 23 del decreto NIS di (i) approvare le modalit\u00e0 di implementazione  delle misure di gestione dei rischi per la sicurezza informatica di cui alla",
+        "Determinazione ACN 379887/2025",
+        "(comma 1, lett. a)); (ii) sovrintendere alla loro implementazione (comma 1, lett.b)); (iii)  essere responsabili delle violazioni di cui al decreto nis (comma 1, lett. c)); (iv) seguire una formazione in materia di sicurezza informatica (comma 2, lett. a)); (v) promuovere l\u2019offerta periodica di formazione per i dipendenti coerente con quella seguita dagli organi di amministrazione e dagli organi direttivi (comma 2, lett. b)).",
+        "ODA. 9 L\u2019eventuale delega per lo svolgimento di attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS, pu\u00f2 escludere la responsabilit\u00e0 degli organi di amministrazione e degli organi direttivi ai sensi del predetto articolo?",
+        "In tal caso, ai fini delle responsabilit\u00e0, per le societ\u00e0, resta fermo quanto previsto dagli artt. 2381 c.c. e 2392 c.c..",
+        "ODA.10 Nell\u2019elencazione dei componenti degli organi di amministrazione e direttivi \u00e8 necessario indicare la PEC personale?"
+      ],
+      "atti_list": [],
+      "last_change_date": "14/07/2026 10:07",
+      "ai_summary": ""
+    },
+    {
+      "id": "faq_nis_settori_sottosettori_e_tipologie_di_soggetto",
+      "name": "FAQ NIS: Settori Sottosettori E Tipologie Di Soggetto",
+      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "faq_nis_registrazione",
+      "name": "FAQ NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "faq_nis_misure_di_sicurezza_e_notifica_di_incidenti",
+      "name": "FAQ NIS: Misure Di Sicurezza E Notifica Di Incidenti",
+      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
+      "last_check": "28/07/2026 17:34",
+      "status": "Modificato (Recente)",
+      "has_changes": true,
+      "has_history": true,
+      "summary": "+32 aggiunte, -0 rimozioni",
+      "additions": [
+        "MSB.13. Qual \u00e8 il processo che deve essere adottato ai fini di garantire la sicurezza della catena di approvvigionamento?",
+        "Con riferimento alla sicurezza della catena di approvvigionamento, le misure di sicurezza di base delineano un processo articolato nelle seguenti fasi (tra parentesi sono riportati i punti delle misure cui le fasi fanno riferimento):",
+        "valutazione del rischio associato alla fornitura",
+        ", \u00e8 valutato e documentato il rischio associato alle forniture (ai sensi della misura GV.SC-07 punto 1);",
+        "identificazione dei requisiti di sicurezza",
+        ", in accordo agli esiti della valutazione del rischio associato alla fornitura di cui al punto precedente, sono definiti requisiti di sicurezza sulla fornitura coerenti con le misure di sicurezza applicate ai propri sistemi informativi e di rete (ai sensi della misura GV.SC-01 punto 1);",
+        "enforcement dei requisiti",
+        ", i requisiti di sicurezza definiti sono inseriti \u2013 fatte salve motivate e documentate ragioni normative o tecniche \u2013 nelle richieste di offerta, bandi di gara (ivi inclusi gli accordi quadro e la relativa documentazione), contratti, accordi e convenzioni relativi alle forniture con potenziali impatti sulla sicurezza dei sistemi informativi e di rete (ai sensi della misura GV.SC-05 punto 1);",
+        "verifica dei requisiti",
+        ", \u00e8 verificata periodicamente e documentata la conformit\u00e0 delle forniture ai requisiti inseriti nei documenti indicati al punto precedente (ai sensi della misura GV.SC-07 punto 2).",
+        "MSB.14. Quali sono i criteri da considerare ai fini della valutazione del rischio associato alla fornitura?",
+        "Con riferimento alla fase di \u201cvalutazione del rischio associato alla fornitura\u201d (vds. FAQ MSB.13), come indicato dal punto 1 della misura GV.SC-07, sono da valutare almeno i seguenti criteri:",
+        "il livello di accesso del fornitore ai sistemi informativi e di rete del soggetto NIS;",
+        "l'accesso del fornitore alla propriet\u00e0 intellettuale e ai dati anche sulla base della loro criticit\u00e0;",
+        "l'impatto di una grave interruzione della fornitura;",
+        "i tempi e i costi di ripristino in caso di indisponibilit\u00e0 dei servizi;",
+        "i ruoli e le responsabilit\u00e0 del fornitore nel governo dei sistemi informativi e di rete.",
+        "MSB.15. I requisiti di sicurezza devono essere definiti per tutte le forniture?",
+        "Con riferimento alla fase di \u201cidentificazione dei requisiti di sicurezza\u201d (vds. FAQ MSB.13), si evidenzia che non \u00e8 richiesto che i requisiti di sicurezza siano definiti per tutte le forniture.",
+        "Il punto 1 della misura GV.SC-01 prevede infatti che i requisiti di sicurezza siano definiti in merito all\u2019affidamento di forniture con potenziali impatti sulla sicurezza, ossia (in accordo a quanto riportato nella FAQ MSB.8) per le forniture la cui eventuale compromissione pu\u00f2 determinare effetti sulla capacit\u00e0 dei sistemi informativi e di rete di resistere, con un determinato livello di affidabilit\u00e0, agli eventi che potrebbero compromettere la disponibilit\u00e0, l'autenticit\u00e0, l'integrit\u00e0 o la riservatezza dei dati conservati, trasmessi o elaborati o dei servizi offerti da tali sistemi informativi e di rete o accessibili attraverso di essi.",
+        "MSB.16. Nelle richieste di offerta, bandi di gara (ivi inclusi gli accordi quadro e la relativa documentazione), contratti, accordi e convenzioni devono essere inseriti tutti i requisiti previsti dalle misure di sicurezza di base e devono riportare testualmente quanto riportato dalle misure di sicurezza?",
+        "Con riferimento alla fase di \u201cenforcement dei requisiti\u201d (vds. FAQ MSB.13), si evidenzia che non \u00e8 richiesto che siano necessariamente inseriti tutti i requisiti previsti dalle misure di sicurezza di base.",
+        "Il punto 1 della misura GV.SC-01 prevede infatti che i requisiti di sicurezza sulle forniture siano individuati in accordo agli esiti della valutazione del rischio associato alla fornitura e che siano coerenti con le misure di sicurezza applicate ai propri sistemi informativi e di rete (vds. FAQ MSB.15).",
+        "Inoltre, non \u00e8 richiesto che i requisiti di sicurezza riportino fedelmente il testo delle misure di sicurezza NIS applicabili ma \u00e8 sufficiente che ne recepiscano il contenuto sostanziale.",
+        "Come infatti indicato al punto 1 della misura GV.SC-01, i requisiti da inserire \u2013 definiti in accordo agli esiti della valutazione del rischio associata alla fornitura in accordo ai criteri indicati (si veda a riguardo la FAQ MSB.14) \u2013 sono coerenti con le misure di sicurezza applicate dal soggetto NIS ai sistemi informativi e di rete.",
+        "MSB.17. La nozione di \u201cmisure di gestione dei rischi di cybersicurezza\u201d di cui all\u2019articolo 24 deve essere interpretata nel senso che tutte le principali categorie di misure ivi elencate (quali, a titolo esemplificativo, analisi dei rischi, gestione degli incidenti, continuit\u00e0 operativa, sicurezza della supply chain e sicurezza nello sviluppo e manutenzione dei sistemi) costituiscono un insieme minimo che deve essere sempre applicato dalle Amministrazioni di riferimento?",
+        "No. L\u2019applicazione di tali categorie deve essere modulata fino alla eventuale esclusione di talune di esse, in funzione del contesto operativo, del livello di rischio e della criticit\u00e0 dei servizi affidati dalla singola Amministrazione.",
+        "Al riguardo, a titolo esemplificativo, si rappresenta che, nel caso di affidamento di servizi non ICT \u2013 quali, ad esempio, il servizio di pulizia, il servizio di vigilanza (senza l\u2019uso di strumenti digitali come quelli di videosorveglianza), servizi di progettazione (senza l\u2019uso di metodologia BIM) \u2013 pur permanendo in capo all\u2019amministrazione gli obblighi generali di gestione del rischio di cybersicurezza, i requisiti delle misure di sicurezza da applicare al fornitore dovranno essere coerenti con l\u2019oggetto della prestazione e al concreto profilo di rischio.",
+        "MSB.18 Qualora l\u2019operatore economico aggiudicatario sia costituito in forma di RTI, le misure di sicurezza possono essere soddisfatte da tutte le imprese componenti il RTI (o Consorzi stabili o di altro tipo di consorzi)?",
+        "Nei casi in cui l\u2019operatore economico aggiudicatario sia costituito in forma di RTI, le misure di sicurezza dovranno essere soddisfatte dai soli componenti che erogano (anche parzialmente) la prestazione contrattuale che ha impatti sulla sicurezza informatica (vds MSB.8). Ci\u00f2 tenuto conto dei diversi ruoli e delle possibili ripartizioni delle attivit\u00e0 nell\u2019ambito del RTI medesimo, nonch\u00e9 dei principi di accountability, adeguatezza e proporzionalit\u00e0 nella gestione del rischio di cui alla normativa NIS2 e in coerenza con un approccio risk-based.",
+        "MSB.19 Con riferimento ai contratti misti, nei quali coesistano prestazioni di diversa natura \u2014 ad esempio componenti ICT e componenti non ICT \u2014 come devono essere applicati i requisiti delle misure di sicurezza?",
+        "Come indicato nella FAQ MSB.17, l\u2019applicazione dei requisiti di sicurezza deve essere modulata tenendo conto della loro proporzionalit\u00e0, pertinenza e adeguatezza rispetto alle specifiche prestazioni affidate, evitando l\u2019imposizione generalizzata di obblighi non coerenti con la natura dell\u2019affidamento o con il rischio di cybersicurezza concretamente rilevabile."
+      ],
+      "removals": [],
+      "atti_list": [],
+      "last_change_date": "24/07/2026 19:16",
+      "ai_summary": ""
+    },
+    {
+      "id": "nis_notizie_ed_eventi",
+      "name": "NIS: Notizie Ed Eventi",
+      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+      "last_check": "28/07/2026 17:34",
+      "status": "Modificato (Recente)",
+      "has_changes": true,
+      "has_history": true,
+      "summary": "+7 aggiunte, -8 rimozioni",
+      "additions": [
+        "News -",
+        "24 Luglio 2026",
+        "Aggiornate le FAQ ACN sulle misure di sicurezza per la supply chain dei soggetti NIS",
+        "L'Agenzia per la Cybersicurezza Nazionale ha pubblicato nuovi chiarimenti interpretativi sul processo e i requisiti di sicurezza da implementare per proteggere la sicurezza della catena di approvvigionamento dei soggetti NIS 2, con l'obiettivo di agevolarne l'applicazione da parte dei soggetti interessati",
+        "Normativa NIS",
+        "NIS",
+        "ACN"
+      ],
+      "removals": [
+        "News -",
+        "27 Novembre 2024",
+        "NIS2, convegno ACN all'Universit\u00e0 Sapienza di Roma. Frattasi: dalla direttiva uno sguardo nuovo sulla cybersicurezza",
+        "Interventi del Magnifico Rettore Polimeni, del Sottosegretario di Stato Mantovano e del Vice Direttore Ciardi",
+        "Universit\u00e0",
+        "Normativa NIS",
+        "NIS",
+        "ACN"
+      ],
+      "atti_list": [],
+      "last_change_date": "24/07/2026 19:16",
+      "ai_summary": ""
+    },
+    {
+      "id": "nis_obblighi",
+      "name": "NIS: Obblighi",
+      "url": "https://www.acn.gov.it/portale/nis/obblighi",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "nis_la_normativa",
+      "name": "NIS: La Normativa",
+      "url": "https://www.acn.gov.it/portale/nis/la-normativa",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "nis_modalita_specifiche_base",
+      "name": "NIS: Modalita Specifiche Base",
+      "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "nis_registrazione",
+      "name": "NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/nis/registrazione",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "nis_faq",
+      "name": "NIS: Faq",
+      "url": "https://www.acn.gov.it/portale/nis/faq",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "nis_ambito",
+      "name": "NIS: Ambito",
+      "url": "https://www.acn.gov.it/portale/nis/ambito",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "nis_aggiornamento_informazioni",
+      "name": "NIS: Aggiornamento Informazioni",
+      "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
+      "last_check": "28/07/2026 17:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "pdf_80b8113e88",
+      "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2024.pdf",
+      "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2024.pdf",
+      "last_check": "28/07/2026 17:35",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "pdf_403942e3c6",
+      "name": "\ud83d\udcc4 PDF: RegolamentoCloud.pdf",
+      "url": "https://www.acn.gov.it/portale/documents/20119/111690/RegolamentoCloud.pdf",
+      "last_check": "28/07/2026 17:35",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "pdf_39f9f139a9",
+      "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
+      "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
+      "last_check": "28/07/2026 17:35",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
