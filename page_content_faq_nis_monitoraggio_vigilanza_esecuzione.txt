@@ -1,0 +1,81 @@
+Domande frequenti NIS - Categorizzazione - ACN
+Domande frequenti NIS - Categorizzazione
+Home
+Domande frequenti
+NIS
+Monitoraggio, vigilanza ed esecuzione
+Domande frequenti NIS - Categorizzazione
+Home
+Domande frequenti
+NIS
+Domande frequenti NIS - Categorizzazione
+Menu della sezione
+Domande frequenti
+Apri menu della sezione Domande frequenti
+PNRR
+Cloud
+NIS
+Profili generali
+Ambito
+Settori, sottosettori e tipologie di soggetto
+Registrazione
+Misure di sicurezza e notifica di incidenti
+Aggiornamento delle informazioni
+Categorizzazione
+Monitoraggio, vigilanza ed esecuzione
+Ruoli e procedure
+PSNC
+Concorsi
+CSIRT Italia
+NCC Italia
+Strategia Nazionale di Cybersicurezza
+NIS - Monitoraggio, vigilanza ed esecuzione
+Puoi utilizzare la ricerca nelle domande frequenti digitando la paroladi interesse così da poter più facilmente identificare quello che staicercando. I risultati saranno filtrati dal terzo carattere digitato.
+Nessun risultato trovato
+MVE.1 In cosa consiste l’attività di vigilanza ed esecuzione dell’Autorità nazionale competente NIS e quali sono i principi generali che la regolano?
+L’attività di vigilanza ed esecuzione dell’Agenzia, nella sua qualità di Autorità nazionale competente NIS (v. FAQ GEN.4), nei confronti dei soggetti NIS consiste nelle attività di cui al Capo V del decreto NIS e si svolge nei seguenti quattro ambiti:
+monitoraggio, analisi e supporto ai soggetti NIS (v. FAQ MVE.2);
+verifiche e ispezioni (v. FAQ MVE.3);
+misure di esecuzione (v. FAQ MVE.4);
+sanzioni amministrative pecuniarie e accessorie (v. FAQ MVE.5).
+Nell’esercizio di tale attività, con un approccio graduale basato sul rischio, l’Agenzia monitora e valuta il rispetto da parte dei soggetti NIS degli obblighi previsti dall’articolo 7 e dal Capo IV del decreto NIS (Obblighi in materia di gestione del rischio per la sicurezza informatica e di notifica di incidente), nonché di quelli stabiliti dalla
+Determinazione ACN 379887/2025
+(v. FAQ REG.1 e AGA.3), dalla
+Determinazione ACN 379907/2025
+(v. FAQ GEN.9) e dalla
+Determinazione ACN 136118/2024
+(v. FAQ ACI.1).
+Effettività, proporzionalità e dissuasività sono i principi generali che regolano lo svolgimento di tale attività effettuato dall’Agenzia tenendo conto delle peculiarità di ciascuna fattispecie e comunque almeno dei seguenti elementi (articolo 34, comma 6, del decreto NIS):
+la gravità della violazione e l'importanza delle disposizioni violate;
+la durata della violazione;
+eventuali precedenti violazioni pertinenti commesse dal soggetto interessato;
+qualsiasi danno materiale o immateriale causato, incluse le perdite finanziarie o economiche, gli effetti sugli altri servizi e il numero di utenti interessati;
+un'eventuale condotta intenzionale o negligenza da parte dell'autore della violazione;
+qualsiasi misura adottata dal soggetto per prevenire o attenuare il danno materiale o immateriale;
+qualsiasi adesione a codici di condotta o meccanismi di certificazione approvati;
+il livello di collaborazione delle persone fisiche o giuridiche ritenute responsabili con l’Autorità nazionale competente NIS.
+MVE.2 In cosa consiste l’attività di monitoraggio, analisi e supporto prevista dall’articolo 35 del decreto NIS?
+Il monitoraggio, l’analisi e il supporto previsti dall’articolo 35 del decreto NIS costituiscono il primo ambito in cui si svolge l’attività di vigilanza ed esecuzione dell’Agenzia (v. FAQ MVE.1).
+Tale attività, a  carattere sistematico e continuativo, è diretta ad agevolare la conoscenza dei soggetti NIS, ad accompagnarli nell’attuazione degli obblighi, nonché a consentire all’Agenzia di acquisire e valutare correttamente le informazioni necessarie a tal fine.
+In particolare:
+l’attività di monitoraggio consiste nell’acquisizione da parte dell’Agenzia di tutti gli elementi necessari a conoscere lo stato di attuazione degli obblighi da parte di ciascun soggetto NIS, attraverso le azioni di cui all’articolo 35, comma 3, del decreto NIS;
+l’attività di analisi consiste nella valutazione complessiva delle risultanze acquisite in fase di monitoraggio, al fine di stabilire l’ordine di priorità degli interventi di supporto, nonché di individuare gli indirizzi di sviluppo della regolamentazione, ai sensi dell’articolo 35, comma 5, del decreto NIS;
+l’attività di supporto consiste negli interventi con i quali l’Agenzia accompagna i soggetti NIS nell’attuazione degli obblighi, agendo prima e indipendentemente dall’esercizio dei poteri ispettivi e di esecuzione.
+Ad esempio, l’attività di monitoraggio e analisi si fonda sulle informazioni che i soggetti trasmettono in adempimento degli obblighi previsti dal decreto NIS, a partire da quelle rese ai fini della registrazione. Ove tali informazioni non siano sufficienti, l’Autorità nazionale competente NIS può acquisirne di ulteriori, richiedendo, tra l’altro, ai soggetti una rendicontazione, anche periodica, o autovalutazioni.
+Tra le attività di supporto rientrano, infine, a titolo esemplificativo, le raccomandazioni, la predisposizione delle FAQ, la pubblicazione di linee guida, nonché la copiosa attività divulgativa esercitata nell’ambito dei Tavoli settoriali, oltre che in collaborazione con le associazioni rappresentative di categoria territoriali e settoriali.
+MVE.3 Le attività di verifica e ispezione previste dall’articolo 36 del decreto NIS sono differenziate per i soggetti importanti ed essenziali?
+Sì. In particolare:
+nei confronti dei soggetti essenziali, le ispezioni in loco e a distanza, ivi compresi controlli casuali, possono essere disposte anche ex ante;
+nei confronti dei soggetti importanti, le ispezioni non possono essere disposte ex ante. Esse possono essere disposte solo qualora l’Autorità nazionale competente NIS abbia acquisito o ricevuto elementi di prova, indicazioni o informazioni che suggeriscano possibili violazioni del decreto NIS (articolo 36, comma 2, decreto NIS).
+L’Agenzia esercita i poteri di verifica e ispettivi attraverso le seguenti azioni:
+verifiche della documentazione e delle informazioni trasmesse all’Autorità nazionale competente NIS ai sensi del decreto NIS (articolo 36, comma 1, lettera a), decreto NIS);
+ispezioni in loco e a distanza, compresi controlli casuali (articolo 36, comma 1, lettera b), decreto NIS);
+richieste di accesso a dati, documenti e altre informazioni necessari allo svolgimento di tali poteri, dichiarando la finalità della richiesta e specificando le informazioni richieste (articolo 36, comma 1, lettera c), decreto NIS).
+MVE.4 In cosa consistono le misure di esecuzione previste dall’articolo 37 del decreto NIS?
+Le misure di esecuzione di cui all’articolo 37 del decreto NIS sono i provvedimenti con i quali l’Autorità nazionale competente NIS richiede ai soggetti NIS di conformare la propria condotta agli obblighi previsti dal decreto, di rimediare alle carenze accertate o di far cessare le condotte assunte in violazione delle prescrizioni previste dal decreto NIS, nonché impartite dall’Agenzia.
+A tal fine, l’Autorità nazionale competente NIS tiene anche conto degli esiti delle attività di monitoraggio, analisi e supporto di cui all’articolo 35 e delle risultanze dell’esercizio dei poteri ispettivi di cui all’articolo 36.
+L’Agenzia esercita il potere di esecuzione, tramite intimazioni e diffide, indicando modalità e termini ragionevoli e proporzionati per adempiere alle stesse.
+Il ricorso ai poteri di esecuzione non preclude l’esercizio dei poteri sanzionatori, assolvendo a funzioni tra loro diverse e complementari.
+MVE.5 Ai soggetti importanti ed essenziali si applicano le medesime sanzioni?
+No. Benché le fattispecie di illecito amministrativo sanzionate ai sensi dell’articolo 38 del decreto NIS siano le medesime, l’entità delle sanzioni pecuniarie e l’ambito delle misure accessorie differisce a seconda che il soggetto sia essenziale, importante o una Pubblica Amministrazione.
+Nascosta
