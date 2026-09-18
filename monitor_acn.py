@@ -500,8 +500,70 @@ def to_telegram_html(text):
     text = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', text)
     return text
 
+def generate_heuristic_summary(name, additions, removals):
+    """Genera una sintesi concettuale delle modifiche tramite euristica intelligente (fallback affidabile se AI non disponibile)"""
+    if not additions and not removals:
+        return "Nessuna variazione sostanziale rilevata nei contenuti."
+    
+    clean_adds = [re.sub(r'^\[HEADER\]\s*|^\[FOOTER\]\s*|^\[NUOVA RISORSA\]\s*', '', a).strip() for a in additions if a.strip()]
+    clean_rems = [re.sub(r'^\[HEADER\]\s*|^\[FOOTER\]\s*', '', r).strip() for r in removals if r.strip()]
+    
+    # Se è una nuova risorsa
+    if any("[NUOVA RISORSA]" in a for a in additions):
+        if "pdf" in name.lower() or name.startswith("📄"):
+            clean_name = name.replace("📄 PDF:", "").strip()
+            return f"Pubblicato nuovo documento: '{clean_name}'."
+        return f"Inserita nuova sezione sul portale: '{name}'."
+
+    # Cerca atti e documenti normativi specifici nelle aggiunte
+    norm_keywords = [
+        ("vademecum", "Aggiunto nuovo vademecum operativo"),
+        ("linee guida", "Pubblicate nuove linee guida"),
+        ("linea guida", "Pubblicata nuova linea guida"),
+        ("decreto", "Pubblicato nuovo decreto"),
+        ("determina", "Pubblicata nuova determina"),
+        ("regolamento", "Aggiornato il regolamento"),
+        ("circolare", "Pubblicata nuova circolare"),
+        ("avviso", "Pubblicato nuovo avviso"),
+        ("modello", "Aggiunto nuovo modello / modulo"),
+        ("modulo", "Aggiunto nuovo modello / modulo"),
+        ("allegato", "Aggiunto nuovo allegato tecnico"),
+        ("disciplina", "Aggiornata la disciplina"),
+    ]
+    
+    for add in clean_adds:
+        lower_add = add.lower()
+        for kw, prefix in norm_keywords:
+            if kw in lower_add and len(add) > 10:
+                trimmed = add if len(add) <= 120 else add[:117] + "..."
+                return f"{prefix}: \"{trimmed}\"."
+                
+    # Se ci sono FAQ
+    if "faq" in name.lower():
+        faq_matches = [a for a in clean_adds if re.search(r'([A-Z]{2,4}\.\d+|\bfaq\b|\bdomanda\b)', a, re.I)]
+        if faq_matches:
+            sample = faq_matches[0][:90]
+            return f"Aggiornate le FAQ con chiarimenti su: \"{sample}\"."
+        clean_faq_name = name.replace("FAQ NIS (Parent)", "NIS").replace("FAQ NIS:", "").replace("FAQ NIS", "").strip()
+        return f"Aggiornate le risposte e i chiarimenti nella sezione FAQ {clean_faq_name}."
+
+    # Se ci sono solo rimozioni
+    if not clean_adds and clean_rems:
+        first_rem = clean_rems[0][:100]
+        return f"Rimossi riferimenti o contenuti archiviati: \"{first_rem}\"."
+
+    # Risorsa generica con aggiunte
+    if clean_adds:
+        candidates = [a for a in clean_adds if len(a) > 20 and not re.match(r'^\d{1,2}\s+\w+\s+\d{4}$', a)]
+        if candidates:
+            sample = candidates[0] if len(candidates[0]) <= 110 else candidates[0][:107] + "..."
+            return f"Aggiornati i contenuti con novità relative a: \"{sample}\"."
+        return f"Aggiornati i contenuti informativi della sezione {name}."
+
+    return "Aggiornamento dei contenuti sul portale."
+
 def send_telegram_notification(results_with_changes, ai_summary):
-    """Invia notifica su Telegram con il riepilogo delle modifiche"""
+    """Invia notifica su Telegram con il riepilogo concettuale delle modifiche"""
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
     
@@ -510,54 +572,54 @@ def send_telegram_notification(results_with_changes, ai_summary):
         return
         
     emoji_bell = "🔔"
-    emoji_robot = "🤖"
-    emoji_list = "📋"
-    
     now_str = get_now().strftime('%d/%m/%Y %H:%M')
+    
+    count = len(results_with_changes)
+    res_str = "risorsa" if count == 1 else "risorse"
     
     header = f"{emoji_bell} <b>Cyber Monitor ACN & NIS2</b>\n"
     header += f"<i>Aggiornamento del {now_str}</i>\n\n"
-    header += f"Rilevate modifiche in <b>{len(results_with_changes)}</b> risorse.\n\n"
+    header += f"Rilevate novità in <b>{count}</b> {res_str}.\n\n"
     
     if ai_summary:
-        header += f"{emoji_robot} <b>Analisi Intelligente (Gemini AI)</b>\n"
-        header += f"{to_telegram_html(ai_summary)}\n\n"
+        header += f"📌 <b>Riepilogo Novità:</b>\n"
+        header += f"{to_telegram_html(ai_summary.strip())}\n\n"
         
-    details = f"{emoji_list} <b>Dettaglio Modifiche:</b>\n"
+    details = f"📋 <b>Dettaglio Aggiornamenti:</b>\n\n"
     
     for i, r in enumerate(results_with_changes):
-        if len(header) + len(details) > 3800:
-            details += f"• <i>...e altre risorse (visualizza la dashboard per i dettagli completi)</i>\n"
+        if len(header) + len(details) > 3700:
+            details += f"• <i>...e altre risorse (visualizza la dashboard online per i dettagli)</i>\n"
             break
             
         name = to_telegram_html(r.get("name", "Risorsa"))
         url = r.get("url", "")
-        status = to_telegram_html(r.get("status", "Modificato"))
-        summary = to_telegram_html(r.get("summary", ""))
-        page_ai_summary = r.get("ai_summary", "")
+        status = r.get("status", "Modificato")
+        is_new = (status == "Nuova risorsa aggiunta")
         
-        link_str = f' (<a href="{url}">Link</a>)' if url else ""
-        
-        item = f"• <b>{name}</b>{link_str}\n"
-        item += f"  Stato: <i>{status}</i>"
-        if summary:
-            item += f" ({summary})"
-        item += "\n"
-        
-        if page_ai_summary and len(results_with_changes) <= 5:
-            if len(page_ai_summary) > 200:
-                page_ai_summary = page_ai_summary[:197] + "..."
-            item += f"  <i>{to_telegram_html(page_ai_summary)}</i>\n"
+        # Sintesi concettuale (preferisci ai_summary, fallback su euristica)
+        page_summary = (r.get("ai_summary") or "").strip()
+        if not page_summary:
+            page_summary = generate_heuristic_summary(r.get("name", ""), r.get("additions", []), r.get("removals", []))
             
-        item += "\n"
+        link_str = f' (<a href="{url}">Apri</a>)' if url else ""
         
-        if len(header) + len(details) + len(item) > 3900:
+        icon = "🆕" if is_new else "•"
+        item = f"{icon} <b>{name}</b>{link_str}\n"
+        
+        if page_summary:
+            item += f"  💡 <b>Cosa cambia:</b> <i>{to_telegram_html(page_summary)}</i>\n\n"
+        else:
+            item += f"  <i>Stato: {to_telegram_html(status)}</i>\n\n"
+            
+        if len(header) + len(details) + len(item) > 3850:
             details += f"• <i>...e altre {len(results_with_changes) - i} risorse</i>\n"
             break
         else:
             details += item
             
-    full_message = header + details
+    dashboard_footer = "🌐 <a href=\"https://frascoh.github.io/monitor-acn-nis2/\">Apri la Dashboard Online</a>"
+    full_message = header + details + dashboard_footer
     
     payload = {
         "chat_id": chat_id,
@@ -575,70 +637,98 @@ def send_telegram_notification(results_with_changes, ai_summary):
         print(f"Errore durante l'invio della notifica Telegram: {e}")
 
 def get_page_ai_summary(name, additions, removals):
-    """Genera un riassunto delle modifiche per una singola pagina"""
+    """Genera una frase riassuntiva concettuale di cosa è cambiato usando Gemini AI (con fallback euristico)"""
+    fallback = generate_heuristic_summary(name, additions, removals)
+    
     api_key = os.environ.get("GEMINI_API_KEY")
     if not genai or not api_key:
-        return ""
+        return fallback
     
+    clean_adds = [re.sub(r'^\[HEADER\]\s*|^\[FOOTER\]\s*|^\[NUOVA RISORSA\]\s*', '', a).strip() for a in additions if a.strip()]
+    clean_rems = [re.sub(r'^\[HEADER\]\s*|^\[FOOTER\]\s*', '', r).strip() for r in removals if r.strip()]
+    
+    adds_text = "\n".join(f"+ {a}" for a in clean_adds[:15]) if clean_adds else "(nessuna aggiunta)"
+    rems_text = "\n".join(f"- {r}" for r in clean_rems[:15]) if clean_rems else "(nessuna rimozione)"
+    
+    prompt = f"""
+Sei un analista esperto di cybersecurity e normativa italiana (ACN e Direttiva NIS2).
+Analizza le seguenti variazioni rilevate nella risorsa "{name}" del portale dell'Agenzia per la Cybersicurezza Nazionale (ACN).
+Genera UNA SOLA FRASE RIASSUNTIVA E INCISIVA (massimo 20-25 parole) che spieghi chiaramente a livello concettuale cosa è stato inserito o modificato sul portale.
+
+REGOLE RIGIDE:
+1. Spiega il CONCETTO della novità (es. "Aggiunto vademecum operativo per la notifica degli incidenti NIS2", "Aggiornata la sezione FAQ sui termini di registrazione", "Pubblicato il Decreto Direttoriale n. 33508 sulle nomine").
+2. NON citare MAI righe, diff, numeri di righe modificate o aspetti tecnici dello scraping.
+3. Rispondi in lingua italiana, tono chiaro, conciso e professionale.
+4. Restituisci ESCLUSIVAMENTE la singola frase riassuntiva, senza virgolette né preamboli o saluti.
+
+VARIAZIONI RILEVATE:
+{adds_text}
+
+{rems_text}
+"""
     try:
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel('gemini-1.5-flash')
-        
-        prompt = f"""
-        Sei un esperto di cybersecurity. Analizza queste aggiunte e rimozioni dalla pagina "{name}" del sito dell'Agenzia per la Cybersicurezza Nazionale (ACN).
-        Fornisci un breve riassunto (massimo 2-3 frasi) di cosa è cambiato in termini di contenuto. Non fare elenchi, scrivi una descrizione discorsiva. Sii molto conciso.
-        
-        AGGIUNTE:
-        {" ".join(additions[:20])}
-        
-        RIMOZIONI:
-        {" ".join(removals[:20])}
-        """
         response = model.generate_content(prompt)
-        return response.text.replace("\n", " ").strip()
+        text = response.text.replace("\n", " ").strip()
+        if (text.startswith('"') and text.endswith('"')) or (text.startswith("'") and text.endswith("'")):
+            text = text[1:-1].strip()
+        if text:
+            return text
     except Exception as e:
-        print(f"Errore generazione summary AI per {name}: {e}")
-        return ""
+        print(f"Errore generazione summary AI per {name} ({e}), uso fallback euristico.")
+        
+    return fallback
 
 def get_ai_summary(results_with_changes):
-    """Genera un riassunto delle modifiche usando Google Gemini"""
+    """Genera un riassunto concettuale complessivo delle novità della sessione"""
+    if not results_with_changes:
+        return None
+        
+    page_summaries = []
+    for r in results_with_changes:
+        p_summary = (r.get("ai_summary") or "").strip()
+        if not p_summary:
+            p_summary = generate_heuristic_summary(r.get("name", ""), r.get("additions", []), r.get("removals", []))
+        page_summaries.append(f"• {r.get('name')}: {p_summary}")
+            
+    fallback = "\n".join(page_summaries[:5])
+    
     api_key = os.environ.get("GEMINI_API_KEY")
     if not genai or not api_key:
-        return None
-    
+        if len(page_summaries) == 1:
+            return page_summaries[0].split(": ", 1)[-1]
+        return fallback
+
     try:
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel('gemini-1.5-flash')
         
-        # Prepara il testo completo per l'AI
-        all_text = ""
-        for res in results_with_changes:
-            all_text += f"\n--- PAGINA: {res['name']} ---\n"
-            if res['additions']:
-                all_text += "AGGIUNTE:\n" + "\n".join(res['additions'][:15]) + "\n"
-            if res['removals']:
-                all_text += "RIMOZIONI:\n" + "\n".join(res['removals'][:15]) + "\n"
-
+        context_items = "\n".join(page_summaries[:10])
+        
         prompt = f"""
-        Sei un esperto di cybersecurity e normativa NIS2. 
-        Analizza le seguenti modifiche rilevate sul sito dell'Agenzia per la Cybersicurezza Nazionale (ACN).
-        Fornisci un breve riassunto esecutivo (max 150 parole) spiegando in modo semplice:
-        1. Qual è la natura principale dei cambiamenti.
-        2. Se ci sono impatti diretti per i soggetti obbligati NIS2 (es. nuove scadenze, requisiti tecnici).
-        3. Un consiglio rapido su come procedere.
-        
-        Usa un tono professionale ma accessibile. Rispondi in Italiano.
-        Usa grassetti per evidenziare i punti chiave.
-        
-        MODIFICHE RILEVATE:
-        {all_text}
-        """
-        
+Sei un analista esperto di cybersecurity e normativa NIS2.
+Sintetizza in 2-3 frasi chiare, scorrevoli ed essenziali (massimo 50-60 parole) le seguenti novità appena pubblicate sul sito dell'Agenzia per la Cybersicurezza Nazionale (ACN).
+
+REGOLE:
+1. Spiega in modo discorsivo e concettuale cosa è cambiato o stato pubblicato (es. nuovi vademecum, decreti, faq).
+2. Usa il grassetto per evidenziare i concetti o documenti chiave.
+3. NON citare numeri di righe, diff o dettagli tecnici di scansione.
+4. Rispondi in italiano. Restituisci SOLO il testo della sintesi.
+
+AGGIORNAMENTI RILEVATI:
+{context_items}
+"""
         response = model.generate_content(prompt)
-        return response.text
+        text = response.text.strip()
+        if text:
+            return text
     except Exception as e:
-        print(f"Errore durante la generazione del riassunto AI: {e}")
-        return None
+        print(f"Errore generazione riassunto globale AI ({e}), uso fallback.")
+        
+    if len(page_summaries) == 1:
+        return page_summaries[0].split(": ", 1)[-1]
+    return fallback
 
 def generate_summary_report(results_with_changes, ai_summary=None):
     """Genera un report HTML consolidato per tutte le pagine modificate"""
@@ -837,7 +927,7 @@ def monitor_page(page_config):
             now_str = get_now().isoformat()
             result["has_changes"] = True
             result["status"] = "Modificato"
-            result["summary"] = f"+{len(additions)} aggiunte, -{len(removals)} rimozioni"
+            result["summary"] = ai_summary or f"+{len(additions)} aggiunte, -{len(removals)} rimozioni"
             result["additions"] = additions
             result["removals"] = removals
             result["ai_summary"] = ai_summary
@@ -853,7 +943,7 @@ def monitor_page(page_config):
                 result["additions"] = old_state.get("last_additions", [])
                 result["removals"] = old_state.get("last_removals", [])
                 result["ai_summary"] = old_state.get("ai_summary", "")
-                result["summary"] = f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
+                result["summary"] = result["ai_summary"] or f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
             else:
                 result["status"] = "Nessuna modifica"
                 result["has_changes"] = False
@@ -864,10 +954,12 @@ def monitor_page(page_config):
         print(f"📝 Prima esecuzione per {name} - salvataggio stato")
         now_iso = get_now().isoformat()
         now_fmt = get_now().strftime('%d/%m/%Y %H:%M')
-        save_state(paths, current_hash, current_text, last_change_date=now_iso)
+        init_summary = generate_heuristic_summary(name, ["[NUOVA RISORSA]"], [])
+        save_state(paths, current_hash, current_text, last_change_date=now_iso, ai_summary=init_summary)
         result["status"] = "Nuova risorsa aggiunta"
         result["last_change_date"] = now_fmt
-    
+        result["ai_summary"] = init_summary
+        result["summary"] = init_summary
     
     return list(set(discovered_urls)), result, header_text, footer_text
 
@@ -911,7 +1003,7 @@ def check_text_component(name, page_id, current_text, source_url):
             result["has_history"] = True
             result["has_changes"] = True
             result["status"] = "Modificato"
-            result["summary"] = f"+{len(additions)} aggiunte, -{len(removals)} rimozioni"
+            result["summary"] = ai_summary or f"+{len(additions)} aggiunte, -{len(removals)} rimozioni"
             result["additions"] = additions
             result["removals"] = removals
             result["ai_summary"] = ai_summary
@@ -924,15 +1016,18 @@ def check_text_component(name, page_id, current_text, source_url):
                 result["additions"] = old_state.get("last_additions", [])
                 result["removals"] = old_state.get("last_removals", [])
                 result["ai_summary"] = old_state.get("ai_summary", "")
-                result["summary"] = f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
+                result["summary"] = result["ai_summary"] or f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
             else:
                 result["status"] = "Nessuna modifica"
             save_state(paths, current_hash, current_text)
     else:
         now_iso = get_now().isoformat()
-        save_state(paths, current_hash, current_text, last_change_date=now_iso)
+        init_summary = generate_heuristic_summary(name, ["[NUOVA RISORSA]"], [])
+        save_state(paths, current_hash, current_text, last_change_date=now_iso, ai_summary=init_summary)
         result["status"] = "Nuova risorsa aggiunta"
         result["last_change_date"] = get_now().strftime('%d/%m/%Y %H:%M')
+        result["ai_summary"] = init_summary
+        result["summary"] = init_summary
     
     return result
 
@@ -992,6 +1087,7 @@ def main():
     # Includiamo anche i "Nuova risorsa aggiunta" se vogliamo notificarli
     new_resources = [r for r in all_results if r.get("status") == "Nuova risorsa aggiunta"]
     
+    ai_summary = None
     if results_with_changes or new_resources:
         print(f"\n📧 Preparazione invio notifiche per {len(results_with_changes)} modifiche...")
         
@@ -1016,11 +1112,24 @@ def main():
     else:
         print("\n✅ Nessuna nuova modifica rilevante da notificare.")
 
+    # Recupera eventuale global_summary precedente se non generato in questa sessione
+    existing_global_summary = ""
+    if os.path.exists("status.json"):
+        try:
+            with open("status.json", "r", encoding="utf-8") as f:
+                old_status = json.load(f)
+                existing_global_summary = old_status.get("global_summary", "")
+        except:
+            pass
+
+    current_global_summary = ai_summary if (results_with_changes or new_resources) and ai_summary else existing_global_summary
+
     # Salva risultati per la dashboard
     try:
         with open("status.json", "w", encoding="utf-8") as f:
             json.dump({
                 "last_update": get_now().strftime('%d/%m/%Y %H:%M'),
+                "global_summary": current_global_summary,
                 "pages": all_results
             }, f, indent=2)
         print("\n✅ status.json aggiornato correttamente")

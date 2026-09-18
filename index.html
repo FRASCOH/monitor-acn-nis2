@@ -340,6 +340,65 @@
             overflow-wrap: break-word;
         }
 
+        .card-summary-box {
+            margin: 0.2rem 0 1.2rem 0;
+            padding: 0.85rem 1rem;
+            background: rgba(99, 102, 241, 0.08);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            border-left: 3px solid var(--primary-light);
+            border-radius: 0.8rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.35rem;
+        }
+
+        .summary-badge {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--primary-light);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .summary-text {
+            font-size: 0.88rem;
+            color: #e2e8f0;
+            line-height: 1.45;
+            margin: 0;
+        }
+
+        .global-summary-box {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.12), rgba(168, 85, 247, 0.12));
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 1.5rem;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(10px);
+            animation: fadeInDown 0.6s ease-out;
+        }
+
+        .global-summary-header {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--primary-light);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.6rem;
+        }
+
+        .global-summary-text {
+            font-size: 0.95rem;
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+        }
+
         .card-meta {
             margin-top: auto;
             padding-top: 1.5rem;
@@ -1071,6 +1130,8 @@
             </div>
         </header>
 
+        <div id="global-summary-container" style="display: none;"></div>
+
         <div class="controls-wrapper">
             <div class="controls">
                 <div class="search-container" style="display: flex; gap: 0.5rem; align-items: stretch;">
@@ -1383,10 +1444,34 @@
                 if (!response.ok) throw new Error('Dati non disponibili.');
                 currentData = await response.json();
 
+                renderGlobalSummary();
                 renderDashboard();
             } catch (error) {
                 console.error(error);
                 document.getElementById('dashboard-grid').innerHTML = '<div style="text-align:center; padding: 5rem;">⚠️ Errore caricamento dati.</div>';
+            }
+        }
+
+        function renderGlobalSummary() {
+            const container = document.getElementById('global-summary-container');
+            if (!container) return;
+            if (currentData && currentData.global_summary) {
+                container.style.display = 'block';
+                let formatted = currentData.global_summary
+                    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                    .replace(/\n/g, '<br>');
+                container.innerHTML = `
+                    <div class="global-summary-box">
+                        <div class="global-summary-header">
+                            <span>⚡</span>
+                            <span>Riepilogo Ultime Novità ACN & NIS2</span>
+                        </div>
+                        <p class="global-summary-text">${formatted}</p>
+                    </div>
+                `;
+            } else {
+                container.style.display = 'none';
             }
         }
 
@@ -1589,6 +1674,17 @@
 
                 if (p.status.includes('Errore')) statusClass = 'danger';
 
+                let cardSummaryHtml = '';
+                const conceptSummary = p.ai_summary || ((p.summary && !p.summary.includes('aggiunte')) ? p.summary : '');
+                if (conceptSummary && (p.has_changes || isNew || (p.status && (p.status.includes('Recente') || p.status.includes('Modificato'))))) {
+                    cardSummaryHtml = `
+                        <div class="card-summary-box">
+                            <span class="summary-badge">💡 Sintesi Modifica</span>
+                            <p class="summary-text">${conceptSummary}</p>
+                        </div>
+                    `;
+                }
+
                 card.id = `card-${p.id}`;
                 card.innerHTML = `
                     <div class="card-type" style="display: flex; justify-content: space-between; align-items: center;">
@@ -1598,6 +1694,7 @@
                         </button>
                     </div>
                     <h3 class="card-title">${p.name}</h3>
+                    ${cardSummaryHtml}
                     
                     <div class="card-meta">
                         <div class="meta-item">
@@ -1631,8 +1728,9 @@
 
                     let summaryText = "";
                     if (h.ai_summary) {
-                        summaryText = `<div style="margin-top: 0.8rem; padding: 0.8rem; background: rgba(99, 102, 241, 0.1); border-left: 4px solid var(--primary); border-radius: 0.5rem;">
-                                        <p style="font-size: 0.9rem; margin: 0; line-height: 1.5;">🤖 <strong>Summary:</strong> ${h.ai_summary}</p>
+                        summaryText = `<div style="margin-top: 0.8rem; padding: 0.85rem 1rem; background: rgba(99, 102, 241, 0.1); border-left: 3px solid var(--primary-light); border-radius: 0.6rem;">
+                                        <div style="font-size: 0.7rem; font-weight: 700; color: var(--primary-light); text-transform: uppercase; margin-bottom: 0.2rem;">💡 Sintesi Modifica:</div>
+                                        <p style="font-size: 0.9rem; color: #f8fafc; margin: 0; line-height: 1.45;">${h.ai_summary}</p>
                                        </div>`;
                     }
 
@@ -1657,16 +1755,19 @@
             document.getElementById('modal-page-name').innerText = p.name;
 
             let summaryHtml = '';
-            if (p.ai_summary) {
+            const conceptSummary = p.ai_summary || ((p.summary && !p.summary.includes('aggiunte')) ? p.summary : '');
+            if (conceptSummary) {
                 summaryHtml = `
-                    <div style="margin-bottom: 1.5rem; padding: 1rem; background: rgba(99, 102, 241, 0.1); border-left: 4px solid var(--primary); border-radius: 0.5rem;">
-                        <p style="font-size: 0.95rem; margin: 0; line-height: 1.5;">🤖 <strong>Summary:</strong> ${p.ai_summary}</p>
+                    <div style="margin-bottom: 1.5rem; padding: 1.2rem; background: rgba(99, 102, 241, 0.12); border-left: 4px solid var(--primary); border-radius: 0.8rem; border: 1px solid rgba(99, 102, 241, 0.25);">
+                        <div style="font-size: 0.75rem; font-weight: 700; color: var(--primary-light); text-transform: uppercase; margin-bottom: 0.4rem; letter-spacing: 0.05em;">💡 Sintesi Concettuale della Modifica</div>
+                        <p style="font-size: 1rem; color: #f8fafc; margin: 0; line-height: 1.5; font-weight: 500;">${conceptSummary}</p>
                     </div>
                 `;
             }
 
             body.innerHTML = `
                 ${summaryHtml}
+                <h4 style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.8rem; letter-spacing: 0.05em;">Dettaglio variazioni di testo</h4>
                 ${(p.additions || []).map(a => `<div class="diff-line line-add"><span class="diff-tag tag-add">ADD</span>${a}</div>`).join('')}
                 ${(p.removals || []).map(r => `<div class="diff-line line-rem"><span class="diff-tag tag-rem">REM</span>${r}</div>`).join('')}
             `;
