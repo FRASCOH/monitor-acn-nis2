@@ -1,13 +1,16 @@
 {
-  "hash": "04faf7e5fc7abac6ae033e0fcfd1c73c836b59a24c5748b1c43b61f4f998039f",
-  "last_check": "2026-09-18T13:35:50.652363+02:00",
-  "last_change_date": "2026-09-11T17:08:46.391893+02:00",
+  "hash": "7255781897c4daf2ad5debf960656798d7b771257657c96b574d5f97cf286630",
+  "last_check": "2026-09-18T17:06:47.129824+02:00",
+  "last_change_date": "2026-09-18T17:06:47.129705+02:00",
   "last_additions": [
-    "Scarica il vademecum NIS"
+    "News -",
+    "18 Settembre 2026",
+    "Le novit\u00e0 per i soggetti NIS"
   ],
   "last_removals": [
-    "apre nuova scheda",
-    "Guarda il video"
+    "News -",
+    "29 Novembre 2024",
+    "NIS: attiva dal 1\u00b0 dicembre la registrazione sulla piattaforma ACN"
   ],
-  "ai_summary": "Aggiunto il link per scaricare il nuovo Vademecum NIS operativo."
+  "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Le novit\u00e0 per i soggetti NIS\"."
 }
