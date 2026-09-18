@@ -951,7 +951,7 @@
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "+1 aggiunte, -2 rimozioni",
+      "summary": "Aggiunto il link per scaricare il nuovo Vademecum NIS operativo.",
       "additions": [
         "Scarica il vademecum NIS"
       ],
@@ -961,7 +961,7 @@
       ],
       "atti_list": [],
       "last_change_date": "11/09/2026 17:08",
-      "ai_summary": ""
+      "ai_summary": "Aggiunto il link per scaricare il nuovo Vademecum NIS operativo."
     },
     {
       "id": "linee_guida",
@@ -1166,7 +1166,7 @@
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "+2 aggiunte, -3 rimozioni",
+      "summary": "Aggiunto il Vademecum NIS e aggiornate le indicazioni per la registrazione obbligatoria dei soggetti (dal 1° gennaio al 28 febbraio).",
       "additions": [
         "Dal 1° gennaio al 28 febbraio di ogni anno i soggetti pubblici e privati a cui si applica la NIS devono manifestarsi all’Autorità nazionale competente NIS registrandosi o aggiornando la propria registrazione  sulla piattaforma digitale che sarà resa disponibile da ACN.",
         "Scarica il vademecum NIS"
@@ -1178,7 +1178,7 @@
       ],
       "atti_list": [],
       "last_change_date": "11/09/2026 17:09",
-      "ai_summary": ""
+      "ai_summary": "Aggiunto il Vademecum NIS e aggiornate le indicazioni per la registrazione obbligatoria dei soggetti (dal 1° gennaio al 28 febbraio)."
     },
     {
       "id": "nis_obblighi",
@@ -1298,5 +1298,5 @@
       "atti_list": []
     }
   ],
-  "global_summary": "Aggiornato il portale ACN con la pubblicazione del nuovo **Decreto Direttoriale n. 33508**, l'integrazione di nuove **FAQ NIS (FRN.5 - FRN.10)** sulla gestione dei fornitori e l'aggiornamento dei canali istituzionali."
+  "global_summary": "Pubblicato da ACN il nuovo **Vademecum NIS** (disponibile nelle sezioni **Home** e **Registrazione**) per supportare i soggetti nella conformità ed aggiornata la finestra temporale per la registrazione obbligatoria, fissata dal **1° gennaio al 28 febbraio** di ogni anno."
 }

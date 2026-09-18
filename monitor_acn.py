@@ -515,6 +515,12 @@ def generate_heuristic_summary(name, additions, removals):
             return f"Pubblicato nuovo documento: '{clean_name}'."
         return f"Inserita nuova sezione sul portale: '{name}'."
 
+    # Riconoscimento prioritario per Vademecum (es. Home e Registrazione)
+    if any("vademecum" in a.lower() for a in clean_adds):
+        if "registrazione" in name.lower():
+            return "Aggiunto il Vademecum NIS e aggiornate le date per la registrazione obbligatoria dei soggetti (dal 1° gennaio al 28 febbraio)."
+        return "Aggiunto il link per scaricare il nuovo Vademecum NIS operativo."
+
     # Cerca atti e documenti normativi specifici nelle aggiunte
     norm_keywords = [
         ("vademecum", "Aggiunto nuovo vademecum operativo"),
@@ -942,14 +948,16 @@ def monitor_page(page_config):
                 result["status"] = "Modificato (Recente)"
                 result["additions"] = old_state.get("last_additions", [])
                 result["removals"] = old_state.get("last_removals", [])
-                result["ai_summary"] = old_state.get("ai_summary", "")
-                result["summary"] = result["ai_summary"] or f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
+                ai_sum = (old_state.get("ai_summary") or "").strip()
+                if not ai_sum and (result["additions"] or result["removals"]):
+                    ai_sum = generate_heuristic_summary(name, result["additions"], result["removals"])
+                result["ai_summary"] = ai_sum
+                result["summary"] = ai_sum or f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
+                save_state(paths, current_hash, current_text, additions=result["additions"], removals=result["removals"], ai_summary=ai_sum)
             else:
                 result["status"] = "Nessuna modifica"
                 result["has_changes"] = False
-            
-            # Aggiorniamo comunque l'ultimo check nello stato
-            save_state(paths, current_hash, current_text)
+                save_state(paths, current_hash, current_text)
     else:
         print(f"📝 Prima esecuzione per {name} - salvataggio stato")
         now_iso = get_now().isoformat()
@@ -1015,11 +1023,15 @@ def check_text_component(name, page_id, current_text, source_url):
                 result["status"] = "Modificato (Recente)"
                 result["additions"] = old_state.get("last_additions", [])
                 result["removals"] = old_state.get("last_removals", [])
-                result["ai_summary"] = old_state.get("ai_summary", "")
-                result["summary"] = result["ai_summary"] or f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
+                ai_sum = (old_state.get("ai_summary") or "").strip()
+                if not ai_sum and (result["additions"] or result["removals"]):
+                    ai_sum = generate_heuristic_summary(name, result["additions"], result["removals"])
+                result["ai_summary"] = ai_sum
+                result["summary"] = ai_sum or f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
+                save_state(paths, current_hash, current_text, additions=result["additions"], removals=result["removals"], ai_summary=ai_sum)
             else:
                 result["status"] = "Nessuna modifica"
-            save_state(paths, current_hash, current_text)
+                save_state(paths, current_hash, current_text)
     else:
         now_iso = get_now().isoformat()
         init_summary = generate_heuristic_summary(name, ["[NUOVA RISORSA]"], [])
