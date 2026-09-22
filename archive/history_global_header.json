@@ -1,11 +1,11 @@
 [
   {
-    "timestamp": "2026-05-20T15:16:00+02:00",
-    "date_formatted": "20/05/2026 15:16",
-    "additions": [
-      "Relazioni Internazionali e Affari Europei"
+    "timestamp": "2026-09-22T20:24:22.313637+02:00",
+    "date_formatted": "22/09/2026 20:24",
+    "additions": [],
+    "removals": [
+      "[HEADER] Skip to Main Content"
     ],
-    "removals": [],
-    "ai_summary": "La voce di menu \u00e8 stata aggiornata in 'Relazioni Internazionali e Affari Europei'."
+    "ai_summary": "Rimossi riferimenti o contenuti archiviati: \"Skip to Main Content\"."
   }
 ]

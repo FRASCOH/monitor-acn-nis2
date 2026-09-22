@@ -18,7 +18,6 @@
 [HEADER] cybersicurezza nazionale
 [HEADER] Segnala un incidente informatico
 [HEADER] apri_ricerca
-[HEADER] Skip to Main Content
 [HEADER] Menu
 [HEADER] Agenzia
 [HEADER] Agenzia
