@@ -787,6 +787,18 @@ def send_telegram_notification(results_with_changes, ai_summary):
             "disable_web_page_preview": True
         }
     
+    # Pulsante inline interattivo sotto il messaggio
+    payload["reply_markup"] = {
+        "inline_keyboard": [
+            [
+                {
+                    "text": "⚖️ Vai al portale Monitor ACN NIS2",
+                    "url": "https://frascoh.github.io/monitor-acn-nis2/"
+                }
+            ]
+        ]
+    }
+    
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     try:
         response = requests.post(url, json=payload, timeout=15)
