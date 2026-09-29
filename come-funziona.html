@@ -251,6 +251,109 @@
             gap: 1.5rem;
         }
 
+        /* 4 Cards on 1 Row (Desktop) & Carousel (Mobile/Tablet) */
+        .carousel-wrapper {
+            position: relative;
+        }
+
+        .cards-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.2rem;
+            align-items: stretch;
+        }
+
+        .cards-row .info-card {
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem 1.3rem;
+            border-radius: 1.3rem;
+            height: 100%;
+        }
+
+        .cards-row .info-card h4 {
+            font-size: 1.05rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.35;
+        }
+
+        .cards-row .info-card p {
+            font-size: 0.88rem;
+            line-height: 1.5;
+            color: var(--text-muted);
+            flex-grow: 1;
+        }
+
+        .carousel-nav-btn {
+            display: none;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: rgba(15, 23, 42, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: var(--text);
+            font-size: 1.3rem;
+            cursor: pointer;
+            z-index: 10;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            transition: all 0.2s ease;
+        }
+
+        .carousel-nav-btn:hover {
+            background: var(--primary);
+            border-color: var(--primary-light);
+            color: white;
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .carousel-nav-btn.prev {
+            left: -12px;
+        }
+
+        .carousel-nav-btn.next {
+            right: -12px;
+        }
+
+        @media (max-width: 1024px) {
+            .cards-row {
+                display: flex;
+                overflow-x: auto;
+                scroll-snap-type: x mandatory;
+                scroll-behavior: smooth;
+                padding: 0.5rem 0.2rem 1.2rem;
+                gap: 1rem;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: thin;
+            }
+
+            .cards-row::-webkit-scrollbar {
+                height: 6px;
+            }
+            .cards-row::-webkit-scrollbar-track {
+                background: rgba(255, 255, 255, 0.05);
+                border-radius: 999px;
+            }
+            .cards-row::-webkit-scrollbar-thumb {
+                background: var(--primary);
+                border-radius: 999px;
+            }
+
+            .cards-row .info-card {
+                flex: 0 0 280px;
+                scroll-snap-align: start;
+            }
+
+            .carousel-nav-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
         .info-card {
             background: var(--card-bg);
             border: 1px solid var(--card-border);
@@ -539,38 +642,42 @@
                 </div>
             </div>
 
-            <div class="cards-grid">
-                <div class="info-card">
-                    <div class="card-icon" style="color: #38bdf8;">⚡</div>
-                    <h4>1. Scansione Automatica Continua</h4>
-                    <p>
-                        Controlla il portale ACN ogni 5 minuti (pagine web e documenti PDF allegati), eliminando la necessità di verifiche manuali quotidiane.
-                    </p>
-                </div>
+            <div class="carousel-wrapper">
+                <button class="carousel-nav-btn prev" onclick="scrollCarousel(-1)" aria-label="Precedente">‹</button>
+                <div class="cards-row" id="purpose-cards-carousel">
+                    <div class="info-card">
+                        <div class="card-icon" style="color: #38bdf8;">⚡</div>
+                        <h4>1. Scansione Automatica Continua</h4>
+                        <p>
+                            Controlla il portale ACN ogni 5 minuti (pagine web e documenti PDF allegati), eliminando la necessità di verifiche manuali quotidiane.
+                        </p>
+                    </div>
 
-                <div class="info-card">
-                    <div class="card-icon" style="color: #a855f7;">🧠</div>
-                    <h4>2. Sintesi Immediata "Cosa Cambia"</h4>
-                    <p>
-                        Un motore AI (Gemini 2.0 Flash) analizza le righe modificate e genera una sintesi oggettiva, distinguendo subito le novità normative dai semplici ritocchi grafici.
-                    </p>
-                </div>
+                    <div class="info-card">
+                        <div class="card-icon" style="color: #a855f7;">🧠</div>
+                        <h4>2. Sintesi Immediata "Cosa Cambia"</h4>
+                        <p>
+                            Un motore AI (Gemini 2.0 Flash) analizza le righe modificate e genera una sintesi oggettiva, distinguendo subito le novità normative dai semplici ritocchi grafici.
+                        </p>
+                    </div>
 
-                <div class="info-card">
-                    <div class="card-icon" style="color: #10b981;">⚖️</div>
-                    <h4>3. Confronto Trasparente Prima / Dopo</h4>
-                    <p>
-                        Nel modale di ogni risorsa puoi visualizzare direttamente il testo originale a fronte di quello aggiornato (+ in verde, - in rosso) per una verifica visiva immediata.
-                    </p>
-                </div>
+                    <div class="info-card">
+                        <div class="card-icon" style="color: #10b981;">⚖️</div>
+                        <h4>3. Confronto Trasparente Prima / Dopo</h4>
+                        <p>
+                            Nel modale di ogni risorsa puoi visualizzare direttamente il testo originale a fronte di quello aggiornato (+ in verde, - in rosso) per una verifica visiva immediata.
+                        </p>
+                    </div>
 
-                <div class="info-card">
-                    <div class="card-icon" style="color: #f59e0b;">🔔</div>
-                    <h4>4. Avvisi Mirati su Telegram</h4>
-                    <p>
-                        Ricevi sul canale Telegram notifiche istantanee per i veri aggiornamenti normativi, mentre le modifiche puramente grafiche restano silenziose.
-                    </p>
+                    <div class="info-card">
+                        <div class="card-icon" style="color: #f59e0b;">🔔</div>
+                        <h4>4. Avvisi Mirati su Telegram</h4>
+                        <p>
+                            Ricevi sul canale Telegram notifiche istantanee per i veri aggiornamenti normativi, mentre le modifiche puramente grafiche restano silenziose.
+                        </p>
+                    </div>
                 </div>
+                <button class="carousel-nav-btn next" onclick="scrollCarousel(1)" aria-label="Successivo">›</button>
             </div>
         </section>
 
@@ -765,5 +872,15 @@
             <p style="font-size: 0.75rem; opacity: 0.6;">&copy; 2026 Lorenzo Frasconi. Servizio informativo indipendente non ufficiale.</p>
         </footer>
     </div>
+
+    <script>
+        function scrollCarousel(direction) {
+            const carousel = document.getElementById('purpose-cards-carousel');
+            if (carousel) {
+                const scrollAmount = 300 * direction;
+                carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            }
+        }
+    </script>
 </body>
 </html>
