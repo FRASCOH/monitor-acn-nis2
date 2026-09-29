@@ -1284,9 +1284,9 @@
             <p style="color: var(--text-muted); margin-top: -0.5rem;">Intelligence e monitoraggio normativo in tempo
                 reale</p>
             <div class="header-actions">
-                <button class="onboarding-trigger" onclick="showOnboarding()">
-                    <span>👋</span>Scopri come funziona
-                </button>
+                <a href="come-funziona.html" class="onboarding-trigger" style="text-decoration: none;">
+                    <span>👋</span>Scopri come funziona &amp; Novità
+                </a>
                 <a href="https://t.me/monitor_acn_nis2" target="_blank" class="telegram-trigger">
                     <svg height="14" width="14" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.98 1.25-5.59 3.69-.53.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.97-.74 3.79-1.65 6.32-2.73 7.57-3.25 3.59-1.48 4.34-1.74 4.83-1.75.11 0 .35.03.5.16.13.1.17.25.18.35-.01.07 0 .2-.02.26z"/>
@@ -1381,6 +1381,10 @@
             style="margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--card-border); text-align: center; color: var(--text-muted);">
             <p style="font-size: 0.9rem; margin-bottom: 1rem;">Sviluppato con passione per la Cybersecurity Italiana</p>
             <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
+                <a href="come-funziona.html"
+                    style="color: var(--primary-light); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; font-weight: 600;">
+                    <span>📖</span> Come Funziona &amp; Novità
+                </a>
                 <a href="https://github.com/FRASCOH" target="_blank"
                     style="color: var(--text); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem;">
                     <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor">
@@ -1421,147 +1425,6 @@
 
     <!-- Floating Disclaimer Trigger -->
     <div class="disclaimer-trigger" onclick="showDisclaimer()" title="Informazioni Legali">i</div>
-
-    <!-- Modal for Onboarding -->
-    <div id="onboarding-overlay" class="overlay-backdrop" style="background: rgba(0,0,0,0.9); z-index: 2000;">
-        <div id="modal"
-            style="max-width: 1000px; width: 90vw; background: var(--bg); border: 1px solid var(--card-border); border-radius: 2.5rem; overflow: hidden; box-shadow: 0 40px 100px rgba(0,0,0,0.6);">
-            <div class="modal-header"
-                style="background: rgba(255,255,255,0.02); border-bottom: 1px solid var(--card-border);">
-                <div class="onboarding-header-row" style="display: flex; align-items: center; gap: 1.2rem;">
-                    <div class="onboarding-icon-box"
-                        style="background: linear-gradient(135deg, var(--primary), var(--secondary)); width: 45px; height: 45px; border-radius: 14px; display: grid; place-items: center; font-size: 1.3rem; box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);">
-                        👋</div>
-                    <div class="onboarding-header-text">
-                        <h2 style="margin: 0; font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em;">Benvenuto
-                            nel Monitor NIS2</h2>
-                        <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0; opacity: 0.8;">Scopri come
-                            semplifichiamo la tua conformità</p>
-                    </div>
-                </div>
-                <button class="onboarding-close-btn" onclick="closeOnboarding()"
-                    style="background: rgba(255,255,255,0.05); border: none; color: white; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; cursor: pointer; transition: 0.3s;">&times;</button>
-            </div>
-
-            <div class="modal-body" style="max-height: 85vh; overflow-y: auto;">
-                <!-- Intro Description -->
-                <p class="onboarding-intro"
-                    style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--card-border);">
-                    Questo portale è il tuo hub centralizzato per il monitoraggio dell'<strong>Agenzia per la
-                        Cybersicurezza Nazionale</strong>.
-                    Progettato per supportare la conformità <strong>NIS2</strong>, analizziamo ogni aggiornamento
-                    critico per fornirti informazioni tempestive e analisi AI avanzate.
-                </p>
-
-                <div class="onboarding-main-grid">
-
-                    <!-- Left: How it works & Features -->
-                    <div>
-                        <h3 class="onboarding-section-label"
-                            style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--primary-light); margin-bottom: 1.5rem; font-weight: 700;">
-                            Il Servizio in breve</h3>
-
-                        <div class="onboarding-features-grid">
-                            <div class="onboarding-feature-card"
-                                style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column;">
-                                <div class="feat-emoji" style="font-size: 1.5rem; margin-bottom: 1rem;">🧠</div>
-                                <div class="feat-text">
-                                    <h4 style="font-size: 0.95rem; margin-bottom: 0.4rem;">AI Analysis</h4>
-                                    <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">Riassunti
-                                        esecutivi di Gemini 1.5 sulle modifiche normative.</p>
-                                </div>
-                            </div>
-                            <div class="onboarding-feature-card"
-                                style="background: rgba(255,255,255,0.03); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.05); display: flex; flex-direction: column;">
-                                <div class="feat-emoji" style="font-size: 1.5rem; margin-bottom: 1rem;">⚡</div>
-                                <div class="feat-text">
-                                    <h4 style="font-size: 0.95rem; margin-bottom: 0.4rem;">Real-Time</h4>
-                                    <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">Scansione
-                                        automatica ogni 5 minuti tramite GitHub Actions.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="onboarding-integrity-card"
-                            style="background: rgba(99, 102, 241, 0.05); padding: 1.5rem; border-radius: 1.5rem; border: 1px solid rgba(99, 102, 241, 0.1); margin-top: 1.2rem;">
-                            <div style="display: flex; gap: 1rem; align-items: center;">
-                                <div class="feat-emoji" style="font-size: 1.2rem;">🛡️</div>
-                                <div>
-                                    <h4 style="font-size: 0.9rem; color: var(--text);">Integrità del Dato</h4>
-                                    <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">Rileviamo
-                                        variazioni millimetriche dei contenuti e dei documenti PDF.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Right: Legend & Actions -->
-                    <div style="display: flex; flex-direction: column; gap: 2rem;">
-                        <div>
-                            <h3 class="onboarding-section-label"
-                                style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--primary-light); margin-bottom: 1.5rem; font-weight: 700;">
-                                Guida agli Stati</h3>
-                            <div class="onboarding-legend-list"
-                                style="display: flex; flex-direction: column; gap: 1rem;">
-                                <div class="onboarding-legend-item"
-                                    style="display: flex; align-items: center; gap: 1rem; background: rgba(255,255,255,0.02); padding: 0.8rem 1.2rem; border-radius: 1rem;">
-                                    <div class="onboarding-legend-dot"
-                                        style="width: 10px; height: 10px; border-radius: 50%; background: var(--success); box-shadow: 0 0 10px var(--success); flex-shrink: 0;">
-                                    </div>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Aggiornato</span>
-                                </div>
-                                <div class="onboarding-legend-item"
-                                    style="display: flex; align-items: center; gap: 1rem; background: rgba(255,255,255,0.02); padding: 0.8rem 1.2rem; border-radius: 1rem;">
-                                    <div class="onboarding-legend-dot"
-                                        style="width: 10px; height: 10px; border-radius: 50%; background: var(--warning); box-shadow: 0 0 10px var(--warning); flex-shrink: 0;">
-                                    </div>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Cambiamento rilevato</span>
-                                </div>
-                                <div class="onboarding-legend-item"
-                                    style="display: flex; align-items: center; gap: 1rem; background: rgba(255,255,255,0.02); padding: 0.8rem 1.2rem; border-radius: 1rem;">
-                                    <div class="onboarding-legend-dot"
-                                        style="width: 10px; height: 10px; border-radius: 50%; background: var(--new); box-shadow: 0 0 10px var(--new); flex-shrink: 0;">
-                                    </div>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Nuova risorsa inserita</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="onboarding-support"
-                            style="padding-top: 1.5rem; border-top: 1px solid var(--card-border); display: flex; flex-direction: column; gap: 0.8rem;">
-                            <p
-                                style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.2rem; text-align: center;">
-                                Hai bisogno di supporto o vuoi sostenere il progetto?</p>
-                            <a href="https://t.me/monitor_acn_nis2" target="_blank" class="btn btn-primary"
-                                style="display: flex; align-items: center; justify-content: center; gap: 0.7rem; padding: 0.9rem; font-size: 0.9rem; border-radius: 1.2rem; width: 100%; background: linear-gradient(135deg, #0088cc, #00a2ed); border: none; margin-bottom: 0.2rem;">
-                                <svg height="18" width="18" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.98 1.25-5.59 3.69-.53.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.97-.74 3.79-1.65 6.32-2.73 7.57-3.25 3.59-1.48 4.34-1.74 4.83-1.75.11 0 .35.03.5.16.13.1.17.25.18.35-.01.07 0 .2-.02.26z"/>
-                                </svg>
-                                Ricevi Notifiche su Telegram
-                            </a>
-                            <a href="https://www.linkedin.com/in/lorenzo-frasconi/" target="_blank"
-                                class="btn btn-primary"
-                                style="display: flex; align-items: center; justify-content: center; gap: 0.7rem; padding: 0.9rem; font-size: 0.9rem; border-radius: 1.2rem; width: 100%;">
-                                <svg height="18" width="18" viewBox="0 0 24 24" fill="currentColor">
-                                    <path
-                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                                </svg>
-                                Contattami su LinkedIn
-                            </a>
-                            <a href="https://paypal.me/frascohpay" target="_blank" class="btn"
-                                style="display: flex; align-items: center; justify-content: center; gap: 0.7rem; padding: 0.9rem; font-size: 0.9rem; border-radius: 1.2rem; width: 100%;">
-                                <svg height="18" width="18" viewBox="0 0 24 24" fill="currentColor">
-                                    <path
-                                        d="M20.067 8.478c.492.298.837.762.99 1.341.258.983-.024 2.16-.767 3.19-.785 1.085-1.996 1.83-3.327 2.1l-.813.165-.417 2.658-.337 2.155-.078.497c-.015.093-.075.171-.157.208-.061.028-.128.033-.193.016L11 20.308l-3.315-.658-1.579-.313.178-1.135 1.157-7.39.006-.038a.333.333 0 0 1 .157-.208.337.337 0 0 1 .193-.016l1.314.261-.263 1.68 5.753 1.14c1.077.214 2.062-.162 2.637-.954.524-.722.569-1.564.385-2.268a2.53 2.53 0 0 0-.64-1.127 1.82 1.82 0 0 0-1.25-.459L11.5 8.783V6.98l4.22.836c1.686.334 3.327.334 4.347.662zM15.82 1.692l-.128.815c1.472.292 2.923.637 3.82.915.65.2.82.52.88 1.05.07.64-.17 1.45-.66 2.12-.51.7-1.37.95-2.4.74l-3.83-.76c-.08-.01-.15.02-.19.08l-.89 5.67-1.16.23-.27-1.74a.33.33 0 0 0-.25-.27L6.68 9.9c-.19-.04-.32-.23-.29-.42l1.19-7.57c.03-.2.22-.33.42-.29l5.88 1.17c1.1.22 1.68.53 1.94.9z" />
-                                </svg>
-                                Sostieni con PayPal
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <!-- Modal for Disclaimer -->
@@ -2172,18 +2035,13 @@
         }
 
         function showOnboarding() {
-            document.getElementById('onboarding-overlay').style.display = 'grid';
-        }
-
-        function closeOnboarding() {
-            document.getElementById('onboarding-overlay').style.display = 'none';
+            window.location.href = 'come-funziona.html';
         }
 
         // Chiudi i modali al clic esterno
         window.addEventListener('click', (e) => {
             if (e.target.id === 'modal-overlay') closeModal();
             if (e.target.id === 'disclaimer-overlay') closeDisclaimer();
-            if (e.target.id === 'onboarding-overlay') closeOnboarding();
         });
 
         function copyLink(id) {

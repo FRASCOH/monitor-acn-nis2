@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Scopri come funziona il Monitor ACN NIS2: architettura di monitoraggio in tempo reale, motore AI Gemini 2.0, comparatore Prima/Dopo e registro completo delle novità della piattaforma.">
+    <meta property="og:title" content="Come Funziona & Novità della Piattaforma | Monitor ACN NIS2">
+    <meta property="og:description"
+        content="Architettura di scansione, audit semantico dei diff con AI e registro aggiornamenti del portale Monitor ACN NIS2.">
+    <meta property="og:image" content="https://frascoh.github.io/monitor-acn-nis2/social-preview.png">
+    <meta name="author" content="Lorenzo Frasconi">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-27J17EXWZ4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-27J17EXWZ4');
+    </script>
+
+    <title>Come Funziona & Novità | Monitor ACN NIS2</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #a855f7;
+            --bg: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.6);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --new: #06b6d4;
+            --glass: rgba(255, 255, 255, 0.03);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background: var(--bg);
+            background-image:
+                radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(168, 85, 247, 0.15) 0px, transparent 50%),
+                radial-gradient(at 50% 100%, rgba(99, 102, 241, 0.1) 0px, transparent 50%);
+            color: var(--text);
+            min-height: 100vh;
+            padding-bottom: 4rem;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Navigation Header */
+        .top-nav {
+            padding: 2rem 0 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--card-border);
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .brand-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.8rem;
+            text-decoration: none;
+            color: var(--text);
+        }
+
+        .brand-link img {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+        }
+
+        .brand-link h1 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.6rem 1.2rem;
+            border-radius: 0.9rem;
+            font-size: 0.88rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            border: 1px solid var(--card-border);
+            color: var(--text);
+            background: rgba(255, 255, 255, 0.04);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border: none;
+            color: white;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+        }
+
+        .btn-primary:hover {
+            box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+            background: linear-gradient(135deg, var(--primary-light), var(--secondary));
+        }
+
+        .btn-telegram {
+            background: rgba(56, 189, 248, 0.1);
+            color: #38bdf8;
+            border-color: rgba(56, 189, 248, 0.3);
+        }
+
+        .btn-telegram:hover {
+            background: rgba(56, 189, 248, 0.2);
+            border-color: #38bdf8;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 4rem 0 3rem;
+            text-align: center;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.35rem 0.9rem;
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 999px;
+            color: var(--primary-light);
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            margin-bottom: 1.2rem;
+            background: linear-gradient(135deg, #ffffff 40%, var(--text-muted) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            max-width: 760px;
+            margin: 0 auto 2rem;
+            line-height: 1.6;
+        }
+
+        /* Table of Contents / Anchors */
+        .quick-nav {
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-bottom: 3.5rem;
+        }
+
+        .quick-nav a {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.8rem;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--card-border);
+            transition: 0.2s;
+        }
+
+        .quick-nav a:hover {
+            color: var(--text);
+            border-color: var(--primary);
+            background: rgba(99, 102, 241, 0.08);
+        }
+
+        /* Section Layout */
+        .content-section {
+            margin-bottom: 4.5rem;
+            scroll-margin-top: 2rem;
+        }
+
+        .section-header {
+            margin-bottom: 2rem;
+        }
+
+        .section-header .tag {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--primary-light);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            display: block;
+            margin-bottom: 0.4rem;
+        }
+
+        .section-header h3 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .info-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 1.5rem;
+            padding: 1.8rem;
+            backdrop-filter: blur(16px);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .info-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(99, 102, 241, 0.3);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: grid;
+            place-items: center;
+            font-size: 1.3rem;
+            margin-bottom: 1.2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .info-card h4 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.6rem;
+            color: var(--text);
+        }
+
+        .info-card p {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            line-height: 1.55;
+        }
+
+        /* Highlight Card */
+        .highlight-card {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(168, 85, 247, 0.05));
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 1.8rem;
+            padding: 2.2rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Timeline / Changelog */
+        .timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 7px;
+            top: 10px;
+            bottom: 10px;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--primary), rgba(99, 102, 241, 0.1));
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2.5rem;
+        }
+
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: -2rem;
+            top: 4px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: var(--primary);
+            border: 3px solid var(--bg);
+            box-shadow: 0 0 12px var(--primary);
+        }
+
+        .timeline-dot.latest {
+            background: var(--success);
+            box-shadow: 0 0 15px var(--success);
+        }
+
+        .timeline-content {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 1.4rem;
+            padding: 1.6rem;
+            backdrop-filter: blur(12px);
+        }
+
+        .timeline-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.8rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .timeline-version {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .version-badge {
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 0.2rem 0.6rem;
+            border-radius: 999px;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--success);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            text-transform: uppercase;
+        }
+
+        .timeline-date {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .feature-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.7rem;
+            margin-top: 1rem;
+        }
+
+        .feature-list li {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.6rem;
+        }
+
+        .feature-list li strong {
+            color: var(--text);
+        }
+
+        /* States Legend */
+        .legend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .legend-card {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--card-border);
+            padding: 1rem 1.2rem;
+            border-radius: 1rem;
+        }
+
+        .legend-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 5rem;
+            padding-top: 2.5rem;
+            border-top: 1px solid var(--card-border);
+            text-align: center;
+            color: var(--text-muted);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links a {
+            color: var(--text);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            transition: 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-light);
+        }
+
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 1.9rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation Header -->
+        <nav class="top-nav">
+            <a href="index.html" class="brand-link">
+                <img src="favicon.svg" alt="Logo">
+                <h1>Monitor ACN NIS2</h1>
+            </a>
+            <div class="nav-actions">
+                <a href="index.html" class="btn">
+                    <span>⬅️</span> Torna alla Dashboard
+                </a>
+                <a href="https://t.me/monitor_acn_nis2" target="_blank" class="btn btn-telegram">
+                    <svg height="14" width="14" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.98 1.25-5.59 3.69-.53.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.97-.74 3.79-1.65 6.32-2.73 7.57-3.25 3.59-1.48 4.34-1.74 4.83-1.75.11 0 .35.03.5.16.13.1.17.25.18.35-.01.07 0 .2-.02.26z"/>
+                    </svg>
+                    Canale Telegram
+                </a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge">
+                <span>🛡️</span> Architettura di Monitoraggio &amp; Changelog
+            </div>
+            <h2>Intelligence Normativa Trasparente e Rigorosa</h2>
+            <p>
+                Il Monitor ACN NIS2 è una piattaforma indipendente progettata per consentire ad aziende, CISO, DPO e professionisti della sicurezza di tracciare in tempo reale l'evoluzione normativa dell'Agenzia per la Cybersicurezza Nazionale.
+            </p>
+
+            <!-- Quick Table of Contents -->
+            <div class="quick-nav">
+                <a href="#come-funziona">⚙️ Come Funziona</a>
+                <a href="#motore-ai">🧠 Motore AI Gemini 2.0</a>
+                <a href="#comparatore">⚖️ Comparatore Prima/Dopo</a>
+                <a href="#changelog">🚀 Registro Novità (Changelog)</a>
+                <a href="#guida-stati">🎨 Guida agli Stati</a>
+            </div>
+        </header>
+
+        <!-- Section 1: Come Funziona -->
+        <section id="come-funziona" class="content-section">
+            <div class="section-header">
+                <span class="tag">Infrastruttura &amp; Pipeline</span>
+                <h3>Come Funziona il Monitoraggio</h3>
+            </div>
+
+            <div class="highlight-card">
+                <div style="display: flex; gap: 1.2rem; align-items: flex-start;">
+                    <div style="font-size: 2rem;">⚡</div>
+                    <div>
+                        <h4 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">Scansione Continua Ogni 5 Minuti</h4>
+                        <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+                            Il sistema opera tramite un cronjob decentralizzato eseguito su <strong>GitHub Actions</strong>. Ogni 5 minuti il motore effettua il fetching delle pagine istituzionali ACN, analizza i testi, verifica i documenti PDF allegati e registra qualsiasi scostamento senza dipendere da server proprietari o cookie traccianti.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards-grid">
+                <div class="info-card">
+                    <div class="card-icon" style="color: #38bdf8;">🔍</div>
+                    <h4>Scraping Chirurgico del DOM</h4>
+                    <p>
+                        Il parser rimuove sezioni di rumore (header, menu generici, footer e disclaimer cookie), isolando il testo effettivo della normativa o delle FAQ.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-icon" style="color: #a855f7;">🔒</div>
+                    <h4>Integrità Crittografica SHA-256</h4>
+                    <p>
+                        Ogni sezione monitorata genera un'impronta hash SHA-256 univoca. Il motore di diff si attiva solo in presenza di un effettivo delta di contenuto.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-icon" style="color: #ec4899;">📄</div>
+                    <h4>Tracciamento PDF con PyPDF2</h4>
+                    <p>
+                        Non monitoriamo solo le pagine HTML: il sistema scarica e ispeziona gli atti, le determine e i vademecum in formato PDF, estraendone il testo ed evidenziando nuove pubblicazioni.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-icon" style="color: #10b981;">📂</div>
+                    <h4>Archivio Storico Permanente</h4>
+                    <p>
+                        Ogni modifica viene memorizzata in file JSON di storico (nella cartella <code>archive/</code>), creando una sequenza temporale verificabile e immutabile delle variazioni ufficiali.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Motore AI Gemini 2.0 -->
+        <section id="motore-ai" class="content-section">
+            <div class="section-header">
+                <span class="tag">Intelligenza Artificiale</span>
+                <h3>Audit Semantico con Google Gemini 2.0 Flash</h3>
+            </div>
+
+            <div class="info-card" style="margin-bottom: 1.5rem; background: rgba(99, 102, 241, 0.05); border-color: rgba(99, 102, 241, 0.2);">
+                <h4 style="font-size: 1.15rem; color: var(--primary-light); margin-bottom: 0.8rem;">
+                    Perché i riassunti AI sono chirurgicamente precisi?
+                </h4>
+                <p style="margin-bottom: 1rem;">
+                    A differenza dei chatbot convenzionali, l'AI del Monitor ACN NIS2 opera con vincoli deterministici rigidissimi, progettati specificamente per il dominio della sicurezza istituzionale:
+                </p>
+                <div class="cards-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+                    <div style="background: rgba(0,0,0,0.25); padding: 1.2rem; border-radius: 1rem;">
+                        <div style="font-weight: 700; color: var(--text); margin-bottom: 0.3rem;">🎯 Context-Diff Injection</div>
+                        <div style="font-size: 0.85rem; color: var(--text-muted);">Il modello riceve non solo la frase modificata, ma anche le righe immediatamente precedenti e successive. Questo gli consente di capire subito se la modifica risiede in un blocco di navigazione o nel testo di una FAQ.</div>
+                    </div>
+                    <div style="background: rgba(0,0,0,0.25); padding: 1.2rem; border-radius: 1rem;">
+                        <div style="font-weight: 700; color: var(--text); margin-bottom: 0.3rem;">🌡️ Temperatura 0.1</div>
+                        <div style="font-size: 0.85rem; color: var(--text-muted);">Parametro di generazione quasi azzerato per eliminare allucinazioni, licenze poetiche o interpretazioni soggettive: solo fatti puri riscontrabili nel diff.</div>
+                    </div>
+                    <div style="background: rgba(0,0,0,0.25); padding: 1.2rem; border-radius: 1rem;">
+                        <div style="font-weight: 700; color: var(--text); margin-bottom: 0.3rem;">🛡️ Guardrail Anti-Allucinazione</div>
+                        <div style="font-size: 0.85rem; color: var(--text-muted);">Regole esplicite impediscono al modello di citare decreti o FAQ quando l'aggiornamento riguarda semplici breadcrumb o percorsi di menu (es. "Ti trovi in").</div>
+                    </div>
+                    <div style="background: rgba(0,0,0,0.25); padding: 1.2rem; border-radius: 1rem;">
+                        <div style="font-weight: 700; color: var(--text); margin-bottom: 0.3rem;">🔄 Fallback a Catena</div>
+                        <div style="font-size: 0.85rem; color: var(--text-muted);">In caso di indisponibilità temporanea, il sistema scala in sequenza da <code>gemini-2.0-flash</code> a <code>1.5-flash</code> fino all'euristica deterministica locale.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Comparatore Prima/Dopo -->
+        <section id="comparatore" class="content-section">
+            <div class="section-header">
+                <span class="tag">Analisi Visiva</span>
+                <h3>Comparatore "Prima vs Dopo" &amp; Classificazione</h3>
+            </div>
+
+            <div class="cards-grid">
+                <div class="info-card">
+                    <div class="card-icon" style="color: #f59e0b;">⚖️</div>
+                    <h4>3 Schede di Confronto Interattive</h4>
+                    <p style="margin-bottom: 0.6rem;">Nel modale di ogni risorsa modificata sono disponibili:</p>
+                    <ul style="font-size: 0.88rem; color: var(--text-muted); list-style: square; padding-left: 1.2rem; display: flex; flex-direction: column; gap: 0.3rem;">
+                        <li><strong>Confronto (Diff):</strong> visualizza le righe con il loro contesto attorno (+ in verde, - in rosso).</li>
+                        <li><strong>Prima della Modifica:</strong> il testo originale precedente all'aggiornamento.</li>
+                        <li><strong>Dopo la Modifica:</strong> il testo attualmente online sul portale ACN.</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-icon" style="color: #10b981;">🔔</div>
+                    <h4>Filtro "Solo Sostanziali"</h4>
+                    <p>
+                        Grazie alla barra filtri del portale, puoi attivare il pulsante <strong>🔔 Solo Sostanziali</strong> per nascondere con un clic tutte le modifiche tecniche o minori (es. variazioni grafiche o di layout) e concentrarti unicamente sulle novità normative operative.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-icon" style="color: #38bdf8;">📱</div>
+                    <h4>Notifiche Telegram Differenziate</h4>
+                    <p>
+                        Le novità sostanziali generano una notifica sonora con sintesi esecutiva e pulsante interattivo. Gli aggiornamenti tecnici minori arrivano invece in modalità <strong>silenziosa</strong> (senza campanella né vibrazione) per non saturare l'attenzione degli iscritti.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Registro Novità / Changelog -->
+        <section id="changelog" class="content-section">
+            <div class="section-header">
+                <span class="tag">Storico Aggiornamenti</span>
+                <h3>Novità &amp; Changelog del Portale</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.4rem;">
+                    Registro continuo delle migliorie e delle funzionalità rilasciate sulla piattaforma Monitor ACN NIS2.
+                </p>
+            </div>
+
+            <div class="timeline">
+                <!-- Version 2.0 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot latest"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-version">
+                                <span>Versione 2.0 — Major Architecture &amp; AI Upgrade</span>
+                                <span class="version-badge">Versione Attuale</span>
+                            </div>
+                            <div class="timeline-date">29 Settembre 2026</div>
+                        </div>
+                        <p style="color: var(--text-muted); font-size: 0.92rem;">
+                            Rilascio della nuova architettura potenziata con modello Gemini 2.0 Flash, comparatore visivo e classificazione a due livelli delle modifiche:
+                        </p>
+                        <ul class="feature-list">
+                            <li>
+                                <span>🧠</span>
+                                <div><strong>Integrazione Gemini 2.0 Flash:</strong> adozione del nuovo modello di punta con temperatura 0.1, prompt arricchito di contesto (righe prima e dopo) e guardrail anti-allucinazione.</div>
+                            </li>
+                            <li>
+                                <span>⚖️</span>
+                                <div><strong>Comparatore Visivo Prima/Dopo:</strong> introdotte 3 schede nel modale di dettaglio per ispezionare il diff contestuale, lo stato precedente e lo stato successivo della pagina.</div>
+                            </li>
+                            <li>
+                                <span>🏷️</span>
+                                <div><strong>Classificazione Major vs Minor:</strong> algoritmo euristico che distingue le modifiche di layout/breadcrumb (minori) dai veri atti normativi o chiarimenti FAQ (sostanziali).</div>
+                            </li>
+                            <li>
+                                <span>🔔</span>
+                                <div><strong>Filtro "Solo Sostanziali" sul Portale:</strong> pulsante di filtro istantaneo per consultare solo gli aggiornamenti di reale impatto per gli adempimenti NIS2.</div>
+                            </li>
+                            <li>
+                                <span>📱</span>
+                                <div><strong>Pulsante Inline su Telegram:</strong> ogni notifica del bot include ora il pulsante interattivo <em>"⚖️ Vai al portale Monitor ACN NIS2"</em> per aprire direttamente la dashboard.</div>
+                            </li>
+                            <li>
+                                <span>🔕</span>
+                                <div><strong>Notifiche Telegram Silenziose per Modifiche Tecniche:</strong> invio discreto senza allarme acustico quando l'aggiornamento è puramente di layout o navigazione.</div>
+                            </li>
+                            <li>
+                                <span>📖</span>
+                                <div><strong>Nuova Pagina "Come Funziona &amp; Novità":</strong> hub permanente di documentazione tecnica e changelog trasparente per tutti gli utenti.</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Version 1.2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-version">
+                                <span>Versione 1.2 — Tracciamento PDF &amp; Sintesi AI</span>
+                            </div>
+                            <div class="timeline-date">Maggio 2026</div>
+                        </div>
+                        <ul class="feature-list">
+                            <li>
+                                <span>📄</span>
+                                <div><strong>Ispezione Testuale dei PDF:</strong> integrazione della libreria PyPDF2 per leggere e tracciare le modifiche direttamente dentro i documenti PDF allegati alle determine ACN.</div>
+                            </li>
+                            <li>
+                                <span>🤖</span>
+                                <div><strong>Introduzione Riassunti AI:</strong> prima pipeline per la generazione di pillole informative concise sui documenti pubblicati.</div>
+                            </li>
+                            <li>
+                                <span>📂</span>
+                                <div><strong>Archiviazione Storica JSON:</strong> salvataggio permanente della cronologia delle modifiche in file dedicati per risorsa nella cartella <code>archive/</code>.</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Version 1.0 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-version">
+                                <span>Versione 1.0 — Lancio della Piattaforma</span>
+                            </div>
+                            <div class="timeline-date">Aprile 2026</div>
+                        </div>
+                        <ul class="feature-list">
+                            <li>
+                                <span>🎯</span>
+                                <div><strong>Monitoraggio Continuo ACN:</strong> avvio del tracciamento automatico di Atti Generali, Linee Guida e FAQ NIS2 tramite GitHub Actions ogni 5 minuti.</div>
+                            </li>
+                            <li>
+                                <span>📢</span>
+                                <div><strong>Canale Telegram Ufficiale:</strong> attivazione del canale broadcast per ricevere notifiche istantanee all'avvenuta rilevazione di variazioni.</div>
+                            </li>
+                            <li>
+                                <span>💻</span>
+                                <div><strong>Dashboard Web su GitHub Pages:</strong> interfaccia statica ad alte prestazioni per consultare lo stato in tempo reale di tutte le risorse.</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Guida agli Stati -->
+        <section id="guida-stati" class="content-section">
+            <div class="section-header">
+                <span class="tag">Interfaccia</span>
+                <h3>Guida agli Stati delle Risorse</h3>
+            </div>
+
+            <div class="legend-grid">
+                <div class="legend-card">
+                    <div class="legend-indicator" style="background: var(--success); box-shadow: 0 0 10px var(--success);"></div>
+                    <div>
+                        <div style="font-size: 0.92rem; font-weight: 700; color: var(--text);">Aggiornato (Nessuna novità recente)</div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">La pagina è stata scansionata e non presenta variazioni negli ultimi 15 giorni.</div>
+                    </div>
+                </div>
+
+                <div class="legend-card">
+                    <div class="legend-indicator" style="background: var(--warning); box-shadow: 0 0 10px var(--warning);"></div>
+                    <div>
+                        <div style="font-size: 0.92rem; font-weight: 700; color: var(--text);">Modificato (Sostanziale)</div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">Rilevata una novità normativa, chiarimento FAQ, scadenza o determina rilevante.</div>
+                    </div>
+                </div>
+
+                <div class="legend-card">
+                    <div class="legend-indicator" style="background: #94a3b8; box-shadow: 0 0 8px rgba(148, 163, 184, 0.5);"></div>
+                    <div>
+                        <div style="font-size: 0.92rem; font-weight: 700; color: var(--text);">Modificato (Minore / Layout)</div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">Aggiornamento tecnico o cosmetico (breadcrumb, percorsi, menu di navigazione).</div>
+                    </div>
+                </div>
+
+                <div class="legend-card">
+                    <div class="legend-indicator" style="background: var(--new); box-shadow: 0 0 10px var(--new);"></div>
+                    <div>
+                        <div style="font-size: 0.92rem; font-weight: 700; color: var(--text);">Nuova Risorsa Aggiunta</div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">Individuata una nuova sottopagina o un nuovo documento mai censito in precedenza.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-links">
+                <a href="index.html">
+                    <span>🏠</span> Dashboard
+                </a>
+                <a href="https://t.me/monitor_acn_nis2" target="_blank">
+                    <svg height="18" width="18" viewBox="0 0 24 24" fill="currentColor" style="color: #38bdf8;">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.98 1.25-5.59 3.69-.53.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.35-.49.97-.74 3.79-1.65 6.32-2.73 7.57-3.25 3.59-1.48 4.34-1.74 4.83-1.75.11 0 .35.03.5.16.13.1.17.25.18.35-.01.07 0 .2-.02.26z"/>
+                    </svg>
+                    Telegram
+                </a>
+                <a href="https://github.com/FRASCOH/monitor-acn-nis2" target="_blank">
+                    <svg height="18" width="18" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/lorenzo-frasconi/" target="_blank">
+                    <svg height="18" width="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                    LinkedIn
+                </a>
+                <a href="https://paypal.me/frascohpay" target="_blank">
+                    <svg height="18" width="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.067 8.478c.492.298.837.762.99 1.341.258.983-.024 2.16-.767 3.19-.785 1.085-1.996 1.83-3.327 2.1l-.813.165-.417 2.658-.337 2.155-.078.497c-.015.093-.075.171-.157.208-.061.028-.128.033-.193.016L11 20.308l-3.315-.658-1.579-.313.178-1.135 1.157-7.39.006-.038a.333.333 0 0 1 .157-.208.337.337 0 0 1 .193-.016l1.314.261-.263 1.68 5.753 1.14c1.077.214 2.062-.162 2.637-.954.524-.722.569-1.564.385-2.268a2.53 2.53 0 0 0-.64-1.127 1.82 1.82 0 0 0-1.25-.459L11.5 8.783V6.98l4.22.836c1.686.334 3.327.334 4.347.662zM15.82 1.692l-.128.815c1.472.292 2.923.637 3.82.915.65.2.82.52.88 1.05.07.64-.17 1.45-.66 2.12-.51.7-1.37.95-2.4.74l-3.83-.76c-.08-.01-.15.02-.19.08l-.89 5.67-1.16.23-.27-1.74a.33.33 0 0 0-.25-.27L6.68 9.9c-.19-.04-.32-.23-.29-.42l1.19-7.57c.03-.2.22-.33.42-.29l5.88 1.17c1.1.22 1.68.53 1.94.9z" />
+                    </svg>
+                    PayPal
+                </a>
+            </div>
+            <p style="font-size: 0.82rem; margin-bottom: 0.5rem;">Sviluppato con passione per la Cybersecurity Italiana</p>
+            <p style="font-size: 0.75rem; opacity: 0.6;">&copy; 2026 Lorenzo Frasconi. Servizio informativo indipendente non ufficiale.</p>
+        </footer>
+    </div>
+</body>
+</html>
