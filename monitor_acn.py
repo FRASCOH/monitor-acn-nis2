@@ -281,7 +281,10 @@ def load_state(paths):
         "last_check": None,
         "last_change_date": None,
         "last_additions": [],
-        "last_removals": []
+        "last_removals": [],
+        "ai_summary": "",
+        "is_minor": False,
+        "diff_blocks": []
     }
     
     if os.path.exists(paths["hash"]):
@@ -294,6 +297,8 @@ def load_state(paths):
                 state["last_additions"] = data.get('last_additions', [])
                 state["last_removals"] = data.get('last_removals', [])
                 state["ai_summary"] = data.get('ai_summary', "")
+                state["is_minor"] = data.get('is_minor', False)
+                state["diff_blocks"] = data.get('diff_blocks', [])
         except: pass
         
     if os.path.exists(paths["content"]):
@@ -304,7 +309,7 @@ def load_state(paths):
         
     return state
 
-def append_to_history(page_id, name, url, additions, removals, ai_summary=""):
+def append_to_history(page_id, name, url, additions, removals, ai_summary="", is_minor=False, diff_blocks=None):
     """Aggiunge una nuova voce allo storico delle modifiche mantenendo solo gli ultimi 90 giorni"""
     archive_dir = "archive"
     if not os.path.exists(archive_dir):
@@ -324,10 +329,13 @@ def append_to_history(page_id, name, url, additions, removals, ai_summary=""):
         "timestamp": now.isoformat(),
         "date_formatted": now.strftime('%d/%m/%Y %H:%M'),
         "additions": additions,
-        "removals": removals
+        "removals": removals,
+        "is_minor": is_minor
     }
     if ai_summary:
         entry["ai_summary"] = ai_summary
+    if diff_blocks:
+        entry["diff_blocks"] = diff_blocks
     
     history.insert(0, entry) # Inserisci in cima (più recente prima)
     
@@ -345,9 +353,8 @@ def append_to_history(page_id, name, url, additions, removals, ai_summary=""):
     with open(history_file, 'w', encoding='utf-8') as f:
         json.dump(filtered_history, f, indent=2)
 
-def save_state(paths, content_hash, content, last_change_date=None, additions=None, removals=None, ai_summary=None):
+def save_state(paths, content_hash, content, last_change_date=None, additions=None, removals=None, ai_summary=None, is_minor=None, diff_blocks=None):
     """Salva hash, contenuto e metadati modifica"""
-    # Carichiamo lo stato esistente per non perdere i dati se non stiamo salvando una nuova modifica
     existing_state = load_state(paths)
     
     state_data = {
@@ -356,7 +363,9 @@ def save_state(paths, content_hash, content, last_change_date=None, additions=No
         'last_change_date': last_change_date or existing_state.get('last_change_date'),
         'last_additions': additions if additions is not None else existing_state.get('last_additions', []),
         'last_removals': removals if removals is not None else existing_state.get('last_removals', []),
-        'ai_summary': ai_summary if ai_summary is not None else existing_state.get('ai_summary', "")
+        'ai_summary': ai_summary if ai_summary is not None else existing_state.get('ai_summary', ""),
+        'is_minor': is_minor if is_minor is not None else existing_state.get('is_minor', False),
+        'diff_blocks': diff_blocks if diff_blocks is not None else existing_state.get('diff_blocks', [])
     }
     
     with open(paths["hash"], 'w') as f:
@@ -364,6 +373,110 @@ def save_state(paths, content_hash, content, last_change_date=None, additions=No
     
     with open(paths["content"], 'w', encoding='utf-8') as f:
         f.write(content)
+
+def generate_context_diff(old_content, new_content, context_lines=3):
+    """Genera blocchi contestuali di differenza (Prima vs Dopo) con righe adiacenti per capire dove avviene la modifica"""
+    if not old_content or not new_content:
+        return []
+        
+    old_l = [l.strip() for l in old_content.split('\n') if l.strip()]
+    new_l = [l.strip() for l in new_content.split('\n') if l.strip()]
+    
+    matcher = difflib.SequenceMatcher(None, old_l, new_l)
+    diff_blocks = []
+    
+    for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+        if tag == 'equal':
+            continue
+        
+        ctx_before = old_l[max(0, i1 - context_lines):i1]
+        ctx_after = old_l[i2:min(len(old_l), i2 + context_lines)]
+        
+        before_text = old_l[i1:i2]
+        after_text = new_l[j1:j2]
+        
+        diff_blocks.append({
+            "type": tag,
+            "context_pre": ctx_before,
+            "before": before_text,
+            "after": after_text,
+            "context_post": ctx_after
+        })
+        
+        if len(diff_blocks) >= 20:
+            break
+            
+    return diff_blocks
+
+def classify_change(name, additions, removals):
+    """
+    Determina se una modifica è 'minor' (cosmetica, breadcrumb, navigazione o template diffuso)
+    oppure 'major' (nuovi atti, vademecum, decreti, modifiche sostanziali a testi normativi o FAQ).
+    """
+    clean_adds = [re.sub(r'^\[HEADER\]\s*|^\[FOOTER\]\s*|^\[NUOVA RISORSA\]\s*', '', a).strip() for a in additions if a.strip()]
+    clean_rems = [re.sub(r'^\[HEADER\]\s*|^\[FOOTER\]\s*', '', r).strip() for r in removals if r.strip()]
+    
+    if not clean_adds and not clean_rems:
+        return {"is_minor": True, "category": "empty", "reason": "Nessuna variazione sostanziale"}
+    
+    all_text = " ".join(clean_adds + clean_rems).lower()
+    
+    # Termini prioritari normativi/operativi
+    major_keywords = [
+        "decreto", "determina", "circolare", "regolamento", "direttiva",
+        "linee guida", "linea guida", "vademecum", "avviso", "nomina",
+        "sanzion", "proroga", "scadenza", "adempimento", "obbligo", "obblighi",
+        "notifica", "incidente", "incidenti", "requisiti", "tassonomia",
+        "allegato", "modello", "modulo", "disciplina", "attuazione",
+        "csirt", "punti di contatto", "piattaforma nis"
+    ]
+    
+    for kw in major_keywords:
+        if kw in all_text and any(len(x) > 15 and kw in x.lower() for x in (clean_adds + clean_rems)):
+            return {"is_minor": False, "category": "normativa", "reason": f"Rilevato termine chiave: {kw}"}
+            
+    # Pattern breadcrumb e navigazione
+    nav_patterns = [
+        "ti trovi in", "breadcrumb", "torna a", "torna su", "torna indietro",
+        "salta al contenuto", "skip to main content", "menu principale",
+        "collegamenti veloci", "condividi", "stampa", "pagina precedente"
+    ]
+    
+    # Se le aggiunte contengono breadcrumb
+    if any(any(np in a.lower() for np in nav_patterns) for a in clean_adds):
+        if all(len(a) < 40 or any(np in a.lower() for np in nav_patterns) for a in clean_adds):
+            return {"is_minor": True, "category": "navigation", "reason": "Modifica al percorso di navigazione o breadcrumb"}
+            
+    # Se tutte le modifiche corrispondono a navigazione o intestazioni brevi
+    is_all_nav = True
+    nav_terms = ["home", "domande frequenti", "nis", "amministrazione trasparente", "disposizioni generali", "atti generali"]
+    for item in clean_adds + clean_rems:
+        lower_item = item.lower()
+        if not any(np in lower_item for np in nav_patterns) and lower_item not in nav_terms:
+            is_all_nav = False
+            break
+            
+    if is_all_nav:
+        return {"is_minor": True, "category": "navigation", "reason": "Modifica navigazione/breadcrumb"}
+        
+    # Header e Footer
+    if all(a.startswith("[HEADER]") or a.startswith("[FOOTER]") for a in additions if a.strip()) and \
+       all(r.startswith("[HEADER]") or r.startswith("[FOOTER]") for r in removals if r.strip()):
+        return {"is_minor": True, "category": "layout", "reason": "Modifica intestazione o piè di pagina globale"}
+        
+    # Variazioni minime di testo/formattazione (< 25 caratteri totali)
+    total_len = sum(len(a) for a in clean_adds) + sum(len(r) for r in clean_rems)
+    if total_len < 25 and not any(kw in all_text for kw in ["art.", "comma", "faq", "nis", "acn"]):
+        return {"is_minor": True, "category": "cosmetic", "reason": "Variazione minima"}
+        
+    # Se è una FAQ: se non ha testo consistente (> 45 caratteri o '?'), è layout
+    if "faq" in name.lower():
+        if any(len(a) > 45 or "?" in a for a in clean_adds):
+            return {"is_minor": False, "category": "faq", "reason": "Nuova domanda o chiarimento FAQ"}
+        else:
+            return {"is_minor": True, "category": "layout", "reason": "Piccolo ritocco strutturale FAQ"}
+
+    return {"is_minor": False, "category": "contenuto", "reason": "Aggiornamento contenuti"}
 
 def generate_detailed_diff(old_content, new_content):
     """Genera un diff dettagliato tra vecchio e nuovo contenuto"""
@@ -515,6 +628,11 @@ def generate_heuristic_summary(name, additions, removals):
             return f"Pubblicato nuovo documento: '{clean_name}'."
         return f"Inserita nuova sezione sul portale: '{name}'."
 
+    # Riconoscimento prioritario modifiche di navigazione / breadcrumb ("Ti trovi in", ecc.)
+    nav_matches = [a for a in clean_adds if a.lower() in ["ti trovi in", "breadcrumb", "salta al contenuto", "skip to main content"]]
+    if nav_matches:
+        return f"Aggiornamento di navigazione: aggiunta voce '{nav_matches[0]}' nel percorso breadcrumb."
+
     # Riconoscimento prioritario per Vademecum (es. Home e Registrazione)
     if any("vademecum" in a.lower() for a in clean_adds):
         if "registrazione" in name.lower():
@@ -544,14 +662,21 @@ def generate_heuristic_summary(name, additions, removals):
                 trimmed = add if len(add) <= 120 else add[:117] + "..."
                 return f"{prefix}: \"{trimmed}\"."
                 
-    # Se ci sono FAQ
+    # Se ci sono FAQ: verifichiamo che siano EFFETTIVAMENTE modifiche a domande/risposte
     if "faq" in name.lower():
-        faq_matches = [a for a in clean_adds if re.search(r'([A-Z]{2,4}\.\d+|\bfaq\b|\bdomanda\b)', a, re.I)]
+        faq_matches = [a for a in clean_adds if re.search(r'([A-Z]{2,4}\.\d+|\bfaq\b|\bdomanda\b|\?)', a, re.I)]
         if faq_matches:
             sample = faq_matches[0][:90]
             return f"Aggiornate le FAQ con chiarimenti su: \"{sample}\"."
+        
+        # Se le aggiunte sono solo frammenti corti di navigazione/struttura
+        if clean_adds and all(len(a) < 30 for a in clean_adds):
+            sample = ", ".join(f"'{a}'" for a in clean_adds[:2])
+            return f"Piccola modifica strutturale/testuale nella sezione FAQ ({sample})."
+            
         clean_faq_name = name.replace("FAQ NIS (Parent)", "NIS").replace("FAQ NIS:", "").replace("FAQ NIS", "").strip()
-        return f"Aggiornate le risposte e i chiarimenti nella sezione FAQ {clean_faq_name}."
+        if clean_adds:
+            return f"Aggiornati i testi informativi nella sezione FAQ {clean_faq_name}."
 
     # Se ci sono solo rimozioni
     if not clean_adds and clean_rems:
@@ -564,12 +689,12 @@ def generate_heuristic_summary(name, additions, removals):
         if candidates:
             sample = candidates[0] if len(candidates[0]) <= 110 else candidates[0][:107] + "..."
             return f"Aggiornati i contenuti con novità relative a: \"{sample}\"."
-        return f"Aggiornati i contenuti informativi della sezione {name}."
+        return f"Aggiornati i contenuti informativi della sezione {name} (aggiunto: '{clean_adds[0]}')."
 
     return "Aggiornamento dei contenuti sul portale."
 
 def send_telegram_notification(results_with_changes, ai_summary):
-    """Invia notifica su Telegram con il riepilogo concettuale delle modifiche"""
+    """Invia notifica su Telegram con il riepilogo concettuale delle modifiche distinguendo tra major e minor"""
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
     
@@ -577,62 +702,90 @@ def send_telegram_notification(results_with_changes, ai_summary):
         print("Telegram bot token o chat ID non configurati, salto notifica Telegram.")
         return
         
-    emoji_bell = "🔔"
+    major_results = [r for r in results_with_changes if not r.get("is_minor")]
+    minor_results = [r for r in results_with_changes if r.get("is_minor")]
     now_str = get_now().strftime('%d/%m/%Y %H:%M')
     
-    count = len(results_with_changes)
-    res_str = "risorsa" if count == 1 else "risorse"
-    
-    header = f"{emoji_bell} <b>Cyber Monitor ACN & NIS2</b>\n"
-    header += f"<i>Aggiornamento del {now_str}</i>\n\n"
-    header += f"Rilevate novità in <b>{count}</b> {res_str}.\n\n"
-    
-    if ai_summary:
-        header += f"📌 <b>Riepilogo Novità:</b>\n"
-        header += f"{to_telegram_html(ai_summary.strip())}\n\n"
-        
-    details = f"📋 <b>Dettaglio Aggiornamenti:</b>\n\n"
-    
-    for i, r in enumerate(results_with_changes):
-        if len(header) + len(details) > 3700:
-            details += f"• <i>...e altre risorse (visualizza la dashboard online per i dettagli)</i>\n"
-            break
-            
-        name = to_telegram_html(r.get("name", "Risorsa"))
-        url = r.get("url", "")
-        status = r.get("status", "Modificato")
-        is_new = (status == "Nuova risorsa aggiunta")
-        
-        # Sintesi concettuale (preferisci ai_summary, fallback su euristica)
-        page_summary = (r.get("ai_summary") or "").strip()
-        if not page_summary:
-            page_summary = generate_heuristic_summary(r.get("name", ""), r.get("additions", []), r.get("removals", []))
-            
-        link_str = f' (<a href="{url}">Apri</a>)' if url else ""
-        
-        icon = "🆕" if is_new else "•"
-        item = f"{icon} <b>{name}</b>{link_str}\n"
-        
-        if page_summary:
-            item += f"  💡 <b>Cosa cambia:</b> <i>{to_telegram_html(page_summary)}</i>\n\n"
+    # CASO 1: SOLO MODIFICHE MINORI (Aggiornamento Tecnico / Layout non allarmante)
+    if not major_results and minor_results:
+        header = f"ℹ️ <b>Cyber Monitor ACN & NIS2 — Aggiornamento Tecnico</b>\n"
+        header += f"<i>Rilevato il {now_str}</i>\n\n"
+        header += f"🛠️ <b>Tipo:</b> Modifica minore di layout / navigazione in <b>{len(minor_results)}</b> sezioni (nessun nuovo atto o variazione normativa).\n\n"
+        if ai_summary:
+            header += f"💡 <b>Cosa cambia:</b> {to_telegram_html(ai_summary)}\n\n"
         else:
-            item += f"  <i>Stato: {to_telegram_html(status)}</i>\n\n"
+            first_sum = minor_results[0].get("ai_summary") or generate_heuristic_summary(minor_results[0].get("name", ""), minor_results[0].get("additions", []), minor_results[0].get("removals", []))
+            header += f"💡 <b>Cosa cambia:</b> {to_telegram_html(first_sum)}\n\n"
+        
+        details = "📋 <b>Pagine interessate:</b>\n"
+        for r in minor_results[:8]:
+            details += f"• {to_telegram_html(r.get('name'))}\n"
+        if len(minor_results) > 8:
+            details += f"• <i>...e altre {len(minor_results) - 8} pagine</i>\n"
+        details += "\n"
+        
+        dashboard_footer = "🌐 <a href=\"https://frascoh.github.io/monitor-acn-nis2/\">Visualizza dettagli sulla Dashboard Online</a>"
+        full_message = header + details + dashboard_footer
+        
+        payload = {
+            "chat_id": chat_id,
+            "text": full_message,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": True,
+            "disable_notification": True # Silenzioso su Telegram per le sole modifiche minori
+        }
+    else:
+        # CASO 2: MODIFICHE SOSTANZIALI (MAJOR)
+        count = len(major_results)
+        res_str = "risorsa" if count == 1 else "risorse"
+        
+        header = f"🔔 <b>Cyber Monitor ACN & NIS2 — Novità Normative</b>\n"
+        header += f"<i>Aggiornamento del {now_str}</i>\n\n"
+        header += f"Rilevate novità in <b>{count}</b> {res_str}.\n\n"
+        
+        if ai_summary:
+            header += f"📌 <b>Riepilogo Novità:</b>\n"
+            header += f"{to_telegram_html(ai_summary.strip())}\n\n"
             
-        if len(header) + len(details) + len(item) > 3850:
-            details += f"• <i>...e altre {len(results_with_changes) - i} risorse</i>\n"
-            break
-        else:
+        details = f"📋 <b>Dettaglio Aggiornamenti:</b>\n\n"
+        
+        for i, r in enumerate(major_results):
+            if len(header) + len(details) > 3500:
+                details += f"• <i>...e altre risorse (visualizza la dashboard online per i dettagli)</i>\n"
+                break
+                
+            name = to_telegram_html(r.get("name", "Risorsa"))
+            url = r.get("url", "")
+            status = r.get("status", "Modificato")
+            is_new = (status == "Nuova risorsa aggiunta")
+            
+            page_summary = (r.get("ai_summary") or "").strip()
+            if not page_summary:
+                page_summary = generate_heuristic_summary(r.get("name", ""), r.get("additions", []), r.get("removals", []))
+                
+            link_str = f' (<a href="{url}">Apri</a>)' if url else ""
+            icon = "🆕" if is_new else "•"
+            item = f"{icon} <b>{name}</b>{link_str}\n"
+            
+            if page_summary:
+                item += f"  💡 <b>Cosa cambia:</b> <i>{to_telegram_html(page_summary)}</i>\n\n"
+            else:
+                item += f"  <i>Stato: {to_telegram_html(status)}</i>\n\n"
+                
             details += item
             
-    dashboard_footer = "🌐 <a href=\"https://frascoh.github.io/monitor-acn-nis2/\">Apri la Dashboard Online</a>"
-    full_message = header + details + dashboard_footer
-    
-    payload = {
-        "chat_id": chat_id,
-        "text": full_message,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": True
-    }
+        if minor_results:
+            details += f"ℹ️ <i>Rilevati anche aggiornamenti minori di layout in altre {len(minor_results)} sezioni.</i>\n\n"
+            
+        dashboard_footer = "🌐 <a href=\"https://frascoh.github.io/monitor-acn-nis2/\">Apri la Dashboard Online</a>"
+        full_message = header + details + dashboard_footer
+        
+        payload = {
+            "chat_id": chat_id,
+            "text": full_message,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": True
+        }
     
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     try:
@@ -642,98 +795,199 @@ def send_telegram_notification(results_with_changes, ai_summary):
     except Exception as e:
         print(f"Errore durante l'invio della notifica Telegram: {e}")
 
-def get_page_ai_summary(name, additions, removals):
-    """Genera una frase riassuntiva concettuale di cosa è cambiato usando Gemini AI (con fallback euristico)"""
-    fallback = generate_heuristic_summary(name, additions, removals)
-    
+def call_gemini_with_fallback(prompt, system_instruction=None, max_output_tokens=150, temperature=0.1):
+    """
+    Esegue una chiamata all'API Gemini provando prioritariamente 'gemini-2.0-flash',
+    con fallback su 'gemini-1.5-flash' e infine 'gemini-1.5-pro'.
+    """
     api_key = os.environ.get("GEMINI_API_KEY")
     if not genai or not api_key:
-        return fallback
-    
-    clean_adds = [re.sub(r'^\[HEADER\]\s*|^\[FOOTER\]\s*|^\[NUOVA RISORSA\]\s*', '', a).strip() for a in additions if a.strip()]
-    clean_rems = [re.sub(r'^\[HEADER\]\s*|^\[FOOTER\]\s*', '', r).strip() for r in removals if r.strip()]
-    
-    adds_text = "\n".join(f"+ {a}" for a in clean_adds[:15]) if clean_adds else "(nessuna aggiunta)"
-    rems_text = "\n".join(f"- {r}" for r in clean_rems[:15]) if clean_rems else "(nessuna rimozione)"
-    
-    prompt = f"""
-Sei un analista esperto di cybersecurity e normativa italiana (ACN e Direttiva NIS2).
-Analizza le seguenti variazioni rilevate nella risorsa "{name}" del portale dell'Agenzia per la Cybersicurezza Nazionale (ACN).
-Genera UNA SOLA FRASE RIASSUNTIVA E INCISIVA (massimo 20-25 parole) che spieghi chiaramente a livello concettuale cosa è stato inserito o modificato sul portale.
-
-REGOLE RIGIDE:
-1. Spiega il CONCETTO della novità (es. "Aggiunto vademecum operativo per la notifica degli incidenti NIS2", "Aggiornata la sezione FAQ sui termini di registrazione", "Pubblicato il Decreto Direttoriale n. 33508 sulle nomine").
-2. NON citare MAI righe, diff, numeri di righe modificate o aspetti tecnici dello scraping.
-3. Rispondi in lingua italiana, tono chiaro, conciso e professionale.
-4. Restituisci ESCLUSIVAMENTE la singola frase riassuntiva, senza virgolette né preamboli o saluti.
-
-VARIAZIONI RILEVATE:
-{adds_text}
-
-{rems_text}
-"""
+        return None
+        
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash')
-        response = model.generate_content(prompt)
-        text = response.text.replace("\n", " ").strip()
-        if (text.startswith('"') and text.endswith('"')) or (text.startswith("'") and text.endswith("'")):
-            text = text[1:-1].strip()
-        if text:
-            return text
     except Exception as e:
-        print(f"Errore generazione summary AI per {name} ({e}), uso fallback euristico.")
+        print(f"Errore configurazione Gemini API: {e}")
+        return None
         
+    candidate_models = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"]
+    generation_config = {
+        "temperature": temperature,
+        "top_p": 0.95,
+        "max_output_tokens": max_output_tokens
+    }
+    
+    for model_name in candidate_models:
+        try:
+            model_kwargs = {"generation_config": generation_config}
+            if system_instruction:
+                try:
+                    model = genai.GenerativeModel(model_name, system_instruction=system_instruction, **model_kwargs)
+                except TypeError:
+                    # Se la versione dell'SDK installata non supporta system_instruction
+                    model = genai.GenerativeModel(model_name, **model_kwargs)
+            else:
+                model = genai.GenerativeModel(model_name, **model_kwargs)
+                
+            response = model.generate_content(prompt)
+            if response and response.text:
+                text = response.text.strip()
+                if text:
+                    print(f"Risposta AI generata con successo ({model_name})")
+                    return text
+        except Exception as e:
+            print(f"Tentativo AI con modello {model_name} non riuscito ({e}), valuto fallback...")
+            continue
+            
+    return None
+
+def format_context_diff_for_prompt(diff_blocks, additions, removals, max_blocks=6):
+    """Formatta i blocchi di diff contestuali in modo chiaro e strutturato per l'LLM"""
+    def to_str_lines(val):
+        if isinstance(val, list):
+            return "\n".join(str(v).strip() for v in val if str(v).strip())
+        return str(val).strip() if val else ""
+
+    lines = []
+    if diff_blocks:
+        for idx, block in enumerate(diff_blocks[:max_blocks], 1):
+            ctx_pre = to_str_lines(block.get("context_pre"))
+            bef = to_str_lines(block.get("before"))
+            aft = to_str_lines(block.get("after"))
+            ctx_post = to_str_lines(block.get("context_post"))
+            
+            lines.append(f"--- Modifica #{idx} ({block.get('type', 'variazione')}) ---")
+            if ctx_pre:
+                lines.append(f"[CONTESTO PRECEDENTE]:\n{ctx_pre}")
+            if bef:
+                lines.append(f"[TESTO RIMOSSO (-)]:\n{bef}")
+            if aft:
+                lines.append(f"[NUOVO TESTO AGGIUNTO (+)]:\n{aft}")
+            if ctx_post:
+                lines.append(f"[CONTESTO SUCCESSIVO]:\n{ctx_post}")
+            lines.append("")
+    else:
+        clean_adds = [re.sub(r'^\[HEADER\]\s*|^\[FOOTER\]\s*|^\[NUOVA RISORSA\]\s*', '', a).strip() for a in additions if a.strip()]
+        clean_rems = [re.sub(r'^\[HEADER\]\s*|^\[FOOTER\]\s*', '', r).strip() for r in removals if r.strip()]
+        if clean_rems:
+            lines.append("[TESTO RIMOSSO (-)]:")
+            for r in clean_rems[:10]:
+                lines.append(f"- {r}")
+        if clean_adds:
+            lines.append("[TESTO AGGIUNTO (+)]:")
+            for a in clean_adds[:10]:
+                lines.append(f"+ {a}")
+    return "\n".join(lines).strip()
+
+def get_page_ai_summary(name, additions, removals, diff_blocks=None, url=None):
+    """Genera una frase riassuntiva concettuale di cosa è cambiato usando Gemini 2.0 Flash (con fallback)"""
+    fallback = generate_heuristic_summary(name, additions, removals)
+    
+    heuristic_class = classify_change(name, additions, removals)
+    is_minor_heuristic = heuristic_class.get("is_minor", False)
+    
+    diff_context_str = format_context_diff_for_prompt(diff_blocks, additions, removals)
+    if not diff_context_str:
+        return fallback
+
+    system_instruction = (
+        "Sei un assistente di audit istituzionale per il monitoraggio del portale dell'Agenzia per la Cybersicurezza Nazionale (ACN) e della Direttiva NIS2. "
+        "Il tuo unico compito è descrivere con rigore assoluto e precisione chirurgica le modifiche testuali effettuate, evitando qualsiasi allucinazione."
+    )
+
+    prompt = f"""Analizza le modifiche testuali rilevate sul portale ACN nella risorsa:
+- Nome risorsa: "{name}"
+{f'- URL: {url}' if url else ''}
+- Classificazione preliminare: {'Modifica secondaria di layout/navigazione' if is_minor_heuristic else 'Possibile variazione di contenuto'}
+
+DIFF CONTESTUALE RILEVATO (con contesto prima, testo modificato e contesto dopo):
+{diff_context_str}
+
+REGOLE TASSATIVE (ANTI-ALLUCINAZIONE):
+1. MASSIMA ADERENZA: Descrivi SOLO ed ESCLUSIVAMENTE ciò che compare nelle righe aggiunte (+) o rimosse (-).
+2. DISTINZIONE LAYOUT vs CONTENUTO:
+   - Se le variazioni riguardano percorsi di navigazione, breadcrumb (es. "Ti trovi in", "Home > ..."), menu, footer, cookie o impaginazione grafica, scrivi ESPLICITAMENTE che si tratta di una modifica di navigazione o layout.
+   - NON inventare MAI che sono state aggiornate "FAQ", "chiarimenti", "decreti" o "normative" se il testo delle risposte FAQ o delle leggi NON compare tra le righe aggiunte/rimosse!
+3. SE CI SONO DOCUMENTI O ATTI NORMATIVI:
+   - Cita il nome esatto o l'oggetto del provvedimento/decreto/vademecum aggiunto o rimosso.
+4. LUNGHEZZA E FORMATO:
+   - Genera ESATTAMENTE UNA SOLA FRASE (massimo 20-25 parole).
+   - Nessun commento introduttivo, nessuna spiegazione preliminare, nessuna virgoletta. Solo la frase pura in italiano.
+
+ESEMPI GUIDA:
+- Diff: [NUOVO TESTO AGGIUNTO (+)]: Ti trovi in
+  -> Risposta: Aggiunta l'indicazione di percorso "Ti trovi in" nel breadcrumb di navigazione.
+- Diff: [TESTO RIMOSSO (-)]: 10/01/2025  [NUOVO TESTO AGGIUNTO (+)]: 28/09/2025
+  -> Risposta: Aggiornata la data di pubblicazione o revisione della pagina.
+- Diff: [NUOVO TESTO AGGIUNTO (+)]: Determina del Direttore Generale n. 456 recante le linee guida
+  -> Risposta: Pubblicata la nuova Determina n. 456 recante le linee guida operative.
+- Diff: [TESTO RIMOSSO (-)]: La scadenza è fissata al 31 dicembre [NUOVO TESTO AGGIUNTO (+)]: La scadenza è prorogata al 28 febbraio
+  -> Risposta: Prorogata al 28 febbraio la scadenza per gli adempimenti previsti.
+
+Frase riassuntiva:"""
+
+    ai_text = call_gemini_with_fallback(prompt, system_instruction=system_instruction, max_output_tokens=100, temperature=0.1)
+    if ai_text:
+        ai_text = ai_text.replace("\n", " ").strip()
+        if (ai_text.startswith('"') and ai_text.endswith('"')) or (ai_text.startswith("'") and ai_text.endswith("'")):
+            ai_text = ai_text[1:-1].strip()
+        if ai_text:
+            return ai_text
+            
     return fallback
 
 def get_ai_summary(results_with_changes):
-    """Genera un riassunto concettuale complessivo delle novità della sessione"""
+    """Genera un riassunto concettuale complessivo delle novità della sessione distinguendo major e minor"""
     if not results_with_changes:
         return None
         
+    major_results = [r for r in results_with_changes if not r.get("is_minor")]
+    minor_results = [r for r in results_with_changes if r.get("is_minor")]
+    
+    # Se ci sono solo modifiche minor
+    if not major_results and minor_results:
+        sample_sum = minor_results[0].get("ai_summary") or generate_heuristic_summary(minor_results[0].get("name", ""), minor_results[0].get("additions", []), minor_results[0].get("removals", []))
+        if len(minor_results) > 1:
+            return f"Aggiornamento tecnico/strutturale sul portale: rilevate modifiche minori di navigazione o layout ({sample_sum}) in {len(minor_results)} sezioni del sito. Nessuna novità normativa sostanziale."
+        return f"Aggiornamento tecnico di navigazione/layout: {sample_sum}."
+        
+    # Se ci sono novità major
     page_summaries = []
-    for r in results_with_changes:
+    for r in major_results:
         p_summary = (r.get("ai_summary") or "").strip()
         if not p_summary:
             p_summary = generate_heuristic_summary(r.get("name", ""), r.get("additions", []), r.get("removals", []))
         page_summaries.append(f"• {r.get('name')}: {p_summary}")
+        
+    if minor_results:
+        page_summaries.append(f"• (Altre {len(minor_results)} risorse presentano solo modifiche minori di layout/navigazione)")
             
     fallback = "\n".join(page_summaries[:5])
     
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not genai or not api_key:
-        if len(page_summaries) == 1:
-            return page_summaries[0].split(": ", 1)[-1]
-        return fallback
+    context_items = "\n".join(page_summaries[:10])
+    
+    system_instruction = (
+        "Sei un analista senior di cybersecurity e normativa NIS2. "
+        "Sintetizza in modo fedele e asciutto gli aggiornamenti del portale ACN dando priorità assoluta agli atti normativi e distinguendo chiaramente le modifiche minori di layout."
+    )
+    
+    prompt = f"""Sintetizza in 2-3 frasi chiare, scorrevoli ed essenziali (massimo 50-60 parole) le seguenti novità sul sito dell'Agenzia per la Cybersicurezza Nazionale (ACN):
 
-    try:
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash')
-        
-        context_items = "\n".join(page_summaries[:10])
-        
-        prompt = f"""
-Sei un analista esperto di cybersecurity e normativa NIS2.
-Sintetizza in 2-3 frasi chiare, scorrevoli ed essenziali (massimo 50-60 parole) le seguenti novità appena pubblicate sul sito dell'Agenzia per la Cybersicurezza Nazionale (ACN).
-
-REGOLE:
-1. Spiega in modo discorsivo e concettuale cosa è cambiato o stato pubblicato (es. nuovi vademecum, decreti, faq).
-2. Usa il grassetto per evidenziare i concetti o documenti chiave.
-3. NON citare numeri di righe, diff o dettagli tecnici di scansione.
-4. Rispondi in italiano. Restituisci SOLO il testo della sintesi.
-
-AGGIORNAMENTI RILEVATI:
 {context_items}
+
+REGOLE RIGIDE:
+1. Dai priorità assoluta alle novità normative e operative (es. nuovi vademecum, decreti, faq sostanziali).
+2. Se sono presenti modifiche minori o tecniche di layout/navigazione, accennale solo brevemente come aggiornamento secondario o strutturale.
+3. NON inventare contenuti normativi non presenti nei dati.
+4. Usa il grassetto HTML (<b>...</b>) per evidenziare i concetti o documenti chiave.
+5. Rispondi in italiano. Restituisci SOLO il testo della sintesi senza preamboli.
 """
-        response = model.generate_content(prompt)
-        text = response.text.strip()
-        if text:
-            return text
-    except Exception as e:
-        print(f"Errore generazione riassunto globale AI ({e}), uso fallback.")
+    ai_text = call_gemini_with_fallback(prompt, system_instruction=system_instruction, max_output_tokens=150, temperature=0.1)
+    if ai_text:
+        return ai_text.strip()
         
-    if len(page_summaries) == 1:
-        return page_summaries[0].split(": ", 1)[-1]
+    if len(major_results) == 1 and not minor_results:
+        return major_results[0].get("ai_summary") or fallback
     return fallback
 
 def generate_summary_report(results_with_changes, ai_summary=None):
@@ -923,51 +1177,73 @@ def monitor_page(page_config):
         if current_hash != old_hash:
             print(f"⚠️ MODIFICHE RILEVATE per {name}!")
             additions, removals = generate_detailed_diff(old_text, current_text)
+            diff_blocks = generate_context_diff(old_text, current_text)
+            classification = classify_change(name, additions, removals)
+            is_minor = classification["is_minor"]
             
-            ai_summary = get_page_ai_summary(name, additions, removals)
+            # Salva la versione precedente per il confronto completo Prima/Dopo
+            try:
+                with open(f"page_prev_content_{page_id}.txt", "w", encoding="utf-8") as f:
+                    f.write(old_text)
+            except Exception as e:
+                print(f"Errore salvataggio testo precedente {page_id}: {e}")
+            
+            ai_summary = get_page_ai_summary(name, additions, removals, diff_blocks=diff_blocks, url=url)
             
             # Salva nello storico permanente
-            append_to_history(page_id, name, url, additions, removals, ai_summary)
+            append_to_history(page_id, name, url, additions, removals, ai_summary, is_minor=is_minor, diff_blocks=diff_blocks)
             result["has_history"] = True
             
             now_str = get_now().isoformat()
             result["has_changes"] = True
-            result["status"] = "Modificato"
+            result["is_minor"] = is_minor
+            result["status"] = "Modificato (Minore)" if is_minor else "Modificato"
             result["summary"] = ai_summary or f"+{len(additions)} aggiunte, -{len(removals)} rimozioni"
             result["additions"] = additions
             result["removals"] = removals
+            result["diff_blocks"] = diff_blocks
             result["ai_summary"] = ai_summary
             result["last_change_date"] = get_now().strftime('%d/%m/%Y %H:%M')
             
             # Non inviamo più l'email qui, salviamo solo lo stato
-            save_state(paths, current_hash, current_text, now_str, additions, removals, ai_summary)
+            save_state(paths, current_hash, current_text, now_str, additions, removals, ai_summary, is_minor=is_minor, diff_blocks=diff_blocks)
         else:
             print(f"✅ Nessuna modifica per {name}")
             if is_within_15_days:
                 result["has_changes"] = True
-                result["status"] = "Modificato (Recente)"
                 result["additions"] = old_state.get("last_additions", [])
                 result["removals"] = old_state.get("last_removals", [])
+                result["diff_blocks"] = old_state.get("diff_blocks", [])
+                
+                is_minor = old_state.get("is_minor")
+                if is_minor is None:
+                    is_minor = classify_change(name, result["additions"], result["removals"])["is_minor"]
+                result["is_minor"] = is_minor
+                result["status"] = "Modificato (Minore - Recente)" if is_minor else "Modificato (Recente)"
+                
                 ai_sum = (old_state.get("ai_summary") or "").strip()
                 if not ai_sum and (result["additions"] or result["removals"]):
                     ai_sum = generate_heuristic_summary(name, result["additions"], result["removals"])
                 result["ai_summary"] = ai_sum
                 result["summary"] = ai_sum or f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
-                save_state(paths, current_hash, current_text, additions=result["additions"], removals=result["removals"], ai_summary=ai_sum)
+                save_state(paths, current_hash, current_text, additions=result["additions"], removals=result["removals"], ai_summary=ai_sum, is_minor=is_minor, diff_blocks=result["diff_blocks"])
             else:
                 result["status"] = "Nessuna modifica"
                 result["has_changes"] = False
+                result["is_minor"] = False
                 save_state(paths, current_hash, current_text)
     else:
         print(f"📝 Prima esecuzione per {name} - salvataggio stato")
         now_iso = get_now().isoformat()
         now_fmt = get_now().strftime('%d/%m/%Y %H:%M')
         init_summary = generate_heuristic_summary(name, ["[NUOVA RISORSA]"], [])
-        save_state(paths, current_hash, current_text, last_change_date=now_iso, ai_summary=init_summary)
+        save_state(paths, current_hash, current_text, last_change_date=now_iso, ai_summary=init_summary, is_minor=False, diff_blocks=[])
         result["status"] = "Nuova risorsa aggiunta"
         result["last_change_date"] = now_fmt
         result["ai_summary"] = init_summary
         result["summary"] = init_summary
+        result["is_minor"] = False
+        result["diff_blocks"] = []
     
     return list(set(discovered_urls)), result, header_text, footer_text
 
@@ -986,7 +1262,9 @@ def check_text_component(name, page_id, current_text, source_url):
         "summary": "",
         "additions": [],
         "removals": [],
-        "atti_list": []
+        "atti_list": [],
+        "is_minor": True,
+        "diff_blocks": []
     }
     
     current_hash = hashlib.sha256(current_text.encode('utf-8')).hexdigest()
@@ -1006,40 +1284,61 @@ def check_text_component(name, page_id, current_text, source_url):
     if old_hash and old_text:
         if current_hash != old_hash:
             additions, removals = generate_detailed_diff(old_text, current_text)
-            ai_summary = get_page_ai_summary(name, additions, removals)
-            append_to_history(page_id, name, source_url, additions, removals, ai_summary)
+            diff_blocks = generate_context_diff(old_text, current_text)
+            classification = classify_change(name, additions, removals)
+            is_minor = classification["is_minor"]
+            
+            try:
+                with open(f"page_prev_content_{page_id}.txt", "w", encoding="utf-8") as f:
+                    f.write(old_text)
+            except Exception as e:
+                print(f"Errore salvataggio testo precedente component {page_id}: {e}")
+                
+            ai_summary = get_page_ai_summary(name, additions, removals, diff_blocks=diff_blocks, url=source_url)
+            append_to_history(page_id, name, source_url, additions, removals, ai_summary, is_minor=is_minor, diff_blocks=diff_blocks)
             result["has_history"] = True
             result["has_changes"] = True
-            result["status"] = "Modificato"
+            result["is_minor"] = is_minor
+            result["status"] = "Modificato (Minore)" if is_minor else "Modificato"
             result["summary"] = ai_summary or f"+{len(additions)} aggiunte, -{len(removals)} rimozioni"
             result["additions"] = additions
             result["removals"] = removals
+            result["diff_blocks"] = diff_blocks
             result["ai_summary"] = ai_summary
             result["last_change_date"] = get_now().strftime('%d/%m/%Y %H:%M')
-            save_state(paths, current_hash, current_text, get_now().isoformat(), additions, removals, ai_summary)
+            save_state(paths, current_hash, current_text, get_now().isoformat(), additions, removals, ai_summary, is_minor=is_minor, diff_blocks=diff_blocks)
         else:
             if is_within_15_days:
                 result["has_changes"] = True
-                result["status"] = "Modificato (Recente)"
                 result["additions"] = old_state.get("last_additions", [])
                 result["removals"] = old_state.get("last_removals", [])
+                result["diff_blocks"] = old_state.get("diff_blocks", [])
+                is_minor = old_state.get("is_minor")
+                if is_minor is None:
+                    is_minor = classify_change(name, result["additions"], result["removals"])["is_minor"]
+                result["is_minor"] = is_minor
+                result["status"] = "Modificato (Minore - Recente)" if is_minor else "Modificato (Recente)"
                 ai_sum = (old_state.get("ai_summary") or "").strip()
                 if not ai_sum and (result["additions"] or result["removals"]):
                     ai_sum = generate_heuristic_summary(name, result["additions"], result["removals"])
                 result["ai_summary"] = ai_sum
                 result["summary"] = ai_sum or f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
-                save_state(paths, current_hash, current_text, additions=result["additions"], removals=result["removals"], ai_summary=ai_sum)
+                save_state(paths, current_hash, current_text, additions=result["additions"], removals=result["removals"], ai_summary=ai_sum, is_minor=is_minor, diff_blocks=result["diff_blocks"])
             else:
                 result["status"] = "Nessuna modifica"
+                result["has_changes"] = False
+                result["is_minor"] = False
                 save_state(paths, current_hash, current_text)
     else:
         now_iso = get_now().isoformat()
         init_summary = generate_heuristic_summary(name, ["[NUOVA RISORSA]"], [])
-        save_state(paths, current_hash, current_text, last_change_date=now_iso, ai_summary=init_summary)
+        save_state(paths, current_hash, current_text, last_change_date=now_iso, ai_summary=init_summary, is_minor=True, diff_blocks=[])
         result["status"] = "Nuova risorsa aggiunta"
         result["last_change_date"] = get_now().strftime('%d/%m/%Y %H:%M')
         result["ai_summary"] = init_summary
         result["summary"] = init_summary
+        result["is_minor"] = True
+        result["diff_blocks"] = []
     
     return result
 
@@ -1093,8 +1392,8 @@ def main():
                         "id": f"{prefix.lower().replace(' ', '_')}_{url_slug.replace('-', '_')}"
                     })
     
-    # Gestione notifiche consolidate
-    results_with_changes = [r for r in all_results if r.get("has_changes") and not r.get("status") == "Nessuna modifica" and not "Modificato (Recente)" in r.get("status")]
+    # Gestione notifiche consolidate (notifica solo modifiche fresche, non quelle già notificate nei 15 giorni precedenti)
+    results_with_changes = [r for r in all_results if r.get("has_changes") and not r.get("status") == "Nessuna modifica" and "Recente" not in r.get("status")]
     
     # Includiamo anche i "Nuova risorsa aggiunta" se vogliamo notificarli
     new_resources = [r for r in all_results if r.get("status") == "Nuova risorsa aggiunta"]

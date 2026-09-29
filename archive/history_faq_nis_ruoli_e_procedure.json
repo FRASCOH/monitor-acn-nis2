@@ -6,7 +6,8 @@
       "Ti trovi in"
     ],
     "removals": [],
-    "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Ruoli E Procedure."
+    "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+    "is_minor": true
   },
   {
     "timestamp": "2026-08-11T09:07:26.555787+02:00",
@@ -14,7 +15,8 @@
     "additions": [
       "Monitoraggio, vigilanza ed esecuzione"
     ],
-    "removals": []
+    "removals": [],
+    "is_minor": true
   },
   {
     "timestamp": "2026-07-14T10:07:40.304885+02:00",
@@ -68,6 +70,7 @@
       "ODA. 9 L\u2019eventuale delega per lo svolgimento di attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS, pu\u00f2 escludere la responsabilit\u00e0 degli organi di amministrazione e degli organi direttivi ai sensi del predetto articolo?",
       "In tal caso, ai fini delle responsabilit\u00e0, per le societ\u00e0, resta fermo quanto previsto dagli artt. 2381 c.c. e 2392 c.c..",
       "ODA.10 Nell\u2019elencazione dei componenti degli organi di amministrazione e direttivi \u00e8 necessario indicare la PEC personale?"
-    ]
+    ],
+    "is_minor": false
   }
 ]

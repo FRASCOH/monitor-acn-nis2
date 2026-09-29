@@ -6,7 +6,8 @@
       "Ti trovi in"
     ],
     "removals": [],
-    "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Misure Di Sicurezza E Notifica Di Incidenti."
+    "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+    "is_minor": true
   },
   {
     "timestamp": "2026-08-11T09:07:29.000334+02:00",
@@ -14,7 +15,8 @@
     "additions": [
       "Monitoraggio, vigilanza ed esecuzione"
     ],
-    "removals": []
+    "removals": [],
+    "is_minor": true
   },
   {
     "timestamp": "2026-07-24T19:16:28.619898+02:00",
@@ -53,6 +55,7 @@
       "MSB.19 Con riferimento ai contratti misti, nei quali coesistano prestazioni di diversa natura \u2014 ad esempio componenti ICT e componenti non ICT \u2014 come devono essere applicati i requisiti delle misure di sicurezza?",
       "Come indicato nella FAQ MSB.17, l\u2019applicazione dei requisiti di sicurezza deve essere modulata tenendo conto della loro proporzionalit\u00e0, pertinenza e adeguatezza rispetto alle specifiche prestazioni affidate, evitando l\u2019imposizione generalizzata di obblighi non coerenti con la natura dell\u2019affidamento o con il rischio di cybersicurezza concretamente rilevabile."
     ],
-    "removals": []
+    "removals": [],
+    "is_minor": false
   }
 ]

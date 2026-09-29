@@ -6,7 +6,8 @@
       "Ti trovi in"
     ],
     "removals": [],
-    "ai_summary": "Aggiornati i contenuti informativi della sezione ACN Atti Generali."
+    "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+    "is_minor": true
   },
   {
     "timestamp": "2026-09-23T19:05:56.692502+02:00",
@@ -23,6 +24,7 @@
     "removals": [
       "22 Maggio 2026"
     ],
-    "ai_summary": "Pubblicato nuovo decreto: \"Decreto del Direttore generale dell'ACN n. 165925 del 18 aprile 2025\"."
+    "ai_summary": "Pubblicato nuovo decreto: \"Decreto del Direttore generale dell'ACN n. 165925 del 18 aprile 2025\".",
+    "is_minor": false
   }
 ]

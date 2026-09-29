@@ -1,16 +1,16 @@
 {
   "last_update": "29/09/2026 14:43",
-  "global_summary": "\u2022 ACN Atti Generali: Aggiornati i contenuti informativi della sezione ACN Atti Generali.\n\u2022 FAQ NIS (Parent): Aggiornate le risposte e i chiarimenti nella sezione FAQ NIS.\n\u2022 FAQ NIS: Categorizzazione: Aggiornate le risposte e i chiarimenti nella sezione FAQ Categorizzazione.\n\u2022 FAQ NIS: Profili Generali: Aggiornate le risposte e i chiarimenti nella sezione FAQ Profili Generali.\n\u2022 FAQ NIS: Monitoraggio Vigilanza Esecuzione: Aggiornate le risposte e i chiarimenti nella sezione FAQ Monitoraggio Vigilanza Esecuzione.",
+  "global_summary": "\u2022 NIS Home: Aggiornati i contenuti con novit\u00e0 relative a: \"Le novit\u00e0 per i soggetti NIS\".\n\u2022 NIS: Notizie Ed Eventi: Aggiornati i contenuti con novit\u00e0 relative a: \"Le novit\u00e0 per i soggetti NIS\".\n\u2022 (Altre 13 risorse presentano solo modifiche minori di layout/navigazione)",
   "pages": [
     {
       "id": "atti_generali",
       "name": "ACN Atti Generali",
       "url": "https://www.acn.gov.it/portale/atti-generali",
       "last_check": "29/09/2026 14:43",
-      "status": "Modificato (Recente)",
+      "status": "Modificato (Minore - Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornati i contenuti informativi della sezione ACN Atti Generali.",
+      "summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
       "additions": [
         "Ti trovi in"
       ],
@@ -930,7 +930,27 @@
         }
       ],
       "last_change_date": "28/09/2026 16:33",
-      "ai_summary": "Aggiornati i contenuti informativi della sezione ACN Atti Generali."
+      "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "Disposizioni generali",
+            "Atti generali",
+            "Atti generali"
+          ],
+          "before": [],
+          "after": [
+            "Ti trovi in"
+          ],
+          "context_post": [
+            "Home",
+            "Amministrazione trasparente",
+            "Disposizioni generali"
+          ]
+        }
+      ]
     },
     {
       "id": "global_header",
@@ -947,7 +967,19 @@
       ],
       "atti_list": [],
       "last_change_date": "22/09/2026 20:24",
-      "ai_summary": "Rimossi riferimenti o contenuti archiviati: \"Skip to Main Content\"."
+      "ai_summary": "Rimossi riferimenti o contenuti archiviati: \"Skip to Main Content\".",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "delete",
+          "context_pre": [],
+          "before": [
+            "[HEADER] Skip to Main Content"
+          ],
+          "after": [],
+          "context_post": []
+        }
+      ]
     },
     {
       "id": "global_footer",
@@ -960,24 +992,45 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "faq_nis_parent",
       "name": "FAQ NIS (Parent)",
       "url": "https://www.acn.gov.it/portale/faq/nis",
       "last_check": "29/09/2026 14:43",
-      "status": "Modificato (Recente)",
+      "status": "Modificato (Minore - Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ NIS.",
+      "summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
       "additions": [
         "Ti trovi in"
       ],
       "removals": [],
       "atti_list": [],
       "last_change_date": "28/09/2026 16:33",
-      "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ NIS."
+      "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "Domande frequenti",
+            "NIS",
+            "Domande frequenti NIS"
+          ],
+          "before": [],
+          "after": [
+            "Ti trovi in"
+          ],
+          "context_post": [
+            "Home",
+            "Domande frequenti",
+            "Domande frequenti NIS"
+          ]
+        }
+      ]
     },
     {
       "id": "nis_home",
@@ -1000,7 +1053,25 @@
       ],
       "atti_list": [],
       "last_change_date": "18/09/2026 17:06",
-      "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Le novit\u00e0 per i soggetti NIS\"."
+      "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Le novit\u00e0 per i soggetti NIS\".",
+      "is_minor": false,
+      "diff_blocks": [
+        {
+          "type": "replace",
+          "context_pre": [],
+          "before": [
+            "News -",
+            "29 Novembre 2024",
+            "NIS: attiva dal 1\u00b0 dicembre la registrazione sulla piattaforma ACN"
+          ],
+          "after": [
+            "News -",
+            "18 Settembre 2026",
+            "Le novit\u00e0 per i soggetti NIS"
+          ],
+          "context_post": []
+        }
+      ]
     },
     {
       "id": "linee_guida",
@@ -1013,7 +1084,8 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "avvisi",
@@ -1026,7 +1098,8 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "pnrr",
@@ -1039,7 +1112,8 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "pdf_9a28ca48f3",
@@ -1052,7 +1126,8 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "pdf_cb7f4eec7e",
@@ -1065,160 +1140,341 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "faq_nis_monitoraggio_vigilanza_esecuzione",
       "name": "FAQ NIS: Monitoraggio Vigilanza Esecuzione",
       "url": "https://www.acn.gov.it/portale/faq/nis/monitoraggio-vigilanza-esecuzione",
       "last_check": "29/09/2026 14:43",
-      "status": "Modificato (Recente)",
+      "status": "Modificato (Minore - Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Monitoraggio Vigilanza Esecuzione.",
+      "summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
       "additions": [
         "Ti trovi in"
       ],
       "removals": [],
       "atti_list": [],
       "last_change_date": "28/09/2026 16:33",
-      "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Monitoraggio Vigilanza Esecuzione."
+      "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "NIS",
+            "Monitoraggio, vigilanza ed esecuzione",
+            "Domande frequenti NIS - Categorizzazione"
+          ],
+          "before": [],
+          "after": [
+            "Ti trovi in"
+          ],
+          "context_post": [
+            "Home",
+            "Domande frequenti",
+            "NIS"
+          ]
+        }
+      ]
     },
     {
       "id": "faq_nis_settori_sottosettori_e_tipologie_di_soggetto",
       "name": "FAQ NIS: Settori Sottosettori E Tipologie Di Soggetto",
       "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
       "last_check": "29/09/2026 14:43",
-      "status": "Modificato (Recente)",
+      "status": "Modificato (Minore - Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Settori Sottosettori E Tipologie Di Soggetto.",
+      "summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
       "additions": [
         "Ti trovi in"
       ],
       "removals": [],
       "atti_list": [],
       "last_change_date": "28/09/2026 16:33",
-      "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Settori Sottosettori E Tipologie Di Soggetto."
+      "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "NIS",
+            "Settori, sottosettori e tipologie di soggetto",
+            "Domande frequenti NIS - Settori, sottosettori e tipologie di soggetto"
+          ],
+          "before": [],
+          "after": [
+            "Ti trovi in"
+          ],
+          "context_post": [
+            "Home",
+            "Domande frequenti",
+            "NIS"
+          ]
+        }
+      ]
     },
     {
       "id": "faq_nis_aggiornamento_delle_informazioni",
       "name": "FAQ NIS: Aggiornamento Delle Informazioni",
       "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
       "last_check": "29/09/2026 14:43",
-      "status": "Modificato (Recente)",
+      "status": "Modificato (Minore - Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Aggiornamento Delle Informazioni.",
+      "summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
       "additions": [
         "Ti trovi in"
       ],
       "removals": [],
       "atti_list": [],
       "last_change_date": "28/09/2026 16:33",
-      "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Aggiornamento Delle Informazioni."
+      "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "NIS",
+            "Aggiornamento delle informazioni",
+            "Domande frequenti NIS - Aggiornamento delle informazioni"
+          ],
+          "before": [],
+          "after": [
+            "Ti trovi in"
+          ],
+          "context_post": [
+            "Home",
+            "Domande frequenti",
+            "NIS"
+          ]
+        }
+      ]
     },
     {
       "id": "faq_nis_ruoli_e_procedure",
       "name": "FAQ NIS: Ruoli E Procedure",
       "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
       "last_check": "29/09/2026 14:43",
-      "status": "Modificato (Recente)",
+      "status": "Modificato (Minore - Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Ruoli E Procedure.",
+      "summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
       "additions": [
         "Ti trovi in"
       ],
       "removals": [],
       "atti_list": [],
       "last_change_date": "28/09/2026 16:33",
-      "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Ruoli E Procedure."
+      "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "NIS",
+            "Ruoli e procedure",
+            "Domande frequenti NIS - Ruoli e procedure"
+          ],
+          "before": [],
+          "after": [
+            "Ti trovi in"
+          ],
+          "context_post": [
+            "Home",
+            "Domande frequenti",
+            "NIS"
+          ]
+        }
+      ]
     },
     {
       "id": "faq_nis_ambito",
       "name": "FAQ NIS: Ambito",
       "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
       "last_check": "29/09/2026 14:43",
-      "status": "Modificato (Recente)",
+      "status": "Modificato (Minore - Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Ambito.",
+      "summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
       "additions": [
         "Ti trovi in"
       ],
       "removals": [],
       "atti_list": [],
       "last_change_date": "28/09/2026 16:33",
-      "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Ambito."
+      "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "NIS",
+            "Ambito",
+            "Domande frequenti NIS - Ambito"
+          ],
+          "before": [],
+          "after": [
+            "Ti trovi in"
+          ],
+          "context_post": [
+            "Home",
+            "Domande frequenti",
+            "NIS"
+          ]
+        }
+      ]
     },
     {
       "id": "faq_nis_misure_di_sicurezza_e_notifica_di_incidenti",
       "name": "FAQ NIS: Misure Di Sicurezza E Notifica Di Incidenti",
       "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
       "last_check": "29/09/2026 14:43",
-      "status": "Modificato (Recente)",
+      "status": "Modificato (Minore - Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Misure Di Sicurezza E Notifica Di Incidenti.",
+      "summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
       "additions": [
         "Ti trovi in"
       ],
       "removals": [],
       "atti_list": [],
       "last_change_date": "28/09/2026 16:33",
-      "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Misure Di Sicurezza E Notifica Di Incidenti."
+      "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "NIS",
+            "Misure di sicurezza e notifica di incidenti",
+            "Domande frequenti NIS - Misure di sicurezza e notifica di incidenti"
+          ],
+          "before": [],
+          "after": [
+            "Ti trovi in"
+          ],
+          "context_post": [
+            "Home",
+            "Domande frequenti",
+            "NIS"
+          ]
+        }
+      ]
     },
     {
       "id": "faq_nis_registrazione",
       "name": "FAQ NIS: Registrazione",
       "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
       "last_check": "29/09/2026 14:43",
-      "status": "Modificato (Recente)",
+      "status": "Modificato (Minore - Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Registrazione.",
+      "summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
       "additions": [
         "Ti trovi in"
       ],
       "removals": [],
       "atti_list": [],
       "last_change_date": "28/09/2026 16:33",
-      "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Registrazione."
+      "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "NIS",
+            "Registrazione",
+            "Domande frequenti NIS - Registrazione"
+          ],
+          "before": [],
+          "after": [
+            "Ti trovi in"
+          ],
+          "context_post": [
+            "Home",
+            "Domande frequenti",
+            "NIS"
+          ]
+        }
+      ]
     },
     {
       "id": "faq_nis_profili_generali",
       "name": "FAQ NIS: Profili Generali",
       "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
       "last_check": "29/09/2026 14:43",
-      "status": "Modificato (Recente)",
+      "status": "Modificato (Minore - Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Profili Generali.",
+      "summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
       "additions": [
         "Ti trovi in"
       ],
       "removals": [],
       "atti_list": [],
       "last_change_date": "28/09/2026 16:33",
-      "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Profili Generali."
+      "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "NIS",
+            "Profili generali",
+            "Domande frequenti NIS - Profili generali"
+          ],
+          "before": [],
+          "after": [
+            "Ti trovi in"
+          ],
+          "context_post": [
+            "Home",
+            "Domande frequenti",
+            "NIS"
+          ]
+        }
+      ]
     },
     {
       "id": "faq_nis_categorizzazione",
       "name": "FAQ NIS: Categorizzazione",
       "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
       "last_check": "29/09/2026 14:43",
-      "status": "Modificato (Recente)",
+      "status": "Modificato (Minore - Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Categorizzazione.",
+      "summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
       "additions": [
         "Ti trovi in"
       ],
       "removals": [],
       "atti_list": [],
       "last_change_date": "28/09/2026 16:33",
-      "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Categorizzazione."
+      "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "NIS",
+            "Categorizzazione",
+            "Domande frequenti NIS - Categorizzazione"
+          ],
+          "before": [],
+          "after": [
+            "Ti trovi in"
+          ],
+          "context_post": [
+            "Home",
+            "Domande frequenti",
+            "NIS"
+          ]
+        }
+      ]
     },
     {
       "id": "nis_aggiornamento_informazioni",
@@ -1231,7 +1487,8 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "nis_obblighi",
@@ -1244,7 +1501,8 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "nis_registrazione",
@@ -1257,24 +1515,45 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "nis_faq",
       "name": "NIS: Faq",
       "url": "https://www.acn.gov.it/portale/nis/faq",
       "last_check": "29/09/2026 14:43",
-      "status": "Modificato (Recente)",
+      "status": "Modificato (Minore - Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ NIS: Faq.",
+      "summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
       "additions": [
         "Ti trovi in"
       ],
       "removals": [],
       "atti_list": [],
       "last_change_date": "28/09/2026 16:34",
-      "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ NIS: Faq."
+      "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+      "is_minor": true,
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "Domande frequenti",
+            "NIS",
+            "Domande frequenti NIS"
+          ],
+          "before": [],
+          "after": [
+            "Ti trovi in"
+          ],
+          "context_post": [
+            "Home",
+            "Domande frequenti",
+            "Domande frequenti NIS"
+          ]
+        }
+      ]
     },
     {
       "id": "nis_la_normativa",
@@ -1287,7 +1566,8 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "nis_notizie_ed_eventi",
@@ -1318,7 +1598,33 @@
       ],
       "atti_list": [],
       "last_change_date": "18/09/2026 17:07",
-      "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Le novit\u00e0 per i soggetti NIS\"."
+      "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Le novit\u00e0 per i soggetti NIS\".",
+      "is_minor": false,
+      "diff_blocks": [
+        {
+          "type": "replace",
+          "context_pre": [],
+          "before": [
+            "News -",
+            "29 Novembre 2024",
+            "NIS: attiva dal 1\u00b0 dicembre la registrazione sulla piattaforma ACN",
+            "C\u2019\u00e8 tempo fino al 28 febbraio 2025 per il censimento dei soggetti NIS. Disponibile anche un video tutorial sul canale YouTube di ACN",
+            "Normativa NIS",
+            "NIS"
+          ],
+          "after": [
+            "News -",
+            "18 Settembre 2026",
+            "Le novit\u00e0 per i soggetti NIS",
+            "Aggiornato l\u2019elenco, si avvia la consultazione delle misure di sicurezza rafforzate",
+            "Normativa NIS",
+            "NIS",
+            "ACN",
+            "Cybersecurity"
+          ],
+          "context_post": []
+        }
+      ]
     },
     {
       "id": "nis_modalita_specifiche_base",
@@ -1331,7 +1637,8 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "nis_ambito",
@@ -1344,7 +1651,8 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "pdf_39f9f139a9",
@@ -1357,7 +1665,8 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "pdf_80b8113e88",
@@ -1370,7 +1679,8 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     },
     {
       "id": "pdf_403942e3c6",
@@ -1383,7 +1693,8 @@
       "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "diff_blocks": []
     }
   ]
 }

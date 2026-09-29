@@ -6,6 +6,7 @@
       "Ti trovi in"
     ],
     "removals": [],
-    "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Monitoraggio Vigilanza Esecuzione."
+    "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+    "is_minor": true
   }
 ]
