@@ -1,10 +1,12 @@
 {
   "hash": "40351e51af7d8dab099da7d60ba43c582185689fb88be425a91a2b4bb0631a72",
-  "last_check": "2026-09-29T14:43:28.534367+02:00",
+  "last_check": "2026-09-29T20:16:16.707556+02:00",
   "last_change_date": "2026-09-28T16:33:50.367226+02:00",
   "last_additions": [
     "Ti trovi in"
   ],
   "last_removals": [],
-  "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Profili Generali."
+  "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Profili Generali.",
+  "is_minor": false,
+  "diff_blocks": []
 }

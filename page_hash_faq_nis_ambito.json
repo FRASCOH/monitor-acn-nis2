@@ -1,10 +1,12 @@
 {
   "hash": "d8ba7dfee5560e2f16b305ee7d60c109395ac1289ae1cdb7242faf6f8c77fe2e",
-  "last_check": "2026-09-29T14:43:25.396411+02:00",
+  "last_check": "2026-09-29T20:16:31.110411+02:00",
   "last_change_date": "2026-09-28T16:33:57.454511+02:00",
   "last_additions": [
     "Ti trovi in"
   ],
   "last_removals": [],
-  "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Ambito."
+  "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Ambito.",
+  "is_minor": false,
+  "diff_blocks": []
 }

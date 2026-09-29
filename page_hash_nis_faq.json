@@ -1,10 +1,12 @@
 {
   "hash": "b58afef877ef78a44a7c782311e7db848e038ac81e6e4dc3b9d3eb47fc6a82fe",
-  "last_check": "2026-09-29T14:43:32.404260+02:00",
+  "last_check": "2026-09-29T20:16:36.014944+02:00",
   "last_change_date": "2026-09-28T16:34:01.958482+02:00",
   "last_additions": [
     "Ti trovi in"
   ],
   "last_removals": [],
-  "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ NIS: Faq."
+  "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ NIS: Faq.",
+  "is_minor": false,
+  "diff_blocks": []
 }

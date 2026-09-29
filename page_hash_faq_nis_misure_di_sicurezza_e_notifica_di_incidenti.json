@@ -1,10 +1,12 @@
 {
   "hash": "e4ab2df4b9bf9bae6fdf20ae093dd4d39159043daf3e472bedacb92feb93465c",
-  "last_check": "2026-09-29T14:43:26.501048+02:00",
+  "last_check": "2026-09-29T20:16:29.154594+02:00",
   "last_change_date": "2026-09-28T16:33:59.922750+02:00",
   "last_additions": [
     "Ti trovi in"
   ],
   "last_removals": [],
-  "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Misure Di Sicurezza E Notifica Di Incidenti."
+  "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Misure Di Sicurezza E Notifica Di Incidenti.",
+  "is_minor": false,
+  "diff_blocks": []
 }

@@ -1,10 +1,12 @@
 {
   "hash": "786d7f8dc6ea89d95404c06919c91c489247f01b8f9ffde433f44cbe463d5c67",
-  "last_check": "2026-09-29T14:43:27.777869+02:00",
+  "last_check": "2026-09-29T20:16:20.902512+02:00",
   "last_change_date": "2026-09-28T16:33:54.248690+02:00",
   "last_additions": [
     "Ti trovi in"
   ],
   "last_removals": [],
-  "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Registrazione."
+  "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Registrazione.",
+  "is_minor": false,
+  "diff_blocks": []
 }

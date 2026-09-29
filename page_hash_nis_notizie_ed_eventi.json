@@ -1,6 +1,6 @@
 {
   "hash": "33530e4d7743ce2eff2010f88d3c9b281ceabf09d4d3d4710448270d9dfa4f69",
-  "last_check": "2026-09-29T14:43:34.058764+02:00",
+  "last_check": "2026-09-29T20:16:36.820837+02:00",
   "last_change_date": "2026-09-18T17:07:17.023692+02:00",
   "last_additions": [
     "News -",
@@ -20,5 +20,7 @@
     "Normativa NIS",
     "NIS"
   ],
-  "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Le novit\u00e0 per i soggetti NIS\"."
+  "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Le novit\u00e0 per i soggetti NIS\".",
+  "is_minor": false,
+  "diff_blocks": []
 }
