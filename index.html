@@ -1845,7 +1845,14 @@
 
             try {
                 const resp = await fetch(`archive/history_${id}.json?t=${new Date().getTime()}`);
+                if (!resp.ok) throw new Error('File non trovato');
                 const history = await resp.json();
+                
+                if (!Array.isArray(history) || history.length === 0) {
+                    body.innerHTML = '<div style="text-align: center; padding: 3rem 1rem; color: var(--text-muted); font-size: 0.95rem;">Nessuna cronologia disponibile per questa risorsa.</div>';
+                    return;
+                }
+
                 body.innerHTML = history.map(h => {
                     const addCount = h.additions ? h.additions.length : 0;
                     const remCount = h.removals ? h.removals.length : 0;
@@ -1878,7 +1885,7 @@
                     `;
                 }).join('');
             } catch {
-                body.innerHTML = 'Nessuna cronologia disponibile per questa risorsa.';
+                body.innerHTML = '<div style="text-align: center; padding: 3rem 1rem; color: var(--text-muted); font-size: 0.95rem;">Nessuna cronologia disponibile per questa risorsa.</div>';
             }
         }
 
