@@ -1,5 +1,34 @@
 [
   {
+    "timestamp": "2026-10-07T15:45:10.626020+02:00",
+    "date_formatted": "07/10/2026 15:45",
+    "additions": [
+      "[HEADER] Divulgazione coordinata delle vulnerabilit\u00e0"
+    ],
+    "removals": [],
+    "is_minor": true,
+    "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Divulgazione coordinata delle vulnerabilit\u00e0\".",
+    "diff_blocks": [
+      {
+        "type": "insert",
+        "context_pre": [
+          "[HEADER] Pubblicazioni",
+          "[HEADER] La settimana cibernetica",
+          "[HEADER] Operational Summary"
+        ],
+        "before": [],
+        "after": [
+          "[HEADER] Divulgazione coordinata delle vulnerabilit\u00e0"
+        ],
+        "context_post": [
+          "[HEADER] Feed Pubblico MISP",
+          "[HEADER] Domande frequenti",
+          "[HEADER] NCC Italia"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-09-22T20:24:22.313637+02:00",
     "date_formatted": "22/09/2026 20:24",
     "additions": [],

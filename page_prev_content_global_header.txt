@@ -65,7 +65,6 @@
 [HEADER] Pubblicazioni
 [HEADER] La settimana cibernetica
 [HEADER] Operational Summary
-[HEADER] Divulgazione coordinata delle vulnerabilità
 [HEADER] Feed Pubblico MISP
 [HEADER] Domande frequenti
 [HEADER] NCC Italia

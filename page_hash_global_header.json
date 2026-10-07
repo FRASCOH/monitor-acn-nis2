@@ -1,12 +1,30 @@
 {
-  "hash": "2948cc65165ae482e6279f5f4ff28bf9b42858344b180318e875025e71288c3a",
-  "last_check": "2026-10-07T08:29:54.388880+02:00",
-  "last_change_date": "2026-09-22T20:24:22.313790+02:00",
-  "last_additions": [],
-  "last_removals": [
-    "[HEADER] Skip to Main Content"
+  "hash": "ff517c402ad511289d219852f0da4fe32a9a61a64116dd2bdfc58079645a8c47",
+  "last_check": "2026-10-07T15:45:10.626424+02:00",
+  "last_change_date": "2026-10-07T15:45:10.626324+02:00",
+  "last_additions": [
+    "[HEADER] Divulgazione coordinata delle vulnerabilit\u00e0"
   ],
-  "ai_summary": "Rimossi riferimenti o contenuti archiviati: \"Skip to Main Content\".",
-  "is_minor": false,
-  "diff_blocks": []
+  "last_removals": [],
+  "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Divulgazione coordinata delle vulnerabilit\u00e0\".",
+  "is_minor": true,
+  "diff_blocks": [
+    {
+      "type": "insert",
+      "context_pre": [
+        "[HEADER] Pubblicazioni",
+        "[HEADER] La settimana cibernetica",
+        "[HEADER] Operational Summary"
+      ],
+      "before": [],
+      "after": [
+        "[HEADER] Divulgazione coordinata delle vulnerabilit\u00e0"
+      ],
+      "context_post": [
+        "[HEADER] Feed Pubblico MISP",
+        "[HEADER] Domande frequenti",
+        "[HEADER] NCC Italia"
+      ]
+    }
+  ]
 }

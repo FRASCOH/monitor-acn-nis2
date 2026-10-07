@@ -1,10 +1,34 @@
 {
-  "hash": "c927305cf480ebf834b6c4ed11a274c663a61e2852a35b830a2ddb5cffd9cd1b",
-  "last_check": "2026-10-07T08:30:32.939547+02:00",
-  "last_change_date": null,
-  "last_additions": [],
-  "last_removals": [],
-  "ai_summary": "",
+  "hash": "92bdefbac62d5078010991afd7bccd99dbe3b3eb20090b97f18e7eb529804558",
+  "last_check": "2026-10-07T15:45:42.688521+02:00",
+  "last_change_date": "2026-10-07T15:45:42.688408+02:00",
+  "last_additions": [
+    "Determinazione ACN 301868 del 06 ottobre 2026 - Politica nazionale di divulgazione coordinata delle vulnerabilit\u00e0"
+  ],
+  "last_removals": [
+    "Politica nazionale di divulgazione coordinata delle vulnerabilit\u00e0"
+  ],
+  "ai_summary": "Pubblicata nuova determina: \"Determinazione ACN 301868 del 06 ottobre 2026 - Politica nazionale di divulgazione coordinata delle vulnerabilit\u00e0\".",
   "is_minor": false,
-  "diff_blocks": []
+  "diff_blocks": [
+    {
+      "type": "replace",
+      "context_pre": [
+        "Ministero della Giustizia",
+        ", sentito il",
+        "Tavolo per l'attuazione della disciplina NIS"
+      ],
+      "before": [
+        "Politica nazionale di divulgazione coordinata delle vulnerabilit\u00e0"
+      ],
+      "after": [
+        "Determinazione ACN 301868 del 06 ottobre 2026 - Politica nazionale di divulgazione coordinata delle vulnerabilit\u00e0"
+      ],
+      "context_post": [
+        "Determinazione ACN",
+        ", sentito il",
+        "Tavolo per l'attuazione della disciplina NIS"
+      ]
+    }
+  ]
 }
