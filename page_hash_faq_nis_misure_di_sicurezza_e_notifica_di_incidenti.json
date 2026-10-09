@@ -6,7 +6,7 @@
     "Ti trovi in"
   ],
   "last_removals": [],
-  "ai_summary": "Aggiornate le risposte e i chiarimenti nella sezione FAQ Misure Di Sicurezza E Notifica Di Incidenti.",
-  "is_minor": false,
+  "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
+  "is_minor": true,
   "diff_blocks": []
 }

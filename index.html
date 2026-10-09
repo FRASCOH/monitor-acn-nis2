@@ -1626,12 +1626,18 @@
         }
 
         function getConceptSummary(p) {
-            if (p.ai_summary && p.ai_summary.trim()) {
-                return p.ai_summary.trim();
-            }
             const adds = p.additions || [];
             const rems = p.removals || [];
             const textAll = [...adds, ...rems].join(' ').toLowerCase();
+
+            if (p.ai_summary && p.ai_summary.trim()) {
+                const s = p.ai_summary.trim();
+                // Se la modifica è un semplice breadcrumb ma l'ai_summary memorizzato è il vecchio testo generico delle FAQ
+                if ((textAll.includes('ti trovi in') || textAll.includes('breadcrumb')) && (s.includes('risposte e i chiarimenti') || s.includes('chiarimenti nella sezione'))) {
+                    return "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.";
+                }
+                return s;
+            }
 
             if (textAll.includes('ti trovi in') || textAll.includes('breadcrumb')) {
                 return "Aggiornamento navigazione: introdotta la voce 'Ti trovi in' nel percorso breadcrumb.";

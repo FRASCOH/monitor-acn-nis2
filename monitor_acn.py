@@ -1227,15 +1227,17 @@ def monitor_page(page_config):
                 result["removals"] = old_state.get("last_removals", [])
                 result["diff_blocks"] = old_state.get("diff_blocks", [])
                 
-                is_minor = old_state.get("is_minor")
-                if is_minor is None:
-                    is_minor = classify_change(name, result["additions"], result["removals"])["is_minor"]
+                classification = classify_change(name, result["additions"], result["removals"])
+                is_minor = classification["is_minor"]
                 result["is_minor"] = is_minor
                 result["status"] = "Modificato (Minore - Recente)" if is_minor else "Modificato (Recente)"
                 
                 ai_sum = (old_state.get("ai_summary") or "").strip()
-                if not ai_sum and (result["additions"] or result["removals"]):
-                    ai_sum = generate_heuristic_summary(name, result["additions"], result["removals"])
+                # Se è una modifica minore ma il vecchio summary conteneva un testo normativo generico incoerente (residuo di vecchie versioni)
+                is_stale_generic = any(s in ai_sum.lower() for s in ["aggiornate le risposte", "chiarimenti nella sezione faq", "aggiornati i chiarimenti", "risposte e i chiarimenti"])
+                if not ai_sum or (is_minor and is_stale_generic):
+                    if result["additions"] or result["removals"]:
+                        ai_sum = generate_heuristic_summary(name, result["additions"], result["removals"])
                 result["ai_summary"] = ai_sum
                 result["summary"] = ai_sum or f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
                 save_state(paths, current_hash, current_text, additions=result["additions"], removals=result["removals"], ai_summary=ai_sum, is_minor=is_minor, diff_blocks=result["diff_blocks"])
@@ -1325,14 +1327,15 @@ def check_text_component(name, page_id, current_text, source_url):
                 result["additions"] = old_state.get("last_additions", [])
                 result["removals"] = old_state.get("last_removals", [])
                 result["diff_blocks"] = old_state.get("diff_blocks", [])
-                is_minor = old_state.get("is_minor")
-                if is_minor is None:
-                    is_minor = classify_change(name, result["additions"], result["removals"])["is_minor"]
+                classification = classify_change(name, result["additions"], result["removals"])
+                is_minor = classification["is_minor"]
                 result["is_minor"] = is_minor
                 result["status"] = "Modificato (Minore - Recente)" if is_minor else "Modificato (Recente)"
                 ai_sum = (old_state.get("ai_summary") or "").strip()
-                if not ai_sum and (result["additions"] or result["removals"]):
-                    ai_sum = generate_heuristic_summary(name, result["additions"], result["removals"])
+                is_stale_generic = any(s in ai_sum.lower() for s in ["aggiornate le risposte", "chiarimenti nella sezione faq", "aggiornati i chiarimenti", "risposte e i chiarimenti"])
+                if not ai_sum or (is_minor and is_stale_generic):
+                    if result["additions"] or result["removals"]:
+                        ai_sum = generate_heuristic_summary(name, result["additions"], result["removals"])
                 result["ai_summary"] = ai_sum
                 result["summary"] = ai_sum or f"+{len(result['additions'])} aggiunte, -{len(result['removals'])} rimozioni"
                 save_state(paths, current_hash, current_text, additions=result["additions"], removals=result["removals"], ai_summary=ai_sum, is_minor=is_minor, diff_blocks=result["diff_blocks"])
