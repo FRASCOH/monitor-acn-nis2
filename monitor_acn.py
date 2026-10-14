@@ -499,6 +499,26 @@ def generate_context_diff(old_content, new_content, context_lines=3):
             
     return diff_blocks
 
+def detect_resource_type(name, url=""):
+    """Determina con precisione la tipologia funzionale della risorsa ACN per guidare classificazione e prompt"""
+    n = (name or "").lower()
+    u = (url or "").lower()
+    if "faq" in n or "/faq/" in u:
+        return "faq"
+    if any(k in n or k in u for k in ["atti-generali", "atti generali", "/atti", "decret", "determin", "deliber"]):
+        return "atti"
+    if "vademecum" in n or "vademecum" in u:
+        return "vademecum"
+    if any(k in n or k in u for k in ["scadenz", "adempiment", "termini"]):
+        return "scadenze"
+    if any(k in n or k in u for k in ["procedur", "registrazion", "censiment", "ruoli"]):
+        return "procedure"
+    if any(k in n or k in u for k in ["linee guida", "linea guida", "guida"]):
+        return "linee_guida"
+    if any(k in n or k in u for k in ["notizi", "comunicat"]):
+        return "notizie"
+    return "generale"
+
 def classify_change(name, additions, removals):
     """
     Determina se una modifica è 'minor' (cosmetica, breadcrumb, navigazione o template diffuso)
@@ -510,9 +530,56 @@ def classify_change(name, additions, removals):
     if not clean_adds and not clean_rems:
         return {"is_minor": True, "category": "empty", "reason": "Nessuna variazione sostanziale"}
     
+    res_type = detect_resource_type(name)
     all_text = " ".join(clean_adds + clean_rems).lower()
+
+    # Pattern breadcrumb e navigazione
+    nav_patterns = [
+        "ti trovi in", "breadcrumb", "torna a", "torna su", "torna indietro",
+        "salta al contenuto", "skip to main content", "menu principale",
+        "collegamenti veloci", "condividi", "stampa", "pagina precedente"
+    ]
     
-    # Termini prioritari normativi/operativi
+    # Se le aggiunte contengono solo breadcrumb / navigazione
+    if any(any(np in a.lower() for np in nav_patterns) for a in clean_adds):
+        if all(len(a) < 40 or any(np in a.lower() for np in nav_patterns) for a in clean_adds):
+            return {"is_minor": True, "category": "navigation", "reason": "Modifica al percorso di navigazione o breadcrumb"}
+            
+    is_all_nav = True
+    nav_terms = ["home", "domande frequenti", "nis", "amministrazione trasparente", "disposizioni generali", "atti generali"]
+    for item in clean_adds + clean_rems:
+        lower_item = item.lower()
+        if not any(np in lower_item for np in nav_patterns) and lower_item not in nav_terms:
+            is_all_nav = False
+            break
+            
+    if is_all_nav:
+        return {"is_minor": True, "category": "navigation", "reason": "Modifica navigazione/breadcrumb"}
+        
+    # Header e Footer globali
+    if all(a.startswith("[HEADER]") or a.startswith("[FOOTER]") for a in additions if a.strip()) and \
+       all(r.startswith("[HEADER]") or r.startswith("[FOOTER]") for r in removals if r.strip()):
+        return {"is_minor": True, "category": "layout", "reason": "Modifica intestazione o piè di pagina globale"}
+        
+    # Variazioni minime di testo/formattazione (< 25 caratteri totali)
+    total_len = sum(len(a) for a in clean_adds) + sum(len(r) for r in clean_rems)
+    if total_len < 25 and not any(kw in all_text for kw in ["art.", "comma", "faq", "nis", "acn"]):
+        return {"is_minor": True, "category": "cosmetic", "reason": "Variazione minima"}
+
+    # CLASSIFICAZIONE MIRATA PER TIPOLOGIA DI RISORSA
+    if res_type == "faq":
+        if any(len(a) > 40 or "?" in a for a in clean_adds):
+            return {"is_minor": False, "category": "faq", "reason": "Nuova domanda o chiarimento normativo FAQ"}
+        else:
+            return {"is_minor": True, "category": "layout", "reason": "Piccolo ritocco strutturale FAQ"}
+
+    if res_type == "vademecum":
+        return {"is_minor": False, "category": "vademecum", "reason": "Aggiornamento Vademecum NIS"}
+
+    if res_type in ["atti", "scadenze"]:
+        return {"is_minor": False, "category": res_type, "reason": f"Aggiornamento in sezione {res_type}"}
+
+    # Controllo termini prioritari normativi/operativi per pagine generiche
     major_keywords = [
         "decreto", "determina", "circolare", "regolamento", "direttiva",
         "linee guida", "linea guida", "vademecum", "avviso", "nomina",
@@ -525,47 +592,6 @@ def classify_change(name, additions, removals):
     for kw in major_keywords:
         if kw in all_text and any(len(x) > 15 and kw in x.lower() for x in (clean_adds + clean_rems)):
             return {"is_minor": False, "category": "normativa", "reason": f"Rilevato termine chiave: {kw}"}
-            
-    # Pattern breadcrumb e navigazione
-    nav_patterns = [
-        "ti trovi in", "breadcrumb", "torna a", "torna su", "torna indietro",
-        "salta al contenuto", "skip to main content", "menu principale",
-        "collegamenti veloci", "condividi", "stampa", "pagina precedente"
-    ]
-    
-    # Se le aggiunte contengono breadcrumb
-    if any(any(np in a.lower() for np in nav_patterns) for a in clean_adds):
-        if all(len(a) < 40 or any(np in a.lower() for np in nav_patterns) for a in clean_adds):
-            return {"is_minor": True, "category": "navigation", "reason": "Modifica al percorso di navigazione o breadcrumb"}
-            
-    # Se tutte le modifiche corrispondono a navigazione o intestazioni brevi
-    is_all_nav = True
-    nav_terms = ["home", "domande frequenti", "nis", "amministrazione trasparente", "disposizioni generali", "atti generali"]
-    for item in clean_adds + clean_rems:
-        lower_item = item.lower()
-        if not any(np in lower_item for np in nav_patterns) and lower_item not in nav_terms:
-            is_all_nav = False
-            break
-            
-    if is_all_nav:
-        return {"is_minor": True, "category": "navigation", "reason": "Modifica navigazione/breadcrumb"}
-        
-    # Header e Footer
-    if all(a.startswith("[HEADER]") or a.startswith("[FOOTER]") for a in additions if a.strip()) and \
-       all(r.startswith("[HEADER]") or r.startswith("[FOOTER]") for r in removals if r.strip()):
-        return {"is_minor": True, "category": "layout", "reason": "Modifica intestazione o piè di pagina globale"}
-        
-    # Variazioni minime di testo/formattazione (< 25 caratteri totali)
-    total_len = sum(len(a) for a in clean_adds) + sum(len(r) for r in clean_rems)
-    if total_len < 25 and not any(kw in all_text for kw in ["art.", "comma", "faq", "nis", "acn"]):
-        return {"is_minor": True, "category": "cosmetic", "reason": "Variazione minima"}
-        
-    # Se è una FAQ: se non ha testo consistente (> 45 caratteri o '?'), è layout
-    if "faq" in name.lower():
-        if any(len(a) > 45 or "?" in a for a in clean_adds):
-            return {"is_minor": False, "category": "faq", "reason": "Nuova domanda o chiarimento FAQ"}
-        else:
-            return {"is_minor": True, "category": "layout", "reason": "Piccolo ritocco strutturale FAQ"}
 
     return {"is_minor": False, "category": "contenuto", "reason": "Aggiornamento contenuti"}
 
@@ -946,7 +972,8 @@ def send_onesignal_notification(results_with_changes, ai_summary):
         sample_sum = major_results[0].get("summary", "Aggiornamento normativo rilevato")
         body = f"{sample_name}: {sample_sum}"
 
-    # Limita la lunghezza del corpo per le notifiche iOS
+    # Corpo della notifica: pulisci eventuali tag HTML per le notifiche push iOS
+    body = re.sub(r'<[^>]+>', '', body).strip()
     if len(body) > 180:
         body = body[:177] + "..."
 
@@ -1018,8 +1045,26 @@ def call_gemini_with_fallback(prompt, system_instruction=None, max_output_tokens
             
     return None
 
+def compute_word_diff(before_lines, after_lines):
+    """Calcola la differenza precisa parola per parola tra le righe prima e dopo"""
+    bef_text = " ".join(before_lines).strip()
+    aft_text = " ".join(after_lines).strip()
+    if not bef_text or not aft_text:
+        return [], []
+    b_words = bef_text.split()
+    a_words = aft_text.split()
+    sm = difflib.SequenceMatcher(None, b_words, a_words)
+    words_added = []
+    words_removed = []
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        if tag in ('replace', 'insert') and j2 > j1:
+            words_added.append(" ".join(a_words[j1:j2]))
+        if tag in ('replace', 'delete') and i2 > i1:
+            words_removed.append(" ".join(b_words[i1:i2]))
+    return words_added, words_removed
+
 def format_context_diff_for_prompt(diff_blocks, additions, removals, max_blocks=6):
-    """Formatta i blocchi di diff contestuali in modo chiaro e strutturato per l'LLM"""
+    """Formatta i blocchi di diff contestuali in modo chiaro e strutturato per l'LLM con delta di singole parole"""
     def to_str_lines(val):
         if isinstance(val, list):
             return "\n".join(str(v).strip() for v in val if str(v).strip())
@@ -1040,6 +1085,15 @@ def format_context_diff_for_prompt(diff_blocks, additions, removals, max_blocks=
                 lines.append(f"[TESTO RIMOSSO (-)]:\n{bef}")
             if aft:
                 lines.append(f"[NUOVO TESTO AGGIUNTO (+)]:\n{aft}")
+                
+            # Calcolo delta puntuale parola per parola
+            if block.get("type") == "replace" and bef and aft:
+                w_add, w_rem = compute_word_diff(block.get("before", []), block.get("after", []))
+                if w_rem:
+                    lines.append(f"[PAROLE SPECIFICHE RIMOSSE]: {', '.join(f'\"{w}\"' for w in w_rem[:6])}")
+                if w_add:
+                    lines.append(f"[PAROLE SPECIFICHE AGGIUNTE]: {', '.join(f'\"{w}\"' for w in w_add[:6])}")
+
             if ctx_post:
                 lines.append(f"[CONTESTO SUCCESSIVO]:\n{ctx_post}")
             lines.append("")
@@ -1084,6 +1138,29 @@ def get_page_ai_summary(name, additions, removals, diff_blocks=None, url=None):
     if not diff_context_str:
         return fallback
 
+    res_type = detect_resource_type(name, url or "")
+    
+    type_guidelines = {
+        "faq": (
+            "- GUIDA TIPOLOGIA: La risorsa è una sezione FAQ. Identifica il codice della domanda (es. RR.1, PDC.5) se presente. "
+            "Descrivi SOLO le risposte modificate o chiarimenti aggiunti. NON parlare MAI di nuovi decreti o nuove leggi."
+        ),
+        "atti": (
+            "- GUIDA TIPOLOGIA: La risorsa è un Atto Normativo. Estrai il numero identificativo, la data e l'oggetto formale dell'atto. "
+            "Distingui rigorosamente tra Decreto, Determina, Delibera e Circolare."
+        ),
+        "scadenze": (
+            "- GUIDA TIPOLOGIA: La risorsa riguarda Scadenze e Adempimenti. Cita le date esatte o le proroghe e a quali soggetti si applicano."
+        ),
+        "procedure": (
+            "- GUIDA TIPOLOGIA: La risorsa riguarda Procedure operative e Registrazione. Descrivi i passaggi operativi modificati (es. SPID, CIE, CNS, eIDAS, deleghe, link PEC 7 giorni)."
+        ),
+        "vademecum": (
+            "- GUIDA TIPOLOGIA: La risorsa è il Vademecum NIS operativo. Indica se è stato aggiunto o aggiornato e per quale fase (es. registrazione soggetti)."
+        )
+    }
+    specific_guideline = type_guidelines.get(res_type, "- GUIDA TIPOLOGIA: Descrivi con rigore chirurgico la variazione di contenuto rilevata.")
+
     system_instruction = (
         "Sei un assistente di audit istituzionale per il monitoraggio del portale dell'Agenzia per la Cybersicurezza Nazionale (ACN) e della Direttiva NIS2. "
         "Il tuo unico compito è descrivere con rigore assoluto e precisione chirurgica le modifiche testuali effettuate, evitando qualsiasi allucinazione."
@@ -1091,10 +1168,12 @@ def get_page_ai_summary(name, additions, removals, diff_blocks=None, url=None):
 
     prompt = f"""Analizza le modifiche testuali rilevate sul portale ACN nella risorsa:
 - Nome risorsa: "{name}"
+- Categoria identificata: {res_type.upper()}
 {f'- URL: {url}' if url else ''}
 - Classificazione preliminare: {'Modifica secondaria di layout/navigazione' if is_minor_heuristic else 'Possibile variazione di contenuto'}
+{specific_guideline}
 
-DIFF CONTESTUALE RILEVATO (con contesto prima, testo modificato e contesto dopo):
+DIFF CONTESTUALE RILEVATO (con contesto prima, testo modificato, parole puntuali cambiate e contesto dopo):
 {diff_context_str}
 
 REGOLE TASSATIVE (ANTI-ALLUCINAZIONE):
