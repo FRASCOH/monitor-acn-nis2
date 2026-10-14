@@ -1,5 +1,149 @@
 [
   {
+    "timestamp": "2026-10-14T09:58:22.243395+02:00",
+    "date_formatted": "14/10/2026 09:58",
+    "additions": [
+      "Eseguita l\u2019autenticazione sul portale dei servizi tramite SPID, CIE, CNS, eIDAS o tramite credenziali personali (per il cui rilascio si veda la",
+      "FAQ ACC.1",
+      "), per la fase di censimento del punto di contatto, sar\u00e0 necessario verificare o fornire i seguenti dati:",
+      ", sar\u00e0 necessario disporre del codice fiscale di quest\u2019ultima. Inoltre, qualora il punto di contatto non sia il rappresentante legale del soggetto o un suo procuratore generale censito sul registro delle imprese, sar\u00e0 necessario caricare il titolo giuridico che lo delega a operare per conto del soggetto.",
+      "La conferma dell\u2019associazione dell\u2019utenza del punto di contatto \u00e8 sottoposta alla convalida dell\u2019organizzazione, secondo la procedura telematica indicata nella richiesta inviata al domicilio digitale (PEC) di quest\u2019ultima.",
+      "Il sostituto punto di contatto viene invitato dal punto di contatto, il quale dovr\u00e0 indicare il codice fiscale e un indirizzo e-mail della persona fisica che \u00e8 stata designata dal rappresentante legale per svolgere tale funzione.",
+      "A valle dell\u2019inserimento dei dati soprariportati verr\u00e0 inviata contestualmente sia una PEC al domicilio digitale dell\u2019organizzazione per confermare l\u2019associazione del Sostituto punto di Contatto (link con validit\u00e0 pari a 7 giorni), sia una e-mail al sostituto punto di contatto per procedere con il primo accesso al Portale Servizi tramite SPID, CIE, CNS, eIDAS o accesso con credenziali (per il cui rilascio si veda la",
+      "FAQ ACC.1",
+      "). Al termine del processo di registrazione e associazione all\u2019organizzazione, nella homepage del Portale Servizi, il Sostituto punto di contatto dovr\u00e0 accedere alla pagina \u201cLista inviti\u201d (contenente la lista degli inviti ricevuti ancora in stato \u201cda validare\u201d) e confermare la designazione ricevuta.",
+      "RR.1 Quali sono il ruolo e le responsabilit\u00e0 della segreteria? Come viene designata?",
+      "La segreteria \u00e8 una persona fisica che svolge funzioni di supporto al punto di contatto ed al sostituto per promuovere l\u2019efficace interlocuzione con l\u2019Autorit\u00e0 Nazionale Competente NIS.",
+      "Inoltre, la segreteria potr\u00e0 visualizzare ed aggiornare le informazioni richieste sui Servizi NIS, mentre non potr\u00e0 effettuare le azioni che determinano la trasmissione di comunicazioni inerenti il perfezionamento degli adempimenti di cui al decreto NIS, al domicilio digitale del soggetto NIS o all\u2019Autorit\u00e0 Nazionale Competente NIS.",
+      "La designazione della segreteria non \u00e8 obbligatoria ma la volont\u00e0 di non nominarla deve essere manifestata esplicitamente.",
+      "Qualora l\u2019organizzazione decidesse di designare la segreteria, il punto di contatto (o il sostituto) dovranno invitare la persona fisica che svolger\u00e0 tale ruolo indicandone codice fiscale e indirizzo e-mail.",
+      "A valle dell\u2019inserimento dei dati soprariportati verr\u00e0 inviata una e-mail all\u2019indirizzo digitale fornito nel Portale Servizi per notificare l\u2019avvenuta designazione. All\u2019interno della e-mail sar\u00e0 presente un link (con validit\u00e0 pari a 7 giorni), tramite il quale sar\u00e0 possibile avviare il processo di associazione, previa registrazione della segreteria sul Portale Servizi tramite SPID, CIE, CNS, eIDAS o accesso con credenziali (per il cui rilascio si veda la",
+      "FAQ ACC.1",
+      ").",
+      "Al termine del processo di registrazione e associazione all\u2019organizzazione, nella homepage del Portale Servizi, la segreteria dovr\u00e0 accedere alla pagina \u201cLista inviti\u201d (contenente la lista degli inviti ricevuti ancora in stato \u201cda validare\u201d) e confermare la designazione ricevuta.",
+      "L\u2019associazione della segreteria all\u2019organizzazione designante avverr\u00e0 automaticamente, senza necessit\u00e0 di caricare ulteriore documentazione."
+    ],
+    "removals": [
+      "Eseguita l\u2019autenticazione sul portale dei servizi tramite SPID, CIE o tramite credenziali personali, per la fase di censimento del punto di contatto, sar\u00e0 necessario verificare o fornire i seguenti dati:",
+      ", sar\u00e0 necessario disporre del codice fiscale di quest\u2019ultimo. Inoltre, qualora il punto di contatto non sia il rappresentante legale del soggetto o un suo procuratore generale censito sul registro delle imprese, sar\u00e0 necessario caricare il titolo giuridico che lo delega a operare per conto del soggetto.",
+      "L\u2019associazione dell\u2019utenza del punto di contatto \u00e8 sottoposta alla convalida dell\u2019organizzazione, secondo la procedura telematica indicata nella richiesta inviata al domicilio digitale di quest\u2019ultimo.",
+      "Il sostituto punto di contatto viene invitato dal punto di contatto, il quale dovr\u00e0 indicare il codice fiscale e un indirizzo email della persona fisica che \u00e8 stata designata dal rappresentante legale per svolgere tale funzione.",
+      "A valle dell\u2019inserimento dei dati soprariportati verr\u00e0 inviata contestualmente sia una e-mail PEC al domicilio digitale dell\u2019organizzazione per validare l\u2019associazione del Sostituto punto di Contatto sia una e-mail al sostituto punto di contatto per procedere con il primo accesso al Portale Servizi tramite SPID o accesso con credenziali. Al termine del processo di registrazione e associazione all\u2019organizzazione, nella homepage del Portale Servizi, il Sostituto punto di contatto dovr\u00e0 accedere alla pagina \u201cLista inviti\u201d (contenente la lista degli inviti ricevuti ancora in stato \u201cda validare\u201d) e confermare la designazione ricevuta.",
+      "RR.1 Quale \u00e8 il ruolo e le responsabilit\u00e0 della segreteria? Come viene designata?",
+      "La Segreteria \u00e8 una persona fisica che svolge funzioni di supporto al punto di contatto ed al sostituto per promuovere l\u2019efficace interlocuzione con l\u2019Autorit\u00e0 Nazionale Competente NIS.",
+      "Inoltre, la segreteria potr\u00e0 visualizzare ed aggiornare le informazioni richieste sui Servizi NIS mentre non potr\u00e0 effettuare le azioni che determinano la trasmissione di comunicazioni inerenti il perfezionamento degli adempimenti di cui al decreto NIS, al domicilio digitale del soggetto NIS o all\u2019Autorit\u00e0 Nazionale Competente NIS.",
+      "La designazione della Segreteria non \u00e8 obbligatoria ma la volont\u00e0 di non nominarla deve essere manifestata esplicitamente.",
+      "Qualora l\u2019organizzazione decidesse di designare la segreteria, il punto di contatto (o il sostituto) dovranno invitare la persona fisica che svolger\u00e0 tale ruolo indicandone codice fiscale e indirizzo email",
+      "A valle dell\u2019inserimento dei dati soprariportati verr\u00e0 inviata una e-mail all\u2019indirizzo digitale fornito nel Portale Servizi per notificare l\u2019avvenuta designazione. All\u2019interno della e-mail sar\u00e0 presente un link (con validit\u00e0 pari a 7 giorni), tramite il quale sar\u00e0 possibile avviare il processo di associazione, previa registrazione della Segreteria sul Portale Servizi tramite SPID o accesso con credenziali.",
+      "Al termine del processo di registrazione e associazione all\u2019organizzazione, nella homepage del Portale Servizi, la Segreteria dovr\u00e0 accedere alla pagina \u201cLista inviti\u201d (contenente la lista degli inviti ricevuti ancora in stato \u201cda validare\u201d) e confermare la designazione ricevuta.",
+      "L\u2019associazione della Segreteria all\u2019organizzazione designante avverr\u00e0 automaticamente, senza necessit\u00e0 di caricare ulteriore documentazione."
+    ],
+    "is_minor": false,
+    "ai_summary": "Pubblicato nuovo decreto: \"Inoltre, la segreteria potr\u00e0 visualizzare ed aggiornare le informazioni richieste sui Servizi NIS, mentre non potr\u00e0 e...\".",
+    "diff_blocks": [
+      {
+        "type": "replace",
+        "context_pre": [
+          "Determinazione ACN 379887/2025",
+          "il sostituto punto di contatto \u00e8 una persona fisica designata con le medesime modalit\u00e0 del punto di contatto ai sensi dell\u2019articolo 4 della medesima determinazione. Il sostituto punto di contatto supporta il punto di contatto nell\u2019esercizio delle proprie funzioni, pu\u00f2 interloquire direttamente con l\u2019Autorit\u00e0 nazionale competente NIS e pu\u00f2 effettuare sul Portale NIS/Aggiornamento annuale le medesime azioni del punto di contatto.",
+          "PDC.5 Come si procede al censimento e all\u2019associazione del punto di contatto?"
+        ],
+        "before": [
+          "Eseguita l\u2019autenticazione sul portale dei servizi tramite SPID, CIE o tramite credenziali personali, per la fase di censimento del punto di contatto, sar\u00e0 necessario verificare o fornire i seguenti dati:"
+        ],
+        "after": [
+          "Eseguita l\u2019autenticazione sul portale dei servizi tramite SPID, CIE, CNS, eIDAS o tramite credenziali personali (per il cui rilascio si veda la",
+          "FAQ ACC.1",
+          "), per la fase di censimento del punto di contatto, sar\u00e0 necessario verificare o fornire i seguenti dati:"
+        ],
+        "context_post": [
+          "nome e cognome;",
+          "luogo e data di nascita;",
+          "codice fiscale;"
+        ]
+      },
+      {
+        "type": "replace",
+        "context_pre": [
+          "ove disponibile, un numero alternativo di telefono, preferibilmente individuale di servizio, aziendale o professionale.",
+          "Successivamente, per la fase di",
+          "associazione del punto di contatto all\u2019organizzazione"
+        ],
+        "before": [
+          ", sar\u00e0 necessario disporre del codice fiscale di quest\u2019ultimo. Inoltre, qualora il punto di contatto non sia il rappresentante legale del soggetto o un suo procuratore generale censito sul registro delle imprese, sar\u00e0 necessario caricare il titolo giuridico che lo delega a operare per conto del soggetto.",
+          "L\u2019associazione dell\u2019utenza del punto di contatto \u00e8 sottoposta alla convalida dell\u2019organizzazione, secondo la procedura telematica indicata nella richiesta inviata al domicilio digitale di quest\u2019ultimo."
+        ],
+        "after": [
+          ", sar\u00e0 necessario disporre del codice fiscale di quest\u2019ultima. Inoltre, qualora il punto di contatto non sia il rappresentante legale del soggetto o un suo procuratore generale censito sul registro delle imprese, sar\u00e0 necessario caricare il titolo giuridico che lo delega a operare per conto del soggetto.",
+          "La conferma dell\u2019associazione dell\u2019utenza del punto di contatto \u00e8 sottoposta alla convalida dell\u2019organizzazione, secondo la procedura telematica indicata nella richiesta inviata al domicilio digitale (PEC) di quest\u2019ultima."
+        ],
+        "context_post": [
+          "PDC.6 Come si procede al censimento e all\u2019associazione del sostituto punto di contatto?",
+          "Il sostituto punto di contatto viene invitato dal punto di contatto, il quale dovr\u00e0 indicare il codice fiscale e un indirizzo email della persona fisica che \u00e8 stata designata dal rappresentante legale per svolgere tale funzione.",
+          "A valle dell\u2019inserimento dei dati soprariportati verr\u00e0 inviata contestualmente sia una e-mail PEC al domicilio digitale dell\u2019organizzazione per validare l\u2019associazione del Sostituto punto di Contatto sia una e-mail al sostituto punto di contatto per procedere con il primo accesso al Portale Servizi tramite SPID o accesso con credenziali. Al termine del processo di registrazione e associazione all\u2019organizzazione, nella homepage del Portale Servizi, il Sostituto punto di contatto dovr\u00e0 accedere alla pagina \u201cLista inviti\u201d (contenente la lista degli inviti ricevuti ancora in stato \u201cda validare\u201d) e confermare la designazione ricevuta."
+        ]
+      },
+      {
+        "type": "replace",
+        "context_pre": [
+          ", sar\u00e0 necessario disporre del codice fiscale di quest\u2019ultimo. Inoltre, qualora il punto di contatto non sia il rappresentante legale del soggetto o un suo procuratore generale censito sul registro delle imprese, sar\u00e0 necessario caricare il titolo giuridico che lo delega a operare per conto del soggetto.",
+          "L\u2019associazione dell\u2019utenza del punto di contatto \u00e8 sottoposta alla convalida dell\u2019organizzazione, secondo la procedura telematica indicata nella richiesta inviata al domicilio digitale di quest\u2019ultimo.",
+          "PDC.6 Come si procede al censimento e all\u2019associazione del sostituto punto di contatto?"
+        ],
+        "before": [
+          "Il sostituto punto di contatto viene invitato dal punto di contatto, il quale dovr\u00e0 indicare il codice fiscale e un indirizzo email della persona fisica che \u00e8 stata designata dal rappresentante legale per svolgere tale funzione.",
+          "A valle dell\u2019inserimento dei dati soprariportati verr\u00e0 inviata contestualmente sia una e-mail PEC al domicilio digitale dell\u2019organizzazione per validare l\u2019associazione del Sostituto punto di Contatto sia una e-mail al sostituto punto di contatto per procedere con il primo accesso al Portale Servizi tramite SPID o accesso con credenziali. Al termine del processo di registrazione e associazione all\u2019organizzazione, nella homepage del Portale Servizi, il Sostituto punto di contatto dovr\u00e0 accedere alla pagina \u201cLista inviti\u201d (contenente la lista degli inviti ricevuti ancora in stato \u201cda validare\u201d) e confermare la designazione ricevuta."
+        ],
+        "after": [
+          "Il sostituto punto di contatto viene invitato dal punto di contatto, il quale dovr\u00e0 indicare il codice fiscale e un indirizzo e-mail della persona fisica che \u00e8 stata designata dal rappresentante legale per svolgere tale funzione.",
+          "A valle dell\u2019inserimento dei dati soprariportati verr\u00e0 inviata contestualmente sia una PEC al domicilio digitale dell\u2019organizzazione per confermare l\u2019associazione del Sostituto punto di Contatto (link con validit\u00e0 pari a 7 giorni), sia una e-mail al sostituto punto di contatto per procedere con il primo accesso al Portale Servizi tramite SPID, CIE, CNS, eIDAS o accesso con credenziali (per il cui rilascio si veda la",
+          "FAQ ACC.1",
+          "). Al termine del processo di registrazione e associazione all\u2019organizzazione, nella homepage del Portale Servizi, il Sostituto punto di contatto dovr\u00e0 accedere alla pagina \u201cLista inviti\u201d (contenente la lista degli inviti ricevuti ancora in stato \u201cda validare\u201d) e confermare la designazione ricevuta."
+        ],
+        "context_post": [
+          "PDC.7 Chi possono delegare come Punto di contatto i soggetti che sono tenuti a designare un rappresentante nell\u2019Unione?",
+          "Ai sensi dell'articolo 4, comma 2, della",
+          "Determinazione ACN 379887/2025"
+        ]
+      },
+      {
+        "type": "replace",
+        "context_pre": [
+          "dal rappresentante NIS stesso, qualora sia una persona fisica;",
+          "dal rappresentante legale, da uno dei procuratori generali o da un dipendente del rappresentante NIS stesso, qualora quest\u2019ultimo sia una persona giuridica.",
+          "Rimane ferma la facolt\u00e0, ai sensi del comma 3 del medesimo articolo, per le organizzazioni che fanno parte di un gruppo di imprese di designare quale Punto di contatto il dipendente di un'altra impresa che rientra nell\u2019ambito di applicazione del decreto NIS e che fa parte del medesimo gruppo di imprese."
+        ],
+        "before": [
+          "RR.1 Quale \u00e8 il ruolo e le responsabilit\u00e0 della segreteria? Come viene designata?",
+          "La Segreteria \u00e8 una persona fisica che svolge funzioni di supporto al punto di contatto ed al sostituto per promuovere l\u2019efficace interlocuzione con l\u2019Autorit\u00e0 Nazionale Competente NIS.",
+          "Inoltre, la segreteria potr\u00e0 visualizzare ed aggiornare le informazioni richieste sui Servizi NIS mentre non potr\u00e0 effettuare le azioni che determinano la trasmissione di comunicazioni inerenti il perfezionamento degli adempimenti di cui al decreto NIS, al domicilio digitale del soggetto NIS o all\u2019Autorit\u00e0 Nazionale Competente NIS.",
+          "La designazione della Segreteria non \u00e8 obbligatoria ma la volont\u00e0 di non nominarla deve essere manifestata esplicitamente.",
+          "Qualora l\u2019organizzazione decidesse di designare la segreteria, il punto di contatto (o il sostituto) dovranno invitare la persona fisica che svolger\u00e0 tale ruolo indicandone codice fiscale e indirizzo email",
+          "A valle dell\u2019inserimento dei dati soprariportati verr\u00e0 inviata una e-mail all\u2019indirizzo digitale fornito nel Portale Servizi per notificare l\u2019avvenuta designazione. All\u2019interno della e-mail sar\u00e0 presente un link (con validit\u00e0 pari a 7 giorni), tramite il quale sar\u00e0 possibile avviare il processo di associazione, previa registrazione della Segreteria sul Portale Servizi tramite SPID o accesso con credenziali.",
+          "Al termine del processo di registrazione e associazione all\u2019organizzazione, nella homepage del Portale Servizi, la Segreteria dovr\u00e0 accedere alla pagina \u201cLista inviti\u201d (contenente la lista degli inviti ricevuti ancora in stato \u201cda validare\u201d) e confermare la designazione ricevuta.",
+          "L\u2019associazione della Segreteria all\u2019organizzazione designante avverr\u00e0 automaticamente, senza necessit\u00e0 di caricare ulteriore documentazione."
+        ],
+        "after": [
+          "RR.1 Quali sono il ruolo e le responsabilit\u00e0 della segreteria? Come viene designata?",
+          "La segreteria \u00e8 una persona fisica che svolge funzioni di supporto al punto di contatto ed al sostituto per promuovere l\u2019efficace interlocuzione con l\u2019Autorit\u00e0 Nazionale Competente NIS.",
+          "Inoltre, la segreteria potr\u00e0 visualizzare ed aggiornare le informazioni richieste sui Servizi NIS, mentre non potr\u00e0 effettuare le azioni che determinano la trasmissione di comunicazioni inerenti il perfezionamento degli adempimenti di cui al decreto NIS, al domicilio digitale del soggetto NIS o all\u2019Autorit\u00e0 Nazionale Competente NIS.",
+          "La designazione della segreteria non \u00e8 obbligatoria ma la volont\u00e0 di non nominarla deve essere manifestata esplicitamente.",
+          "Qualora l\u2019organizzazione decidesse di designare la segreteria, il punto di contatto (o il sostituto) dovranno invitare la persona fisica che svolger\u00e0 tale ruolo indicandone codice fiscale e indirizzo e-mail.",
+          "A valle dell\u2019inserimento dei dati soprariportati verr\u00e0 inviata una e-mail all\u2019indirizzo digitale fornito nel Portale Servizi per notificare l\u2019avvenuta designazione. All\u2019interno della e-mail sar\u00e0 presente un link (con validit\u00e0 pari a 7 giorni), tramite il quale sar\u00e0 possibile avviare il processo di associazione, previa registrazione della segreteria sul Portale Servizi tramite SPID, CIE, CNS, eIDAS o accesso con credenziali (per il cui rilascio si veda la",
+          "FAQ ACC.1",
+          ").",
+          "Al termine del processo di registrazione e associazione all\u2019organizzazione, nella homepage del Portale Servizi, la segreteria dovr\u00e0 accedere alla pagina \u201cLista inviti\u201d (contenente la lista degli inviti ricevuti ancora in stato \u201cda validare\u201d) e confermare la designazione ricevuta.",
+          "L\u2019associazione della segreteria all\u2019organizzazione designante avverr\u00e0 automaticamente, senza necessit\u00e0 di caricare ulteriore documentazione."
+        ],
+        "context_post": [
+          "RR.2 Quale \u00e8 il ruolo e le responsabilit\u00e0 degli operatori? Come vengono designati?",
+          "Gli operatori sono una o pi\u00f9 persone fisiche che svolgono funzioni di supporto al punto di contatto (e al sostituto) operando sui servizi NIS.",
+          "La designazione di uno o pi\u00f9 operatori non \u00e8 obbligatoria."
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-09-28T16:33:56.316062+02:00",
     "date_formatted": "28/09/2026 16:33",
     "additions": [
@@ -17,60 +161,5 @@
     ],
     "removals": [],
     "is_minor": true
-  },
-  {
-    "timestamp": "2026-07-14T10:07:40.304885+02:00",
-    "date_formatted": "14/07/2026 10:07",
-    "additions": [
-      "ODA.8 Gli organi di amministrazione e gli organi direttivi dei soggetti essenziali e dei soggetti importanti all\u2019articolo 23, commi 1 e 2 del decreto NIS possono delegare al proprio interno lo svolgimento delle attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS?",
-      "Si, \u00e8 possibile conferire tale delega ferma restando in capo agli organi di amministrazione e agli organi direttivi dei soggetti essenziali e dei soggetti importanti la responsabilit\u00e0 ai sensi dell\u2019articolo 23 del decreto NIS di (i) approvare le modalit\u00e0 di implementazione delle misure di gestione dei rischi per la sicurezza informatica di cui alla",
-      "Determinazione ACN 379907/2025",
-      "(comma 1, lett. a)); (ii) sovrintendere alla loro implementazione (comma 1, lett. b)); (iii) essere responsabili delle violazioni di cui al decreto NIS (comma 1, lett. c)); (iv) seguire una formazione in materia di sicurezza informatica (comma 2, lett. a)); (v) promuovere l\u2019offerta periodica di formazione per i dipendenti coerente con quella seguita dagli organi di amministrazione e dagli organi direttivi (comma 2, lett. b)).",
-      "Tale delega non pu\u00f2 riguardare l\u2019approvazione dei documenti di cui all\u2019articolo 23, comma 1, lett. a), e 2 del decreto NIS, riportati sotto forma tabellare nell\u2019appendice C della guida alla lettura delle specifiche di base (vds. ODA.10) che resta in capo unicamente ed esclusivamente agli organi di amministrazione e direttivi del soggetto NIS (sulla cui individuazione si vedano le ODA.1, ODA.3, ODA.5 e ODA.6), nella loro collegialit\u00e0, ovvero all\u2019organo monocratico, ove applicabile. Inoltre, tale obbligo non \u00e8 suscettibile di essere trasferito n\u00e9 a membri specifici, n\u00e9 a distinti organi e funzioni del soggetto NIS, indipendentemente dal modello di",
-      "governance",
-      "societaria adottato.",
-      "ODA.9 L\u2019eventuale delega per lo svolgimento di attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS, pu\u00f2 escludere la responsabilit\u00e0 degli organi di amministrazione e degli organi direttivi ai sensi del predetto articolo?",
-      "In tal caso, ai fini delle responsabilit\u00e0, per le societ\u00e0, resta fermo quanto previsto dagli artt. 2381 c.c. e 2392 c.c.",
-      "Per mera completezza, si precisa che tale rinvio non implica n\u00e9 consente di trasferire in capo a singoli membri degli organi di amministrazione e direttivi, n\u00e9 ad altri organi e funzioni del soggetto NIS, l\u2019adempimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS.",
-      "Difatti, l\u2019introduzione di tali obblighi ha la finalit\u00e0 specifica di elevare la sicurezza informatica a priorit\u00e0 strategica degli organi di amministrazione e direttivi.",
-      "ODA.10 Qual \u00e8 il livello di dettaglio richiesto nei documenti che devono essere approvati dagli organi di amministrazione e direttivi ai fini dell\u2019implementazione delle cd. misure di sicurezza di base?",
-      "I documenti da sottoporre all\u2019approvazione degli organi di amministrazione e direttivi di cui all\u2019articolo 23, comma 1, lett. a) del decreto NIS sono indicati nell\u2019elenco a seguire che riporta tra parentesi il riferimento ai requisiti delle misure di sicurezza che ne impongono l\u2019approvazione:",
-      "Organizzazione per la sicurezza informatica (GV.RR-02 punto 1).",
-      "Politiche di sicurezza informatica (GV.PO-01 punto 3).",
-      "Valutazione del rischio posto alla sicurezza dei sistemi informativi e di rete (ID.RA-05 punto 3).",
-      "Piano di trattamento del rischio (ID.RA-06 punto 3).",
-      "Piano di gestione delle vulnerabilit\u00e0 (ID.RA-08 punto 4).",
-      "Piano di adeguamento (ID.IM-01 punto 1).",
-      "Piano di continuit\u00e0 operativa (ID.IM-04 punto 4).",
-      "Piano di ripristino in caso di disastro (ID.IM-04 punto 4).",
-      "Piano di gestione delle crisi (ID.IM-04 punto 4).",
-      "Piano di formazione (PR.AT-01 punto 2).",
-      "Piano per la gestione degli incidenti di sicurezza informatica (RS.MA-01 punto 2).",
-      "L\u2019elenco dei documenti e dei relativi riferimenti \u00e8 anche riportato sotto forma tabellare nell\u2019appendice C della",
-      "guida alla lettura delle specifiche di base",
-      ".",
-      "Essi devono avere un contenuto minimo coerente con le funzioni tipiche di gestione, indirizzo e pianificazione strategica proprie degli stessi.",
-      "Pertanto, \u00e8 richiesto che tali documenti riflettano e declinino i requisiti delle misure di sicurezza almeno a livello di indirizzo e pianificazione strategica, in modo da consentire agli organi di amministrazione e direttivi di esercitare consapevolmente la propria funzione (v. anche ODA.8 e ODA.9).",
-      "Conseguentemente, il dettaglio tecnico e operativo dei succitati documenti pu\u00f2 essere disciplinato attraverso ulteriori e diversi presidi documentali e organizzativi (e.g., procedure tecniche, istruzioni operative, manuali, documenti e relazioni interne) a cura delle articolazioni competenti del soggetto NIS.",
-      "ODA.11 \u00c8 necessario che gli organi di amministrazione e direttivi approvino anche gli ulteriori e diversi presidi documentali e organizzativi eventualmente referenziati nei documenti di cui alla FAQ ODA.10?",
-      "Non \u00e8 richiesto che gli organi di amministrazione e direttivi approvino gli ulteriori e diversi presidi documentali e organizzativi eventualmente referenziati nei documenti di cui alla FAQ ODA.10.",
-      "Con riferimento all\u2019organizzazione dell\u2019impianto documentale, si osserva infatti che \u2013 come riportato nella",
-      "guida alla lettura delle specifiche di base",
-      "\u2013 il soggetto pu\u00f2 decidere come organizzare la documentazione richiesta raggruppando i contenuti in un unico documento o distribuendoli tra pi\u00f9 documenti.",
-      "In considerazione di quanto sopra, nel caso, ad esempio, del piano per la gestione degli incidenti di sicurezza informatica, non \u00e8 richiesto che tale documento contenga il dettaglio delle pertinenti procedure, ma \u00e8 sufficiente che ne riporti l\u2019elenco con i riferimenti ai relativi documenti.",
-      "ODA.12 Qualora sia aggiornato uno degli ulteriori e diversi presidi documentali e organizzativi referenziati nei documenti approvati dagli organi di amministrazione e direttivi \u00e8 necessario sottoporre nuovamente all\u2019approvazione degli organi di amministrazione e direttivi tali documenti?",
-      "Fermo restando quanto previsto dalla FAQ ODA.10, non \u00e8 richiesto che gli organi di amministrazione e direttivi procedano ad una nuova approvazione dei documenti di cui alla sopracitata FAQ, qualora siano aggiornati gli ulteriori e diversi presidi documentali e organizzativi cui fanno eventualmente riferimento gli stessi documenti.",
-      "ODA.13 Nell\u2019elencazione dei componenti degli organi di amministrazione e direttivi \u00e8 necessario indicare la PEC personale?"
-    ],
-    "removals": [
-      "ODA.8 Gli organi di amministrazione e gli organi direttivi dei soggetti essenziali e dei soggetti importanti possono delegare al proprio interno lo svolgimento delle attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS?",
-      "Si, \u00e8 possibile conferire tale delega ferma restando in capo agli organi di amministrazione e agli organi direttivi dei soggetti essenziali e dei soggetti importanti la responsabilit\u00e0 ai sensi dell\u2019articolo 23 del decreto NIS di (i) approvare le modalit\u00e0 di implementazione  delle misure di gestione dei rischi per la sicurezza informatica di cui alla",
-      "Determinazione ACN 379887/2025",
-      "(comma 1, lett. a)); (ii) sovrintendere alla loro implementazione (comma 1, lett.b)); (iii)  essere responsabili delle violazioni di cui al decreto nis (comma 1, lett. c)); (iv) seguire una formazione in materia di sicurezza informatica (comma 2, lett. a)); (v) promuovere l\u2019offerta periodica di formazione per i dipendenti coerente con quella seguita dagli organi di amministrazione e dagli organi direttivi (comma 2, lett. b)).",
-      "ODA. 9 L\u2019eventuale delega per lo svolgimento di attivit\u00e0 finalizzate all\u2019assolvimento degli obblighi di cui all\u2019articolo 23, commi 1 e 2 del decreto NIS, pu\u00f2 escludere la responsabilit\u00e0 degli organi di amministrazione e degli organi direttivi ai sensi del predetto articolo?",
-      "In tal caso, ai fini delle responsabilit\u00e0, per le societ\u00e0, resta fermo quanto previsto dagli artt. 2381 c.c. e 2392 c.c..",
-      "ODA.10 Nell\u2019elencazione dei componenti degli organi di amministrazione e direttivi \u00e8 necessario indicare la PEC personale?"
-    ],
-    "is_minor": false
   }
 ]
