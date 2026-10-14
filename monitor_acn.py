@@ -1056,9 +1056,26 @@ def format_context_diff_for_prompt(diff_blocks, additions, removals, max_blocks=
                 lines.append(f"+ {a}")
     return "\n".join(lines).strip()
 
+def sanitize_summary(name, summary):
+    """Guardrail di sicurezza anti-allucinazione per eliminare incongruenze semantiche (es. 'decreto' su pagine FAQ)"""
+    if not summary:
+        return summary
+    lower_name = name.lower()
+    
+    # Se la risorsa è una FAQ, impedisce allucinazioni su pubblicazione di decreti o determine
+    if "faq" in lower_name:
+        if re.search(r'\bpubblicat[oa]\s+nuov[oa]\s+(?:decreto|determina|provvedimento)\b', summary, re.I):
+            summary = re.sub(
+                r'Pubblicat[oa]\s+nuov[oa]\s+(?:decreto|determina|provvedimento):\s*',
+                'Aggiornate le FAQ con chiarimenti su: ',
+                summary,
+                flags=re.IGNORECASE
+            )
+    return summary.strip()
+
 def get_page_ai_summary(name, additions, removals, diff_blocks=None, url=None):
     """Genera una frase riassuntiva concettuale di cosa è cambiato usando Gemini 2.0 Flash (con fallback)"""
-    fallback = generate_heuristic_summary(name, additions, removals)
+    fallback = sanitize_summary(name, generate_heuristic_summary(name, additions, removals))
     
     heuristic_class = classify_change(name, additions, removals)
     is_minor_heuristic = heuristic_class.get("is_minor", False)
@@ -1087,6 +1104,7 @@ REGOLE TASSATIVE (ANTI-ALLUCINAZIONE):
    - NON inventare MAI che sono state aggiornate "FAQ", "chiarimenti", "decreti" o "normative" se il testo delle risposte FAQ o delle leggi NON compare tra le righe aggiunte/rimosse!
 3. SE CI SONO DOCUMENTI O ATTI NORMATIVI:
    - Cita il nome esatto o l'oggetto del provvedimento/decreto/vademecum aggiunto o rimosso.
+   - ATTENZIONE: Se la pagina analizzata è una sezione di "FAQ", NON usare MAI "Pubblicato nuovo decreto" o "Pubblicata nuova determina", ma scrivi "Aggiornate le FAQ con chiarimenti su...".
 4. LUNGHEZZA E FORMATO:
    - Genera ESATTAMENTE UNA SOLA FRASE (massimo 20-25 parole).
    - Nessun commento introduttivo, nessuna spiegazione preliminare, nessuna virgoletta. Solo la frase pura in italiano.
@@ -1100,16 +1118,18 @@ ESEMPI GUIDA:
   -> Risposta: Pubblicata la nuova Determina n. 456 recante le linee guida operative.
 - Diff: [TESTO RIMOSSO (-)]: La scadenza è fissata al 31 dicembre [NUOVO TESTO AGGIUNTO (+)]: La scadenza è prorogata al 28 febbraio
   -> Risposta: Prorogata al 28 febbraio la scadenza per gli adempimenti previsti.
+- Diff su FAQ: [NUOVO TESTO AGGIUNTO (+)]: Per la designazione della segreteria è necessario...
+  -> Risposta: Aggiornate le FAQ sui ruoli NIS con chiarimenti sulla designazione della segreteria.
 
 Frase riassuntiva:"""
 
-    ai_text = call_gemini_with_fallback(prompt, system_instruction=system_instruction, max_output_tokens=100, temperature=0.1)
+    ai_text = call_gemini_with_fallback(prompt, system_instruction=system_instruction, max_output_tokens=100, temperature=0.0)
     if ai_text:
         ai_text = ai_text.replace("\n", " ").strip()
         if (ai_text.startswith('"') and ai_text.endswith('"')) or (ai_text.startswith("'") and ai_text.endswith("'")):
             ai_text = ai_text[1:-1].strip()
         if ai_text:
-            return ai_text
+            return sanitize_summary(name, ai_text)
             
     return fallback
 
@@ -1134,6 +1154,7 @@ def get_ai_summary(results_with_changes):
         p_summary = (r.get("ai_summary") or "").strip()
         if not p_summary:
             p_summary = generate_heuristic_summary(r.get("name", ""), r.get("additions", []), r.get("removals", []))
+        p_summary = sanitize_summary(r.get("name", ""), p_summary)
         page_summaries.append(f"• {r.get('name')}: {p_summary}")
         
     if minor_results:
@@ -1155,16 +1176,16 @@ def get_ai_summary(results_with_changes):
 REGOLE RIGIDE:
 1. Dai priorità assoluta alle novità normative e operative (es. nuovi vademecum, decreti, faq sostanziali).
 2. Se sono presenti modifiche minori o tecniche di layout/navigazione, accennale solo brevemente come aggiornamento secondario o strutturale.
-3. NON inventare contenuti normativi non presenti nei dati.
+3. NON inventare contenuti normativi non presenti nei dati. Se una novità riguarda una FAQ, descrivila come chiarimento FAQ e NON come un nuovo decreto.
 4. Usa il grassetto HTML (<b>...</b>) per evidenziare i concetti o documenti chiave.
 5. Rispondi in italiano. Restituisci SOLO il testo della sintesi senza preamboli.
 """
-    ai_text = call_gemini_with_fallback(prompt, system_instruction=system_instruction, max_output_tokens=150, temperature=0.1)
+    ai_text = call_gemini_with_fallback(prompt, system_instruction=system_instruction, max_output_tokens=150, temperature=0.0)
     if ai_text:
         return ai_text.strip()
         
     if len(major_results) == 1 and not minor_results:
-        return major_results[0].get("ai_summary") or fallback
+        return sanitize_summary(major_results[0].get("name", ""), major_results[0].get("ai_summary") or fallback)
     return fallback
 
 def generate_summary_report(results_with_changes, ai_summary=None):
