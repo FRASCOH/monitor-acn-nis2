@@ -1090,9 +1090,11 @@ def format_context_diff_for_prompt(diff_blocks, additions, removals, max_blocks=
             if block.get("type") == "replace" and bef and aft:
                 w_add, w_rem = compute_word_diff(block.get("before", []), block.get("after", []))
                 if w_rem:
-                    lines.append(f"[PAROLE SPECIFICHE RIMOSSE]: {', '.join(f'\"{w}\"' for w in w_rem[:6])}")
+                    rem_str = ", ".join(f'"{w}"' for w in w_rem[:6])
+                    lines.append(f"[PAROLE SPECIFICHE RIMOSSE]: {rem_str}")
                 if w_add:
-                    lines.append(f"[PAROLE SPECIFICHE AGGIUNTE]: {', '.join(f'\"{w}\"' for w in w_add[:6])}")
+                    add_str = ", ".join(f'"{w}"' for w in w_add[:6])
+                    lines.append(f"[PAROLE SPECIFICHE AGGIUNTE]: {add_str}")
 
             if ctx_post:
                 lines.append(f"[CONTESTO SUCCESSIVO]:\n{ctx_post}")
