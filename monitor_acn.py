@@ -724,50 +724,71 @@ def generate_heuristic_summary(name, additions, removals):
     if nav_matches:
         return f"Aggiornamento di navigazione: aggiunta voce '{nav_matches[0]}' nel percorso breadcrumb."
 
-    # Riconoscimento prioritario per Vademecum (es. Home e Registrazione)
+    # PRIORITÀ 1: Se la pagina fa parte delle FAQ NIS (evita categorizzazioni errate come 'decreto')
+    if "faq" in name.lower():
+        clean_faq_name = name.replace("FAQ NIS (Parent)", "NIS").replace("FAQ NIS:", "").replace("FAQ NIS", "").strip()
+        full_adds_text = " ".join(clean_adds).lower()
+        
+        # Individua gli argomenti salienti trattati nelle modifiche
+        topics = []
+        if any(w in full_adds_text for w in ["spid", "cie", "cns", "eidas", "credenziali"]):
+            topics.append("credenziali di accesso (SPID, CIE, CNS, eIDAS)")
+        if any(w in full_adds_text for w in ["segreteria", "ruolo della segreteria", "designazione della segreteria"]):
+            topics.append("ruolo e designazione della segreteria")
+        if any(w in full_adds_text for w in ["punto di contatto", "sostituto"]):
+            topics.append("punto di contatto e sostituto")
+        if any(w in full_adds_text for w in ["pec", "domicilio digitale", "7 giorni"]):
+            topics.append("procedura di convalida PEC (link 7 giorni)")
+            
+        faq_codes = list(dict.fromkeys(re.findall(r'\b([A-Z]{2,4}\.\d+)\b', " ".join(clean_adds))))
+        code_str = f" [{', '.join(faq_codes[:3])}]" if faq_codes else ""
+
+        if topics:
+            return f"Aggiornate le FAQ {clean_faq_name}{code_str}: chiarimenti su {', '.join(topics)}."
+            
+        faq_matches = [a for a in clean_adds if re.search(r'([A-Z]{2,4}\.\d+|\bfaq\b|\bdomanda\b|\?)', a, re.I)]
+        if faq_matches:
+            sample = faq_matches[0][:90]
+            return f"Aggiornate le FAQ {clean_faq_name}{code_str} con chiarimenti su: \"{sample}\"."
+        
+        if clean_adds and all(len(a) < 30 for a in clean_adds):
+            sample = ", ".join(f"'{a}'" for a in clean_adds[:2])
+            return f"Piccola modifica strutturale/testuale nella sezione FAQ {clean_faq_name} ({sample})."
+            
+        return f"Aggiornati i testi informativi e le risposte nella sezione FAQ {clean_faq_name}."
+
+    # PRIORITÀ 2: Vademecum NIS
     if any("vademecum" in a.lower() for a in clean_adds):
         if "registrazione" in name.lower():
             return "Aggiunto il Vademecum NIS e aggiornate le date per la registrazione obbligatoria dei soggetti (dal 1° gennaio al 28 febbraio)."
         return "Aggiunto il link per scaricare il nuovo Vademecum NIS operativo."
 
-    # Cerca atti e documenti normativi specifici nelle aggiunte
-    norm_keywords = [
-        ("vademecum", "Aggiunto nuovo vademecum operativo"),
-        ("linee guida", "Pubblicate nuove linee guida"),
-        ("linea guida", "Pubblicata nuova linea guida"),
-        ("decreto", "Pubblicato nuovo decreto"),
-        ("determina", "Pubblicata nuova determina"),
-        ("regolamento", "Aggiornato il regolamento"),
-        ("circolare", "Pubblicata nuova circolare"),
-        ("avviso", "Pubblicato nuovo avviso"),
-        ("modello", "Aggiunto nuovo modello / modulo"),
-        ("modulo", "Aggiunto nuovo modello / modulo"),
-        ("allegato", "Aggiunto nuovo allegato tecnico"),
-        ("disciplina", "Aggiornata la disciplina"),
-    ]
+    # PRIORITÀ 3: Atti e documenti normativi reali (solo se formali o in sezioni normative)
+    is_normative_section = any(k in name.lower() for k in ["atti", "normativ", "decret", "determin", "provvediment"])
     
     for add in clean_adds:
-        lower_add = add.lower()
-        for kw, prefix in norm_keywords:
-            if kw in lower_add and len(add) > 10:
-                trimmed = add if len(add) <= 120 else add[:117] + "..."
-                return f"{prefix}: \"{trimmed}\"."
-                
-    # Se ci sono FAQ: verifichiamo che siano EFFETTIVAMENTE modifiche a domande/risposte
-    if "faq" in name.lower():
-        faq_matches = [a for a in clean_adds if re.search(r'([A-Z]{2,4}\.\d+|\bfaq\b|\bdomanda\b|\?)', a, re.I)]
-        if faq_matches:
-            sample = faq_matches[0][:90]
-            return f"Aggiornate le FAQ con chiarimenti su: \"{sample}\"."
-        
-        # Se le aggiunte sono solo frammenti corti di navigazione/struttura
-        if clean_adds and all(len(a) < 30 for a in clean_adds):
-            sample = ", ".join(f"'{a}'" for a in clean_adds[:2])
-            return f"Piccola modifica strutturale/testuale nella sezione FAQ ({sample})."
+        add_lower = add.lower()
+        # Non considerare semplici menzioni discorsive come "ai sensi del decreto..." o "di cui al decreto..."
+        if add_lower.startswith("di cui al") or add_lower.startswith("ai sensi del") or add_lower.startswith("inoltre"):
+            continue
             
-        clean_faq_name = name.replace("FAQ NIS (Parent)", "NIS").replace("FAQ NIS:", "").replace("FAQ NIS", "").strip()
-        if clean_adds:
-            return f"Aggiornati i testi informativi nella sezione FAQ {clean_faq_name}."
+        is_formal_title = bool(re.search(r'^\s*(?:decreto|determina|circolare|delibera|avviso)\b', add_lower))
+        if (is_formal_title or is_normative_section) and len(add) > 10:
+            trimmed = add if len(add) <= 120 else add[:117] + "..."
+            if "decreto" in add_lower:
+                return f"Pubblicato nuovo decreto: \"{trimmed}\"."
+            elif "determina" in add_lower:
+                return f"Pubblicata nuova determina: \"{trimmed}\"."
+            elif "linee guida" in add_lower or "linea guida" in add_lower:
+                return f"Pubblicate nuove linee guida: \"{trimmed}\"."
+            elif "circolare" in add_lower:
+                return f"Pubblicata nuova circolare: \"{trimmed}\"."
+            elif "avviso" in add_lower:
+                return f"Pubblicato nuovo avviso: \"{trimmed}\"."
+            elif "regolamento" in add_lower:
+                return f"Aggiornato il regolamento: \"{trimmed}\"."
+            elif "disciplina" in add_lower:
+                return f"Aggiornata la disciplina: \"{trimmed}\"."
 
     # Se ci sono solo rimozioni
     if not clean_adds and clean_rems:

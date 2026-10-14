@@ -1705,24 +1705,18 @@
             if (textAll.includes('ti trovi in') || textAll.includes('breadcrumb')) {
                 return "Aggiornamento navigazione: introdotta la voce 'Ti trovi in' nel percorso breadcrumb.";
             }
-            if (textAll.includes('vademecum')) {
-                if ((p.name || '').includes('Registrazione')) {
-                    return "Aggiunto il link per scaricare il Vademecum NIS e aggiornate le indicazioni per la registrazione obbligatoria dei soggetti (dal 1° gennaio al 28 febbraio).";
-                }
-                return "Aggiunto il link per scaricare il nuovo Vademecum NIS operativo.";
-            }
-            if (textAll.includes('decreto')) {
-                const decLine = adds.find(a => a.toLowerCase().includes('decreto')) || '';
-                return decLine ? `Pubblicato nuovo decreto: "${decLine}".` : "Pubblicato nuovo decreto sul portale.";
-            }
-            if (textAll.includes('determina')) {
-                const detLine = adds.find(a => a.toLowerCase().includes('determina')) || '';
-                return detLine ? `Pubblicata nuova determina: "${detLine}".` : "Pubblicata nuova determina sul portale.";
-            }
-            if (textAll.includes('linee guida') || textAll.includes('linea guida')) {
-                return "Pubblicate nuove linee guida operative per la conformità NIS2.";
-            }
+
+            // PRIORITÀ 1: Sezione FAQ NIS
             if ((p.name || '').toLowerCase().includes('faq')) {
+                const topics = [];
+                if (/spid|cie|cns|eidas|credenziali/i.test(textAll)) topics.push("credenziali di accesso (SPID, CIE, CNS, eIDAS)");
+                if (/segreteria/i.test(textAll)) topics.push("ruolo e designazione della segreteria");
+                if (/punto di contatto|sostituto/i.test(textAll)) topics.push("punto di contatto e sostituto");
+                if (/pec|domicilio digitale|7 giorni/i.test(textAll)) topics.push("convalida PEC (link valido 7 giorni)");
+
+                if (topics.length > 0) {
+                    return `Aggiornate le FAQ: chiarimenti su ${topics.join(', ')}.`;
+                }
                 const hasSubstantialText = adds.some(a => a.length > 40 || a.includes('?'));
                 if (hasSubstantialText) {
                     return "Aggiornate le risposte e i chiarimenti normativi nella sezione FAQ.";
@@ -1731,6 +1725,28 @@
                     return `Piccolo ritocco strutturale/testuale nella sezione FAQ: "${adds[0]}".`;
                 }
                 return "Aggiornati i testi informativi nella sezione FAQ.";
+            }
+
+            // PRIORITÀ 2: Vademecum NIS
+            if (textAll.includes('vademecum')) {
+                if ((p.name || '').includes('Registrazione')) {
+                    return "Aggiunto il link per scaricare il Vademecum NIS e aggiornate le indicazioni per la registrazione obbligatoria dei soggetti (dal 1° gennaio al 28 febbraio).";
+                }
+                return "Aggiunto il link per scaricare il nuovo Vademecum NIS operativo.";
+            }
+
+            // PRIORITÀ 3: Atti e provvedimenti normativi formali
+            const isNormative = /atti|normativ|decret|determin/i.test(p.name || '');
+            const decLine = adds.find(a => /decreto/i.test(a) && !/^(inoltre|di cui al|ai sensi del)/i.test(a.trim()));
+            if (decLine && (isNormative || /^\s*decreto/i.test(decLine))) {
+                return `Pubblicato nuovo decreto: "${decLine}".`;
+            }
+            const detLine = adds.find(a => /determina/i.test(a) && !/^(inoltre|di cui al|ai sensi del)/i.test(a.trim()));
+            if (detLine && (isNormative || /^\s*determina/i.test(detLine))) {
+                return `Pubblicata nuova determina: "${detLine}".`;
+            }
+            if ((isNormative || adds.some(a => /^\s*linee?\s+guida/i.test(a))) && (textAll.includes('linee guida') || textAll.includes('linea guida'))) {
+                return "Pubblicate nuove linee guida operative per la conformità NIS2.";
             }
             if (p.summary && !p.summary.includes('aggiunte') && !p.summary.includes('rimozioni')) {
                 return p.summary;

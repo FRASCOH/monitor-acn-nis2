@@ -1,6 +1,6 @@
 {
   "last_update": "14/10/2026 09:58",
-  "global_summary": "Pubblicato nuovo decreto: \"Inoltre, la segreteria potr\u00e0 visualizzare ed aggiornare le informazioni richieste sui Servizi NIS, mentre non potr\u00e0 e...\".",
+  "global_summary": "Aggiornate le FAQ NIS su ruoli e procedure: chiarimenti su autenticazione Punto di Contatto (SPID, CIE, CNS, eIDAS), ruolo della Segreteria e validità di 7 giorni per i link di associazione PEC.",
   "pages": [
     {
       "id": "atti_generali",
@@ -1135,7 +1135,7 @@
       "status": "Modificato",
       "has_changes": true,
       "has_history": true,
-      "summary": "Pubblicato nuovo decreto: \"Inoltre, la segreteria potr\u00e0 visualizzare ed aggiornare le informazioni richieste sui Servizi NIS, mentre non potr\u00e0 e...\".",
+      "summary": "Aggiornate le FAQ su ruoli e procedure (PDC e Segreteria): chiarimenti su credenziali di accesso (SPID, CIE, CNS, eIDAS) e convalida inviti via PEC con link valido 7 giorni.",
       "additions": [
         "Eseguita l\u2019autenticazione sul portale dei servizi tramite SPID, CIE, CNS, eIDAS o tramite credenziali personali (per il cui rilascio si veda la",
         "FAQ ACC.1",
@@ -1277,7 +1277,7 @@
           ]
         }
       ],
-      "ai_summary": "Pubblicato nuovo decreto: \"Inoltre, la segreteria potr\u00e0 visualizzare ed aggiornare le informazioni richieste sui Servizi NIS, mentre non potr\u00e0 e...\"."
+      "ai_summary": "Aggiornate le FAQ su ruoli e procedure (PDC e Segreteria): chiarimenti su credenziali di accesso (SPID, CIE, CNS, eIDAS) e convalida inviti via PEC con link valido 7 giorni."
     },
     {
       "id": "faq_nis_ambito",
