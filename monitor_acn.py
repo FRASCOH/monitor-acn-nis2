@@ -223,6 +223,97 @@ def extract_document_list(html_content):
             
     return docs
 
+def parse_scadenze(html_content):
+    """Estrae le scadenze e la timeline da https://www.acn.gov.it/portale/nis/la-normativa"""
+    scadenze = []
+    
+    def clean_txt(t):
+        t = re.sub(r'<br\s*/?>', '\n', t)
+        t = re.sub(r'<[^>]+>', ' ', t)
+        t = html_entity_decode(t)
+        return re.sub(r'\s+', ' ', t).strip()
+
+    def html_entity_decode(s):
+        import html
+        return html.unescape(s)
+
+    # 1. Timeline: Recepimento e attuazione
+    timeline_match = re.search(r'<ol class="timeline[^"]*">(.*?)</ol>', html_content, re.DOTALL)
+    if timeline_match:
+        items = re.split(r'<li class="timeline-item[^>]*>', timeline_match.group(1))[1:]
+        for it in items:
+            label_match = re.search(r'<div class="timeline-label">(.*?)</div>', it, re.DOTALL)
+            title_match = re.search(r'<p class="h5">(.*?)</p>', it, re.DOTALL)
+            phase_label = clean_txt(label_match.group(1)) if label_match else ''
+            phase_title = clean_txt(title_match.group(1)) if title_match else ''
+            
+            lis = re.findall(r'<li>(.*?)</li>', it, re.DOTALL)
+            for li in lis:
+                txt = clean_txt(li)
+                if not txt: 
+                    continue
+                date_part = ''
+                desc_part = txt
+                if ':' in txt:
+                    parts = txt.split(':', 1)
+                    date_part = parts[0].strip()
+                    desc_part = parts[1].strip()
+                elif 'A partire da' in txt:
+                    date_part = txt
+                
+                scadenze.append({
+                    'id': f'timeline_{len(scadenze)+1}',
+                    'source': 'timeline',
+                    'phase': phase_title,
+                    'period': phase_label,
+                    'deadline_text': date_part if date_part else phase_label,
+                    'title': desc_part[:120] if len(desc_part) > 120 else desc_part,
+                    'description': desc_part,
+                    'legal_act': '',
+                    'url': 'https://www.acn.gov.it/portale/nis/la-normativa'
+                })
+                
+    # 2. Tabella: Principali provvedimenti attuativi D.Lgs. 138/2024
+    table_match = re.search(r'<table class="table[^"]*table-acn">(.*?)</table>', html_content, re.DOTALL)
+    if table_match:
+        rows = re.findall(r'<tr>(.*?)</tr>', table_match.group(1), re.DOTALL)
+        current_deadline = ''
+        for r in rows[1:]:
+            tds = re.findall(r'<td([^>]*)>(.*?)</td>', r, re.DOTALL)
+            if len(tds) == 3:
+                current_deadline = clean_txt(tds[0][1])
+                atto_raw = tds[1][1]
+                cont_raw = tds[2][1]
+            elif len(tds) == 2:
+                atto_raw = tds[0][1]
+                cont_raw = tds[1][1]
+            else:
+                continue
+            
+            atto = clean_txt(atto_raw)
+            cont = clean_txt(cont_raw)
+            
+            link_match = re.search(r'href="([^"]+)"', cont_raw)
+            link_url = ''
+            if link_match:
+                link_url = link_match.group(1)
+                if link_url.startswith('/'):
+                    link_url = 'https://www.acn.gov.it' + link_url
+            
+            scadenze.append({
+                'id': f'table_{len(scadenze)+1}',
+                'source': 'provvedimenti',
+                'phase': 'Provvedimenti Attuativi D.Lgs. 138/2024',
+                'period': current_deadline,
+                'deadline_text': current_deadline,
+                'title': cont.split('(')[0].strip() if '(' in cont else cont[:100],
+                'description': cont,
+                'legal_act': atto,
+                'url': link_url if link_url else 'https://www.acn.gov.it/portale/nis/la-normativa'
+            })
+            
+    return scadenze
+
 def discover_links(html, base_url, pattern):
     """Trova link che corrispondono a un pattern"""
     links = re.findall(f'href="({pattern})"', html)
@@ -807,6 +898,59 @@ def send_telegram_notification(results_with_changes, ai_summary):
     except Exception as e:
         print(f"Errore durante l'invio della notifica Telegram: {e}")
 
+def send_onesignal_notification(results_with_changes, ai_summary):
+    """Invia notifica push su dispositivi iOS tramite OneSignal REST API"""
+    app_id = os.environ.get("ONESIGNAL_APP_ID")
+    api_key = os.environ.get("ONESIGNAL_REST_API_KEY")
+
+    if not app_id or not api_key:
+        print("OneSignal App ID o REST API Key non configurati, salto notifica push iOS.")
+        return
+
+    major_results = [r for r in results_with_changes if not r.get("is_minor")]
+    if not major_results:
+        # Non disturbare gli utenti con notifiche push sonore per soli ritocchi di breadcrumb
+        print("Solo modifiche minori rilevate: salto notifica push iOS.")
+        return
+
+    count = len(major_results)
+    title = f"🔔 NIS2 Cyber Monitor ({count} {'novità' if count == 1 else 'novità rilevate'})"
+
+    # Corpo della notifica
+    body = ""
+    if ai_summary:
+        body = ai_summary.strip()
+    else:
+        sample_name = major_results[0].get("name", "Risorsa")
+        sample_sum = major_results[0].get("summary", "Aggiornamento normativo rilevato")
+        body = f"{sample_name}: {sample_sum}"
+
+    # Limita la lunghezza del corpo per le notifiche iOS
+    if len(body) > 180:
+        body = body[:177] + "..."
+
+    headers = {
+        "Authorization": f"Basic {api_key}",
+        "Content-Type": "application/json; charset=utf-8"
+    }
+
+    payload = {
+        "app_id": app_id,
+        "included_segments": ["Subscribed Users", "All"],
+        "headings": {"it": title, "en": title},
+        "contents": {"it": body, "en": body},
+        "ios_badgeType": "Increase",
+        "ios_badgeCount": 1,
+        "ios_sound": "default"
+    }
+
+    try:
+        response = requests.post("https://onesignal.com/api/v1/notifications", json=payload, headers=headers, timeout=15)
+        response.raise_for_status()
+        print(f"📲 Notifica push iOS OneSignal inviata con successo! (ID: {response.json().get('id')})")
+    except Exception as e:
+        print(f"❌ Errore durante l'invio della notifica OneSignal: {e}")
+
 def call_gemini_with_fallback(prompt, system_instruction=None, max_output_tokens=150, temperature=0.1):
     """
     Esegue una chiamata all'API Gemini provando prioritariamente 'gemini-2.0-flash',
@@ -1157,6 +1301,11 @@ def monitor_page(page_config):
         result["atti_list"] = extract_document_list(raw_content)
         print(f"📊 Estratti {len(result['atti_list'])} documenti dalla lista atti")
 
+    # Se è la pagina NIS La Normativa, estraiamo le scadenze e la timeline NIS2
+    if "nis/la-normativa" in url:
+        result["scadenze"] = parse_scadenze(raw_content)
+        print(f"📅 Estratte {len(result['scadenze'])} scadenze NIS2")
+
     # Scoperta sub-pagine e PDF (solo per pagine HTML)
     discovered_urls = []
     if not is_pdf:
@@ -1435,6 +1584,9 @@ def main():
         
         # Invia Telegram
         send_telegram_notification(results_with_changes, ai_summary)
+
+        # Invia Notifiche Push iOS (OneSignal)
+        send_onesignal_notification(results_with_changes, ai_summary)
     else:
         print("\n✅ Nessuna nuova modifica rilevante da notificare.")
 
@@ -1450,12 +1602,19 @@ def main():
 
     current_global_summary = ai_summary if (results_with_changes or new_resources) and ai_summary else existing_global_summary
 
+    # Recupera scadenze estratte
+    all_scadenze = []
+    for p in all_results:
+        if p.get("scadenze"):
+            all_scadenze.extend(p["scadenze"])
+
     # Salva risultati per la dashboard
     try:
         with open("status.json", "w", encoding="utf-8") as f:
             json.dump({
                 "last_update": get_now().strftime('%d/%m/%Y %H:%M'),
                 "global_summary": current_global_summary,
+                "scadenze": all_scadenze,
                 "pages": all_results
             }, f, indent=2)
         print("\n✅ status.json aggiornato correttamente")
