@@ -1,5 +1,117 @@
 [
   {
+    "timestamp": "2026-10-14T15:25:15.490702+02:00",
+    "date_formatted": "14/10/2026 15:25",
+    "additions": [
+      "ACC.1 Quale \u00e8 la procedura per la richiesta di credenziali di accesso al portale ACN per gli utenti che non possono disporre di SPID, CIE, CNS o eIDAS?",
+      ", qualora, ai sensi della normativa vigente, un utente che non possa disporre di credenziali SPID/CIE/CNS/eIDAS, pu\u00f2 richiedere delle credenziali personali per autenticarsi al Portale dei servizi di ACN.",
+      "Per ottenere tali credenziali personali, \u00e8 necessario collegarsi alla pagina di accesso al Portale Servizi, selezionare il link",
+      "Richiedi credenziali",
+      "e avviare la procedura di identificazione dell\u2019utente.",
+      "A tale fine, occorre inserire un indirizzo e-mail. Il sistema invia un messaggio di posta elettronica all\u2019indirizzo e-mail inserito con le indicazioni necessarie per completare le fasi successive della procedura. L\u2019e-mail contiene un collegamento alla pagina dedicata alla procedura di identificazione.",
+      "Per motivi di sicurezza, il collegamento \u00e8 valido per un periodo di tempo limitato; trascorso tale termine sar\u00e0 necessario ripetere la procedura di richiesta tramite la funzionalit\u00e0",
+      "Richiedi credenziali",
+      ".",
+      "Selezionando il link contenuto nel messaggio di posta elettronica ricevuto, si avvia la procedura di identificazione dell\u2019utente. Per completarla correttamente \u00e8 necessario disporre di un dispositivo",
+      "mobile dotato di fotocamera",
+      "e di un",
+      "documento di identit\u00e0",
+      "in corso di validit\u00e0.",
+      "Al termine della procedura, l\u2019utente ricever\u00e0 tramite l\u2019indirizzo e-mail le credenziali di accesso al Portale dei Servizi NIS."
+    ],
+    "removals": [
+      "ACC.1 Quale \u00e8 la procedura per la richiesta di credenziali di accesso al portale ACN per gli utenti che non possono disporre di SPID o di CIE?",
+      ", qualora, ai sensi della normativa vigente, un utente non possa disporre di credenziali SPID o di CIE, pu\u00f2 richiedere delle credenziali personali per autenticarsi al Portale dei servizi di ACN.",
+      "Per poter ottenere tali credenziali personali (utenza e password), deve essere inviata all\u2019Agenzia per la cybersicurezza nazionale;",
+      "il seguente",
+      "modulo di richiesta",
+      ", compilato e firmato digitalmente dal richiedente;",
+      "copia di un documento identificativo valido e vigente del richiedente, quali il passaporto (preferibile), carta d'identit\u00e0 nazionale o altro documento di identificazione rilasciato dalle autorit\u00e0 locali del Paese di appartenenza.",
+      "La documentazione deve essere trasmessa dal Punto di contatto o dal suo sostituto, inviando una richiesta di assistenza tramite il Service Desk",
+      "(",
+      "https://portale.acn.gov.it/support/",
+      "), con oggetto \u201cRichiesta credenziali personali\u201d.",
+      "ACN provveder\u00e0 a notificare l\u2019eventuale diniego (motivato) ovvero a trasmettere all\u2019indirizzo di posta elettronica ordinaria indicata nel modulo il link per la generazione delle credenziali personali, che saranno associate al medesimo indirizzo.",
+      "Qualora la richiesta sia per il Punto di contatto, la documentazione deve essere all\u2019indirizzo",
+      "acn@pec.acn.gov.it",
+      "dall\u2019indirizzo PEC:",
+      "del soggetto per il quale l\u2019utente si dichiara essere Punto di contatto;",
+      "del Rappresentante nell\u2019Unione in Italia del soggetto designante, se il soggetto non dispone di PEC e, ai sensi dell\u2019articolo 6 della citata determinazione, \u00e8 tenuto a designare il Rappresentante nell\u2019Unione e ha provveduto a designarlo in Italia;",
+      "del Punto di contatto del soggetto, se il soggetto non dispone di PEC e non \u00e8 tenuto a designare il Rappresentante nell\u2019Unione sul territorio nazionale."
+    ],
+    "is_minor": false,
+    "ai_summary": "Aggiornate le FAQ Ruoli E Procedure [ACC.1]: chiarimenti su credenziali di accesso (SPID, CIE, CNS, eIDAS).",
+    "diff_blocks": [
+      {
+        "type": "replace",
+        "context_pre": [
+          "Pertanto, prima di segnalare la mancata ricezione della predetta comunicazione tramite Service Desk le Organizzazioni sono tenute ad effettuare la verifica approfondita delle mail ricevute al loro domicilio digitale.",
+          "RET.1 Quale procedura \u00e8 prevista per le organizzazioni che non abbiano svolto la registrazione entro il 28 febbraio 2025?",
+          "A partire dal 14 aprile 2025 \u00e8 stato ri-attivato il servizio ACN/Registrazione sul portale dei servizi al fine di consentire alle organizzazioni non ancora registrate di procedere alla cd. registrazione tardiva."
+        ],
+        "before": [
+          "ACC.1 Quale \u00e8 la procedura per la richiesta di credenziali di accesso al portale ACN per gli utenti che non possono disporre di SPID o di CIE?"
+        ],
+        "after": [
+          "ACC.1 Quale \u00e8 la procedura per la richiesta di credenziali di accesso al portale ACN per gli utenti che non possono disporre di SPID, CIE, CNS o eIDAS?"
+        ],
+        "context_post": [
+          "Ai sensi del dell\u2019articolo 8, comma 3, della",
+          "Determinazione ACN 379887/2025",
+          ", qualora, ai sensi della normativa vigente, un utente non possa disporre di credenziali SPID o di CIE, pu\u00f2 richiedere delle credenziali personali per autenticarsi al Portale dei servizi di ACN."
+        ]
+      },
+      {
+        "type": "replace",
+        "context_pre": [
+          "ACC.1 Quale \u00e8 la procedura per la richiesta di credenziali di accesso al portale ACN per gli utenti che non possono disporre di SPID o di CIE?",
+          "Ai sensi del dell\u2019articolo 8, comma 3, della",
+          "Determinazione ACN 379887/2025"
+        ],
+        "before": [
+          ", qualora, ai sensi della normativa vigente, un utente non possa disporre di credenziali SPID o di CIE, pu\u00f2 richiedere delle credenziali personali per autenticarsi al Portale dei servizi di ACN.",
+          "Per poter ottenere tali credenziali personali (utenza e password), deve essere inviata all\u2019Agenzia per la cybersicurezza nazionale;",
+          "il seguente",
+          "modulo di richiesta",
+          ", compilato e firmato digitalmente dal richiedente;",
+          "copia di un documento identificativo valido e vigente del richiedente, quali il passaporto (preferibile), carta d'identit\u00e0 nazionale o altro documento di identificazione rilasciato dalle autorit\u00e0 locali del Paese di appartenenza.",
+          "La documentazione deve essere trasmessa dal Punto di contatto o dal suo sostituto, inviando una richiesta di assistenza tramite il Service Desk",
+          "(",
+          "https://portale.acn.gov.it/support/",
+          "), con oggetto \u201cRichiesta credenziali personali\u201d.",
+          "ACN provveder\u00e0 a notificare l\u2019eventuale diniego (motivato) ovvero a trasmettere all\u2019indirizzo di posta elettronica ordinaria indicata nel modulo il link per la generazione delle credenziali personali, che saranno associate al medesimo indirizzo.",
+          "Qualora la richiesta sia per il Punto di contatto, la documentazione deve essere all\u2019indirizzo",
+          "acn@pec.acn.gov.it",
+          "dall\u2019indirizzo PEC:",
+          "del soggetto per il quale l\u2019utente si dichiara essere Punto di contatto;",
+          "del Rappresentante nell\u2019Unione in Italia del soggetto designante, se il soggetto non dispone di PEC e, ai sensi dell\u2019articolo 6 della citata determinazione, \u00e8 tenuto a designare il Rappresentante nell\u2019Unione e ha provveduto a designarlo in Italia;",
+          "del Punto di contatto del soggetto, se il soggetto non dispone di PEC e non \u00e8 tenuto a designare il Rappresentante nell\u2019Unione sul territorio nazionale."
+        ],
+        "after": [
+          ", qualora, ai sensi della normativa vigente, un utente che non possa disporre di credenziali SPID/CIE/CNS/eIDAS, pu\u00f2 richiedere delle credenziali personali per autenticarsi al Portale dei servizi di ACN.",
+          "Per ottenere tali credenziali personali, \u00e8 necessario collegarsi alla pagina di accesso al Portale Servizi, selezionare il link",
+          "Richiedi credenziali",
+          "e avviare la procedura di identificazione dell\u2019utente.",
+          "A tale fine, occorre inserire un indirizzo e-mail. Il sistema invia un messaggio di posta elettronica all\u2019indirizzo e-mail inserito con le indicazioni necessarie per completare le fasi successive della procedura. L\u2019e-mail contiene un collegamento alla pagina dedicata alla procedura di identificazione.",
+          "Per motivi di sicurezza, il collegamento \u00e8 valido per un periodo di tempo limitato; trascorso tale termine sar\u00e0 necessario ripetere la procedura di richiesta tramite la funzionalit\u00e0",
+          "Richiedi credenziali",
+          ".",
+          "Selezionando il link contenuto nel messaggio di posta elettronica ricevuto, si avvia la procedura di identificazione dell\u2019utente. Per completarla correttamente \u00e8 necessario disporre di un dispositivo",
+          "mobile dotato di fotocamera",
+          "e di un",
+          "documento di identit\u00e0",
+          "in corso di validit\u00e0.",
+          "Al termine della procedura, l\u2019utente ricever\u00e0 tramite l\u2019indirizzo e-mail le credenziali di accesso al Portale dei Servizi NIS."
+        ],
+        "context_post": [
+          "DOC.1 Qual \u00e8 la procedura di aggiornamento delle deleghe?",
+          "L'utente (Punto di contatto o Sostituto punto di contatto) ha la possibilit\u00e0 di aggiornare la delega conferitagli all\u2019interno della sezione \"Documenti\" presente nell'area \"Il mio profilo\u201d. In tale sezione l'utente visualizza e gestisce esclusivamente le proprie deleghe relative ai diversi Servizi presenti all'interno del \"Catalogo servizi\", assicurandone la correttezza e l\u2019aggiornamento. Qualora l\u2019utente intenda aggiornare la propria delega potr\u00e0 procedere con il caricamento di una nuova versione del documento delega e del documento di identit\u00e0 del delegante qualora la delega non sia firmata digitalmente. Si precisa che l\u2019aggiornamento della delega non comporta l\u2019eliminazione del documento precedentemente caricato che rimane visibile nella cronologia documentale.",
+          "Nascosta"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-10-14T09:58:22.243395+02:00",
     "date_formatted": "14/10/2026 09:58",
     "additions": [

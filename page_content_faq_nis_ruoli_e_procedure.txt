@@ -250,26 +250,23 @@ I soggetti, per i quali non è stato possibile accertare la ricezione telematica
 Pertanto, prima di segnalare la mancata ricezione della predetta comunicazione tramite Service Desk le Organizzazioni sono tenute ad effettuare la verifica approfondita delle mail ricevute al loro domicilio digitale.
 RET.1 Quale procedura è prevista per le organizzazioni che non abbiano svolto la registrazione entro il 28 febbraio 2025?
 A partire dal 14 aprile 2025 è stato ri-attivato il servizio ACN/Registrazione sul portale dei servizi al fine di consentire alle organizzazioni non ancora registrate di procedere alla cd. registrazione tardiva.
-ACC.1 Quale è la procedura per la richiesta di credenziali di accesso al portale ACN per gli utenti che non possono disporre di SPID o di CIE?
+ACC.1 Quale è la procedura per la richiesta di credenziali di accesso al portale ACN per gli utenti che non possono disporre di SPID, CIE, CNS o eIDAS?
 Ai sensi del dell’articolo 8, comma 3, della
 Determinazione ACN 379887/2025
-, qualora, ai sensi della normativa vigente, un utente non possa disporre di credenziali SPID o di CIE, può richiedere delle credenziali personali per autenticarsi al Portale dei servizi di ACN.
-Per poter ottenere tali credenziali personali (utenza e password), deve essere inviata all’Agenzia per la cybersicurezza nazionale;
-il seguente
-modulo di richiesta
-, compilato e firmato digitalmente dal richiedente;
-copia di un documento identificativo valido e vigente del richiedente, quali il passaporto (preferibile), carta d'identità nazionale o altro documento di identificazione rilasciato dalle autorità locali del Paese di appartenenza.
-La documentazione deve essere trasmessa dal Punto di contatto o dal suo sostituto, inviando una richiesta di assistenza tramite il Service Desk
-(
-https://portale.acn.gov.it/support/
-), con oggetto “Richiesta credenziali personali”.
-ACN provvederà a notificare l’eventuale diniego (motivato) ovvero a trasmettere all’indirizzo di posta elettronica ordinaria indicata nel modulo il link per la generazione delle credenziali personali, che saranno associate al medesimo indirizzo.
-Qualora la richiesta sia per il Punto di contatto, la documentazione deve essere all’indirizzo
-acn@pec.acn.gov.it
-dall’indirizzo PEC:
-del soggetto per il quale l’utente si dichiara essere Punto di contatto;
-del Rappresentante nell’Unione in Italia del soggetto designante, se il soggetto non dispone di PEC e, ai sensi dell’articolo 6 della citata determinazione, è tenuto a designare il Rappresentante nell’Unione e ha provveduto a designarlo in Italia;
-del Punto di contatto del soggetto, se il soggetto non dispone di PEC e non è tenuto a designare il Rappresentante nell’Unione sul territorio nazionale.
+, qualora, ai sensi della normativa vigente, un utente che non possa disporre di credenziali SPID/CIE/CNS/eIDAS, può richiedere delle credenziali personali per autenticarsi al Portale dei servizi di ACN.
+Per ottenere tali credenziali personali, è necessario collegarsi alla pagina di accesso al Portale Servizi, selezionare il link
+Richiedi credenziali
+e avviare la procedura di identificazione dell’utente.
+A tale fine, occorre inserire un indirizzo e-mail. Il sistema invia un messaggio di posta elettronica all’indirizzo e-mail inserito con le indicazioni necessarie per completare le fasi successive della procedura. L’e-mail contiene un collegamento alla pagina dedicata alla procedura di identificazione.
+Per motivi di sicurezza, il collegamento è valido per un periodo di tempo limitato; trascorso tale termine sarà necessario ripetere la procedura di richiesta tramite la funzionalità
+Richiedi credenziali
+.
+Selezionando il link contenuto nel messaggio di posta elettronica ricevuto, si avvia la procedura di identificazione dell’utente. Per completarla correttamente è necessario disporre di un dispositivo
+mobile dotato di fotocamera
+e di un
+documento di identità
+in corso di validità.
+Al termine della procedura, l’utente riceverà tramite l’indirizzo e-mail le credenziali di accesso al Portale dei Servizi NIS.
 DOC.1 Qual è la procedura di aggiornamento delle deleghe?
 L'utente (Punto di contatto o Sostituto punto di contatto) ha la possibilità di aggiornare la delega conferitagli all’interno della sezione "Documenti" presente nell'area "Il mio profilo”. In tale sezione l'utente visualizza e gestisce esclusivamente le proprie deleghe relative ai diversi Servizi presenti all'interno del "Catalogo servizi", assicurandone la correttezza e l’aggiornamento. Qualora l’utente intenda aggiornare la propria delega potrà procedere con il caricamento di una nuova versione del documento delega e del documento di identità del delegante qualora la delega non sia firmata digitalmente. Si precisa che l’aggiornamento della delega non comporta l’eliminazione del documento precedentemente caricato che rimane visibile nella cronologia documentale.
 Nascosta
