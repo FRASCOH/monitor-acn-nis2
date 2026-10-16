@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Informativa sulla Privacy di NIS2 Cyber Monitor: trasparenza sul trattamento dei dati, assenza di profilazione, architettura on-device e rispetto del GDPR.">
+    <meta property="og:title" content="Informativa sulla Privacy | NIS2 Cyber Monitor">
+    <meta property="og:description"
+        content="Informativa sul trattamento dei dati personali per l'applicazione iOS e portale web NIS2 Cyber Monitor.">
+    <meta property="og:image" content="https://frascoh.github.io/monitor-acn-nis2/social-preview.png">
+    <meta name="author" content="Lorenzo Frasconi">
+
+    <title>Informativa sulla Privacy | NIS2 Cyber Monitor</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-light: #818cf8;
+            --secondary: #a855f7;
+            --bg: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --glass: rgba(255, 255, 255, 0.03);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        body {
+            background: var(--bg);
+            background-image:
+                radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(168, 85, 247, 0.15) 0px, transparent 50%),
+                radial-gradient(at 50% 100%, rgba(99, 102, 241, 0.1) 0px, transparent 50%);
+            color: var(--text);
+            min-height: 100vh;
+            padding-bottom: 5rem;
+            line-height: 1.7;
+        }
+
+        header {
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            border-bottom: 1px solid var(--card-border);
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .header-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        .header-nav a {
+            color: var(--primary-light);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            padding: 6px 14px;
+            border-radius: 8px;
+            background: rgba(99, 102, 241, 0.12);
+            transition: all 0.2s;
+        }
+
+        .header-nav a:hover {
+            background: rgba(99, 102, 241, 0.25);
+            color: #fff;
+        }
+
+        main {
+            max-width: 860px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 3.5rem;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--success);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            padding: 6px 14px;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            margin-bottom: 0.8rem;
+            background: linear-gradient(135deg, #fff 40%, var(--primary-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .policy-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 2.2rem;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .policy-card h2 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #fff;
+            border-bottom: 1px solid var(--card-border);
+            padding-bottom: 0.8rem;
+        }
+
+        .policy-card p {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            font-size: 0.98rem;
+        }
+
+        .policy-card ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 1rem;
+        }
+
+        .policy-card ul li {
+            position: relative;
+            padding-left: 26px;
+            margin-bottom: 0.75rem;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .policy-card ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--success);
+            font-weight: bold;
+        }
+
+        .alert-box {
+            background: rgba(99, 102, 241, 0.08);
+            border-left: 4px solid var(--primary);
+            padding: 1.2rem;
+            border-radius: 8px;
+            margin: 1.2rem 0;
+            font-size: 0.92rem;
+            color: #cbd5e1;
+        }
+
+        .disclaimer-box {
+            background: rgba(245, 158, 11, 0.08);
+            border-left: 4px solid var(--warning);
+            padding: 1.2rem;
+            border-radius: 8px;
+            margin: 1.2rem 0;
+            font-size: 0.92rem;
+            color: #fde68a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem 1.5rem;
+            border-top: 1px solid var(--card-border);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--primary-light);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="header-title">
+                <span>🛡️</span>
+                <span>NIS2 Cyber Monitor</span>
+            </a>
+            <nav class="header-nav">
+                <a href="index.html">← Dashboard</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero">
+            <div class="badge">Informativa sulla Privacy • GDPR & Apple Compliant</div>
+            <h1>Informativa sul Trattamento dei Dati Personali</h1>
+            <p>Data di efficacia: 16 Ottobre 2026 • Applicazione iOS & Portale Web</p>
+        </div>
+
+        <div class="disclaimer-box">
+            <strong>Nota di Trasparenza & Natura Indipendente:</strong><br>
+            L'applicazione <strong>NIS2 Cyber Monitor</strong> è un'iniziativa software indipendente realizzata da Lorenzo Frasconi a scopo di studio, ricerca e supporto informativo per professionisti della cybersecurity. 
+            L'applicazione <strong>non è affiliata, approvata, sponsorizzata né emanata dall'Agenzia per la Cybersicurezza Nazionale (ACN)</strong> né da alcun ente governativo italiano o dell'Unione Europea. 
+            I testi degli atti ufficiali e delle norme indicizzati sono di pubblico dominio ai sensi dell'Art. 5 della Legge 22 aprile 1941, n. 633.
+        </div>
+
+        <div class="policy-card">
+            <h2>1. Titolare del Trattamento</h2>
+            <p>
+                Il Titolare del trattamento dei dati personali relativo all'applicazione iOS "NIS2 Cyber Monitor" e alle risorse collegate è:
+            </p>
+            <p>
+                <strong>Lorenzo Frasconi</strong><br>
+                Sviluppatore Indipendente<br>
+                Email di contatto: <a href="mailto:lorenzofrasconi.dev@gmail.com" style="color: var(--primary-light);">lorenzofrasconi.dev@gmail.com</a><br>
+                Repository del progetto: <a href="https://github.com/FRASCOH/monitor-acn-nis2" target="_blank" style="color: var(--primary-light);">github.com/FRASCOH/monitor-acn-nis2</a>
+            </p>
+        </div>
+
+        <div class="policy-card">
+            <h2>2. Principi Fondamentali & Privacy by Design</h2>
+            <p>
+                NIS2 Cyber Monitor è stata progettata con un rigoroso approccio di <em>Privacy by Design</em> e <em>Data Minimization</em>:
+            </p>
+            <ul>
+                <li><strong>Nessun Account Richiesto:</strong> L'app può essere utilizzata in tutte le sue funzioni senza registrazione, senza fornitura di credenziali o di email.</li>
+                <li><strong>Nessun Tracciamento Pubblicitario:</strong> Non vengono impiegati identificatori di tracciamento (IDFA/GAID), né SDK di advertising, né strumenti di profilazione commerciale.</li>
+                <li><strong>Archiviazione Locale & Keychain:</strong> Le preferenze, gli elementi preferiti e le chiavi API vengono memorizzati esclusivamente sul dispositivo locale dell'utente e nel portachiavi protetto hardware Apple Keychain.</li>
+            </ul>
+        </div>
+
+        <div class="policy-card">
+            <h2>3. Tipologia di Dati Trattati e Permessi Dispositivo</h2>
+            <p>Di seguito il dettaglio completo delle tipologie di dati trattati dai servizi integrati nell'app:</p>
+
+            <h3 style="font-size: 1.1rem; color: #fff; margin: 1.2rem 0 0.5rem 0;">A. Notifiche Push (OneSignal SDK)</h3>
+            <p>
+                Per consentire la ricezione in tempo reale degli avvisi relativi a nuove determine, scadenze o decreti, l'app utilizza il servizio OneSignal. L'iscrizione avviene su base puramente facoltativa (Opt-In tramite esplicito consenso dell'utente):
+            </p>
+            <ul>
+                <li><strong>Dati trattati:</strong> Viene generato e trasmesso un identificatore univoco anonimo del dispositivo (Device Push Token / Player ID) e informazioni tecniche essenziali sull'ambiente operativo (versione iOS, modello dispositivo).</li>
+                <li><strong>Finalità:</strong> Recapito delle sole notifiche push informative relative alle novità normative.</li>
+                <li><strong>Revoca:</strong> L'utente può disattivare in qualsiasi momento la ricezione delle notifiche push tramite il toggle dedicato all'interno dell'app oppure dalle Impostazioni di iOS (Notifiche > NIS2 Monitor).</li>
+            </ul>
+
+            <h3 style="font-size: 1.1rem; color: #fff; margin: 1.2rem 0 0.5rem 0;">B. Permesso Calendario (EventKit)</h3>
+            <p>
+                L'app offre la funzionalità facoltativa di esportazione dei termini e delle scadenze normative NIS2 nell'app Calendario di sistema.
+            </p>
+            <ul>
+                <li><strong>Dati trattati:</strong> L'accesso è limitato esclusivamente alla scrittura dei singoli eventi promemoria approvati dall'utente.</li>
+                <li><strong>Garanzia:</strong> Nessun evento esistente, dato personale o voce preesistente nel calendario dell'utente viene letto, memorizzato o trasmesso a server remoti.</li>
+            </ul>
+
+            <h3 style="font-size: 1.1rem; color: #fff; margin: 1.2rem 0 0.5rem 0;">C. Assistente Normativo AI & PrivacySanitizer (Google Gemini API)</h3>
+            <p>
+                L'applicazione integra un assistente virtuale per la consultazione della documentazione NIS2, alimentato tramite API Google Gemini.
+            </p>
+            <ul>
+                <li><strong>Sanitizzazione On-Device Preventiva:</strong> Prima dell'invio di qualsiasi query testuale ai server AI, il motore nativo <code>PrivacySanitizer</code> dell'app esegue una scansione e offuscamento locale automatico di indirizzi IP, email, domini aziendali e codici fiscali, garantendo che nessun dato identificativo dell'utente o della sua organizzazione venga accidentalmente trasmesso.</li>
+                <li><strong>Sessioni Effimere:</strong> Le chiamate API sono eseguite tramite configurazione di rete effimera (<code>URLSessionConfiguration.ephemeral</code>), impedendo la memorizzazione di cookie o cache delle interrogazioni.</li>
+                <li><strong>Chiavi API Utente:</strong> Qualora l'utente configuri una propria chiave API personale, questa viene custodita con crittografia hardware nel portachiavi sicuro di Apple (Keychain) e non viene mai condivisa né con il Titolare né con terzi.</li>
+            </ul>
+        </div>
+
+        <div class="policy-card">
+            <h2>4. Base Giuridica del Trattamento (GDPR)</h2>
+            <p>Il trattamento dei dati per le finalità descritte si fonda su:</p>
+            <ul>
+                <li><strong>Consenso dell'Interessato (Art. 6, par. 1, lett. a del GDPR):</strong> per l'attivazione delle notifiche push e l'accesso al calendario.</li>
+                <li><strong>Legittimo Interesse del Titolare (Art. 6, par. 1, lett. f del GDPR):</strong> limitatamente al corretto funzionamento tecnico dell'infrastruttura di erogazione dei feed informativi (status.json via GitHub Pages CDN).</li>
+            </ul>
+        </div>
+
+        <div class="policy-card">
+            <h2>5. Destinatari e Trasferimento dei Dati</h2>
+            <p>
+                I dati tecnici minimi necessari per l'erogazione del servizio possono essere elaborati dai seguenti fornitori di servizi in qualità di responsabili del trattamento:
+            </p>
+            <ul>
+                <li><strong>OneSignal Inc.:</strong> gestione e recapito dei token di notifica push (<a href="https://onesignal.com/privacy_policy" target="_blank" style="color: var(--primary-light);">Privacy Policy OneSignal</a>).</li>
+                <li><strong>Google LLC:</strong> elaborazione delle risposte dell'assistente virtuale Gemini (<a href="https://policies.google.com/privacy" target="_blank" style="color: var(--primary-light);">Privacy Policy Google</a>).</li>
+                <li><strong>GitHub Inc. (Microsoft):</strong> hosting del file di stato pubblico e del portale web statico.</li>
+            </ul>
+            <p>Non viene effettuata alcuna cessione, vendita o locazione di dati personali a terzi per scopi promozionali o di marketing.</p>
+        </div>
+
+        <div class="policy-card">
+            <h2>6. Diritti dell'Utente (Artt. 15-22 GDPR)</h2>
+            <p>
+                In conformità al Regolamento UE 2016/679 (GDPR), ciascun utente ha il diritto di:
+            </p>
+            <ul>
+                <li>Verificare se siano trattati dati personali che lo riguardano e richiederne l'accesso.</li>
+                <li>Revocare in qualsiasi momento il consenso precedentemente accordato (disattivazione notifiche).</li>
+                <li>Cancellare completamente tutti i dati memorizzati on-device (preferiti, cronologia chat, impostazioni) semplicemente eliminando l'applicazione dal dispositivo iOS.</li>
+                <li>Proporre reclamo all'Autorità Garante per la Protezione dei Dati Personali (<a href="https://www.garanteprivacy.it" target="_blank" style="color: var(--primary-light);">garanteprivacy.it</a>) in caso di presunta violazione.</li>
+            </ul>
+        </div>
+
+        <div class="policy-card">
+            <h2>7. Modifiche a questa Informativa</h2>
+            <p>
+                La presente informativa potrà subire aggiornamenti per riflettere innovazioni funzionali dell'applicazione o requisiti normativi sopravvenuti. Qualsiasi variazione sostanziale verrà resa nota attraverso il portale web e, ove opportuno, tramite notifica dell'applicazione.
+            </p>
+            <p>
+                Ultima revisione: <strong>16 Ottobre 2026</strong>.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Lorenzo Frasconi • <a href="index.html">Dashboard</a> • <a href="come-funziona.html">Come Funziona</a> • <a href="privacy.html">Informativa sulla Privacy</a></p>
+    </footer>
+
+</body>
+
+</html>
