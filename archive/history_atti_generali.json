@@ -1,5 +1,74 @@
 [
   {
+    "timestamp": "2026-10-19T15:59:28.135665+02:00",
+    "date_formatted": "19/10/2026 15:59",
+    "additions": [
+      "Decreto legislativo 9 settembre 2026, n. 160",
+      ", \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di utilizzo dei sistemi di intelligenza artificiale per l'attivit\u00e0 di polizia e di responsabilit\u00e0 civile e penale\u201d.",
+      "Provvedimento del Direttore generale di nomina del Collegio dei revisori dei conti n. 286177 del 16 settembre 2026",
+      "19 Ottobre 2026"
+    ],
+    "removals": [
+      "23 Settembre 2026"
+    ],
+    "is_minor": false,
+    "ai_summary": "Pubblicato nuovo decreto: \"Decreto legislativo 9 settembre 2026, n. 160\".",
+    "diff_blocks": [
+      {
+        "type": "insert",
+        "context_pre": [
+          "\u201cDisciplina dei contratti di beni e servizi informatici impiegati in un contesto connesso alla tutela degli interessi nazionali strategici e della sicurezza nazionale\u201c",
+          "Decreto legislativo 4 settembre 2024, n. 138",
+          "\u201cRecepimento della direttiva (UE) 2022/2555, relativa a misure per un livello comune elevato di cibersicurezza nell'Unione, recante modifica del regolamento (UE) n. 910/2014 e della direttiva (UE) 2018/1972 e che abroga la direttiva (UE) 2016/1148\u201d (c.d. NIS 2)"
+        ],
+        "before": [],
+        "after": [
+          "Decreto legislativo 9 settembre 2026, n. 160",
+          ", \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di utilizzo dei sistemi di intelligenza artificiale per l'attivit\u00e0 di polizia e di responsabilit\u00e0 civile e penale\u201d."
+        ],
+        "context_post": [
+          "Atti amministrativi generali",
+          "Nomina Comitato tecnico-scientifico di ACN",
+          "doc 1"
+        ]
+      },
+      {
+        "type": "insert",
+        "context_pre": [
+          "\u201cRiorganizzazione delle Articolazioni a diretto supporto del Direttore generale\u201c",
+          "Determina del Direttore generale dell\u2019ACN n. 261381 del 09 settembre 2026",
+          "\u201cRiorganizzazione del Servizio risorse umane, strumentali e amministrazione generale\u201c"
+        ],
+        "before": [],
+        "after": [
+          "Provvedimento del Direttore generale di nomina del Collegio dei revisori dei conti n. 286177 del 16 settembre 2026"
+        ],
+        "context_post": [
+          "Principali provvedimenti attuativi D.Lgs. 138/2024",
+          "Determinazione del Direttore generale dell\u2019ACN n. 38564 del 26 novembre 2024",
+          "- \u201c di cui all\u2019articolo 12, comma 6 e articolo 40, comma 5, lettera c), recante ulteriori disposizioni per l\u2019organizzazione e per il funzionamento del Tavolo per l\u2019attuazione della disciplina NIS"
+        ]
+      },
+      {
+        "type": "replace",
+        "context_pre": [
+          "Obiettivi strategici 2025",
+          "Obiettivi strategici 2026",
+          "Data Ultimo Aggiornamento"
+        ],
+        "before": [
+          "23 Settembre 2026"
+        ],
+        "after": [
+          "19 Ottobre 2026"
+        ],
+        "context_post": [
+          "Nascosta"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-09-28T16:33:34.783538+02:00",
     "date_formatted": "28/09/2026 16:33",
     "additions": [
