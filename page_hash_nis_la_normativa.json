@@ -1,33 +1,33 @@
 {
-  "hash": "92bdefbac62d5078010991afd7bccd99dbe3b3eb20090b97f18e7eb529804558",
-  "last_check": "2026-10-21T14:12:17.063331+02:00",
-  "last_change_date": "2026-10-07T15:45:42.688408+02:00",
+  "hash": "209561d811a5f082728b046e081a32455cab2c462bbb17d479c8b9472d36d8b9",
+  "last_check": "2026-10-21T19:09:59.367919+02:00",
+  "last_change_date": "2026-10-21T19:09:59.367801+02:00",
   "last_additions": [
-    "Determinazione ACN 301868 del 06 ottobre 2026 - Politica nazionale di divulgazione coordinata delle vulnerabilit\u00e0"
+    "dal 1\u00b0gennaio al 28 febbraio di ogni anno."
   ],
   "last_removals": [
-    "Politica nazionale di divulgazione coordinata delle vulnerabilit\u00e0"
+    "a partire dal primo dicembre 2024."
   ],
-  "ai_summary": "Pubblicata nuova determina: \"Determinazione ACN 301868 del 06 ottobre 2026 - Politica nazionale di divulgazione coordinata delle vulnerabilit\u00e0\".",
+  "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"dal 1\u00b0gennaio al 28 febbraio di ogni anno.\".",
   "is_minor": false,
   "diff_blocks": [
     {
       "type": "replace",
       "context_pre": [
-        "Ministero della Giustizia",
-        ", sentito il",
-        "Tavolo per l'attuazione della disciplina NIS"
+        "Registrazione",
+        "Tutti i soggetti pubblici e privati che rientrano nel campo di applicazione dovranno manifestarsi all\u2019Autorit\u00e0 nazionale competente NIS",
+        "registrandosi o aggiornando la propria registrazione sulla piattaforma"
       ],
       "before": [
-        "Politica nazionale di divulgazione coordinata delle vulnerabilit\u00e0"
+        "a partire dal primo dicembre 2024."
       ],
       "after": [
-        "Determinazione ACN 301868 del 06 ottobre 2026 - Politica nazionale di divulgazione coordinata delle vulnerabilit\u00e0"
+        "dal 1\u00b0gennaio al 28 febbraio di ogni anno."
       ],
       "context_post": [
-        "Determinazione ACN",
-        ", sentito il",
-        "Tavolo per l'attuazione della disciplina NIS"
+        "Supporto e supervisione",
+        "Al fine di guidare i soggetti nell\u2019attuazione sostanziale degli obblighi, la normativa pone un forte accento sulle attivit\u00e0 di monitoraggio, supporto e analisi. Al contempo vengono rafforzati i poteri di supervisione, in termini di attivit\u00e0 di esecuzione, verifica, ispezione, ed allineata l\u2019entit\u00e0 delle sanzioni a quelle previste dal GDPR.",
+        "Misure di sicurezza e obblighi"
       ]
     }
   ]

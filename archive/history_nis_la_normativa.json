@@ -1,5 +1,38 @@
 [
   {
+    "timestamp": "2026-10-21T19:09:59.367381+02:00",
+    "date_formatted": "21/10/2026 19:09",
+    "additions": [
+      "dal 1\u00b0gennaio al 28 febbraio di ogni anno."
+    ],
+    "removals": [
+      "a partire dal primo dicembre 2024."
+    ],
+    "is_minor": false,
+    "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"dal 1\u00b0gennaio al 28 febbraio di ogni anno.\".",
+    "diff_blocks": [
+      {
+        "type": "replace",
+        "context_pre": [
+          "Registrazione",
+          "Tutti i soggetti pubblici e privati che rientrano nel campo di applicazione dovranno manifestarsi all\u2019Autorit\u00e0 nazionale competente NIS",
+          "registrandosi o aggiornando la propria registrazione sulla piattaforma"
+        ],
+        "before": [
+          "a partire dal primo dicembre 2024."
+        ],
+        "after": [
+          "dal 1\u00b0gennaio al 28 febbraio di ogni anno."
+        ],
+        "context_post": [
+          "Supporto e supervisione",
+          "Al fine di guidare i soggetti nell\u2019attuazione sostanziale degli obblighi, la normativa pone un forte accento sulle attivit\u00e0 di monitoraggio, supporto e analisi. Al contempo vengono rafforzati i poteri di supervisione, in termini di attivit\u00e0 di esecuzione, verifica, ispezione, ed allineata l\u2019entit\u00e0 delle sanzioni a quelle previste dal GDPR.",
+          "Misure di sicurezza e obblighi"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-10-07T15:45:42.688000+02:00",
     "date_formatted": "07/10/2026 15:45",
     "additions": [
