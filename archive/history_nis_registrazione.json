@@ -1,16 +1,49 @@
 [
   {
+    "timestamp": "2026-10-23T18:53:17.683104+02:00",
+    "date_formatted": "23/10/2026 18:53",
+    "additions": [
+      "Determinazione ACN 314287/2026"
+    ],
+    "removals": [
+      "Determinazione 379887/2025"
+    ],
+    "is_minor": false,
+    "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Determinazione ACN 314287/2026\".",
+    "diff_blocks": [
+      {
+        "type": "replace",
+        "context_pre": [
+          "Guarda il video su Youtube: apre una nuova finestra",
+          "Come registrare un\u2019organizzazione",
+          "La registrazione \u00e8 prevista dall\u2019articolo 7 del decreto NIS e le modalit\u00e0, termini e procedimenti sono definiti dalla"
+        ],
+        "before": [
+          "Determinazione 379887/2025"
+        ],
+        "after": [
+          "Determinazione ACN 314287/2026"
+        ],
+        "context_post": [
+          ".",
+          "Consulta le",
+          "domande frequenti"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-09-11T17:09:18.790531+02:00",
     "date_formatted": "11/09/2026 17:09",
     "additions": [
-      "Dal 1° gennaio al 28 febbraio di ogni anno i soggetti pubblici e privati a cui si applica la NIS devono manifestarsi all’Autorità nazionale competente NIS registrandosi o aggiornando la propria registrazione  sulla piattaforma digitale che sarà resa disponibile da ACN.",
+      "Dal 1\u00b0 gennaio al 28 febbraio di ogni anno i soggetti pubblici e privati a cui si applica la NIS devono manifestarsi all\u2019Autorit\u00e0 nazionale competente NIS registrandosi o aggiornando la propria registrazione  sulla piattaforma digitale che sar\u00e0 resa disponibile da ACN.",
       "Scarica il vademecum NIS"
     ],
     "removals": [
-      "Dal 1° dicembre 2024 al 28 febbraio di ogni anno i soggetti pubblici e privati a cui si applica la NIS devono manifestarsi all’Autorità nazionale competente NIS registrandosi o aggiornando la propria registrazione  sulla piattaforma digitale che sarà resa disponibile da ACN.",
+      "Dal 1\u00b0 dicembre 2024 al 28 febbraio di ogni anno i soggetti pubblici e privati a cui si applica la NIS devono manifestarsi all\u2019Autorit\u00e0 nazionale competente NIS registrandosi o aggiornando la propria registrazione  sulla piattaforma digitale che sar\u00e0 resa disponibile da ACN.",
       "apre nuova scheda",
       "Guarda il video"
     ],
-    "ai_summary": "Aggiunto il Vademecum NIS e aggiornate le indicazioni per la registrazione obbligatoria dei soggetti (dal 1° gennaio al 28 febbraio)."
+    "ai_summary": "Aggiunto il Vademecum NIS e aggiornate le indicazioni per la registrazione obbligatoria dei soggetti (dal 1\u00b0 gennaio al 28 febbraio)."
   }
 ]

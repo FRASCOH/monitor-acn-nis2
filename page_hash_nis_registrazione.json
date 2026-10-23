@@ -1,17 +1,34 @@
 {
-  "hash": "5d7b7e296543e03a7ee46c06ff7fe158d05e5dc5e23cadd374e9084d53d0b3e7",
-  "last_check": "2026-10-23T14:01:38.193172+02:00",
-  "last_change_date": "2026-09-11T17:09:18.790693+02:00",
+  "hash": "52c65a5ba6f678a205d9aa4ba26ca6b45898379e61c096a803b68b3cf3fe9c79",
+  "last_check": "2026-10-23T18:53:17.683771+02:00",
+  "last_change_date": "2026-10-23T18:53:17.683669+02:00",
   "last_additions": [
-    "Dal 1\u00b0 gennaio al 28 febbraio di ogni anno i soggetti pubblici e privati a cui si applica la NIS devono manifestarsi all\u2019Autorit\u00e0 nazionale competente NIS registrandosi o aggiornando la propria registrazione  sulla piattaforma digitale che sar\u00e0 resa disponibile da ACN.",
-    "Scarica il vademecum NIS"
+    "Determinazione ACN 314287/2026"
   ],
   "last_removals": [
-    "Dal 1\u00b0 dicembre 2024 al 28 febbraio di ogni anno i soggetti pubblici e privati a cui si applica la NIS devono manifestarsi all\u2019Autorit\u00e0 nazionale competente NIS registrandosi o aggiornando la propria registrazione  sulla piattaforma digitale che sar\u00e0 resa disponibile da ACN.",
-    "apre nuova scheda",
-    "Guarda il video"
+    "Determinazione 379887/2025"
   ],
-  "ai_summary": "Aggiunto il Vademecum NIS e aggiornate le indicazioni per la registrazione obbligatoria dei soggetti (dal 1\u00b0 gennaio al 28 febbraio).",
+  "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Determinazione ACN 314287/2026\".",
   "is_minor": false,
-  "diff_blocks": []
+  "diff_blocks": [
+    {
+      "type": "replace",
+      "context_pre": [
+        "Guarda il video su Youtube: apre una nuova finestra",
+        "Come registrare un\u2019organizzazione",
+        "La registrazione \u00e8 prevista dall\u2019articolo 7 del decreto NIS e le modalit\u00e0, termini e procedimenti sono definiti dalla"
+      ],
+      "before": [
+        "Determinazione 379887/2025"
+      ],
+      "after": [
+        "Determinazione ACN 314287/2026"
+      ],
+      "context_post": [
+        ".",
+        "Consulta le",
+        "domande frequenti"
+      ]
+    }
+  ]
 }

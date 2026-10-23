@@ -1,5 +1,38 @@
 [
   {
+    "timestamp": "2026-10-23T18:53:14.615640+02:00",
+    "date_formatted": "23/10/2026 18:53",
+    "additions": [
+      "Determinazione ACN 314287/2026"
+    ],
+    "removals": [
+      "Determinazione ACN 127437/2026"
+    ],
+    "is_minor": false,
+    "ai_summary": "Pubblicata nuova determina: \"Determinazione ACN 314287/2026\".",
+    "diff_blocks": [
+      {
+        "type": "replace",
+        "context_pre": [
+          "Determinazione ACN",
+          ", sentito il",
+          "Tavolo per l'attuazione della disciplina NIS"
+        ],
+        "before": [
+          "Determinazione ACN 127437/2026"
+        ],
+        "after": [
+          "Determinazione ACN 314287/2026"
+        ],
+        "context_post": [
+          "- Piattaforma, Punto di contatto e sostituto, aggiornamento delle informazioni e rappresentante NIS di cui all'articolo 7 del decreto NIS",
+          "Determinazione ACN",
+          ", su proposta delle"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-10-21T19:09:59.367381+02:00",
     "date_formatted": "21/10/2026 19:09",
     "additions": [

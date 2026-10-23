@@ -1,33 +1,33 @@
 {
-  "hash": "209561d811a5f082728b046e081a32455cab2c462bbb17d479c8b9472d36d8b9",
-  "last_check": "2026-10-23T14:01:36.280667+02:00",
-  "last_change_date": "2026-10-21T19:09:59.367801+02:00",
+  "hash": "7dcbd93034a655a2e8cff42a614dafc7e60ebba06f9e6e01d73b4516d10f922b",
+  "last_check": "2026-10-23T18:53:14.616388+02:00",
+  "last_change_date": "2026-10-23T18:53:14.616265+02:00",
   "last_additions": [
-    "dal 1\u00b0gennaio al 28 febbraio di ogni anno."
+    "Determinazione ACN 314287/2026"
   ],
   "last_removals": [
-    "a partire dal primo dicembre 2024."
+    "Determinazione ACN 127437/2026"
   ],
-  "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"dal 1\u00b0gennaio al 28 febbraio di ogni anno.\".",
+  "ai_summary": "Pubblicata nuova determina: \"Determinazione ACN 314287/2026\".",
   "is_minor": false,
   "diff_blocks": [
     {
       "type": "replace",
       "context_pre": [
-        "Registrazione",
-        "Tutti i soggetti pubblici e privati che rientrano nel campo di applicazione dovranno manifestarsi all\u2019Autorit\u00e0 nazionale competente NIS",
-        "registrandosi o aggiornando la propria registrazione sulla piattaforma"
+        "Determinazione ACN",
+        ", sentito il",
+        "Tavolo per l'attuazione della disciplina NIS"
       ],
       "before": [
-        "a partire dal primo dicembre 2024."
+        "Determinazione ACN 127437/2026"
       ],
       "after": [
-        "dal 1\u00b0gennaio al 28 febbraio di ogni anno."
+        "Determinazione ACN 314287/2026"
       ],
       "context_post": [
-        "Supporto e supervisione",
-        "Al fine di guidare i soggetti nell\u2019attuazione sostanziale degli obblighi, la normativa pone un forte accento sulle attivit\u00e0 di monitoraggio, supporto e analisi. Al contempo vengono rafforzati i poteri di supervisione, in termini di attivit\u00e0 di esecuzione, verifica, ispezione, ed allineata l\u2019entit\u00e0 delle sanzioni a quelle previste dal GDPR.",
-        "Misure di sicurezza e obblighi"
+        "- Piattaforma, Punto di contatto e sostituto, aggiornamento delle informazioni e rappresentante NIS di cui all'articolo 7 del decreto NIS",
+        "Determinazione ACN",
+        ", su proposta delle"
       ]
     }
   ]

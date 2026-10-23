@@ -70,8 +70,8 @@ l’organizzazione ha stabilimenti in più Stati membri e sul territorio naziona
 legal entity
 ), lo stabilimento principale di tale persona giuridica (
 legal entity
-) è da individuarsi tra le sedi di quest’ultima, senza che rilevino a tal fine le imprese a questa collegate (ex. articolo 1, comma 1, lettera cc), della
-Determinazione ACN 333017/2025
+) è da individuarsi tra le sedi di quest’ultima, senza che rilevino a tal fine le imprese a questa collegate (ex. articolo 1, comma 1, lettera ee), della
+Determinazione ACN 314287/2026
 ) e le relative sedi
 l’organizzazione non ha alcun stabilimento nell’Unione europea, offre i propri servizi sul territorio nazionale e, ai sensi dell’articolo 5, comma 3, ha designato il rappresentante nell’Unione in Italia.
 PDA1.4
@@ -112,10 +112,11 @@ In relazione al terzo punto (PDA3), al fine di agevolare la valutazione,
 sono disponibili FAQ settoriali (sezione “Settori, sottosettori e tipologie di soggetto”)
 che forniscono una guida alla lettura dedicata del decreto nonché chiarimenti specifici circa l’ambito di applicazione.
 Per completezza di informazione, si rappresenta che rimane ferma la facoltà per l’Autorità nazionale competente NIS, su proposta delle Autorità di settore interessate, di individuare organizzazioni soggette alla giurisdizione nazionale che operano nei settori, sottosettori o che svolgono attività riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV, del decreto NIS (ex articolo 3, comma 9), quali soggetti importanti o essenziali. In tal caso, queste organizzazioni riceveranno una notifica al proprio domicilio digitale (ex articolo 3, comma 13, del decreto NIS).
+Si evidenzia infine che alle organizzazioni registrate e già presenti nell’elenco dei soggetti NIS, che non abbiano modificato le informazioni precedentemente condivise, non è richiesta la registrazione annuale (gennaio e febbraio di ogni anno). In particolare, esclusivamente in assenza di modifiche rispetto alle informazioni condivise con la dichiarazione sottomessa nell’annualità precedente o con successive dichiarazioni integrative trasmesse nella stessa annualità nell’ambito del procedimento di consolidamento dell’elenco dei soggetti NIS, per tali soggetti non è necessario provvedere alla registrazione annuale (v. FAQ v. AMB.GE.1, GEN.6 e GEN.7).
 REG.2 Quali sono le scadenze previste per registrarsi sulla piattaforma ACN?
 I soggetti che si riconoscono in uno dei settori/sottosettori/tipologie (v. FAQ AMB.GE.1) previste dal decreto NIS (
 d.lgs. n. 138/2024
-) devono registrarsi sulla piattaforma di ACN dal 1° gennaio al 28 febbraio di ogni anno successivo alla data di entrata in vigore del decreto - quindi già entro il 28 febbraio 2025 - fatta eccezione per i fornitori di servizi di sistema dei nomi di dominio, i gestori di registri dei nomi di dominio di primo livello, i fornitori di servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonché i fornitori di mercati online, di motori di ricerca online e di piattaforme di servizi di social network che rientrano nell'ambito di applicazione del decreto (v. FAQ AMB.GE.1), per i quali è stato previsto l’obbligo di registrazione entro il 17 gennaio 2025.
+) devono registrarsi sulla piattaforma di ACN dal 1° gennaio al 28 febbraio di ogni anno, fatta eccezione per i soggetti registrati e già presenti nell’elenco dei soggetti NIS, per i quali non è richiesto che effettuino la registrazione annuale esclusivamente in assenza di modifiche rispetto alle informazioni condivise con la dichiarazione sottomessa nell’annualità precedente o con successive dichiarazioni integrative trasmesse nella stessa annualità nell’ambito del procedimento di consolidamento dell’elenco dei soggetti NIS.
 REG.3 Dopo essermi registrato sulla piattaforma di ACN sarò un soggetto NIS?
 Le pubbliche amministrazioni e i soggetti pubblici o privati che rientrano nell’ambito di applicazione del decreto legislativo 138/2024 (decreto NIS) sono soggetti NIS a prescindere dalla registrazione e sono pertanto tenuti a rispettare gli obblighi previsti dal relativo decreto, a partire dalla registrazione stessa.
 La registrazione di un soggetto sulla piattaforma di ACN è sottoposta ad una fase di analisi. Entro il 31 marzo di ogni anno, l’Agenzia, in qualità di Autorità nazionale competente NIS, redige l’elenco dei soggetti essenziali o importanti e successivamente comunica al soggetto l’eventuale inserimento.
