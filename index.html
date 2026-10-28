@@ -39,6 +39,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
+            color-scheme: dark;
             --primary: #6366f1;
             --primary-light: #818cf8;
             --secondary: #a855f7;
@@ -265,12 +266,20 @@
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(255, 255, 255, 0.1);
             color: var(--text);
+            color-scheme: dark;
             padding: 0.6rem 1rem;
             border-radius: 1rem;
             font-size: 16px;
             /* 16px prevents iOS auto-zoom */
             outline: none;
             cursor: pointer;
+        }
+
+        select option,
+        .sort-select option {
+            background-color: #1e293b !important;
+            color: #f8fafc !important;
+            padding: 0.5rem;
         }
 
         /* Grid & Cards */
