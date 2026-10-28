@@ -223,6 +223,98 @@ def extract_document_list(html_content):
             
     return docs
 
+def extract_nis_documents_from_html(html_content, base_url="https://www.acn.gov.it"):
+    """Estrae provvedimenti, determine e allegati ufficiali dalle tabelle NIS2 (es. nis/la-normativa)"""
+    docs = []
+    processed_urls = set()
+    
+    mesi = {
+        "gennaio": "01", "febbraio": "02", "marzo": "03", "aprile": "04", "maggio": "05", "giugno": "06",
+        "luglio": "07", "agosto": "08", "settembre": "09", "ottobre": "10", "novembre": "11", "dicembre": "12"
+    }
+    
+    def clean_cell_text(t):
+        t = re.sub(r'<br\s*/?>', ' ', t)
+        t = re.sub(r'<[^>]+>', ' ', t)
+        return re.sub(r'\s+', ' ', t).strip()
+
+    td_matches = re.finditer(r'<td[^>]*>(.*?)</td>', html_content, re.IGNORECASE | re.DOTALL)
+    for td_m in td_matches:
+        td_html = td_m.group(1)
+        a_matches = re.finditer(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>([^<]*)', td_html, re.IGNORECASE | re.DOTALL)
+        for am in a_matches:
+            raw_url = am.group(1).strip()
+            anchor_text = clean_cell_text(am.group(2))
+            trailing_text = clean_cell_text(am.group(3))
+            
+            if not raw_url or raw_url.startswith('#') or raw_url.startswith('javascript:'):
+                continue
+                
+            full_url = urljoin(base_url, raw_url)
+            if full_url in processed_urls:
+                continue
+                
+            full_name = anchor_text
+            if trailing_text and len(trailing_text) > 3:
+                trailing_clean = trailing_text.lstrip(' -–:')
+                if trailing_clean:
+                    full_name = f"{anchor_text} - {trailing_clean}"
+                    
+            lower_name = full_name.lower()
+            is_doc = False
+            doc_type = "Altro"
+            for kw, t_name in [
+                ("determina", "Determina"),
+                ("decreto", "Decreto"),
+                ("circolare", "Circolare"),
+                ("regolamento", "Regolamento"),
+                ("direttiva", "Direttiva"),
+                ("linee guida", "Linee guida"),
+                ("allegato", "Determina"),
+            ]:
+                if kw in lower_name or kw in full_url.lower():
+                    is_doc = True
+                    doc_type = t_name
+                    break
+                    
+            if '/documents/d/' in full_url:
+                is_doc = True
+                if doc_type == "Altro":
+                    doc_type = "Determina"
+                    
+            if is_doc and len(full_name) > 8:
+                date_str = ""
+                year_str = ""
+                month_str = ""
+                
+                date_match = re.search(r'(\d{1,2})\s+(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+(\d{4})', lower_name)
+                if date_match:
+                    g = date_match.group(1).zfill(2)
+                    m_name = date_match.group(2)
+                    y = date_match.group(3)
+                    m_num = mesi.get(m_name, "01")
+                    date_str = f"{g}/{m_num}/{y}"
+                    year_str = y
+                    month_str = m_num
+                else:
+                    year_match = re.search(r'\b(202[4-7])\b', full_name)
+                    if year_match:
+                        year_str = year_match.group(1)
+                    else:
+                        year_str = "2026"
+                        
+                docs.append({
+                    "name": full_name,
+                    "url": full_url,
+                    "type": doc_type,
+                    "date": date_str,
+                    "year": year_str,
+                    "month": month_str
+                })
+                processed_urls.add(full_url)
+                
+    return docs
+
 def parse_scadenze(html_content):
     """Estrae le scadenze e la timeline da https://www.acn.gov.it/portale/nis/la-normativa"""
     scadenze = []
@@ -1424,10 +1516,11 @@ def monitor_page(page_config):
         result["atti_list"] = extract_document_list(raw_content)
         print(f"📊 Estratti {len(result['atti_list'])} documenti dalla lista atti")
 
-    # Se è la pagina NIS La Normativa, estraiamo le scadenze e la timeline NIS2
+    # Se è la pagina NIS La Normativa, estraiamo le scadenze e la timeline NIS2, oltre agli atti/determine specifici NIS2
     if "nis/la-normativa" in url:
         result["scadenze"] = parse_scadenze(raw_content)
-        print(f"📅 Estratte {len(result['scadenze'])} scadenze NIS2")
+        result["nis_atti"] = extract_nis_documents_from_html(raw_content, url)
+        print(f"📅 Estratte {len(result['scadenze'])} scadenze NIS2 e {len(result['nis_atti'])} determine/provvedimenti NIS2")
 
     # Scoperta sub-pagine e PDF (solo per pagine HTML)
     discovered_urls = []
@@ -1730,6 +1823,23 @@ def main():
     for p in all_results:
         if p.get("scadenze"):
             all_scadenze.extend(p["scadenze"])
+
+    # Integrazione: Aggiungi gli atti/determine specifici NIS2 (es. Determina 314287/2026, CVD 301868)
+    # dentro atti_list della pagina 'atti_generali' se non già presenti
+    atti_page = next((p for p in all_results if p.get("id") == "atti_generali"), None)
+    if atti_page is not None and "atti_list" in atti_page:
+        existing_urls = {a.get("url", "").rstrip("/") for a in atti_page["atti_list"]}
+        new_nis_atti = []
+        for p in all_results:
+            for atto in p.get("nis_atti", []):
+                u = atto.get("url", "").rstrip("/")
+                if u and u not in existing_urls:
+                    new_nis_atti.append(atto)
+                    existing_urls.add(u)
+        
+        if new_nis_atti:
+            print(f"🔗 Integrati {len(new_nis_atti)} atti NIS2 (es. Determina 314287/2026) in Documentazione Generale")
+            atti_page["atti_list"] = new_nis_atti + atti_page["atti_list"]
 
     # Salva risultati per la dashboard
     try:
