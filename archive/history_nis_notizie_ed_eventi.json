@@ -1,5 +1,77 @@
 [
   {
+    "timestamp": "2026-10-28T15:14:36.724661+01:00",
+    "date_formatted": "28/10/2026 15:14",
+    "additions": [
+      "News -",
+      "28 Ottobre 2026",
+      "ACN e Assolombarda insieme per la resilienza delle aziende",
+      "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese",
+      "Normativa NIS",
+      "NIS",
+      "Cybersicurezza",
+      "ACN",
+      "Cybersecurity"
+    ],
+    "removals": [
+      "News -",
+      "15 Gennaio 2025",
+      "Normativa NIS: date e informazioni utili per un\u2019implementazione efficace",
+      "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN",
+      "Normativa NIS",
+      "NIS"
+    ],
+    "is_minor": false,
+    "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\".",
+    "diff_blocks": [
+      {
+        "type": "insert",
+        "context_pre": [
+          "Notizie ed eventi",
+          "Notizie ed eventi",
+          "Notizie"
+        ],
+        "before": [],
+        "after": [
+          "News -",
+          "28 Ottobre 2026",
+          "ACN e Assolombarda insieme per la resilienza delle aziende",
+          "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese",
+          "Normativa NIS",
+          "NIS",
+          "Cybersicurezza",
+          "ACN",
+          "Cybersecurity"
+        ],
+        "context_post": [
+          "News -",
+          "18 Settembre 2026",
+          "Le novit\u00e0 per i soggetti NIS"
+        ]
+      },
+      {
+        "type": "delete",
+        "context_pre": [
+          "Tra i temi affrontati, il percorso di registrazione che scade il 28 febbraio e le sanzioni se non viene effettuato",
+          "Normativa NIS",
+          "NIS"
+        ],
+        "before": [
+          "News -",
+          "15 Gennaio 2025",
+          "Normativa NIS: date e informazioni utili per un\u2019implementazione efficace",
+          "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN",
+          "Normativa NIS",
+          "NIS"
+        ],
+        "after": [],
+        "context_post": [
+          "Nascosta"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-09-18T17:07:17.023423+02:00",
     "date_formatted": "18/09/2026 17:07",
     "additions": [
@@ -21,52 +93,5 @@
       "NIS"
     ],
     "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Le novit\u00e0 per i soggetti NIS\"."
-  },
-  {
-    "timestamp": "2026-07-24T19:16:37.344784+02:00",
-    "date_formatted": "24/07/2026 19:16",
-    "additions": [
-      "News -",
-      "24 Luglio 2026",
-      "Aggiornate le FAQ ACN sulle misure di sicurezza per la supply chain dei soggetti NIS",
-      "L'Agenzia per la Cybersicurezza Nazionale ha pubblicato nuovi chiarimenti interpretativi sul processo e i requisiti di sicurezza da implementare per proteggere la sicurezza della catena di approvvigionamento dei soggetti NIS 2, con l'obiettivo di agevolarne l'applicazione da parte dei soggetti interessati",
-      "Normativa NIS",
-      "NIS",
-      "ACN"
-    ],
-    "removals": [
-      "News -",
-      "27 Novembre 2024",
-      "NIS2, convegno ACN all'Universit\u00e0 Sapienza di Roma. Frattasi: dalla direttiva uno sguardo nuovo sulla cybersicurezza",
-      "Interventi del Magnifico Rettore Polimeni, del Sottosegretario di Stato Mantovano e del Vice Direttore Ciardi",
-      "Universit\u00e0",
-      "Normativa NIS",
-      "NIS",
-      "ACN"
-    ]
-  },
-  {
-    "timestamp": "2026-07-14T16:31:02.584050+02:00",
-    "date_formatted": "14/07/2026 16:31",
-    "additions": [
-      "News -",
-      "14 Luglio 2026",
-      "Aggiornate le FAQ ACN sugli obblighi degli organi di amministrazione e direttivi dei soggetti NIS",
-      "L'Agenzia per la Cybersicurezza Nazionale ha pubblicato nuovi chiarimenti interpretativi sulla governance prevista dalla normativa NIS 2, con l'obiettivo di agevolarne l'applicazione da parte dei soggetti interessati",
-      "Normativa NIS",
-      "NIS",
-      "ACN"
-    ],
-    "removals": [
-      "News -",
-      "26 Novembre 2024",
-      "ACN e Sapienza Universit\u00e0 di Roma : la Direttiva NIS2 al centro del dibattito sulla sicurezza digitale",
-      "Possibile partecipare all\u2019evento informativo in presenza o in diretta streaming",
-      "Pubblico-privato",
-      "Normativa NIS",
-      "NIS",
-      "Cybersicurezza",
-      "ACN"
-    ]
   }
 ]
