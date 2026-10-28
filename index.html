@@ -1803,7 +1803,7 @@
                     card.innerHTML = `
                         <div class="card-type">${escapeHtml(a.type || 'ATTO')}</div>
                         <h3 class="card-title" style="min-height: auto; margin-bottom: 0.5rem;">${escapeHtml(a.name)}</h3>
-                        <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1.5rem;">Data: ${escapeHtml(a.date || 'N/A')}</div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1.5rem;">Data: ${escapeHtml(a.date || (a.year ? (a.month ? a.month + '/' + a.year : a.year) : 'N/A'))}</div>
                         <div class="card-actions" style="margin-top: auto; grid-template-columns: 1fr;">
                             <a href="${a.url}" target="_blank" class="btn btn-primary">Apri Documento</a>
                         </div>

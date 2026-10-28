@@ -303,6 +303,18 @@ def extract_nis_documents_from_html(html_content, base_url="https://www.acn.gov.
                     else:
                         year_str = "2026"
                         
+                    # Riconoscimento date specifiche per determine e allegati NIS2
+                    if "314287" in full_name or "314287" in full_url:
+                        date_str = "23/10/2026"
+                        month_str = "10"
+                        year_str = "2026"
+                    elif "301868" in full_name:
+                        date_str = "06/10/2026"
+                        month_str = "10"
+                        year_str = "2026"
+                    elif year_str:
+                        date_str = year_str
+                        
                 docs.append({
                     "name": full_name,
                     "url": full_url,
