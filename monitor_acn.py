@@ -1088,7 +1088,7 @@ def send_onesignal_notification(results_with_changes, ai_summary):
 
     payload = {
         "app_id": app_id,
-        "included_segments": ["Subscribed Users", "All"],
+        "included_segments": ["Subscribed Users"],
         "headings": {"it": title, "en": title},
         "contents": {"it": body, "en": body},
         "ios_badgeType": "Increase",
