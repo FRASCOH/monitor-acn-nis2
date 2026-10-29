@@ -1,5 +1,5 @@
 {
-  "last_update": "29/10/2026 16:41",
+  "last_update": "29/10/2026 21:35",
   "global_summary": "\u2022 NIS Home: Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\".\n\u2022 NIS: Notizie Ed Eventi: Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\".",
   "scadenze": [
     {
@@ -360,7 +360,7 @@
       "id": "atti_generali",
       "name": "ACN Atti Generali",
       "url": "https://www.acn.gov.it/portale/atti-generali",
-      "last_check": "29/10/2026 16:39",
+      "last_check": "29/10/2026 21:34",
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
@@ -1438,7 +1438,7 @@
       "id": "global_header",
       "name": "Header Globale ACN",
       "url": "https://www.acn.gov.it/portale/atti-generali",
-      "last_check": "29/10/2026 16:39",
+      "last_check": "29/10/2026 21:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1453,7 +1453,7 @@
       "id": "global_footer",
       "name": "Footer Globale ACN",
       "url": "https://www.acn.gov.it/portale/atti-generali",
-      "last_check": "29/10/2026 16:39",
+      "last_check": "29/10/2026 21:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -1468,7 +1468,7 @@
       "id": "faq_nis_parent",
       "name": "FAQ NIS (Parent)",
       "url": "https://www.acn.gov.it/portale/faq/nis",
-      "last_check": "29/10/2026 16:39",
+      "last_check": "29/10/2026 21:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1482,7 +1482,7 @@
       "id": "nis_home",
       "name": "NIS Home",
       "url": "https://www.acn.gov.it/portale/nis",
-      "last_check": "29/10/2026 16:39",
+      "last_check": "29/10/2026 21:34",
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
@@ -1546,7 +1546,7 @@
       "id": "linee_guida",
       "name": "Linee Guida ACN",
       "url": "https://www.acn.gov.it/portale/linee-guida",
-      "last_check": "29/10/2026 16:39",
+      "last_check": "29/10/2026 21:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1560,7 +1560,7 @@
       "id": "avvisi",
       "name": "Avvisi ACN",
       "url": "https://www.acn.gov.it/portale/avvisi",
-      "last_check": "29/10/2026 16:39",
+      "last_check": "29/10/2026 21:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1574,24 +1574,10 @@
       "id": "pnrr",
       "name": "PNRR Cybersecurity",
       "url": "https://www.acn.gov.it/portale/pnrr",
-      "last_check": "29/10/2026 16:39",
+      "last_check": "29/10/2026 21:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "pdf_9a28ca48f3",
-      "name": "\ud83d\udcc4 PDF: 1642754054-all1det307acn.pdf",
-      "url": "https://assets.innovazione.gov.it/1642754054-all1det307acn.pdf",
-      "last_check": "29/10/2026 16:39",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
@@ -1602,7 +1588,7 @@
       "id": "pdf_cb7f4eec7e",
       "name": "\ud83d\udcc4 PDF: 1642694063-det_306_all1_20220118_modello.pdf",
       "url": "https://assets.innovazione.gov.it/1642694063-det_306_all1_20220118_modello.pdf",
-      "last_check": "29/10/2026 16:39",
+      "last_check": "29/10/2026 21:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -1613,10 +1599,24 @@
       "is_minor": false
     },
     {
-      "id": "faq_nis_categorizzazione",
-      "name": "FAQ NIS: Categorizzazione",
-      "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
-      "last_check": "29/10/2026 16:39",
+      "id": "pdf_9a28ca48f3",
+      "name": "\ud83d\udcc4 PDF: 1642754054-all1det307acn.pdf",
+      "url": "https://assets.innovazione.gov.it/1642754054-all1det307acn.pdf",
+      "last_check": "29/10/2026 21:34",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "faq_nis_profili_generali",
+      "name": "FAQ NIS: Profili Generali",
+      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
+      "last_check": "29/10/2026 21:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1627,24 +1627,10 @@
       "is_minor": false
     },
     {
-      "id": "faq_nis_monitoraggio_vigilanza_esecuzione",
-      "name": "FAQ NIS: Monitoraggio Vigilanza Esecuzione",
-      "url": "https://www.acn.gov.it/portale/faq/nis/monitoraggio-vigilanza-esecuzione",
-      "last_check": "29/10/2026 16:39",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "faq_nis_aggiornamento_delle_informazioni",
-      "name": "FAQ NIS: Aggiornamento Delle Informazioni",
-      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
-      "last_check": "29/10/2026 16:39",
+      "id": "faq_nis_ambito",
+      "name": "FAQ NIS: Ambito",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
+      "last_check": "29/10/2026 21:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1658,119 +1644,7 @@
       "id": "faq_nis_settori_sottosettori_e_tipologie_di_soggetto",
       "name": "FAQ NIS: Settori Sottosettori E Tipologie Di Soggetto",
       "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
-      "last_check": "29/10/2026 16:39",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "faq_nis_misure_di_sicurezza_e_notifica_di_incidenti",
-      "name": "FAQ NIS: Misure Di Sicurezza E Notifica Di Incidenti",
-      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
-      "last_check": "29/10/2026 16:39",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "faq_nis_registrazione",
-      "name": "FAQ NIS: Registrazione",
-      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
-      "last_check": "29/10/2026 16:39",
-      "status": "Modificato (Recente)",
-      "has_changes": true,
-      "has_history": true,
-      "summary": "Aggiornate le FAQ Registrazione [GE.1, GEN.6, GEN.7] con chiarimenti su: \"Si evidenzia infine che alle organizzazioni registrate e gi\u00e0 presenti nell\u2019elenco dei sogg\".",
-      "additions": [
-        ") \u00e8 da individuarsi tra le sedi di quest\u2019ultima, senza che rilevino a tal fine le imprese a questa collegate (ex. articolo 1, comma 1, lettera ee), della",
-        "Determinazione ACN 314287/2026",
-        "Si evidenzia infine che alle organizzazioni registrate e gi\u00e0 presenti nell\u2019elenco dei soggetti NIS, che non abbiano modificato le informazioni precedentemente condivise, non \u00e8 richiesta la registrazione annuale (gennaio e febbraio di ogni anno). In particolare, esclusivamente in assenza di modifiche rispetto alle informazioni condivise con la dichiarazione sottomessa nell\u2019annualit\u00e0 precedente o con successive dichiarazioni integrative trasmesse nella stessa annualit\u00e0 nell\u2019ambito del procedimento di consolidamento dell\u2019elenco dei soggetti NIS, per tali soggetti non \u00e8 necessario provvedere alla registrazione annuale (v. FAQ v. AMB.GE.1, GEN.6 e GEN.7).",
-        ") devono registrarsi sulla piattaforma di ACN dal 1\u00b0 gennaio al 28 febbraio di ogni anno, fatta eccezione per i soggetti registrati e gi\u00e0 presenti nell\u2019elenco dei soggetti NIS, per i quali non \u00e8 richiesto che effettuino la registrazione annuale esclusivamente in assenza di modifiche rispetto alle informazioni condivise con la dichiarazione sottomessa nell\u2019annualit\u00e0 precedente o con successive dichiarazioni integrative trasmesse nella stessa annualit\u00e0 nell\u2019ambito del procedimento di consolidamento dell\u2019elenco dei soggetti NIS."
-      ],
-      "removals": [
-        ") \u00e8 da individuarsi tra le sedi di quest\u2019ultima, senza che rilevino a tal fine le imprese a questa collegate (ex. articolo 1, comma 1, lettera cc), della",
-        "Determinazione ACN 333017/2025",
-        ") devono registrarsi sulla piattaforma di ACN dal 1\u00b0 gennaio al 28 febbraio di ogni anno successivo alla data di entrata in vigore del decreto - quindi gi\u00e0 entro il 28 febbraio 2025 - fatta eccezione per i fornitori di servizi di sistema dei nomi di dominio, i gestori di registri dei nomi di dominio di primo livello, i fornitori di servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonch\u00e9 i fornitori di mercati online, di motori di ricerca online e di piattaforme di servizi di social network che rientrano nell'ambito di applicazione del decreto (v. FAQ AMB.GE.1), per i quali \u00e8 stato previsto l\u2019obbligo di registrazione entro il 17 gennaio 2025."
-      ],
-      "atti_list": [],
-      "last_change_date": "23/10/2026 18:52",
-      "diff_blocks": [
-        {
-          "type": "replace",
-          "context_pre": [
-            "legal entity",
-            "), lo stabilimento principale di tale persona giuridica (",
-            "legal entity"
-          ],
-          "before": [
-            ") \u00e8 da individuarsi tra le sedi di quest\u2019ultima, senza che rilevino a tal fine le imprese a questa collegate (ex. articolo 1, comma 1, lettera cc), della",
-            "Determinazione ACN 333017/2025"
-          ],
-          "after": [
-            ") \u00e8 da individuarsi tra le sedi di quest\u2019ultima, senza che rilevino a tal fine le imprese a questa collegate (ex. articolo 1, comma 1, lettera ee), della",
-            "Determinazione ACN 314287/2026"
-          ],
-          "context_post": [
-            ") e le relative sedi",
-            "l\u2019organizzazione non ha alcun stabilimento nell\u2019Unione europea, offre i propri servizi sul territorio nazionale e, ai sensi dell\u2019articolo 5, comma 3, ha designato il rappresentante nell\u2019Unione in Italia.",
-            "PDA1.4"
-          ]
-        },
-        {
-          "type": "insert",
-          "context_pre": [
-            "sono disponibili FAQ settoriali (sezione \u201cSettori, sottosettori e tipologie di soggetto\u201d)",
-            "che forniscono una guida alla lettura dedicata del decreto nonch\u00e9 chiarimenti specifici circa l\u2019ambito di applicazione.",
-            "Per completezza di informazione, si rappresenta che rimane ferma la facolt\u00e0 per l\u2019Autorit\u00e0 nazionale competente NIS, su proposta delle Autorit\u00e0 di settore interessate, di individuare organizzazioni soggette alla giurisdizione nazionale che operano nei settori, sottosettori o che svolgono attivit\u00e0 riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV, del decreto NIS (ex articolo 3, comma 9), quali soggetti importanti o essenziali. In tal caso, queste organizzazioni riceveranno una notifica al proprio domicilio digitale (ex articolo 3, comma 13, del decreto NIS)."
-          ],
-          "before": [],
-          "after": [
-            "Si evidenzia infine che alle organizzazioni registrate e gi\u00e0 presenti nell\u2019elenco dei soggetti NIS, che non abbiano modificato le informazioni precedentemente condivise, non \u00e8 richiesta la registrazione annuale (gennaio e febbraio di ogni anno). In particolare, esclusivamente in assenza di modifiche rispetto alle informazioni condivise con la dichiarazione sottomessa nell\u2019annualit\u00e0 precedente o con successive dichiarazioni integrative trasmesse nella stessa annualit\u00e0 nell\u2019ambito del procedimento di consolidamento dell\u2019elenco dei soggetti NIS, per tali soggetti non \u00e8 necessario provvedere alla registrazione annuale (v. FAQ v. AMB.GE.1, GEN.6 e GEN.7)."
-          ],
-          "context_post": [
-            "REG.2 Quali sono le scadenze previste per registrarsi sulla piattaforma ACN?",
-            "I soggetti che si riconoscono in uno dei settori/sottosettori/tipologie (v. FAQ AMB.GE.1) previste dal decreto NIS (",
-            "d.lgs. n. 138/2024"
-          ]
-        },
-        {
-          "type": "replace",
-          "context_pre": [
-            "REG.2 Quali sono le scadenze previste per registrarsi sulla piattaforma ACN?",
-            "I soggetti che si riconoscono in uno dei settori/sottosettori/tipologie (v. FAQ AMB.GE.1) previste dal decreto NIS (",
-            "d.lgs. n. 138/2024"
-          ],
-          "before": [
-            ") devono registrarsi sulla piattaforma di ACN dal 1\u00b0 gennaio al 28 febbraio di ogni anno successivo alla data di entrata in vigore del decreto - quindi gi\u00e0 entro il 28 febbraio 2025 - fatta eccezione per i fornitori di servizi di sistema dei nomi di dominio, i gestori di registri dei nomi di dominio di primo livello, i fornitori di servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonch\u00e9 i fornitori di mercati online, di motori di ricerca online e di piattaforme di servizi di social network che rientrano nell'ambito di applicazione del decreto (v. FAQ AMB.GE.1), per i quali \u00e8 stato previsto l\u2019obbligo di registrazione entro il 17 gennaio 2025."
-          ],
-          "after": [
-            ") devono registrarsi sulla piattaforma di ACN dal 1\u00b0 gennaio al 28 febbraio di ogni anno, fatta eccezione per i soggetti registrati e gi\u00e0 presenti nell\u2019elenco dei soggetti NIS, per i quali non \u00e8 richiesto che effettuino la registrazione annuale esclusivamente in assenza di modifiche rispetto alle informazioni condivise con la dichiarazione sottomessa nell\u2019annualit\u00e0 precedente o con successive dichiarazioni integrative trasmesse nella stessa annualit\u00e0 nell\u2019ambito del procedimento di consolidamento dell\u2019elenco dei soggetti NIS."
-          ],
-          "context_post": [
-            "REG.3 Dopo essermi registrato sulla piattaforma di ACN sar\u00f2 un soggetto NIS?",
-            "Le pubbliche amministrazioni e i soggetti pubblici o privati che rientrano nell\u2019ambito di applicazione del decreto legislativo 138/2024 (decreto NIS) sono soggetti NIS a prescindere dalla registrazione e sono pertanto tenuti a rispettare gli obblighi previsti dal relativo decreto, a partire dalla registrazione stessa.",
-            "La registrazione di un soggetto sulla piattaforma di ACN \u00e8 sottoposta ad una fase di analisi. Entro il 31 marzo di ogni anno, l\u2019Agenzia, in qualit\u00e0 di Autorit\u00e0 nazionale competente NIS, redige l\u2019elenco dei soggetti essenziali o importanti e successivamente comunica al soggetto l\u2019eventuale inserimento."
-          ]
-        }
-      ],
-      "is_minor": false,
-      "ai_summary": "Aggiornate le FAQ Registrazione [GE.1, GEN.6, GEN.7] con chiarimenti su: \"Si evidenzia infine che alle organizzazioni registrate e gi\u00e0 presenti nell\u2019elenco dei sogg\"."
-    },
-    {
-      "id": "faq_nis_profili_generali",
-      "name": "FAQ NIS: Profili Generali",
-      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
-      "last_check": "29/10/2026 16:39",
+      "last_check": "29/10/2026 21:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1784,7 +1658,7 @@
       "id": "faq_nis_ruoli_e_procedure",
       "name": "FAQ NIS: Ruoli E Procedure",
       "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
-      "last_check": "29/10/2026 16:39",
+      "last_check": "29/10/2026 21:34",
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
@@ -1901,10 +1775,10 @@
       "ai_summary": "Aggiornate le FAQ Ruoli E Procedure [ACC.1]: chiarimenti su credenziali di accesso (SPID, CIE, CNS, eIDAS)."
     },
     {
-      "id": "faq_nis_ambito",
-      "name": "FAQ NIS: Ambito",
-      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
-      "last_check": "29/10/2026 16:39",
+      "id": "faq_nis_aggiornamento_delle_informazioni",
+      "name": "FAQ NIS: Aggiornamento Delle Informazioni",
+      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
+      "last_check": "29/10/2026 21:34",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1915,65 +1789,136 @@
       "is_minor": false
     },
     {
-      "id": "nis_registrazione",
-      "name": "NIS: Registrazione",
-      "url": "https://www.acn.gov.it/portale/nis/registrazione",
-      "last_check": "29/10/2026 16:40",
+      "id": "faq_nis_registrazione",
+      "name": "FAQ NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
+      "last_check": "29/10/2026 21:35",
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
-      "summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Determinazione ACN 314287/2026\".",
+      "summary": "Aggiornate le FAQ Registrazione [GE.1, GEN.6, GEN.7] con chiarimenti su: \"Si evidenzia infine che alle organizzazioni registrate e gi\u00e0 presenti nell\u2019elenco dei sogg\".",
       "additions": [
-        "Determinazione ACN 314287/2026"
+        ") \u00e8 da individuarsi tra le sedi di quest\u2019ultima, senza che rilevino a tal fine le imprese a questa collegate (ex. articolo 1, comma 1, lettera ee), della",
+        "Determinazione ACN 314287/2026",
+        "Si evidenzia infine che alle organizzazioni registrate e gi\u00e0 presenti nell\u2019elenco dei soggetti NIS, che non abbiano modificato le informazioni precedentemente condivise, non \u00e8 richiesta la registrazione annuale (gennaio e febbraio di ogni anno). In particolare, esclusivamente in assenza di modifiche rispetto alle informazioni condivise con la dichiarazione sottomessa nell\u2019annualit\u00e0 precedente o con successive dichiarazioni integrative trasmesse nella stessa annualit\u00e0 nell\u2019ambito del procedimento di consolidamento dell\u2019elenco dei soggetti NIS, per tali soggetti non \u00e8 necessario provvedere alla registrazione annuale (v. FAQ v. AMB.GE.1, GEN.6 e GEN.7).",
+        ") devono registrarsi sulla piattaforma di ACN dal 1\u00b0 gennaio al 28 febbraio di ogni anno, fatta eccezione per i soggetti registrati e gi\u00e0 presenti nell\u2019elenco dei soggetti NIS, per i quali non \u00e8 richiesto che effettuino la registrazione annuale esclusivamente in assenza di modifiche rispetto alle informazioni condivise con la dichiarazione sottomessa nell\u2019annualit\u00e0 precedente o con successive dichiarazioni integrative trasmesse nella stessa annualit\u00e0 nell\u2019ambito del procedimento di consolidamento dell\u2019elenco dei soggetti NIS."
       ],
       "removals": [
-        "Determinazione 379887/2025"
+        ") \u00e8 da individuarsi tra le sedi di quest\u2019ultima, senza che rilevino a tal fine le imprese a questa collegate (ex. articolo 1, comma 1, lettera cc), della",
+        "Determinazione ACN 333017/2025",
+        ") devono registrarsi sulla piattaforma di ACN dal 1\u00b0 gennaio al 28 febbraio di ogni anno successivo alla data di entrata in vigore del decreto - quindi gi\u00e0 entro il 28 febbraio 2025 - fatta eccezione per i fornitori di servizi di sistema dei nomi di dominio, i gestori di registri dei nomi di dominio di primo livello, i fornitori di servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonch\u00e9 i fornitori di mercati online, di motori di ricerca online e di piattaforme di servizi di social network che rientrano nell'ambito di applicazione del decreto (v. FAQ AMB.GE.1), per i quali \u00e8 stato previsto l\u2019obbligo di registrazione entro il 17 gennaio 2025."
       ],
       "atti_list": [],
-      "last_change_date": "23/10/2026 18:53",
+      "last_change_date": "23/10/2026 18:52",
       "diff_blocks": [
         {
           "type": "replace",
           "context_pre": [
-            "Guarda il video su Youtube: apre una nuova finestra",
-            "Come registrare un\u2019organizzazione",
-            "La registrazione \u00e8 prevista dall\u2019articolo 7 del decreto NIS e le modalit\u00e0, termini e procedimenti sono definiti dalla"
+            "legal entity",
+            "), lo stabilimento principale di tale persona giuridica (",
+            "legal entity"
           ],
           "before": [
-            "Determinazione 379887/2025"
+            ") \u00e8 da individuarsi tra le sedi di quest\u2019ultima, senza che rilevino a tal fine le imprese a questa collegate (ex. articolo 1, comma 1, lettera cc), della",
+            "Determinazione ACN 333017/2025"
           ],
           "after": [
+            ") \u00e8 da individuarsi tra le sedi di quest\u2019ultima, senza che rilevino a tal fine le imprese a questa collegate (ex. articolo 1, comma 1, lettera ee), della",
             "Determinazione ACN 314287/2026"
           ],
           "context_post": [
-            ".",
-            "Consulta le",
-            "domande frequenti"
+            ") e le relative sedi",
+            "l\u2019organizzazione non ha alcun stabilimento nell\u2019Unione europea, offre i propri servizi sul territorio nazionale e, ai sensi dell\u2019articolo 5, comma 3, ha designato il rappresentante nell\u2019Unione in Italia.",
+            "PDA1.4"
+          ]
+        },
+        {
+          "type": "insert",
+          "context_pre": [
+            "sono disponibili FAQ settoriali (sezione \u201cSettori, sottosettori e tipologie di soggetto\u201d)",
+            "che forniscono una guida alla lettura dedicata del decreto nonch\u00e9 chiarimenti specifici circa l\u2019ambito di applicazione.",
+            "Per completezza di informazione, si rappresenta che rimane ferma la facolt\u00e0 per l\u2019Autorit\u00e0 nazionale competente NIS, su proposta delle Autorit\u00e0 di settore interessate, di individuare organizzazioni soggette alla giurisdizione nazionale che operano nei settori, sottosettori o che svolgono attivit\u00e0 riconducibili alle tipologie di soggetto di cui agli allegati I, II, III e IV, del decreto NIS (ex articolo 3, comma 9), quali soggetti importanti o essenziali. In tal caso, queste organizzazioni riceveranno una notifica al proprio domicilio digitale (ex articolo 3, comma 13, del decreto NIS)."
+          ],
+          "before": [],
+          "after": [
+            "Si evidenzia infine che alle organizzazioni registrate e gi\u00e0 presenti nell\u2019elenco dei soggetti NIS, che non abbiano modificato le informazioni precedentemente condivise, non \u00e8 richiesta la registrazione annuale (gennaio e febbraio di ogni anno). In particolare, esclusivamente in assenza di modifiche rispetto alle informazioni condivise con la dichiarazione sottomessa nell\u2019annualit\u00e0 precedente o con successive dichiarazioni integrative trasmesse nella stessa annualit\u00e0 nell\u2019ambito del procedimento di consolidamento dell\u2019elenco dei soggetti NIS, per tali soggetti non \u00e8 necessario provvedere alla registrazione annuale (v. FAQ v. AMB.GE.1, GEN.6 e GEN.7)."
+          ],
+          "context_post": [
+            "REG.2 Quali sono le scadenze previste per registrarsi sulla piattaforma ACN?",
+            "I soggetti che si riconoscono in uno dei settori/sottosettori/tipologie (v. FAQ AMB.GE.1) previste dal decreto NIS (",
+            "d.lgs. n. 138/2024"
+          ]
+        },
+        {
+          "type": "replace",
+          "context_pre": [
+            "REG.2 Quali sono le scadenze previste per registrarsi sulla piattaforma ACN?",
+            "I soggetti che si riconoscono in uno dei settori/sottosettori/tipologie (v. FAQ AMB.GE.1) previste dal decreto NIS (",
+            "d.lgs. n. 138/2024"
+          ],
+          "before": [
+            ") devono registrarsi sulla piattaforma di ACN dal 1\u00b0 gennaio al 28 febbraio di ogni anno successivo alla data di entrata in vigore del decreto - quindi gi\u00e0 entro il 28 febbraio 2025 - fatta eccezione per i fornitori di servizi di sistema dei nomi di dominio, i gestori di registri dei nomi di dominio di primo livello, i fornitori di servizi di registrazione dei nomi di dominio, i fornitori di servizi di cloud computing, i fornitori di servizi di data center, i fornitori di reti di distribuzione dei contenuti, i fornitori di servizi gestiti, i fornitori di servizi di sicurezza gestiti, nonch\u00e9 i fornitori di mercati online, di motori di ricerca online e di piattaforme di servizi di social network che rientrano nell'ambito di applicazione del decreto (v. FAQ AMB.GE.1), per i quali \u00e8 stato previsto l\u2019obbligo di registrazione entro il 17 gennaio 2025."
+          ],
+          "after": [
+            ") devono registrarsi sulla piattaforma di ACN dal 1\u00b0 gennaio al 28 febbraio di ogni anno, fatta eccezione per i soggetti registrati e gi\u00e0 presenti nell\u2019elenco dei soggetti NIS, per i quali non \u00e8 richiesto che effettuino la registrazione annuale esclusivamente in assenza di modifiche rispetto alle informazioni condivise con la dichiarazione sottomessa nell\u2019annualit\u00e0 precedente o con successive dichiarazioni integrative trasmesse nella stessa annualit\u00e0 nell\u2019ambito del procedimento di consolidamento dell\u2019elenco dei soggetti NIS."
+          ],
+          "context_post": [
+            "REG.3 Dopo essermi registrato sulla piattaforma di ACN sar\u00f2 un soggetto NIS?",
+            "Le pubbliche amministrazioni e i soggetti pubblici o privati che rientrano nell\u2019ambito di applicazione del decreto legislativo 138/2024 (decreto NIS) sono soggetti NIS a prescindere dalla registrazione e sono pertanto tenuti a rispettare gli obblighi previsti dal relativo decreto, a partire dalla registrazione stessa.",
+            "La registrazione di un soggetto sulla piattaforma di ACN \u00e8 sottoposta ad una fase di analisi. Entro il 31 marzo di ogni anno, l\u2019Agenzia, in qualit\u00e0 di Autorit\u00e0 nazionale competente NIS, redige l\u2019elenco dei soggetti essenziali o importanti e successivamente comunica al soggetto l\u2019eventuale inserimento."
           ]
         }
       ],
       "is_minor": false,
-      "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Determinazione ACN 314287/2026\"."
+      "ai_summary": "Aggiornate le FAQ Registrazione [GE.1, GEN.6, GEN.7] con chiarimenti su: \"Si evidenzia infine che alle organizzazioni registrate e gi\u00e0 presenti nell\u2019elenco dei sogg\"."
+    },
+    {
+      "id": "faq_nis_categorizzazione",
+      "name": "FAQ NIS: Categorizzazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
+      "last_check": "29/10/2026 21:35",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "faq_nis_monitoraggio_vigilanza_esecuzione",
+      "name": "FAQ NIS: Monitoraggio Vigilanza Esecuzione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/monitoraggio-vigilanza-esecuzione",
+      "last_check": "29/10/2026 21:35",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "faq_nis_misure_di_sicurezza_e_notifica_di_incidenti",
+      "name": "FAQ NIS: Misure Di Sicurezza E Notifica Di Incidenti",
+      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
+      "last_check": "29/10/2026 21:35",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
     },
     {
       "id": "nis_modalita_specifiche_base",
       "name": "NIS: Modalita Specifiche Base",
       "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
-      "last_check": "29/10/2026 16:40",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "nis_aggiornamento_informazioni",
-      "name": "NIS: Aggiornamento Informazioni",
-      "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
-      "last_check": "29/10/2026 16:40",
+      "last_check": "29/10/2026 21:35",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1987,7 +1932,7 @@
       "id": "nis_notizie_ed_eventi",
       "name": "NIS: Notizie Ed Eventi",
       "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
-      "last_check": "29/10/2026 16:40",
+      "last_check": "29/10/2026 21:35",
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
@@ -2064,10 +2009,93 @@
       "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\"."
     },
     {
+      "id": "nis_obblighi",
+      "name": "NIS: Obblighi",
+      "url": "https://www.acn.gov.it/portale/nis/obblighi",
+      "last_check": "29/10/2026 21:35",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "nis_faq",
+      "name": "NIS: Faq",
+      "url": "https://www.acn.gov.it/portale/nis/faq",
+      "last_check": "29/10/2026 21:35",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "nis_aggiornamento_informazioni",
+      "name": "NIS: Aggiornamento Informazioni",
+      "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
+      "last_check": "29/10/2026 21:35",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "nis_registrazione",
+      "name": "NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/nis/registrazione",
+      "last_check": "29/10/2026 21:35",
+      "status": "Modificato (Recente)",
+      "has_changes": true,
+      "has_history": true,
+      "summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Determinazione ACN 314287/2026\".",
+      "additions": [
+        "Determinazione ACN 314287/2026"
+      ],
+      "removals": [
+        "Determinazione 379887/2025"
+      ],
+      "atti_list": [],
+      "last_change_date": "23/10/2026 18:53",
+      "diff_blocks": [
+        {
+          "type": "replace",
+          "context_pre": [
+            "Guarda il video su Youtube: apre una nuova finestra",
+            "Come registrare un\u2019organizzazione",
+            "La registrazione \u00e8 prevista dall\u2019articolo 7 del decreto NIS e le modalit\u00e0, termini e procedimenti sono definiti dalla"
+          ],
+          "before": [
+            "Determinazione 379887/2025"
+          ],
+          "after": [
+            "Determinazione ACN 314287/2026"
+          ],
+          "context_post": [
+            ".",
+            "Consulta le",
+            "domande frequenti"
+          ]
+        }
+      ],
+      "is_minor": false,
+      "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Determinazione ACN 314287/2026\"."
+    },
+    {
       "id": "nis_la_normativa",
       "name": "NIS: La Normativa",
       "url": "https://www.acn.gov.it/portale/nis/la-normativa",
-      "last_check": "29/10/2026 16:40",
+      "last_check": "29/10/2026 21:35",
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
@@ -2573,38 +2601,10 @@
       "ai_summary": "Pubblicata nuova determina: \"Determinazione ACN 314287/2026\"."
     },
     {
-      "id": "nis_obblighi",
-      "name": "NIS: Obblighi",
-      "url": "https://www.acn.gov.it/portale/nis/obblighi",
-      "last_check": "29/10/2026 16:40",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "nis_faq",
-      "name": "NIS: Faq",
-      "url": "https://www.acn.gov.it/portale/nis/faq",
-      "last_check": "29/10/2026 16:40",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
       "id": "nis_ambito",
       "name": "NIS: Ambito",
       "url": "https://www.acn.gov.it/portale/nis/ambito",
-      "last_check": "29/10/2026 16:40",
+      "last_check": "29/10/2026 21:35",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -2615,10 +2615,10 @@
       "is_minor": false
     },
     {
-      "id": "pdf_403942e3c6",
-      "name": "\ud83d\udcc4 PDF: RegolamentoCloud.pdf",
-      "url": "https://www.acn.gov.it/portale/documents/20119/111690/RegolamentoCloud.pdf",
-      "last_check": "29/10/2026 16:40",
+      "id": "pdf_80b8113e88",
+      "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2024.pdf",
+      "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2024.pdf",
+      "last_check": "29/10/2026 21:35",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -2632,27 +2632,29 @@
       "id": "pdf_39f9f139a9",
       "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
       "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
-      "last_check": "29/10/2026 16:40",
-      "status": "Errore: HTTPSConnectionPool(host='www.istat.it', port=443): Read timed out.",
+      "last_check": "29/10/2026 21:35",
+      "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
-      "summary": "HTTPSConnectionPool(host='www.istat.it', port=443): Read timed out.",
+      "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "is_minor": false
     },
     {
-      "id": "pdf_80b8113e88",
-      "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2024.pdf",
-      "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2024.pdf",
-      "last_check": "29/10/2026 16:41",
-      "status": "Errore: HTTPSConnectionPool(host='www.istat.it', port=443): Read timed out. (read timeout=30)",
+      "id": "pdf_403942e3c6",
+      "name": "\ud83d\udcc4 PDF: RegolamentoCloud.pdf",
+      "url": "https://www.acn.gov.it/portale/documents/20119/111690/RegolamentoCloud.pdf",
+      "last_check": "29/10/2026 21:35",
+      "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
-      "summary": "HTTPSConnectionPool(host='www.istat.it', port=443): Read timed out. (read timeout=30)",
+      "summary": "",
       "additions": [],
       "removals": [],
-      "atti_list": []
+      "atti_list": [],
+      "is_minor": false
     }
   ]
 }
