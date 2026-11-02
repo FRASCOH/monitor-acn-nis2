@@ -1,5 +1,56 @@
 [
   {
+    "timestamp": "2026-11-02T11:03:37.826956+01:00",
+    "date_formatted": "02/11/2026 11:03",
+    "additions": [
+      "Determina del Direttore generale dell\u2019ACN n. 320412 del 27 ottobre 2026",
+      "\u201cRimodulazione degli assetti organizzativi dell\u2019ACN\u201c",
+      "02 Novembre 2026"
+    ],
+    "removals": [
+      "19 Ottobre 2026"
+    ],
+    "is_minor": false,
+    "ai_summary": "Pubblicata nuova determina: \"Determina del Direttore generale dell\u2019ACN n. 320412 del 27 ottobre 2026\".",
+    "diff_blocks": [
+      {
+        "type": "insert",
+        "context_pre": [
+          "Determina del Direttore generale dell\u2019ACN n. 261381 del 09 settembre 2026",
+          "\u201cRiorganizzazione del Servizio risorse umane, strumentali e amministrazione generale\u201c",
+          "Provvedimento del Direttore generale di nomina del Collegio dei revisori dei conti n. 286177 del 16 settembre 2026"
+        ],
+        "before": [],
+        "after": [
+          "Determina del Direttore generale dell\u2019ACN n. 320412 del 27 ottobre 2026",
+          "\u201cRimodulazione degli assetti organizzativi dell\u2019ACN\u201c"
+        ],
+        "context_post": [
+          "Principali provvedimenti attuativi D.Lgs. 138/2024",
+          "Determinazione del Direttore generale dell\u2019ACN n. 38564 del 26 novembre 2024",
+          "- \u201c di cui all\u2019articolo 12, comma 6 e articolo 40, comma 5, lettera c), recante ulteriori disposizioni per l\u2019organizzazione e per il funzionamento del Tavolo per l\u2019attuazione della disciplina NIS"
+        ]
+      },
+      {
+        "type": "replace",
+        "context_pre": [
+          "Obiettivi strategici 2025",
+          "Obiettivi strategici 2026",
+          "Data Ultimo Aggiornamento"
+        ],
+        "before": [
+          "19 Ottobre 2026"
+        ],
+        "after": [
+          "02 Novembre 2026"
+        ],
+        "context_post": [
+          "Nascosta"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-10-19T15:59:28.135665+02:00",
     "date_formatted": "19/10/2026 15:59",
     "additions": [

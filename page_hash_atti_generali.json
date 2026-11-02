@@ -1,47 +1,29 @@
 {
-  "hash": "7c9da986fb9bbb9cf32b727eedca385bc8db027a709174bbb4108380123e6bdc",
-  "last_check": "2026-11-02T03:48:32.380854+01:00",
-  "last_change_date": "2026-10-19T15:59:28.136283+02:00",
+  "hash": "41da17859a75309d3c66cf2edc8e52eb34ba88e285f30b43cf0c4df01c2dde01",
+  "last_check": "2026-11-02T11:03:37.827622+01:00",
+  "last_change_date": "2026-11-02T11:03:37.827505+01:00",
   "last_additions": [
-    "Decreto legislativo 9 settembre 2026, n. 160",
-    ", \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di utilizzo dei sistemi di intelligenza artificiale per l'attivit\u00e0 di polizia e di responsabilit\u00e0 civile e penale\u201d.",
-    "Provvedimento del Direttore generale di nomina del Collegio dei revisori dei conti n. 286177 del 16 settembre 2026",
-    "19 Ottobre 2026"
+    "Determina del Direttore generale dell\u2019ACN n. 320412 del 27 ottobre 2026",
+    "\u201cRimodulazione degli assetti organizzativi dell\u2019ACN\u201c",
+    "02 Novembre 2026"
   ],
   "last_removals": [
-    "23 Settembre 2026"
+    "19 Ottobre 2026"
   ],
-  "ai_summary": "Pubblicato nuovo decreto: \"Decreto legislativo 9 settembre 2026, n. 160\".",
+  "ai_summary": "Pubblicata nuova determina: \"Determina del Direttore generale dell\u2019ACN n. 320412 del 27 ottobre 2026\".",
   "is_minor": false,
   "diff_blocks": [
     {
       "type": "insert",
       "context_pre": [
-        "\u201cDisciplina dei contratti di beni e servizi informatici impiegati in un contesto connesso alla tutela degli interessi nazionali strategici e della sicurezza nazionale\u201c",
-        "Decreto legislativo 4 settembre 2024, n. 138",
-        "\u201cRecepimento della direttiva (UE) 2022/2555, relativa a misure per un livello comune elevato di cibersicurezza nell'Unione, recante modifica del regolamento (UE) n. 910/2014 e della direttiva (UE) 2018/1972 e che abroga la direttiva (UE) 2016/1148\u201d (c.d. NIS 2)"
-      ],
-      "before": [],
-      "after": [
-        "Decreto legislativo 9 settembre 2026, n. 160",
-        ", \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di utilizzo dei sistemi di intelligenza artificiale per l'attivit\u00e0 di polizia e di responsabilit\u00e0 civile e penale\u201d."
-      ],
-      "context_post": [
-        "Atti amministrativi generali",
-        "Nomina Comitato tecnico-scientifico di ACN",
-        "doc 1"
-      ]
-    },
-    {
-      "type": "insert",
-      "context_pre": [
-        "\u201cRiorganizzazione delle Articolazioni a diretto supporto del Direttore generale\u201c",
         "Determina del Direttore generale dell\u2019ACN n. 261381 del 09 settembre 2026",
-        "\u201cRiorganizzazione del Servizio risorse umane, strumentali e amministrazione generale\u201c"
+        "\u201cRiorganizzazione del Servizio risorse umane, strumentali e amministrazione generale\u201c",
+        "Provvedimento del Direttore generale di nomina del Collegio dei revisori dei conti n. 286177 del 16 settembre 2026"
       ],
       "before": [],
       "after": [
-        "Provvedimento del Direttore generale di nomina del Collegio dei revisori dei conti n. 286177 del 16 settembre 2026"
+        "Determina del Direttore generale dell\u2019ACN n. 320412 del 27 ottobre 2026",
+        "\u201cRimodulazione degli assetti organizzativi dell\u2019ACN\u201c"
       ],
       "context_post": [
         "Principali provvedimenti attuativi D.Lgs. 138/2024",
@@ -57,10 +39,10 @@
         "Data Ultimo Aggiornamento"
       ],
       "before": [
-        "23 Settembre 2026"
+        "19 Ottobre 2026"
       ],
       "after": [
-        "19 Ottobre 2026"
+        "02 Novembre 2026"
       ],
       "context_post": [
         "Nascosta"

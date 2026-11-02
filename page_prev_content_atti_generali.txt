@@ -139,6 +139,8 @@ Decreto del Presidente del Consiglio dei ministri 30 aprile 2025
 “Disciplina dei contratti di beni e servizi informatici impiegati in un contesto connesso alla tutela degli interessi nazionali strategici e della sicurezza nazionale“
 Decreto legislativo 4 settembre 2024, n. 138
 “Recepimento della direttiva (UE) 2022/2555, relativa a misure per un livello comune elevato di cibersicurezza nell'Unione, recante modifica del regolamento (UE) n. 910/2014 e della direttiva (UE) 2018/1972 e che abroga la direttiva (UE) 2016/1148” (c.d. NIS 2)
+Decreto legislativo 9 settembre 2026, n. 160
+, “Adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di utilizzo dei sistemi di intelligenza artificiale per l'attività di polizia e di responsabilità civile e penale”.
 Atti amministrativi generali
 Nomina Comitato tecnico-scientifico di ACN
 doc 1
@@ -249,6 +251,7 @@ Determina del Direttore generale dell’ACN n. 245287 del 27 luglio 2026
 “Riorganizzazione delle Articolazioni a diretto supporto del Direttore generale“
 Determina del Direttore generale dell’ACN n. 261381 del 09 settembre 2026
 “Riorganizzazione del Servizio risorse umane, strumentali e amministrazione generale“
+Provvedimento del Direttore generale di nomina del Collegio dei revisori dei conti n. 286177 del 16 settembre 2026
 Principali provvedimenti attuativi D.Lgs. 138/2024
 Determinazione del Direttore generale dell’ACN n. 38564 del 26 novembre 2024
 - “ di cui all’articolo 12, comma 6 e articolo 40, comma 5, lettera c), recante ulteriori disposizioni per l’organizzazione e per il funzionamento del Tavolo per l’attuazione della disciplina NIS
@@ -324,5 +327,5 @@ Obiettivi strategici 2024
 Obiettivi strategici 2025
 Obiettivi strategici 2026
 Data Ultimo Aggiornamento
-23 Settembre 2026
+19 Ottobre 2026
 Nascosta
