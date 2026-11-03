@@ -1,5 +1,56 @@
 [
   {
+    "timestamp": "2026-11-03T18:19:17.324367+01:00",
+    "date_formatted": "03/11/2026 18:19",
+    "additions": [
+      "Determinazione del Direttore generale dell\u2019ACN n. 314287 del 20 ottobre 2026",
+      "\u201cdi cui all\u2019articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalit\u00e0 di cui all\u2019articolo 40, comma 5, recante termini, modalit\u00e0 e procedimenti di utilizzo e accesso alla piattaforma digitale nonch\u00e9 ulteriori informazioni che i soggetti devono fornire all\u2019Autorit\u00e0 nazionale competente NIS e termini, modalit\u00e0 e procedimento di designazione dei rappresentanti NIS sul territorio nazionale\u201d che aggiorna e sostituisce la Determinazione aggiorna e sostituisce la Determinazione ACN n. 127437 del 13 aprile 2026.",
+      "03 Novembre 2026"
+    ],
+    "removals": [
+      "02 Novembre 2026"
+    ],
+    "is_minor": false,
+    "ai_summary": "Pubblicata nuova determina: \"Determinazione del Direttore generale dell\u2019ACN n. 314287 del 20 ottobre 2026\".",
+    "diff_blocks": [
+      {
+        "type": "insert",
+        "context_pre": [
+          "Allegato 2 \"Modello per l\u2019elencazione, caratterizzazione e categorizzazione delle attivit\u00e0 e dei servizi\"",
+          "Decreto del Direttore generale dell\u2019ACN n. 161366 del 30 aprile 2026",
+          "Linee Guida NIS \u2013 Modello di categorizzazione \u2013 Guida alla lettura"
+        ],
+        "before": [],
+        "after": [
+          "Determinazione del Direttore generale dell\u2019ACN n. 314287 del 20 ottobre 2026",
+          "\u201cdi cui all\u2019articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalit\u00e0 di cui all\u2019articolo 40, comma 5, recante termini, modalit\u00e0 e procedimenti di utilizzo e accesso alla piattaforma digitale nonch\u00e9 ulteriori informazioni che i soggetti devono fornire all\u2019Autorit\u00e0 nazionale competente NIS e termini, modalit\u00e0 e procedimento di designazione dei rappresentanti NIS sul territorio nazionale\u201d che aggiorna e sostituisce la Determinazione aggiorna e sostituisce la Determinazione ACN n. 127437 del 13 aprile 2026."
+        ],
+        "context_post": [
+          "Pianificazione Strategica",
+          "Piano Strategico 2024 - 2026",
+          "Provvedimenti attuativi D.Lgs. 123/2022"
+        ]
+      },
+      {
+        "type": "replace",
+        "context_pre": [
+          "Obiettivi strategici 2025",
+          "Obiettivi strategici 2026",
+          "Data Ultimo Aggiornamento"
+        ],
+        "before": [
+          "02 Novembre 2026"
+        ],
+        "after": [
+          "03 Novembre 2026"
+        ],
+        "context_post": [
+          "Nascosta"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-11-02T11:03:37.826956+01:00",
     "date_formatted": "02/11/2026 11:03",
     "additions": [
