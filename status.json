@@ -1,6 +1,6 @@
 {
-  "last_update": "11/11/2026 03:48",
-  "global_summary": "Pubblicata nuova determina: \"Determinazione del Direttore generale dell\u2019ACN n. 314287 del 20 ottobre 2026\".",
+  "last_update": "11/11/2026 10:54",
+  "global_summary": "Pubblicato nuovo decreto: \"Decreto legislativo 7 ottobre 2026, n. 179\".",
   "scadenze": [
     {
       "id": "timeline_1",
@@ -360,18 +360,18 @@
       "id": "atti_generali",
       "name": "ACN Atti Generali",
       "url": "https://www.acn.gov.it/portale/atti-generali",
-      "last_check": "11/11/2026 03:47",
-      "status": "Modificato (Recente)",
+      "last_check": "11/11/2026 10:53",
+      "status": "Modificato",
       "has_changes": true,
       "has_history": true,
-      "summary": "Pubblicata nuova determina: \"Determinazione del Direttore generale dell\u2019ACN n. 314287 del 20 ottobre 2026\".",
+      "summary": "Pubblicato nuovo decreto: \"Decreto legislativo 7 ottobre 2026, n. 179\".",
       "additions": [
-        "Determinazione del Direttore generale dell\u2019ACN n. 314287 del 20 ottobre 2026",
-        "\u201cdi cui all\u2019articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalit\u00e0 di cui all\u2019articolo 40, comma 5, recante termini, modalit\u00e0 e procedimenti di utilizzo e accesso alla piattaforma digitale nonch\u00e9 ulteriori informazioni che i soggetti devono fornire all\u2019Autorit\u00e0 nazionale competente NIS e termini, modalit\u00e0 e procedimento di designazione dei rappresentanti NIS sul territorio nazionale\u201d che aggiorna e sostituisce la Determinazione aggiorna e sostituisce la Determinazione ACN n. 127437 del 13 aprile 2026.",
-        "03 Novembre 2026"
+        "Decreto legislativo 7 ottobre 2026, n. 179",
+        ",  \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di poteri delle Autorit\u00e0 nazionali e di utilizzo dell'intelligenza artificiale nella formazione\u201d",
+        "11 Novembre 2026"
       ],
       "removals": [
-        "02 Novembre 2026"
+        "03 Novembre 2026"
       ],
       "atti_list": [
         {
@@ -671,44 +671,52 @@
           "month": "09"
         },
         {
+          "name": "Decreto legislativo 7 ottobre 2026, n. 179",
+          "url": "https://www.normattiva.it/eli/id/2026/10/08/26G00200/ORIGINAL",
+          "type": "Decreto",
+          "date": "07/10/2026",
+          "year": "2026",
+          "month": "10"
+        },
+        {
           "name": "Nomina Collegio dei revisori dei conti di ACN",
           "url": "https://www.acn.gov.it/portale/documents/d/guest/prot-7784",
           "type": "Nomina",
-          "date": "09/09/2026",
+          "date": "07/10/2026",
           "year": "2026",
-          "month": "09"
+          "month": "10"
         },
         {
           "name": "Nomina Responsabile della prevenzione della corruzione e della trasparenza",
           "url": "https://www.acn.gov.it/portale/documents/d/guest/prot-14399",
           "type": "Nomina",
-          "date": "09/09/2026",
+          "date": "07/10/2026",
           "year": "2026",
-          "month": "09"
+          "month": "10"
         },
         {
           "name": "Nomina rappresentanti presso il Consiglio di direzione ECC",
           "url": "https://www.acn.gov.it/portale/documents/d/guest/prot-1715",
           "type": "Nomina",
-          "date": "09/09/2026",
+          "date": "07/10/2026",
           "year": "2026",
-          "month": "09"
+          "month": "10"
         },
         {
           "name": "Disciplina applicabile al personale proveniente da altri enti in regime di distacco, comando, fuori ruolo o altra analoga posizione e relativo trattamento economico",
           "url": "https://www.acn.gov.it/portale/documents/d/guest/prot-1468",
           "type": "Disciplina",
-          "date": "09/09/2026",
+          "date": "07/10/2026",
           "year": "2026",
-          "month": "09"
+          "month": "10"
         },
         {
           "name": "Normativa generale per l\u2019assunzione in Agenzia di personale a tempo determinato con contratti di diritto privato",
           "url": "https://www.acn.gov.it/portale/documents/d/guest/prot-1467",
           "type": "Determina",
-          "date": "09/09/2026",
+          "date": "07/10/2026",
           "year": "2026",
-          "month": "09"
+          "month": "10"
         },
         {
           "name": "Determina del Direttore generale dell'ACN n. 306 del 18 gennaio 2022",
@@ -1383,24 +1391,25 @@
           "month": "02"
         }
       ],
-      "last_change_date": "03/11/2026 18:19",
+      "last_change_date": "11/11/2026 10:53",
+      "is_minor": false,
       "diff_blocks": [
         {
           "type": "insert",
           "context_pre": [
-            "Allegato 2 \"Modello per l\u2019elencazione, caratterizzazione e categorizzazione delle attivit\u00e0 e dei servizi\"",
-            "Decreto del Direttore generale dell\u2019ACN n. 161366 del 30 aprile 2026",
-            "Linee Guida NIS \u2013 Modello di categorizzazione \u2013 Guida alla lettura"
+            "\u201cRecepimento della direttiva (UE) 2022/2555, relativa a misure per un livello comune elevato di cibersicurezza nell'Unione, recante modifica del regolamento (UE) n. 910/2014 e della direttiva (UE) 2018/1972 e che abroga la direttiva (UE) 2016/1148\u201d (c.d. NIS 2)",
+            "Decreto legislativo 9 settembre 2026, n. 160",
+            ", \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di utilizzo dei sistemi di intelligenza artificiale per l'attivit\u00e0 di polizia e di responsabilit\u00e0 civile e penale\u201d."
           ],
           "before": [],
           "after": [
-            "Determinazione del Direttore generale dell\u2019ACN n. 314287 del 20 ottobre 2026",
-            "\u201cdi cui all\u2019articolo 7, comma 6, del decreto legislativo 4 settembre 2024, n. 138, adottata secondo le modalit\u00e0 di cui all\u2019articolo 40, comma 5, recante termini, modalit\u00e0 e procedimenti di utilizzo e accesso alla piattaforma digitale nonch\u00e9 ulteriori informazioni che i soggetti devono fornire all\u2019Autorit\u00e0 nazionale competente NIS e termini, modalit\u00e0 e procedimento di designazione dei rappresentanti NIS sul territorio nazionale\u201d che aggiorna e sostituisce la Determinazione aggiorna e sostituisce la Determinazione ACN n. 127437 del 13 aprile 2026."
+            "Decreto legislativo 7 ottobre 2026, n. 179",
+            ",  \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di poteri delle Autorit\u00e0 nazionali e di utilizzo dell'intelligenza artificiale nella formazione\u201d"
           ],
           "context_post": [
-            "Pianificazione Strategica",
-            "Piano Strategico 2024 - 2026",
-            "Provvedimenti attuativi D.Lgs. 123/2022"
+            "Atti amministrativi generali",
+            "Nomina Comitato tecnico-scientifico di ACN",
+            "doc 1"
           ]
         },
         {
@@ -1411,24 +1420,23 @@
             "Data Ultimo Aggiornamento"
           ],
           "before": [
-            "02 Novembre 2026"
+            "03 Novembre 2026"
           ],
           "after": [
-            "03 Novembre 2026"
+            "11 Novembre 2026"
           ],
           "context_post": [
             "Nascosta"
           ]
         }
       ],
-      "is_minor": false,
-      "ai_summary": "Pubblicata nuova determina: \"Determinazione del Direttore generale dell\u2019ACN n. 314287 del 20 ottobre 2026\"."
+      "ai_summary": "Pubblicato nuovo decreto: \"Decreto legislativo 7 ottobre 2026, n. 179\"."
     },
     {
       "id": "global_header",
       "name": "Header Globale ACN",
       "url": "https://www.acn.gov.it/portale/atti-generali",
-      "last_check": "11/11/2026 03:47",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1443,7 +1451,7 @@
       "id": "global_footer",
       "name": "Footer Globale ACN",
       "url": "https://www.acn.gov.it/portale/atti-generali",
-      "last_check": "11/11/2026 03:47",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -1458,7 +1466,7 @@
       "id": "faq_nis_parent",
       "name": "FAQ NIS (Parent)",
       "url": "https://www.acn.gov.it/portale/faq/nis",
-      "last_check": "11/11/2026 03:47",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1472,7 +1480,7 @@
       "id": "nis_home",
       "name": "NIS Home",
       "url": "https://www.acn.gov.it/portale/nis",
-      "last_check": "11/11/2026 03:47",
+      "last_check": "11/11/2026 10:53",
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
@@ -1536,7 +1544,7 @@
       "id": "linee_guida",
       "name": "Linee Guida ACN",
       "url": "https://www.acn.gov.it/portale/linee-guida",
-      "last_check": "11/11/2026 03:47",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1550,7 +1558,7 @@
       "id": "avvisi",
       "name": "Avvisi ACN",
       "url": "https://www.acn.gov.it/portale/avvisi",
-      "last_check": "11/11/2026 03:47",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1564,7 +1572,7 @@
       "id": "pnrr",
       "name": "PNRR Cybersecurity",
       "url": "https://www.acn.gov.it/portale/pnrr",
-      "last_check": "11/11/2026 03:47",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1578,7 +1586,7 @@
       "id": "pdf_cb7f4eec7e",
       "name": "\ud83d\udcc4 PDF: 1642694063-det_306_all1_20220118_modello.pdf",
       "url": "https://assets.innovazione.gov.it/1642694063-det_306_all1_20220118_modello.pdf",
-      "last_check": "11/11/2026 03:47",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -1592,7 +1600,7 @@
       "id": "pdf_9a28ca48f3",
       "name": "\ud83d\udcc4 PDF: 1642754054-all1det307acn.pdf",
       "url": "https://assets.innovazione.gov.it/1642754054-all1det307acn.pdf",
-      "last_check": "11/11/2026 03:47",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -1603,108 +1611,10 @@
       "is_minor": false
     },
     {
-      "id": "faq_nis_registrazione",
-      "name": "FAQ NIS: Registrazione",
-      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
-      "last_check": "11/11/2026 03:47",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
       "id": "faq_nis_misure_di_sicurezza_e_notifica_di_incidenti",
       "name": "FAQ NIS: Misure Di Sicurezza E Notifica Di Incidenti",
       "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
-      "last_check": "11/11/2026 03:47",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "faq_nis_profili_generali",
-      "name": "FAQ NIS: Profili Generali",
-      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
-      "last_check": "11/11/2026 03:48",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "faq_nis_ruoli_e_procedure",
-      "name": "FAQ NIS: Ruoli E Procedure",
-      "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
-      "last_check": "11/11/2026 03:48",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "faq_nis_monitoraggio_vigilanza_esecuzione",
-      "name": "FAQ NIS: Monitoraggio Vigilanza Esecuzione",
-      "url": "https://www.acn.gov.it/portale/faq/nis/monitoraggio-vigilanza-esecuzione",
-      "last_check": "11/11/2026 03:48",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "faq_nis_aggiornamento_delle_informazioni",
-      "name": "FAQ NIS: Aggiornamento Delle Informazioni",
-      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
-      "last_check": "11/11/2026 03:48",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "faq_nis_settori_sottosettori_e_tipologie_di_soggetto",
-      "name": "FAQ NIS: Settori Sottosettori E Tipologie Di Soggetto",
-      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
-      "last_check": "11/11/2026 03:48",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "faq_nis_ambito",
-      "name": "FAQ NIS: Ambito",
-      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
-      "last_check": "11/11/2026 03:48",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1718,7 +1628,7 @@
       "id": "faq_nis_categorizzazione",
       "name": "FAQ NIS: Categorizzazione",
       "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
-      "last_check": "11/11/2026 03:48",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1729,10 +1639,10 @@
       "is_minor": false
     },
     {
-      "id": "nis_modalita_specifiche_base",
-      "name": "NIS: Modalita Specifiche Base",
-      "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
-      "last_check": "11/11/2026 03:48",
+      "id": "faq_nis_ambito",
+      "name": "FAQ NIS: Ambito",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1743,10 +1653,10 @@
       "is_minor": false
     },
     {
-      "id": "nis_registrazione",
-      "name": "NIS: Registrazione",
-      "url": "https://www.acn.gov.it/portale/nis/registrazione",
-      "last_check": "11/11/2026 03:48",
+      "id": "faq_nis_settori_sottosettori_e_tipologie_di_soggetto",
+      "name": "FAQ NIS: Settori Sottosettori E Tipologie Di Soggetto",
+      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1757,90 +1667,94 @@
       "is_minor": false
     },
     {
-      "id": "nis_notizie_ed_eventi",
-      "name": "NIS: Notizie Ed Eventi",
-      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
-      "last_check": "11/11/2026 03:48",
-      "status": "Modificato (Recente)",
-      "has_changes": true,
+      "id": "faq_nis_registrazione",
+      "name": "FAQ NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
+      "last_check": "11/11/2026 10:53",
+      "status": "Nessuna modifica",
+      "has_changes": false,
       "has_history": true,
-      "summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\".",
-      "additions": [
-        "News -",
-        "28 Ottobre 2026",
-        "ACN e Assolombarda insieme per la resilienza delle aziende",
-        "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese",
-        "Normativa NIS",
-        "NIS",
-        "Cybersicurezza",
-        "ACN",
-        "Cybersecurity"
-      ],
-      "removals": [
-        "News -",
-        "15 Gennaio 2025",
-        "Normativa NIS: date e informazioni utili per un\u2019implementazione efficace",
-        "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN",
-        "Normativa NIS",
-        "NIS"
-      ],
+      "summary": "",
+      "additions": [],
+      "removals": [],
       "atti_list": [],
-      "last_change_date": "28/10/2026 15:14",
-      "diff_blocks": [
-        {
-          "type": "insert",
-          "context_pre": [
-            "Notizie ed eventi",
-            "Notizie ed eventi",
-            "Notizie"
-          ],
-          "before": [],
-          "after": [
-            "News -",
-            "28 Ottobre 2026",
-            "ACN e Assolombarda insieme per la resilienza delle aziende",
-            "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese",
-            "Normativa NIS",
-            "NIS",
-            "Cybersicurezza",
-            "ACN",
-            "Cybersecurity"
-          ],
-          "context_post": [
-            "News -",
-            "18 Settembre 2026",
-            "Le novit\u00e0 per i soggetti NIS"
-          ]
-        },
-        {
-          "type": "delete",
-          "context_pre": [
-            "Tra i temi affrontati, il percorso di registrazione che scade il 28 febbraio e le sanzioni se non viene effettuato",
-            "Normativa NIS",
-            "NIS"
-          ],
-          "before": [
-            "News -",
-            "15 Gennaio 2025",
-            "Normativa NIS: date e informazioni utili per un\u2019implementazione efficace",
-            "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN",
-            "Normativa NIS",
-            "NIS"
-          ],
-          "after": [],
-          "context_post": [
-            "Nascosta"
-          ]
-        }
-      ],
-      "is_minor": false,
-      "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\"."
+      "is_minor": false
+    },
+    {
+      "id": "faq_nis_aggiornamento_delle_informazioni",
+      "name": "FAQ NIS: Aggiornamento Delle Informazioni",
+      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
+      "last_check": "11/11/2026 10:53",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "faq_nis_monitoraggio_vigilanza_esecuzione",
+      "name": "FAQ NIS: Monitoraggio Vigilanza Esecuzione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/monitoraggio-vigilanza-esecuzione",
+      "last_check": "11/11/2026 10:53",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "faq_nis_ruoli_e_procedure",
+      "name": "FAQ NIS: Ruoli E Procedure",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
+      "last_check": "11/11/2026 10:53",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "faq_nis_profili_generali",
+      "name": "FAQ NIS: Profili Generali",
+      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
+      "last_check": "11/11/2026 10:53",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "nis_ambito",
+      "name": "NIS: Ambito",
+      "url": "https://www.acn.gov.it/portale/nis/ambito",
+      "last_check": "11/11/2026 10:53",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
     },
     {
       "id": "nis_la_normativa",
       "name": "NIS: La Normativa",
       "url": "https://www.acn.gov.it/portale/nis/la-normativa",
-      "last_check": "11/11/2026 03:48",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -2319,24 +2233,10 @@
       "is_minor": false
     },
     {
-      "id": "nis_faq",
-      "name": "NIS: Faq",
-      "url": "https://www.acn.gov.it/portale/nis/faq",
-      "last_check": "11/11/2026 03:48",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
       "id": "nis_aggiornamento_informazioni",
       "name": "NIS: Aggiornamento Informazioni",
       "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
-      "last_check": "11/11/2026 03:48",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -2350,7 +2250,7 @@
       "id": "nis_obblighi",
       "name": "NIS: Obblighi",
       "url": "https://www.acn.gov.it/portale/nis/obblighi",
-      "last_check": "11/11/2026 03:48",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -2361,10 +2261,10 @@
       "is_minor": false
     },
     {
-      "id": "nis_ambito",
-      "name": "NIS: Ambito",
-      "url": "https://www.acn.gov.it/portale/nis/ambito",
-      "last_check": "11/11/2026 03:48",
+      "id": "nis_registrazione",
+      "name": "NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/nis/registrazione",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -2375,10 +2275,118 @@
       "is_minor": false
     },
     {
-      "id": "pdf_39f9f139a9",
-      "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
-      "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
-      "last_check": "11/11/2026 03:48",
+      "id": "nis_faq",
+      "name": "NIS: Faq",
+      "url": "https://www.acn.gov.it/portale/nis/faq",
+      "last_check": "11/11/2026 10:53",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "nis_modalita_specifiche_base",
+      "name": "NIS: Modalita Specifiche Base",
+      "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
+      "last_check": "11/11/2026 10:53",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "nis_notizie_ed_eventi",
+      "name": "NIS: Notizie Ed Eventi",
+      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+      "last_check": "11/11/2026 10:53",
+      "status": "Modificato (Recente)",
+      "has_changes": true,
+      "has_history": true,
+      "summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\".",
+      "additions": [
+        "News -",
+        "28 Ottobre 2026",
+        "ACN e Assolombarda insieme per la resilienza delle aziende",
+        "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese",
+        "Normativa NIS",
+        "NIS",
+        "Cybersicurezza",
+        "ACN",
+        "Cybersecurity"
+      ],
+      "removals": [
+        "News -",
+        "15 Gennaio 2025",
+        "Normativa NIS: date e informazioni utili per un\u2019implementazione efficace",
+        "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN",
+        "Normativa NIS",
+        "NIS"
+      ],
+      "atti_list": [],
+      "last_change_date": "28/10/2026 15:14",
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "Notizie ed eventi",
+            "Notizie ed eventi",
+            "Notizie"
+          ],
+          "before": [],
+          "after": [
+            "News -",
+            "28 Ottobre 2026",
+            "ACN e Assolombarda insieme per la resilienza delle aziende",
+            "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese",
+            "Normativa NIS",
+            "NIS",
+            "Cybersicurezza",
+            "ACN",
+            "Cybersecurity"
+          ],
+          "context_post": [
+            "News -",
+            "18 Settembre 2026",
+            "Le novit\u00e0 per i soggetti NIS"
+          ]
+        },
+        {
+          "type": "delete",
+          "context_pre": [
+            "Tra i temi affrontati, il percorso di registrazione che scade il 28 febbraio e le sanzioni se non viene effettuato",
+            "Normativa NIS",
+            "NIS"
+          ],
+          "before": [
+            "News -",
+            "15 Gennaio 2025",
+            "Normativa NIS: date e informazioni utili per un\u2019implementazione efficace",
+            "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN",
+            "Normativa NIS",
+            "NIS"
+          ],
+          "after": [],
+          "context_post": [
+            "Nascosta"
+          ]
+        }
+      ],
+      "is_minor": false,
+      "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\"."
+    },
+    {
+      "id": "pdf_403942e3c6",
+      "name": "\ud83d\udcc4 PDF: RegolamentoCloud.pdf",
+      "url": "https://www.acn.gov.it/portale/documents/20119/111690/RegolamentoCloud.pdf",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -2392,7 +2400,7 @@
       "id": "pdf_80b8113e88",
       "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2024.pdf",
       "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2024.pdf",
-      "last_check": "11/11/2026 03:48",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -2403,10 +2411,10 @@
       "is_minor": false
     },
     {
-      "id": "pdf_403942e3c6",
-      "name": "\ud83d\udcc4 PDF: RegolamentoCloud.pdf",
-      "url": "https://www.acn.gov.it/portale/documents/20119/111690/RegolamentoCloud.pdf",
-      "last_check": "11/11/2026 03:48",
+      "id": "pdf_39f9f139a9",
+      "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
+      "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
+      "last_check": "11/11/2026 10:53",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,

@@ -1,5 +1,56 @@
 [
   {
+    "timestamp": "2026-11-11T10:53:07.862434+01:00",
+    "date_formatted": "11/11/2026 10:53",
+    "additions": [
+      "Decreto legislativo 7 ottobre 2026, n. 179",
+      ",  \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di poteri delle Autorit\u00e0 nazionali e di utilizzo dell'intelligenza artificiale nella formazione\u201d",
+      "11 Novembre 2026"
+    ],
+    "removals": [
+      "03 Novembre 2026"
+    ],
+    "is_minor": false,
+    "ai_summary": "Pubblicato nuovo decreto: \"Decreto legislativo 7 ottobre 2026, n. 179\".",
+    "diff_blocks": [
+      {
+        "type": "insert",
+        "context_pre": [
+          "\u201cRecepimento della direttiva (UE) 2022/2555, relativa a misure per un livello comune elevato di cibersicurezza nell'Unione, recante modifica del regolamento (UE) n. 910/2014 e della direttiva (UE) 2018/1972 e che abroga la direttiva (UE) 2016/1148\u201d (c.d. NIS 2)",
+          "Decreto legislativo 9 settembre 2026, n. 160",
+          ", \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di utilizzo dei sistemi di intelligenza artificiale per l'attivit\u00e0 di polizia e di responsabilit\u00e0 civile e penale\u201d."
+        ],
+        "before": [],
+        "after": [
+          "Decreto legislativo 7 ottobre 2026, n. 179",
+          ",  \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di poteri delle Autorit\u00e0 nazionali e di utilizzo dell'intelligenza artificiale nella formazione\u201d"
+        ],
+        "context_post": [
+          "Atti amministrativi generali",
+          "Nomina Comitato tecnico-scientifico di ACN",
+          "doc 1"
+        ]
+      },
+      {
+        "type": "replace",
+        "context_pre": [
+          "Obiettivi strategici 2025",
+          "Obiettivi strategici 2026",
+          "Data Ultimo Aggiornamento"
+        ],
+        "before": [
+          "03 Novembre 2026"
+        ],
+        "after": [
+          "11 Novembre 2026"
+        ],
+        "context_post": [
+          "Nascosta"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-11-03T18:19:17.324367+01:00",
     "date_formatted": "03/11/2026 18:19",
     "additions": [
