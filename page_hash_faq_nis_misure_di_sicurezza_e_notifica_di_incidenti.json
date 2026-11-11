@@ -1,12 +1,46 @@
 {
-  "hash": "e4ab2df4b9bf9bae6fdf20ae093dd4d39159043daf3e472bedacb92feb93465c",
-  "last_check": "2026-11-11T18:29:52.722125+01:00",
-  "last_change_date": "2026-09-28T16:33:59.922750+02:00",
+  "hash": "c594a201ac588bc0abbe163e2cf3543a99f2fe9b14207cd88c469fdbd4920337",
+  "last_check": "2026-11-12T00:38:37.519478+01:00",
+  "last_change_date": "2026-11-12T00:38:37.519290+01:00",
   "last_additions": [
-    "Ti trovi in"
+    "Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, cos\u00ec come definite nell\u2019",
+    "allegato 3",
+    ", per i soggetti importanti, e nell\u2019",
+    "allegato 4",
+    ", per i soggetti essenziali."
   ],
-  "last_removals": [],
-  "ai_summary": "Aggiornamento di navigazione: aggiunta voce 'Ti trovi in' nel percorso breadcrumb.",
-  "is_minor": true,
-  "diff_blocks": []
+  "last_removals": [
+    "Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, cos\u00ec come definite nell\u2019allegato 3[CB2.1], per i soggetti importanti, e nell\u2019allegato 4[CB3.1], per i soggetti essenziali, v",
+    "/portale/documents/d/guest/allegato-3-v2",
+    "."
+  ],
+  "ai_summary": "Aggiornate le FAQ Misure Di Sicurezza E Notifica Di Incidenti: chiarimenti su credenziali di accesso (SPID, CIE, CNS, eIDAS), procedura di convalida PEC (link 7 giorni).",
+  "is_minor": false,
+  "diff_blocks": [
+    {
+      "type": "replace",
+      "context_pre": [
+        "Incidenti significativi di base",
+        "ISB.G.1 Quali incidenti devono essere notificati allo CSIRT Italia?",
+        "Ai sensi del decreto NIS, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono considerati significativi. Al fine di semplificare tale valutazione e fornire dei parametri oggettivi, l\u2019Autorit\u00e0 nazionale competente NIS ha definito quattro fattispecie (tre per tutti i soggetti e una ulteriore per i soli soggetti essenziali) che, ove si verifichino, sono considerate incidenti significativi."
+      ],
+      "before": [
+        "Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, cos\u00ec come definite nell\u2019allegato 3[CB2.1], per i soggetti importanti, e nell\u2019allegato 4[CB3.1], per i soggetti essenziali, v",
+        "/portale/documents/d/guest/allegato-3-v2",
+        "."
+      ],
+      "after": [
+        "Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, cos\u00ec come definite nell\u2019",
+        "allegato 3",
+        ", per i soggetti importanti, e nell\u2019",
+        "allegato 4",
+        ", per i soggetti essenziali."
+      ],
+      "context_post": [
+        "Infine, rimane sempre ferma la possibilit\u00e0 per i soggetti NIS di notificare, su base volontaria, incidenti non significativi, quasi-incidenti e minacce informatiche.",
+        "ISB.G.2 La causa degli incidenti \u00e8 rilevante per determinare se si tratta di un incidente significativo da notificare allo CSIRT Italia?",
+        "La causa dell\u2019incidente non \u00e8 rilevante per determinare se si tratta di un incidente significativo o meno."
+      ]
+    }
+  ]
 }

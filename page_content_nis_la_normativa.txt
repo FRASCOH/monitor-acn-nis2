@@ -25,7 +25,7 @@ Sono previsti un maggior dettaglio degli obblighi in capo ai soggetti, con l’i
 Condivisione
 Viene assicurata una più ampia condivisione a livello europeo, con l’estensione dei compiti del Gruppo di Cooperazione NIS e l’introduzione della revisione tra pari e della mutua assistenza tra Autorità nazionali competenti degli Stati membri.
 Risposta agli incidenti e gestione delle crisi
-Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni i materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala.
+Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala.
 Il nuovo assetto normativo NIS prevede:
 Ambito
 L’indicazione dell'ambito di applicazione e dei  soggetti a cui si applica il decreto (articoli 3 e 6).

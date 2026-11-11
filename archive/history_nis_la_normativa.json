@@ -1,5 +1,38 @@
 [
   {
+    "timestamp": "2026-11-12T00:39:00.081568+01:00",
+    "date_formatted": "12/11/2026 00:39",
+    "additions": [
+      "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
+    ],
+    "removals": [
+      "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni i materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
+    ],
+    "is_minor": false,
+    "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle c...\".",
+    "diff_blocks": [
+      {
+        "type": "replace",
+        "context_pre": [
+          "Condivisione",
+          "Viene assicurata una pi\u00f9 ampia condivisione a livello europeo, con l\u2019estensione dei compiti del Gruppo di Cooperazione NIS e l\u2019introduzione della revisione tra pari e della mutua assistenza tra Autorit\u00e0 nazionali competenti degli Stati membri.",
+          "Risposta agli incidenti e gestione delle crisi"
+        ],
+        "before": [
+          "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni i materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
+        ],
+        "after": [
+          "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
+        ],
+        "context_post": [
+          "Il nuovo assetto normativo NIS prevede:",
+          "Ambito",
+          "L\u2019indicazione dell'ambito di applicazione e dei  soggetti a cui si applica il decreto (articoli 3 e 6)."
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-10-23T18:53:14.615640+02:00",
     "date_formatted": "23/10/2026 18:53",
     "additions": [

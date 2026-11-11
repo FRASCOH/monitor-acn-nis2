@@ -1,33 +1,33 @@
 {
-  "hash": "7dcbd93034a655a2e8cff42a614dafc7e60ebba06f9e6e01d73b4516d10f922b",
-  "last_check": "2026-11-11T18:30:03.734279+01:00",
-  "last_change_date": "2026-10-23T18:53:14.616265+02:00",
+  "hash": "e8616483c4e740b9632ef47b0b0abc4eac771d55e9cbfdbe2a2f6852f4c4039e",
+  "last_check": "2026-11-12T00:39:00.082267+01:00",
+  "last_change_date": "2026-11-12T00:39:00.082148+01:00",
   "last_additions": [
-    "Determinazione ACN 314287/2026"
+    "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
   ],
   "last_removals": [
-    "Determinazione ACN 127437/2026"
+    "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni i materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
   ],
-  "ai_summary": "Pubblicata nuova determina: \"Determinazione ACN 314287/2026\".",
+  "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle c...\".",
   "is_minor": false,
   "diff_blocks": [
     {
       "type": "replace",
       "context_pre": [
-        "Determinazione ACN",
-        ", sentito il",
-        "Tavolo per l'attuazione della disciplina NIS"
+        "Condivisione",
+        "Viene assicurata una pi\u00f9 ampia condivisione a livello europeo, con l\u2019estensione dei compiti del Gruppo di Cooperazione NIS e l\u2019introduzione della revisione tra pari e della mutua assistenza tra Autorit\u00e0 nazionali competenti degli Stati membri.",
+        "Risposta agli incidenti e gestione delle crisi"
       ],
       "before": [
-        "Determinazione ACN 127437/2026"
+        "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni i materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
       ],
       "after": [
-        "Determinazione ACN 314287/2026"
+        "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
       ],
       "context_post": [
-        "- Piattaforma, Punto di contatto e sostituto, aggiornamento delle informazioni e rappresentante NIS di cui all'articolo 7 del decreto NIS",
-        "Determinazione ACN",
-        ", su proposta delle"
+        "Il nuovo assetto normativo NIS prevede:",
+        "Ambito",
+        "L\u2019indicazione dell'ambito di applicazione e dei  soggetti a cui si applica il decreto (articoli 3 e 6)."
       ]
     }
   ]

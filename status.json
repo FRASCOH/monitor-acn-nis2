@@ -1,6 +1,6 @@
 {
-  "last_update": "11/11/2026 18:30",
-  "global_summary": "Pubblicato nuovo decreto: \"Decreto legislativo 7 ottobre 2026, n. 179\".",
+  "last_update": "12/11/2026 00:39",
+  "global_summary": "\u2022 FAQ NIS: Misure Di Sicurezza E Notifica Di Incidenti: Aggiornate le FAQ Misure Di Sicurezza E Notifica Di Incidenti: chiarimenti su credenziali di accesso (SPID, CIE, CNS, eIDAS), procedura di convalida PEC (link 7 giorni).\n\u2022 NIS: La Normativa: Aggiornati i contenuti con novit\u00e0 relative a: \"Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle c...\".",
   "scadenze": [
     {
       "id": "timeline_1",
@@ -360,7 +360,7 @@
       "id": "atti_generali",
       "name": "ACN Atti Generali",
       "url": "https://www.acn.gov.it/portale/atti-generali",
-      "last_check": "11/11/2026 18:29",
+      "last_check": "12/11/2026 00:37",
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
@@ -1436,7 +1436,7 @@
       "id": "global_header",
       "name": "Header Globale ACN",
       "url": "https://www.acn.gov.it/portale/atti-generali",
-      "last_check": "11/11/2026 18:29",
+      "last_check": "12/11/2026 00:37",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1451,7 +1451,7 @@
       "id": "global_footer",
       "name": "Footer Globale ACN",
       "url": "https://www.acn.gov.it/portale/atti-generali",
-      "last_check": "11/11/2026 18:29",
+      "last_check": "12/11/2026 00:37",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -1466,7 +1466,7 @@
       "id": "faq_nis_parent",
       "name": "FAQ NIS (Parent)",
       "url": "https://www.acn.gov.it/portale/faq/nis",
-      "last_check": "11/11/2026 18:29",
+      "last_check": "12/11/2026 00:37",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1480,7 +1480,7 @@
       "id": "nis_home",
       "name": "NIS Home",
       "url": "https://www.acn.gov.it/portale/nis",
-      "last_check": "11/11/2026 18:29",
+      "last_check": "12/11/2026 00:37",
       "status": "Modificato (Recente)",
       "has_changes": true,
       "has_history": true,
@@ -1544,7 +1544,7 @@
       "id": "linee_guida",
       "name": "Linee Guida ACN",
       "url": "https://www.acn.gov.it/portale/linee-guida",
-      "last_check": "11/11/2026 18:29",
+      "last_check": "12/11/2026 00:37",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1558,7 +1558,7 @@
       "id": "avvisi",
       "name": "Avvisi ACN",
       "url": "https://www.acn.gov.it/portale/avvisi",
-      "last_check": "11/11/2026 18:29",
+      "last_check": "12/11/2026 00:37",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1572,24 +1572,10 @@
       "id": "pnrr",
       "name": "PNRR Cybersecurity",
       "url": "https://www.acn.gov.it/portale/pnrr",
-      "last_check": "11/11/2026 18:29",
+      "last_check": "12/11/2026 00:37",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "pdf_9a28ca48f3",
-      "name": "\ud83d\udcc4 PDF: 1642754054-all1det307acn.pdf",
-      "url": "https://assets.innovazione.gov.it/1642754054-all1det307acn.pdf",
-      "last_check": "11/11/2026 18:29",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
@@ -1600,7 +1586,7 @@
       "id": "pdf_cb7f4eec7e",
       "name": "\ud83d\udcc4 PDF: 1642694063-det_306_all1_20220118_modello.pdf",
       "url": "https://assets.innovazione.gov.it/1642694063-det_306_all1_20220118_modello.pdf",
-      "last_check": "11/11/2026 18:29",
+      "last_check": "12/11/2026 00:37",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -1611,13 +1597,26 @@
       "is_minor": false
     },
     {
-      "id": "faq_nis_profili_generali",
-      "name": "FAQ NIS: Profili Generali",
-      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
-      "last_check": "11/11/2026 18:29",
+      "id": "pdf_de4bea6eb6",
+      "name": "\ud83d\udcc4 PDF: NIS-2-23_v1.1.pdf",
+      "url": "https://www.ocsi.gov.it/documenti/nis/NIS-2-23_v1.1.pdf",
+      "last_check": "12/11/2026 00:37",
+      "status": "Errore: HTTPSConnectionPool(host='www.acn.gov.it', port=443): Read timed out. (read timeout=30)",
+      "has_changes": false,
+      "has_history": false,
+      "summary": "HTTPSConnectionPool(host='www.acn.gov.it', port=443): Read timed out. (read timeout=30)",
+      "additions": [],
+      "removals": [],
+      "atti_list": []
+    },
+    {
+      "id": "pdf_9a28ca48f3",
+      "name": "\ud83d\udcc4 PDF: 1642754054-all1det307acn.pdf",
+      "url": "https://assets.innovazione.gov.it/1642754054-all1det307acn.pdf",
+      "last_check": "12/11/2026 00:38",
       "status": "Nessuna modifica",
       "has_changes": false,
-      "has_history": true,
+      "has_history": false,
       "summary": "",
       "additions": [],
       "removals": [],
@@ -1625,38 +1624,63 @@
       "is_minor": false
     },
     {
-      "id": "faq_nis_registrazione",
-      "name": "FAQ NIS: Registrazione",
-      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
-      "last_check": "11/11/2026 18:29",
-      "status": "Nessuna modifica",
-      "has_changes": false,
+      "id": "faq_nis_misure_di_sicurezza_e_notifica_di_incidenti",
+      "name": "FAQ NIS: Misure Di Sicurezza E Notifica Di Incidenti",
+      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
+      "last_check": "12/11/2026 00:38",
+      "status": "Modificato",
+      "has_changes": true,
       "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
+      "summary": "Aggiornate le FAQ Misure Di Sicurezza E Notifica Di Incidenti: chiarimenti su credenziali di accesso (SPID, CIE, CNS, eIDAS), procedura di convalida PEC (link 7 giorni).",
+      "additions": [
+        "Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, cos\u00ec come definite nell\u2019",
+        "allegato 3",
+        ", per i soggetti importanti, e nell\u2019",
+        "allegato 4",
+        ", per i soggetti essenziali."
+      ],
+      "removals": [
+        "Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, cos\u00ec come definite nell\u2019allegato 3[CB2.1], per i soggetti importanti, e nell\u2019allegato 4[CB3.1], per i soggetti essenziali, v",
+        "/portale/documents/d/guest/allegato-3-v2",
+        "."
+      ],
       "atti_list": [],
-      "is_minor": false
+      "is_minor": false,
+      "diff_blocks": [
+        {
+          "type": "replace",
+          "context_pre": [
+            "Incidenti significativi di base",
+            "ISB.G.1 Quali incidenti devono essere notificati allo CSIRT Italia?",
+            "Ai sensi del decreto NIS, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono considerati significativi. Al fine di semplificare tale valutazione e fornire dei parametri oggettivi, l\u2019Autorit\u00e0 nazionale competente NIS ha definito quattro fattispecie (tre per tutti i soggetti e una ulteriore per i soli soggetti essenziali) che, ove si verifichino, sono considerate incidenti significativi."
+          ],
+          "before": [
+            "Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, cos\u00ec come definite nell\u2019allegato 3[CB2.1], per i soggetti importanti, e nell\u2019allegato 4[CB3.1], per i soggetti essenziali, v",
+            "/portale/documents/d/guest/allegato-3-v2",
+            "."
+          ],
+          "after": [
+            "Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, cos\u00ec come definite nell\u2019",
+            "allegato 3",
+            ", per i soggetti importanti, e nell\u2019",
+            "allegato 4",
+            ", per i soggetti essenziali."
+          ],
+          "context_post": [
+            "Infine, rimane sempre ferma la possibilit\u00e0 per i soggetti NIS di notificare, su base volontaria, incidenti non significativi, quasi-incidenti e minacce informatiche.",
+            "ISB.G.2 La causa degli incidenti \u00e8 rilevante per determinare se si tratta di un incidente significativo da notificare allo CSIRT Italia?",
+            "La causa dell\u2019incidente non \u00e8 rilevante per determinare se si tratta di un incidente significativo o meno."
+          ]
+        }
+      ],
+      "ai_summary": "Aggiornate le FAQ Misure Di Sicurezza E Notifica Di Incidenti: chiarimenti su credenziali di accesso (SPID, CIE, CNS, eIDAS), procedura di convalida PEC (link 7 giorni).",
+      "last_change_date": "12/11/2026 00:38"
     },
     {
-      "id": "faq_nis_settori_sottosettori_e_tipologie_di_soggetto",
-      "name": "FAQ NIS: Settori Sottosettori E Tipologie Di Soggetto",
-      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
-      "last_check": "11/11/2026 18:29",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "faq_nis_aggiornamento_delle_informazioni",
-      "name": "FAQ NIS: Aggiornamento Delle Informazioni",
-      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
-      "last_check": "11/11/2026 18:29",
+      "id": "faq_nis_ambito",
+      "name": "FAQ NIS: Ambito",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
+      "last_check": "12/11/2026 00:38",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1670,7 +1694,7 @@
       "id": "faq_nis_categorizzazione",
       "name": "FAQ NIS: Categorizzazione",
       "url": "https://www.acn.gov.it/portale/faq/nis/categorizzazione",
-      "last_check": "11/11/2026 18:29",
+      "last_check": "12/11/2026 00:38",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1681,10 +1705,10 @@
       "is_minor": false
     },
     {
-      "id": "faq_nis_misure_di_sicurezza_e_notifica_di_incidenti",
-      "name": "FAQ NIS: Misure Di Sicurezza E Notifica Di Incidenti",
-      "url": "https://www.acn.gov.it/portale/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti",
-      "last_check": "11/11/2026 18:29",
+      "id": "faq_nis_registrazione",
+      "name": "FAQ NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/faq/nis/registrazione",
+      "last_check": "12/11/2026 00:38",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1695,10 +1719,10 @@
       "is_minor": false
     },
     {
-      "id": "faq_nis_ambito",
-      "name": "FAQ NIS: Ambito",
-      "url": "https://www.acn.gov.it/portale/faq/nis/ambito",
-      "last_check": "11/11/2026 18:29",
+      "id": "faq_nis_aggiornamento_delle_informazioni",
+      "name": "FAQ NIS: Aggiornamento Delle Informazioni",
+      "url": "https://www.acn.gov.it/portale/faq/nis/aggiornamento-delle-informazioni",
+      "last_check": "12/11/2026 00:38",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1709,10 +1733,10 @@
       "is_minor": false
     },
     {
-      "id": "faq_nis_ruoli_e_procedure",
-      "name": "FAQ NIS: Ruoli E Procedure",
-      "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
-      "last_check": "11/11/2026 18:29",
+      "id": "faq_nis_settori_sottosettori_e_tipologie_di_soggetto",
+      "name": "FAQ NIS: Settori Sottosettori E Tipologie Di Soggetto",
+      "url": "https://www.acn.gov.it/portale/faq/nis/settori-sottosettori-e-tipologie-di-soggetto",
+      "last_check": "12/11/2026 00:38",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1726,7 +1750,7 @@
       "id": "faq_nis_monitoraggio_vigilanza_esecuzione",
       "name": "FAQ NIS: Monitoraggio Vigilanza Esecuzione",
       "url": "https://www.acn.gov.it/portale/faq/nis/monitoraggio-vigilanza-esecuzione",
-      "last_check": "11/11/2026 18:29",
+      "last_check": "12/11/2026 00:38",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1737,10 +1761,10 @@
       "is_minor": false
     },
     {
-      "id": "nis_registrazione",
-      "name": "NIS: Registrazione",
-      "url": "https://www.acn.gov.it/portale/nis/registrazione",
-      "last_check": "11/11/2026 18:29",
+      "id": "faq_nis_ruoli_e_procedure",
+      "name": "FAQ NIS: Ruoli E Procedure",
+      "url": "https://www.acn.gov.it/portale/faq/nis/ruoli-e-procedure",
+      "last_check": "12/11/2026 00:38",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1751,118 +1775,10 @@
       "is_minor": false
     },
     {
-      "id": "nis_aggiornamento_informazioni",
-      "name": "NIS: Aggiornamento Informazioni",
-      "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
-      "last_check": "11/11/2026 18:29",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "nis_obblighi",
-      "name": "NIS: Obblighi",
-      "url": "https://www.acn.gov.it/portale/nis/obblighi",
-      "last_check": "11/11/2026 18:29",
-      "status": "Nessuna modifica",
-      "has_changes": false,
-      "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
-      "atti_list": [],
-      "is_minor": false
-    },
-    {
-      "id": "nis_notizie_ed_eventi",
-      "name": "NIS: Notizie Ed Eventi",
-      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
-      "last_check": "11/11/2026 18:29",
-      "status": "Modificato (Recente)",
-      "has_changes": true,
-      "has_history": true,
-      "summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\".",
-      "additions": [
-        "News -",
-        "28 Ottobre 2026",
-        "ACN e Assolombarda insieme per la resilienza delle aziende",
-        "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese",
-        "Normativa NIS",
-        "NIS",
-        "Cybersicurezza",
-        "ACN",
-        "Cybersecurity"
-      ],
-      "removals": [
-        "News -",
-        "15 Gennaio 2025",
-        "Normativa NIS: date e informazioni utili per un\u2019implementazione efficace",
-        "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN",
-        "Normativa NIS",
-        "NIS"
-      ],
-      "atti_list": [],
-      "last_change_date": "28/10/2026 15:14",
-      "diff_blocks": [
-        {
-          "type": "insert",
-          "context_pre": [
-            "Notizie ed eventi",
-            "Notizie ed eventi",
-            "Notizie"
-          ],
-          "before": [],
-          "after": [
-            "News -",
-            "28 Ottobre 2026",
-            "ACN e Assolombarda insieme per la resilienza delle aziende",
-            "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese",
-            "Normativa NIS",
-            "NIS",
-            "Cybersicurezza",
-            "ACN",
-            "Cybersecurity"
-          ],
-          "context_post": [
-            "News -",
-            "18 Settembre 2026",
-            "Le novit\u00e0 per i soggetti NIS"
-          ]
-        },
-        {
-          "type": "delete",
-          "context_pre": [
-            "Tra i temi affrontati, il percorso di registrazione che scade il 28 febbraio e le sanzioni se non viene effettuato",
-            "Normativa NIS",
-            "NIS"
-          ],
-          "before": [
-            "News -",
-            "15 Gennaio 2025",
-            "Normativa NIS: date e informazioni utili per un\u2019implementazione efficace",
-            "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN",
-            "Normativa NIS",
-            "NIS"
-          ],
-          "after": [],
-          "context_post": [
-            "Nascosta"
-          ]
-        }
-      ],
-      "is_minor": false,
-      "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\"."
-    },
-    {
-      "id": "nis_modalita_specifiche_base",
-      "name": "NIS: Modalita Specifiche Base",
-      "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
-      "last_check": "11/11/2026 18:30",
+      "id": "faq_nis_profili_generali",
+      "name": "FAQ NIS: Profili Generali",
+      "url": "https://www.acn.gov.it/portale/faq/nis/profili-generali",
+      "last_check": "12/11/2026 00:38",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1876,7 +1792,7 @@
       "id": "nis_faq",
       "name": "NIS: Faq",
       "url": "https://www.acn.gov.it/portale/nis/faq",
-      "last_check": "11/11/2026 18:30",
+      "last_check": "12/11/2026 00:38",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -1890,13 +1806,17 @@
       "id": "nis_la_normativa",
       "name": "NIS: La Normativa",
       "url": "https://www.acn.gov.it/portale/nis/la-normativa",
-      "last_check": "11/11/2026 18:30",
-      "status": "Nessuna modifica",
-      "has_changes": false,
+      "last_check": "12/11/2026 00:38",
+      "status": "Modificato",
+      "has_changes": true,
       "has_history": true,
-      "summary": "",
-      "additions": [],
-      "removals": [],
+      "summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle c...\".",
+      "additions": [
+        "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
+      ],
+      "removals": [
+        "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni i materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
+      ],
       "atti_list": [],
       "scadenze": [
         {
@@ -2366,13 +2286,36 @@
           "month": ""
         }
       ],
-      "is_minor": false
+      "is_minor": false,
+      "diff_blocks": [
+        {
+          "type": "replace",
+          "context_pre": [
+            "Condivisione",
+            "Viene assicurata una pi\u00f9 ampia condivisione a livello europeo, con l\u2019estensione dei compiti del Gruppo di Cooperazione NIS e l\u2019introduzione della revisione tra pari e della mutua assistenza tra Autorit\u00e0 nazionali competenti degli Stati membri.",
+            "Risposta agli incidenti e gestione delle crisi"
+          ],
+          "before": [
+            "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni i materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
+          ],
+          "after": [
+            "Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle crisi informatiche, con la definizione del relativo piano e l'istituzionalizzazione della EU Cyber Crises Liaison Organisation Network (EU-CyCLONe) per la gestione coordinata transfrontaliera a livello operativo delle crisi di cybersicurezza su vasta scala."
+          ],
+          "context_post": [
+            "Il nuovo assetto normativo NIS prevede:",
+            "Ambito",
+            "L\u2019indicazione dell'ambito di applicazione e dei  soggetti a cui si applica il decreto (articoli 3 e 6)."
+          ]
+        }
+      ],
+      "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Il nuovo impianto amplia le funzioni del CSIRT Italia e introduce previsioni in materia di gestione delle c...\".",
+      "last_change_date": "12/11/2026 00:39"
     },
     {
-      "id": "nis_ambito",
-      "name": "NIS: Ambito",
-      "url": "https://www.acn.gov.it/portale/nis/ambito",
-      "last_check": "11/11/2026 18:30",
+      "id": "nis_obblighi",
+      "name": "NIS: Obblighi",
+      "url": "https://www.acn.gov.it/portale/nis/obblighi",
+      "last_check": "12/11/2026 00:39",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": true,
@@ -2383,10 +2326,146 @@
       "is_minor": false
     },
     {
-      "id": "pdf_39f9f139a9",
-      "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
-      "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
-      "last_check": "11/11/2026 18:30",
+      "id": "nis_ambito",
+      "name": "NIS: Ambito",
+      "url": "https://www.acn.gov.it/portale/nis/ambito",
+      "last_check": "12/11/2026 00:39",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "nis_notizie_ed_eventi",
+      "name": "NIS: Notizie Ed Eventi",
+      "url": "https://www.acn.gov.it/portale/nis/notizie-ed-eventi",
+      "last_check": "12/11/2026 00:39",
+      "status": "Modificato (Recente)",
+      "has_changes": true,
+      "has_history": true,
+      "summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\".",
+      "additions": [
+        "News -",
+        "28 Ottobre 2026",
+        "ACN e Assolombarda insieme per la resilienza delle aziende",
+        "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese",
+        "Normativa NIS",
+        "NIS",
+        "Cybersicurezza",
+        "ACN",
+        "Cybersecurity"
+      ],
+      "removals": [
+        "News -",
+        "15 Gennaio 2025",
+        "Normativa NIS: date e informazioni utili per un\u2019implementazione efficace",
+        "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN",
+        "Normativa NIS",
+        "NIS"
+      ],
+      "atti_list": [],
+      "last_change_date": "28/10/2026 15:14",
+      "diff_blocks": [
+        {
+          "type": "insert",
+          "context_pre": [
+            "Notizie ed eventi",
+            "Notizie ed eventi",
+            "Notizie"
+          ],
+          "before": [],
+          "after": [
+            "News -",
+            "28 Ottobre 2026",
+            "ACN e Assolombarda insieme per la resilienza delle aziende",
+            "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese",
+            "Normativa NIS",
+            "NIS",
+            "Cybersicurezza",
+            "ACN",
+            "Cybersecurity"
+          ],
+          "context_post": [
+            "News -",
+            "18 Settembre 2026",
+            "Le novit\u00e0 per i soggetti NIS"
+          ]
+        },
+        {
+          "type": "delete",
+          "context_pre": [
+            "Tra i temi affrontati, il percorso di registrazione che scade il 28 febbraio e le sanzioni se non viene effettuato",
+            "Normativa NIS",
+            "NIS"
+          ],
+          "before": [
+            "News -",
+            "15 Gennaio 2025",
+            "Normativa NIS: date e informazioni utili per un\u2019implementazione efficace",
+            "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN",
+            "Normativa NIS",
+            "NIS"
+          ],
+          "after": [],
+          "context_post": [
+            "Nascosta"
+          ]
+        }
+      ],
+      "is_minor": false,
+      "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\"."
+    },
+    {
+      "id": "nis_aggiornamento_informazioni",
+      "name": "NIS: Aggiornamento Informazioni",
+      "url": "https://www.acn.gov.it/portale/nis/aggiornamento-informazioni",
+      "last_check": "12/11/2026 00:39",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "nis_registrazione",
+      "name": "NIS: Registrazione",
+      "url": "https://www.acn.gov.it/portale/nis/registrazione",
+      "last_check": "12/11/2026 00:39",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "nis_modalita_specifiche_base",
+      "name": "NIS: Modalita Specifiche Base",
+      "url": "https://www.acn.gov.it/portale/nis/modalita-specifiche-base",
+      "last_check": "12/11/2026 00:39",
+      "status": "Nessuna modifica",
+      "has_changes": false,
+      "has_history": true,
+      "summary": "",
+      "additions": [],
+      "removals": [],
+      "atti_list": [],
+      "is_minor": false
+    },
+    {
+      "id": "pdf_80b8113e88",
+      "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2024.pdf",
+      "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2024.pdf",
+      "last_check": "12/11/2026 00:39",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -2400,7 +2479,7 @@
       "id": "pdf_403942e3c6",
       "name": "\ud83d\udcc4 PDF: RegolamentoCloud.pdf",
       "url": "https://www.acn.gov.it/portale/documents/20119/111690/RegolamentoCloud.pdf",
-      "last_check": "11/11/2026 18:30",
+      "last_check": "12/11/2026 00:39",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,
@@ -2411,10 +2490,10 @@
       "is_minor": false
     },
     {
-      "id": "pdf_80b8113e88",
-      "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2024.pdf",
-      "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2024.pdf",
-      "last_check": "11/11/2026 18:30",
+      "id": "pdf_39f9f139a9",
+      "name": "\ud83d\udcc4 PDF: ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
+      "url": "https://www.istat.it/wp-content/uploads/2022/10/ISTAT_lista_AAPP_30settembre2025_def_2.pdf",
+      "last_check": "12/11/2026 00:39",
       "status": "Nessuna modifica",
       "has_changes": false,
       "has_history": false,

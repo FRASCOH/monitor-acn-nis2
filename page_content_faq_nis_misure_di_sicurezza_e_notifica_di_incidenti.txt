@@ -142,9 +142,11 @@ Come indicato nella FAQ MSB.17, l’applicazione dei requisiti di sicurezza deve
 Incidenti significativi di base
 ISB.G.1 Quali incidenti devono essere notificati allo CSIRT Italia?
 Ai sensi del decreto NIS, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono considerati significativi. Al fine di semplificare tale valutazione e fornire dei parametri oggettivi, l’Autorità nazionale competente NIS ha definito quattro fattispecie (tre per tutti i soggetti e una ulteriore per i soli soggetti essenziali) che, ove si verifichino, sono considerate incidenti significativi.
-Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, così come definite nell’allegato 3[CB2.1], per i soggetti importanti, e nell’allegato 4[CB3.1], per i soggetti essenziali, v
-/portale/documents/d/guest/allegato-3-v2
-.
+Pertanto, i soggetti NIS sono tenuti a notificare allo CSIRT Italia gli incidenti che sono riconducibili alle citate fattispecie, così come definite nell’
+allegato 3
+, per i soggetti importanti, e nell’
+allegato 4
+, per i soggetti essenziali.
 Infine, rimane sempre ferma la possibilità per i soggetti NIS di notificare, su base volontaria, incidenti non significativi, quasi-incidenti e minacce informatiche.
 ISB.G.2 La causa degli incidenti è rilevante per determinare se si tratta di un incidente significativo da notificare allo CSIRT Italia?
 La causa dell’incidente non è rilevante per determinare se si tratta di un incidente significativo o meno.
