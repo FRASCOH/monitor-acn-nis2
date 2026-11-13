@@ -1,14 +1,75 @@
 {
-  "hash": "9efe3092c70e2c14f4d4993c908d114b258de481d14dbb0ad131146d5eb8882a",
-  "last_check": "2026-11-13T08:57:34.183215+01:00",
-  "last_change_date": "2026-07-13T12:58:42.280624+02:00",
+  "hash": "6c1d10a76848052394c3cefe1f63904681a95f4a9565caa7e61037497d92eec0",
+  "last_check": "2026-11-13T16:53:59.836571+01:00",
+  "last_change_date": "2026-11-13T16:53:59.836405+01:00",
   "last_additions": [
-    "Scaduto"
+    "Avviso",
+    "In corso",
+    "Avviso per l\u2019accesso alle risorse di calcolo di Megaride \u2013 Classe C (attivit\u00e0 di sviluppo e training)",
+    "Data apertura",
+    "13/11/26 ore 15:00",
+    "Data chiusura",
+    "04/12/26 ore 23:59"
   ],
   "last_removals": [
-    "In corso"
+    "Avviso",
+    "Scaduto",
+    "Invito a manifestare interesse - finanziamento borse di dottorato di ricerca sulla cybersicurezza per il XL ciclo",
+    "Data apertura",
+    "15/02/24 ore 17:00",
+    "Data chiusura",
+    "18/03/24 ore 18:00",
+    "Ricerca"
   ],
-  "ai_summary": "",
+  "ai_summary": "Pubblicato nuovo avviso: \"Avviso per l\u2019accesso alle risorse di calcolo di Megaride \u2013 Classe C (attivit\u00e0 di sviluppo e training)\".",
   "is_minor": false,
-  "diff_blocks": []
+  "diff_blocks": [
+    {
+      "type": "insert",
+      "context_pre": [
+        "Strategia Nazionale",
+        "Ricerca avanzata",
+        "Cerca"
+      ],
+      "before": [],
+      "after": [
+        "Avviso",
+        "In corso",
+        "Avviso per l\u2019accesso alle risorse di calcolo di Megaride \u2013 Classe C (attivit\u00e0 di sviluppo e training)",
+        "Data apertura",
+        "13/11/26 ore 15:00",
+        "Data chiusura",
+        "04/12/26 ore 23:59"
+      ],
+      "context_post": [
+        "Avviso",
+        "In corso",
+        "Attivazione dei tirocini curriculari presso l'Agenzia per la cybersicurezza nazionale"
+      ]
+    },
+    {
+      "type": "delete",
+      "context_pre": [
+        "Data chiusura",
+        "12/04/24 ore 18:00",
+        "PNRR"
+      ],
+      "before": [
+        "Avviso",
+        "Scaduto",
+        "Invito a manifestare interesse - finanziamento borse di dottorato di ricerca sulla cybersicurezza per il XL ciclo",
+        "Data apertura",
+        "15/02/24 ore 17:00",
+        "Data chiusura",
+        "18/03/24 ore 18:00",
+        "Ricerca"
+      ],
+      "after": [],
+      "context_post": [
+        "Prima pagina",
+        "Pagina precedente",
+        "Pagina"
+      ]
+    }
+  ]
 }

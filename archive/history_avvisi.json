@@ -1,90 +1,76 @@
 [
   {
-    "timestamp": "2026-07-13T12:58:42.280322+02:00",
-    "date_formatted": "13/07/2026 12:58",
-    "additions": [
-      "Scaduto"
-    ],
-    "removals": [
-      "In corso"
-    ]
-  },
-  {
-    "timestamp": "2026-07-08T09:02:31.560020+02:00",
-    "date_formatted": "08/07/2026 09:02",
-    "additions": [
-      "Scaduto"
-    ],
-    "removals": [
-      "In corso"
-    ]
-  },
-  {
-    "timestamp": "2026-07-02T10:34:45.328239+02:00",
-    "date_formatted": "02/07/2026 10:34",
-    "additions": [
-      "30/09/26 ore 14:00"
-    ],
-    "removals": [
-      "30/09/26 ore 18:00"
-    ]
-  },
-  {
-    "timestamp": "2026-07-01T19:49:10.679485+02:00",
-    "date_formatted": "01/07/2026 19:49",
+    "timestamp": "2026-11-13T16:53:59.836103+01:00",
+    "date_formatted": "13/11/2026 16:53",
     "additions": [
       "Avviso",
       "In corso",
-      "Attivazione dei tirocini curriculari presso l'Agenzia per la cybersicurezza nazionale",
+      "Avviso per l\u2019accesso alle risorse di calcolo di Megaride \u2013 Classe C (attivit\u00e0 di sviluppo e training)",
       "Data apertura",
-      "01/07/26 ore 18:00",
+      "13/11/26 ore 15:00",
       "Data chiusura",
-      "30/09/26 ore 18:00"
+      "04/12/26 ore 23:59"
     ],
     "removals": [
       "Avviso",
       "Scaduto",
-      "Strategia Nazionale di Cybersicurezza 2022-26 - Rilevazione degli interventi",
+      "Invito a manifestare interesse - finanziamento borse di dottorato di ricerca sulla cybersicurezza per il XL ciclo",
       "Data apertura",
-      "01/01/24 ore 09:00",
+      "15/02/24 ore 17:00",
       "Data chiusura",
-      "15/02/24 ore 18:00",
-      "Strategia Nazionale"
-    ]
-  },
-  {
-    "timestamp": "2026-06-22T15:11:23.523585+02:00",
-    "date_formatted": "22/06/2026 15:11",
-    "additions": [
-      "12/05/26 ore 18:00"
+      "18/03/24 ore 18:00",
+      "Ricerca"
     ],
-    "removals": [
-      "05/05/26 ore 10:00"
-    ]
-  },
-  {
-    "timestamp": "2026-06-11T13:02:16.881042+02:00",
-    "date_formatted": "11/06/2026 13:02",
-    "additions": [
-      "Avviso",
-      "In corso",
-      "Call per il programma Cybersecurity Fast Track di Plug and Play",
-      "Data apertura",
-      "29/05/26 ore 10:00",
-      "Data chiusura",
-      "14/06/26 ore 23:59",
-      "Cyber Innovation Network"
-    ],
-    "removals": [
-      "Avviso",
-      "7/2023",
-      "Scaduto",
-      "Interventi di potenziamento della resilienza cyber - PA Centrale",
-      "Data apertura",
-      "11/10/23 ore 09:00",
-      "Data chiusura",
-      "05/12/23 ore 18:00",
-      "PNRR"
+    "is_minor": false,
+    "ai_summary": "Pubblicato nuovo avviso: \"Avviso per l\u2019accesso alle risorse di calcolo di Megaride \u2013 Classe C (attivit\u00e0 di sviluppo e training)\".",
+    "diff_blocks": [
+      {
+        "type": "insert",
+        "context_pre": [
+          "Strategia Nazionale",
+          "Ricerca avanzata",
+          "Cerca"
+        ],
+        "before": [],
+        "after": [
+          "Avviso",
+          "In corso",
+          "Avviso per l\u2019accesso alle risorse di calcolo di Megaride \u2013 Classe C (attivit\u00e0 di sviluppo e training)",
+          "Data apertura",
+          "13/11/26 ore 15:00",
+          "Data chiusura",
+          "04/12/26 ore 23:59"
+        ],
+        "context_post": [
+          "Avviso",
+          "In corso",
+          "Attivazione dei tirocini curriculari presso l'Agenzia per la cybersicurezza nazionale"
+        ]
+      },
+      {
+        "type": "delete",
+        "context_pre": [
+          "Data chiusura",
+          "12/04/24 ore 18:00",
+          "PNRR"
+        ],
+        "before": [
+          "Avviso",
+          "Scaduto",
+          "Invito a manifestare interesse - finanziamento borse di dottorato di ricerca sulla cybersicurezza per il XL ciclo",
+          "Data apertura",
+          "15/02/24 ore 17:00",
+          "Data chiusura",
+          "18/03/24 ore 18:00",
+          "Ricerca"
+        ],
+        "after": [],
+        "context_post": [
+          "Prima pagina",
+          "Pagina precedente",
+          "Pagina"
+        ]
+      }
     ]
   }
 ]
