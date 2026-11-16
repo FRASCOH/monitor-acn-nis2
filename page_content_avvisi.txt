@@ -28,7 +28,7 @@ Data apertura
 Data chiusura
 04/12/26 ore 23:59
 Avviso
-In corso
+Scaduto
 Attivazione dei tirocini curriculari presso l'Agenzia per la cybersicurezza nazionale
 Data apertura
 01/07/26 ore 18:00
@@ -43,7 +43,7 @@ Data chiusura
 14/06/26 ore 23:59
 Cyber Innovation Network
 Avviso
-In corso
+Scaduto
 Avviso di selezione per l’assegnazione di premi di laurea nel settore della cybersicurezza - Prima edizione
 Data apertura
 12/05/26 ore 18:00
@@ -97,7 +97,7 @@ Data chiusura
 30/11/25 ore 23:59
 Cyber Innovation Network
 Avviso
-In corso
+Scaduto
 Regolamento per lo svolgimento dei tirocini curriculari presso l’Agenzia per la cybersicurezza nazionale
 Data apertura
 04/08/25 ore 17:00

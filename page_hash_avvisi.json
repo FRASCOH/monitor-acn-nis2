@@ -1,74 +1,75 @@
 {
-  "hash": "6c1d10a76848052394c3cefe1f63904681a95f4a9565caa7e61037497d92eec0",
-  "last_check": "2026-11-16T08:56:06.990338+01:00",
-  "last_change_date": "2026-11-13T16:53:59.836405+01:00",
+  "hash": "5a49d92e6dac6f079e290b7d9feaa22074c41efcaac410fcd26a1bac2fea9fab",
+  "last_check": "2026-11-16T18:44:26.910429+01:00",
+  "last_change_date": "2026-11-16T18:44:26.910280+01:00",
   "last_additions": [
-    "Avviso",
-    "In corso",
-    "Avviso per l\u2019accesso alle risorse di calcolo di Megaride \u2013 Classe C (attivit\u00e0 di sviluppo e training)",
-    "Data apertura",
-    "13/11/26 ore 15:00",
-    "Data chiusura",
-    "04/12/26 ore 23:59"
+    "Scaduto",
+    "Scaduto",
+    "Scaduto"
   ],
   "last_removals": [
-    "Avviso",
-    "Scaduto",
-    "Invito a manifestare interesse - finanziamento borse di dottorato di ricerca sulla cybersicurezza per il XL ciclo",
-    "Data apertura",
-    "15/02/24 ore 17:00",
-    "Data chiusura",
-    "18/03/24 ore 18:00",
-    "Ricerca"
+    "In corso",
+    "In corso",
+    "In corso"
   ],
-  "ai_summary": "Pubblicato nuovo avviso: \"Avviso per l\u2019accesso alle risorse di calcolo di Megaride \u2013 Classe C (attivit\u00e0 di sviluppo e training)\".",
+  "ai_summary": "Aggiornati i contenuti informativi della sezione Avvisi ACN (aggiunto: 'Scaduto').",
   "is_minor": false,
   "diff_blocks": [
     {
-      "type": "insert",
+      "type": "replace",
       "context_pre": [
-        "Strategia Nazionale",
-        "Ricerca avanzata",
-        "Cerca"
-      ],
-      "before": [],
-      "after": [
-        "Avviso",
-        "In corso",
-        "Avviso per l\u2019accesso alle risorse di calcolo di Megaride \u2013 Classe C (attivit\u00e0 di sviluppo e training)",
-        "Data apertura",
-        "13/11/26 ore 15:00",
         "Data chiusura",
-        "04/12/26 ore 23:59"
+        "04/12/26 ore 23:59",
+        "Avviso"
+      ],
+      "before": [
+        "In corso"
+      ],
+      "after": [
+        "Scaduto"
       ],
       "context_post": [
-        "Avviso",
-        "In corso",
-        "Attivazione dei tirocini curriculari presso l'Agenzia per la cybersicurezza nazionale"
+        "Attivazione dei tirocini curriculari presso l'Agenzia per la cybersicurezza nazionale",
+        "Data apertura",
+        "01/07/26 ore 18:00"
       ]
     },
     {
-      "type": "delete",
+      "type": "replace",
       "context_pre": [
-        "Data chiusura",
-        "12/04/24 ore 18:00",
-        "PNRR"
+        "14/06/26 ore 23:59",
+        "Cyber Innovation Network",
+        "Avviso"
       ],
       "before": [
-        "Avviso",
-        "Scaduto",
-        "Invito a manifestare interesse - finanziamento borse di dottorato di ricerca sulla cybersicurezza per il XL ciclo",
-        "Data apertura",
-        "15/02/24 ore 17:00",
-        "Data chiusura",
-        "18/03/24 ore 18:00",
-        "Ricerca"
+        "In corso"
       ],
-      "after": [],
+      "after": [
+        "Scaduto"
+      ],
       "context_post": [
-        "Prima pagina",
-        "Pagina precedente",
-        "Pagina"
+        "Avviso di selezione per l\u2019assegnazione di premi di laurea nel settore della cybersicurezza - Prima edizione",
+        "Data apertura",
+        "12/05/26 ore 18:00"
+      ]
+    },
+    {
+      "type": "replace",
+      "context_pre": [
+        "30/11/25 ore 23:59",
+        "Cyber Innovation Network",
+        "Avviso"
+      ],
+      "before": [
+        "In corso"
+      ],
+      "after": [
+        "Scaduto"
+      ],
+      "context_post": [
+        "Regolamento per lo svolgimento dei tirocini curriculari presso l\u2019Agenzia per la cybersicurezza nazionale",
+        "Data apertura",
+        "04/08/25 ore 17:00"
       ]
     }
   ]

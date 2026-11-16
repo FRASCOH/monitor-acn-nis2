@@ -1,5 +1,80 @@
 [
   {
+    "timestamp": "2026-11-16T18:44:26.909906+01:00",
+    "date_formatted": "16/11/2026 18:44",
+    "additions": [
+      "Scaduto",
+      "Scaduto",
+      "Scaduto"
+    ],
+    "removals": [
+      "In corso",
+      "In corso",
+      "In corso"
+    ],
+    "is_minor": false,
+    "ai_summary": "Aggiornati i contenuti informativi della sezione Avvisi ACN (aggiunto: 'Scaduto').",
+    "diff_blocks": [
+      {
+        "type": "replace",
+        "context_pre": [
+          "Data chiusura",
+          "04/12/26 ore 23:59",
+          "Avviso"
+        ],
+        "before": [
+          "In corso"
+        ],
+        "after": [
+          "Scaduto"
+        ],
+        "context_post": [
+          "Attivazione dei tirocini curriculari presso l'Agenzia per la cybersicurezza nazionale",
+          "Data apertura",
+          "01/07/26 ore 18:00"
+        ]
+      },
+      {
+        "type": "replace",
+        "context_pre": [
+          "14/06/26 ore 23:59",
+          "Cyber Innovation Network",
+          "Avviso"
+        ],
+        "before": [
+          "In corso"
+        ],
+        "after": [
+          "Scaduto"
+        ],
+        "context_post": [
+          "Avviso di selezione per l\u2019assegnazione di premi di laurea nel settore della cybersicurezza - Prima edizione",
+          "Data apertura",
+          "12/05/26 ore 18:00"
+        ]
+      },
+      {
+        "type": "replace",
+        "context_pre": [
+          "30/11/25 ore 23:59",
+          "Cyber Innovation Network",
+          "Avviso"
+        ],
+        "before": [
+          "In corso"
+        ],
+        "after": [
+          "Scaduto"
+        ],
+        "context_post": [
+          "Regolamento per lo svolgimento dei tirocini curriculari presso l\u2019Agenzia per la cybersicurezza nazionale",
+          "Data apertura",
+          "04/08/25 ore 17:00"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-11-13T16:53:59.836103+01:00",
     "date_formatted": "13/11/2026 16:53",
     "additions": [
