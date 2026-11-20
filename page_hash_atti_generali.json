@@ -1,36 +1,16 @@
 {
-  "hash": "fcb41b093b1f78683de2a7955594b214b5d48663128187f1bc819d6149f83d38",
-  "last_check": "2026-11-20T03:38:28.955885+01:00",
-  "last_change_date": "2026-11-11T10:53:07.863014+01:00",
+  "hash": "0f087d0ace6b58aeba8627569302e8eff96d04889f29cc0b6d1a7b1201761c8e",
+  "last_check": "2026-11-20T11:27:00.411211+01:00",
+  "last_change_date": "2026-11-20T11:27:00.411074+01:00",
   "last_additions": [
-    "Decreto legislativo 7 ottobre 2026, n. 179",
-    ",  \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di poteri delle Autorit\u00e0 nazionali e di utilizzo dell'intelligenza artificiale nella formazione\u201d",
-    "11 Novembre 2026"
+    "20 Novembre 2026"
   ],
   "last_removals": [
-    "03 Novembre 2026"
+    "11 Novembre 2026"
   ],
-  "ai_summary": "Pubblicato nuovo decreto: \"Decreto legislativo 7 ottobre 2026, n. 179\".",
+  "ai_summary": "Aggiornati i contenuti informativi della sezione ACN Atti Generali (aggiunto: '20 Novembre 2026').",
   "is_minor": false,
   "diff_blocks": [
-    {
-      "type": "insert",
-      "context_pre": [
-        "\u201cRecepimento della direttiva (UE) 2022/2555, relativa a misure per un livello comune elevato di cibersicurezza nell'Unione, recante modifica del regolamento (UE) n. 910/2014 e della direttiva (UE) 2018/1972 e che abroga la direttiva (UE) 2016/1148\u201d (c.d. NIS 2)",
-        "Decreto legislativo 9 settembre 2026, n. 160",
-        ", \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di utilizzo dei sistemi di intelligenza artificiale per l'attivit\u00e0 di polizia e di responsabilit\u00e0 civile e penale\u201d."
-      ],
-      "before": [],
-      "after": [
-        "Decreto legislativo 7 ottobre 2026, n. 179",
-        ",  \u201cAdeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di poteri delle Autorit\u00e0 nazionali e di utilizzo dell'intelligenza artificiale nella formazione\u201d"
-      ],
-      "context_post": [
-        "Atti amministrativi generali",
-        "Nomina Comitato tecnico-scientifico di ACN",
-        "doc 1"
-      ]
-    },
     {
       "type": "replace",
       "context_pre": [
@@ -39,10 +19,10 @@
         "Data Ultimo Aggiornamento"
       ],
       "before": [
-        "03 Novembre 2026"
+        "11 Novembre 2026"
       ],
       "after": [
-        "11 Novembre 2026"
+        "20 Novembre 2026"
       ],
       "context_post": [
         "Nascosta"

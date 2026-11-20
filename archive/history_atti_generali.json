@@ -1,5 +1,36 @@
 [
   {
+    "timestamp": "2026-11-20T11:27:00.410652+01:00",
+    "date_formatted": "20/11/2026 11:27",
+    "additions": [
+      "20 Novembre 2026"
+    ],
+    "removals": [
+      "11 Novembre 2026"
+    ],
+    "is_minor": false,
+    "ai_summary": "Aggiornati i contenuti informativi della sezione ACN Atti Generali (aggiunto: '20 Novembre 2026').",
+    "diff_blocks": [
+      {
+        "type": "replace",
+        "context_pre": [
+          "Obiettivi strategici 2025",
+          "Obiettivi strategici 2026",
+          "Data Ultimo Aggiornamento"
+        ],
+        "before": [
+          "11 Novembre 2026"
+        ],
+        "after": [
+          "20 Novembre 2026"
+        ],
+        "context_post": [
+          "Nascosta"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-11-11T10:53:07.862434+01:00",
     "date_formatted": "11/11/2026 10:53",
     "additions": [

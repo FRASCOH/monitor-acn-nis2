@@ -141,6 +141,8 @@ Decreto legislativo 4 settembre 2024, n. 138
 “Recepimento della direttiva (UE) 2022/2555, relativa a misure per un livello comune elevato di cibersicurezza nell'Unione, recante modifica del regolamento (UE) n. 910/2014 e della direttiva (UE) 2018/1972 e che abroga la direttiva (UE) 2016/1148” (c.d. NIS 2)
 Decreto legislativo 9 settembre 2026, n. 160
 , “Adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di utilizzo dei sistemi di intelligenza artificiale per l'attività di polizia e di responsabilità civile e penale”.
+Decreto legislativo 7 ottobre 2026, n. 179
+,  “Adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2024/1689 del Parlamento europeo e del Consiglio, del 13 giugno 2024, che stabilisce regole armonizzate sull'intelligenza artificiale, in materia di poteri delle Autorità nazionali e di utilizzo dell'intelligenza artificiale nella formazione”
 Atti amministrativi generali
 Nomina Comitato tecnico-scientifico di ACN
 doc 1
@@ -331,5 +333,5 @@ Obiettivi strategici 2024
 Obiettivi strategici 2025
 Obiettivi strategici 2026
 Data Ultimo Aggiornamento
-03 Novembre 2026
+11 Novembre 2026
 Nascosta
