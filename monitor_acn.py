@@ -966,8 +966,7 @@ def send_telegram_notification(results_with_changes, ai_summary):
             details += f"• <i>...e altre {len(minor_results) - 8} pagine</i>\n"
         details += "\n"
         
-        dashboard_footer = "🌐 <a href=\"https://frascoh.github.io/monitor-acn-nis2/\">Visualizza dettagli sulla Dashboard Online</a>"
-        full_message = header + details + dashboard_footer
+        full_message = (header + details).rstrip()
         
         payload = {
             "chat_id": chat_id,
@@ -983,13 +982,7 @@ def send_telegram_notification(results_with_changes, ai_summary):
         
         header = f"🔔 <b>Cyber Monitor ACN & NIS2 — Novità Normative</b>\n"
         header += f"<i>Aggiornamento del {now_str}</i>\n\n"
-        header += f"Rilevate novità in <b>{count}</b> {res_str}.\n\n"
-        
-        if ai_summary:
-            header += f"📌 <b>Riepilogo Novità:</b>\n"
-            header += f"{to_telegram_html(ai_summary.strip())}\n\n"
-            
-        details = f"📋 <b>Dettaglio Aggiornamenti:</b>\n\n"
+        details = f"<b>Dettaglio Aggiornamenti:</b>\n"
         
         for i, r in enumerate(major_results):
             if len(header) + len(details) > 3500:
@@ -1010,7 +1003,7 @@ def send_telegram_notification(results_with_changes, ai_summary):
             item = f"{icon} <b>{name}</b>{link_str}\n"
             
             if page_summary:
-                item += f"  💡 <b>Cosa cambia:</b> <i>{to_telegram_html(page_summary)}</i>\n\n"
+                item += f"  ◦ <i>{to_telegram_html(page_summary)}</i>\n\n"
             else:
                 item += f"  <i>Stato: {to_telegram_html(status)}</i>\n\n"
                 
@@ -1019,8 +1012,7 @@ def send_telegram_notification(results_with_changes, ai_summary):
         if minor_results:
             details += f"ℹ️ <i>Rilevati anche aggiornamenti minori di layout in altre {len(minor_results)} sezioni.</i>\n\n"
             
-        dashboard_footer = "🌐 <a href=\"https://frascoh.github.io/monitor-acn-nis2/\">Apri la Dashboard Online</a>"
-        full_message = header + details + dashboard_footer
+        full_message = (header + details).rstrip()
         
         payload = {
             "chat_id": chat_id,
