@@ -1,5 +1,61 @@
 [
   {
+    "timestamp": "2026-11-26T20:53:01.669382+01:00",
+    "date_formatted": "26/11/2026 20:53",
+    "additions": [
+      "News -",
+      "24 Novembre 2026",
+      "ACN avvia un ciclo di incontri con i settori critici NIS"
+    ],
+    "removals": [
+      "News -",
+      "29 Gennaio 2025",
+      "NIS: riunito nella sede di ACN il tavolo per l\u2019attuazione"
+    ],
+    "is_minor": false,
+    "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN avvia un ciclo di incontri con i settori critici NIS\".",
+    "diff_blocks": [
+      {
+        "type": "insert",
+        "context_pre": [
+          "Notizie ed eventi",
+          "Per restare sempre aggiornati sugli eventi e le ultime notizie NIS consulta questa sezione",
+          "Scopri di pi\u00f9"
+        ],
+        "before": [],
+        "after": [
+          "News -",
+          "24 Novembre 2026",
+          "ACN avvia un ciclo di incontri con i settori critici NIS"
+        ],
+        "context_post": [
+          "News -",
+          "28 Ottobre 2026",
+          "ACN e Assolombarda insieme per la resilienza delle aziende"
+        ]
+      },
+      {
+        "type": "delete",
+        "context_pre": [
+          "News -",
+          "04 Febbraio 2025",
+          "Gli obblighi NIS in dirittura d'arrivo, ecco la prossima scadenza"
+        ],
+        "before": [
+          "News -",
+          "29 Gennaio 2025",
+          "NIS: riunito nella sede di ACN il tavolo per l\u2019attuazione"
+        ],
+        "after": [],
+        "context_post": [
+          "Domande frequenti",
+          "Consulta le domande frequenti sulla nuova direttiva NIS",
+          "Scopri di pi\u00f9"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-10-28T15:14:15.697761+01:00",
     "date_formatted": "28/10/2026 15:14",
     "additions": [

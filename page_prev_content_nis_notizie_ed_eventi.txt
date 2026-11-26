@@ -6,6 +6,15 @@ Notizie ed eventi
 Notizie ed eventi
 Notizie
 News -
+28 Ottobre 2026
+ACN e Assolombarda insieme per la resilienza delle aziende
+Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese
+Normativa NIS
+NIS
+Cybersicurezza
+ACN
+Cybersecurity
+News -
 18 Settembre 2026
 Le novità per i soggetti NIS
 Aggiornato l’elenco, si avvia la consultazione delle misure di sicurezza rafforzate
@@ -152,12 +161,6 @@ News -
 29 Gennaio 2025
 NIS: riunito nella sede di ACN il tavolo per l’attuazione
 Tra i temi affrontati, il percorso di registrazione che scade il 28 febbraio e le sanzioni se non viene effettuato
-Normativa NIS
-NIS
-News -
-15 Gennaio 2025
-Normativa NIS: date e informazioni utili per un’implementazione efficace
-Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN
 Normativa NIS
 NIS
 Nascosta

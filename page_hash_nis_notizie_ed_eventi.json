@@ -1,27 +1,28 @@
 {
-  "hash": "f3c1f5ddc0fe72045c79499c4b0cb111eadc6b302da220f1cf0351d6317585be",
-  "last_check": "2026-11-26T11:53:25.104961+01:00",
-  "last_change_date": "2026-10-28T15:14:36.725101+01:00",
+  "hash": "eeb5281db767cc01b9a4ebf4f2b0def8d5e2e54c5ddc2bb89af7a2ba189f90ef",
+  "last_check": "2026-11-26T20:53:42.897018+01:00",
+  "last_change_date": "2026-11-26T20:53:42.896924+01:00",
   "last_additions": [
     "News -",
-    "28 Ottobre 2026",
-    "ACN e Assolombarda insieme per la resilienza delle aziende",
-    "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese",
+    "24 Novembre 2026",
+    "ACN avvia un ciclo di incontri con i settori critici NIS",
+    "Dal settore alimentare a quello sanitario l\u2019Agenzia incontra istituzioni e operatori per sensibilizzare sul rischio cyber e raccomandare le pratiche di sicurezza essenziali",
     "Normativa NIS",
+    "CSIRT Italia",
     "NIS",
     "Cybersicurezza",
-    "ACN",
-    "Cybersecurity"
+    "Sanit\u00e0 Digitale",
+    "Operational summary"
   ],
   "last_removals": [
     "News -",
-    "15 Gennaio 2025",
-    "Normativa NIS: date e informazioni utili per un\u2019implementazione efficace",
-    "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN",
+    "29 Gennaio 2025",
+    "NIS: riunito nella sede di ACN il tavolo per l\u2019attuazione",
+    "Tra i temi affrontati, il percorso di registrazione che scade il 28 febbraio e le sanzioni se non viene effettuato",
     "Normativa NIS",
     "NIS"
   ],
-  "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN e Assolombarda insieme per la resilienza delle aziende\".",
+  "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"ACN avvia un ciclo di incontri con i settori critici NIS\".",
   "is_minor": false,
   "diff_blocks": [
     {
@@ -34,33 +35,34 @@
       "before": [],
       "after": [
         "News -",
-        "28 Ottobre 2026",
-        "ACN e Assolombarda insieme per la resilienza delle aziende",
-        "Nei territori di Milano, Monza e Brianza, Lodi e Pavia attacchi, incidenti e violazioni della privacy: CRA e NIS 2 al centro del confronto tra istituzioni e imprese",
+        "24 Novembre 2026",
+        "ACN avvia un ciclo di incontri con i settori critici NIS",
+        "Dal settore alimentare a quello sanitario l\u2019Agenzia incontra istituzioni e operatori per sensibilizzare sul rischio cyber e raccomandare le pratiche di sicurezza essenziali",
         "Normativa NIS",
+        "CSIRT Italia",
         "NIS",
         "Cybersicurezza",
-        "ACN",
-        "Cybersecurity"
+        "Sanit\u00e0 Digitale",
+        "Operational summary"
       ],
       "context_post": [
         "News -",
-        "18 Settembre 2026",
-        "Le novit\u00e0 per i soggetti NIS"
+        "28 Ottobre 2026",
+        "ACN e Assolombarda insieme per la resilienza delle aziende"
       ]
     },
     {
       "type": "delete",
       "context_pre": [
-        "Tra i temi affrontati, il percorso di registrazione che scade il 28 febbraio e le sanzioni se non viene effettuato",
         "Normativa NIS",
-        "NIS"
+        "NIS",
+        "ACN"
       ],
       "before": [
         "News -",
-        "15 Gennaio 2025",
-        "Normativa NIS: date e informazioni utili per un\u2019implementazione efficace",
-        "Le principali scadenze del 2025, tra cui la registrazione alla piattaforma ACN",
+        "29 Gennaio 2025",
+        "NIS: riunito nella sede di ACN il tavolo per l\u2019attuazione",
+        "Tra i temi affrontati, il percorso di registrazione che scade il 28 febbraio e le sanzioni se non viene effettuato",
         "Normativa NIS",
         "NIS"
       ],
