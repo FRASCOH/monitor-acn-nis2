@@ -73,6 +73,7 @@ Pagamenti dell'amministrazione
 Dati sui pagamenti
 Indicatore di tempestività dei pagamenti
 IBAN e pagamenti informatici
+Ammontare complessivo dei debiti
 Opere pubbliche
 Atti di programmazione delle opere pubbliche
 Tempi costi e indicatori di realizzazione delle opere pubbliche

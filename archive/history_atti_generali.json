@@ -1,5 +1,34 @@
 [
   {
+    "timestamp": "2026-11-27T20:55:20.278077+01:00",
+    "date_formatted": "27/11/2026 20:55",
+    "additions": [
+      "Ammontare complessivo dei debiti"
+    ],
+    "removals": [],
+    "is_minor": false,
+    "ai_summary": "Aggiornati i contenuti con novit\u00e0 relative a: \"Ammontare complessivo dei debiti\".",
+    "diff_blocks": [
+      {
+        "type": "insert",
+        "context_pre": [
+          "Dati sui pagamenti",
+          "Indicatore di tempestivit\u00e0 dei pagamenti",
+          "IBAN e pagamenti informatici"
+        ],
+        "before": [],
+        "after": [
+          "Ammontare complessivo dei debiti"
+        ],
+        "context_post": [
+          "Opere pubbliche",
+          "Atti di programmazione delle opere pubbliche",
+          "Tempi costi e indicatori di realizzazione delle opere pubbliche"
+        ]
+      }
+    ]
+  },
+  {
     "timestamp": "2026-11-20T11:27:00.410652+01:00",
     "date_formatted": "20/11/2026 11:27",
     "additions": [
